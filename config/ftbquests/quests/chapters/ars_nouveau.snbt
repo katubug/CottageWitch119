@@ -397,7 +397,10 @@
 				"To move forward, you'll want an &bEnchanting Apparatus&r, which requires an &bArcane Core&r beneath it, and &bPedestals&r surrounding it."
 				"You can either bury the Arcane Core and place everything on floor-level, or you can place the Core on floor level and raise the Pedestals up."
 			]
-			dependencies: ["1692491D59BA0527"]
+			dependencies: [
+				"1692491D59BA0527"
+				"1AEACEEBD42A4E1B"
+			]
 			id: "1300FBB6DF2AF01A"
 			tasks: [
 				{
@@ -1271,10 +1274,20 @@
 		{
 			x: -2.5d
 			y: 19.0d
+			description: [
+				"The &bAmethyst Golem&r can be summoned by using the &6Ritual of Awakening&r on some &bBudding Amethyst&r."
+				"&6Right click&r the shard on a block to summon the &eGolem&r, and then &6set its home block&r with your &bDominion Wand&r."
+				"&eAmethyst Golems&r will convert Amethyst into &bBudding Amethyst&r, speed up &aamethyst growth&r, and will also &aharvest amethyst clusters&r, so long as their home block is an inventory such as a chest or barrel."
+			]
 			dependencies: ["518A08681965283A"]
 			id: "01FF4033A5D2BCD3"
 			tasks: [{
 				id: "54AC3AEE86B82852"
+				type: "item"
+				item: "ars_nouveau:amethyst_golem_charm"
+			}]
+			rewards: [{
+				id: "0C29B53660B685C1"
 				type: "item"
 				item: "ars_nouveau:amethyst_golem_charm"
 			}]
@@ -1452,6 +1465,25 @@
 					table_id: 2716320750821748806L
 				}
 			]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			shape: "octagon"
+			description: ["Gift a &eWild Starbuncle&r a &bGold Nugget&r and see what happens!"]
+			id: "1AEACEEBD42A4E1B"
+			tasks: [{
+				id: "5CE951FAED55C40B"
+				type: "advancement"
+				icon: "minecraft:gold_nugget"
+				advancement: "ars_nouveau:poof_mob"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "59E05CDC96C5EAE7"
+				type: "item"
+				item: "ars_nouveau:starbuncle_shards"
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -1,0 +1,79 @@
+Mods to integrate:
+
+TODO: 
+- write descriptions for new Charm quests in Ars Nouveau
+- watch ars nouveau updated guide
+- controls
+- tooltips: food DONE, flowers DONE, plants DONE, light sources
+- twilight forest final boss quest needs editing
+- remove dead bush texturepack
+
+
+Alex's Mobs New Stuff
+Ars Elemental
+Ars Instrumentum
+Better Tridents
+Better Villages
+Biomes in Jars
+Overhauled Villages
+Caupona
+Collector's Reap
+Create Confectionary
+Create Slice and Dice
+Dave's Potioneering
+Deeper and Darker
+Delightful new stuff
+Effortless Building
+Explorer's Compass
+Extended Mushrooms
+Extreme Sound Muffler?
+FancyMenu redo
+Functional Storage (almost done)
+Gilded Netherite
+Handcrafted
+Heartstone
+Hexerei new stuff
+Hibernal Herbs
+Leap
+Loot Integrations
+Luggage (meet lightning luggage quest)
+Majrusz's Accessories
+" Enchantments
+More Axolotl Variants
+More Music Discs
+More Villagers
+Moyai
+Mystical Oak Tree
+Nether Depths Update
+Origins?
+Origins Classes?
+Pane in the Glass
+Quark Oddities
+Ring of Attraction
+Sculk Transporting?
+Sky Villages
+Soundtrack Discs
+Spelunkery
+Spice of life
+Starbuncle Mania
+Step
+Structory & Towers
+Swampier Swamps
+Tarot Cards?
+Underground Villages
+What Did You Vote For
+Woodworks
+
+x - minimap settings
+x Create Crystal Clear - made quest
+x Domestication Innovation Wayward Lantern
+x Starter Kit - created starter kit
+x Climb Ladders Faster (client) - added tooltip
+x Snad - added tooltip
+x Adaptive Performance Tweaks Player - added tooltip
+x Comforts - added quests
+x Contact - added quests
+x - import all config changes
+x - heart stone recipe rose quartz
+x - remove doors/fences(?) texturepack
+x Custom Villager Professions redo
