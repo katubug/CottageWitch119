@@ -1,0 +1,68 @@
+{
+	id: "7B63ED97CCD936C8"
+	order_index: 15
+	title: "Tomes"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			}
+		}
+	]
+}

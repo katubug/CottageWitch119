@@ -1,0 +1,12 @@
+{
+	id: "4CAFC1E4AA445442"
+	order_index: 13
+	title: "T3 Choice"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:nether_star" }
+		{ item: "quark:dragon_scale" }
+		{ item: "minecraft:dragon_egg" }
+		{ item: "minecraft:netherite_block" }
+	]
+}

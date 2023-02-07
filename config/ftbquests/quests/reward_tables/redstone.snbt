@@ -1,0 +1,15 @@
+{
+	id: "37071950A2B77FCE"
+	order_index: 9
+	title: "Redstone"
+	loot_size: 3
+	rewards: [
+		{ item: "minecraft:dropper", count: 2 }
+		{ item: "minecraft:observer", count: 2 }
+		{ item: "minecraft:dispenser", count: 2 }
+		{ item: "minecraft:repeater", count: 2 }
+		{ item: "minecraft:comparator", count: 2 }
+		{ item: "minecraft:piston", count: 2 }
+		{ item: "minecraft:sticky_piston", count: 2 }
+	]
+}

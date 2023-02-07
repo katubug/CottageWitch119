@@ -1,0 +1,7 @@
+
+["Target Custom Waypoint Set"]
+	#Should new waypoints be saved to a custom waypoint set? If false, new waypoints will be saved to the currently selected waypoint set.
+	targetCustomWaypointSet = false
+	#The custom waypoint set to save new waypoints to. Only takes effect if 'Target Custom Waypoint Set' is true.
+	customWaypointSet = "Waystones"
+

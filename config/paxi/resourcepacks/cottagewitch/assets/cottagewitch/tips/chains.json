@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "You can now connect Chains to Fences, as if it were a Lead. Right click the Chain on one fence post, and then right click it on a second one to connect them."
+    }
+  }

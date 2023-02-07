@@ -1,0 +1,47 @@
+{
+	id: "18248D5CF79E6090"
+	order_index: 0
+	title: "Music Disc Reward"
+	icon: "minecraft:jukebox"
+	loot_size: 2
+	rewards: [
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_13" }
+		{ item: "twilightforest:music_disc_steps" }
+		{ item: "twilightforest:music_disc_superstitious" }
+		{ item: "twilightforest:music_disc_home" }
+		{ item: "twilightforest:music_disc_wayfarer" }
+		{ item: "twilightforest:music_disc_findings" }
+		{ item: "twilightforest:music_disc_maker" }
+		{ item: "twilightforest:music_disc_thread" }
+		{ item: "twilightforest:music_disc_motion" }
+		{ item: "twilightforest:music_disc_radiance" }
+		{ item: "quark:music_disc_chatter" }
+		{ item: "quark:music_disc_crickets" }
+		{ item: "quark:music_disc_clock" }
+		{ item: "quark:music_disc_fire" }
+		{ item: "quark:music_disc_wind" }
+		{ item: "quark:music_disc_rain" }
+		{ item: "quark:music_disc_ocean" }
+		{ item: "quark:music_disc_drips" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_11" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_otherside" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "alexsmobs:music_disc_daze" }
+		{ item: "ecologics:music_disc_coconut" }
+		{ item: "quark:music_disc_endermosh" }
+		{ item: "idas:music_disc_slither" }
+		{ item: "idas:music_disc_calidum" }
+	]
+}

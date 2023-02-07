@@ -1,0 +1,15 @@
+#Does disenchanting require experience?
+requiresExperience = true
+#Should the disenchanter select the a random enchantment on the enchanted item instead of the first one?
+randomEnchantment = false
+#Should the enchanted item's anvil work cost be reset to zero when fully disenchanted?
+resetAnvilCost = true
+#Sliding multiplier for the experience cost. Default is 2.
+#Range: 1 ~ 10
+costSlider = 2
+#Should the enchanted item be damaged during the disenchanting process?
+damageItem = false
+#Percent of damage that should be done to the item on each disenchant.
+#Range: 1 ~ 100
+damagePercent = 5
+

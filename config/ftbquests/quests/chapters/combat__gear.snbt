@@ -1,0 +1,1422 @@
+{
+	id: "7945F0FF12C496EA"
+	group: "346046A71D537172"
+	order_index: 3
+	filename: "combat__gear"
+	title: "Combat \\& Gear"
+	icon: {
+		id: "minecraft:diamond_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Gild Your Netherite Gear"
+			x: -5.0d
+			y: -6.0d
+			shape: "pentagon"
+			subtitle: "Gild your loins! Or head, or chest, or..."
+			description: [
+				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
+				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
+			]
+			dependencies: ["0AF3D2A62E51E5B2"]
+			id: "33EAE02ACC6CCA8B"
+			tasks: [{
+				id: "707B2395A702D2A3"
+				type: "item"
+				title: "Any #gildednetherite:gilded_netherite_ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "gildednetherite:gilded_netherite_ingot"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F4FDA3469ADB8AC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 3
+				}
+				{
+					id: "23A8673E6A1C933B"
+					type: "loot"
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "6052CF2F9F1A30E9"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+			]
+		}
+		{
+			title: "Obtain a Pickarang"
+			x: -0.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Seriously this is like the coolest item in the game"
+			description: [
+				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
+				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
+				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
+			]
+			id: "5055BAE47F0F00DC"
+			tasks: [{
+				id: "0A710AE6C4500B69"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "240072CBB31D21BD"
+				type: "random"
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "The scale of the universe"
+			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
+			id: "6C4B68A0370C245B"
+			tasks: [{
+				id: "7699FD548E88FFFB"
+				type: "item"
+				item: "quark:dragon_scale"
+			}]
+			rewards: [
+				{
+					id: "6939729DA29BDE5B"
+					type: "loot"
+					table_id: 5161092699925703455L
+				}
+				{
+					id: "10895B3655E7A5A6"
+					type: "loot"
+					table_id: 5161092699925703455L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "The downside is killing Cindershells"
+			description: [
+				"Made from fallen &eCindershells&r, a passive mob in the Nether, this sword has a strong affinity for &bLava&r!"
+				"&6Right click the blade on Lava&r to recharge it, providing it with a damage boost and the Flame effect!"
+			]
+			id: "492E8ECEC74A1C20"
+			tasks: [{
+				id: "7FAF8811A0C6D269"
+				type: "item"
+				item: {
+					id: "cnb:cinder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6607DDAF6AC18B8F"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
+			id: "5A6FD28226BB8695"
+			tasks: [{
+				id: "79BBFB3B5982AF81"
+				type: "item"
+				item: {
+					id: "cnb:flower_crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2345F67B03B4695B"
+				type: "random"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Mushie mushie backpack"
+			description: [
+				"Have you met the &eSporelings&r? Did you know you can befriend them and carry them around on your back?"
+				"Well, you can!"
+			]
+			id: "21228990B5312533"
+			tasks: [{
+				id: "5A0DBA87C51893B5"
+				type: "item"
+				item: {
+					id: "cnb:sporeling_backpack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "29BC69F0100A42F5"
+				type: "item"
+				item: "cnb:sporeling_overworld_egg"
+			}]
+		}
+		{
+			title: "Lizard Net"
+			x: -1.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "You could also use a mob catcher, but where's the fun in that?"
+			description: ["You can use a &bNet&r to catch &eLizards&r and put them in your inventory!"]
+			id: "70A098603B9A8D63"
+			tasks: [{
+				id: "206CFA98ED7987EF"
+				type: "item"
+				item: {
+					id: "cnb:entity_net"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F7EF935900DE95C"
+				type: "choice"
+				table_id: 2068679807827730220L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "Why do cactus need Totems of Undying?"
+			description: [
+				"This &bHealing Tome&r was created by a shaman of the &eCactem&r, a desert-dwelling plantlike species which have a love for &bTotems of Undying&r."
+				"Trade them Totems for a chance at obtaining this reusable spell book. It's a rare chance, but if you have the Totems to spare..."
+				"Best of all, if you obtain enough Tomes, you can &6combine them for a more powerful heal&r! The books can go up to level 3."
+			]
+			id: "5C653FEA59887F40"
+			tasks: [{
+				id: "613821EF8BD8E40C"
+				type: "item"
+				item: "cnb:heal_spell_book_1"
+			}]
+			rewards: [
+				{
+					id: "7156A52278A4B778"
+					type: "random"
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "20A208BBF6DDA4D3"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			title: "Make Pearls into Jewelry"
+			x: 1.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "I know what you're thinking, and no, I'm not saying it"
+			description: [
+				"At times, &eElder Guardians&r will drop &bPearls&r, which can be used to make rather fetching jewelry."
+				"You can also get them from &6feeding Clams to &eOtters&r."
+				"Obtain clams by &afishing&r in rivers, and then &6drop them on the ground&r by some &eOtters&r, and they will &acrack them open for you&r."
+			]
+			id: "77E446610B522392"
+			tasks: [
+				{
+					id: "203A7AE60FCD8400"
+					type: "item"
+					item: "crittersandcompanions:pearl_necklace_1"
+				}
+				{
+					id: "28249FD310F42B87"
+					type: "item"
+					item: "crittersandcompanions:pearl"
+				}
+			]
+			rewards: [{
+				id: "3EFD8D8716E10397"
+				type: "choice"
+				table_id: 2068679807827730220L
+			}]
+		}
+		{
+			title: "Upgrade your Jewelry"
+			x: 3.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Taking it to the next level"
+			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
+			dependencies: ["77E446610B522392"]
+			id: "6F81FCE0DCB18FA5"
+			tasks: [
+				{
+					id: "4E0722E4F7F6B4C3"
+					type: "item"
+					item: "crittersandcompanions:pearl_necklace_2"
+				}
+				{
+					id: "192985BC4199139E"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+			rewards: [{
+				id: "2BD53F618708AA4A"
+				type: "choice"
+				table_id: 5036677739913042344L
+			}]
+		}
+		{
+			title: "The Ultimate Accessory"
+			x: 4.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Upgrade your necklace to its final form"
+			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
+			dependencies: ["6F81FCE0DCB18FA5"]
+			id: "1220403FE4E19BC8"
+			tasks: [
+				{
+					id: "21D15C8A119B5605"
+					type: "item"
+					item: "crittersandcompanions:pearl_necklace_3"
+				}
+				{
+					id: "55A4F873279A1ADE"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+			]
+			rewards: [{
+				id: "7D50796B6756DF97"
+				type: "choice"
+				table_id: 5036677739913042344L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
+				"By firing the Squok like a bow, the player can &6grapple to high places&r or even &6suspend themselves in midair&r with up to 4 tentacles. &6Pressing shift&r will dismount the player from the Squok, and retract the tentacles."
+			]
+			id: "3446350A572822BD"
+			tasks: [{
+				id: "5F1543D4A5A1E017"
+				type: "item"
+				item: {
+					id: "alexsmobs:squid_grapple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51413044596B1213"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+				}
+				{
+					id: "3C8F537B8F3773B3"
+					type: "item"
+					item: {
+						id: "mcsa:harpers_headset_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
+			id: "2DEB453D0D763837"
+			tasks: [{
+				id: "461FBDC5C7F60A0D"
+				type: "item"
+				item: {
+					id: "alexsmobs:flying_fish_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24319E394A4695FC"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "About Spawners"
+			x: 2.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "A different kind of farming"
+			description: [
+				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
+				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
+			]
+			id: "5D7F2F7250CB2ECB"
+			tasks: [{
+				id: "6597472A2407A2D2"
+				type: "item"
+				item: {
+					id: "spawnermod:spawner_key"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "07D7E299FE106861"
+				type: "item"
+				item: "minecraft:zombified_piglin_spawn_egg"
+			}]
+		}
+		{
+			title: "Craft a Totem of Undying"
+			x: -1.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Touhou-tem of Undying"
+			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
+			id: "7AAD7513F2D067D8"
+			tasks: [{
+				id: "7379F20CFDE39949"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "7EB05BE06489B33E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "First Swings of a Sword"
+			x: 0.0d
+			y: -7.5d
+			shape: "rsquare"
+			description: [
+				"Prove your mettle by killing...wait, just one &ezombie&r and one &eskeleton&r? That seems pretty easy..."
+				"Maybe the next quests will be more difficult."
+			]
+			size: 2.0d
+			id: "43B3A6804B59565E"
+			tasks: [
+				{
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 1L
+				}
+				{
+					id: "0A45057771B77CE0"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "1330C08C04945E39"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "05C2A9D00C440EAC"
+			tasks: [{
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6E063F9F8ACEC220"
+					type: "item"
+					item: "minecraft:zombie_head"
+					count: 5
+				}
+				{
+					id: "1DF4D16D3FBA0AAD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "13DCE1539EEE07B8"
+			tasks: [{
+				id: "2B089937DE3D191B"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6CB1348126BAA2EA"
+					type: "item"
+					item: "minecraft:bone"
+					count: 20
+				}
+				{
+					id: "29E7968B7BD4F920"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "53D63982971E2F60"
+			tasks: [{
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				entity: "minecraft:pillager"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6AD16E5C15BCE1BC"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			optional: true
+			can_repeat: true
+			id: "7E36FAC9107093C2"
+			tasks: [{
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "064F74E6565B4859"
+					type: "item"
+					item: "minecraft:creeper_head"
+					count: 5
+				}
+				{
+					id: "24D4F5F119DC1A39"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 20
+				}
+			]
+		}
+		{
+			title: "Creeper Collector"
+			x: -4.0d
+			y: -9.0d
+			shape: "square"
+			subtitle: "Kill one of each Creeper type"
+			description: ["Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"]
+			dependencies: ["43B3A6804B59565E"]
+			id: "5F03012DC9E38D8D"
+			tasks: [
+				{
+					id: "5475EAB66D01AA3E"
+					type: "kill"
+					entity: "creeperoverhaul:badlands_creeper"
+					value: 1L
+				}
+				{
+					id: "4D3055A27C98EB53"
+					type: "kill"
+					entity: "ambientadditions:scarlet_honeycreeper"
+					value: 1L
+				}
+				{
+					id: "148B4231D30E2A9C"
+					type: "kill"
+					entity: "creeperoverhaul:badlands_creeper"
+					value: 1L
+				}
+				{
+					id: "2F57370380F6849F"
+					type: "kill"
+					entity: "creeperoverhaul:bamboo_creeper"
+					value: 1L
+				}
+				{
+					id: "498342403CB4E17A"
+					type: "kill"
+					entity: "creeperoverhaul:beach_creeper"
+					value: 1L
+				}
+				{
+					id: "247406896BFA2CBF"
+					type: "kill"
+					entity: "creeperoverhaul:cave_creeper"
+					value: 1L
+				}
+				{
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					entity: "creeperoverhaul:dark_oak_creeper"
+					value: 1L
+				}
+				{
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					entity: "creeperoverhaul:desert_creeper"
+					value: 1L
+				}
+				{
+					id: "6BE030760A82D760"
+					type: "kill"
+					entity: "creeperoverhaul:dripstone_creeper"
+					value: 1L
+				}
+				{
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					entity: "creeperoverhaul:hills_creeper"
+					value: 1L
+				}
+				{
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					entity: "creeperoverhaul:jungle_creeper"
+					value: 1L
+				}
+				{
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					entity: "creeperoverhaul:mushroom_creeper"
+					value: 1L
+				}
+				{
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					entity: "creeperoverhaul:savannah_creeper"
+					value: 1L
+				}
+				{
+					id: "158183796F59B405"
+					type: "kill"
+					entity: "creeperoverhaul:snowy_creeper"
+					value: 1L
+				}
+				{
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					entity: "creeperoverhaul:spruce_creeper"
+					value: 1L
+				}
+				{
+					id: "2673798B82CD0866"
+					type: "kill"
+					entity: "creeperoverhaul:swamp_creeper"
+					value: 1L
+				}
+				{
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "402204927BD6B243"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "0D9F58F6BCEF3611"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7049021818423122779L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "714C8AC1434688EF"
+			tasks: [{
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				entity: "minecraft:drowned"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "71D83A4349AE8785"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+					count: 3
+				}
+				{
+					id: "3DA98342EB8F6090"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			optional: true
+			can_repeat: true
+			id: "12CC2182B839D954"
+			tasks: [{
+				id: "0A6E74616F39F811"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
+				"To do so will cost some &bExperience&r. And most &aCurses cannot be removed&r."
+			]
+			id: "195EC2CC57B6A75F"
+			tasks: [{
+				id: "52F78AFB393CB21D"
+				type: "item"
+				item: "disenchanting:disenchanter"
+			}]
+			rewards: [{
+				id: "4A1B117A5FC22BE9"
+				type: "item"
+				item: "minecraft:book"
+				count: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			shape: "square"
+			description: ["If you manage to defeat 500 &eWither Skeletons&r, then you deserve this reward: a &bWither Skeleton Spawn Egg&r, and a &bSpawner&r to put it in."]
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "all_started"
+			id: "26E8A9DFDC4C1635"
+			tasks: [{
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					type: "item"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					type: "item"
+					item: "minecraft:wither_skeleton_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			shape: "octagon"
+			description: [
+				"A full set of Netherite Armor takes..."
+				"*counts on fingers*..."
+				"..."
+				"At least four Netherite. Anyway the important thing isn't the math, just go do it and take the reward."
+			]
+			id: "0AF3D2A62E51E5B2"
+			tasks: [{
+				id: "5862E16DD2298F30"
+				type: "advancement"
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3D70D9793CD88DB3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.5d
+			shape: "octagon"
+			description: ["Kill all three &eIllager Magicians&r. Please."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "077E56B6A68AB3AC"
+			tasks: [{
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "743B5E809927506A"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "660DA5C0B4FF6006"
+					type: "item"
+					item: "ars_nouveau:whirlisprig_charm"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			shape: "octagon"
+			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "23D702F268464D8E"
+			tasks: [{
+				id: "016BADEBDA25900E"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EE5A3331616DACC"
+				type: "item"
+				item: "byg:packed_black_ice"
+				count: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			shape: "octagon"
+			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
+			dependencies: ["43B3A6804B59565E"]
+			id: "61E2531671CC8118"
+			tasks: [{
+				id: "1BBF8996270374EB"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C326A6B45BB6BF4"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+		}
+		{
+			title: "The Full Set: Warden Armor"
+			x: -4.5d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
+			id: "105A64813A4BA847"
+			tasks: [
+				{
+					id: "4BF9840656988012"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55B43328CD1EEB18"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74804B91154AF65D"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29C593996336859D"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "130E35D4FE0C4F2E"
+					type: "item"
+					item: {
+						id: "mcsa:prismarine_soldier_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72003DC25FAB23D4"
+					type: "item"
+					item: {
+						id: "mcsa:prismarine_soldier_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D9165D1E2027B66"
+					type: "item"
+					item: {
+						id: "mcsa:prismarine_soldier_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CFC9A8E3A1A7542"
+					type: "item"
+					item: {
+						id: "mcsa:prismarine_soldier_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F0E393288BFFE4B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+			]
+		}
+		{
+			title: "The Full Set: Diamond"
+			x: -4.0d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
+			id: "306EAF9F6F78ACC1"
+			tasks: [
+				{
+					id: "5FA2D7EE7493AAD2"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "677A9FDF825367EA"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24F596423DD63897"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27B0A1C92FB6158C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C16903F22815CD8"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E64A2B8734B6083"
+					type: "item"
+					title: "Any #crafttweaker:diaknife"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "crafttweaker:diaknife"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04223EB2A64EE17D"
+					type: "item"
+					item: {
+						id: "mcsa:champion_petra_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ADF145759143649"
+					type: "item"
+					item: {
+						id: "mcsa:champion_petra_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "151128DCF4C8B383"
+					type: "item"
+					item: {
+						id: "mcsa:champion_petra_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CBE581CA0BBF845"
+					type: "item"
+					item: {
+						id: "mcsa:champion_petra_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Full Set: Netherite"
+			x: -3.5d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["A full set of &bNetherite Tools&r, well! That's an achievement to be lauded. Congratulations!"]
+			id: "6C413B091C8DBE2A"
+			tasks: [
+				{
+					id: "3E7F57706F13DB80"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57F7EB2544598AD8"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5740CE80997782D8"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "048B165BDB027012"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3602A1F61BB59C3C"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25F3749D794D7F62"
+					type: "item"
+					item: {
+						id: "farmersdelight:netherite_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "18DD9DADC52A6FCE"
+					type: "item"
+					item: {
+						id: "mcsa:adamantium_impervium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3979A80902DE9C71"
+					type: "item"
+					item: {
+						id: "mcsa:adamantium_impervium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7714C8B0E402A80D"
+					type: "item"
+					item: {
+						id: "mcsa:adamantium_impervium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "453C465CF46BF10D"
+					type: "item"
+					item: {
+						id: "mcsa:adamantium_impervium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			shape: "square"
+			description: ["Defeat a horde of &eEndermen&r, take their SKIN and WEAR IT - oh, was that too much? Sorry. I got excited."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "3EBAD94D079ACDD8"
+			tasks: [{
+				id: "1C574797484F95E7"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "530E0BE7D446EA79"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DEC2490E1C1DB62"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D1C406CAE3A7B86"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AC1AC011F560920"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			shape: "square"
+			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bInfinite Dirt Block&r and a &bCreeper Spawn Egg&r. &dDo not craft with the Infinite Dirt block or it will be consumed&r."]
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			id: "2A61057B25357F37"
+			tasks: [{
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "2A52ED3F16031658"
+					type: "item"
+					item: {
+						id: "creative_items:creative_item"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							InnerItem: {
+								id: "minecraft:dirt"
+								Count: 1b
+							}
+							display: {
+								Name: "{\"text\":\"Unlimited Dirt\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "1330C0871BA69A9A"
+					type: "item"
+					item: "minecraft:creeper_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
+			id: "3FFC3D4F00661CA9"
+			tasks: [{
+				id: "7385F6D78E988F5F"
+				type: "item"
+				item: {
+					id: "alexsmobs:vine_lasso"
+					Count: 1b
+					tag: {
+						Swinging: 0b
+					}
+				}
+			}]
+			rewards: [{
+				id: "68F0DB3E444E7A5B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7049021818423122779L
+			}]
+		}
+		{
+			title: "Build a Trident"
+			x: -2.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
+				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
+				"A trident with &bTelekinesis&r will &apull mob drops into your inventory&r."
+			]
+			id: "6A3F5153FB6473E1"
+			tasks: [{
+				id: "7F7CAA3B73FD4E69"
+				type: "item"
+				item: "bettertridents:trident_fragment"
+			}]
+			rewards: [
+				{
+					id: "06106BE5551131A3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "69C5661F50A09166"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

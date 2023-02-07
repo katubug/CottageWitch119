@@ -1,0 +1,74 @@
+{
+	id: "610230EA400E1B17"
+	order_index: 6
+	title: "Saplings"
+	loot_size: 1
+	rewards: [
+		{ item: "byg:orchard_sapling" }
+		{ item: "byg:red_birch_sapling" }
+		{ item: "byg:red_oak_sapling" }
+		{ item: "byg:red_spruce_sapling" }
+		{ item: "byg:yellow_birch_sapling" }
+		{ item: "byg:yellow_spruce_sapling" }
+		{ item: "quark:blue_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:pink_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:red_blossom_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:blue_archwood_sapling" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:birch_sapling" }
+		{ item: "minecraft:spruce_sapling" }
+		{ item: "minecraft:oak_sapling" }
+		{ item: "byg:palm_sapling" }
+		{ item: "byg:nightshade_sapling" }
+		{ item: "byg:silver_maple_sapling" }
+		{ item: "byg:red_maple_sapling" }
+		{ item: "byg:maple_sapling" }
+		{ item: "byg:mahogany_sapling" }
+		{ item: "byg:lament_sapling" }
+		{ item: "byg:indigo_jacaranda_sapling" }
+		{ item: "byg:jacaranda_sapling" }
+		{ item: "byg:holly_sapling" }
+		{ item: "byg:green_enchanted_sapling" }
+		{ item: "byg:fir_sapling" }
+		{ item: "byg:ether_sapling" }
+		{ item: "byg:ebony_sapling" }
+		{ item: "byg:cypress_sapling" }
+		{ item: "byg:cika_sapling" }
+		{ item: "byg:white_cherry_sapling" }
+		{ item: "byg:pink_cherry_sapling" }
+		{ item: "byg:blue_enchanted_sapling" }
+		{ item: "byg:baobab_sapling" }
+		{ item: "byg:aspen_sapling" }
+		{ item: "hexerei:willow_sapling" }
+		{ item: "hexerei:mahogany_sapling" }
+		{ item: "ecologics:walnut_sapling" }
+		{ item: "ars_nouveau:red_archwood_sapling" }
+		{ item: "byg:orange_spruce_sapling" }
+		{ item: "byg:withering_oak_sapling" }
+		{ item: "byg:zelkova_sapling" }
+		{ item: "byg:witch_hazel_sapling" }
+		{ item: "byg:willow_sapling" }
+		{ item: "byg:skyris_sapling" }
+		{ item: "byg:rainbow_eucalyptus_sapling" }
+		{ item: "byg:pine_sapling" }
+		{ item: "byg:palo_verde_sapling" }
+		{ item: "byg:redwood_sapling" }
+		{ item: "byg:araucaria_sapling" }
+		{ item: "byg:blue_spruce_sapling" }
+		{ item: "byg:brown_birch_sapling" }
+		{ item: "byg:brown_oak_sapling" }
+		{ item: "byg:brown_zelkova_sapling" }
+		{ item: "byg:joshua_sapling" }
+		{ item: "byg:orange_birch_sapling" }
+		{ item: "byg:orange_oak_sapling" }
+		{ item: "minecraft:mangrove_propagule" }
+		{ item: "quark:ancient_sapling" }
+	]
+}

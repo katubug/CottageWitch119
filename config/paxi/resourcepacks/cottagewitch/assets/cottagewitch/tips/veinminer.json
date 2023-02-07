@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "You can break multiple similar blocks at once by holding the ` key as you mine."
+    }
+  }

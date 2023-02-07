@@ -1,0 +1,119 @@
+{
+    "profession": "chef",
+    "removeOtherTrades": true,
+    "trades": [
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:egg",
+          "amount": 17,
+          "priceModifier": 2
+        },
+        "tradeExp": 3,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 1
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "farmersdelight:milk_bottle",
+          "amount": 16
+        },
+        "tradeExp": 3,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 1
+      },
+      {
+        "offer": {
+          "itemKey": "farmersdelight:raw_pasta",
+          "amount": 6
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 5,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 2
+      },
+      {
+        "offer": {
+          "itemKey": "farmersdelight:wheat_dough",
+          "amount": 5
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 5,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 2
+      },
+      {
+        "offer": {
+          "itemKey": "farmersdelight:pie_crust",
+          "amount": 3
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 5,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 2
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 5
+        },
+        "request": {
+          "itemKey": "nethersdelight:magma_gelatin",
+          "amount": 1
+        },
+        "tradeExp": 7,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 3
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 2
+        },
+        "request": {
+          "itemKey": "farmersdelight:chocolate_pie",
+          "amount": 1
+        },
+        "tradeExp": 7,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 3
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 10
+        },
+        "request": {
+          "itemKey": "delightful:deluxe_cheeseburger",
+          "amount": 1
+        },
+        "tradeExp": 10,
+        "maxUses": 10,
+        "priceMultiplier": 0.1,
+        "tradeLevel": 4
+      }
+    ]
+}

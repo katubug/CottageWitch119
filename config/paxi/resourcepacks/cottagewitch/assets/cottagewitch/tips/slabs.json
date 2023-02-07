@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Different types of slabs can now be mixed! Additionally, you can place slabs vertically on the side of blocks by holding shift."
+    }
+  }

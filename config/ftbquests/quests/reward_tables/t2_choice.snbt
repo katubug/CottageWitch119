@@ -1,0 +1,29 @@
+{
+	id: "45E5DFB80FA259A8"
+	order_index: 10
+	title: "T2 Choice"
+	loot_size: 1
+	rewards: [
+		{ item: "ars_nouveau:source_gem" }
+		{ item: "minecraft:emerald", count: 4 }
+		{ item: "ars_nouveau:greater_experience_gem" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:phantom_membrane", count: 2 }
+		{ item: "minecraft:nautilus_shell" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:cachalot_whale_tooth" }
+		{ item: "minecraft:echo_shard", count: 5 }
+		{ item: "mobcatcher:net" }
+		{ item: "pipez:advanced_upgrade" }
+		{ item: "functionalstorage:diamond_upgrade" }
+	]
+}

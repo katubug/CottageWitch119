@@ -1,0 +1,11 @@
+{
+	id: "6DE133A68AE96105"
+	order_index: 1
+	title: "Pie Ingredients"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:apple", count: 3 }
+		{ item: "minecraft:sweet_berries", count: 6 }
+		{ item: "minecraft:cocoa_beans", count: 3 }
+	]
+}

@@ -1,0 +1,78 @@
+
+["Tarot Cards"]
+	#How many ticks it takes to check if a player has a tarot or not, more = more performace but longer time to activate/deactivate effects
+	#Range: 0 ~ 1200
+	tick_rate = 20
+
+	["Tarot Cards".Loot]
+		#Chance a tarot card appears in default loot (0.75 = 75%)(1.0 = there will always be a single tarot card in chests)
+		#Range: 0.0 ~ 1.0
+		default_loot_chance = 0.1
+		#If Tarot Cards should be added to the default loot tables specified in data
+		do_loot_generation = true
+
+	["Tarot Cards".Cards]
+		#Percentage of damage increase to living (0.5 = +50%)
+		#Range: 0.0 ~ 100.0
+		death_damagebonus = 0.2
+		#Percentage chance of dealing double damage (0.5 = 50%)
+		#Range: 0.0 ~ 1.0
+		judgement_damagechance = 0.1
+		#Amplifier for effect (1 = II)
+		#Range: 0 ~ 20
+		strength_amplifier = 1
+		#Multiplier for hunger gained (0.5 = -50%, 0 = no change)
+		#Range: 0.0 ~ 1.0
+		temperance_reduction = 0.2
+		#Percentage increase of base speed (0.5 = +50%)
+		#Range: 0.0 ~ 100.0
+		the_chariot_speedboost = 0.5
+		#Amplifier for effect (1 = II)
+		#Range: 0 ~ 20
+		the_devil_weaknessamplifier = 1
+		#Amplifier for effect (1 = II)
+		#Range: 0 ~ 20
+		the_emperpor_heroofvillagebonus = 1
+		#How close animals need to be to set lovemode
+		#Range: 0.0 ~ 256.0
+		the_empress_range = 3.0
+		#Amplifier for effect (2 = III)
+		#Range: 0 ~ 100
+		the_fool_jumpboost = 1
+		#How much of the damage is converted to experience
+		#Range: 0.0 ~ 1.0
+		the_hanged_man_xpratio = 0.2
+		#How far away the player must be from allies to activate
+		#Range: 0.0 ~ 256.0
+		the_hermit_allyrange = 10.0
+		#How much armor is added when away from allies
+		#Range: 0.0 ~ 100.0
+		the_hermit_armorbonus = 5.0
+		#Percentage increase of experience (2 = +200%)
+		#Range: 1.0 ~ 100.0
+		the_hierophant_xpboost = 1.0
+		#How much each level of enchantment costs to upgrade (cost = enchantment_level * this_config)
+		#Range: 1 ~ 100
+		the_highpriestess_upgrademultiplier = 2
+		#How close allies need to be to apply regeneration
+		#Range: 0.0 ~ 256.0
+		the_lovers_range = 5.0
+		#Amplifier for effect (1 = II)
+		#Range: 0 ~ 20
+		the_lovers_regenamplifier = 2
+		#Percentage increase of reach distance (0.5 = +50%)
+		#Range: 0.0 ~ 100.0
+		the_star_reachboost = 0.5
+		#Percentage increase of base health (0.5 = +50%)
+		#Range: 0.0 ~ 100.0
+		the_sun_healthboost = 0.15
+		#How close non-allies need to be to apply slowness
+		#Range: 0.0 ~ 256.0
+		the_world_range = 3.0
+		#Amplifier for effect (9 = X)
+		#Range: 0 ~ 20
+		the_world_slownessamplifier = 4
+		#How much luck (not fortune) is added to the player
+		#Range: 0.0 ~ 100.0
+		wheel_of_fortune_luckbonus = 1.5
+

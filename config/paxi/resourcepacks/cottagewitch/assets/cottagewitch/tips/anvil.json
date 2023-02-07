@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Modded Tips",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "You can restore Anvil durability by right clicking it with an iron ingot."
+  }
+}

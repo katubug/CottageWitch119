@@ -1,0 +1,9 @@
+
+#Ring Settings
+[ring_settings]
+	#Items are instantly added to player inventory [true/false  default=false
+	instantMode = false
+	#Number of blocks distance the ring will pull items towards the player [1-16, default: 8]
+	#Range: 1 ~ 16
+	ringPullRange = 8
+

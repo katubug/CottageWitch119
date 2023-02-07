@@ -1,0 +1,30 @@
+
+[misc]
+	creative_tab = false
+	cross_section_world_mode = false
+	increased_slime_spawn_rate = false
+	enable_rough_gems = true
+	enable_gem_shards = true
+	enable_raw_nuggets = true
+	sculk_drops_with_shears = true
+
+[nether_portals]
+	flint_and_steel_portal_lighting = true
+	crying_obsidian_dimensional_tears = true
+	respawn_anchor_dimensional_tears = true
+	portal_destruction_crying_obsidian = true
+	piglins_give_crying_obsidian = true
+	portal_creation_sound = true
+	portal_destruction_sound = true
+
+[worldgen]
+	stone_stripe_features = true
+	enable_sporophytes = true
+	dark_forest_portabellas = true
+
+[magnets]
+	#Range: 1 ~ 32
+	magnet_range = 8
+	#Range: 1 ~ 512
+	magnetite_range = 128
+

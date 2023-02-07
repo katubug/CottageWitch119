@@ -1,0 +1,20 @@
+{
+	id: "45B8A20EAE98EB20"
+	group: "1E0017DE6773EF00"
+	order_index: 2
+	filename: "herbalism"
+	title: "Herbalism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.5d
+		y: -1.5d
+		id: "6B5A17D80DE38763"
+		tasks: [{
+			id: "06E8227C1C4C4382"
+			type: "item"
+			item: "hibernalherbs:pouch"
+		}]
+	}]
+	quest_links: [ ]
+}

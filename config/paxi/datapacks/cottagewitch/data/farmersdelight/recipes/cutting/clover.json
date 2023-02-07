@@ -1,0 +1,16 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "verdure:clover"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "delightful:chopped_clover"
+      }
+    ]
+  }

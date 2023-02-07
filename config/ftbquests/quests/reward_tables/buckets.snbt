@@ -1,0 +1,23 @@
+{
+	id: "11C366927716D57E"
+	order_index: 14
+	title: "Buckets"
+	loot_size: 1
+	rewards: [
+		{ item: "crittersandcompanions:sea_bunny_bucket" }
+		{ item: "crittersandcompanions:koi_fish_bucket" }
+		{ item: "crittersandcompanions:dumbo_octopus_bucket" }
+		{ item: "cnb:cindershell_bucket" }
+		{ item: "babyfat:ranchu_bucket" }
+		{ item: "alexsmobs:small_catfish_bucket" }
+		{ item: "alexsmobs:comb_jelly_bucket" }
+		{ item: "alexsmobs:mimic_octopus_bucket" }
+		{ item: "alexsmobs:frilled_shark_bucket" }
+		{ item: "alexsmobs:platypus_bucket" }
+		{ item: "alexsmobs:blobfish_bucket" }
+		{ item: "alexsmobs:lobster_bucket" }
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "alexsmobs:potted_flutter" }
+		{ item: "minecraft:tadpole_bucket" }
+	]
+}

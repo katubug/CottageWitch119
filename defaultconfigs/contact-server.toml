@@ -1,0 +1,9 @@
+
+[Mail]
+	#The postal speed per block. (ticks)
+	#Range: 0 ~ 1200
+	PostalSpeed = 4
+	#The extra postal time needed to deliver to another world. (ticks)
+	#Range: 0 ~ 12000
+	TicksToAnotherWorld = 1200
+

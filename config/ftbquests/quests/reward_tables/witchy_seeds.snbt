@@ -1,0 +1,13 @@
+{
+	id: "026C888DFC933DA4"
+	order_index: 4
+	title: "Witchy Seeds"
+	loot_size: 1
+	rewards: [
+		{ item: "hexerei:sage_seed", count: 3 }
+		{ item: "hexerei:belladonna_flower" }
+		{ item: "hexerei:yellow_dock_bush" }
+		{ item: "hexerei:mugwort_bush" }
+		{ item: "hexerei:mandrake_flower" }
+	]
+}

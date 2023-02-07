@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Using Shears on a Hay Bale will make a Thatch block."
+    }
+  }

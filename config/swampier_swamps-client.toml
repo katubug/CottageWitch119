@@ -1,0 +1,15 @@
+
+# Client Settings for Swampier Swamps
+[Settings]
+
+	[Settings.Dragonflies]
+		# Toggles whether Dragonflies should be rendered with size variations. This
+		# setting is purely cosmetic, and does not affect the Hit Boxes.
+		#
+		randomizeDragonflySizes = true
+		# This value is used to Randomize the Dragonfly sizes, smaller values result
+		# in smaller difference in between the Dragonfly sizes.
+		#
+		#Range: 0.02 ~ 0.32
+		dragonflySizeModifier = 0.1
+

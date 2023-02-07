@@ -1,0 +1,570 @@
+{
+	id: "0F5FCDF7AD60349B"
+	group: "346046A71D537172"
+	order_index: 5
+	filename: "miscellaneous"
+	title: "Miscellaneous"
+	icon: "minecraft:bookshelf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Make a Mailbox to Get Mail"
+			x: -6.75d
+			y: -2.25d
+			shape: "hexagon"
+			subtitle: "A way to communicate in multiplayer"
+			description: [
+				"You can send letters and packages to your friends! You can &areceive mail&r using a &bMail Box&r. &6Shift right click with empty hands&r to bind your mailbox to you."
+				"You can send mail and packages using a &bPost Box&r. If you do not have a Mailbox set up and someone sets you a letter, it can arrive at a &bCentral Mailbox&r, which can be placed by the server operator."
+				"Postcards can be &aobtained from the Wandering Trader&r or earned through quest rewards. You can &6right click&r while holding them to write on them."
+				"To send items, you'll need &bWrapping Paper&r. Each parcel can hold 4 items."
+			]
+			size: 1.5d
+			id: "476D80268DFAFC7A"
+			tasks: [{
+				id: "6358D0985B21236B"
+				type: "item"
+				item: "contact:white_mailbox"
+			}]
+			rewards: [
+				{
+					id: "69BEF756828B0744"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+				{
+					id: "6DF75DBC530692D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Do you wanna build a...uh...sandcastle?"
+			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
+			id: "012D4FE416DC8BE7"
+			tasks: [{
+				id: "33B1F2EE602D5EAB"
+				type: "item"
+				item: "ecologics:sandcastle"
+			}]
+			rewards: [{
+				id: "6FA462CBA8F1F1A0"
+				type: "item"
+				item: "minecraft:seagrass"
+				count: 6
+			}]
+		}
+		{
+			title: "Save your EXP"
+			x: -2.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Unfortunately not the experience you can put on your resume"
+			description: [
+				"A piece of &bCarved Nephrite&r allows you to store your Experience in a network, to prevent it being lost or reduced on death. Connect multiple &bCarved Nephrite&r together to store even more."
+				"It also allows you to &ashare experience with others&r!"
+				"Additionally, you can store up to 30 levels in a &bNephrite Ring&r."
+			]
+			id: "4FA002CF34586849"
+			tasks: [{
+				id: "3976A5AEC45B2235"
+				type: "item"
+				item: "spelunkery:carved_nephrite"
+			}]
+			rewards: [
+				{
+					id: "61FBF6F5B8DEAB11"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "47786C82C733A877"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+				{
+					id: "50AAE3AE17E51263"
+					type: "item"
+					item: {
+						id: "spelunkery:nephrite_charm"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Obtain some Iron Grates"
+			x: -3.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Well isn't that just grate"
+			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
+			id: "0D7B3090032B6F0E"
+			tasks: [{
+				id: "7B8D8FBF31255D24"
+				type: "item"
+				item: "quark:grate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "33366B032997DB84"
+				type: "item"
+				item: "quark:grate"
+				count: 10
+			}]
+		}
+		{
+			title: "Obtain an Ancient Tome"
+			x: -4.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "I tome you so"
+			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
+			id: "3765768BE87D28DE"
+			tasks: [{
+				id: "647CA26F664F82B7"
+				type: "item"
+				title: "Any #crafttweaker:tomes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:tomes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "003A388D44155E77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "Lots of things can go in bottles."
+			description: [
+				"You can obtain a &bCloud in a Bottle&r by ascending to y-level 126-132 and &6right clicking the air with a glass bottle&r."
+				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
+			]
+			id: "24B3EE21C9B6292B"
+			tasks: [{
+				id: "60F3F63E08A8D71B"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+			rewards: [{
+				id: "6AEF085BA270D1C5"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
+			description: [
+				"The &bCinder Furnace&r is a unique item which &aonly functions on the back of a &eCindershell Tortoise&r, which live in the Nether Wastes."
+				"You can befriend and breed them with &bFungus&r - but beware, they have a LOT of young at once."
+				"If you place this &bFurnace&r on top of a &eCindershell&r, it will use the beast's volcanic heat to &asmelt items without fuel&r!"
+			]
+			id: "7B40E7022A67BC86"
+			tasks: [{
+				id: "67131CB5294C5493"
+				type: "item"
+				item: "cnb:cinder_furnace"
+			}]
+			rewards: [{
+				id: "29CA99C54CEF6EDB"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Chunk Loading"
+			x: -5.0d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "When you're away, your base will play"
+			description: [
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. In order to do this, craft a &bBasic Chunk Loader&r."
+				"By &6placing down the Chunk Loader&r, you will &aload chunks in a 3x3 area&r. Want to see the chunk boundaries? &6F3+G&r will show the edges of each chunk. Press it again to disable."
+			]
+			size: 2.0d
+			id: "26D8EAD9D892805E"
+			tasks: [{
+				id: "2F646B35705318CA"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+			rewards: [{
+				id: "78700E907D3C9286"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["This &bAdvanced Chunk Loader&r will load chunks in a &alarger 5x5 area&r."]
+			dependencies: ["26D8EAD9D892805E"]
+			id: "6C61BE87539B25B6"
+			tasks: [{
+				id: "17C66EFED857A5F7"
+				type: "item"
+				item: "chunkloaders:advanced_chunk_loader"
+			}]
+			rewards: [{
+				id: "3EBE62570F04ADC7"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			shape: "hexagon"
+			description: ["The &bSingle Chunk Loader&r does what it says on the tin. &6Craft a Basic chunkloader&r into 9 &bSingle Chunk Loaders&r if you have &asmall, unconnected areas&r which need loading."]
+			dependencies: ["26D8EAD9D892805E"]
+			id: "20F9C02AF5CBE665"
+			tasks: [{
+				id: "518CD1390097C7A9"
+				type: "item"
+				item: "chunkloaders:single_chunk_loader"
+			}]
+			rewards: [{
+				id: "193F56FAD5A4D08C"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["This &bUltimate Chunk Loader&r will &aload a whopping 7x7 area&r. Be wary of making too many of these, as the amount of loaded chunks can affect your performance."]
+			dependencies: ["6C61BE87539B25B6"]
+			id: "14B701CFF7A90EE4"
+			tasks: [{
+				id: "421DBD39D23C331C"
+				type: "item"
+				item: "chunkloaders:ultimate_chunk_loader"
+			}]
+			rewards: [{
+				id: "72EA87FE8C22A66E"
+				type: "random"
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			title: "Extreme Sound Muffler"
+			x: -6.0d
+			y: -6.5d
+			subtitle: "Selective hearing. Literally."
+			description: [
+				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
+			]
+			id: "171D4EACF7B9F4D5"
+			tasks: [{
+				id: "4B25469609B1A60C"
+				type: "checkmark"
+				title: "Extreme Sound Muffler"
+			}]
+		}
+		{
+			title: "Capture Time in a Bottle"
+			x: -6.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
+				"Craft the &bTime in a Bottle&r and hold it in your inventory to accumulate time. Then, you can &6shift right click&r on certain blocks to apply that time to them."
+			]
+			id: "00BDE15DD24045A6"
+			tasks: [{
+				id: "2B71420D0C290C59"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: {
+						storedTime: 3520
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4BD6346A90078E9B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1739670786502713488L
+				}
+				{
+					id: "7A14064FBA3DA69F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
+		}
+		{
+			title: "Transport your Mobs"
+			x: -6.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Catch a running cow and put it in your pocket"
+			description: [
+				"The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."
+				"However, it is &aone-time use only&r and will break when you release the animal."
+			]
+			id: "1E6176C9919F1D06"
+			tasks: [{
+				id: "4E6BE1180F28455A"
+				type: "item"
+				item: "mobcatcher:net"
+			}]
+			rewards: [{
+				id: "11AF24C6D321B7EB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7049021818423122779L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["The &bMob Capture Device Launcher&r will fire &bCapture Devices&r at range, allowing you to catch mobs without needing to get close! &6Switch modes by shift+right clicking&r to decide whether to capture or release."]
+			dependencies: ["1E6176C9919F1D06"]
+			id: "2681470499B91F3D"
+			tasks: [{
+				id: "664457F2320ABE76"
+				type: "item"
+				item: {
+					id: "mobcatcher:net_launcher"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1717D61F99BFA93D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
+			dependencies: ["1E6176C9919F1D06"]
+			id: "2AD60B373912C5A4"
+			tasks: [{
+				id: "69932938B19DB961"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+			rewards: [{
+				id: "0A6CFBB3D1DD0E2C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			shape: "octagon"
+			description: [
+				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
+				"That would be utterly ridiculous to do, and yet..."
+			]
+			id: "7DD918D36463CF71"
+			tasks: [{
+				id: "0F62B197A427BB30"
+				type: "advancement"
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "33D0F4658286711D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5036677739913042344L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
+				"Does not work on objects which have the same texture on all sides (such as planks)."
+			]
+			id: "1547891EBE53934F"
+			tasks: [{
+				id: "7AFEDB990D121E9E"
+				type: "item"
+				item: {
+					id: "supplementaries:wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "686A7979CF354907"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Roughing It"
+			x: -3.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Sleep under the stars!"
+			description: ["The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to use it."]
+			id: "34E82F6EBE6762A3"
+			tasks: [{
+				id: "38FDE24FC2D7BDCF"
+				type: "item"
+				title: "Any #comforts:sleeping_bags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+			}]
+			rewards: [{
+				id: "326FAD6DC787DFAD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Daytime naptime!"
+			x: -4.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: ["Make a &bHammock&r to &asleep through the day&r, making it night easily. Then, get up to shenanigans!"]
+			id: "4BCAADA647D7D85A"
+			tasks: [
+				{
+					id: "7A9AA65B0CA055E0"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+				{
+					id: "028E1A666D288A52"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6FE21F260C828FA7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Make a Post Box to Send Mail"
+			x: -7.5d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["The &bPost Box&r will allow you to send mail to your server mates! Simply &6right click it&r, and &6insert your postcard or packages&r, then &6type the recipient's name&r! It will tell you how long it will take to send, and then you can confirm sending it. Tada!"]
+			dependencies: ["476D80268DFAFC7A"]
+			id: "7D910AD700761922"
+			tasks: [{
+				id: "75C169025F187265"
+				type: "item"
+				title: "Any #crafttweaker:postboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:postboxes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1D1D9BF5C61C7724"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+				{
+					id: "5A3452E12F6211CD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
+		}
+		{
+			title: "Stay Connected"
+			x: -7.5d
+			y: -6.5d
+			shape: "hexagon"
+			description: [
+				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
+				"Giving a friend a linked &bHeartstone&r allows you to locate them by &6holding the stone and right clicking&r. It will send a particle effect towards its mate. When you get closer to your friend, &athey will glow pink&r."
+			]
+			id: "5A071E27CF114D29"
+			tasks: [{
+				id: "1C20D9FDDAEC04A8"
+				type: "item"
+				item: "heartstone:heartstone"
+			}]
+			rewards: [
+				{
+					id: "1E5935EC39987275"
+					type: "item"
+					item: {
+						id: "cnb:flower_crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BEA77BE37B3E3C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+				{
+					id: "1C8A7DC747C04C76"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

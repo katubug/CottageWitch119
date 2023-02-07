@@ -1,0 +1,683 @@
+{
+	id: "5775D7E4FB7F551A"
+	group: "5FB460EFA0A2567E"
+	order_index: 4
+	filename: "globetrotting"
+	title: "Globetrotting"
+	icon: "ars_nouveau:glyph_underfoot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Witch of the Hidden Leaf Village"
+			x: -2.0d
+			y: -5.5d
+			shape: "octagon"
+			subtitle: "it's over 90000"
+			description: ["Is there much overlap between Ninjas and Witches? I'm not sure, but this armor is pretty cool, so why not stop asking questions and just do the quest, eh? Whippersnapper. Go &6climb 90,000cm&r to prove your worth."]
+			id: "240FB022501AAC3B"
+			tasks: [{
+				id: "3FD5ABFC21E1C5FB"
+				type: "stat"
+				stat: "minecraft:climb_one_cm"
+				value: 90000
+			}]
+			rewards: [
+				{
+					id: "725129848D9BBEC3"
+					type: "item"
+					item: {
+						id: "mcsa:ninja_ivor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B5E3DE2D601E67"
+					type: "item"
+					item: {
+						id: "mcsa:ninja_ivor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5FACA725CE4669FD"
+					type: "item"
+					item: {
+						id: "mcsa:ninja_ivor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D52190DC3A60493"
+					type: "item"
+					item: {
+						id: "mcsa:ninja_ivor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unlucky or just Ignorant"
+			x: 0.0d
+			y: -5.5d
+			shape: "octagon"
+			description: ["Congratulations, you have opened 10 trapped chests! An achievement worth celebrating. Now heal up."]
+			id: "4470E2B09DB2B676"
+			tasks: [{
+				id: "4C755CEFF3CB1B9D"
+				type: "stat"
+				stat: "minecraft:trigger_trapped_chest"
+				value: 10
+			}]
+			rewards: [{
+				id: "6C4AA9B8014AE3F0"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			shape: "octagon"
+			description: ["This quaint &cFisherman's Lodge&r is water-bound, and is a great place to go fishing."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "653C7B872B33A477"
+			tasks: [{
+				id: "4B3E6C3A869F86EF"
+				type: "advancement"
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "601C47F6994D2062"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1279979498352596350L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "octagon"
+			description: [
+				"The &cAncient Mines&r been to be seen to be believed. A massive underground chasm, once inhabited by those who delved too greedily and too deep. Beware what now lives there."
+				"&dCW: Giant Cave Centipedes&r. Although they are disabled in most of the modpack, this structure has a spawner for them. Be prepared, should you go inside."
+			]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "7EB4DAB78F4A04F3"
+			tasks: [{
+				id: "170552A21C159816"
+				type: "advancement"
+				advancement: "idas:ancient_mines"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "72BEDEF47C00FA46"
+					type: "item"
+					item: {
+						id: "quark:forgotten_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D66A49E17DD294F"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUyOTcwZTEyNDE1M2FiZDI4YjVkNjQwMDNiOGZkODc5OTlkYmM3YTVjZGU4OTk5NjFlZTAxY2NkM2Q0YWI5OCJ9fX0="
+									}]
+								}
+								Id: [I;
+									882494356
+									885344488
+									-1335155263
+									-2097871279
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Treasure Chest (cyan)\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			shape: "octagon"
+			description: [
+				"The &cPillager Fortress&r is best taken on with a group of friends. However, a particularly capable or tenacious witch could certainly try to go it alone."
+				"&6Remember to check for hidden walls&r."
+			]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "64D0EFCC9BE460DE"
+			tasks: [{
+				id: "64377903CBF23570"
+				type: "advancement"
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7CC4711CF31784BE"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "02196B9D49A382F4"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
+									}]
+								}
+								Id: [I;
+									843234447
+									-1704705483
+									-1304221926
+									751006699
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Cake\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "octagon"
+			description: [
+				"To find the &cLabyrinth of the Serpent&r, you must purchase a map from a Villager."
+				"Beware, though. Within lie many dangers, and even a final boss!"
+			]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "4A83D94AEF11125B"
+			tasks: [{
+				id: "27A9ED0A2197FE82"
+				type: "advancement"
+				advancement: "idas:labyrinth"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "086CB5409B58B55C"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_poison_resistance"
+						}
+					}
+				}
+				{
+					id: "75A24FC363FAB94F"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "rsquare"
+			description: [
+				"This world has a ton of different structures for you to encounter! Some are dangerous, others contain only &amild peril&r."
+				"Most of them contain &ajuicy loot&r! Why not try to find all of them?"
+			]
+			size: 2.0d
+			optional: true
+			id: "4EE44DF5D0E5BD53"
+			tasks: [{
+				id: "08B6A44D9D1A4B9F"
+				type: "checkmark"
+				title: "Get Out There"
+			}]
+			rewards: [{
+				id: "10D5BD7BC58A2BF5"
+				type: "command"
+				command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Standard Quest Chest\\\"}\"},SkullOwner:{Id:[I;659251375,-1690286570,-1318597454,-1078331517],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0=\"}]}}} 1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "octagon"
+			description: ["Locate the &cApothecary's Abode&r, a large structure filled with bizarre machines and absolutely loaded with &eIllagers&r."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "3577B78260820DA0"
+			tasks: [{
+				id: "39EFEB4A1B414E2C"
+				type: "advancement"
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3576CF208CBFD37C"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44F3098ACF4285D6"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNkNTkxNTUzNzhiNGFjNGQyYjE0MmUyZjIzNWQwMzdmNjhhOWI4ZTI0YWU5ZWQ0ODU3MzE2YjI4ZGNlMDU2ZiJ9fX0="
+									}]
+								}
+								Id: [I;
+									119714823
+									-933541868
+									-2137710230
+									1971727296
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Spring Chest\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "octagon"
+			description: ["Would your life be complete without visiting a &cWitch's Stump&r? No. Unfortunately the coven that makes their home there is an unfriendly one. But once you conquer them, you can use their items for your own purposes."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "28AAD7D3C76F2FE2"
+			tasks: [{
+				id: "14B11A713AEFEC99"
+				type: "advancement"
+				advancement: "idas:witches_treestump"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12F199D0ACD42E51"
+				type: "command"
+				command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Frog\\\"}\"},SkullOwner:{Id:[I;-855401369,-1764405596,-1406284308,-1929382356],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2ZTcwMGMyYzU3ZGUwYTI0OWQ0MGFjYzEzMzJhZWVmNTMyYzFlNDA5NmI4YzI2ODgzNjU5NjY2YmQzNjgwOSJ9fX0=\"}]}}} 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			shape: "octagon"
+			description: ["Climb the &cWizard's Tower&r and you may find what happened to its previous inhabitant. Also, beware of the basement."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "12A79C72CA9EF466"
+			tasks: [{
+				id: "0ED9B835FE2F669E"
+				type: "advancement"
+				advancement: "idas:wizardtower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7348746A7D041328"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			shape: "octagon"
+			description: [
+				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks&r, but it also contains the cargo it was transporting."
+				"Make sure you bring your best diving gear!"
+			]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "3B7028DB3EDD6001"
+			tasks: [{
+				id: "767829D51515DD23"
+				type: "advancement"
+				advancement: "idas:bearclaw_inn"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5B92D35C2453E6E4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+				}
+				{
+					id: "70F62D6DEBD5A89C"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Visit all Vanilla Biomes"
+			x: -3.5d
+			y: -4.5d
+			shape: "octagon"
+			subtitle: "witches abroad"
+			description: ["The best witches are those who are worldly. As such, &6prove your mettle by traversing all vanilla biomes&r!"]
+			id: "369DEAD83BD150DA"
+			tasks: [{
+				id: "3DE48330EDF240D6"
+				type: "advancement"
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "671D5BBAE0D14A63"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+				{
+					id: "20EC227724BF2A88"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 223398162038636868L
+				}
+				{
+					id: "32FD2F3EF624A9C6"
+					type: "item"
+					item: {
+						id: "mcsa:soren_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07AF4E5173798D24"
+					type: "item"
+					item: {
+						id: "mcsa:soren_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EA3CC007ED564C4"
+					type: "item"
+					item: {
+						id: "mcsa:soren_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "466C77C2EAD40AE4"
+					type: "item"
+					item: {
+						id: "mcsa:soren_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "octagon"
+			description: ["Traverse all Nether biomes!"]
+			id: "7EF7EE2181ECA4E9"
+			tasks: [{
+				id: "2D416C15BC4F0576"
+				type: "advancement"
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "357254CEFE725F93"
+					type: "item"
+					item: "nethersdelight:propelpearl"
+					count: 5
+				}
+				{
+					id: "3460F0ECDD3C2760"
+					type: "item"
+					item: "infernalexp:glowcoal"
+					count: 10
+				}
+				{
+					id: "2FE51B1FF80A35BD"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "octagon"
+			description: ["Discover an &cEnchanting Tower&r, a small but cozy spire featuring a magical twist."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "418199C728BB5312"
+			tasks: [{
+				id: "752675751DB2B66B"
+				type: "advancement"
+				advancement: "idas:enchantingtower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2AF63EBB35503521"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8891211325592123080L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			description: ["The &bCastle&r is home to several friendly &eVillagers&r, and their ruler sits atop a throne of &bNetherite&r."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "2990F79A11CD8ED8"
+			tasks: [{
+				id: "7D7446AC694E63D0"
+				type: "advancement"
+				advancement: "idas:castle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "172A391FB810A202"
+				type: "item"
+				item: {
+					id: "minecraft:golden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "octagon"
+			description: ["Discover &cThe Catacombs&r, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "3533886FEAAAE291"
+			tasks: [{
+				id: "128CFDF2939D2CA6"
+				type: "advancement"
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "474AE26E907CEE13"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkyZjA4YzEyOTQ4MjlkNDcxYThlMDEwOWEwNmZiNmFlNzE3ZTVmYWYzZTA4MDg0MDhhNjZkODg5MjI3ZGFjNyJ9fX0="
+								}]
+							}
+							Id: [I;
+								987093303
+								948129233
+								-2138981139
+								774123822
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Skull Cup with Blood\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "octagon"
+			description: [
+				"Find a &cFortress of the Undead&r, and survive!*"
+				""
+				"*survival optional"
+			]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "06689552C75A9825"
+			tasks: [{
+				id: "63AA88E3E44804D8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/fish_bones"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "057D135690FC2958"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YyZmZlMWM4OTUyYjEzMTIwMzQxZmY1MjQzOGQ0YTM4ZDdhMzYxMDU0Y2M3NDVjZmQ2YzE0ZmZhNTQyMjU0YyJ9fX0="
+								}]
+							}
+							Id: [I;
+								-420135536
+								396837808
+								-1348647065
+								-59040661
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Chocolate Skull\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Meet a Wise Oak"
+			x: -1.0d
+			y: -4.0d
+			shape: "heart"
+			subtitle: "not always that wise tbh"
+			description: ["In certain forests, it's said that the trees are not only alive, but can speak! Seek one out for yourself."]
+			invisible: true
+			id: "5D8A16DE54B55BEA"
+			tasks: [{
+				id: "2692CA3A9EB604F3"
+				type: "observation"
+				icon: "mysticaloaktree:wise_oak"
+				timer: 0L
+				observe_type: 0
+				to_observe: "mysticaloaktree:wise_oak"
+			}]
+			rewards: [{
+				id: "059A7C466D698995"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

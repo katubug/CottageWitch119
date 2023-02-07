@@ -1,0 +1,4 @@
+#once how many chunks can a wise tree spawn
+#Range: 0 ~ 10000
+tree_rarity = 280
+

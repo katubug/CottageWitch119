@@ -1,0 +1,12 @@
+{
+	id: "0319AB71DBC9C144"
+	order_index: 7
+	title: "Heads"
+	loot_size: 4
+	rewards: [
+		{ item: "minecraft:skeleton_skull" }
+		{ item: "minecraft:wither_skeleton_skull", only_one: true }
+		{ item: "minecraft:zombie_head" }
+		{ item: "minecraft:creeper_head" }
+	]
+}

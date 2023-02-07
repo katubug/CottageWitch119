@@ -1,0 +1,389 @@
+{
+	id: "1226CF9B32B2E083"
+	group: "346046A71D537172"
+	order_index: 0
+	filename: "exploration"
+	title: "Beginnings"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -2.5d
+			width: 12.5d
+			height: 5.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/questsbanner.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 8.5d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/questkey.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Begin your World"
+			icon: "minecraft:grass_block"
+			x: 6.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Welcome in!"
+			description: [
+				"Congratulations on entering the Overworld for the first time! It's good to have you here. You can &6use these quests as a sort of guide&r to help you through mods you might not be familiar with!"
+				"This quest grants you an &bAkashic Tome&r, which contains guidebooks to mods in the pack."
+				"It also gives you a &bSack&r, which is like a very poor &bShulker Box&r - but hey, it's better than nothing!"
+				"&lIf you ever lose your Akashic Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
+				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
+			]
+			size: 2.0d
+			id: "6C6635F6D9644BB7"
+			tasks: [{
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "3FC5AF6E67ED19A5"
+					type: "item"
+					item: "supplementaries:sack"
+				}
+				{
+					id: "4B2B69209045245C"
+					type: "command"
+					icon: "alexsmobs:falconry_glove"
+					team_reward: false
+					auto: "enabled"
+					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					player_command: false
+				}
+				{
+					id: "7781C4A7F10CD2AC"
+					type: "item"
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:data": {
+								sculktransporting: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "sculktransporting:guide"
+									}
+								}
+								byg: {
+									id: "byg:biomepedia"
+									Count: 1b
+								}
+								ars_nouveau: {
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+								}
+								babyfat: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "babyfat:the_book_of_baby_fat"
+									}
+								}
+								ftbquests: {
+									id: "ftbquests:book"
+									Count: 1b
+								}
+								alexsmobs: {
+									id: "alexsmobs:animal_dictionary"
+									Count: 1b
+								}
+								solsweetpotato: {
+									id: "solsweetpotato:food_book"
+									Count: 1b
+								}
+								caupona: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "caupona:book"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"The &bNature's Compass&r is a magical tool, similar to a &bDowsing Rod&r, which will allow you to find your way to a particular type of biome."
+				"Simply &6right click while holding it&r in order to search for the biome you want to find."
+			]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "1F4569590B7666F5"
+			tasks: [{
+				id: "0AA5D5B5891F4838"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2E7C57E4CDF3A562"
+					type: "choice"
+					table_id: 6990203354287577879L
+				}
+				{
+					id: "46F1CF2EAD0F55EC"
+					type: "choice"
+					table_id: 6990203354287577879L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
+				"Simply &6right click while holding it&r in order to search for the structure you want to find."
+			]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "292B26978E644D9F"
+			tasks: [{
+				id: "628297917BCB66ED"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3697431A62122609"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Baby's First Death"
+			x: 10.0d
+			y: 1.5d
+			subtitle: "Handbook for the recently deceased"
+			description: [
+				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
+			]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "47643C0C8D4BCBD9"
+			tasks: [{
+				id: "412E4F0BC4FEF92B"
+				type: "item"
+				item: "enigmaticgraves:grave_finder"
+			}]
+			rewards: [
+				{
+					id: "78AFDC62398091E8"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29BB4C4A6EF50D42"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Meet the Goblin Trader"
+			x: 11.0d
+			y: 3.0d
+			shape: "heart"
+			subtitle: "Eager but not too bright"
+			description: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "160EE610C4B660D8"
+			tasks: [{
+				id: "13D291470FC0A9F4"
+				type: "observation"
+				icon: "goblintraders:goblin_trader_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "goblintraders:goblin_trader"
+			}]
+			rewards: [
+				{
+					id: "6401C8FA6FD927CB"
+					type: "random"
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "7A4F5FB3B95C3932"
+					type: "command"
+					command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Frog\\\"}\"},SkullOwner:{Id:[I;1526238932,-1094236219,-2050186183,1457710252],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI1YzRiNGI4MjQyMjVmYjE5NTI3ZDQyZWZmZDRkYjQxNTM4YTY4ZTc4ZTdlNjI0MWI4MjUyOWI5MjJiMmU5NSJ9fX0=\"}]}}} 1"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Cute house starter pack"
+			description: [
+				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
+				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
+			]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "21AD64E594528F4D"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				type: "checkmark"
+				title: "Build Me a House"
+			}]
+			rewards: [{
+				id: "799218BAE959D719"
+				type: "item"
+				item: "prefab:item_house"
+			}]
+		}
+		{
+			title: "Mushroom Hat"
+			x: 1.5d
+			y: 3.0d
+			description: ["Would you like a Mushroom Hat? Cool! Click the box above."]
+			dependencies: ["6C6635F6D9644BB7"]
+			can_repeat: true
+			id: "3DFB7EF14F053582"
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				type: "checkmark"
+				title: "I want a mushroom hat!!"
+			}]
+			rewards: [{
+				id: "34D0D294831901C4"
+				type: "command"
+				icon: {
+					id: "minecraft:carved_pumpkin"
+					Count: 1b
+					tag: {
+						CustomModelData: 1
+					}
+				}
+				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			shape: "octagon"
+			description: ["Congratulations on cheating death! Sorry about your totem, though."]
+			dependencies: ["47643C0C8D4BCBD9"]
+			id: "76D5DB6E94816C80"
+			tasks: [{
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A03B2AB64A80391"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "The Basis of an Economy"
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
+				"To find a &alist of all villager professions and their job blocks&r, hover over an &bEmerald&r and &6press \"u\"&r, then &6choose the top tab with a villager face&r."
+				"{image:cottagewitch:textures/villagers.png width:200 height:200 align:1}"
+			]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "70C4F17973F6492E"
+			tasks: [{
+				id: "58A355655550BE5E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [
+				{
+					id: "56FC01153B740D4A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "193851DBE5D9BA6B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			title: "New Professions"
+			x: 1.0d
+			y: 6.0d
+			description: [
+				"This modpack adds &a2 new professions&r for villagers:"
+				"The &eChef&r, who buys and sells ingredients and full meals."
+				"And the &eTwilight Trader&r, who deals in items from the &bTwilight Forest&r, and uses &bSapphires&r as a currency, rather than &bEmeralds&r."
+			]
+			dependencies: ["70C4F17973F6492E"]
+			id: "5CAA0C986493B13F"
+			tasks: [
+				{
+					id: "4949D5AB9DB21634"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "32B6091580A7D59D"
+					type: "item"
+					item: "twilightforest:uncrafting_table"
+				}
+			]
+			rewards: [{
+				id: "242D74A0A65EF6E2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,272 @@
+{
+  "profession": "twilight_trader",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:ironwood_ingot",
+        "amount": 10
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:naga_scale",
+        "amount": 7
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:steeleaf_ingot",
+        "amount": 3
+      },
+      "tradeExp": 4,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:liveroot",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:knightmetal_ingot",
+        "amount": 1
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:fiery_blood",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:fiery_tears",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:raw_meef",
+        "amount": 22
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.08,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:transformation_powder",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:transformation_sapling",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:mining_sapling",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:sorting_sapling",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:rainbow_oak_sapling",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "twilightforest:time_sapling",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:alpha_yeti_fur",
+        "amount": 1
+      },
+      "tradeExp": 9,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "twilightforest:arctic_fur",
+        "amount": 5
+      },
+      "tradeExp": 9,
+      "maxUses": 10,
+      "priceMultiplier": 0.08,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16
+      },
+      "tradeExp": 9,
+      "maxUses": 10,
+      "priceMultiplier": 0.08,
+      "tradeLevel": 5
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "twilightforest:twilight_scepter",
+          "amount": 1
+        },
+        {
+          "itemKey": "twilightforest:lifedrain_scepter",
+          "amount": 1
+        },
+        {
+          "itemKey": "twilightforest:zombie_scepter",
+          "amount": 1
+        },
+        {
+          "itemKey": "twilightforest:fortification_scepter",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32
+      },
+      "tradeExp": 3,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 5
+    }
+  ]
+}

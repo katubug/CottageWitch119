@@ -1,0 +1,7 @@
+##[general]
+
+[If chunks around the empty jar should get converted to dead land when extracting a biome.]
+B:convert_to_dead_land = 'true';
+I:filled_jar_uses = '250';
+[If it should be possible to override dead land biomes with filled jars.]
+B:allow_overriding_dead_land = 'true';

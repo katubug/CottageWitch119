@@ -1,0 +1,55 @@
+
+#Configure Collector's Reap
+[Items]
+	baked_portobello_cap = true
+	berry_limeade = true
+	candied_lime = true
+	cod_ceviche = true
+	crimson_carrot_roast = true
+	deluxe_salad = true
+	glazed_strider = true
+	honey_lime_chicken = true
+	lime = true
+	lime_cookie = true
+	lime_crate = true
+	lime_pie = true
+	lime_pie_slice = true
+	lime_popsicle = true
+	lime_seeds = true
+	lime_slice = true
+	limeade = true
+	mediterranean_salmon = true
+	pink_limeade = true
+	pomegranate = true
+	pomegranate_chicken = true
+	pomegranate_crate = true
+	pomegranate_custard = true
+	pomegranate_mutton = true
+	pomegranate_pork = true
+	pomegranate_seeds = true
+	pomegranate_slice = true
+	portobello = true
+	portobello_burger = true
+	portobello_colony = true
+	portobello_pasta = true
+	portobello_quiche = true
+	portobello_quiche_slice = true
+	portobello_rice_soup = true
+	portobello_risotto = true
+	portobello_wrap = true
+	potato_fritters = true
+	salmon_tartare = true
+	spicy_grenadine_jelly = true
+	stuffed_portobello_cap = true
+
+[Generation]
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Portobello to false above.
+	#Range: > 0
+	chance_portobello = 30
+	#Chance of generating bushes. Smaller value = more frequent (once every ...). To disable, set the item Lime to false above.
+	#Range: > 0
+	chance_lime_bush = 22
+	#Chance of generating bushes. Smaller value = more frequent (once every ...). To disable, set the item Pomegranate to false above.
+	#Range: > 0
+	chance_pomegranate_bush = 15
+

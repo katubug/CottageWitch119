@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "346046A71D537172", title: "Basics" }
+		{ id: "1E0017DE6773EF00", title: "Farming" }
+		{ id: "2757402A47D6A081", title: "Magic and the Arcane" }
+		{ id: "5FB460EFA0A2567E", title: "Exploration" }
+		{ id: "7A9435459855DCCD", title: "Collecting" }
+	]
+}

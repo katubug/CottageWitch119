@@ -1,0 +1,38 @@
+{
+	id: "61D327FF1D169B5B"
+	order_index: 11
+	title: "Spawn Eggs"
+	loot_size: 2
+	rewards: [
+		{ item: "minecraft:cat_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:fox_spawn_egg" }
+		{ item: "minecraft:goat_spawn_egg" }
+		{ item: "minecraft:horse_spawn_egg" }
+		{ item: "minecraft:pig_spawn_egg" }
+		{ item: "minecraft:rabbit_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "minecraft:wolf_spawn_egg" }
+		{ item: "minecraft:glow_squid_spawn_egg" }
+		{ item: "minecraft:squid_spawn_egg" }
+		{ item: "sprout:bouncebug_spawn_egg" }
+		{ item: "snuffles:snuffle_spawn_egg" }
+		{ item: "friendsandfoes:moobloom_spawn_egg" }
+		{ item: "friendsandfoes:glare_spawn_egg" }
+		{ item: "duckling:duck_spawn_egg" }
+		{ item: "crittersandcompanions:otter_spawn_egg" }
+		{ item: "crittersandcompanions:red_panda_spawn_egg" }
+		{ item: "crittersandcompanions:leaf_insect_spawn_egg" }
+		{ item: "crittersandcompanions:koi_fish_spawn_egg" }
+		{ item: "crittersandcompanions:ferret_spawn_egg" }
+		{ item: "alexsmobs:spawn_egg_mungus" }
+		{ item: "alexsmobs:spawn_egg_emu" }
+		{ item: "alexsmobs:spawn_egg_snow_leopard" }
+		{ item: "alexsmobs:spawn_egg_raccoon" }
+		{ item: "alexsmobs:spawn_egg_hummingbird" }
+		{ item: "cnb:minipad_spawn_egg" }
+		{ item: "cnb:lilytad_spawn_egg" }
+		{ item: "sprout:elephant_spawn_egg" }
+		{ item: "minecraft:allay_spawn_egg" }
+	]
+}

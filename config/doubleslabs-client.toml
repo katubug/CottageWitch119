@@ -1,0 +1,21 @@
+
+["Client Only Settings"]
+	#The list of slabs (or tags) which should NOT have uvlock enabled when creating a vertical slab model.
+	#This often yields better looking results with wooden planks and does not necessarily improve the look of all vertical slabs
+	#Use the wildcard value * to enable this feature for all slabs
+	uvlockModelBlacklist = ["minecraft:smooth_stone_slab", "minecraft:sandstone_slab", "minecraft:cut_sandstone_slab", "minecraft:red_sandstone_slab", "minecraft:cut_red_sandstone_slab", "minecraft:prismarine_brick_slab", "minecraft:campfire", "minecraft:soul_campfire", "doubleslabs:raised_campfire", "doubleslabs:raised_soul_campfire", "byg:boric_campfire", "doubleslabs:raised_boric_campfire", "byg:cryptic_campfire", "doubleslabs:raised_cryptic_campfire", "endergetic:ender_campfire", "doubleslabs:raised_ender_campfire"]
+	#The list of slabs (or tags) which should not be culled when combined
+	#Use the wildcard value * to disable this feature for all slabs
+	slabCullBlacklist = ["#minecraft:campfires"]
+	#The list of slabs (or tags) which should not use the double variant model when two of the same slab are combined together
+	#Use the wildcard value * to disable this feature for all slabs
+	useDoubleSlabModelBlacklist = []
+
+["Player Settings (synced with servers)"]
+	#Which placement method to use to place vertical slabs
+	#This is a per user option and can be any of the following values:
+	#PLACE_WHEN_SNEAKING - Only place vertical slabs when you are sneaking
+	#DYNAMIC - Place vertical slabs when clicking on the side of a block unless you are sneaking and place vertical slabs when sneaking when looking at the top or bottom face of a block but place regular slabs by default
+	#Allowed Values: PLACE_WHEN_SNEAKING, DYNAMIC, KEYBINDING
+	verticalSlabPlacementMethod = "PLACE_WHEN_SNEAKING"
+

@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Dispensers can now place blocks and seeds!"
+    }
+  }

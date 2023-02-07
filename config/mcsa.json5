@@ -1,0 +1,268 @@
+{
+	// Character Armor Spawn Rate
+	"characterArmorSpawnRate": 0,
+	// Stronghold Armor Spawn Rate
+	"strongholdArmorSpawnRate": 0,
+	// Temple Armor Spawn Rate
+	"templeArmorSpawnRate": 0,
+	// Armorer Hero of the Village Gift Rate
+	"hovArmorSpawnRate": 0,
+	// Enable Villager Armor Trades
+	"enableVillagerArmorTrades": false,
+	// Enable Armor Set Bonus Tooltips
+	"enableArmorSetBonusTooltips": true,
+	/* You may wish to disable Infinite Defense in a PvP Environment, as it can be quite powerful.
+	   Adamantine Guard, Adamantine Impervium: Reduce all damage to 10% of incoming damage
+	   Blade Shatter, Swordbreaker: Can only be damaged by non-sword type weapons, axe type weapons do extra damage
+	   Blasting Crew, Magnus Armor: Protection from explosions, reducing damage by half
+	   Dragon Slayer, Dragonsbane: Immunity to the Ender Dragon's breath attack, 25% extra damage to the Ender Dragon
+	   Infinite Defense, Shield of Defense: A high chance to negate all incoming damage from all sources
+	   Liberator of the End, Ender Defender: 50% extra damage to Endermen
+	   Praise the Sun, Golden Goliath: When it is day or a full moon, and you can see the sky, you deal double damage and set enemies on fire. Otherwise, you deal half damage
+	   Redstone Engineering, Redstone Riot: Reduce all damage to 25% of incoming damage
+	   Universal Protection, Star Shield: You can only be damaged by Netherite Weapons
+	*/
+	"enableArmorEffect": {
+		"ADAMANTINE_GUARD": true,
+		"BLADE_SHATTER": true,
+		"BLASTING_CREW": true,
+		"DRAGONSLAYER": true,
+		"INFINITE_DEFENSE": true,
+		"LIBERATOR_OF_THE_END": true,
+		"PRAISE_THE_SUN": true,
+		"REDSTONE_ENGINEERING": true,
+		"UNIVERSAL_PROTECTION": true
+	},
+	"armorStats": {
+		"ADAMANTIUM": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"CHAMPION_PETRA": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"DRAGONSBANE": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.5
+		},
+		"ELLEGAARD": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"ENDER_DEFENDER": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"ENDERMAN_SOREN": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0
+		},
+		"GABRIEL": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"GOLDEN_GOLIATH": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"GOLDEN_GOLIATH_CIRCUITRY": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"HARPERS_HEADSET": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"IVOR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"LUKAS": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"MAGNUS": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"NINJA_IVOR_ARMOR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.5,
+			"knockbackRes": 0.0
+		},
+		"OLIVIA": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"PETRA": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"PRISMARINE": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"REDSTONE_RIOT": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SHIELD_OF_INFINITY": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SOREN": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"STAR_SHIELD": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SWORDBREAKER": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.5
+		},
+		"TIMS_ARMOR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		}
+	}
+}

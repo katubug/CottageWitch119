@@ -1,0 +1,208 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 270
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 196
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-centered
+  x = 80
+  action = movebutton
+  y = 270
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-centered
+  x = -10
+  action = movebutton
+  y = 270
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-centered
+  x = 2
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-centered
+  x = 34
+  action = movebutton
+  y = 270
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 171
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 221
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-centered
+  x = 3
+  action = movebutton
+  y = 221
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = setbuttonlabel
+  value = Host a Server
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-centered
+  x = -56
+  action = movebutton
+  y = 270
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 242
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = fbde6926-01f2-440f-bc1d-6d3c6070360b1669925873478
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
+  y = 340
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 440
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 69673f7c-ac7a-4f80-bf8d-ef6607b68f9e1669925873483
+  y = 362
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 479
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c2767795-7188-44ed-9682-b6b4bfa6e2d21669925873483
+  y = 209
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 239
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5314b433-92fc-43b1-97dc-2d90ddc3dc721669925873483
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #C9A255
+  hidden = false
+  x = 77
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 43d5186a-e09a-4c5c-8034-99a1993de5571669925873483
+  y = 149
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
+  action = addbutton
+  y = 221
+  label = Host a Server
+  value = https://www.akliz.net/cottagewitch
+  height = 20
+}
+
+customization {
+  path = resourcepacks/cottagewitchicontransparent.png
+  orientation = top-centered
+  x = -75
+  width = 150
+  action = addtexture
+  actionid = d7fd42c4-ba14-4c89-ac5b-41b3e1d776e41670271321922
+  y = 13
+  height = 150
+}
+

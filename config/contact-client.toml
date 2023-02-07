@@ -1,0 +1,5 @@
+
+[GUI]
+	#Should show the toast when receive new mail
+	ShowNewMailToast = true
+

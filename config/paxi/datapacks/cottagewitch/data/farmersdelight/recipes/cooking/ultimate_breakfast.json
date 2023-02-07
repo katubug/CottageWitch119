@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:scarlet_cheese_wedge"
+    },
+    {
+      "item": "supplementaries:pancake"
+    },
+    {
+      "item": "create:honey_bucket"
+    },
+    {
+      "item": "farmersdelight:bacon_and_eggs"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "farmersrespite:strong_coffee"
+    }
+  ],
+  "result": {
+    "item": "creative_items:creative_food"
+  },
+  
+  "container": {
+    "item": "create:iron_sheet"
+  },
+  "experience": 1.0,
+  "cookingtime": 10000
+}

@@ -1,0 +1,44 @@
+{
+	id: "60565C961FA658E1"
+	order_index: 2
+	title: "Random Tier 1"
+	loot_size: 10
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 5, weight: 10 }
+		{ item: "minecraft:prismarine_shard", count: 3, only_one: true, weight: 5 }
+		{ item: "ars_nouveau:experience_gem", weight: 25 }
+		{ item: "farmersrespite:coffee", weight: 20 }
+		{ item: "farmersdelight:organic_compost", weight: 10 }
+		{ item: "waystones:warp_scroll", weight: 18 }
+		{
+			item: {
+				id: "hexerei:dried_sage_bundle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{ item: "delightful:cheeseburger", weight: 15 }
+		{ item: "quark:diamond_heart", only_one: true, weight: 5 }
+		{ item: "advancementframes:advancement_frame", weight: 10 }
+		{
+			item: {
+				id: "hexerei:coffer"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "minecraft:quartz", weight: 15 }
+		{ item: "minecraft:amethyst_shard", weight: 8 }
+		{ item: "minecraft:nautilus_shell", weight: 5 }
+		{ item: "create:rose_quartz", count: 4 }
+		{ item: "quark:crab_shell" }
+		{ item: "quark:moss_paste", count: 16 }
+		{ item: "mobcatcher:net" }
+		{ item: "crittersandcompanions:pearl" }
+		{ item: "pipez:basic_upgrade" }
+		{ item: "functionalstorage:copper_upgrade" }
+	]
+}

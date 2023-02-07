@@ -1,0 +1,14 @@
+
+[general]
+	#The X Position of the gauntlet hud (left top). You should be using the in-game gui to change this though
+	#Range: > -2147483648
+	gauntlet_hud_x = -120
+	#The y Position of the gauntlet hud (left top). You should be using the in-game gui to change this though
+	#Range: > -2147483648
+	gauntlet_hud_y = -92
+	#You shouldn't change this. Just don't
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BTM_LEFT, BTM_RIGHT, ABOVE_HOTBAR, FREE_MOVE
+	gauntlet_hud_preset = "FREE_MOVE"
+	#Range: > 1
+	particle_drip_rate = 10
+

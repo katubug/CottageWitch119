@@ -1,0 +1,93 @@
+
+# Common Settings for Swampier Swamps
+[Settings]
+
+	[Settings."Fertile Farmland"]
+		# This can be used to adjust how far away from Water, Fertile Farmland
+		# can turn into Moist Fertile Farmland. Vanilla Farmland uses 4 as its value.
+		#
+		#Range: 1 ~ 8
+		waterRange = 3
+		# The multiplier used to speed up Crop growth.
+		#
+		#Range: 1 ~ 10
+		growthMultiplier = 2
+
+	[Settings."Swamp Gas"]
+		# This can be used to alter how big the Swamp Gas explosions are.
+		#
+		#Range: 1 ~ 10
+		explosionStrength = 6
+		# Whether the Swamp Gas Cloud will give Living Entities negative effects,
+		# when they walk through it (for example Effects like Poison).
+		#
+		givesNegativeEffects = true
+		# This can be used to prevent Swamp Gas from being used as Furnace Fuel.
+		#
+		isFurnaceFuel = true
+		# How long the Swamp Gas fuels a Furnace. (Measured in Ticks)
+		#
+		#Range: 10 ~ 60000
+		burnTime = 4000
+
+	[Settings.Frog]
+		# This can be used to prevent Frogs from becoming "killers" when named Swallow Me Waldo
+		#
+		allowWaldo = true
+		# This value is a Damage multiplier for the "Swallow Me Waldo" Frog, meaning 
+		# the value used will be multiplied with the Waldo Frogs base damage. (10 by Default)
+		# This can get out of hand quickly, so be careful with it. Unless you want a
+		# Frog that can swallow a Wither.
+		#
+		#Range: 1.0 ~ 100.0
+		waldoDamageModifier = 2.0
+
+	[Settings.Brewing]
+		# This can be used to disable all changes done to Brewing by Swampier Swamps, in case
+		# of compatibility issues, or any other reason.
+		# The changes are:
+		# * Altered Leaping Potion Recipe to use Frog Legs instead of Rabbit Paws
+		# + Added Recipe for Luck Potions, crafted with Rabbit Paws
+		#
+		alterRecipes = true
+
+	[Settings."Tree Stuff"]
+		# Used to determine whether Bald Cypress Trees can grow from planting Oak Saplings
+		# in a 2x2 pattern. (Like Big Jungle Trees)
+		# Values:
+		# 0: Disables Bald Cypress growth from Oak Saplings completely
+		# 1: Bald Cypresses only grow from Oak Saplings, in Biomes specified in #can_bald_cypress_grow_in
+		# 2: Enables Bald Cypress growth from Oak Saplings, in all biomes
+		#
+		#Range: 0 ~ 2
+		growBaldCypressFromSaplings = 2
+
+	[Settings."Lily Pad"]
+		# This is used to determine whether Lily Pads break once they reach their final sink stage.
+		# Values:
+		# true: Lily Pads will break
+		# false: Lily Pads wont break, and instead become collision-less (like dripleafs)
+		#
+		doLilyPadsBreak = true
+		# Whether Lily Pads should grow. To be specific, this makes Small Lily Pads grow into
+		# Lily Pads, which grow into Large Lily Pads. And lastly Large Lily Pads create Small
+		# ones around themselves.
+		# Values:
+		# 0: Disables Lily Pad growth completely
+		# 1: Lily Pads only grow in Biomes specified in #can_lily_pad_grow_in
+		# 2: Enables Lily Pad growth in all biomes
+		#
+		#Range: 0 ~ 2
+		shouldLilyPadsGrow = 1
+		# These values control how long it takes for the Lily Pad to advance/reset its sink stage.
+		# This is measured in ticks.
+		#
+		#Range: 1 ~ 200
+		lilyPadSinkTimeStage1 = 5
+		#Range: 1 ~ 200
+		lilyPadSinkTimeStage2 = 5
+		#Range: 1 ~ 200
+		lilyPadSinkTimeStage3 = 10
+		#Range: 1 ~ 200
+		lilyPadResetTime = 20
+
