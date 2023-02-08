@@ -604,12 +604,6 @@
 					value: 1L
 				}
 				{
-					id: "4D3055A27C98EB53"
-					type: "kill"
-					entity: "ambientadditions:scarlet_honeycreeper"
-					value: 1L
-				}
-				{
 					id: "148B4231D30E2A9C"
 					type: "kill"
 					entity: "creeperoverhaul:badlands_creeper"
@@ -1416,6 +1410,114 @@
 					table_id: 8808494820591225409L
 				}
 			]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "octagon"
+			id: "47FD547C85F350BB"
+			tasks: [{
+				id: "5A4778CD78BCEF2C"
+				type: "advancement"
+				advancement: "majruszsaccessories:white_flag"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "octagon"
+			id: "20B71AB01AD6CDE6"
+			tasks: [{
+				id: "54FC2ECD0C25897E"
+				type: "advancement"
+				advancement: "majruszsaccessories:adventurers_guide"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "octagon"
+			id: "28402A0A69E7B8AA"
+			tasks: [{
+				id: "139A3A2EED7DBF24"
+				type: "advancement"
+				advancement: "majruszsaccessories:anglers_trophy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "octagon"
+			id: "2A8267EAD14040DB"
+			tasks: [{
+				id: "0F3385E13DAB381A"
+				type: "advancement"
+				advancement: "majruszsaccessories:certificate_of_taming"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "octagon"
+			id: "0C3C0190EB3C6A5F"
+			tasks: [{
+				id: "79D1E0824D9890A4"
+				type: "advancement"
+				advancement: "majruszsaccessories:overworld_rune"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			shape: "octagon"
+			id: "5D7AFC213FB3DCF8"
+			tasks: [{
+				id: "39C33F1607CC6BAB"
+				type: "advancement"
+				advancement: "majruszsaccessories:idol_of_fertility"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "octagon"
+			id: "76559362F9123020"
+			tasks: [{
+				id: "1E8642D6E089F24A"
+				type: "advancement"
+				advancement: "majruszsaccessories:lucky_rock"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "octagon"
+			id: "17670074E6ECFB57"
+			tasks: [{
+				id: "096A41A47D35EBA4"
+				type: "advancement"
+				advancement: "majruszsaccessories:secret_ingredient"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			shape: "octagon"
+			id: "44FE4CEFBB14CB63"
+			tasks: [{
+				id: "2E11BE21BD1C4CC8"
+				type: "advancement"
+				advancement: "majruszsaccessories:tamed_potato_beetle"
+				criterion: ""
+			}]
 		}
 	]
 	quest_links: [ ]

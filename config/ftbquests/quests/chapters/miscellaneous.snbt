@@ -565,6 +565,29 @@
 				}
 			]
 		}
+		{
+			title: "Take Your Biomes With You"
+			x: -8.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
+				"Right click the &bBiome Jar&r on the ground of the biome you want to take. Wait just long enough to go - \"Is this worki -\""
+				"&l&dBANG!&r Yes, it's working! Once it completes its capture, you can &6right click it&r to pick it back up."
+				"Then, take your jar and &6right click it&r on the area you want to transfer the new biome to."
+			]
+			id: "642A47408175527E"
+			tasks: [{
+				id: "1AFEF35775412EB5"
+				type: "item"
+				item: "biomesinjars:empty_biome_jar"
+			}]
+			rewards: [{
+				id: "4D09F6B82F4DBEC7"
+				type: "item"
+				item: "biomesinjars:empty_biome_jar"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -7,6 +7,32 @@
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.5d
+			y: -8.0d
+			width: 15.0d
+			height: 4.5d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BannerPeonies.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			width: 7.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/HeaderStorage.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Craft a Functional Storage Drawer"

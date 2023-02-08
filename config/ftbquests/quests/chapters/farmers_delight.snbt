@@ -7,6 +7,18 @@
 	icon: "farmersdelight:cooking_pot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -2.5d
+		y: -12.5d
+		width: 10.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/FarmingHeader.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Obtain some seeds"
@@ -42,8 +54,8 @@
 		}
 		{
 			title: "Obtain a Mushroom Colony"
-			x: 1.0d
-			y: -8.5d
+			x: 5.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "So happy together"
 			description: ["Mushroom colonies can be grown in complete darkness using Rich Soil. If you harvest one with shears, you will get the whole colony. Harvest it with your hand and you will get up to 5 mushrooms. Hooray for mush!"]
@@ -184,8 +196,8 @@
 		}
 		{
 			title: "Compact Your Crops"
-			x: 0.5d
-			y: -12.0d
+			x: 4.5d
+			y: -9.0d
 			shape: "hexagon"
 			subtitle: "Crops but compact"
 			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each material in a Crafting Grid&r to obtain a Crate or Bag of it!"]
@@ -241,8 +253,8 @@
 		}
 		{
 			title: "Obtain the New Crops"
-			x: -0.5d
-			y: -10.0d
+			x: 3.5d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "More, give me more"
 			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
@@ -278,8 +290,8 @@
 		}
 		{
 			title: "Overweight Crops"
-			x: -2.5d
-			y: -11.5d
+			x: 1.5d
+			y: -8.5d
 			subtitle: "Everyone loves a chubby carrot"
 			description: [
 				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
@@ -315,8 +327,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -13.0d
+			x: -0.5d
+			y: -10.0d
 			shape: "hexagon"
 			subtitle: "It's called fashion, sweaty, look it up"
 			description: [
@@ -357,8 +369,8 @@
 		}
 		{
 			title: "Peel A Carrot"
-			x: -2.5d
-			y: -13.5d
+			x: 1.5d
+			y: -10.5d
 			shape: "hexagon"
 			description: [
 				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
@@ -476,8 +488,8 @@
 		}
 		{
 			title: "Collect Chubby Crops"
-			x: -1.0d
-			y: -12.5d
+			x: 3.0d
+			y: -9.5d
 			description: ["Gather &6one of each kind of &bOverweight Crop&r, which can be used as decoration, or &6cut on a &bCutting Board&r."]
 			dependencies: ["780D09CCF1A8D814"]
 			id: "34C84EC0EC5B8A2E"
@@ -554,8 +566,8 @@
 		}
 		{
 			title: "Ship Your Crops"
-			x: 0.5d
-			y: -14.0d
+			x: 2.0d
+			y: -5.0d
 			description: [
 				"Have you &6automated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
 				"[Repeatable Quest]"

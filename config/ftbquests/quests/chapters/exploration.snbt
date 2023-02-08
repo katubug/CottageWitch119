@@ -10,7 +10,7 @@
 	images: [
 		{
 			x: 6.0d
-			y: -2.5d
+			y: -1.5d
 			width: 12.5d
 			height: 5.0d
 			rotation: 0.0d

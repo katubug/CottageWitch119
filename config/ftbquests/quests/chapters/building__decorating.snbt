@@ -350,14 +350,14 @@
 			}]
 			rewards: [
 				{
-					id: "4C52D52606B84A2B"
-					type: "item"
-					item: "cozycabincore:glow_berry_lantern"
-				}
-				{
 					id: "53C720388E5D69BE"
 					type: "item"
 					item: "byg:cryptic_lantern"
+				}
+				{
+					id: "1D88CB845EB3BADE"
+					type: "item"
+					item: "supplementaries:brass_lantern"
 				}
 			]
 		}
