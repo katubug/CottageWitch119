@@ -23,13 +23,6 @@
 		{ item: "delightful:cheeseburger", weight: 15 }
 		{ item: "quark:diamond_heart", only_one: true, weight: 5 }
 		{ item: "advancementframes:advancement_frame", weight: 10 }
-		{
-			item: {
-				id: "hexerei:coffer"
-				Count: 1b
-				tag: { }
-			}
-		}
 		{ item: "minecraft:quartz", weight: 15 }
 		{ item: "minecraft:amethyst_shard", weight: 8 }
 		{ item: "minecraft:nautilus_shell", weight: 5 }

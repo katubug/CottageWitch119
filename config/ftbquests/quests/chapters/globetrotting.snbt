@@ -678,6 +678,34 @@
 				table_id: 8808494820591225409L
 			}]
 		}
+		{
+			title: "Find an Underground Village"
+			x: 4.0d
+			y: 0.0d
+			description: ["In this world, not every villager loves the sunlight. &cSubterranean Villages&r may be found rarely throughout the world. You may find them surprisingly unconcerned with their unconventional lifestyle."]
+			dependencies: ["4EE44DF5D0E5BD53"]
+			id: "73836C5FE0C5A1BE"
+			tasks: [{
+				id: "5C61B30DBC372EC7"
+				type: "structure"
+				icon: "minecraft:stone"
+				structure: "underground_villages:underground_village"
+			}]
+			rewards: [
+				{
+					id: "57EFB7854A372224"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+				{
+					id: "4E65C6471D37F233"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

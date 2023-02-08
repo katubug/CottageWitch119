@@ -647,8 +647,8 @@
 			y: -11.5d
 			description: [
 				"For certain recipes you may wish to use &bFluids&r, and for that you'll need &bTanks&r, &bPipes&r, and &bPumps&r."
-				"To test it out, why not &dset up an infinite &bMilk&d source&r? Obtain a &bCow in a Jar&r and place a &bPump&r below it, as well as a &bTank&r to hold the liquid. Power the pump and &6use the Wrench to change the Pump's direction&r."
-				"{image:cottagewitch:textures/cowinajar.png width:150 height:150 align:1}"
+				"To test it out, why not &dset up an infinite &bLava&d source&r? Set up a basic &aLava Generator&r with &bDripstone&r and a &bCauldron&r."
+				"Then, place a &bPump&r and/or some &bFluid Pipes&r beside it, as well as a &bTank&r to hold the liquid. Power the pump and &6use the Wrench to change the Pump's direction&r."
 			]
 			dependencies: ["5859015DE7AD5512"]
 			id: "7AD3F51BD3B16B9F"
@@ -671,20 +671,25 @@
 			]
 			rewards: [
 				{
-					id: "59D4F45224BF8E06"
-					type: "item"
-					item: "cookingforblockheads:milk_jar"
-				}
-				{
-					id: "42DAA5EFC3008D1C"
-					type: "item"
-					item: "minecraft:cow_spawn_egg"
-				}
-				{
 					id: "01442DD22304F5DB"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 1032206960599939459L
+				}
+				{
+					id: "70A31A60AEB45D64"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "0C3BF8B2952352AC"
+					type: "item"
+					item: "minecraft:pointed_dripstone"
+				}
+				{
+					id: "67753934A08B3B1C"
+					type: "item"
+					item: "minecraft:cauldron"
 				}
 			]
 		}

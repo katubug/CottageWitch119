@@ -76,15 +76,15 @@
 		}
 		{
 			title: "Obtain your first Storage Upgrade"
-			x: -2.0d
-			y: -4.0d
+			x: -3.5d
+			y: -4.5d
 			subtitle: "We must have more storage!"
 			description: [
 				"This &bStorage Upgrade&r will &aincrease the amount of items&r your Drawers can hold."
 				"There are multiple tiers of upgrades, which can be used together or mix-and-matched."
 				"Each drawer can accept 7 different upgrades."
 			]
-			dependencies: ["1838DE5E92C9C03F"]
+			dependencies: ["40EDCF93A4E5B1AA"]
 			id: "643038A9E2CA7D59"
 			tasks: [{
 				id: "7206A74D127A4316"
@@ -99,7 +99,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -5.0d
 			y: -5.0d
 			shape: "hexagon"
 			description: ["The &bVoid Upgrade&r is useful if you have a lot of an item importing into your drawers - it will &aautomatically delete&r any items which can't fit in the drawer, preventing your game from getting too laggy."]
@@ -117,7 +117,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
@@ -218,7 +218,7 @@
 		}
 		{
 			title: "Obtain a Golden Apple Crate"
-			x: -5.5d
+			x: -3.5d
 			y: -0.5d
 			shape: "hexagon"
 			subtitle: "Some have crateness thrust upon them"
@@ -245,7 +245,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -3.5d
 			y: 1.5d
 			shape: "hexagon"
 			description: [
@@ -269,13 +269,13 @@
 		}
 		{
 			title: "Obtain a Basket"
-			x: -5.0d
+			x: -3.0d
 			y: 0.5d
 			shape: "hexagon"
 			subtitle: "I wonder if you could play ball with it."
 			description: [
-				"The basket can be used as a chest, but also as a hopper! It has the storage capacity of a chest, and when dropped or thrown items land on top of it, they will automatically go into its inventory."
-				"This means you can place one upside-down above a Stove in order to collect the finished products!"
+				"The &bBasket&r can be used as a chest, but also as a hopper! It has the &astorage capacity of a chest&r, and when dropped or thrown items land on top of it, they will &aautomatically go into its inventory&r."
+				"For example, you could &6place one upside-down&r above a &bStove&r in order to collect the finished products! Or put one at the end of a &bConveyer Belt&r."
 				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
 			]
 			id: "5E3D0655F0A08890"
@@ -571,8 +571,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -2.0d
+			x: -5.0d
+			y: 0.0d
 			shape: "hexagon"
 			description: [
 				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
@@ -591,8 +591,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.0d
+			x: -6.0d
+			y: -1.0d
 			shape: "hexagon"
 			description: [
 				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
@@ -717,6 +717,78 @@
 				id: "235AA9488102A61C"
 				type: "item"
 				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["The &bEnder Drawer&r can be &aattuned to a frequency&a using the &bLinking Tool&r. Any other &bEnder Drawer&r attuned to the same frequency will contain the &asame inventory&r."]
+			dependencies: ["1838DE5E92C9C03F"]
+			id: "08DC47F76CA50E40"
+			tasks: [{
+				id: "49DC0CF8944CB20E"
+				type: "item"
+				item: "functionalstorage:ender_drawer"
+			}]
+			rewards: [{
+				id: "415FF48AEA1DA9CD"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			title: "Lateral Upgrades"
+			x: -4.5d
+			y: -3.0d
+			description: [
+				"The &bCollector Upgrade&r will &apick up items&r dropped nearby."
+				"The &bPulling Upgrade&r will &apull items from a nearby inventory&r."
+				"The &bPushing Upgrade&r will... you guessed it! &aPush items&r to a nearby inventory."
+			]
+			dependencies: ["40EDCF93A4E5B1AA"]
+			id: "2600D0609823A031"
+			tasks: [
+				{
+					id: "3F4C42E0D699F5B1"
+					type: "item"
+					item: {
+						id: "functionalstorage:collector_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+				{
+					id: "0E2C6EDAFD6AEF06"
+					type: "item"
+					item: {
+						id: "functionalstorage:puller_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+				{
+					id: "2359F4FB9AD3B64B"
+					type: "item"
+					item: {
+						id: "functionalstorage:pusher_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "69ECBA42F234DFB9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
 			}]
 		}
 	]

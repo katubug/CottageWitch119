@@ -244,12 +244,30 @@
 					type: "item"
 					item: "prefab:item_carton_of_eggs"
 				}
+				{
+					id: "2C5CCAFE25DA5291"
+					type: "item"
+					item: "collectorsreap:lime_crate"
+				}
+				{
+					id: "09A34C53F2F63CED"
+					type: "item"
+					item: "collectorsreap:pomegranate_crate"
+				}
 			]
-			rewards: [{
-				id: "0A8B138A045BB03E"
-				type: "loot"
-				table_id: 5161092699925703455L
-			}]
+			rewards: [
+				{
+					id: "0A8B138A045BB03E"
+					type: "loot"
+					table_id: 5161092699925703455L
+				}
+				{
+					id: "674A15B3EAEEC114"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
 		}
 		{
 			title: "Obtain the New Crops"
@@ -703,6 +721,67 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Sack Up"
+			x: 5.5d
+			y: -7.5d
+			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
+			dependencies: ["2CA80140F624D0AE"]
+			id: "2973338AB622C5D6"
+			tasks: [
+				{
+					id: "1B1F3AA7E0786E0D"
+					type: "item"
+					item: "delightful:salmonberry_sack"
+				}
+				{
+					id: "4ACD20B0FA4352AE"
+					type: "item"
+					item: "delightful:acorn_sack"
+				}
+				{
+					id: "591F577CDB915FCB"
+					type: "item"
+					item: "farmersrespite:green_tea_leaves_sack"
+				}
+				{
+					id: "58946F323CDABEBC"
+					type: "item"
+					item: "farmersrespite:yellow_tea_leaves_sack"
+				}
+				{
+					id: "10E1654908FAE623"
+					type: "item"
+					item: "farmersrespite:black_tea_leaves_sack"
+				}
+				{
+					id: "301E69DAB8861731"
+					type: "item"
+					item: "quark:cocoa_beans_sack"
+				}
+				{
+					id: "0E7043FAB4B5E3FC"
+					type: "item"
+					item: "quark:nether_wart_sack"
+				}
+				{
+					id: "0571F824465F5029"
+					type: "item"
+					item: "quark:berry_sack"
+				}
+				{
+					id: "35AE1CBDD601223B"
+					type: "item"
+					item: "quark:glowberry_sack"
+				}
+			]
+			rewards: [{
+				id: "380BDD48693BCD8F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
 		}
 	]
 	quest_links: [ ]

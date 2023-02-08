@@ -1295,6 +1295,11 @@
 		{
 			x: -0.5d
 			y: 20.0d
+			description: [
+				"&eSirens&r can be found rarely in &aOcean Biomes&r, and you can obtain their &bShards&r by giving them a &bSea Pickle&r, their favorite snack!"
+				"Use the &bSiren Charm&r on a piece of Prismarine to summon it. &eSirens&r will change color if given &bkelp&r or &bcorals&r."
+				"The &bSiren Shrine&r will generate &afishing loot&r, as long as it is provided with &bSource&r. The &eSirens&r will produce faster if they have lots of aquatic plants and animals to keep them company!"
+			]
 			dependencies: ["518A08681965283A"]
 			id: "5A7582AFC194A690"
 			tasks: [{
@@ -1302,14 +1307,29 @@
 				type: "item"
 				item: "ars_elemental:siren_charm"
 			}]
+			rewards: [{
+				id: "41D9C996B06EE23D"
+				type: "item"
+				item: "ars_elemental:siren_charm"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 20.0d
+			description: [
+				"Unlike the other &bCharms&r, the &eFlarecannon&r's does not require &bShards&r, and can be simply crafted."
+				"The &eFlarecannon&r will &adefend its territory&r much like the &eWeald Walkers&r, by firing homing projectiles at enemies."
+				"You can give them &bSoul Sand&r or &bMagma Blocks&r to change their appearance."
+			]
 			dependencies: ["518A08681965283A"]
 			id: "1E18004CE618CAE6"
 			tasks: [{
 				id: "66A4C54FBEE935C1"
+				type: "item"
+				item: "ars_elemental:firenando_charm"
+			}]
+			rewards: [{
+				id: "6D25A514C023E850"
 				type: "item"
 				item: "ars_elemental:firenando_charm"
 			}]

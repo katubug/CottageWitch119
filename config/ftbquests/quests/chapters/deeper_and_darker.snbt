@@ -4,6 +4,7 @@
 	order_index: 5
 	filename: "deeper_and_darker"
 	title: "Deeper and Darker"
+	icon: "deeperdarker:heart_of_the_deep"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -14,8 +15,8 @@
 			shape: "rsquare"
 			subtitle: "Break on through to the Otherside"
 			description: [
-				"Would you like to explore the &aOtherside&r? It's a dark and dangerous dimension accessible only through the &dportal in Ancient Cities&r. To access it, you'll only need to &6kill the Warden&r. Should be an easy job, right? Of course!"
-				"First, you'll need to find yourself the &dAncient City&r, often signified by the presence of &bSculk&r."
+				"Would you like to explore the &cOtherside&r? It's a dark and dangerous dimension accessible only through the &dportal in Ancient Cities&r. To access it, you'll only need to &6kill the Warden&r. Should be an easy job, right? Of course!"
+				"First, you'll need to find yourself the &cAncient City&r, often signified by the presence of &bSculk&r."
 			]
 			size: 2.0d
 			id: "4C2DDEC05C13A3FB"
@@ -40,7 +41,7 @@
 			y: 4.0d
 			subtitle: "sculking around"
 			description: [
-				"&bSculk&r is the signature block of the &dDeep Dark&r, a biome in which &dAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
+				"&bSculk&r is the signature block of the &cDeep Dark&r, a biome in which &cAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
 				"Where &bSculk&r comes from and what it does is not entirely known... but it is clear that it is &lalive&r."
 			]
 			id: "001E117581BE05D5"
@@ -277,6 +278,22 @@
 					table_id: 5525848455660196930L
 				}
 			]
+		}
+		{
+			title: "Explore the Otherside"
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"The &cOtherside&r is a dark and dangerous place. It's likely you &awon't be able to see&r more than a few feet ahead of you."
+				"Thankfully, the &bWarden Helmet&r will alleviate this issue."
+			]
+			id: "5F0CA7A2F5C478F0"
+			tasks: [{
+				id: "2497633125368050"
+				type: "dimension"
+				icon: "deeperdarker:heart_of_the_deep"
+				dimension: "deeperdarker:otherside"
+			}]
 		}
 	]
 	quest_links: [ ]

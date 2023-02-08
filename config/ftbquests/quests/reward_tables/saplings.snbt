@@ -70,5 +70,16 @@
 		{ item: "byg:orange_oak_sapling" }
 		{ item: "minecraft:mangrove_propagule" }
 		{ item: "quark:ancient_sapling" }
+		{ item: "colorfulazaleas:white_azalea_sapling" }
+		{ item: "colorfulazaleas:orange_azalea_sapling" }
+		{ item: "colorfulazaleas:yellow_azalea_sapling" }
+		{ item: "colorfulazaleas:red_azalea_sapling" }
+		{ item: "colorfulazaleas:blue_azalea_sapling" }
+		{ item: "colorfulazaleas:pink_azalea_sapling" }
+		{ item: "colorfulazaleas:purple_azalea_sapling" }
+		{ item: "caupona:wolfberry_sapling" }
+		{ item: "caupona:fig_sapling" }
+		{ item: "caupona:walnut_sapling" }
+		{ item: "hibernalherbs:myqueste_sapling" }
 	]
 }

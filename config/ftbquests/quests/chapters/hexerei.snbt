@@ -1029,6 +1029,76 @@
 				}
 			]
 		}
+		{
+			x: 0.5d
+			y: -10.5d
+			shape: "hexagon"
+			subtitle: "c'mere buddy!"
+			description: [
+				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
+				"First, you'll need to &6place the &bWhistle&6 and &bBroom&r in a crafting grid&r to bind them. You can &aunbind&r them by &6putting the &bWhistle&r in alone."
+				"Be aware that this &dworks best when your broom is in sight&r. It will try to fly to you, but it's just a broom so it's &anot very smart&r and often gets stuck on things."
+			]
+			dependencies: ["1698226644682207"]
+			id: "1E81D29480889D8F"
+			tasks: [{
+				id: "2D78AAA3E083C1C6"
+				type: "item"
+				item: {
+					id: "hexerei:broom_whistle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3993D0828B9F3030"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			description: ["The &bReplacer Satchel&r is incredibly useful, as it will &areplace broken &bBroom Brushes&r with ones in its inventory, beginning with the &6top left&r."]
+			dependencies: ["02CA3D4397E8BA25"]
+			id: "257F1DCDEC619664"
+			tasks: [{
+				id: "2F5C7EE0FC118025"
+				type: "item"
+				item: "hexerei:replacer_satchel"
+			}]
+			rewards: [{
+				id: "542A82C68F3CC445"
+				type: "item"
+				item: {
+					id: "hexerei:herb_enhanced_broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.0d
+			description: ["The &bEnder Satchel&r is a storage upgrade which &agrants easy access to your Ender Chest inventory!&r."]
+			dependencies: ["02CA3D4397E8BA25"]
+			id: "434E391D87C3EBD9"
+			tasks: [{
+				id: "42B39DD407E13292"
+				type: "item"
+				item: "hexerei:ender_satchel"
+			}]
+			rewards: [{
+				id: "56AFA581A237AA71"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -13,11 +13,73 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.0d
+			y: 2.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/curios.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGArmor.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			width: 10.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGCombat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGItemsMisc.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGWeaponsTools.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Gild Your Netherite Gear"
-			x: -5.0d
-			y: -6.0d
+			x: -4.5d
+			y: 1.5d
 			shape: "pentagon"
 			subtitle: "Gild your loins! Or head, or chest, or..."
 			description: [
@@ -59,8 +121,8 @@
 		}
 		{
 			title: "Obtain a Pickarang"
-			x: -0.5d
-			y: -3.0d
+			x: -1.5d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Seriously this is like the coolest item in the game"
 			description: [
@@ -87,8 +149,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: -4.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "The scale of the universe"
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
@@ -112,8 +174,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "The downside is killing Cindershells"
 			description: [
@@ -139,8 +201,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -4.0d
 			shape: "hexagon"
 			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
 			id: "5A6FD28226BB8695"
@@ -162,8 +224,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.0d
+			x: -2.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Mushie mushie backpack"
 			description: [
@@ -190,7 +252,7 @@
 		}
 		{
 			title: "Lizard Net"
-			x: -1.0d
+			x: -3.5d
 			y: -4.0d
 			shape: "hexagon"
 			subtitle: "You could also use a mob catcher, but where's the fun in that?"
@@ -214,8 +276,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: -3.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "Why do cactus need Totems of Undying?"
 			description: [
@@ -244,8 +306,8 @@
 		}
 		{
 			title: "Make Pearls into Jewelry"
-			x: 1.5d
-			y: -3.0d
+			x: -5.0d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "I know what you're thinking, and no, I'm not saying it"
 			description: [
@@ -274,8 +336,8 @@
 		}
 		{
 			title: "Upgrade your Jewelry"
-			x: 3.0d
-			y: -3.0d
+			x: -4.5d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "Taking it to the next level"
 			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
@@ -301,8 +363,8 @@
 		}
 		{
 			title: "The Ultimate Accessory"
-			x: 4.5d
-			y: -3.0d
+			x: -4.0d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Upgrade your necklace to its final form"
 			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
@@ -327,7 +389,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -4.0d
 			y: -5.0d
 			shape: "hexagon"
 			description: [
@@ -372,8 +434,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -5.0d
+			x: -1.0d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
 			id: "2DEB453D0D763837"
@@ -396,8 +458,8 @@
 		}
 		{
 			title: "About Spawners"
-			x: 2.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "A different kind of farming"
 			description: [
@@ -424,8 +486,8 @@
 		}
 		{
 			title: "Craft a Totem of Undying"
-			x: -1.5d
-			y: -3.0d
+			x: -3.5d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Touhou-tem of Undying"
 			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
@@ -445,8 +507,8 @@
 		}
 		{
 			title: "First Swings of a Sword"
-			x: 0.0d
-			y: -7.5d
+			x: 1.0d
+			y: -13.0d
 			shape: "rsquare"
 			description: [
 				"Prove your mettle by killing...wait, just one &ezombie&r and one &eskeleton&r? That seems pretty easy..."
@@ -476,8 +538,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -8.0d
+			x: 0.0d
+			y: -10.0d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			can_repeat: true
@@ -504,8 +566,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -9.5d
+			x: -2.0d
+			y: -13.0d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			can_repeat: true
@@ -532,8 +594,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -8.0d
+			x: 4.0d
+			y: -12.0d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			can_repeat: true
@@ -559,8 +621,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -10.0d
+			x: -1.0d
+			y: -10.5d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			optional: true
@@ -589,8 +651,8 @@
 		}
 		{
 			title: "Creeper Collector"
-			x: -4.0d
-			y: -9.0d
+			x: -2.0d
+			y: -12.0d
 			shape: "square"
 			subtitle: "Kill one of each Creeper type"
 			description: ["Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"]
@@ -710,8 +772,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -10.0d
+			x: 4.0d
+			y: -13.0d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			can_repeat: true
@@ -743,12 +805,13 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -9.0d
+			x: 3.0d
+			y: -10.5d
 			shape: "square"
 			dependencies: ["43B3A6804B59565E"]
 			optional: true
 			can_repeat: true
+			progression_mode: "flexible"
 			id: "12CC2182B839D954"
 			tasks: [{
 				id: "0A6E74616F39F811"
@@ -770,8 +833,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -5.0d
+			x: -5.0d
+			y: -2.5d
 			shape: "hexagon"
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
@@ -791,12 +854,13 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -9.5d
+			x: 3.0d
+			y: -9.0d
 			shape: "square"
 			description: ["If you manage to defeat 500 &eWither Skeletons&r, then you deserve this reward: a &bWither Skeleton Spawn Egg&r, and a &bSpawner&r to put it in."]
+			hide_dependency_lines: true
 			dependencies: ["43B3A6804B59565E"]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_started"
 			id: "26E8A9DFDC4C1635"
 			tasks: [{
 				id: "04B537DE779D8CE4"
@@ -818,14 +882,14 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -5.0d
+			x: -5.0d
+			y: 0.5d
 			shape: "octagon"
 			description: [
 				"A full set of Netherite Armor takes..."
 				"*counts on fingers*..."
 				"..."
-				"At least four Netherite. Anyway the important thing isn't the math, just go do it and take the reward."
+				"At least four &bNetherite&r. Anyway the important thing isn't the math, just go do it and take the reward."
 			]
 			id: "0AF3D2A62E51E5B2"
 			tasks: [{
@@ -834,16 +898,24 @@
 				advancement: "minecraft:nether/netherite_armor"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "3D70D9793CD88DB3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5161092699925703455L
-			}]
+			rewards: [
+				{
+					id: "3B6DD5B336297788"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+				{
+					id: "0AACAD60BBA977AF"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+					count: 3
+				}
+			]
 		}
 		{
-			x: 2.0d
-			y: -11.5d
+			x: 4.0d
+			y: -14.0d
 			shape: "octagon"
 			description: ["Kill all three &eIllager Magicians&r. Please."]
 			dependencies: ["43B3A6804B59565E"]
@@ -868,8 +940,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -10.5d
+			x: -2.0d
+			y: -14.0d
 			shape: "octagon"
 			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
 			dependencies: ["43B3A6804B59565E"]
@@ -888,8 +960,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -10.5d
+			x: 1.0d
+			y: -9.0d
 			shape: "octagon"
 			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
 			dependencies: ["43B3A6804B59565E"]
@@ -908,8 +980,8 @@
 		}
 		{
 			title: "The Full Set: Warden Armor"
-			x: -4.5d
-			y: -4.0d
+			x: -2.0d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
 			id: "105A64813A4BA847"
@@ -1014,8 +1086,8 @@
 		}
 		{
 			title: "The Full Set: Diamond"
-			x: -4.0d
-			y: -3.0d
+			x: 5.0d
+			y: -5.5d
 			shape: "hexagon"
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
 			id: "306EAF9F6F78ACC1"
@@ -1137,8 +1209,8 @@
 		}
 		{
 			title: "The Full Set: Netherite"
-			x: -3.5d
-			y: -4.0d
+			x: 5.5d
+			y: -4.5d
 			shape: "hexagon"
 			description: ["A full set of &bNetherite Tools&r, well! That's an achievement to be lauded. Congratulations!"]
 			id: "6C413B091C8DBE2A"
@@ -1258,8 +1330,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -10.5d
+			x: 2.0d
+			y: -10.0d
 			shape: "square"
 			description: ["Defeat a horde of &eEndermen&r, take their SKIN and WEAR IT - oh, was that too much? Sorry. I got excited."]
 			dependencies: ["43B3A6804B59565E"]
@@ -1318,8 +1390,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -11.5d
+			x: -1.0d
+			y: -9.0d
 			shape: "square"
 			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bInfinite Dirt Block&r and a &bCreeper Spawn Egg&r. &dDo not craft with the Infinite Dirt block or it will be consumed&r."]
 			dependencies: ["7E36FAC9107093C2"]
@@ -1358,8 +1430,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -2.5d
+			y: -6.0d
 			shape: "hexagon"
 			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
 			id: "3FFC3D4F00661CA9"
@@ -1383,8 +1455,8 @@
 		}
 		{
 			title: "Build a Trident"
-			x: -2.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.5d
 			shape: "hexagon"
 			description: [
 				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
@@ -1412,8 +1484,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 0.5d
+			x: 4.0d
+			y: 1.0d
 			shape: "octagon"
 			id: "47FD547C85F350BB"
 			tasks: [{
@@ -1424,8 +1496,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
+			x: 4.0d
+			y: 3.0d
 			shape: "octagon"
 			id: "20B71AB01AD6CDE6"
 			tasks: [{
@@ -1436,8 +1508,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: 5.0d
+			y: 1.5d
 			shape: "octagon"
 			id: "28402A0A69E7B8AA"
 			tasks: [{
@@ -1448,8 +1520,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.5d
+			x: 6.0d
+			y: 1.0d
 			shape: "octagon"
 			id: "2A8267EAD14040DB"
 			tasks: [{
@@ -1460,8 +1532,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 6.0d
+			y: 2.0d
 			shape: "octagon"
 			id: "0C3C0190EB3C6A5F"
 			tasks: [{
@@ -1472,8 +1544,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: 5.0d
+			y: 2.5d
 			shape: "octagon"
 			id: "5D7AFC213FB3DCF8"
 			tasks: [{
@@ -1484,8 +1556,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.0d
 			shape: "octagon"
 			id: "76559362F9123020"
 			tasks: [{
@@ -1496,8 +1568,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 			shape: "octagon"
 			id: "17670074E6ECFB57"
 			tasks: [{
@@ -1508,8 +1580,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: 5.0d
+			y: 3.5d
 			shape: "octagon"
 			id: "44FE4CEFBB14CB63"
 			tasks: [{
@@ -1517,6 +1589,312 @@
 				type: "advancement"
 				advancement: "majruszsaccessories:tamed_potato_beetle"
 				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			id: "78311C38AC02A32C"
+			tasks: [
+				{
+					id: "1A963A3A00CDCB9E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D155EC73A5FA616"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AA659C76DB35CC8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70B72C634AB9F7BF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3189EC4EF05E0F79"
+					type: "item"
+					item: {
+						id: "minecraft:iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2252548D200A9F04"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Full Set: Iron Armor"
+			x: -1.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bIron Armor&r. Hey, it's better than Leather!"]
+			id: "3B1C91A3CD3EC221"
+			tasks: [
+				{
+					id: "4C91596CF36B309D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D7478CEBC011BDD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06DD8593134C5160"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "592BB6112C0AA480"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "043BAFB961EC4E7B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			id: "6034E62A035F4F68"
+			tasks: [
+				{
+					id: "336A1675A41F1E50"
+					type: "item"
+					item: {
+						id: "delightful:steeleaf_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:smite"
+							}]
+						}
+					}
+				}
+				{
+					id: "31BA0F4F90302E34"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "563AFED6BFA97CAB"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "4A02F9DCC320A0DB"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "411C0A50EB45E944"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "3B8AD95B94A44531"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Full Set: Steeleaf Armor"
+			x: -2.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bSteeleaf Armor&r from the &dTwilight Forest&r."]
+			id: "613C677D2D70278F"
+			tasks: [
+				{
+					id: "01AE8D45AB950B7B"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "07921846B15D7D75"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "46CC19619825F909"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "74DF2D4AD0171E78"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E27634C83CF6ADD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
 			}]
 		}
 	]

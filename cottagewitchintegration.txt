@@ -1,7 +1,6 @@
 Mods to integrate:
 
 TODO: 
-- write descriptions for new Charm quests in Ars Nouveau
 - watch ars nouveau updated guide
 - controls
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
@@ -12,25 +11,17 @@ TODO:
 Alex's Mobs New Stuff
 Ars Elemental
 Ars Instrumentum
-Better Tridents
-Better Villages
-Biomes in Jars
-Overhauled Villages
 Caupona
 Collector's Reap
+Create Central Cooking
 Create Confectionary
 Create Slice and Dice
 Dave's Potioneering
 Deeper and Darker
 Delightful new stuff
 Effortless Building
-Explorer's Compass
 Extended Mushrooms
-FancyMenu redo
-Functional Storage (almost done)
-Gilded Netherite
 Handcrafted
-Heartstone
 Hexerei new stuff
 Hibernal Herbs
 Leap
@@ -57,9 +48,16 @@ Step
 Structory & Towers
 Swampier Swamps
 Tarot Cards?
-Underground Villages
 What Did You Vote For
 
+x Explorer's Compass (made quest)
+x FancyMenu redo (done)
+x Gilded Netherite (made quest)
+x Heartstone (made quest)
+x Underground Villages (made quest)
+x Functional Storage (made quests)
+x Biomes in Jars (made a quest)
+x Better Tridents (made a quest)
 x - minimap settings
 x Create Crystal Clear - made quest
 x Domestication Innovation Wayward Lantern
@@ -74,3 +72,4 @@ x - heart stone recipe rose quartz
 x - remove doors/fences(?) texturepack
 x Custom Villager Professions redo
 x Extreme Sound Muffler?
+x - write descriptions for new Charm quests in Ars Nouveau
