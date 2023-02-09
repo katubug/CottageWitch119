@@ -1812,6 +1812,7 @@
 3844,none,deeperdarker:otherside_deeplands,MONSTER,deeperdarker:sculk_centipede,55,1,3
 3842,none,deeperdarker:otherside_deeplands,MONSTER,deeperdarker:sculk_snapper,80,4,6
 3854,none,deeperdarker:overcast_columns,MONSTER,deeperdarker:sculk_snapper,80,4,4
+3854,none,deeperdarker:overcast_columns,MONSTER,deeperdarker:shattered,50,4,4
 3849,none,deeperdarker:echoing_forest,MONSTER,deeperdarker:shattered,20,0,2
 1174,river,minecraft:river,WATER_AMBIENT,duckling:duck,10,3,4
 197,swamp,minecraft:swamp,CREATURE,duckling:quackling,10,0,1

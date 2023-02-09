@@ -1323,6 +1323,28 @@
 				}
 			]
 		}
+		{
+			title: "Meet the Kiwi"
+			x: -4.0d
+			y: -11.5d
+			shape: "heart"
+			description: ["The lil &eKiwi Bois&r love to &adance to music&r, and can be bred with &bKiwicake!&r"]
+			id: "1B2AEA187AB3D0C9"
+			tasks: [{
+				id: "3BE5E89A1E467365"
+				type: "observation"
+				icon: "kiwiboi:kiwicake"
+				timer: 0L
+				observe_type: 5
+				to_observe: "kiwiboi:kiwi"
+			}]
+			rewards: [{
+				id: "6136E9C32B70A641"
+				type: "item"
+				item: "kiwiboi:kiwicake"
+				count: 2
+			}]
+		}
 	]
 	quest_links: [ ]
 }

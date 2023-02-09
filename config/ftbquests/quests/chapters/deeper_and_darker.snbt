@@ -3,7 +3,7 @@
 	group: "5FB460EFA0A2567E"
 	order_index: 5
 	filename: "deeper_and_darker"
-	title: "Deeper and Darker"
+	title: "Deep Dark"
 	icon: "deeperdarker:heart_of_the_deep"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,12 +37,13 @@
 		}
 		{
 			title: "Sculk Crafting"
-			x: 1.0d
-			y: 4.0d
+			x: -1.0d
+			y: 2.5d
 			description: [
 				"&bSculk&r is the signature block of the &cDeep Dark&r, a biome in which &cAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
 				"Where &bSculk&r comes from and what it does is not entirely known... but it is clear that it is &lalive&r."
 			]
+			dependencies: ["4C2DDEC05C13A3FB"]
 			id: "001E117581BE05D5"
 			tasks: [{
 				id: "2D6833DA8607A66A"
@@ -58,7 +59,7 @@
 		}
 		{
 			title: "Making More Sculk"
-			x: 3.0d
+			x: 0.0d
 			y: 4.0d
 			subtitle: "a catalyst for greatness. or at least sculk."
 			description: ["Once you have obtained &bEcho Shards&r, you can produce your own &bSculk&r and &bSculk Veins&r by &6feeding exp to a &bSculk Catalyst&r, which will &atransform the surrounding blocks&r. The primary method of doing this is to &6slay monsters nearby&r."]
@@ -78,8 +79,8 @@
 		}
 		{
 			title: "Making the Sculk Sensor"
-			x: 4.0d
-			y: 2.5d
+			x: 2.0d
+			y: 4.5d
 			subtitle: "potentially helpful for automation"
 			description: [
 				"&bSculk Sensors&r are cute - and mildly terrifying - beings which will &atransmit a redstone signal when alerted&r. They listen for nearby sounds, such as &afootsteps, blocks placing or breaking, or opening inventories&r."
@@ -100,65 +101,20 @@
 			}]
 		}
 		{
-			title: "Making Shriekers to Summon the Warden"
-			x: 5.0d
-			y: 4.0d
-			subtitle: "eeeeeeeeee"
-			description: [
-				"Normally, the &bSculk Shriekers&r will summon the fearsome &eWarden&r, who will almost invariably end your meagre life."
-				"Perhaps luckily, they do not summon anything in this version. However, if you accept the reward for this quest, it will &dinstantly summon a Warden at your location&r. Accept with caution."
-			]
-			dependencies: ["767A4A04E0D72FBE"]
-			id: "303407F319E2BF90"
-			tasks: [{
-				id: "1CAA46C2097C8918"
-				type: "item"
-				item: "wildbackport:sculk_shrieker"
-				count: 4L
-			}]
-			rewards: [{
-				id: "49964A6FA06E764A"
-				type: "command"
-				command: "/summon wildbackport:warden"
-				player_command: false
-			}]
-		}
-		{
-			x: 6.0d
-			y: 5.5d
-			description: [
-				"Did you fail to defeat the &eWarden&r? Did you accept your reward without looking, and summon it in your base, where it immediately killed you?"
-				"Well, no matter. Check the mark above and accept this reward to summon a second &eWarden&r for you to test your mettle against. &dBe prepared this time&r."
-			]
-			dependencies: ["303407F319E2BF90"]
-			id: "4F78762229480316"
-			tasks: [{
-				id: "16B7769964CE0D29"
-				type: "checkmark"
-				title: "A Second Chance"
-			}]
-			rewards: [{
-				id: "0465E1451DA52AED"
-				type: "command"
-				command: "/summon wildbackport:warden"
-				player_command: false
-			}]
-		}
-		{
 			title: "Defeat the Warden"
-			x: 7.0d
-			y: 4.0d
+			x: 4.5d
+			y: 0.5d
 			shape: "diamond"
 			description: [
 				"The &eWarden&r pulls no punches. It is easily capable of killing the unprepared witch in a single hit, and it is &aincredibly sturdy&r. However, with the right preparation one might be able to face it!"
 				"The &eWarden&r is blind, and will seek out players by &asmell and hearing&r. If it does not detect any players for one minute, it will &aburrow back underground&r."
 			]
-			dependencies: ["303407F319E2BF90"]
+			dependencies: ["2384853DE131A8A7"]
 			id: "386BBE6DCF3DAB78"
 			tasks: [{
-				id: "6A500AE14A43C9FC"
+				id: "710D37620D1E3299"
 				type: "kill"
-				entity: "wildbackport:warden"
+				entity: "minecraft:warden"
 				value: 1L
 			}]
 			rewards: [
@@ -174,17 +130,12 @@
 					exclude_from_claim_all: true
 					table_id: 8891211325592123080L
 				}
-				{
-					id: "02521CDD7995EF97"
-					type: "item"
-					item: "wildbackport:warden_spawn_egg"
-				}
 			]
 		}
 		{
 			title: "An Impossible Task"
-			x: 9.0d
-			y: 4.0d
+			x: 3.0d
+			y: 2.5d
 			shape: "diamond"
 			subtitle: "or is it?"
 			description: [
@@ -194,9 +145,9 @@
 			dependencies: ["386BBE6DCF3DAB78"]
 			id: "450F3E6A4A93E2AA"
 			tasks: [{
-				id: "1F8ECAACE4786D62"
+				id: "38248E59E664A922"
 				type: "kill"
-				entity: "wildbackport:warden"
+				entity: "minecraft:warden"
 				value: 100L
 			}]
 			rewards: [
@@ -280,18 +231,295 @@
 		}
 		{
 			title: "Explore the Otherside"
-			x: 4.0d
+			x: 10.5d
 			y: 0.5d
 			description: [
 				"The &cOtherside&r is a dark and dangerous place. It's likely you &awon't be able to see&r more than a few feet ahead of you."
 				"Thankfully, the &bWarden Helmet&r will alleviate this issue."
 			]
+			dependencies: ["6CB7050DA080301E"]
 			id: "5F0CA7A2F5C478F0"
 			tasks: [{
 				id: "2497633125368050"
 				type: "dimension"
 				icon: "deeperdarker:heart_of_the_deep"
 				dimension: "deeperdarker:otherside"
+			}]
+		}
+		{
+			title: "Craft a Warden Helmet"
+			x: 8.5d
+			y: 0.5d
+			description: [
+				"In order to brave the &cOtherside&r, you will want to be very geared up in general, but the piece of armor you'll need most is the &bWarden Helmet&r."
+				"Aside from its defense and armor toughness, it grants &bimmunity to Darkness&r, allowing you to see."
+			]
+			dependencies: ["77C585EDABB88B3E"]
+			id: "6CB7050DA080301E"
+			tasks: [{
+				id: "67CE3D92E102FE5B"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "594005C455FC1DE9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			title: "The Sculk Network Basics"
+			x: -1.5d
+			y: -3.5d
+			description: [
+				"The first tools you'll need are an &bEmitter&r - to send out items - and a &bReceiver&r - to, well, receive them."
+				"The &bEmitter&r must be &6placed on top of the &bSculk Barrel&r in order to function. The &bSculk Receiver&r, however, can input into &amost basic inventory blocks&r such as Chests, Barrels, and Drawers. It &acannot deposit directly&r into a &bDrawer Controller&r, but you can use &bPipez&r or &bPulling Upgrades&r to withdraw the items into your Drawers."
+			]
+			dependencies: ["4C75E1320C84AD2E"]
+			id: "6A2A797F0DACFD76"
+			tasks: [
+				{
+					id: "55B5278ACFC9C780"
+					type: "item"
+					item: "sculktransporting:sculk_emitter"
+				}
+				{
+					id: "474EA9C110EACF85"
+					type: "item"
+					item: "sculktransporting:sculk_receiver"
+				}
+				{
+					id: "7F59620DF81D4669"
+					type: "item"
+					item: "sculktransporting:sculk_barrel"
+				}
+			]
+			rewards: [{
+				id: "0745515755F89F03"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7062805133306069640L
+			}]
+		}
+		{
+			title: "Speed Modifiers"
+			x: -3.5d
+			y: -3.5d
+			shape: "hexagon"
+			description: ["As you could probably guess, &bSpeed Modifiers&r allow &bEmitters&r and &bReceivers&r to perform their tasks at higher speeds. Do note that &bTransmitters&r work as fast as they can, and can bottleneck transmission."]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "1857993F9598F28C"
+			tasks: [{
+				id: "3EACBA80934E1DA2"
+				type: "item"
+				item: "sculktransporting:speed_modifier_tier_1"
+			}]
+			rewards: [{
+				id: "2DB3160BA9DBCFEC"
+				type: "item"
+				item: "sculktransporting:speed_modifier_tier_1"
+			}]
+		}
+		{
+			title: "Quantity Modifiers"
+			x: -2.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"The different levels of &bQuantity Modifiers&r will allow &bSculk Emitters&r to transfer and store up to &a64 items&r at a time!"
+				"&bReceivers&r and &bTransmitters&r cannot receive these upgrades, but will work with the items sent to them by the &bEmitter&r."
+			]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "4CC2BF8A5B188CB6"
+			tasks: [{
+				id: "3349E7D872224343"
+				type: "item"
+				item: "sculktransporting:quantity_modifier_tier_1"
+			}]
+			rewards: [{
+				id: "7812A0D29CD2542E"
+				type: "item"
+				item: "sculktransporting:quantity_modifier_tier_1"
+			}]
+		}
+		{
+			title: "Extending the Range"
+			x: -1.0d
+			y: -5.0d
+			description: [
+				"By default, &bEmitters&r and &bReceivers&r have to be &awithin 8 blocks of one another&r to function. However, you can &aextend that distance&r by &6placing down Sculk Transmitters&r."
+				"The &bTransmitters&r can also be configured to &aaccept or deny&r certain items placed on their sides. You can &6read more about this&r in the Guidebook."
+			]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "748DCD79DE0DA182"
+			tasks: [{
+				id: "45E10E97F3BFD348"
+				type: "item"
+				item: "sculktransporting:sculk_transmitter"
+			}]
+			rewards: [
+				{
+					id: "62FCB1BAB3CCC701"
+					type: "item"
+					item: "sculktransporting:sculk_transmitter"
+				}
+				{
+					id: "25EBCD7217D7A968"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7062805133306069640L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["4C2DDEC05C13A3FB"]
+			id: "2384853DE131A8A7"
+			tasks: [{
+				id: "47007A2CC7CD820F"
+				type: "advancement"
+				advancement: "deeperdarker:main/locate_ancient_city"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["&bAncient Vases&r are loot containers which can contain &bWarden Carapaces&r in rare instances. This may help you to &acraft the Warden Helmet&r before killing the &eWarden&r."]
+			dependencies: ["2384853DE131A8A7"]
+			id: "352E14C80B863AF3"
+			tasks: [{
+				id: "72F3473498B917FB"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "deeperdarker:ancient_vase"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "19017034A85E9D4F"
+				type: "item"
+				item: "deeperdarker:warden_carapace"
+			}]
+		}
+		{
+			title: "Clear Away the Sculk"
+			x: 6.5d
+			y: 0.5d
+			description: [
+				"In the &cheart of the Ancient City&r there is a &amassive portal&r. In order to use it, you must first &6clear away the &bSculk Veins&r."
+				"Once it's clear, you can &6right click it&r with the &bHeart of the Deep&r to activate it."
+			]
+			dependencies: ["386BBE6DCF3DAB78"]
+			id: "77C585EDABB88B3E"
+			tasks: [{
+				id: "25C516803865C303"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:sculk_vein"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			subtitle: "i'm gey ser"
+			description: ["Encounter a &bGeyser&r, a block which will &aboost you into the air&r and &agrant you Slow Falling&r for a time."]
+			dependencies: ["5F0CA7A2F5C478F0"]
+			id: "27223492884E5638"
+			tasks: [{
+				id: "70D76BE360099AF1"
+				type: "observation"
+				icon: "deeperdarker:geyser"
+				timer: 0L
+				observe_type: 0
+				to_observe: "deeperdarker:geyser"
+			}]
+			rewards: [{
+				id: "36928C0C797ED580"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			id: "292410101F374A38"
+			tasks: [{
+				id: "6656F9B1F1635666"
+				type: "item"
+				item: "deeperdarker:sculk_bone"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			id: "5998F88F411634AE"
+			tasks: [{
+				id: "78DCBDC7E04BA66A"
+				type: "item"
+				item: {
+					id: "deeperdarker:soul_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "rsquare"
+			description: [
+				"Did you know that you can &aTransmit items wirelessly using &bSculk&r? The communications sent along the &amycelial sculk network&r can carry data so complex that it &amanipulates reality&r. Thus, it can take an item from one place and transfer it to another."
+				"To begin with, you'll want a &bGuidebook&r, and to &6harvest some &bSculk&r."
+				"&6Read the chapter \"Gathering Materials\"&r to begin with, to find out what you will need."
+			]
+			size: 2.0d
+			id: "4C75E1320C84AD2E"
+			tasks: [{
+				id: "6710599134EF4787"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sculktransporting:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B78A58555F678E1"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						RepairCost: 2
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
 			}]
 		}
 	]

@@ -1,0 +1,6 @@
+#Enable cooldowns for casting crystals
+enableCooldowns = true
+#Base cooldown for casting crystals. Supports range 0 - 100000 ticks.
+#Range: 0.0 ~ 100000.0
+baseCooldown = 100.0
+

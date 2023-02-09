@@ -502,7 +502,8 @@ var cookedfoods = [
     <item:create_confectionery:ruby_chocolate_glazed_marshmallow>,
     <item:create_confectionery:candy_cane>,
     <item:create:bar_of_chocolate>,
-    <item:ars_nouveau:source_berry_roll>
+    <item:ars_nouveau:source_berry_roll>,
+    <item:spelunkery:grilled_portabella>
 ] as IItemStack[];
 
 for cookedfood in cookedfoods{

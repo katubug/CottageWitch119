@@ -121,8 +121,8 @@
 		}
 		{
 			title: "Obtain a Pickarang"
-			x: -1.5d
-			y: -6.0d
+			x: 6.5d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "Seriously this is like the coolest item in the game"
 			description: [
@@ -149,8 +149,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
+			x: -4.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "The scale of the universe"
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
@@ -390,8 +390,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -5.0d
+			x: 6.0d
+			y: -3.5d
 			shape: "hexagon"
 			description: [
 				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
@@ -2016,8 +2016,8 @@
 		}
 		{
 			title: "A Fisher's Life For Me"
-			x: -2.25d
-			y: -2.25d
+			x: 3.75d
+			y: -3.0d
 			shape: "hexagon"
 			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
 			size: 1.5d
@@ -2282,6 +2282,32 @@
 			}]
 			rewards: [{
 				id: "380D4B7D039DADE3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Protect Yourself from Potions"
+			x: 5.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: ["Ever wished you could &ashield yourself from thrown Potions&r? Well, you can. Just bring your trusty &bUmbrella!&r."]
+			id: "14BCF2740DE93BD2"
+			tasks: [{
+				id: "0EE77DD9D1FEA3A8"
+				type: "item"
+				title: "Any #crafttweaker:umbrellas"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:umbrellas"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D753C0CE2A197A6"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L

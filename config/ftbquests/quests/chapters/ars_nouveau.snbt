@@ -1506,8 +1506,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 16.5d
+			x: -2.5d
+			y: 16.0d
 			description: [
 				"Although charming, &eStarbuncles&r are not the hardiest creatures, and it can be a pain to reinstruct them should something unpleasant happen to them."
 				"Thankfully, the &bScroll of Save Starbuncle&r will &apreserve all their settings&r. Just be sure to &6right click the scroll&r on your Starby after you've finished setting them up!"
@@ -1567,6 +1567,86 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 5036677739913042344L
+			}]
+		}
+		{
+			title: "Starbuncles Carry Liquid!"
+			x: -4.0d
+			y: 19.0d
+			description: ["Equip your &eStarbuncles&r with a &bStarbucket&r to allow them to &atransport fluid back and forth&r. You may wish to store the fluid in a &bFluid Containment Jar&r."]
+			dependencies: ["772E17A1C8332FCA"]
+			id: "0070E0B930AC3ABD"
+			tasks: [
+				{
+					id: "75FA73AF9DB31F22"
+					type: "item"
+					item: "starbunclemania:star_bucket"
+				}
+				{
+					id: "2782F548F3700245"
+					type: "item"
+					item: "starbunclemania:fluid_jar"
+				}
+			]
+			rewards: [{
+				id: "7F3E3D325648191C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2716320750821748806L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 16.5d
+			description: ["The &eStarbuncles&r are capable of taking lessons from &eBookwyrms&r using the &bWyrm Degree&r. Now that they're much smarter, they can &aoperate on only certain sides of their blocks&r."]
+			dependencies: ["772E17A1C8332FCA"]
+			id: "72E1E1A6B5BBAB5D"
+			tasks: [{
+				id: "067E757B16C76CA7"
+				type: "item"
+				item: "starbunclemania:wyrm_degree"
+			}]
+			rewards: [{
+				id: "62545F71F4A34D52"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 15.5d
+			description: [
+				"The &bStarbin&r will allow your &aStarbuncle&r to &adelete items it picks up&r. Be sure to set a filter first!"
+				"You can set a filter by &6preparing an Allow/Deny Scroll&r and &6clicking your Starbuncle&r with it."
+			]
+			dependencies: ["772E17A1C8332FCA"]
+			id: "6870DE7CB25E9C8D"
+			tasks: [{
+				id: "05746F8F8087B4BD"
+				type: "item"
+				item: "starbunclemania:star_bin"
+			}]
+			rewards: [{
+				id: "77E2B17C4EF8C6D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 18.0d
+			description: ["Although it lacks polish, the &bStarddle&r allows you to do what the best of us have only dreamed of: &ariding a giant Starbuncle&r."]
+			dependencies: ["772E17A1C8332FCA"]
+			id: "68F7C83A4EB11B54"
+			tasks: [{
+				id: "71D8A4761735A429"
+				type: "item"
+				item: "starbunclemania:star_saddle"
+			}]
+			rewards: [{
+				id: "0903B8304EA2E6A6"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

@@ -71,7 +71,7 @@
 					player_command: false
 				}
 				{
-					id: "7781C4A7F10CD2AC"
+					id: "5A30AC30D18DF6A3"
 					type: "item"
 					item: {
 						id: "akashictome:tome"
@@ -79,42 +79,56 @@
 						tag: {
 							"akashictome:data": {
 								sculktransporting: {
-									id: "patchouli:guide_book"
 									Count: 1b
+									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "sculktransporting:guide"
 									}
 								}
 								byg: {
+									Count: 1b
 									id: "byg:biomepedia"
+								}
+								create_central_kitchen: {
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "create_central_kitchen:cooking_guide"
 									Count: 1b
 								}
 								ars_nouveau: {
-									id: "ars_nouveau:worn_notebook"
 									Count: 1b
+									id: "ars_nouveau:worn_notebook"
 								}
 								babyfat: {
-									id: "patchouli:guide_book"
 									Count: 1b
+									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "babyfat:the_book_of_baby_fat"
 									}
 								}
 								ftbquests: {
-									id: "ftbquests:book"
 									Count: 1b
+									id: "ftbquests:book"
 								}
 								alexsmobs: {
-									id: "alexsmobs:animal_dictionary"
 									Count: 1b
+									id: "alexsmobs:animal_dictionary"
 								}
 								solsweetpotato: {
-									id: "solsweetpotato:food_book"
 									Count: 1b
+									id: "solsweetpotato:food_book"
 								}
-								caupona: {
+								deeperdarker: {
 									id: "patchouli:guide_book"
 									Count: 1b
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+								caupona: {
+									Count: 1b
+									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "caupona:book"
 									}

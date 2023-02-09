@@ -90,8 +90,8 @@
 		}
 		{
 			title: "Obtain Coffee Beans"
-			x: -0.5d
-			y: -5.0d
+			x: -1.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "coffeecoffeecoffeecoffee"
 			description: [
@@ -120,8 +120,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -3.5d
+			x: -1.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "These rose hips don't lie"
 			description: ["Rose hip tea will grant you a small amount of &aRegeneration&r!"]
@@ -1386,6 +1386,11 @@
 					type: "item"
 					item: "duckling:holiday_fruit_cake"
 				}
+				{
+					id: "72C71A8735FFB4FE"
+					type: "item"
+					item: "kiwiboi:kiwicake"
+				}
 			]
 			rewards: [
 				{
@@ -1401,6 +1406,26 @@
 					table_id: 6951594928314176539L
 				}
 			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "get your azalea in gear"
+			description: ["&bAzalea Tea&r is a delicious way to enjoy the beauty of the Azalea!"]
+			dependencies: ["1266B799DAB9CCC7"]
+			id: "43936FB55988472C"
+			tasks: [{
+				id: "2C0EC7F97028F2F7"
+				type: "item"
+				item: "delightful:azalea_tea"
+			}]
+			rewards: [{
+				id: "0332EB9DA634009A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6951594928314176539L
+			}]
 		}
 	]
 	quest_links: [ ]

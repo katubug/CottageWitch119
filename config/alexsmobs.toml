@@ -23,7 +23,7 @@
 	#Whether dolphins should target flying fish mobs.
 	dolphinsAttackFlyingFish = false
 	#Whether lava can be bottled with a right click of a glass bottle.
-	lavaBottleEnabled = true
+	lavaBottleEnabled = false
 	#Whether bone serpents are neutral or hostile.
 	neutralBoneSerpents = false
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.

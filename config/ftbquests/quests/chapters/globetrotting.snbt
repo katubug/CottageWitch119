@@ -706,6 +706,29 @@
 				}
 			]
 		}
+		{
+			x: -3.5d
+			y: -6.0d
+			shape: "gear"
+			description: ["What an odd statue. Who made these, and for what purpose?"]
+			secret: true
+			id: "38460BA08907533F"
+			tasks: [{
+				id: "75641BA6E29894EE"
+				type: "observation"
+				title: "Find a Moyai"
+				icon: "moyai:moyai"
+				timer: 0L
+				observe_type: 0
+				to_observe: "moyai:moyai"
+			}]
+			rewards: [{
+				id: "44CF601FF41AC953"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

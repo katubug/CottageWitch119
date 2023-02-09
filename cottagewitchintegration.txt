@@ -7,41 +7,43 @@ TODO:
 - twilight forest final boss quest needs editing
 - remove dead bush texturepack
 - desert temples add things to ItemRandomizers
+- redo texturepacks entirely?
+- hibernal herbs redo pounding recipes
+- Loot Integrations
 
 
 Alex's Mobs New Stuff
-Ars Elemental
-Ars Instrumentum
+o Ars Elemental
+o Ars Instrumentum
+o Casting Crystals
 Caupona
-Collector's Reap
-Create Central Cooking
-Create Confectionary
-Create Slice and Dice
-Dave's Potioneering
-Deeper and Darker
-Delightful new stuff
-Handcrafted
-Hibernal Herbs
-Leap
-Loot Integrations
+o Collector's Reap
+o Create Central Cooking
+o Create Confectionary
+o Create Slice and Dice
+o Deeper and Darker
+o Delightful new stuff
+o Handcrafted
+o Hibernal Herbs
+o Leap
 " Enchantments
-More Axolotl Variants
 More Music Discs
-More Villagers
-Moyai
-Nether Depths Update
+o More Villagers
+o Moyai
+o Nether Depths Update
 Pane in the Glass
 Quark Oddities
 Sky Villages
-Soundtrack Discs
-Spelunkery
+o Spelunkery
 Spice of life
-Starbuncle Mania
-Step
+o Starbuncle Mania
+o Step
 Structory & Towers
 Swampier Swamps
-Tarot Cards?
+o Tarot Cards
 
+x Dave's Potioneering
+x Kiwi Boi
 x Luggage
 x Majrusz's Accessories
 x Mystical Oak Tree

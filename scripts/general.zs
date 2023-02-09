@@ -112,7 +112,7 @@ for agadget in addGadgets {
 }
 
 // Akashic Tome Stuff
-var aTomeFull = <item:akashictome:tome>.withTag({"akashictome:data": {sculktransporting: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "sculktransporting:guide"}}, byg: {id: "byg:biomepedia", Count: 1}, ars_nouveau: {id: "ars_nouveau:worn_notebook", Count: 1}, babyfat: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "babyfat:the_book_of_baby_fat"}}, ftbquests: {id: "ftbquests:book", Count: 1}, alexsmobs: {id: "alexsmobs:animal_dictionary", Count: 1}, solsweetpotato: {id: "solsweetpotato:food_book", Count: 1}, caupona: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "caupona:book"}}}});
+var aTomeFull = <item:akashictome:tome>.withTag({"akashictome:data": {sculktransporting: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "sculktransporting:guide"}}, byg: {Count: 1, id: "byg:biomepedia"}, create_central_kitchen: {ForgeCaps: {Parent: {}}, id: "create_central_kitchen:cooking_guide", Count: 1}, ars_nouveau: {Count: 1, id: "ars_nouveau:worn_notebook"}, babyfat: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "babyfat:the_book_of_baby_fat"}}, ftbquests: {Count: 1, id: "ftbquests:book"}, alexsmobs: {Count: 1, id: "alexsmobs:animal_dictionary"}, solsweetpotato: {Count: 1, id: "solsweetpotato:food_book"}, deeperdarker: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "deeperdarker:wanderers_notebook"}}, caupona: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "caupona:book"}}}});
 
 craftingTable.addShapeless("akashicfull", aTomeFull, [<item:minecraft:book>, <item:minecraft:stick>]);
 
@@ -744,4 +744,41 @@ var blends =
 
 for blend in blends{
 craftingTable.remove(blend);
+}
+
+// balance tarot deck curio
+craftingTable.remove(<item:tarotcards:tarot_deck>);
+
+craftingTable.addShaped("tarotdeck", <item:tarotcards:tarot_deck>,
+[
+    [<item:create:golden_sheet>, <item:contact:ender_wrapping_paper>, <item:create:golden_sheet>],
+    [<item:create:golden_sheet>, <item:minecraft:nether_star>, <item:create:golden_sheet>],
+    [<item:create:golden_sheet>, <item:tarotcards:justice>, <item:create:golden_sheet>]
+]);
+
+// Umbrella tags
+
+var umbrellas = [
+    <item:davespotioneering:cyan_umbrella>,
+    <item:davespotioneering:purple_umbrella>,
+    <item:davespotioneering:blue_umbrella>,
+    <item:davespotioneering:brown_umbrella>,
+    <item:davespotioneering:green_umbrella>,
+    <item:davespotioneering:red_umbrella>,
+    <item:davespotioneering:black_umbrella>,
+    <item:davespotioneering:gilded_umbrella>,
+    <item:davespotioneering:aged_umbrella>,
+    <item:davespotioneering:orange_umbrella>,
+    <item:davespotioneering:white_umbrella>,
+    <item:davespotioneering:lime_umbrella>,
+    <item:davespotioneering:yellow_umbrella>,
+    <item:davespotioneering:light_blue_umbrella>,
+    <item:davespotioneering:magenta_umbrella>,
+    <item:davespotioneering:pink_umbrella>,
+    <item:davespotioneering:gray_umbrella>,
+    <item:davespotioneering:light_gray_umbrella>
+] as IItemStack[];
+
+for umbrella in umbrellas{
+    <tag:items:crafttweaker:umbrellas>.add(umbrella);
 }
