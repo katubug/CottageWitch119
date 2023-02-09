@@ -54,11 +54,11 @@
 		}
 		{
 			title: "Obtain a Mushroom Colony"
-			x: 5.0d
+			x: 3.5d
 			y: -5.5d
 			shape: "hexagon"
 			subtitle: "So happy together"
-			description: ["Mushroom colonies can be grown in complete darkness using Rich Soil. If you harvest one with shears, you will get the whole colony. Harvest it with your hand and you will get up to 5 mushrooms. Hooray for mush!"]
+			description: ["Mushroom colonies can be &agrown in complete darkness&r using &bRich Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 mushrooms. Hooray for mush!"]
 			dependencies: ["4930ECD60EA9ED8D"]
 			id: "435BD760D0F2E010"
 			tasks: [{
@@ -781,6 +781,111 @@
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Obtain a Nether Fungus Colony"
+			x: 5.0d
+			y: -6.0d
+			shape: "hexagon"
+			description: ["Similar to their overworld counterparts, &bNether Fungi&r can also be grown in colonies in the same way, except using &bRich Soul Soil&r."]
+			dependencies: ["435BD760D0F2E010"]
+			id: "1E45E829FB9AB50E"
+			tasks: [{
+				id: "4308C515AAC6F0EE"
+				type: "item"
+				title: "Any #crafttweaker:netmushcolony"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:netmushcolony"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D91FD2631D4022C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			description: [
+				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
+				"Once tilled, &bRich Soil&r will &agrant extra growth&r ticks to your plants. It also &acannot be trampled&r, and &adoes not require water&r."
+				"You'll also want it if you're planning on growing any &bMushroom Colonies&r."
+			]
+			dependencies: ["4930ECD60EA9ED8D"]
+			id: "02F91E51E86F71F6"
+			tasks: [
+				{
+					id: "727B56ABB96944F2"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+				{
+					id: "2E1CD7C0732CD9F2"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+				}
+			]
+			rewards: [{
+				id: "01F30CBF19893E1D"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			description: [
+				"Much like its browner brother, &bRich Soul Soil&r is formed of &bSoil Compost&r that has been &aleft adjacent to Lava&r."
+				"You can use it to grow &bNether Crops&r more quickly!"
+			]
+			dependencies: ["02F91E51E86F71F6"]
+			id: "60445E736AE3B5B4"
+			tasks: [
+				{
+					id: "04C5336A8E4F2D84"
+					type: "item"
+					item: "nethersdelight:rich_soul_soil"
+				}
+				{
+					id: "4BFE6D9C74C69930"
+					type: "item"
+					item: "nethersdelight:soul_compost"
+				}
+			]
+			rewards: [{
+				id: "4DBD2CF2969F8A46"
+				type: "item"
+				item: "nethersdelight:soul_compost"
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"The &bMimicarnation&r will spontaneously grow on &bRich Soul Soil&r when it is left &ain complete darkness&r. The &bMimicarnation&r gives off a slight amount of light, and can be crafted into &bMimicream&r, which allows you to &aduplicate items&r."
+				"Because the Mimicarnation gives off light, it &dprevents other Mimicarnations from growing&r, as the Soul Soil is no longer in complete darkness. So remember to harvest often!"
+			]
+			dependencies: ["60445E736AE3B5B4"]
+			id: "3A802819868A3118"
+			tasks: [{
+				id: "449A2A9680F3B0FD"
+				type: "item"
+				item: "nethersdelight:mimicarnation"
+			}]
+			rewards: [{
+				id: "42462A64750BF2F2"
+				type: "item"
+				item: "alexsmobs:mimicream"
 			}]
 		}
 	]

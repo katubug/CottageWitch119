@@ -1057,27 +1057,6 @@
 			}]
 		}
 		{
-			title: "Not Exactly a Pet"
-			x: -5.0d
-			y: -2.5d
-			shape: "hexagon"
-			subtitle: "om nom nom nom"
-			description: [
-				"There are many ways to carry items with you while you adventure, but not all of them are quite as terrifying as a &bLuggage&r. It has little concern for others, and loves to &agobble up dropped items&r. And yet, it's strangely endearing."
-				"You can &6access its inventory with right click&r, and &6pick it up with shift right click&r. It &aretains its inventory&r when picked up, and it cannot die."
-			]
-			id: "0AC47FF8FD45B289"
-			tasks: [{
-				id: "37E8405F8CFB4AB9"
-				type: "item"
-				item: {
-					id: "luggage:luggage"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			title: "Get an Apple for your Straw Golem"
 			x: -3.5d
 			y: 1.0d
@@ -1277,6 +1256,70 @@
 					id: "378CD636A77C1440"
 					type: "item"
 					item: "minecraft:name_tag"
+				}
+			]
+		}
+		{
+			title: "Meet The Sniffer"
+			x: -4.0d
+			y: -7.0d
+			shape: "heart"
+			description: [
+				"The &eSniffer&r is a rather large creature with an &aexcellent sense of smell&r. They are not found in the wild, but instead can be &ahatched from &bSniffer Eggs&r, which are sometimes found in &cOcean Ruins&r."
+				"These peaceful creatures will snuffle around and &adig up seeds&r. Not ancient ones, unfortunately, but regular types of seeds."
+				"They can be &abred with &bBeetroot&r."
+			]
+			id: "3AD2E5835DA311EA"
+			tasks: [{
+				id: "6FFE30D43DDA1E13"
+				type: "observation"
+				icon: "whatareyouvotingfor:sniffer_egg"
+				timer: 0L
+				observe_type: 0
+				to_observe: "whatareyouvotingfor:sniffer"
+			}]
+			rewards: [{
+				id: "2B35E3BA5AEB552A"
+				type: "item"
+				item: "minecraft:beetroot"
+				count: 2
+			}]
+		}
+		{
+			title: "Win a Game of Hide and Seek"
+			x: -3.5d
+			y: -8.5d
+			shape: "octagon"
+			description: [
+				"The &bRascal&r is a lonely creature who dwells in &cMineshafts below y 0&r! What it spends its days doing is a mystery, but one thing is clear: it wants to play!"
+				"If you can &6find the same &eRascal&6 3 times within 15 minutes&r, it will give you a small reward as thanks."
+			]
+			id: "0C7029D3D91202D8"
+			tasks: [{
+				id: "3AC7E8D48402FA59"
+				type: "advancement"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "whatareyouvotingfor:adventure/win_hide_and_seek"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3C1775E08B8E135B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "03D0804CDF60B878"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
 				}
 			]
 		}

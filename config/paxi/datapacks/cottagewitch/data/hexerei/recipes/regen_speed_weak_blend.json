@@ -1,0 +1,25 @@
+{
+    "type": "hexerei:pestle_and_mortar",
+    "ingredients": [
+      {
+        "item": "hibernalherbs:fennkystral"
+      },
+      {
+        "item": "hibernalherbs:pounded_chives"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "hibernalherbs:pounded_ceillis"
+      },
+      {
+        "item": "hibernalherbs:pounded_rosemary"
+      }
+    ],
+    "output": {
+      "item": "hibernalherbs:blend_regen_speed_weak",
+      "count": 1
+    },
+    "grindingTime": 300
+  }

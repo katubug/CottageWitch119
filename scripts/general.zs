@@ -488,16 +488,14 @@ craftingTable.addShaped("ringofenderchest", <item:ring_of_enderchest:ring_of_end
 
 craftingTable.addShapeless("waterlettuce", <item:babyfat:water_lettuce> * 2, [<item:farmersdelight:cabbage>, <item:farmersdelight:rice_panicle>]);
 
-// Mob Catchers
-// TODO - add the new mob items here
-//<item:portablemobs:basic_capture_cell>.addTooltip("Catch mobs! One-time use.");
-//<item:portablemobs:master_capture_cell>.addTooltip("Catch mobs! Multiple uses.");
+// Mob Catcher
+<item:mobcatcher:net>.addTooltip("Catch mobs! Multiple uses.");
 
 
 // Upgrade your Ars Nouveau armors
 
 //Novice to Mage
-
+/*
 craftingTable.addShaped("novicetoappboots", <item:ars_nouveau:apprentice_boots>, [
     [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>],
     [<item:ars_nouveau:blaze_fiber>, <item:ars_nouveau:novice_boots>, <item:ars_nouveau:blaze_fiber>],
@@ -547,7 +545,7 @@ craftingTable.addShaped("apptoarchhead", <item:ars_nouveau:archmage_hood>, [
     [<item:ars_nouveau:end_fiber>, <item:ars_nouveau:apprentice_hood>, <item:ars_nouveau:end_fiber>],
     [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>]
 ]);
-
+*/
 // egg carton to eggs
 
 craftingTable.addShapeless("cartontoegg", <item:minecraft:egg> * 9, [<item:prefab:item_carton_of_eggs>]);
@@ -586,6 +584,7 @@ craftingTable.addShapeless("honeytocomb", <item:minecraft:honeycomb> * 4, [<item
 // Add tags to Mushroom Colonies for quest purposes
 <tag:items:crafttweaker:mushcolony>.add(<item:farmersdelight:red_mushroom_colony>);
 <tag:items:crafttweaker:mushcolony>.add(<item:farmersdelight:brown_mushroom_colony>);
+<tag:items:crafttweaker:mushcolony>.add(<item:collectorsreap:portobello_colony>);
 
 <tag:items:crafttweaker:netmushcolony>.add(<item:nethersdelight:crimson_fungus_colony>);
 <tag:items:crafttweaker:netmushcolony>.add(<item:nethersdelight:warped_fungus_colony>);
@@ -721,4 +720,28 @@ var glassCasings =
 
 for casing in glassCasings{
 <tag:items:crafttweaker:glasscasings>.add(casing);
+}
+
+// Removing Hibernal Herbs crafting recipes so I can add them to the Mortar and Pestle instead
+
+var blends = 
+[
+    <item:hibernalherbs:blend_speed>,
+    <item:hibernalherbs:blend_regeneration>,
+    <item:hibernalherbs:blend_poison>,
+    <item:hibernalherbs:blend_slowness>,
+    <item:hibernalherbs:blend_mining_fatigue>,
+    <item:hibernalherbs:blend_haste>,
+    <item:hibernalherbs:blend_fire>,
+    <item:hibernalherbs:blend_wither>,
+    <item:hibernalherbs:blend_night_vision>,
+    <item:hibernalherbs:blend_weakness>,
+    <item:hibernalherbs:blend_blindness>,
+    <item:hibernalherbs:blend_regen_speed_weak>,
+    <item:hibernalherbs:blend_glowing>,
+    <item:hibernalherbs:blend_regen_slow>
+] as IItemStack[];
+
+for blend in blends{
+craftingTable.remove(blend);
 }

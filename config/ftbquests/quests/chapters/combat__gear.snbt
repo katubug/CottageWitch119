@@ -314,6 +314,7 @@
 				"At times, &eElder Guardians&r will drop &bPearls&r, which can be used to make rather fetching jewelry."
 				"You can also get them from &6feeding Clams to &eOtters&r."
 				"Obtain clams by &afishing&r in rivers, and then &6drop them on the ground&r by some &eOtters&r, and they will &acrack them open for you&r."
+				"These &agrant bonuses&r when held in inventory, but &dcannot be worn as Curios&r."
 			]
 			id: "77E446610B522392"
 			tasks: [
@@ -1085,7 +1086,7 @@
 			]
 		}
 		{
-			title: "The Full Set: Diamond"
+			title: "The Full Set: Diamond Tools"
 			x: 5.0d
 			y: -5.5d
 			shape: "hexagon"
@@ -1208,7 +1209,7 @@
 			]
 		}
 		{
-			title: "The Full Set: Netherite"
+			title: "The Full Set: Netherite Tools"
 			x: 5.5d
 			y: -4.5d
 			shape: "hexagon"
@@ -1484,9 +1485,14 @@
 			]
 		}
 		{
+			title: "White Flag"
 			x: 4.0d
 			y: 1.0d
 			shape: "octagon"
+			description: [
+				"Reduces both &aincoming and &doutgoing&a damage&r."
+				"Bonuses increase and debuffs decrease with effectiveness level."
+			]
 			id: "47FD547C85F350BB"
 			tasks: [{
 				id: "5A4778CD78BCEF2C"
@@ -1494,11 +1500,22 @@
 				advancement: "majruszsaccessories:white_flag"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5BE9A0356326EF9D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Adventurer's Guide"
 			x: 4.0d
 			y: 3.0d
 			shape: "octagon"
+			description: [
+				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "20B71AB01AD6CDE6"
 			tasks: [{
 				id: "54FC2ECD0C25897E"
@@ -1506,11 +1523,22 @@
 				advancement: "majruszsaccessories:adventurers_guide"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "34FD7AD6B6E9FC2F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Angler's Trophy"
 			x: 5.0d
 			y: 1.5d
 			shape: "octagon"
+			description: [
+				"Increases your &aluck while fishing&r."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "28402A0A69E7B8AA"
 			tasks: [{
 				id: "139A3A2EED7DBF24"
@@ -1518,11 +1546,21 @@
 				advancement: "majruszsaccessories:anglers_trophy"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4BC2AE12BE671E2F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 1.0d
 			shape: "octagon"
+			description: [
+				"Improves the stats of &amounts and pets&r."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "2A8267EAD14040DB"
 			tasks: [{
 				id: "0F3385E13DAB381A"
@@ -1530,11 +1568,22 @@
 				advancement: "majruszsaccessories:certificate_of_taming"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5801DE974396B99A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Overworld Rune"
 			x: 6.0d
 			y: 2.0d
 			shape: "octagon"
+			description: [
+				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "0C3C0190EB3C6A5F"
 			tasks: [{
 				id: "79D1E0824D9890A4"
@@ -1542,11 +1591,22 @@
 				advancement: "majruszsaccessories:overworld_rune"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3B90E65FF28AC781"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
 		}
 		{
+			title: "Idol of Fertility"
 			x: 5.0d
 			y: 2.5d
 			shape: "octagon"
+			description: [
+				"Bred animals &asometimes produce twins&r."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "5D7AFC213FB3DCF8"
 			tasks: [{
 				id: "39C33F1607CC6BAB"
@@ -1554,11 +1614,22 @@
 				advancement: "majruszsaccessories:idol_of_fertility"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2542795296DFBBF8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Lucky Rock"
 			x: 4.0d
 			y: 2.0d
 			shape: "octagon"
+			description: [
+				"Occasionally grants &abetter loot while mining&r."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "76559362F9123020"
 			tasks: [{
 				id: "1E8642D6E089F24A"
@@ -1566,11 +1637,22 @@
 				advancement: "majruszsaccessories:lucky_rock"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4713BC72D79D6310"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Secret Ingredient"
 			x: 6.0d
 			y: 3.0d
 			shape: "octagon"
+			description: [
+				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
+				"Bonuses increase and debuffs decrease with effectiveness level."
+			]
 			id: "17670074E6ECFB57"
 			tasks: [{
 				id: "096A41A47D35EBA4"
@@ -1578,11 +1660,22 @@
 				advancement: "majruszsaccessories:secret_ingredient"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "192038D70B752CFA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "Tamed Potato Beetle"
 			x: 5.0d
 			y: 3.5d
 			shape: "octagon"
+			description: [
+				"Occasionally grants &adouble crops&r when harvesting."
+				"Bonuses increase with effectiveness level."
+			]
 			id: "44FE4CEFBB14CB63"
 			tasks: [{
 				id: "2E11BE21BD1C4CC8"
@@ -1590,10 +1683,19 @@
 				advancement: "majruszsaccessories:tamed_potato_beetle"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "02D0FBD2E1820A3E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
 		}
 		{
+			title: "The Full Set: Iron Tools"
 			x: 4.5d
 			y: -4.5d
+			shape: "hexagon"
+			description: ["Full Iron tools! Feels good to make progress, huh? Congrats!"]
 			id: "78311C38AC02A32C"
 			tasks: [
 				{
@@ -1663,6 +1765,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5813058479DED3FA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
 		}
 		{
 			title: "The Full Set: Iron Armor"
@@ -1725,8 +1833,11 @@
 			}]
 		}
 		{
+			title: "The Full Set: Steeleaf Tools"
 			x: 3.5d
 			y: -4.5d
+			shape: "hexagon"
+			description: ["Did you know that &bSteeleaf tools&r come &apre-enchanted when you craft them&r? Pretty cool stuff."]
 			id: "6034E62A035F4F68"
 			tasks: [
 				{
@@ -1820,6 +1931,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7CB7683DA395CAF5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5036677739913042344L
+			}]
 		}
 		{
 			title: "The Full Set: Steeleaf Armor"
@@ -1895,6 +2012,279 @@
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "A Fisher's Life For Me"
+			x: -2.25d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
+			size: 1.5d
+			id: "104D0C28773A1DD4"
+			tasks: [{
+				id: "4B09404FC3251283"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CD84099301CB676"
+				type: "item"
+				item: "netherdepthsupgrade:glowdine_bucket"
+			}]
+		}
+		{
+			title: "The Full Set: Golden Glory"
+			x: -3.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
+			id: "63244E494B2159D8"
+			tasks: [
+				{
+					id: "4431FD9F2261940D"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58294C168F4C9EB9"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74B9321ADDB55D43"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B4FD1700E953829"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69117BF9195BCB02"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E8B34A475718BA8"
+					type: "item"
+					item: {
+						id: "minecraft:golden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EDBB90D229A9112"
+					type: "item"
+					item: {
+						id: "minecraft:golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "559CE8AB53CB8345"
+					type: "item"
+					item: {
+						id: "minecraft:golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77CB6B7159A743CA"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F7B26FCF44E9AC8"
+					type: "item"
+					item: {
+						id: "farmersdelight:golden_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5476C7B9652064BD"
+					type: "item"
+					item: {
+						id: "mcsa:golden_goliath_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DA516992D1BFEAD"
+					type: "item"
+					item: {
+						id: "mcsa:golden_goliath_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A5E08DFAA805D14"
+					type: "item"
+					item: {
+						id: "mcsa:golden_goliath_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26DD0CB2B8A63897"
+					type: "item"
+					item: {
+						id: "mcsa:golden_goliath_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Full Set: Diamond Armor"
+			x: -2.0d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bDiamond Armor&r to keep those cute cheeks of yours safe and sound."]
+			id: "29A6066615C12448"
+			tasks: [
+				{
+					id: "266F1E81111F0488"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C5B71E86C05CB1D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B7DCAEF00E69306"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A894EF10AC95B18"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2E19F4E374E18EE9"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "you're so attractive"
+			description: [
+				"The &bRing of Attraction&r magnetizes you so that &anearby dropped items will be drawn to your inventory&r. It works either held in the inventory or worn as a Curio."
+				"&6Hold the ring and right click&r to toggle its ability on and off (helpful when trying to trade items)."
+			]
+			id: "2A2587ED64E770EA"
+			tasks: [{
+				id: "7E2715BDD6F3E717"
+				type: "item"
+				item: "ring_of_attraction:ring_of_attraction"
+			}]
+			rewards: [{
+				id: "380D4B7D039DADE3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
 			}]
 		}
 	]

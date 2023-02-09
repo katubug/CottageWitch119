@@ -1,0 +1,25 @@
+{
+    "type": "hexerei:pestle_and_mortar",
+    "ingredients": [
+      {
+        "item": "hibernalherbs:chives"
+      },
+      {
+        "item": "hibernalherbs:pounded_chives"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "hibernalherbs:pounded_tarragon"
+      },
+      {
+        "item": "hibernalherbs:pounded_chervil"
+      }
+    ],
+    "output": {
+      "item": "hibernalherbs:blend_blindness",
+      "count": 1
+    },
+    "grindingTime": 300
+  }

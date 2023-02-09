@@ -6,15 +6,56 @@
 	title: "Herbalism"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -1.5d
-		y: -1.5d
-		id: "6B5A17D80DE38763"
-		tasks: [{
-			id: "06E8227C1C4C4382"
-			type: "item"
-			item: "hibernalherbs:pouch"
-		}]
-	}]
+	quests: [
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "6B5A17D80DE38763"
+			tasks: [{
+				id: "06E8227C1C4C4382"
+				type: "item"
+				item: "hibernalherbs:pouch"
+			}]
+		}
+		{
+			title: "Visit a Snowy Plains Biome"
+			x: -1.5d
+			y: -3.0d
+			description: ["&bHibernal herbs&r can be found solely in &cSnowy Plains biomes&r. You can make your way to one by &6searching with the &bNature's Compass&r!"]
+			id: "6D507B10A01132A5"
+			tasks: [{
+				id: "4BADC9B8D6552FEA"
+				type: "biome"
+				biome: "minecraft:snowy_plains"
+			}]
+			rewards: [
+				{
+					id: "40128B81728044C4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6990203354287577879L
+				}
+				{
+					id: "182F4EA483CA85D3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["This probably shouldn't exist."]
+			id: "57CDF6945FBCBC79"
+			tasks: [{
+				id: "4FAAA8BA089E2C38"
+				type: "advancement"
+				icon: "hibernalherbs:blend_regen_slow"
+				advancement: "hibernalherbs:husbandry/resource_blends"
+				criterion: ""
+			}]
+		}
+	]
 	quest_links: [ ]
 }

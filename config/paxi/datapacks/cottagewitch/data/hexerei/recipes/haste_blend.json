@@ -1,0 +1,25 @@
+{
+    "type": "hexerei:pestle_and_mortar",
+    "ingredients": [
+      {
+        "item": "hibernalherbs:marjoram"
+      },
+      {
+        "item": "hibernalherbs:pounded_marjoram"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "hibernalherbs:pounded_chamomile"
+      },
+      {
+        "item": "hibernalherbs:pounded_sorrel"
+      }
+    ],
+    "output": {
+      "item": "hibernalherbs:blend_haste",
+      "count": 1
+    },
+    "grindingTime": 300
+  }

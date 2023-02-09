@@ -51,12 +51,20 @@
 				type: "item"
 				item: "hexerei:book_of_shadows_altar"
 			}]
-			rewards: [{
-				id: "69D122C374973D30"
-				type: "item"
-				item: "hexerei:sage"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "69D122C374973D30"
+					type: "item"
+					item: "hexerei:sage"
+					count: 5
+				}
+				{
+					id: "1D5043A8454E6425"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 578597190891487109L
+				}
+			]
 		}
 		{
 			title: "Craft a Dowsing Rod"
@@ -95,7 +103,7 @@
 			subtitle: "The power of positivity"
 			description: [
 				"&bSelenite&r can only be found in Geodes, located in &aJungle&r or &aSwamp&r Biomes. Selenite is a crystal with powerful purification properties."
-				"In game, it remains mostly decorative, however it can be used to craft the &bNetherite Broom Tip&r."
+				"Selenite can be used to craft the &bNetherite Broom Tip&r, to brew into purifying &bMilk Bottles&r, or to &aclean stained glass&r."
 			]
 			dependencies: ["082D264993F18EDB"]
 			id: "07C5DED85B5B7B31"
@@ -250,12 +258,20 @@
 				type: "item"
 				item: "hexerei:candelabra"
 			}]
-			rewards: [{
-				id: "34689BAE2847DE91"
-				type: "item"
-				item: "minecraft:chain"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "34689BAE2847DE91"
+					type: "item"
+					item: "minecraft:chain"
+					count: 3
+				}
+				{
+					id: "2C2DB4FD1A8ECFC0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 578597190891487109L
+				}
+			]
 		}
 		{
 			title: "Obtain a Pestle and Mortar"
@@ -315,11 +331,19 @@
 				type: "item"
 				item: "hexerei:herb_drying_rack"
 			}]
-			rewards: [{
-				id: "14DC50EE33D19287"
-				type: "item"
-				item: "hexerei:herb_drying_rack_full"
-			}]
+			rewards: [
+				{
+					id: "14DC50EE33D19287"
+					type: "item"
+					item: "hexerei:herb_drying_rack_full"
+				}
+				{
+					id: "064D57C2FD1652D0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 578597190891487109L
+				}
+			]
 		}
 		{
 			title: "Obtain a Sage Burning Plate"
@@ -441,7 +465,7 @@
 			}]
 		}
 		{
-			title: "Obtain a Witch's Robe"
+			title: "Witch's Robe"
 			x: 5.0d
 			y: -6.0d
 			subtitle: "Timelessly stylish, and powerful too"
@@ -1052,12 +1076,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3993D0828B9F3030"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "3993D0828B9F3030"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "1E839B4FFF30D139"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 578597190891487109L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -1093,11 +1125,45 @@
 				type: "item"
 				item: "hexerei:ender_satchel"
 			}]
-			rewards: [{
-				id: "56AFA581A237AA71"
+			rewards: [
+				{
+					id: "56AFA581A237AA71"
+					type: "item"
+					item: "minecraft:ender_chest"
+				}
+				{
+					id: "28F8DDE2D678294D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 578597190891487109L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["Equip your &eCrow&r with this &bAnkh&r to protect it from danger. It will grant it &aRegen&r while it's playing dead, and &aacts as a &bTotem of Undying&r in case the &eCrow&r dies."]
+			dependencies: ["2F933DC876021A85"]
+			id: "0D8DA3376EF50A60"
+			tasks: [{
+				id: "2888E00FB1D4D3D5"
 				type: "item"
-				item: "minecraft:ender_chest"
+				item: "hexerei:crow_ankh_amulet"
 			}]
+			rewards: [
+				{
+					id: "58C876E34099B9F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3444ADFDCFE78AFA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

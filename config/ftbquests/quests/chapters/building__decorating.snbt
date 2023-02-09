@@ -435,27 +435,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -7.5d
-			shape: "hexagon"
-			subtitle: "Despite all my rage, I am still just a...oh you know"
-			description: ["Similar to the &bMob Catcher&r, the &bCage&r can be used to pick up entities. Unfortunately, it is limited only to &asmall mobs&r, but once caught, they can be displayed by &6shift right clicking&r the Cage on the ground. A &6regular right click&r will release the entity."]
-			id: "3E8FF72E90FC4246"
-			tasks: [{
-				id: "4B6618A5DDE2009A"
-				type: "item"
-				item: "supplementaries:cage"
-			}]
-			rewards: [{
-				id: "2BD6F6D8DF231F26"
-				type: "item"
-				item: "supplementaries:cage"
-			}]
-		}
-		{
 			title: "Obtain a Hanging Sign"
-			x: -2.0d
-			y: -7.5d
+			x: -2.5d
+			y: -10.5d
 			shape: "hexagon"
 			subtitle: "It opened up my eyes"
 			description: [
@@ -635,6 +617,22 @@
 				id: "47EEDE998B2D4F94"
 				type: "random"
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			shape: "gear"
+			description: [
+				"One of the mods added is called &lEffortless Building&r. This allows you to build similarly to the way &bBuilding Gadgets&r do, but with a different set of functions."
+				"To access its building types, &6hold left CTRL&r and choose a mode from there. Have fun!"
+			]
+			size: 1.5d
+			id: "10844100547C60EE"
+			tasks: [{
+				id: "65B3CCAA0D9F175F"
+				type: "checkmark"
+				title: "Effortless Building"
 			}]
 		}
 	]

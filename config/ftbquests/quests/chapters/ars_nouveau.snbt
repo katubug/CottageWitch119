@@ -601,7 +601,7 @@
 			title: "Obtain Mage Armor"
 			x: -7.0d
 			y: 9.0d
-			description: ["This armor grants additional &aMana&r, but requires &bBlaze Powder&r in order to enhance the weave."]
+			description: ["This armor grants additional &aMana&r over the basic set."]
 			dependencies: ["7A5533BEA4D6B751"]
 			optional: true
 			id: "43BD92DEB06541F2"
@@ -670,7 +670,7 @@
 			title: "Obtain Archmage Armor"
 			x: -8.5d
 			y: 10.5d
-			description: ["The highest tier armor, this &bArchmage set&r is almost as good as &bNetherite&r, with hefty bonuses to &amana&r. It requires &bPopped Chorus Fruit&r to craft."]
+			description: ["The highest tier armor, this &bArchmage set&r is almost as good as &bNetherite&r, with hefty bonuses to &amana&r."]
 			dependencies: ["43BD92DEB06541F2"]
 			id: "1D9FDA3FA050DBEA"
 			tasks: [
@@ -1503,6 +1503,70 @@
 				id: "59E05CDC96C5EAE7"
 				type: "item"
 				item: "ars_nouveau:starbuncle_shards"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 16.5d
+			description: [
+				"Although charming, &eStarbuncles&r are not the hardiest creatures, and it can be a pain to reinstruct them should something unpleasant happen to them."
+				"Thankfully, the &bScroll of Save Starbuncle&r will &apreserve all their settings&r. Just be sure to &6right click the scroll&r on your Starby after you've finished setting them up!"
+			]
+			dependencies: ["772E17A1C8332FCA"]
+			id: "1C29A869EC894801"
+			tasks: [{
+				id: "78A4B1CE7764E797"
+				type: "item"
+				item: {
+					id: "ars_instrumentum:scroll_of_save_starbuncle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "787058777C0C6747"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2716320750821748806L
+				}
+				{
+					id: "5BCCDEFA1F3D8323"
+					type: "item"
+					item: {
+						id: "ars_nouveau:starby_gift"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Multiple Sets At Once"
+			x: -4.5d
+			y: 7.5d
+			description: [
+				"There are so many options for &bmagely gear&r... How can you choose? Well, you may not have to!"
+				"The &bWizard's Armarium&r is a &aBelt curio&r which can contain up to &athree sets of armor&r and even &ahotbar items&r for you to swap on the fly."
+				"By default, you'll &6press 0&r to bring up a radial wheel of armor sets. But &dfirst you need to load the Armarium&r with gear."
+				"To begin, &6equip your robes and set up your hotbar&r. Then, open the radial and &6select the slot&r to save them to. Open your radial again, and &6switch to a different slot&r. Equip your second set of armor and then &6repeat the previous&r steps until all 3 slots are filled. Now, you can &aeasily swap between them&r using the radial."
+			]
+			dependencies: ["7A5533BEA4D6B751"]
+			id: "6166CCA185DDB9F1"
+			tasks: [{
+				id: "39E77CA4B1740E5B"
+				type: "item"
+				item: {
+					id: "ars_instrumentum:wizards_armarium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "65F63438E276DB0C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5036677739913042344L
 			}]
 		}
 	]

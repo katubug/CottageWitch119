@@ -19,5 +19,14 @@
 		{ item: "minecraft:axolotl_bucket" }
 		{ item: "alexsmobs:potted_flutter" }
 		{ item: "minecraft:tadpole_bucket" }
+		{ item: "netherdepthsupgrade:soulsucker_bucket" }
+		{ item: "netherdepthsupgrade:glowdine_bucket" }
+		{ item: "netherdepthsupgrade:magmacubefish_bucket" }
+		{ item: "netherdepthsupgrade:blazefish_bucket" }
+		{ item: "netherdepthsupgrade:wither_bonefish_bucket" }
+		{ item: "netherdepthsupgrade:bonefish_bucket" }
+		{ item: "netherdepthsupgrade:searing_cod_bucket" }
+		{ item: "netherdepthsupgrade:obsidianfish_bucket" }
+		{ item: "netherdepthsupgrade:lava_pufferfish_bucket" }
 	]
 }

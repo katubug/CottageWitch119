@@ -6,6 +6,7 @@ TODO:
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
 - twilight forest final boss quest needs editing
 - remove dead bush texturepack
+- desert temples add things to ItemRandomizers
 
 
 Alex's Mobs New Stuff
@@ -19,26 +20,18 @@ Create Slice and Dice
 Dave's Potioneering
 Deeper and Darker
 Delightful new stuff
-Effortless Building
-Extended Mushrooms
 Handcrafted
-Hexerei new stuff
 Hibernal Herbs
 Leap
 Loot Integrations
-Luggage (meet lightning luggage quest)
-Majrusz's Accessories (begun)
 " Enchantments
 More Axolotl Variants
 More Music Discs
 More Villagers
 Moyai
-Mystical Oak Tree
 Nether Depths Update
 Pane in the Glass
 Quark Oddities
-Ring of Attraction
-Sculk Transporting?
 Sky Villages
 Soundtrack Discs
 Spelunkery
@@ -48,8 +41,16 @@ Step
 Structory & Towers
 Swampier Swamps
 Tarot Cards?
-What Did You Vote For
 
+x Luggage
+x Majrusz's Accessories
+x Mystical Oak Tree
+x Ring of Attraction
+x Sculk Transporting
+x What Did You Vote For
+x Hexerei new stuff (added quests)
+x Effortless Building (added quest)
+x Extended Mushrooms (added into another quest - could potentially add a quest for fairy ring crafting but idk how that works)
 x Explorer's Compass (made quest)
 x FancyMenu redo (done)
 x Gilded Netherite (made quest)

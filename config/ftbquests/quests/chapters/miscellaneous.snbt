@@ -63,21 +63,36 @@
 		}
 		{
 			title: "Save your EXP"
-			x: -2.5d
-			y: -4.5d
+			icon: "spelunkery:carved_nephrite"
+			x: -2.25d
+			y: -6.75d
 			shape: "hexagon"
 			subtitle: "Unfortunately not the experience you can put on your resume"
 			description: [
 				"A piece of &bCarved Nephrite&r allows you to store your Experience in a network, to prevent it being lost or reduced on death. Connect multiple &bCarved Nephrite&r together to store even more."
 				"It also allows you to &ashare experience with others&r!"
 				"Additionally, you can store up to 30 levels in a &bNephrite Ring&r."
+				"Stand on the &bSiphon&r to drain your EXP, and activate the &bFountain&r to shower yourself in it."
 			]
+			size: 1.5d
 			id: "4FA002CF34586849"
-			tasks: [{
-				id: "3976A5AEC45B2235"
-				type: "item"
-				item: "spelunkery:carved_nephrite"
-			}]
+			tasks: [
+				{
+					id: "3976A5AEC45B2235"
+					type: "item"
+					item: "spelunkery:carved_nephrite"
+				}
+				{
+					id: "225EF7CF0E054D0C"
+					type: "item"
+					item: "spelunkery:nephrite_siphon"
+				}
+				{
+					id: "0FFBEF5A58FD1F68"
+					type: "item"
+					item: "spelunkery:nephrite_spout"
+				}
+			]
 			rewards: [
 				{
 					id: "61FBF6F5B8DEAB11"
@@ -371,6 +386,7 @@
 			x: -7.0d
 			y: -5.5d
 			shape: "hexagon"
+			subtitle: "Despite all my rage, I am still just a...oh you know"
 			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
 			dependencies: ["1E6176C9919F1D06"]
 			id: "2AD60B373912C5A4"
@@ -379,12 +395,19 @@
 				type: "item"
 				item: "supplementaries:cage"
 			}]
-			rewards: [{
-				id: "0A6CFBB3D1DD0E2C"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "0A6CFBB3D1DD0E2C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "7BB2F04536C0D59E"
+					type: "item"
+					item: "supplementaries:cage"
+				}
+			]
 		}
 		{
 			x: -7.0d

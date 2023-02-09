@@ -1122,6 +1122,41 @@
 					type: "item"
 					item: "minecraft:warped_fungus"
 				}
+				{
+					id: "49C5309778C69B0A"
+					type: "item"
+					item: "extendedmushrooms:honey_fungus"
+				}
+				{
+					id: "232E31DB413BD7CF"
+					type: "item"
+					item: "extendedmushrooms:slime_fungus"
+				}
+				{
+					id: "0A0A225B2F884D0F"
+					type: "item"
+					item: "extendedmushrooms:poisonous_mushroom"
+				}
+				{
+					id: "0666ED2501985835"
+					type: "item"
+					item: "extendedmushrooms:glowshroom"
+				}
+				{
+					id: "7C336275B87713BE"
+					type: "item"
+					item: "spelunkery:button_mushroom"
+				}
+				{
+					id: "7C5EEF479F30202C"
+					type: "item"
+					item: "spelunkery:white_inkcap_mushroom"
+				}
+				{
+					id: "7FF0C3263CC3A2E6"
+					type: "item"
+					item: "spelunkery:inkcap_mushroom"
+				}
 			]
 			rewards: [
 				{
@@ -1379,22 +1414,10 @@
 					}
 				}
 				{
-					id: "3A7D329E9FB90B42"
-					type: "item"
-					item: {
-						id: "creative_items:creative_item"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							InnerItem: {
-								id: "minecraft:grass_block"
-								Count: 1b
-							}
-							display: {
-								Name: "{\"text\":\"Infinite Grass\"}"
-							}
-						}
-					}
+					id: "4177C6F44B86C87A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5525848455660196930L
 				}
 			]
 		}
@@ -1424,135 +1447,6 @@
 					table_id: 7049021818423122779L
 				}
 			]
-		}
-		{
-			title: "Stack the Rainbow"
-			x: -6.0d
-			y: -1.0d
-			shape: "hexagon"
-			subtitle: "reading rainbowwww"
-			description: ["Obtain a full stack of each color of wool to be granted an &bUnbreakable pair of Shears&r."]
-			dependencies: ["3F5F93D7191952F9"]
-			id: "7DDC2384B5DA5C68"
-			tasks: [
-				{
-					id: "631A0EC1CAEC035B"
-					type: "item"
-					item: "minecraft:white_wool"
-					count: 64L
-				}
-				{
-					id: "19D64CEF060824E5"
-					type: "item"
-					item: "minecraft:orange_wool"
-					count: 64L
-				}
-				{
-					id: "25D1A641537BC306"
-					type: "item"
-					item: "minecraft:magenta_wool"
-					count: 64L
-				}
-				{
-					id: "331278B834C0CC3D"
-					type: "item"
-					item: "minecraft:light_blue_wool"
-					count: 64L
-				}
-				{
-					id: "3DF2EDB875D5AC80"
-					type: "item"
-					item: "minecraft:yellow_wool"
-					count: 64L
-				}
-				{
-					id: "7BB93E6CCD119D7A"
-					type: "item"
-					item: "minecraft:lime_wool"
-					count: 64L
-				}
-				{
-					id: "11B1903E1B29FC1D"
-					type: "item"
-					item: "minecraft:pink_wool"
-					count: 64L
-				}
-				{
-					id: "41D356452EE466B2"
-					type: "item"
-					item: "minecraft:gray_wool"
-					count: 64L
-				}
-				{
-					id: "0202099B907717C5"
-					type: "item"
-					item: "minecraft:light_gray_wool"
-					count: 64L
-				}
-				{
-					id: "5F09C4ADAB2FEF2F"
-					type: "item"
-					item: "minecraft:cyan_wool"
-					count: 64L
-				}
-				{
-					id: "4F78867BCD40F6DA"
-					type: "item"
-					item: "minecraft:purple_wool"
-					count: 64L
-				}
-				{
-					id: "3ED7B92EFB2DDA8F"
-					type: "item"
-					item: "minecraft:blue_wool"
-					count: 64L
-				}
-				{
-					id: "2D36F932C03B60AF"
-					type: "item"
-					item: "minecraft:brown_wool"
-					count: 64L
-				}
-				{
-					id: "12A748B08ECA3F75"
-					type: "item"
-					item: "minecraft:green_wool"
-					count: 64L
-				}
-				{
-					id: "29CC2F411F8BA689"
-					type: "item"
-					item: "minecraft:red_wool"
-					count: 64L
-				}
-				{
-					id: "6D102B073AF1316C"
-					type: "item"
-					item: "minecraft:black_wool"
-					count: 64L
-				}
-			]
-			rewards: [{
-				id: "02CD77D77C606BE1"
-				type: "item"
-				item: {
-					id: "creative_items:creative_item"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						InnerItem: {
-							id: "minecraft:shears"
-							Count: 1b
-							tag: {
-								Damage: 0
-							}
-						}
-						display: {
-							Name: "{\"text\":\"Ultimate Shears\"}"
-						}
-					}
-				}
-			}]
 		}
 		{
 			title: "Flower Picking: Lime"
@@ -1687,6 +1581,11 @@
 					id: "6E8DFC017382CBDE"
 					type: "item"
 					item: "byg:snowdrops"
+				}
+				{
+					id: "387D4992440A76B1"
+					type: "item"
+					item: "nethersdelight:mimicarnation"
 				}
 			]
 			rewards: [{
