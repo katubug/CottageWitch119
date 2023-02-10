@@ -1,0 +1,24 @@
+{
+	id: "40599114BE37F105"
+	order_index: 22
+	title: "Witchy Herbs"
+	loot_size: 5
+	rewards: [
+		{ item: "hibernalherbs:rosemary" }
+		{ item: "hibernalherbs:thyme" }
+		{ item: "hibernalherbs:tarragon" }
+		{ item: "hibernalherbs:chamomile" }
+		{ item: "hibernalherbs:chives" }
+		{ item: "hibernalherbs:verbena" }
+		{ item: "hibernalherbs:bloforia" }
+		{ item: "hibernalherbs:sorrel" }
+		{ item: "hibernalherbs:fennkystral" }
+		{ item: "hibernalherbs:thyocielle" }
+		{ item: "hibernalherbs:essitte" }
+		{ item: "hibernalherbs:punuel" }
+		{ item: "hibernalherbs:ceillis" }
+		{ item: "hibernalherbs:fennsel" }
+		{ item: "hibernalherbs:chervil" }
+		{ item: "hibernalherbs:marjoram" }
+	]
+}

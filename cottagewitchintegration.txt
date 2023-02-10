@@ -4,18 +4,16 @@ TODO:
 - watch ars nouveau updated guide
 - controls
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
-- twilight forest final boss quest needs editing
 - remove dead bush texturepack
 - desert temples add things to ItemRandomizers
 - redo texturepacks entirely?
-- hibernal herbs redo pounding recipes
 - Loot Integrations
+- sell rare Alex items via NPC
 
-
-Alex's Mobs New Stuff
+new enchantments
+o Alex's Mobs New Stuff
 o Ars Elemental
 o Ars Instrumentum
-o Casting Crystals
 Caupona
 o Collector's Reap
 o Create Central Cooking
@@ -24,24 +22,23 @@ o Create Slice and Dice
 o Deeper and Darker
 o Delightful new stuff
 o Handcrafted
-o Hibernal Herbs
-o Leap
-" Enchantments
-More Music Discs
 o More Villagers
-o Moyai
 o Nether Depths Update
-Pane in the Glass
 Quark Oddities
 Sky Villages
 o Spelunkery
 Spice of life
 o Starbuncle Mania
-o Step
 Structory & Towers
-Swampier Swamps
 o Tarot Cards
+o Useful Slime
 
+x Moyai
+x twilight forest final boss quest needs editing
+x hibernal herbs redo pounding recipes
+x Dungeons Plus
+x Casting Crystals
+x Hibernal Herbs
 x Dave's Potioneering
 x Kiwi Boi
 x Luggage

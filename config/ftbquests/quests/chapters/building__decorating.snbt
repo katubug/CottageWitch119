@@ -635,6 +635,44 @@
 				title: "Effortless Building"
 			}]
 		}
+		{
+			title: "Trophy Unlocked"
+			x: -3.5d
+			y: -10.5d
+			shape: "hexagon"
+			subtitle: "get them cheevos"
+			description: [
+				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
+				"Well, why not &adecorate your house with these attractive trophies&r."
+				"(only some animals were hurting in the making of this quest)"
+			]
+			id: "30C8AAFCE9EB2BA6"
+			tasks: [{
+				id: "63B16A64CB3AE4F8"
+				type: "item"
+				title: "Any #handcrafted:trophies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "handcrafted:trophies"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AF7A77B8BA198C8"
+					type: "item"
+					item: "handcrafted:goat_trophy"
+				}
+				{
+					id: "67E449FE6C744545"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

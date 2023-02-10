@@ -895,8 +895,8 @@
 		}
 		{
 			title: "Special Jars"
-			x: -4.0d
-			y: 11.0d
+			x: -3.5d
+			y: 10.0d
 			shape: "hexagon"
 			description: [
 				"These two &bJars&r each have a unique effect."
@@ -1647,6 +1647,35 @@
 				id: "0903B8304EA2E6A6"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			shape: "hexagon"
+			description: [
+				"A &bCasting Crystal&r is an item which can have a &aspell bound to it&r, and then you can &6equip it as a Curio&r, and access its spell via a hotkey."
+				"You can &awear up to three&r of these, and by default they are accessible with &6CTRL+1-3&r."
+			]
+			dependencies: ["1300FBB6DF2AF01A"]
+			id: "068E6BE3B5F01460"
+			tasks: [{
+				id: "2F1284F4302FDD13"
+				type: "item"
+				item: {
+					id: "casting_crystals:casting_crystal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3CEFCECBECFC5E0D"
+				type: "item"
+				item: {
+					id: "casting_crystals:casting_crystal"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

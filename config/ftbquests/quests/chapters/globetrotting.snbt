@@ -514,15 +514,15 @@
 					count: 5
 				}
 				{
-					id: "3460F0ECDD3C2760"
-					type: "item"
-					item: "infernalexp:glowcoal"
-					count: 10
-				}
-				{
 					id: "2FE51B1FF80A35BD"
 					type: "item"
 					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "721CB83DCAA08ED6"
+					type: "item"
+					item: "nethersdelight:rich_soul_soil"
+					count: 4
 				}
 			]
 		}
@@ -727,6 +727,201 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Find the Tower"
+			x: -1.0d
+			y: -7.0d
+			shape: "rsquare"
+			description: ["The beginning of your journey should bring you to a &cTower&r, looming over the surrounding lands. Found most often in plains, forests, and mountains, these Towers &ahold countless treasures&r, as well as a &bmap to the next dungeon...&r"]
+			size: 2.0d
+			id: "4609AFE9E0472C33"
+			tasks: [{
+				id: "11E9F72AB87C443C"
+				type: "structure"
+				icon: "sootychimneys:stone_brick_chimney"
+				structure: "dungeons_plus:tower"
+			}]
+			rewards: [
+				{
+					id: "3683E9952A47BC36"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C8D30CDE65940A4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			title: "Reanimated Ruins"
+			x: -2.0d
+			y: -9.0d
+			description: ["There are &athree types&r of &cReanimated Ruins&r. Which one you complete will determine which &anew map you unlock&r. You only need to find one to complete this quest, but if you wish to &aobtain all the unique artifacts&r, you'll need to &6seek out more ruins&r!"]
+			dependencies: ["4609AFE9E0472C33"]
+			hide: true
+			min_required_tasks: 1
+			id: "2BAEDCFF3F99C4F0"
+			tasks: [
+				{
+					id: "6086759FD812A744"
+					type: "structure"
+					icon: "minecraft:packed_ice"
+					structure: "dungeons_plus:reanimated_ruins_frozen"
+				}
+				{
+					id: "762A05754DC14DD2"
+					type: "structure"
+					icon: "minecraft:orange_terracotta"
+					structure: "dungeons_plus:reanimated_ruins_mesa"
+				}
+				{
+					id: "03911AC94BE7F62F"
+					type: "structure"
+					icon: "minecraft:mossy_cobblestone"
+					structure: "dungeons_plus:reanimated_ruins_mossy"
+				}
+			]
+			rewards: [{
+				id: "57DE25BD90FCE4B5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Leviathan"
+			x: -3.5d
+			y: -10.5d
+			description: ["The journals from which I discovered these dungeons had this to say: \"This &cancient skeleton&r can be found in &cdeserts&r and hides a secret beneath. Explore the ancient temple and &afind the treasures that rest within&r. Legend has it that this is where the &bLeviathan Blade&r resides. Along with treasure, the &ehusks&r that spawn here are &acapable of dropping &bsand&r with their normal loot.\""]
+			dependencies: ["2BAEDCFF3F99C4F0"]
+			hide: true
+			id: "4E1F4BA7F58DCAC8"
+			tasks: [{
+				id: "71AD2757683D2F7B"
+				type: "structure"
+				icon: {
+					id: "dungeons_plus:leviathan_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_plus:leviathan"
+			}]
+			rewards: [{
+				id: "7D9637E587B850EA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Snowy Temple"
+			x: -2.0d
+			y: -11.5d
+			subtitle: "not to be confused with shirley temple"
+			description: ["The journals from which I discovered these dungeons had this to say: \"This &cabandoned temple of old&r has long since been taken over by &eStrays&r. At the top, you’ll find the &bFrosted Cowl&r to aid you in your combat. Strays spawned within this structure &acan drop &bice&r, or rarely &bpacked ice&r, on death, and they’re the only mob allowed to spawn inside.\""]
+			dependencies: ["2BAEDCFF3F99C4F0"]
+			hide: true
+			id: "7185E4EBAB87EBF0"
+			tasks: [{
+				id: "3B0BEB2BDEFCC616"
+				type: "structure"
+				icon: {
+					id: "dungeons_plus:frosted_cowl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_plus:snowy_temple"
+			}]
+			rewards: [{
+				id: "2B0CD5A4F4486412"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Warped Garden"
+			x: -0.5d
+			y: -10.5d
+			subtitle: "it's not in the nether"
+			description: ["The journals from which I discovered these dungeons had this to say: \"This shell of an &cundersea town&r is home to many axe-wielding &edrowned&r and provides a renewable source of &bcoral blocks&r. Weapons from a time forgotten, such as the &bWarped Axe&r, can still be found inside.\""]
+			dependencies: ["2BAEDCFF3F99C4F0"]
+			hide: true
+			id: "24BA87E903CB3B76"
+			tasks: [{
+				id: "5ADBC4B95F8A71DB"
+				type: "structure"
+				icon: {
+					id: "dungeons_plus:warped_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_plus:warped_garden"
+			}]
+			rewards: [{
+				id: "106473AF417CA37A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "End Ruins"
+			x: 1.0d
+			y: -9.5d
+			description: ["The journals from which I discovered these dungeons had this to say: \"Once you defeat the dragon and gain access to the &couter islands&r, you may be lucky enough to find this &cdilapidated structure&r. There isn’t much loot inside, but at the top of the tower, you can find a &bdragon egg&r. Be careful though, the &eendermen&r inside &aaren’t quite as peaceful&r as the ones outside of the structure.\""]
+			dependencies: ["4609AFE9E0472C33"]
+			hide: true
+			id: "17D7F6B86B4AAD39"
+			tasks: [{
+				id: "5A6E47AE26C423B6"
+				type: "structure"
+				icon: "minecraft:dragon_egg"
+				structure: "dungeons_plus:end_ruins"
+			}]
+			rewards: [{
+				id: "676B6110D4979B9D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			title: "Soul Prison"
+			x: 2.0d
+			y: -8.0d
+			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
+			dependencies: ["4609AFE9E0472C33"]
+			hide: true
+			id: "0531D54C99BEF0A9"
+			tasks: [{
+				id: "73606FC0175B5036"
+				type: "structure"
+				icon: {
+					id: "dungeons_plus:soul_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_plus:soul_prison"
+			}]
+			rewards: [{
+				id: "4FCB397034F3C806"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
 			}]
 		}
 	]

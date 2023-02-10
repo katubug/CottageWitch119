@@ -707,8 +707,8 @@
 			y: 10.5d
 			subtitle: "A thankless task"
 			description: [
-				"In the heart of the &aThorns&r lies a castle which holds the final boss - a &epowerful Lich&r who summons minions to fight alongside them."
-				"However, whether or not to defeat this being is up to you. There is no reward for doing so. No accolades. This quest grants you the only thanks you will get."
+				"In the heart of the &cThorns&r lies a castle which holds the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r."
+				"However, whether or not to defeat this being is up to you. &aThere is no reward for doing so&r. No accolades. This quest grants you the only thanks you will get."
 				"With that in mind, will you still challenge them?"
 			]
 			dependencies: ["2A52CFAE2D88AC1D"]
@@ -923,7 +923,7 @@
 			title: "Complete the Twilight Forest"
 			x: 2.0d
 			y: 12.5d
-			description: ["Once you complete the &eFinal Boss&r, obtain the &bLamp of Cinders&r, and even &6Complete the &eQuest Ram&r, you will have earned a unique armor set."]
+			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
 			dependencies: [
 				"2B8E1553C1487EBA"
 				"54A57B37E1C04785"

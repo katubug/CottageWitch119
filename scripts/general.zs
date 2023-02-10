@@ -11,6 +11,7 @@ import crafttweaker.api.item.enchantment.Enchantment;
 import crafttweaker.api.ingredient.transform.type.TransformDamage;
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.block.Block;
+import mods.create.CompactingManager;
 
 
 
@@ -782,3 +783,37 @@ var umbrellas = [
 for umbrella in umbrellas{
     <tag:items:crafttweaker:umbrellas>.add(umbrella);
 }
+
+// Compacting recipes for pounding herbs
+
+<recipetype:create:compacting>.addRecipe("compactedtarragon", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_tarragon> * 2) % 100], [<item:hibernalherbs:tarragon> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedchamomile", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chamomile> * 2) % 100], [<item:hibernalherbs:chamomile> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedchives", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chives> * 2) % 100], [<item:hibernalherbs:chives> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedbloforia", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_bloforia> * 2) % 100], [<item:hibernalherbs:bloforia> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedessitte", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_essitte> * 2) % 100], [<item:hibernalherbs:essitte> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedpunuel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_punuel> * 2) % 100], [<item:hibernalherbs:punuel> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedceillis", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_ceillis> * 2) % 100], [<item:hibernalherbs:ceillis> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedthyocielle", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_thyocielle> * 2) % 100], [<item:hibernalherbs:thyocielle> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedfennkystral", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_fennkystral> * 2) % 100], [<item:hibernalherbs:fennkystral> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedverbena", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_verbena> * 2) % 100], [<item:hibernalherbs:verbena> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedsorrel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_sorrel> * 2) % 100], [<item:hibernalherbs:sorrel> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedmarjoram", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_marjoram> * 2) % 100], [<item:hibernalherbs:marjoram> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedrosemary", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_rosemary> * 2) % 100], [<item:hibernalherbs:rosemary> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedthyme", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_thyme> * 2) % 100], [<item:hibernalherbs:thyme> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedfennsel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_fennsel> * 2) % 100], [<item:hibernalherbs:fennsel> * 1], [], 200);
+
+<recipetype:create:compacting>.addRecipe("compactedchervil", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chervil> * 2) % 100], [<item:hibernalherbs:chervil> * 1], [], 200);

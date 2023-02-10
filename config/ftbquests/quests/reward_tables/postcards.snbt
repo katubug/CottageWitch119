@@ -2,7 +2,7 @@
 	id: "607906C19492D41B"
 	order_index: 19
 	title: "Postcards"
-	loot_size: 1
+	loot_size: 2
 	rewards: [
 		{
 			item: {

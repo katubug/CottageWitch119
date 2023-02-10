@@ -2,7 +2,7 @@
 	id: "080797145F203F85"
 	order_index: 21
 	title: "Hexerei"
-	loot_size: 1
+	loot_size: 3
 	rewards: [
 		{ item: "hexerei:seed_mixture", count: 5, weight: 8 }
 		{ item: "hexerei:tallow_impurity", count: 3, weight: 8 }

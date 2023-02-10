@@ -9,26 +9,38 @@
 	quests: [
 		{
 			x: 0.0d
-			y: -4.5d
+			y: -5.5d
+			shape: "hexagon"
 			description: ["The &bHerb Pouch&r can carry several stacks of &bHerbs&r. In order to use it, &6right click the herb on the Pouch&r in your inventory."]
+			dependencies: ["7E3EF86ECA10B730"]
 			id: "6B5A17D80DE38763"
 			tasks: [{
 				id: "06E8227C1C4C4382"
 				type: "item"
 				item: "hibernalherbs:pouch"
 			}]
-			rewards: [{
-				id: "382CDC2694999522"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6990203354287577879L
-			}]
+			rewards: [
+				{
+					id: "382CDC2694999522"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6990203354287577879L
+				}
+				{
+					id: "3DB3F8E11D6E2AE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4636896809631346949L
+				}
+			]
 		}
 		{
 			title: "Visit a Snowy Plains Biome"
 			x: -1.5d
 			y: -3.0d
+			shape: "rsquare"
 			description: ["&bHibernal herbs&r can be found solely in &cSnowy Plains biomes&r. You can make your way to one by &6searching with the &bNature's Compass&r!"]
+			size: 2.0d
 			id: "6D507B10A01132A5"
 			tasks: [{
 				id: "4BADC9B8D6552FEA"
@@ -51,10 +63,11 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
+			x: -3.0d
+			y: -8.0d
 			shape: "octagon"
 			description: ["This probably shouldn't exist."]
+			dependencies: ["5F59C5AB2A405A2D"]
 			id: "57CDF6945FBCBC79"
 			tasks: [{
 				id: "4FAAA8BA089E2C38"
@@ -173,6 +186,128 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Obtain a Hibernal Herb"
+			x: -1.5d
+			y: -5.0d
+			description: ["These special flora can be &aused to create unique blends&r with positive and negative effects."]
+			dependencies: ["6D507B10A01132A5"]
+			id: "7E3EF86ECA10B730"
+			tasks: [{
+				id: "085B84BD066E3C89"
+				type: "item"
+				title: "Any #hibernalherbs:herbs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hibernalherbs:herbs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "364A567450E79704"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4636896809631346949L
+			}]
+		}
+		{
+			title: "Press your Herbs"
+			x: -1.5d
+			y: -6.5d
+			description: ["&bHibernal Herbs&r can be &apounded&r either by pressing them with &bCoal and Paper&r, or by placing them in the &bCreate Compactor&r. This is an easy way to double each herb, as well as prepare them for use."]
+			dependencies: ["7E3EF86ECA10B730"]
+			id: "4C5A3A7BD19459AA"
+			tasks: [{
+				id: "5395FAEAF86A7FF7"
+				type: "item"
+				title: "Any #hibernalherbs:pounded_herbs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hibernalherbs:pounded_herbs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "010CE38185F0443A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4636896809631346949L
+			}]
+		}
+		{
+			title: "Create an Herb Blend"
+			x: -1.5d
+			y: -8.0d
+			description: ["Once pressed, you can &6mix your &bPounded Herbs&r in a &bMortar and Pestle&r to create &bHerb Blends&r. These provide potion effects to &aeither the target or the user&r, depending on how it is applied."]
+			dependencies: ["4C5A3A7BD19459AA"]
+			id: "5F59C5AB2A405A2D"
+			tasks: [{
+				id: "15979DC2F276F5D4"
+				type: "item"
+				title: "Any #hibernalherbs:herb_blends"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hibernalherbs:herb_blends"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FCD152777330AEA"
+				type: "item"
+				item: "hibernalherbs:blend_night_vision"
+			}]
+		}
+		{
+			title: "Smoke Dat Herb"
+			x: -1.5d
+			y: -9.5d
+			subtitle: "sorry, i had to"
+			description: ["Once you have &acrafted an &bHerb Blend&r, you can &aincrease its potency&r by &6smoking it&r, either via Create or a Smoker."]
+			dependencies: ["5F59C5AB2A405A2D"]
+			id: "459753280C698B15"
+			tasks: [{
+				id: "2B28BFF8981439B0"
+				type: "item"
+				title: "Any #hibernalherbs:smoked_blends"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hibernalherbs:smoked_blends"
+					}
+				}
+			}]
+			rewards: [{
+				id: "41E8573492EE298F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4636896809631346949L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			shape: "hexagon"
+			description: ["The &bBlend Canister&r functions similarly to the &bHerb Pouch&r, except that it holds &bBlends&r instead."]
+			dependencies: ["5F59C5AB2A405A2D"]
+			id: "450D79C79D56BFD9"
+			tasks: [{
+				id: "4F26CD4D303EBE50"
+				type: "item"
+				item: "hibernalherbs:canister"
+			}]
+			rewards: [{
+				id: "48DBDE77BD7F3B7D"
+				type: "item"
+				item: "biomesinjars:empty_biome_jar"
 			}]
 		}
 	]

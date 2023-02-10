@@ -2313,6 +2313,64 @@
 				table_id: 6941837675484043489L
 			}]
 		}
+		{
+			title: "Obtain Tarot Cards"
+			x: 6.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "what's in the cards for you?"
+			description: [
+				"One of the treasured items you can find in loot chests are &bTarot Cards&r. Each grants a &astrong buff while held&r in your inventory."
+				"Can you find the whole Arcana?"
+			]
+			id: "66BFC51EB4E7FDFB"
+			tasks: [{
+				id: "7EEC79529BBFE411"
+				type: "item"
+				title: "Any #tarotcards:tarot_cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tarotcards:tarot_cards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DCF345B1E63D9E3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8891211325592123080L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
+			dependencies: ["66BFC51EB4E7FDFB"]
+			id: "5107C3DE453627D5"
+			tasks: [{
+				id: "274933D9ACA40CD2"
+				type: "item"
+				item: {
+					id: "tarotcards:tarot_deck"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 22
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F512599C36DE552"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
 	]
 	quest_links: [ ]
 }
