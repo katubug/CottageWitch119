@@ -351,6 +351,30 @@
 				table_id: 5161092699925703455L
 			}]
 		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
+			dependencies: ["6C6635F6D9644BB7"]
+			id: "7232C9D413054886"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				type: "checkmark"
+				title: "The Only Way to \"Fly\""
+			}]
+			rewards: [
+				{
+					id: "59138A1AE98F4A94"
+					type: "item"
+					item: "usefulslime:slime_boots"
+				}
+				{
+					id: "146D300604AF13CC"
+					type: "item"
+					item: "usefulslime:slime_sling"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

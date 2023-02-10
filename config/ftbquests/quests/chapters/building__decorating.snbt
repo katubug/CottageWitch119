@@ -7,11 +7,61 @@
 	icon: "minecraft:oak_planks"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 11.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BannerFlowers.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			width: 6.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "cottagewitch:textures/HeaderBuilding.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGBuilding.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGDecorating.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Obtain an Advancement Frame"
-			x: 0.0d
-			y: -9.5d
+			x: -1.0d
+			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Show off a little"
 			description: ["The &bAdvancement Frame&r is an item which can be used to show off your achievements! Simply place this frame in your gallery and &6right click&r it to choose which advancement to display."]
@@ -36,8 +86,8 @@
 		}
 		{
 			title: "Obtain a Display Case"
-			x: -3.0d
-			y: -9.5d
+			x: -4.5d
+			y: 6.5d
 			shape: "hexagon"
 			subtitle: "I got a bad case of display-sia"
 			description: [
@@ -66,8 +116,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -5.25d
+			x: -3.0d
+			y: 4.5d
 			shape: "rsquare"
 			subtitle: "Ideas above your station"
 			description: [
@@ -104,8 +154,8 @@
 		}
 		{
 			title: "Gadgets, Part 1"
-			x: 1.0d
-			y: -7.0d
+			x: 4.0d
+			y: 4.0d
 			shape: "rsquare"
 			subtitle: "The Building Gadget and Exchanging Gadget"
 			description: [
@@ -168,8 +218,8 @@
 		}
 		{
 			title: "Gadgets, Part 2"
-			x: 3.0d
-			y: -7.5d
+			x: 6.0d
+			y: 3.0d
 			subtitle: "Copypasta but for buildings"
 			description: [
 				"The &bCopy Paste Gadget&r is a robust and therefore complicated tool. It allows you to use &aSchematics found online&r to build automatically, and also allows you to - as you could guess - &acopy and paste structures you've built&r."
@@ -217,8 +267,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -8.5d
+			x: 5.5d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Delete! Delete! Delete!"
 			description: ["The &bDestruction Gadget&r is a dangerous tool which will &acompletely delete blocks&r. It is mostly used to clear a large area for building."]
@@ -244,8 +294,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -9.5d
+			x: 6.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Don't eat the paste"
 			description: [
@@ -282,8 +332,8 @@
 		}
 		{
 			title: "Obtain a Glass Item Frame"
-			x: -2.0d
-			y: -9.5d
+			x: -4.0d
+			y: 7.5d
 			shape: "hexagon"
 			subtitle: "I've been framed!"
 			description: [
@@ -318,8 +368,8 @@
 		}
 		{
 			title: "Obtain a Trowel"
-			x: -4.0d
-			y: -9.5d
+			x: 2.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "The builder's dream"
 			description: ["The &bTrowel&r will place a random block from your inventory when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
@@ -337,8 +387,8 @@
 		}
 		{
 			title: "Obtain a Lantern"
-			x: -1.0d
-			y: -9.5d
+			x: -2.0d
+			y: 7.5d
 			shape: "hexagon"
 			subtitle: "I love lantern"
 			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
@@ -362,8 +412,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -8.5d
+			x: -1.5d
+			y: 6.5d
 			shape: "hexagon"
 			description: ["There are two types of &bFlower Box&r. One can hold 2 flowers, and the other one 3."]
 			id: "4F9A1B244734638F"
@@ -391,8 +441,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -10.5d
+			x: -3.5d
+			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Time to get a globe-up (that was bad, i'm sorry)"
 			description: ["The Globe can only be obtained from the &eWandering Trader&r, and is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
@@ -416,8 +466,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -8.5d
+			x: -3.0d
+			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Don't put people on these"
 			description: ["Similar to the &bDisplay Case&r, the &bPedestal&r is a way to decoratively display a single item. However, when stacked, it becomes a pillar."]
@@ -436,8 +486,8 @@
 		}
 		{
 			title: "Obtain a Hanging Sign"
-			x: -2.5d
-			y: -10.5d
+			x: -1.0d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "It opened up my eyes"
 			description: [
@@ -465,8 +515,8 @@
 		}
 		{
 			title: "Obtain a Sign Post"
-			x: -1.5d
-			y: -8.5d
+			x: -2.5d
+			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Show the way"
 			description: [
@@ -494,8 +544,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -8.5d
+			x: -2.0d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Finally, your schoolhouse will be complete"
 			description: [
@@ -524,8 +574,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -6.0d
+			x: 3.0d
+			y: 7.0d
 			shape: "gear"
 			subtitle: "Take a little look-see"
 			description: [
@@ -544,14 +594,14 @@
 		}
 		{
 			title: "Customize Your Bed"
-			x: 2.0d
-			y: -10.0d
-			shape: "rsquare"
+			x: -5.0d
+			y: 3.0d
+			shape: "circle"
 			description: [
 				"Interested in a more customizable bed? &lMulti-beds&r has you covered!"
 				"To begin, you'll want to craft a &bBuild-a-Bed Kit&r. Then, hold it and &6right click&r to access its menu. You'll need &bPlanks&r of the wood type you want your bed to be."
 			]
-			size: 2.0d
+			dependencies: ["7D82FBD000D41F84"]
 			id: "226368447EC1C9A9"
 			tasks: [{
 				id: "08B5B6F8E5C51649"
@@ -582,8 +632,8 @@
 		}
 		{
 			title: "Make Your Bed"
-			x: 0.5d
-			y: -11.5d
+			x: -3.5d
+			y: 3.0d
 			description: ["Your bed might be a little bare-bones as is. Why not make a &bsheet&r and &bpillowcase&r to go on top? These can be &adyed any color you like&r."]
 			dependencies: ["226368447EC1C9A9"]
 			id: "15781BD4547097E9"
@@ -620,8 +670,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -7.5d
+			x: 2.25d
+			y: 5.25d
 			shape: "gear"
 			description: [
 				"One of the mods added is called &lEffortless Building&r. This allows you to build similarly to the way &bBuilding Gadgets&r do, but with a different set of functions."
@@ -637,8 +687,8 @@
 		}
 		{
 			title: "Trophy Unlocked"
-			x: -3.5d
-			y: -10.5d
+			x: -0.5d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "get them cheevos"
 			description: [
@@ -646,6 +696,7 @@
 				"Well, why not &adecorate your house with these attractive trophies&r."
 				"(only some animals were hurting in the making of this quest)"
 			]
+			dependencies: ["32DCF4F0C230C940"]
 			id: "30C8AAFCE9EB2BA6"
 			tasks: [{
 				id: "63B16A64CB3AE4F8"
@@ -670,6 +721,73 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6951594928314176539L
+				}
+			]
+		}
+		{
+			title: "Handcraft your Home"
+			x: -5.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a sawmill&r."
+				"You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."
+			]
+			size: 2.0d
+			id: "7D82FBD000D41F84"
+			tasks: [{
+				id: "4B25C89C016B4716"
+				type: "item"
+				title: "Any #handcrafted:boards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "handcrafted:boards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00EB12702C71E2E5"
+				type: "item"
+				item: "handcrafted:hammer"
+			}]
+		}
+		{
+			title: "Versatile Decorations"
+			x: -2.0d
+			y: 3.0d
+			description: [
+				"But beds aren't the only things that can &abenefit from &bSheets&r and &bCushions&r!"
+				"For example, &6right click a &bSheet&r on a &bTable&r to give it a &atablecloth&r."
+				"And you can &aapply a &bCushion&r to a &bChair&r as well! Why not see what other items you can customize..."
+			]
+			dependencies: ["15781BD4547097E9"]
+			id: "32DCF4F0C230C940"
+			tasks: [
+				{
+					id: "1C4700C1B44DA255"
+					type: "item"
+					title: "Any #handcrafted:tables"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "handcrafted:tables"
+						}
+					}
+				}
+				{
+					id: "37260AF156A4F444"
+					type: "item"
+					title: "Any #handcrafted:chairs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "handcrafted:chairs"
+						}
+					}
 				}
 			]
 		}

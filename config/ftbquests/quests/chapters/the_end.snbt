@@ -7,10 +7,22 @@
 	icon: "minecraft:ender_eye"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -1.5d
+		width: 20.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGTheEnd.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Obtain an End Eye"
-			x: -1.0d
+			x: 0.0d
 			y: -1.0d
 			shape: "rsquare"
 			subtitle: "I've got my eye on the End"
@@ -39,8 +51,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			x: -6.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["The first of these new items is called &bThe Old Eye&r, which once belonged to one of the now-extinct Great Sandworms. This sallow eye can be looted from &dDesert Temple&r chests."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -58,7 +70,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.5d
 			y: 1.5d
 			shape: "hexagon"
 			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a might battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
@@ -77,8 +89,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.5d
+			x: -4.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["The &bCold Eye&r once belonged to an Iceologer, and can be found hidden in &dan igloo's hidden basement&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -96,8 +108,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.5d
+			x: -3.5d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["A &bRogue Eye&r can be found in a &dJungle Temple&r, and is rumored to have given our ancestors Redstone."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -115,8 +127,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: -3.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["The &bBlack Eye&r, which once gave sight to the mighty Black Pearl, is now hidden beneath the surface in some &dBuried Treasure&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -134,8 +146,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.5d
+			x: -5.0d
+			y: -3.5d
 			shape: "hexagon"
 			description: ["Starting a &aRaid&r might be the easiest way of obtaining the &bMagical Eye&r, which are used by &eEvokers&r for their powerful properties."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -153,8 +165,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
+			x: -4.0d
+			y: -3.5d
 			shape: "hexagon"
 			description: ["Forged in the time before history began by ancient Blacksmiths, the &bLost Eye&r is said to be found in &dMineshafts&r, deep beneath the crust of the earth."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -172,8 +184,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["Rumors swirl about the &bCorrupted Eye&r, of its ability to bring infinite fortune to its owner. However, the greedy king who last owned it faded into obscurity, so perhaps those rumors are just that. Legend has it that it's kept in a &dPillager Tower&r somewhere."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -191,8 +203,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
+			x: -5.5d
+			y: -2.5d
 			shape: "hexagon"
 			description: ["You can perhaps guess where the &bGuardian Eye&r can be located. Beneath the surface of the choppy sea, in the belly of an &eElder Guardian&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -210,8 +222,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 			shape: "hexagon"
 			description: ["To obtain the &bWitch Eye&r, you must first &dslay an evil witch&r and get the &bWitch’s Pupil&r, then craft it together with an &bEnder Eye&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -248,8 +260,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
+			x: -4.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["The &bEvil Eye&r is a symbol of protection, staring down the foes of its owner. It can be purchase from a &dMaster Cleric&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -286,8 +298,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["The &bExotic Eye&r is associated with Atlantis - the legends say that folks used it to find the sunken city, but they never returned to confirm the tale. &6Craft it with aquatic items&r."]
 			dependencies: ["19ED6330FD3E968C"]
@@ -305,7 +317,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -1.0d
 			shape: "diamond"
 			description: [
@@ -425,7 +437,7 @@
 		{
 			title: "The Beginning of the End"
 			icon: "minecraft:end_stone"
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 			subtitle: "Haha, get it? \"The End\"?"
 			description: [
@@ -453,8 +465,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -1.0d
+			x: -6.5d
+			y: 0.5d
 			shape: "hexagon"
 			description: [
 				"You may only need 12 &bEyes&r to pass into &cThe End&r, but if you go above and beyond, and collect all possible eyes, you will be granted a reward."

@@ -5,9 +5,6 @@ TODO:
 - controls
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
 - remove dead bush texturepack
-- desert temples add things to ItemRandomizers
-- redo texturepacks entirely?
-- Loot Integrations
 - sell rare Alex items via NPC
 
 new enchantments
@@ -19,10 +16,7 @@ o Collector's Reap
 o Create Central Cooking
 o Create Confectionary
 o Create Slice and Dice
-o Deeper and Darker
 o Delightful new stuff
-o Handcrafted
-o More Villagers
 o Nether Depths Update
 Quark Oddities
 Sky Villages
@@ -30,9 +24,12 @@ o Spelunkery
 Spice of life
 o Starbuncle Mania
 Structory & Towers
-o Tarot Cards
-o Useful Slime
 
+x Villagers Plus
+x Handcrafted
+x Deeper and Darker
+x Tarot Cards
+x Useful Slime
 x Moyai
 x twilight forest final boss quest needs editing
 x hibernal herbs redo pounding recipes
@@ -73,3 +70,35 @@ x - remove doors/fences(?) texturepack
 x Custom Villager Professions redo
 x Extreme Sound Muffler?
 x - write descriptions for new Charm quests in Ars Nouveau
+
+
+
+
+
+The gear-related professions are:
+The &eArmorer&r (&bBlast Furnace&r), 
+The &eLeatherworker&r (&bCauldron), 
+The &eToolsmith&r (&bSmithing Table), 
+The &eWeaponsmith&r (&bGrindstone), 
+The &eFletcher&r (&bFletching Table)
+
+The &eCleric&r (&bBrewing Stand&r)
+The &eOccultist&r (&bEnchanted Basin&r)
+The &eAlchemist&r (&bAlchemist Table&r)
+The &eShady Wizard&r (&bArcane Core&r)
+
+The &eCartographer&r (&bCartography Table&r)
+The &eLibrarian&r (&bLectern&r)
+The &eOceanographer&r (&bAquarium&r)
+The &eMason&r (&bStonecutter&r)
+
+The &eShepherd&r (&bLoom&r)
+The &eButcher&r (&bSmoker&r)
+The &eFarmer&r (&bComposter&r)
+The &eFisherman&r (&bBarrel&r)
+The &eAnimal Tamer&r (&bPet Bed&r)
+
+The &eForager&r (&bForager's Table&r)
+The &eBotanist&r (&bBotanist Workbench&r)
+The &eHorticulturist&r (&bFlower Tub&r)
+The &eBeekeeper&r (&bBeehive&r)

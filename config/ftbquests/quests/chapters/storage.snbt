@@ -32,13 +32,61 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -7.5d
+			y: -2.5d
+			width: 7.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGDrawers.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGItemTransport.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			width: 9.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGStorageNetwork.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			width: 8.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGMisc.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
 			title: "Craft a Functional Storage Drawer"
 			icon: "functionalstorage:oak_1"
-			x: -1.5d
-			y: -2.0d
+			x: -7.5d
+			y: -3.5d
 			shape: "rsquare"
 			subtitle: "I'm an artist, not a drawer"
 			description: [
@@ -76,8 +124,8 @@
 		}
 		{
 			title: "Obtain your first Storage Upgrade"
-			x: -3.5d
-			y: -4.5d
+			x: -9.5d
+			y: -2.0d
 			subtitle: "We must have more storage!"
 			description: [
 				"This &bStorage Upgrade&r will &aincrease the amount of items&r your Drawers can hold."
@@ -99,8 +147,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -5.0d
+			x: -9.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["The &bVoid Upgrade&r is useful if you have a lot of an item importing into your drawers - it will &aautomatically delete&r any items which can't fit in the drawer, preventing your game from getting too laggy."]
 			dependencies: ["643038A9E2CA7D59"]
@@ -117,8 +165,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
+			x: -5.5d
+			y: -3.0d
 			shape: "hexagon"
 			description: [
 				"The &bCompacting Drawer&r is unique from other drawers because it allows you to access &amultiple compressions of an item&r."
@@ -159,8 +207,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -3.0d
+			x: -9.5d
+			y: -3.5d
 			description: [
 				"The &bDrawer Controller&r is very important for hooking your &bDrawers&r up to your &aStorage Network&r."
 				"You can also use it to &aimport items&r to your drawers via a Hopper or &bPipez&r!"
@@ -187,8 +235,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: -5.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: [
 				"&aConfiguration Tools&r alter the function of Drawers. &6Right click on a Drawer while holding a Key&r to activate its ability."
@@ -218,8 +266,8 @@
 		}
 		{
 			title: "Obtain a Golden Apple Crate"
-			x: -8.0d
-			y: -2.0d
+			x: 1.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "Some have crateness thrust upon them"
 			description: ["Oh I know, it's such a bother... your storage is just &olousy&r with &bGolden Apples&r - well worry no more, you can &acompress them&r into crates. These &bGolden Apple Crates&r can even be used to power a &bBeacon&r!"]
@@ -245,8 +293,8 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
+			x: 1.0d
+			y: 5.0d
 			shape: "hexagon"
 			description: [
 				"There are a number of &ajar types&r in this modpack. This one holds liquids! Up to three buckets worth."
@@ -269,8 +317,8 @@
 		}
 		{
 			title: "Obtain a Basket"
-			x: -7.5d
-			y: -1.0d
+			x: 1.5d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "I wonder if you could play ball with it."
 			description: [
@@ -300,8 +348,8 @@
 		}
 		{
 			title: "Tom's Simple Storage"
-			x: 1.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 			shape: "rsquare"
 			subtitle: "A searchable storage solution"
 			description: [
@@ -339,8 +387,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			x: 2.5d
+			y: -1.5d
 			subtitle: "It's not just serious - it's terminal"
 			description: ["The &bCrafting Grid&r, although more expensive, is a worthy upgrade because it allows you to &acraft from JEI or the Recipe Book&r using anything in your storage network."]
 			dependencies: ["1B3C37BD61939C76"]
@@ -357,8 +405,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 1.5d
+			y: -0.5d
 			subtitle: "Trim and tidy"
 			description: ["&bInventory Trim&r is an item which helps to fill in the gaps between connected inventories. As long as the Trim is touching both a valid inventory block, and a block in your system, it will connect all it touches to your network."]
 			dependencies: ["1B3C37BD61939C76"]
@@ -377,8 +425,8 @@
 		}
 		{
 			title: "Connected at a Distance"
-			x: -1.0d
-			y: 2.0d
+			x: -2.0d
+			y: -4.5d
 			shape: "hexagon"
 			description: [
 				"While &bInventory Trim&r is what the majority of people will use to connect their network, you can also do it with &bInventory Connectors&r and &bInventory Cables&r."
@@ -421,8 +469,8 @@
 		}
 		{
 			title: "Framed Blocks"
-			x: -2.5d
-			y: 3.5d
+			x: -2.0d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Don't be suspicious, don't be suspicious"
 			description: [
@@ -462,8 +510,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 2.5d
+			y: -4.5d
 			subtitle: "We're going wireless"
 			description: ["The &bWireless Terminal&r is an incredibly useful item, as it allows you to access your inventory network remotely, at a &arange of 16 blocks&r."]
 			dependencies: ["1B3C37BD61939C76"]
@@ -481,8 +529,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 			subtitle: "A beacon of hope"
 			description: [
 				"The &bAdvanced Wireless Terminal&r not only extends the range of its previous version (64 blocks instead of 16), but can be made to have &ainfinite range&r if one &6places a level 1 beacon nearby&r."
@@ -504,8 +552,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.5d
+			x: -2.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: [
 				"The &bInventory Proxy&r is a niche item which extends access to inventory blocks it's placed adjacent to. It specifically extends &athe face it's touching&r, "
@@ -526,8 +574,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: -1.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: [
 				"The &bInventory Hopper&r imports and exports items from your network."
@@ -549,8 +597,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: 0.0d
+			y: 0.0d
 			shape: "hexagon"
 			description: [
 				"The &bLevel Emitter&r transmits a redstone signal based on the contents of an inventory."
@@ -571,8 +619,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: -0.5d
+			y: 5.5d
 			shape: "hexagon"
 			description: [
 				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
@@ -591,8 +639,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
+			x: -1.5d
+			y: 4.5d
 			shape: "hexagon"
 			description: [
 				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
@@ -613,8 +661,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.75d
+			x: 6.5d
+			y: -3.5d
 			shape: "rsquare"
 			subtitle: "Organize your Storage Network"
 			description: [
@@ -625,7 +673,7 @@
 				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
 				"Once in &aExtract Mode&r, you can &6right click on the pipe&r to access its menu."
 			]
-			size: 1.5d
+			size: 2.0d
 			min_width: 300
 			id: "0A76B3D9CF688878"
 			tasks: [{
@@ -648,8 +696,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: 6.0d
+			y: -2.0d
 			description: ["The &bBasic Pipe Upgrade&r allows you to set a &aRedstone Mode&r for the Pipe. You can set it to &aonly be active&r when receiving a signal, or to &astop when it receives a signal&r. By default, it will &aignore Redstone input&r."]
 			dependencies: ["0A76B3D9CF688878"]
 			id: "327660E1DFE7C9A0"
@@ -665,8 +713,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 1.5d
+			x: 7.5d
+			y: -2.0d
 			description: ["The &bImproved Upgrade&r gives you &aRedstone Mode&r control, and also allows you to change the &aDistribution mode&r, such as whether to deliver to the &afirst inventory&r, &aRound Robin&r, or &acompletely random&r."]
 			dependencies: ["327660E1DFE7C9A0"]
 			id: "125AC0EEF7096532"
@@ -682,8 +730,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
+			x: 6.0d
+			y: -0.5d
 			description: [
 				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
 				"The &bAdvanced Upgrade&r gives you access to the previous two modes, as well as &aFiltering&r. You can &awhitelist or blacklist&r selected items from being extracted by the pipes."
@@ -702,8 +750,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
+			x: 7.5d
+			y: -0.5d
 			description: [
 				"The &bUltimate Upgrade&r gives you all the previous benefits, while also transporting &aone stack at a time&r, making it the fastest option."
 				"It is also significantly more expensive."
@@ -722,7 +770,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -5.5d
 			y: -4.5d
 			shape: "hexagon"
 			description: ["The &bEnder Drawer&r can be &aattuned to a frequency&a using the &bLinking Tool&r. Any other &bEnder Drawer&r attuned to the same frequency will contain the &asame inventory&r."]
@@ -742,8 +790,8 @@
 		}
 		{
 			title: "Lateral Upgrades"
-			x: -4.5d
-			y: -3.0d
+			x: -8.0d
+			y: -1.5d
 			description: [
 				"The &bCollector Upgrade&r will &apick up items&r dropped nearby."
 				"The &bPulling Upgrade&r will &apull items from a nearby inventory&r."
@@ -795,8 +843,8 @@
 		}
 		{
 			title: "Not Exactly a Pet"
-			x: -6.5d
-			y: -3.5d
+			x: -2.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "om nom nom nom"
 			description: [
@@ -822,8 +870,8 @@
 		}
 		{
 			title: "Upgrade your Lugage"
-			x: -8.0d
-			y: -3.5d
+			x: -0.5d
+			y: 3.0d
 			description: [
 				"The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."
 				"The easiest way for this to happen is to use a &aRitual of Zapping&r, for which you'll need a &bRitual Tablet&r and a &bBrazier&r. &6Place the tablet and right click&r to begin the ritual. If you want to zap &amultiple creatures&r, you must &aprovide Source&r to the ritual."
@@ -840,6 +888,155 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"Did you know that you can &aTransmit items wirelessly using &bSculk&r? The communications sent along the &amycelial sculk network&r can carry data so complex that it &amanipulates reality&r. Thus, it can take an item from one place and transfer it to another."
+				"To begin with, you'll want a &bGuidebook&r, and to &6harvest some &bSculk&r."
+				"&6Read the chapter \"Gathering Materials\"&r to begin with, to find out what you will need."
+			]
+			size: 2.0d
+			id: "4C75E1320C84AD2E"
+			tasks: [{
+				id: "6710599134EF4787"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sculktransporting:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B78A58555F678E1"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						RepairCost: 2
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "The Sculk Network Basics"
+			x: 10.0d
+			y: -2.0d
+			description: [
+				"The first tools you'll need are an &bEmitter&r - to send out items - and a &bReceiver&r - to, well, receive them."
+				"The &bEmitter&r must be &6placed on top of the &bSculk Barrel&r in order to function. The &bSculk Receiver&r, however, can input into &amost basic inventory blocks&r such as Chests, Barrels, and Drawers. It &acannot deposit directly&r into a &bDrawer Controller&r, but you can use &bPipez&r or &bPulling Upgrades&r to withdraw the items into your Drawers."
+			]
+			dependencies: ["4C75E1320C84AD2E"]
+			id: "6A2A797F0DACFD76"
+			tasks: [
+				{
+					id: "55B5278ACFC9C780"
+					type: "item"
+					item: "sculktransporting:sculk_emitter"
+				}
+				{
+					id: "474EA9C110EACF85"
+					type: "item"
+					item: "sculktransporting:sculk_receiver"
+				}
+				{
+					id: "7F59620DF81D4669"
+					type: "item"
+					item: "sculktransporting:sculk_barrel"
+				}
+			]
+			rewards: [{
+				id: "0745515755F89F03"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7062805133306069640L
+			}]
+		}
+		{
+			title: "Extending the Range"
+			x: 10.0d
+			y: -0.5d
+			description: [
+				"By default, &bEmitters&r and &bReceivers&r have to be &awithin 8 blocks of one another&r to function. However, you can &aextend that distance&r by &6placing down Sculk Transmitters&r."
+				"The &bTransmitters&r can also be configured to &aaccept or deny&r certain items placed on their sides. You can &6read more about this&r in the Guidebook."
+			]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "748DCD79DE0DA182"
+			tasks: [{
+				id: "45E10E97F3BFD348"
+				type: "item"
+				item: "sculktransporting:sculk_transmitter"
+			}]
+			rewards: [
+				{
+					id: "62FCB1BAB3CCC701"
+					type: "item"
+					item: "sculktransporting:sculk_transmitter"
+				}
+				{
+					id: "25EBCD7217D7A968"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7062805133306069640L
+				}
+			]
+		}
+		{
+			title: "Quantity Modifiers"
+			x: 8.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The different levels of &bQuantity Modifiers&r will allow &bSculk Emitters&r to transfer and store up to &a64 items&r at a time!"
+				"&bReceivers&r and &bTransmitters&r cannot receive these upgrades, but will work with the items sent to them by the &bEmitter&r."
+			]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "4CC2BF8A5B188CB6"
+			tasks: [{
+				id: "3349E7D872224343"
+				type: "item"
+				item: "sculktransporting:quantity_modifier_tier_1"
+			}]
+			rewards: [{
+				id: "7812A0D29CD2542E"
+				type: "item"
+				item: "sculktransporting:quantity_modifier_tier_1"
+			}]
+		}
+		{
+			title: "Speed Modifiers"
+			x: 8.5d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["As you could probably guess, &bSpeed Modifiers&r allow &bEmitters&r and &bReceivers&r to perform their tasks at higher speeds. Do note that &bTransmitters&r work as fast as they can, and can bottleneck transmission."]
+			dependencies: ["6A2A797F0DACFD76"]
+			id: "1857993F9598F28C"
+			tasks: [{
+				id: "3EACBA80934E1DA2"
+				type: "item"
+				item: "sculktransporting:speed_modifier_tier_1"
+			}]
+			rewards: [{
+				id: "2DB3160BA9DBCFEC"
+				type: "item"
+				item: "sculktransporting:speed_modifier_tier_1"
 			}]
 		}
 	]

@@ -611,6 +611,113 @@
 				item: "biomesinjars:empty_biome_jar"
 			}]
 		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "extreme couponing"
+			description: [
+				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
+				"Should you find a &eZombie Villager&r, &6hit them with a Splash Potion of Weakness&r, and then &6give them a golden apple&r. After a time, they will be cured!"
+			]
+			dependencies: ["70C4F17973F6492E"]
+			id: "16797E1EF5450E7E"
+			tasks: [{
+				id: "7F78311C1F39DDCC"
+				type: "advancement"
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "32B8F134BDB6C421"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			title: "The Basis of an Economy"
+			x: 0.5d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
+				"To find a &alist of all villager professions and their job blocks&r, hover over an &bEmerald&r and &6press \"u\"&r, then &6choose the top tab with a villager face&r."
+				"{image:cottagewitch:textures/villagers.png width:200 height:200 align:1}"
+			]
+			size: 2.0d
+			id: "70C4F17973F6492E"
+			tasks: [{
+				id: "58A355655550BE5E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [
+				{
+					id: "56FC01153B740D4A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "193851DBE5D9BA6B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			title: "Trade with a Villager"
+			x: 0.5d
+			y: 0.0d
+			shape: "octagon"
+			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r who sells &bMending&r doesn't suddenly run away to join the circus."]
+			dependencies: ["70C4F17973F6492E"]
+			id: "3705ABBD8EE1A369"
+			tasks: [{
+				id: "1AE5841864AEE2A1"
+				type: "advancement"
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5F9B1BB381A8AF4E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "Meet the Goblin Trader"
+			x: 3.0d
+			y: -0.5d
+			shape: "heart"
+			subtitle: "Eager but not too bright"
+			description: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
+			dependencies: ["70C4F17973F6492E"]
+			id: "160EE610C4B660D8"
+			tasks: [{
+				id: "13D291470FC0A9F4"
+				type: "observation"
+				icon: "goblintraders:goblin_trader_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "goblintraders:goblin_trader"
+			}]
+			rewards: [
+				{
+					id: "6401C8FA6FD927CB"
+					type: "random"
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "7A4F5FB3B95C3932"
+					type: "command"
+					command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Frog\\\"}\"},SkullOwner:{Id:[I;1526238932,-1094236219,-2050186183,1457710252],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI1YzRiNGI4MjQyMjVmYjE5NTI3ZDQyZWZmZDRkYjQxNTM4YTY4ZTc4ZTdlNjI0MWI4MjUyOWI5MjJiMmU5NSJ9fX0=\"}]}}} 1"
+					player_command: false
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

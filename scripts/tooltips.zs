@@ -30,9 +30,9 @@ var drinks = [
     <item:collectorsreap:pink_limeade>,
     <item:farmersrespite:gamblers_tea>,
     <item:farmersrespite:coffee>,
-    <item:delightful:lavender_tea>,
-    <item:create_confectionery:hot_chocolate_bottle>,
-    <item:create_confectionery:soothing_hot_chocolate>
+    <item:delightful:lavender_tea>//,
+    //<item:create_confectionery:hot_chocolate_bottle>,
+    //<item:create_confectionery:soothing_hot_chocolate>
 ] as IItemStack[];
 
 for drink in drinks{
@@ -168,9 +168,9 @@ var rawfoods = [
     <item:caupona:bone_gelatin>,
     <item:caupona:bisque_aspic>,
     <item:caupona:borscht_aspic>,
-    <item:create_confectionery:marshmallow>,
-    <item:create_confectionery:marshmallow_on_a_stick>,
-    <item:create_confectionery:gingerdough>,
+    //<item:create_confectionery:marshmallow>,
+    //<item:create_confectionery:marshmallow_on_a_stick>,
+    //<item:create_confectionery:gingerdough>,
     <item:delightful:cantaloupe_slice>,
     <item:duckling:raw_duck>,
     <item:duckling:duck_egg>,
@@ -478,6 +478,7 @@ var cookedfoods = [
     <item:delightful:coconut_curry>,
     <item:delightful:salmonberry_ice_cream>,
     <item:delightful:matcha_ice_cream>,
+    /*
     <item:create_confectionery:gingerbread>,
     <item:create_confectionery:gingerbread_man>,
     <item:create_confectionery:bar_of_black_chocolate>,
@@ -501,6 +502,7 @@ var cookedfoods = [
     <item:create_confectionery:chocolate_glazed_marshmallow>,
     <item:create_confectionery:ruby_chocolate_glazed_marshmallow>,
     <item:create_confectionery:candy_cane>,
+    */
     <item:create:bar_of_chocolate>,
     <item:ars_nouveau:source_berry_roll>,
     <item:spelunkery:grilled_portabella>
@@ -1129,4 +1131,64 @@ var plants = [
 
 for plant in plants{
 plant.addTooltip("Plants!");
+}
+
+var jobBlocks = [
+    <item:villagersplus:oceanographer_table>,
+    <item:villagersplus:oak_horticulturist_table>,
+    <item:villagersplus:occultist_table>,
+    <item:minecraft:stonecutter>,
+    <item:minecraft:loom>,
+    <item:minecraft:smithing_table>,
+    <item:minecraft:grindstone>,
+    <item:byg:foragers_table>,
+    <item:beautify:botanist_workbench>,
+    <item:domesticationinnovation:pet_bed_white>,
+    <item:domesticationinnovation:pet_bed_orange>,
+    <item:domesticationinnovation:pet_bed_magenta>,
+    <item:domesticationinnovation:pet_bed_light_blue>,
+    <item:domesticationinnovation:pet_bed_yellow>,
+    <item:domesticationinnovation:pet_bed_lime>,
+    <item:domesticationinnovation:pet_bed_pink>,
+    <item:domesticationinnovation:pet_bed_gray>,
+    <item:domesticationinnovation:pet_bed_red>,
+    <item:domesticationinnovation:pet_bed_green>,
+    <item:domesticationinnovation:pet_bed_brown>,
+    <item:domesticationinnovation:pet_bed_blue>,
+    <item:domesticationinnovation:pet_bed_purple>,
+    <item:domesticationinnovation:pet_bed_cyan>,
+    <item:domesticationinnovation:pet_bed_light_gray>,
+    <item:domesticationinnovation:pet_bed_black>,
+    <item:minecraft:cartography_table>,
+    <item:minecraft:blast_furnace>,
+    <item:minecraft:smoker>,
+    <item:minecraft:brewing_stand>,
+    <item:minecraft:composter>,
+    <item:minecraft:barrel>,
+    <item:minecraft:fletching_table>,
+    <item:minecraft:cauldron>,
+    <item:minecraft:lectern>,
+    <item:ars_nouveau:arcane_core>,
+    <item:villagersplus:dark_oak_horticulturist_table>,
+    <item:villagersplus:acacia_horticulturist_table>,
+    <item:villagersplus:jungle_horticulturist_table>,
+    <item:villagersplus:spruce_horticulturist_table>,
+    <item:villagersplus:birch_horticulturist_table>,
+    <item:villagersplus:mangrove_horticulturist_table>,
+    <item:villagersplus:crimson_horticulturist_table>,
+    <item:villagersplus:warped_horticulturist_table>,
+    <item:friendsandfoes:acacia_beehive>,
+    <item:friendsandfoes:birch_beehive>,
+    <item:friendsandfoes:crimson_beehive>,
+    <item:friendsandfoes:dark_oak_beehive>,
+    <item:friendsandfoes:jungle_beehive>,
+    <item:friendsandfoes:mangrove_beehive>,
+    <item:friendsandfoes:spruce_beehive>,
+    <item:friendsandfoes:warped_beehive>,
+    <item:minecraft:beehive>,
+    <item:villagersplus:alchemist_table>
+] as IItemStack[];
+
+for block in jobBlocks{
+block.addTooltip("Job Block");
 }

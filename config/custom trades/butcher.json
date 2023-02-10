@@ -1,6 +1,6 @@
 {
-    "profession": "chef",
-    "removeOtherTrades": true,
+    "profession": "butcher",
+    "removeOtherTrades": false,
     "trades": [
       {
         "offer": {
