@@ -32,54 +32,6 @@
 			dev: false
 			corner: false
 		}
-		{
-			x: -7.5d
-			y: -2.5d
-			width: 7.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/BGDrawers.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 8.0d
-			y: -2.5d
-			width: 8.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/BGItemTransport.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 0.0d
-			y: -2.5d
-			width: 9.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/BGStorageNetwork.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 0.0d
-			y: 4.0d
-			width: 8.0d
-			height: 6.5d
-			rotation: 0.0d
-			image: "cottagewitch:textures/BGMisc.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
 	]
 	quests: [
 		{
@@ -425,7 +377,7 @@
 		}
 		{
 			title: "Connected at a Distance"
-			x: -2.0d
+			x: -2.5d
 			y: -4.5d
 			shape: "hexagon"
 			description: [
@@ -469,7 +421,7 @@
 		}
 		{
 			title: "Framed Blocks"
-			x: -2.0d
+			x: -2.5d
 			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Don't be suspicious, don't be suspicious"
@@ -552,7 +504,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -1.5d
 			shape: "hexagon"
 			description: [
@@ -574,7 +526,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: -0.5d
 			shape: "hexagon"
 			description: [
@@ -598,7 +550,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 			shape: "hexagon"
 			description: [
 				"The &bLevel Emitter&r transmits a redstone signal based on the contents of an inventory."
@@ -911,6 +863,8 @@
 						"patchouli:book": "sculktransporting:guide"
 					}
 				}
+				match_nbt: true
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "4B78A58555F678E1"
@@ -1037,6 +991,16 @@
 				id: "2DB3160BA9DBCFEC"
 				type: "item"
 				item: "sculktransporting:speed_modifier_tier_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "1836D76FCA8240F3"
+			tasks: [{
+				id: "5BB86EBDC553027E"
+				type: "item"
+				item: "minecraft:calcite"
 			}]
 		}
 	]

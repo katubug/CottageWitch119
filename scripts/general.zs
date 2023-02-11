@@ -817,3 +817,16 @@ for umbrella in umbrellas{
 <recipetype:create:compacting>.addRecipe("compactedfennsel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_fennsel> * 2) % 100], [<item:hibernalherbs:fennsel> * 1], [], 200);
 
 <recipetype:create:compacting>.addRecipe("compactedchervil", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chervil> * 2) % 100], [<item:hibernalherbs:chervil> * 1], [], 200);
+
+// Fishing Rod Tags
+
+<tag:items:forge:fishing_rods>.add(
+    <item:better_fishing_rods:slimy_fishing_rod>,
+    <item:better_fishing_rods:wheaty_fishing_rod>,
+    <item:better_fishing_rods:coraly_fishing_rod>,
+    <item:better_fishing_rods:villager_fishing_rod>,
+    <item:better_fishing_rods:golden_fishing_rod>,
+    <item:better_fishing_rods:meaty_fishing_rod>,
+    <item:better_fishing_rods:orely_fishing_rod>,
+    <item:minecraft:fishing_rod>
+);

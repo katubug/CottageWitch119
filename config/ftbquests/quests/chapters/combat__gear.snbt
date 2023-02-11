@@ -2015,31 +2015,6 @@
 			}]
 		}
 		{
-			title: "A Fisher's Life For Me"
-			x: 3.75d
-			y: -3.0d
-			shape: "hexagon"
-			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
-			size: 1.5d
-			id: "104D0C28773A1DD4"
-			tasks: [{
-				id: "4B09404FC3251283"
-				type: "item"
-				item: {
-					id: "netherdepthsupgrade:lava_fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4CD84099301CB676"
-				type: "item"
-				item: "netherdepthsupgrade:glowdine_bucket"
-			}]
-		}
-		{
 			title: "The Full Set: Golden Glory"
 			x: -3.0d
 			y: 1.5d

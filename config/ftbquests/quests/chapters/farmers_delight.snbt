@@ -271,7 +271,7 @@
 		}
 		{
 			title: "Obtain the New Crops"
-			x: 3.5d
+			x: 2.0d
 			y: -7.0d
 			shape: "hexagon"
 			subtitle: "More, give me more"
@@ -308,7 +308,7 @@
 		}
 		{
 			title: "Overweight Crops"
-			x: 1.5d
+			x: 0.5d
 			y: -8.5d
 			subtitle: "Everyone loves a chubby carrot"
 			description: [

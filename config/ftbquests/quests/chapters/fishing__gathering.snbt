@@ -1,0 +1,465 @@
+{
+	id: "4E0024DA8E387270"
+	group: "1E0017DE6773EF00"
+	order_index: 2
+	filename: "fishing__gathering"
+	title: "Fishing \\& Gathering"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Nether Fishing"
+			x: -5.0d
+			y: -2.0d
+			description: [
+				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
+				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
+			]
+			dependencies: ["104D0C28773A1DD4"]
+			id: "0F5E5A0B0C05ACD2"
+			tasks: [
+				{
+					id: "798C459CD61F966A"
+					type: "item"
+					item: "netherdepthsupgrade:blazefish"
+				}
+				{
+					id: "6C782B0CFA8D3DEE"
+					type: "item"
+					item: "netherdepthsupgrade:magmacubefish"
+				}
+				{
+					id: "5F2C45F299657EFB"
+					type: "item"
+					item: "netherdepthsupgrade:glowdine"
+				}
+				{
+					id: "2F6245F84764D7B2"
+					type: "item"
+					item: "netherdepthsupgrade:soulsucker"
+				}
+				{
+					id: "5D30B99EE265108E"
+					type: "item"
+					item: "netherdepthsupgrade:lava_pufferfish"
+				}
+				{
+					id: "261478743CC10159"
+					type: "item"
+					item: "netherdepthsupgrade:searing_cod"
+				}
+				{
+					id: "5D981D87542D1FD9"
+					type: "item"
+					item: "netherdepthsupgrade:obsidianfish"
+				}
+				{
+					id: "143742BA7EEEE35E"
+					type: "item"
+					item: "netherdepthsupgrade:wither_bonefish"
+				}
+				{
+					id: "0606924590758073"
+					type: "item"
+					item: "netherdepthsupgrade:bonefish"
+				}
+			]
+			rewards: [
+				{
+					id: "1814749C8605B014"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 3
+				}
+				{
+					id: "36A27638B101E7BE"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			title: "A Fisher's Life For Me"
+			x: -5.0d
+			y: -4.0d
+			shape: "circle"
+			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "104D0C28773A1DD4"
+			tasks: [{
+				id: "4B09404FC3251283"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CD84099301CB676"
+				type: "item"
+				item: "netherdepthsupgrade:glowdine_bucket"
+			}]
+		}
+		{
+			title: "Get a Fishing Rod"
+			x: -3.0d
+			y: -6.0d
+			shape: "rsquare"
+			subtitle: "a fisher's life for me"
+			description: [
+				"To get started with &aFishing&r, every good witch needs a decent &brod&r. You can't go wrong with the traditional &bFishing Rod&r, but there are &amultiple options&r for you to choose from, now!"
+				"&6Hovering over each item&r will tell you more about what they do, and &lJEI&r can show you how to craft them!"
+				"These rods will &alevel up as you use them&r, and can even &abecome dynamically enchanted&r!"
+				"In addition, there are new treasures to be fished up, and new types of fish. So what are you waiting for? Get reelin'!"
+			]
+			size: 2.0d
+			id: "2E4D1699E2A7876B"
+			tasks: [{
+				id: "48F4CD59425BC257"
+				type: "item"
+				title: "Any #forge:fishing_rods"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:fishing_rods"
+					}
+				}
+			}]
+			rewards: [{
+				id: "53084827437F5C3A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1279979498352596350L
+			}]
+		}
+		{
+			title: "Get Lucky"
+			x: -0.5d
+			y: -6.0d
+			description: ["The &bLucky Pad&r is an item which can be &6applied to your Rod via the &bSmithing Table&r. Each time you do so, it grants you &aanother level of Luck&r on your rod, which increases your Rod's bonuses."]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "100842B78CAFB393"
+			tasks: [
+				{
+					id: "20A04B6B1E5922B8"
+					type: "item"
+					item: "better_fishing_rods:lucky_pad"
+				}
+				{
+					id: "5BBC56B508901D6B"
+					type: "item"
+					item: "better_fishing_rods:lucky_pad_fragment"
+				}
+			]
+			rewards: [{
+				id: "1CF283F6DD3428B3"
+				type: "item"
+				item: "better_fishing_rods:lucky_pad_fragment"
+				count: 2
+			}]
+		}
+		{
+			title: "Basic Fish"
+			x: -5.5d
+			y: -6.0d
+			description: ["Catch one each of the &abasic fish in vanilla&r!"]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "7A31753911D1CCFC"
+			tasks: [
+				{
+					id: "7B3E2CE57F6AE720"
+					type: "item"
+					item: "minecraft:cod"
+				}
+				{
+					id: "34E02D42248303DC"
+					type: "item"
+					item: "minecraft:salmon"
+				}
+				{
+					id: "6D78D10E94FF6422"
+					type: "item"
+					item: "minecraft:tropical_fish"
+				}
+				{
+					id: "29B930E5EE5F787D"
+					type: "item"
+					item: "minecraft:pufferfish"
+				}
+			]
+			rewards: [
+				{
+					id: "4DCF25776F77BDF5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "6933C2EABDC4F6E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			title: "Rare Fish"
+			x: -1.5d
+			y: -4.0d
+			description: [
+				"Some fish are rarer and more nutritive than others. These can each be fished up in &aunique biomes&r. If you cook these fish, they'll grant &amore hunger&r than usual."
+				"- The &bDark Crab&r can be found in &aLush Caves&r."
+				"- The &bMantaray&r can be found in &aWarm Ocean biomes&r."
+				"- The &bShark&r can be fished up in &aCold Oceans&r."
+				"- The &bAnglerfish&r can be found in &aFrozen Ocean&r biomes."
+				" - The &bMonkfish&r is found in normal &aOceans&r."
+				"- The &bSwordfish&r is fished up from &aLukewarm Oceans&r."
+				"- The &bLobster&r is found in &aBeaches&r and &aStony Shores&r."
+				"- The &bSlimy Eel&r can be found in &aSwamps&r and &aDripstone Caves&r."
+				"Fish up one of each for a reward!"
+			]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "52FC90CE605A6308"
+			tasks: [
+				{
+					id: "22CB26C8F11FB316"
+					type: "item"
+					item: "bigfish:monkfish"
+				}
+				{
+					id: "2979086EF6BF6E58"
+					type: "item"
+					item: "bigfish:swordfish"
+				}
+				{
+					id: "01652AC1F5A754F2"
+					type: "item"
+					item: "bigfish:lobster"
+				}
+				{
+					id: "49FB4E484739E9F3"
+					type: "item"
+					item: "bigfish:slimy_eel"
+				}
+				{
+					id: "0152D82EE4A9692A"
+					type: "item"
+					item: "bigfish:cooked_mantaray"
+				}
+				{
+					id: "2F9A3377B43F4C0A"
+					type: "item"
+					item: "bigfish:dark_crab"
+				}
+				{
+					id: "2A6B04A6267B2135"
+					type: "item"
+					item: "bigfish:mantaray"
+				}
+				{
+					id: "248BEC43D0E3E750"
+					type: "item"
+					item: "bigfish:shark"
+				}
+				{
+					id: "58E95F90892F4170"
+					type: "item"
+					item: "bigfish:anglerfish"
+				}
+			]
+			rewards: [
+				{
+					id: "22259BC285D9DB7D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "0E5C3EAD2DF48C39"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+				{
+					id: "2879EC9DAAC5CF1F"
+					type: "item"
+					item: "better_fishing_rods:lucky_pad"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			dependencies: ["2093240CD42882CF"]
+			id: "015EA4B35A947259"
+			tasks: [{
+				id: "7972CB0F2E61BE94"
+				type: "item"
+				item: "collectorsreap:pomegranate"
+			}]
+			rewards: [{
+				id: "03531A0CBDA0CA3A"
+				type: "item"
+				item: "collectorsreap:pomegranate"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.5d
+			dependencies: ["2093240CD42882CF"]
+			id: "0E2CC89B895C9494"
+			tasks: [{
+				id: "2ED2CB812D6410F0"
+				type: "item"
+				item: "caupona:fig"
+			}]
+			rewards: [{
+				id: "7ABFB9AD7A6C8569"
+				type: "item"
+				item: "caupona:fig"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -11.5d
+			dependencies: ["2093240CD42882CF"]
+			id: "0D61BF5085BCEF31"
+			tasks: [{
+				id: "7F37A8C84BE53B25"
+				type: "item"
+				item: "collectorsreap:lime"
+			}]
+			rewards: [{
+				id: "09996C7EF0181006"
+				type: "item"
+				item: "collectorsreap:lime"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.5d
+			dependencies: ["2093240CD42882CF"]
+			id: "56DF02D06E0FD715"
+			tasks: [{
+				id: "7E9558C833E4342B"
+				type: "item"
+				item: "collectorsreap:portobello"
+			}]
+			rewards: [{
+				id: "0753904EFE9F57BF"
+				type: "item"
+				item: "collectorsreap:portobello"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			dependencies: ["2093240CD42882CF"]
+			id: "5C5DF640A2605954"
+			tasks: [{
+				id: "1F753784516464C0"
+				type: "item"
+				item: "caupona:walnut"
+			}]
+			rewards: [{
+				id: "26544ED98FC8DD1A"
+				type: "item"
+				item: "caupona:walnut"
+				count: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.0d
+			dependencies: ["2093240CD42882CF"]
+			id: "5A18AB9A4B6370A2"
+			tasks: [{
+				id: "746220A32EE8AA8E"
+				type: "item"
+				item: "caupona:wolfberries"
+			}]
+			rewards: [{
+				id: "058A1E765E08A4C8"
+				type: "item"
+				item: "caupona:wolfberries"
+				count: 5
+			}]
+		}
+		{
+			title: "Forage Wild Crops"
+			icon: "farmersdelight:wild_carrots"
+			x: -3.0d
+			y: -9.0d
+			shape: "rsquare"
+			description: [
+				"Scattered around the world, you can find &bWild Crops&r growing."
+				"Find all of them to build your &alovely witchy garden&r!"
+			]
+			size: 2.0d
+			id: "2093240CD42882CF"
+			tasks: [
+				{
+					id: "6EDA315759D3800F"
+					type: "questsadditions:break"
+					icon: "farmersdelight:wild_cabbages"
+					block_type: 0
+					block: "farmersdelight:wild_cabbage"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "2A2B8DA40D8637A9"
+					type: "questsadditions:break"
+					icon: "farmersdelight:wild_potatoes"
+					block_type: 0
+					block: "farmersdelight:wild_potatoes"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "608A8CD9B92FE737"
+					type: "questsadditions:break"
+					icon: "farmersdelight:wild_carrots"
+					block_type: 0
+					block: "farmersdelight:wild_carrots"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "1F855CF180E60103"
+					type: "questsadditions:break"
+					icon: "farmersdelight:wild_rice"
+					block_type: 0
+					block: "farmersdelight:wild_rice"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "1A6CF9C2538C64F9"
+					type: "questsadditions:break"
+					icon: "farmersdelight:wild_onions"
+					block_type: 0
+					block: "farmersdelight:wild_onions"
+					value: 1L
+					checkItem: false
+				}
+			]
+			rewards: [{
+				id: "20C2ED31F2632341"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

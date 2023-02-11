@@ -1,0 +1,6 @@
+
+["Configs for Big Fish"]
+	#The chance of fishing up a fish from this mod instead of another fish. Default = 0.5 = 50%
+	#Range: 0.0 ~ 1.0
+	Chance = 0.5
+

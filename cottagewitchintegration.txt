@@ -4,7 +4,6 @@ TODO:
 - watch ars nouveau updated guide
 - controls
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
-- remove dead bush texturepack
 - sell rare Alex items via NPC
 
 new enchantments
@@ -25,6 +24,7 @@ Spice of life
 o Starbuncle Mania
 Structory & Towers
 
+x remove dead bush texturepack
 x Villagers Plus
 x Handcrafted
 x Deeper and Darker

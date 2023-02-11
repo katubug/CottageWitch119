@@ -1427,6 +1427,34 @@
 				table_id: 6951594928314176539L
 			}]
 		}
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"The mod &lCaupona&r adds a lot of new recipes and ways to cook them."
+				"Although quests may be added in the future, for now &6please read the guidebook&r to learn how the mod works."
+			]
+			size: 2.0d
+			id: "23A1554470B97991"
+			tasks: [{
+				id: "4B4FAE89252E603D"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "caupona:book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "21A49B0B389587B3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

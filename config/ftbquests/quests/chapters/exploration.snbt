@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 6.0d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 			width: 12.5d
 			height: 5.0d
 			rotation: 0.0d
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 6.0d
-			y: 8.5d
+			x: 0.0d
+			y: 1.5d
 			width: 11.5d
 			height: 6.5d
 			rotation: 0.0d
@@ -37,8 +37,8 @@
 		{
 			title: "Begin your World"
 			icon: "minecraft:grass_block"
-			x: 6.0d
-			y: 1.5d
+			x: 0.0d
+			y: 6.0d
 			shape: "rsquare"
 			subtitle: "Welcome in!"
 			description: [
@@ -141,8 +141,8 @@
 		}
 		{
 			title: "Find Biomes with the Nature's Compass"
-			x: 7.5d
-			y: 4.0d
+			x: 1.5d
+			y: 8.5d
 			shape: "hexagon"
 			description: [
 				"The &bNature's Compass&r is a magical tool, similar to a &bDowsing Rod&r, which will allow you to find your way to a particular type of biome."
@@ -174,8 +174,8 @@
 		}
 		{
 			title: "Find Structures with the Explorer's Compass"
-			x: 4.5d
-			y: 4.0d
+			x: -1.5d
+			y: 8.5d
 			shape: "hexagon"
 			description: [
 				"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
@@ -200,8 +200,8 @@
 		}
 		{
 			title: "Baby's First Death"
-			x: 10.0d
-			y: 1.5d
+			x: 4.0d
+			y: 6.0d
 			subtitle: "Handbook for the recently deceased"
 			description: [
 				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
@@ -241,8 +241,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: -4.5d
+			y: 5.5d
 			subtitle: "Cute house starter pack"
 			description: [
 				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
@@ -263,8 +263,8 @@
 		}
 		{
 			title: "Mushroom Hat"
-			x: 1.5d
-			y: 2.5d
+			x: -4.5d
+			y: 7.0d
 			description: [
 				"Would you like a Mushroom Hat? Cool! Click the box above."
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
@@ -292,8 +292,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 0.5d
+			x: 6.5d
+			y: 5.0d
 			shape: "octagon"
 			description: ["Congratulations on cheating death! Sorry about your totem, though."]
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -313,8 +313,8 @@
 		}
 		{
 			title: "Die 50 Times"
-			x: 12.0d
-			y: 3.0d
+			x: 6.0d
+			y: 7.5d
 			subtitle: "YOU DIED"
 			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -333,8 +333,8 @@
 		}
 		{
 			title: "Survival Skills"
-			x: 14.0d
-			y: 2.0d
+			x: 8.0d
+			y: 6.5d
 			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
 			dependencies: ["47643C0C8D4BCBD9"]
 			id: "2508051D98B7CB06"
@@ -352,8 +352,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: -3.5d
+			y: 8.5d
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
 			dependencies: ["6C6635F6D9644BB7"]
 			id: "7232C9D413054886"
@@ -374,6 +374,16 @@
 					item: "usefulslime:slime_sling"
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "457F26BFBE27EC1C"
+			tasks: [{
+				id: "6574D787435FC4EA"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
 		}
 	]
 	quest_links: [ ]
