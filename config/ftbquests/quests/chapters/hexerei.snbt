@@ -11,10 +11,22 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 25.0d
+		height: 15.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGHexerei.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: -4.5d
-			y: -5.0d
+			x: -8.0d
+			y: 1.0d
 			subtitle: "A witch's best friend"
 			description: [
 				"One of the most important tools in a witch's bag is their &bBook of Shadows&r, in which they record their knowledge and experience as they follow their path."
@@ -40,8 +52,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -5.0d
+			x: -10.0d
+			y: 1.0d
 			subtitle: "A focal point for magic"
 			description: ["You'll need an &bAltar&r to place your &bBook of Shadows&r on. In order to craft this magical pedestal, you'll need to find a &bMahogany Tree&r, located in &aJungle&r Biomes."]
 			dependencies: ["0BD409AFD13534B3"]
@@ -68,8 +80,8 @@
 		}
 		{
 			title: "Craft a Dowsing Rod"
-			x: -2.0d
-			y: -5.0d
+			x: -5.5d
+			y: 1.0d
 			shape: "rsquare"
 			subtitle: "A magical compass to lead the way"
 			description: [
@@ -97,8 +109,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -5.5d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "The power of positivity"
 			description: [
@@ -129,8 +141,8 @@
 		}
 		{
 			title: "Make a Mixing Cauldron"
-			x: 0.0d
-			y: -5.0d
+			x: 3.0d
+			y: 1.5d
 			subtitle: "A Cauldron that's just cauld-right!"
 			description: ["A cauldron is fine and dandy, but you'll want something a little more magical for your endeavors. Enhance a regular &bCauldron&r with &biron&r and &btorches&r in order to create this advanced crafting tool."]
 			dependencies: ["082D264993F18EDB"]
@@ -162,8 +174,8 @@
 		}
 		{
 			title: "Obtain a Coffer"
-			x: 3.5d
-			y: -4.0d
+			x: 4.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "Much better than a coffin"
 			description: [
@@ -190,8 +202,8 @@
 		}
 		{
 			title: "Obtain Infused Fabric"
-			x: 3.0d
-			y: -6.0d
+			x: 6.0d
+			y: -0.5d
 			subtitle: "Of course it's black"
 			description: ["&bInfused Fabric&r is the basis for creating your very first set of &bWitch Robes&r. The warp and weft are perfectly balanced, giving this extra defense despite only being fabric."]
 			dependencies: ["327D93798A7BE211"]
@@ -210,8 +222,8 @@
 		}
 		{
 			title: "Obtain a Dipper"
-			x: 3.5d
-			y: -2.5d
+			x: 6.0d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Is a \"big dipper\" joke too obvious?"
 			description: [
@@ -243,8 +255,8 @@
 		}
 		{
 			title: "Obtain a Candelabra"
-			x: 5.0d
-			y: -1.0d
+			x: 8.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "Abracandelabra!"
 			description: [
@@ -275,8 +287,8 @@
 		}
 		{
 			title: "Obtain a Pestle and Mortar"
-			x: 1.0d
-			y: -1.0d
+			x: 2.5d
+			y: 3.5d
 			subtitle: "Pester a mortal"
 			description: ["The &bMortar and Pestle&r is a tool for grinding herbs. For right now, its primary use is to create a &bSeed Mixture&r to befriend &aCrows&r. A worthy use!"]
 			dependencies: ["327D93798A7BE211"]
@@ -320,8 +332,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
+			x: -7.5d
+			y: 3.0d
 			shape: "hexagon"
 			description: ["The &bDrying Rack&r allows you to &6hang your herbs to dry&r. It also makes a lovely decoration."]
 			dependencies: ["082D264993F18EDB"]
@@ -347,8 +359,8 @@
 		}
 		{
 			title: "Obtain a Sage Burning Plate"
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: 2.0d
 			description: ["The &bSage Burning Plate&r will allow you to burn &bSage Bundles&r, which &aprevents hostile mobs from spawning&r within a large radius."]
 			dependencies: ["327D93798A7BE211"]
 			id: "34670D78DC22EC27"
@@ -378,8 +390,8 @@
 		}
 		{
 			title: "Obtain a Sage Bundle"
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 2.5d
 			subtitle: "A sage choice"
 			description: [
 				"Burning Sage is an ancient and well-documented method of purifying an area of negative or wayward energy. In this world, this &aprevents hostile mobs from spawning in a rather large radius around the bundle&r."
@@ -414,8 +426,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -7.5d
+			x: 7.0d
+			y: -2.5d
 			subtitle: "The icon, the myth, the legend"
 			description: ["Every witch needs a good &bhat&r. You can craft yours out of &bInfused Fabric&r, or find it in a &dWitch Coven&r in a Swamp biome."]
 			dependencies: ["427FD234857AEBE8"]
@@ -440,8 +452,8 @@
 		}
 		{
 			title: "Cover your Hat in Mushrooms"
-			x: 6.0d
-			y: -8.5d
+			x: 9.0d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "The best upgrade, honestly"
 			description: ["Adding mushrooms to your hat is a glorious aesthetic choice, although it doesn't offer any tangible benefits."]
@@ -466,8 +478,8 @@
 		}
 		{
 			title: "Witch's Robe"
-			x: 5.0d
-			y: -6.0d
+			x: 8.5d
+			y: -1.5d
 			subtitle: "Timelessly stylish, and powerful too"
 			description: [
 				"The &bRobe&r is the second part of the 3-part &bWitch&r set. This set is slightly weaker than &bDiamond&r, but stronger than &bIron&r due to its inherent magically protective properties."
@@ -497,8 +509,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.5d
+			x: 8.5d
+			y: 0.0d
 			subtitle: "These boots were made for witchin'"
 			description: [
 				"The &bWitch's set &agrants bonuses&r depending on how many pieces you're wearing (out of 3)."
@@ -525,8 +537,8 @@
 		}
 		{
 			title: "Obtain an Herb Jar"
-			x: 2.5d
-			y: -1.5d
+			x: -1.0d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "Totally herbaceous, dude"
 			description: [
@@ -554,8 +566,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 7.0d
+			y: 2.5d
 			subtitle: "Utterly Charming"
 			description: [
 				"Crows love music! If you ever lose track of them, you can instantly summon them using the &bCrow Flute&r. You'll need &bMahogany Wood&r and some &bDye&r in order to craft."
@@ -581,8 +593,8 @@
 		}
 		{
 			title: "Mix some Seeds in your Mortar"
-			x: 1.0d
-			y: 1.0d
+			x: 2.0d
+			y: 5.0d
 			subtitle: "Squawk goals"
 			description: ["Create some &bMixed Seeds&r in order to tame &eWild Crows&r. Once you tame a Crow Familiar, they will help you with tasks around your hut!"]
 			dependencies: ["24C19E2033095FFA"]
@@ -601,8 +613,8 @@
 		}
 		{
 			title: "Make A Broom"
-			x: 1.5d
-			y: -8.0d
+			x: 0.5d
+			y: 0.5d
 			subtitle: "Either kind works!"
 			description: [
 				"There are two types of &bBrooms&r, &aWillow&r and &aMahogany&r. Of these, the Mahogany Broom is faster and fire-resistance. The Willow Broom, on the other hand, is susceptible to fire, and is a little harder to control, but is much cheaper to make."
@@ -639,8 +651,8 @@
 		}
 		{
 			title: "Obtain Broom Waterproof Tip"
-			x: 2.0d
-			y: -10.5d
+			x: 1.5d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "You too can be a sea witch"
 			description: ["Normally, when you enter water while flying, your Broom will dismount you. However, by adding this tip to the end, you can remain in the water without getting thrown off, for a limited time."]
@@ -666,8 +678,8 @@
 		}
 		{
 			title: "Obtain a Small Satchel"
-			x: -0.5d
-			y: -9.5d
+			x: -1.5d
+			y: -1.0d
 			subtitle: "Portable storage"
 			description: [
 				"You can attach a &bSatchel&r to your &bBroom&r both as a cute decoration, and as a way to store items on the go!"
@@ -690,8 +702,8 @@
 		}
 		{
 			title: "Obtain an Enhanced Broom Brush"
-			x: 4.5d
-			y: -10.5d
+			x: 3.5d
+			y: -2.0d
 			subtitle: "Fancy enhancery"
 			description: ["The &bEnhanced Broom Brush&r has increased durability. Don't forget to hang it out to dry once you've crafted it!"]
 			dependencies: ["7793743B2F9DE215"]
@@ -714,8 +726,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -7.0d
+			x: -9.0d
+			y: -1.0d
 			shape: "hexagon"
 			description: [
 				"&bMandrake Root&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
@@ -764,8 +776,8 @@
 		}
 		{
 			title: "Obtain a Blood Sigil"
-			x: -0.5d
-			y: -7.5d
+			x: -3.0d
+			y: 0.0d
 			description: [
 				"Blood Sigils are used to collect blood for rituals. They are crafted with &bRedstone&r and &bPolished Blackstone&r."
 				"Once you have crafted the Sigil, place it in the bottom of your &bMixing Cauldron&r (by &aright-clicking and placing it in the left slot of the crafting interface&r)."
@@ -787,8 +799,8 @@
 		}
 		{
 			title: "Obtain Broom Netherite Tip"
-			x: 3.0d
-			y: -12.5d
+			x: 1.0d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Resist the fire"
 			description: ["Much like the Waterproof Tip, the &bNetherite Broom Tip&r will prevent players getting dismounted due to lava. It is recommended to use this with a &bMahogany Broom&r, as it is fire resistant."]
@@ -826,8 +838,8 @@
 		}
 		{
 			title: "Obtain a Replacement Broom Brush"
-			x: 3.5d
-			y: -8.5d
+			x: 2.5d
+			y: 0.0d
 			subtitle: "Re-up your flight subscription"
 			description: ["As you use your Broom, the Brush will eventually lose durability and need replacing. Begin by making the standard &bWet Broom Brush&r, which can be either immediately upgraded to an &bEnhanced Broom Brush&r, or dried out for use on a &bDrying Rack&r."]
 			dependencies: ["1698226644682207"]
@@ -844,8 +856,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -8.5d
+			x: -5.5d
+			y: -2.5d
 			shape: "hexagon"
 			description: [
 				"&bBelladonna&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
@@ -873,8 +885,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -8.5d
+			x: -8.5d
+			y: -2.5d
 			shape: "hexagon"
 			description: [
 				"&bYellow Dock&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
@@ -901,8 +913,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -9.5d
+			x: -7.0d
+			y: -3.5d
 			shape: "hexagon"
 			description: [
 				"&bMugwort&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
@@ -930,8 +942,8 @@
 		}
 		{
 			title: "Meet a Crow"
-			x: 1.0d
-			y: 3.0d
+			x: 5.0d
+			y: 4.5d
 			shape: "heart"
 			subtitle: "You look oddly Familiar"
 			description: [
@@ -961,8 +973,8 @@
 		}
 		{
 			title: "Breeding Crows"
-			x: 2.5d
-			y: 3.5d
+			x: 4.5d
+			y: 2.5d
 			subtitle: "Oooh, shiny!"
 			description: ["You can breed two tamed &eCrows&r by gifting one of them a shiny &bGolden Nugget&r. It will then bring it to its potential mate, and the two will pair up!"]
 			dependencies: ["2F933DC876021A85"]
@@ -987,8 +999,8 @@
 		}
 		{
 			title: "Discover the Dark Coven"
-			x: -5.5d
-			y: -3.5d
+			x: -9.0d
+			y: 2.0d
 			description: ["Hidden away in &cSwamps&r is the &cDark Coven&r, a city of &eWitches&r who are up to no good. If you are &6wearing their robes&r, they will ignore you. But anyone not perceived to be one of them is considered an enemy."]
 			dependencies: ["082D264993F18EDB"]
 			id: "196ECF57CAC465DF"
@@ -1054,8 +1066,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -10.5d
+			x: -0.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "c'mere buddy!"
 			description: [
@@ -1092,8 +1104,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -10.5d
+			x: -3.5d
+			y: -2.0d
 			description: ["The &bReplacer Satchel&r is incredibly useful, as it will &areplace broken &bBroom Brushes&r with ones in its inventory, beginning with the &6top left&r."]
 			dependencies: ["02CA3D4397E8BA25"]
 			id: "257F1DCDEC619664"
@@ -1115,8 +1127,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -12.0d
+			x: -2.5d
+			y: -3.5d
 			description: ["The &bEnder Satchel&r is a storage upgrade which &agrants easy access to your Ender Chest inventory!&r."]
 			dependencies: ["02CA3D4397E8BA25"]
 			id: "434E391D87C3EBD9"
@@ -1140,8 +1152,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 3.5d
+			x: 8.0d
+			y: 4.5d
 			shape: "hexagon"
 			description: ["Equip your &eCrow&r with this &bAnkh&r to protect it from danger. It will grant it &aRegen&r while it's playing dead, and &aacts as a &bTotem of Undying&r in case the &eCrow&r dies."]
 			dependencies: ["2F933DC876021A85"]
@@ -1164,6 +1176,19 @@
 					table_id: 8808494820591225409L
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "48F297C52E831F12"
+			tasks: [{
+				id: "5B273C7F23C370E2"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
 		}
 	]
 	quest_links: [ ]

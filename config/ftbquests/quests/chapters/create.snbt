@@ -7,23 +7,37 @@
 	icon: "create:brass_hand"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -8.0d
-		y: -6.5d
-		width: 4.0d
-		height: 4.0d
-		rotation: 0.0d
-		image: "cottagewitch:textures/underconstructionwip.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 25.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGCreate.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/underconstructionwip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Beginning the Create-ive Process"
-			x: -3.0d
-			y: -4.0d
+			x: -9.0d
+			y: -2.0d
 			shape: "rsquare"
 			description: [
 				"&lCreate&r is an incredible mod focusing on low-tech automation and machinery. I am sure I don't need to explain to you that physics, science, and magic are all closely interrelated. Why not dabble a bit in &atech witchery&r? Unlike many tech mods, the basic energy type Create uses is &arotational force&r, which can be generated in a number of ways."
@@ -46,8 +60,8 @@
 		{
 			title: "Your First Machine"
 			icon: "create:mechanical_press"
-			x: 0.5d
-			y: -8.0d
+			x: 0.0d
+			y: -2.0d
 			description: [
 				"One of the first machines you'll want to build is the &bMechanical Press&r. This, well, presses items down to create things like &bBrass and Iron Sheets&r, which you'll need for future projects."
 				"To begin with, make a &bHand Crank&r to power it. Going forward, you'll &aautomate your power&r, but in a pinch, some elbow grease does the trick just as well."
@@ -84,8 +98,8 @@
 		}
 		{
 			title: "A Better Stone"
-			x: -1.0d
-			y: -4.0d
+			x: -7.0d
+			y: -2.0d
 			description: [
 				"&bAndesite&r is one of the foundational blocks of beginning your factory. However, though stone by itself is strong, it is not malleable. So, it is best to mix it with &bIron&r to create a more versatile material: &bAndesite Alloy&r."
 				"&bAndesite Alloy&r is used in making both &bShafts&r (which are then used to make &bCogs&r), and also to reinforce stripped logs into &bAndesite Casing&r. Together, these make up the basis of most of the recipes in this mod."
@@ -115,8 +129,8 @@
 		}
 		{
 			title: "Getting the Shaft"
-			x: 0.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.0d
 			description: ["&bShafts&r can be used to convey &arotational force&r, and &bCogs&r both &6convey and manipulate&r that force. Many machines have cogs in-built, which require an external &bCog&r to power them. Others can connect to either a &bShaft&r or the side of a &bCog&r."]
 			dependencies: ["283B3A75443BDA35"]
 			id: "1EB53FD55A3973BF"
@@ -133,8 +147,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.0d
+			x: -5.0d
+			y: -0.5d
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
 				"The way that &bCogs&r connect is fairly simple: &bSmall Cogs&r can connect in a + pattern (ie, on the cardinal directional sides, as well as at the shaft). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
@@ -155,8 +169,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.5d
+			x: -5.0d
+			y: 1.0d
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
 				"The way that &bCogs&r connect is fairly simple: &bLarge Cogs&r connect perpendicularly to one another, allowing you to &atransfer from horizontal to vertical rotation&r without a &bGearbox&r (more on that later). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
@@ -179,8 +193,8 @@
 		}
 		{
 			title: "Rotational Force: Water"
-			x: -5.5d
-			y: -8.5d
+			x: -5.0d
+			y: 2.5d
 			description: [
 				"{image:cottagewitch:textures/waterwheel.png width:230 height:200 align:1}"
 				"One of the primary methods of creating rotational force is the &bWater Wheel&r. It requires &aflowing water&r to function. The most optimal way of doing this is to &6place it vertically&r, ensuring that it is not clipping into any blocks, and then placing a block of &bSoul Sand&r to one side of the bottom. Then, &6place two water source blocks&r on top of the &bSoul Sand&r, creating a &awater elevator&r. This will give you a generation of &d320 su&r, which is the maximum a Water Wheel&r can provide."
@@ -202,8 +216,8 @@
 		}
 		{
 			title: "Rotational Force: Wind"
-			x: -5.0d
-			y: -10.0d
+			x: 0.0d
+			y: 4.0d
 			description: [
 				"A very powerful method of generating force is the &bWindmill&r. One can be made relatively simply, and then improved later on to create even more su."
 				"A Windmill requires a &bWindmill Bearing&r, to begin with. This can be &aplaced either horizontally or vertically&r, and the shafts must connect to the back of it. The front of the Bearing is sticky, so you can &6place blocks on it&r and they will become part of the machine."
@@ -240,8 +254,8 @@
 		}
 		{
 			title: "Rotational Force: Exercise"
-			x: -5.0d
-			y: -7.0d
+			x: 2.0d
+			y: 2.5d
 			description: [
 				"Another power option is &bStarbuncle Wheels&r. It turns out that the industry of the &eStarbuncle&r goes beyond collecting and transferring items - they &alove to run&r."
 				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r."
@@ -261,8 +275,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.0d
+			x: -2.5d
+			y: -2.0d
 			description: ["&bAndesite Casing&r is one of three different tiers of Casing, used to craft various machinery. It is crafted by applying &bAndesite Alloy&r to a &bStripped Log&r. You can do this &6manually by placing the &bStripped Log&r in world and &6right clicking it with the &bAndesite Alloy&r. It can also be automated by using a &bDeployer&r."]
 			dependencies: ["1EB53FD55A3973BF"]
 			id: "090B731F01A14C75"
@@ -279,8 +293,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -6.5d
+			x: 0.0d
+			y: -0.5d
 			shape: "octagon"
 			description: ["Turning a &bHand Crank&r is hungry work! Quick, eat this before you pass out."]
 			dependencies: ["21D14DACAA03665A"]
@@ -298,8 +312,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -6.0d
+			x: -2.5d
+			y: 1.0d
 			description: [
 				"The &bGearbox&r helps you &amanipulate rotation&r in a small space by &aforming a right angle&r for 2 or more &bCogs&r or &bShafts&r."
 				"The &bGear Shift&r can be &6rotated on either x or y axis&r to help you &dturn corners&r and &achange directions&r."
@@ -325,8 +339,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: -2.5d
+			y: -0.5d
 			description: ["Among other things, the &bGearshift&r allows you to &areverse the direction of rotation&r, by placing it between two &bShafts&r or &bCogs&r, and &6applying a Redstone signal&r."]
 			dependencies: ["1EB53FD55A3973BF"]
 			id: "5177165688541586"
@@ -344,10 +358,9 @@
 		}
 		{
 			x: -9.0d
-			y: -15.5d
+			y: 0.0d
 			shape: "octagon"
 			description: ["Congratulations on your feat of engineering! You had to nerf yourself, that's how good you were. Take this armor set as a reward."]
-			dependencies: ["0EBD468481C32221"]
 			invisible: true
 			id: "0C8B40405806EEB4"
 			tasks: [{
@@ -404,8 +417,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -8.5d
+			x: 0.0d
+			y: 1.0d
 			shape: "octagon"
 			description: ["Congratulation on operating your first machine! Hopefully if you were feeling intimidated, you now feel a little more confident."]
 			dependencies: ["21D14DACAA03665A"]
@@ -424,8 +437,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -9.5d
+			x: -5.0d
+			y: 4.0d
 			description: ["You can use &bSails&r, which will &aautomatically become part of the structure&r, even if the block they are attached to is not a &bRadial Chassis&r. This method also does not require a &bSlime Ball&r."]
 			dependencies: ["7653B8A3BFBA6E2C"]
 			id: "7086AF668F510A2C"
@@ -442,8 +455,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -11.5d
+			x: -2.5d
+			y: 4.0d
 			description: ["You may wish to use a &bRadial Chassis&r, which will attach to plain blocks such as &bWool&r. You must &6stick the wool to each side&r by first making it sticky. You can do this by right clicking the &bChassis&r with a &bSlime Block&r, and then &6placing the wool&r on the sticky side."]
 			dependencies: ["7653B8A3BFBA6E2C"]
 			id: "72519F917B007C84"
@@ -461,8 +474,8 @@
 		}
 		{
 			title: "The Power of Rotational Force"
-			x: -2.0d
-			y: -8.5d
+			x: 0.0d
+			y: 2.5d
 			description: [
 				"&aRotational force&r is measured in &dStress Units, or su&r. The more force you generate, the more su you have access to. Machines require a certain amount of su to run, and if you try to place too many operations on a single network, your system can become &dOverstressed&r. You can view this in individual parts by &6wearing Goggles&r, but it is also recommended to craft a &bStressometer&r to attach to your network."
 				"The Stressometer allows you to &aview your maximum su and how much of it is remaining&r."
@@ -490,8 +503,8 @@
 					Damage: 0
 				}
 			}
-			x: 1.5d
-			y: -13.5d
+			x: 6.0d
+			y: 1.0d
 			shape: "diamond"
 			description: ["These quests are currently being worked on. Expect more in the near future!"]
 			dependencies: ["5859015DE7AD5512"]
@@ -503,8 +516,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -6.0d
+			x: -2.5d
+			y: 2.5d
 			description: [
 				"The &bSteam Engine&r is another method of creating power, but it is &asignificantly more difficult&r and not recommended for beginners."
 				"To find out how to power a &bSteam Engine&r, as well as how to &dupgrade the output&r, please &6search &lJEI&r for \"steam engine\" and &6hold \"W\" to ponder&r."
@@ -525,8 +538,8 @@
 		}
 		{
 			title: "Mixing and Crafting"
-			x: 0.5d
-			y: -10.0d
+			x: 2.0d
+			y: -2.0d
 			description: [
 				"The &bMechanical Mixer&r is used for multiple functions such as &acreating alloys&r and &aautocrafting shapeless recipes&r."
 				"It must be paired with a &bBasin&r, which holds the ingredients for it to mix."
@@ -575,8 +588,8 @@
 		}
 		{
 			title: "Heating with Blaze Burners"
-			x: -2.0d
-			y: -10.0d
+			x: 2.0d
+			y: -3.5d
 			subtitle: "your very own Calcifer!"
 			description: [
 				"Many &bMixer&r recipes will require &aHeat&r. You can use normal heat sources such as &bCampfires&r for certain recipes, but many will require a &bBlaze Burner&r."
@@ -612,8 +625,8 @@
 		}
 		{
 			title: "Liquid to Solid via Compaction"
-			x: -4.0d
-			y: -11.0d
+			x: 4.0d
+			y: -3.5d
 			description: [
 				"Now that you have your &bMelted Chocolate&r, you'll want to &6compact it into Bars using a &bMechanical Press&r."
 				"Place a &bBasin&r beneath a &bMechanical Press&r and either &apump or bucket&r the Chocolate into the Basin."
@@ -643,8 +656,8 @@
 		}
 		{
 			title: "Moving and Storing Fluids"
-			x: 2.5d
-			y: -11.5d
+			x: 2.0d
+			y: 1.0d
 			description: [
 				"For certain recipes you may wish to use &bFluids&r, and for that you'll need &bTanks&r, &bPipes&r, and &bPumps&r."
 				"To test it out, why not &dset up an infinite &bLava&d source&r? Set up a basic &aLava Generator&r with &bDripstone&r and a &bCauldron&r."
@@ -694,8 +707,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -11.5d
+			x: 4.0d
+			y: -2.0d
 			description: [
 				"Another important &aalloy&r is &bBrass&r, which is formed of &bCopper&r and &bZinc&r."
 				"To craft it, you'll need a &bMixer&r with a &bBlaze Burner&r underneath. Throw the ingredients into the mixer, &6feed the Blaze Burner&r, and make sure the &bMixer&r is receiving enough su."
@@ -724,8 +737,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -12.5d
+			x: 6.0d
+			y: -0.5d
 			description: ["&bRose Quartz&r is a glassy crystal that can be both decorative and useful. Its most important usage is in &bElectron Tubes&r, which help to power &a\"intelligent\" machines&r."]
 			dependencies: ["5859015DE7AD5512"]
 			id: "777BD51D55A705BC"
@@ -749,8 +762,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -14.0d
+			x: 8.0d
+			y: -0.5d
 			dependencies: ["777BD51D55A705BC"]
 			id: "21D3406A746CF116"
 			tasks: [{
@@ -760,8 +773,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -12.5d
+			x: 6.0d
+			y: -2.0d
 			description: ["The &bBrass Hand&r is used to craft both &bDeployers&r and the &bExtend-o Grip&r, the latter of which &aallows you to extend your main hand reach&r. It's very... handy. I'll see myself out."]
 			dependencies: ["196015594CAFB1C6"]
 			id: "55F04B5FF196DD28"
@@ -777,8 +790,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -14.5d
+			x: 8.0d
+			y: -2.0d
 			description: ["&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."]
 			dependencies: [
 				"55F04B5FF196DD28"
@@ -810,8 +823,8 @@
 		}
 		{
 			title: "Moving Items"
-			x: 3.0d
-			y: -10.0d
+			x: 2.0d
+			y: -0.5d
 			shape: "hexagon"
 			description: [
 				"&bMechanical Belts&r convey items between machines and inventories &ahorizontally or diagonally&r. Items placed on a &bMechanical Belt&r will stick to it and not despawn."
@@ -863,8 +876,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -14.5d
+			x: 9.5d
+			y: -2.0d
 			description: [
 				"The &bPrecision Mechanism&r is crafted by setting up a &bMechanical Belt&r and &bthree Deployers&r."
 				"You can view the recipe in &lJEI&r by selecting the second tab at the top, &d\"Recipe Sequence\"&r."
@@ -885,8 +898,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -15.5d
+			x: 9.5d
+			y: -0.5d
 			description: [
 				"The &bRotational Speed Controller&r is a machine which can &aincrease, decrease, or reverse&r the speed and direction of rotation."
 				"&6Place it down and connect one of the sides&r to your su network. Then, &6attach a &bLarge Cogwheel&r as shown in the image, and &6connect the subsequent machinery&r to that &bCogwheel&r."
@@ -909,8 +922,8 @@
 		}
 		{
 			title: "Glass Casings as Deco"
-			x: 0.0d
-			y: -2.5d
+			x: -7.0d
+			y: -0.5d
 			description: ["You can enhance your Create machines by integrating &bGlass Casings&r, which are both aesthetic and functional blocks with connective textures."]
 			dependencies: ["283B3A75443BDA35"]
 			id: "3FCDDF81FEEE6D6A"
@@ -931,6 +944,19 @@
 				type: "item"
 				item: "create_crystal_clear:brass_clear_glass_casing"
 				count: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "37CC982A449FB0DE"
+			tasks: [{
+				id: "3B3F4A0AC945DFB5"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

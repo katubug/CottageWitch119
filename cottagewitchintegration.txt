@@ -10,20 +10,19 @@ new enchantments
 o Alex's Mobs New Stuff
 o Ars Elemental
 o Ars Instrumentum
-Caupona
 o Collector's Reap
 o Create Central Cooking
 o Create Confectionary
 o Create Slice and Dice
 o Delightful new stuff
-o Nether Depths Update
-Quark Oddities
-Sky Villages
 o Spelunkery
-Spice of life
 o Starbuncle Mania
 Structory & Towers
 
+x Sky Villages
+x Caupona *for now*
+x Nether Depths Update
+x Quark Oddities
 x remove dead bush texturepack
 x Villagers Plus
 x Handcrafted

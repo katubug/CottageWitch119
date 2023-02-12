@@ -1,7 +1,7 @@
 {
 	id: "4DB925317B421272"
 	group: "5FB460EFA0A2567E"
-	order_index: 3
+	order_index: 2
 	filename: "wildlife"
 	title: "Wildlife"
 	icon: "minecraft:rabbit_hide"
@@ -9,44 +9,44 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -15.0d
-			y: -9.5d
+			x: -9.0d
+			y: -5.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/friendly.png"
+			image: "cottagewitch:textures/BGTameable.png"
 			hover: [ ]
 			click: ""
 			dev: false
 			corner: false
 		}
 		{
-			x: -6.0d
-			y: -9.5d
+			x: 9.0d
+			y: -5.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/neutral.png"
+			image: "cottagewitch:textures/BGNeutral.png"
 			hover: [ ]
 			click: ""
 			dev: false
 			corner: false
 		}
 		{
-			x: -15.0d
-			y: -0.5d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/hunts.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 5.5d
+			x: 6.0d
 			y: 4.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGWyldHunts.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -5.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -56,12 +56,24 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -6.0d
+			y: 4.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGMonsters.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
 			title: "Meet the Cosmaw"
-			x: -14.5d
-			y: -11.5d
+			x: -8.5d
+			y: -7.0d
 			shape: "heart"
 			subtitle: "So very Cosmaw-politan, don't you think?"
 			description: [
@@ -86,8 +98,8 @@
 		}
 		{
 			title: "Meet a Mungus"
-			x: -5.0d
-			y: -10.5d
+			x: 10.0d
+			y: -6.5d
 			shape: "heart"
 			subtitle: "Pretty sus ngl"
 			description: [
@@ -141,8 +153,8 @@
 		}
 		{
 			title: "Create a Bunfungus"
-			x: -6.0d
-			y: -11.5d
+			x: 9.0d
+			y: -7.5d
 			description: ["Feed a &eRabbit&r some &bMungal Spores&r to create a &eBunfungus&r, a rather large and disturbing neutral creature which will defend the nearby area. They can be healed with &bCarrots&r, and drop &bBunfungus&r meat, which can be used in cooking."]
 			dependencies: ["2B24CC677B5015E5"]
 			id: "6674937B885ABAE6"
@@ -159,8 +171,8 @@
 		}
 		{
 			title: "Meet the Mimicube"
-			x: -16.5d
-			y: -1.0d
+			x: 4.5d
+			y: 4.5d
 			shape: "heart"
 			description: [
 				"The &eMimicube&r is a defender of End Cities, and is capable of mimicking its attacker by developing armor, shields, and even weapons to match those of the player. When defeated, they drop &bMimicream&r, which can be used in crafting, or to &aduplicate almost any item, including enchantments&r!"
@@ -191,8 +203,8 @@
 		}
 		{
 			title: "Meet a Snuffle!"
-			x: -8.0d
-			y: -8.5d
+			x: 7.0d
+			y: -4.5d
 			shape: "heart"
 			subtitle: "So warm and snuffly"
 			description: ["The &eSnuffle&r is a passive creature with a permanent blep. It can be found in snowy biomes, and &atamed with potatoes&r."]
@@ -221,8 +233,8 @@
 		}
 		{
 			title: "Meet the Quacklings"
-			x: -5.0d
-			y: -8.5d
+			x: 10.0d
+			y: -4.5d
 			shape: "heart"
 			subtitle: "queck"
 			description: ["Quacklings are bizarre, yet friendly creatures that primarily live in Swamps. They can be traded with, just like human villagers!"]
@@ -250,8 +262,8 @@
 			]
 		}
 		{
-			x: -14.0d
-			y: 2.0d
+			x: 7.0d
+			y: 7.5d
 			shape: "hexagon"
 			description: [
 				"The &eGuster&r is an elemental spirit which can appear during storms. It will throw nearby entities or items up into the air, and are &aresistant to arrows&r."
@@ -271,8 +283,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 0.5d
+			x: 8.5d
+			y: 6.0d
 			shape: "octagon"
 			description: ["Earn this by successfully &abreeding two Froststalkers&r."]
 			dependencies: ["3B900109B67CF812"]
@@ -290,8 +302,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 0.5d
+			x: 7.0d
+			y: 6.0d
 			description: [
 				"The &bFroststalker&r helmet is worn to convince &eFroststalkers&r that the player is one of them."
 				"It must be crafted from one of their horns. Once it is worn, you can &6breed them with beef&r - but be warned, taking off the helmet will &dmake the babies hostile as well&r."
@@ -315,8 +327,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -11.5d
+			x: 6.5d
+			y: -7.5d
 			shape: "hexagon"
 			description: ["These can be obtained by &abartering with Piglin&r, and are used to &afully tame a &eTusklin&r."]
 			dependencies: ["76AE2C92FF896611"]
@@ -334,8 +346,8 @@
 		}
 		{
 			title: "Meet the Tusklin"
-			x: -8.5d
-			y: -10.0d
+			x: 6.5d
+			y: -6.0d
 			shape: "heart"
 			subtitle: "A neutral but defensive beast"
 			description: ["The &eTusklin&r, found in snowy biomes, can be saddled and ridden wild, but will buck the player off after a while. They can be bred with &bBrown Mushrooms&r, but their young will still be mostly feral."]
@@ -357,8 +369,8 @@
 		}
 		{
 			title: "Meet the Straddler"
-			x: -14.0d
-			y: -2.5d
+			x: 7.0d
+			y: 3.0d
 			shape: "heart"
 			subtitle: "Just gonna throw my baby at you real quick"
 			description: [
@@ -390,8 +402,8 @@
 		}
 		{
 			title: "Summon the Void Worm"
-			x: -16.5d
-			y: 2.0d
+			x: 4.5d
+			y: 7.5d
 			shape: "diamond"
 			subtitle: "A multi-phase boss fight"
 			description: [
@@ -420,8 +432,8 @@
 		}
 		{
 			title: "Meet the Rocky Roller"
-			x: -14.0d
-			y: -1.0d
+			x: 7.0d
+			y: 4.5d
 			shape: "heart"
 			subtitle: "I don't give a damn about my reputation"
 			description: [
@@ -445,8 +457,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 0.5d
+			x: 3.0d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "Based on a true story"
 			description: ["This item seeks out the rarest creature in the world: the &eDevil's Hole Pupfish&r, a creature which spawns only in a single chunk, ever, in a given world."]
@@ -479,8 +491,8 @@
 		}
 		{
 			title: "Meet the Skelewag"
-			x: -16.5d
-			y: 0.5d
+			x: 4.5d
+			y: 6.0d
 			shape: "heart"
 			subtitle: "Yarrr, something' be fishy"
 			description: [
@@ -517,8 +529,8 @@
 			]
 		}
 		{
-			x: -16.0d
-			y: -10.5d
+			x: -10.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Don't be tardi"
 			description: [
@@ -539,8 +551,8 @@
 		}
 		{
 			title: "Meet the Capuchin Monkey"
-			x: -17.5d
-			y: -11.5d
+			x: -11.5d
+			y: -7.0d
 			shape: "heart"
 			subtitle: "Not to be confused with the delicious cappuchino monkey"
 			description: [
@@ -564,8 +576,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: -2.5d
+			x: 8.5d
+			y: 3.0d
 			shape: "hexagon"
 			description: ["A saddle which allows the player to ride a &eLavathian&r."]
 			dependencies: ["0CED4D17E7F90678"]
@@ -582,8 +594,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: -11.0d
+			x: -6.5d
+			y: -6.5d
 			shape: "heart"
 			subtitle: "Much nicer than the other kind of mimic"
 			description: [
@@ -611,8 +623,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -10.0d
+			x: 11.5d
+			y: -6.0d
 			shape: "heart"
 			subtitle: "Not to be confused with lavasioth"
 			description: [
@@ -637,8 +649,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -9.5d
+			x: 8.5d
+			y: -5.5d
 			shape: "heart"
 			description: ["The &eSpectre&r is a ghostly creature that dwells in The End. It can be lured in with a &bSoul Heart&r (obtained from Vultures in the Nether), and leashed with a Lead, then ridden like a balloon."]
 			id: "10508E0CE1018A5C"
@@ -658,8 +670,8 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -9.5d
+			x: -11.5d
+			y: -5.0d
 			shape: "heart"
 			description: [
 				"The &eFlutter&r is a passive mob which loves flowers."
@@ -683,8 +695,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -7.5d
+			x: 8.5d
+			y: -3.5d
 			shape: "octagon"
 			subtitle: "Jellyfish in the sky~ I can go twice as high~"
 			description: [
@@ -715,8 +727,8 @@
 		{
 			title: "The Rarest Fish in the World"
 			icon: "alexsmobs:devils_hole_pupfish_bucket"
-			x: -13.0d
-			y: -8.5d
+			x: -7.0d
+			y: -4.0d
 			shape: "heart"
 			subtitle: "Speak of the devil..."
 			description: [
@@ -748,8 +760,8 @@
 			]
 		}
 		{
-			x: -15.5d
-			y: -8.5d
+			x: -9.5d
+			y: -4.0d
 			shape: "heart"
 			subtitle: "A hungry fellow"
 			description: [
@@ -783,8 +795,8 @@
 		}
 		{
 			title: "Meet a Cachalot Whale"
-			x: -8.0d
-			y: -6.5d
+			x: 7.0d
+			y: -2.5d
 			subtitle: "You have an appointment with Moby Dick"
 			description: [
 				"The &aCachalot whale&r, more commonly called Sperm whale, is a massive creature that dwells in &aLukewarm, Cold, or Deep Oceans&r."
@@ -814,8 +826,8 @@
 			]
 		}
 		{
-			x: -14.0d
-			y: -10.0d
+			x: -8.0d
+			y: -5.5d
 			shape: "hexagon"
 			description: [
 				"&eRanchu Goldfish&r are a chubby fish that love to eat &bWater Lettuce&r, which can be used to breed them."
@@ -835,8 +847,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: -1.0d
+			x: 8.5d
+			y: 4.5d
 			shape: "octagon"
 			description: ["Defeat a &eRocky Roller&r and obtain its shell, plus get this little bonus!"]
 			dependencies: ["17CAEDD5E243511D"]
@@ -876,8 +888,8 @@
 		}
 		{
 			title: "Meet the Elephant"
-			x: -14.5d
-			y: -7.0d
+			x: -8.5d
+			y: -2.5d
 			shape: "heart"
 			subtitle: "the smol one"
 			description: [
@@ -902,8 +914,8 @@
 		}
 		{
 			title: "Obtain a Feeding Trough"
-			x: 3.0d
-			y: 4.0d
+			x: -2.5d
+			y: -6.5d
 			shape: "hexagon"
 			subtitle: "That's trough, buddy"
 			description: ["The &bFeeding Trough&r will automatically feed/breed your livestock for you. Place it in near your animals and &6fill it with the appropriate food&r, and it will work automatically! But be careful that you don't fill it too much, or you may end up with a Cowpocalypse."]
@@ -929,8 +941,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 5.0d
+			x: -2.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "Hummingbirds are the sharks of the sky"
 			description: [
@@ -951,8 +963,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.0d
+			x: -2.0d
+			y: -7.5d
 			shape: "hexagon"
 			subtitle: "This is literally so adorable"
 			description: [
@@ -987,8 +999,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 7.0d
+			x: -1.5d
+			y: -3.5d
 			shape: "octagon"
 			subtitle: "IDK, my BFF Cow?"
 			description: [
@@ -1038,8 +1050,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: -2.5d
+			y: -4.5d
 			shape: "octagon"
 			subtitle: "Animal husbandry is different than the name sounds"
 			description: ["Find two animals and breed them in order to get this advancement and begin these quests!"]
@@ -1058,8 +1070,8 @@
 		}
 		{
 			title: "Get an Apple for your Straw Golem"
-			x: 7.5d
-			y: 7.5d
+			x: 2.0d
+			y: -3.0d
 			subtitle: "An apple a day..."
 			description: ["&eStraw Golems&r get hungy! If they don't get a delicious apple-y snack every day or so, they slow down to a snail's pace, and eventually &asit and pout until fed&r. They adore bright, shiny, red &bApples&r, and will follow you if you are holding one!"]
 			dependencies: ["79630C442EB1C589"]
@@ -1077,8 +1089,8 @@
 		}
 		{
 			title: "Straw Golems: Rebaled"
-			x: 6.0d
-			y: 6.5d
+			x: 0.5d
+			y: -4.0d
 			shape: "rsquare"
 			subtitle: "Wheat is friends, not food!"
 			description: [
@@ -1101,8 +1113,8 @@
 		}
 		{
 			title: "Get your Straw Golem a Hat"
-			x: 8.0d
-			y: 5.0d
+			x: 2.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "Workin' the fields all day"
 			description: ["The hat is purely decorative. But boy, is it ever cute."]
@@ -1121,8 +1133,8 @@
 		}
 		{
 			title: "Get some Wheat to Heal your Straw Golem"
-			x: 8.0d
-			y: 6.5d
+			x: 2.5d
+			y: -4.0d
 			subtitle: "Care and Feeding of your Golem"
 			description: [
 				"&eStraw Golems&r are fragile little things and require both healing and feeding."
@@ -1144,8 +1156,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.0d
+			x: -1.0d
+			y: -7.5d
 			shape: "hexagon"
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
 			id: "1661059D340835FC"
@@ -1163,8 +1175,8 @@
 		}
 		{
 			title: "Get your Pet a Bed"
-			x: 5.5d
-			y: 3.0d
+			x: 0.0d
+			y: -7.5d
 			shape: "hexagon"
 			description: ["The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r."]
 			id: "6B0E280BDBD4ACF5"
@@ -1188,8 +1200,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: -0.5d
+			y: -6.5d
 			shape: "hexagon"
 			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
 			id: "09827E9E92823643"
@@ -1214,8 +1226,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 5.0d
+			x: -3.0d
+			y: -5.5d
 			shape: "hexagon"
 			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
 			id: "1C37EDEA99A890EF"
@@ -1235,8 +1247,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: -1.5d
+			y: -6.5d
 			shape: "hexagon"
 			description: ["The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."]
 			id: "5DB08A394A7B8122"
@@ -1261,8 +1273,8 @@
 		}
 		{
 			title: "Meet The Sniffer"
-			x: -4.0d
-			y: -7.0d
+			x: 11.0d
+			y: -3.0d
 			shape: "heart"
 			description: [
 				"The &eSniffer&r is a rather large creature with an &aexcellent sense of smell&r. They are not found in the wild, but instead can be &ahatched from &bSniffer Eggs&r, which are sometimes found in &cOcean Ruins&r."
@@ -1287,8 +1299,8 @@
 		}
 		{
 			title: "Win a Game of Hide and Seek"
-			x: -3.5d
-			y: -8.5d
+			x: 11.5d
+			y: -4.5d
 			shape: "octagon"
 			description: [
 				"The &bRascal&r is a lonely creature who dwells in &cMineshafts below y 0&r! What it spends its days doing is a mystery, but one thing is clear: it wants to play!"
@@ -1325,8 +1337,8 @@
 		}
 		{
 			title: "Meet the Kiwi"
-			x: -4.0d
-			y: -11.5d
+			x: 11.0d
+			y: -7.5d
 			shape: "heart"
 			description: ["The lil &eKiwi Bois&r love to &adance to music&r, and can be bred with &bKiwicake!&r"]
 			id: "1B2AEA187AB3D0C9"
@@ -1348,11 +1360,534 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			invisible: true
+			secret: true
 			id: "61F03A15727266F2"
 			tasks: [{
-				id: "3018156663618E2E"
+				id: "6C0A846BE4DF580F"
 				type: "item"
-				item: "minecraft:crimson_nylium"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			shape: "octagon"
+			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "23D702F268464D8E"
+			tasks: [{
+				id: "016BADEBDA25900E"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EE5A3331616DACC"
+				type: "item"
+				item: "byg:packed_black_ice"
+				count: 10
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "13DCE1539EEE07B8"
+			tasks: [{
+				id: "2B089937DE3D191B"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6CB1348126BAA2EA"
+					type: "item"
+					item: "minecraft:bone"
+					count: 20
+				}
+				{
+					id: "29E7968B7BD4F920"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Creeper Collector"
+			x: -9.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "Kill one of each Creeper type"
+			description: ["Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"]
+			dependencies: ["43B3A6804B59565E"]
+			id: "5F03012DC9E38D8D"
+			tasks: [
+				{
+					id: "5475EAB66D01AA3E"
+					type: "kill"
+					entity: "creeperoverhaul:badlands_creeper"
+					value: 1L
+				}
+				{
+					id: "148B4231D30E2A9C"
+					type: "kill"
+					entity: "creeperoverhaul:badlands_creeper"
+					value: 1L
+				}
+				{
+					id: "2F57370380F6849F"
+					type: "kill"
+					entity: "creeperoverhaul:bamboo_creeper"
+					value: 1L
+				}
+				{
+					id: "498342403CB4E17A"
+					type: "kill"
+					entity: "creeperoverhaul:beach_creeper"
+					value: 1L
+				}
+				{
+					id: "247406896BFA2CBF"
+					type: "kill"
+					entity: "creeperoverhaul:cave_creeper"
+					value: 1L
+				}
+				{
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					entity: "creeperoverhaul:dark_oak_creeper"
+					value: 1L
+				}
+				{
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					entity: "creeperoverhaul:desert_creeper"
+					value: 1L
+				}
+				{
+					id: "6BE030760A82D760"
+					type: "kill"
+					entity: "creeperoverhaul:dripstone_creeper"
+					value: 1L
+				}
+				{
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					entity: "creeperoverhaul:hills_creeper"
+					value: 1L
+				}
+				{
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					entity: "creeperoverhaul:jungle_creeper"
+					value: 1L
+				}
+				{
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					entity: "creeperoverhaul:mushroom_creeper"
+					value: 1L
+				}
+				{
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					entity: "creeperoverhaul:savannah_creeper"
+					value: 1L
+				}
+				{
+					id: "158183796F59B405"
+					type: "kill"
+					entity: "creeperoverhaul:snowy_creeper"
+					value: 1L
+				}
+				{
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					entity: "creeperoverhaul:spruce_creeper"
+					value: 1L
+				}
+				{
+					id: "2673798B82CD0866"
+					type: "kill"
+					entity: "creeperoverhaul:swamp_creeper"
+					value: 1L
+				}
+				{
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "402204927BD6B243"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "0D9F58F6BCEF3611"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7049021818423122779L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			optional: true
+			can_repeat: true
+			id: "7E36FAC9107093C2"
+			tasks: [{
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "064F74E6565B4859"
+					type: "item"
+					item: "minecraft:creeper_head"
+					count: 5
+				}
+				{
+					id: "24D4F5F119DC1A39"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 20
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 7.5d
+			shape: "square"
+			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bInfinite Dirt Block&r and a &bCreeper Spawn Egg&r. &dDo not craft with the Infinite Dirt block or it will be consumed&r."]
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			id: "2A61057B25357F37"
+			tasks: [{
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "2A52ED3F16031658"
+					type: "item"
+					item: {
+						id: "creative_items:creative_item"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							InnerItem: {
+								id: "minecraft:dirt"
+								Count: 1b
+							}
+							display: {
+								Name: "{\"text\":\"Unlimited Dirt\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "1330C0871BA69A9A"
+					type: "item"
+					item: "minecraft:creeper_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "05C2A9D00C440EAC"
+			tasks: [{
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6E063F9F8ACEC220"
+					type: "item"
+					item: "minecraft:zombie_head"
+					count: 5
+				}
+				{
+					id: "1DF4D16D3FBA0AAD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			shape: "octagon"
+			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
+			dependencies: ["43B3A6804B59565E"]
+			id: "61E2531671CC8118"
+			tasks: [{
+				id: "1BBF8996270374EB"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C326A6B45BB6BF4"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			shape: "square"
+			description: ["Defeat a horde of &eEndermen&r, take their SKIN and WEAR IT - oh, was that too much? Sorry. I got excited."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "3EBAD94D079ACDD8"
+			tasks: [{
+				id: "1C574797484F95E7"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "530E0BE7D446EA79"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DEC2490E1C1DB62"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D1C406CAE3A7B86"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AC1AC011F560920"
+					type: "item"
+					item: {
+						id: "mcsa:enderman_soren_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			shape: "square"
+			description: ["If you manage to defeat 500 &eWither Skeletons&r, then you deserve this reward: a &bWither Skeleton Spawn Egg&r, and a &bSpawner&r to put it in."]
+			hide_dependency_lines: true
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "one_started"
+			id: "26E8A9DFDC4C1635"
+			tasks: [{
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					type: "item"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					type: "item"
+					item: "minecraft:wither_skeleton_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "12CC2182B839D954"
+			tasks: [{
+				id: "0A6E74616F39F811"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "53D63982971E2F60"
+			tasks: [{
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				entity: "minecraft:pillager"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6AD16E5C15BCE1BC"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			can_repeat: true
+			id: "714C8AC1434688EF"
+			tasks: [{
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				entity: "minecraft:drowned"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "71D83A4349AE8785"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+					count: 3
+				}
+				{
+					id: "3DA98342EB8F6090"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "octagon"
+			description: ["Kill all three &eIllager Magicians&r. Please."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "077E56B6A68AB3AC"
+			tasks: [{
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "743B5E809927506A"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "660DA5C0B4FF6006"
+					type: "item"
+					item: "ars_nouveau:whirlisprig_charm"
+				}
+			]
+		}
+		{
+			title: "First Swings of a Sword"
+			x: -6.0d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"Prove your mettle by killing...wait, just one &ezombie&r and one &eskeleton&r? That seems pretty easy..."
+				"Maybe the next quests will be more difficult."
+			]
+			size: 2.0d
+			id: "43B3A6804B59565E"
+			tasks: [
+				{
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 1L
+				}
+				{
+					id: "0A45057771B77CE0"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "1330C08C04945E39"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
 			}]
 		}
 	]

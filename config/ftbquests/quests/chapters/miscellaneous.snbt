@@ -1,17 +1,55 @@
 {
 	id: "0F5FCDF7AD60349B"
 	group: "346046A71D537172"
-	order_index: 5
+	order_index: 2
 	filename: "miscellaneous"
 	title: "Miscellaneous"
 	icon: "minecraft:bookshelf"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 4.5d
+			y: 4.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGCommerce.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGAutomation.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGMiscTeal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Make a Mailbox to Get Mail"
-			x: -6.75d
-			y: -2.25d
+			x: -6.0d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "A way to communicate in multiplayer"
 			description: [
@@ -43,8 +81,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -2.5d
+			x: -3.0d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "Do you wanna build a...uh...sandcastle?"
 			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
@@ -64,8 +102,8 @@
 		{
 			title: "Save your EXP"
 			icon: "spelunkery:carved_nephrite"
-			x: -2.25d
-			y: -6.75d
+			x: -3.0d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Unfortunately not the experience you can put on your resume"
 			description: [
@@ -118,8 +156,8 @@
 		}
 		{
 			title: "Obtain some Iron Grates"
-			x: -3.5d
-			y: -4.5d
+			x: -2.5d
+			y: -0.5d
 			shape: "hexagon"
 			subtitle: "Well isn't that just grate"
 			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
@@ -139,8 +177,8 @@
 		}
 		{
 			title: "Obtain an Ancient Tome"
-			x: -4.0d
-			y: -3.5d
+			x: -4.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "I tome you so"
 			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
@@ -164,8 +202,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.5d
+			x: -3.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Lots of things can go in bottles."
 			description: [
@@ -185,8 +223,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -2.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
 			description: [
@@ -208,15 +246,15 @@
 		}
 		{
 			title: "Chunk Loading"
-			x: -5.0d
-			y: -5.0d
+			x: -5.25d
+			y: 0.0d
 			shape: "rsquare"
 			subtitle: "When you're away, your base will play"
 			description: [
 				"If you want your base to stay active even when you're not there, you want &achunk loading&r. In order to do this, craft a &bBasic Chunk Loader&r."
 				"By &6placing down the Chunk Loader&r, you will &aload chunks in a 3x3 area&r. Want to see the chunk boundaries? &6F3+G&r will show the edges of each chunk. Press it again to disable."
 			]
-			size: 2.0d
+			size: 1.5d
 			id: "26D8EAD9D892805E"
 			tasks: [{
 				id: "2F646B35705318CA"
@@ -230,8 +268,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.5d
+			x: -4.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["This &bAdvanced Chunk Loader&r will load chunks in a &alarger 5x5 area&r."]
 			dependencies: ["26D8EAD9D892805E"]
@@ -250,7 +288,7 @@
 		}
 		{
 			x: -3.5d
-			y: -6.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["The &bSingle Chunk Loader&r does what it says on the tin. &6Craft a Basic chunkloader&r into 9 &bSingle Chunk Loaders&r if you have &asmall, unconnected areas&r which need loading."]
 			dependencies: ["26D8EAD9D892805E"]
@@ -267,8 +305,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -5.5d
+			x: -3.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["This &bUltimate Chunk Loader&r will &aload a whopping 7x7 area&r. Be wary of making too many of these, as the amount of loaded chunks can affect your performance."]
 			dependencies: ["6C61BE87539B25B6"]
@@ -286,8 +324,8 @@
 		}
 		{
 			title: "Extreme Sound Muffler"
-			x: -6.0d
-			y: -6.5d
+			x: -2.0d
+			y: 0.5d
 			subtitle: "Selective hearing. Literally."
 			description: [
 				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
@@ -302,8 +340,8 @@
 		}
 		{
 			title: "Capture Time in a Bottle"
-			x: -6.0d
-			y: -3.5d
+			x: -7.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: [
 				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
@@ -338,8 +376,8 @@
 		}
 		{
 			title: "Transport your Mobs"
-			x: -6.5d
-			y: -4.5d
+			x: -7.0d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Catch a running cow and put it in your pocket"
 			description: [
@@ -360,8 +398,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -4.5d
+			x: -6.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["The &bMob Capture Device Launcher&r will fire &bCapture Devices&r at range, allowing you to catch mobs without needing to get close! &6Switch modes by shift+right clicking&r to decide whether to capture or release."]
 			dependencies: ["1E6176C9919F1D06"]
@@ -383,8 +421,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -5.5d
+			x: -6.0d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Despite all my rage, I am still just a...oh you know"
 			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
@@ -410,8 +448,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -3.5d
+			x: -4.5d
+			y: -1.5d
 			shape: "octagon"
 			description: [
 				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
@@ -433,7 +471,7 @@
 		}
 		{
 			x: -8.0d
-			y: -5.5d
+			y: 0.5d
 			shape: "hexagon"
 			description: [
 				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
@@ -460,8 +498,8 @@
 		}
 		{
 			title: "Roughing It"
-			x: -3.5d
-			y: -2.5d
+			x: -4.0d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
 			description: ["The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to use it."]
@@ -487,8 +525,8 @@
 		}
 		{
 			title: "Daytime naptime!"
-			x: -4.5d
-			y: -2.5d
+			x: -5.0d
+			y: 2.5d
 			shape: "hexagon"
 			description: ["Make a &bHammock&r to &asleep through the day&r, making it night easily. Then, get up to shenanigans!"]
 			id: "4BCAADA647D7D85A"
@@ -514,8 +552,8 @@
 		}
 		{
 			title: "Make a Post Box to Send Mail"
-			x: -7.5d
-			y: -1.0d
+			x: -7.0d
+			y: 2.5d
 			shape: "hexagon"
 			description: ["The &bPost Box&r will allow you to send mail to your server mates! Simply &6right click it&r, and &6insert your postcard or packages&r, then &6type the recipient's name&r! It will tell you how long it will take to send, and then you can confirm sending it. Tada!"]
 			dependencies: ["476D80268DFAFC7A"]
@@ -550,7 +588,7 @@
 		{
 			title: "Stay Connected"
 			x: -7.5d
-			y: -6.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: [
 				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
@@ -590,8 +628,8 @@
 		}
 		{
 			title: "Take Your Biomes With You"
-			x: -8.0d
-			y: -3.5d
+			x: -7.5d
+			y: 1.5d
 			shape: "hexagon"
 			description: [
 				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
@@ -612,8 +650,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: 2.5d
+			y: 3.5d
 			shape: "octagon"
 			subtitle: "extreme couponing"
 			description: [
@@ -636,8 +674,8 @@
 		}
 		{
 			title: "The Basis of an Economy"
-			x: 0.5d
-			y: -2.5d
+			x: 4.5d
+			y: 5.0d
 			shape: "rsquare"
 			description: [
 				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
@@ -668,8 +706,8 @@
 		}
 		{
 			title: "Trade with a Villager"
-			x: 0.5d
-			y: 0.0d
+			x: 2.5d
+			y: 6.5d
 			shape: "octagon"
 			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r who sells &bMending&r doesn't suddenly run away to join the circus."]
 			dependencies: ["70C4F17973F6492E"]
@@ -689,8 +727,8 @@
 		}
 		{
 			title: "Meet the Goblin Trader"
-			x: 3.0d
-			y: -0.5d
+			x: 7.0d
+			y: 5.0d
 			shape: "heart"
 			subtitle: "Eager but not too bright"
 			description: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
@@ -717,6 +755,457 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "Obtain the Redstone Randomizer"
+			x: 3.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Flip a coin. Or a lever."
+			description: ["As its name suggests, the &bRedstone Randomizer&r determines randomly whether to output the provided signal to the &aleft or to the right&r."]
+			id: "18D9BBE334549285"
+			tasks: [{
+				id: "75EF1DAD98E4D222"
+				type: "item"
+				item: "quark:redstone_randomizer"
+			}]
+			rewards: [
+				{
+					id: "64ED604693BAC54A"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "27787B4FDAD4F84C"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "601665ACAFEC8462"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "You know the joke I wanna make."
+			description: ["The &bCog Block&r performs the same way that &bplaced Redstone&r does. However, it doesn't wash away in water, and can be placed vertically both up and down to send a signal."]
+			id: "781003E78C236E0D"
+			tasks: [{
+				id: "03A7ABED5015F645"
+				type: "item"
+				item: "supplementaries:cog_block"
+			}]
+			rewards: [
+				{
+					id: "14DB1AEE4A513217"
+					type: "item"
+					item: "supplementaries:cog_block"
+					count: 14
+				}
+				{
+					id: "32D22BEA8DC9AD62"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "Make it rain"
+			description: [
+				"Depending on weather, this decorative block will output a redstone signal."
+				"When it is &araining&r, it will output a signal of 1. When it is &athundering&r, it will output a signal of 2."
+			]
+			id: "6DBD018A4FB32DD8"
+			tasks: [{
+				id: "6BFD2D33AD5AA3DA"
+				type: "item"
+				item: "supplementaries:wind_vane"
+			}]
+			rewards: [
+				{
+					id: "5B03626476475840"
+					type: "command"
+					command: "/weather thunder"
+					player_command: false
+				}
+				{
+					id: "41CD92015AD0CB9B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Holler and bellow"
+			description: [
+				"&bBellows&r are blocks that can &aspeed up furnaces&r, &aprevent fires from extinguishing&r, and even &apush entities&r."
+				"The rate at which the Bellows pump is determined by the strength of the &aRedstone signal&r it is receiving."
+			]
+			id: "50E64308D7D56C48"
+			tasks: [{
+				id: "274DAEA1048998F7"
+				type: "item"
+				item: "supplementaries:bellows"
+			}]
+			rewards: [
+				{
+					id: "75FE7DDAC7EE2B76"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "3AE665402813BA3B"
+					type: "random"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "4AF788C41142FA0A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "How the turn tables!"
+			description: [
+				"Perhaps this is too obvious to explain, but the &bTurntable&r is a block that, when provided with a Redstone signal, will rotate the block it is touching."
+				"When placed sideways, it can turn an &bHourglass&r to reset it."
+			]
+			id: "6C7EB11A659D7914"
+			tasks: [{
+				id: "46A8B4EA03512795"
+				type: "item"
+				item: "supplementaries:turn_table"
+			}]
+			rewards: [
+				{
+					id: "29D5CBCFAC40247B"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "2EA7771EAF0FFD29"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Beware the power of the Illuminate-y"
+			description: ["The &bRedstone Illuminator&r is a light source which is on by default. It grows dimmer depending on how much &aRedstone signal&r it receives. One can use a &bCrank&r instead of a &bLever&r for more fine-tuned control."]
+			id: "1371F9B501187A91"
+			tasks: [{
+				id: "7696927D53015E8F"
+				type: "item"
+				item: "supplementaries:redstone_illuminator"
+			}]
+			rewards: [
+				{
+					id: "0FF3EDC8632BBD2A"
+					type: "item"
+					item: "supplementaries:crank"
+				}
+				{
+					id: "1989152A446D9F94"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			title: "Obtain a Faucet"
+			x: 4.5d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Just hope it's not too leaky"
+			description: [
+				"The &bFaucet&r is an item which will &awithdraw, and drop, items from the sides of blocks&r (inventories, beehives, or jars). This is opposed to Hoppers, which can only withdraw from the bottom."
+				"They also function like &bDripstone&r, slowly dripping liquids into a cauldron beneath them."
+			]
+			id: "5A0A46815A9FE05D"
+			tasks: [{
+				id: "5F118DB99C9B4861"
+				type: "item"
+				item: "supplementaries:faucet"
+			}]
+			rewards: [{
+				id: "25E6A85160A3B1D8"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			shape: "hexagon"
+			description: ["The &bEnder Watcher&r transmits a Redstone signal when &aa player is looking at it&r. The signal intensity is determined by how far the player is."]
+			id: "416C9C912FDB1ADC"
+			tasks: [{
+				id: "642A27CACAE4C885"
+				type: "item"
+				item: "quark:ender_watcher"
+			}]
+			rewards: [
+				{
+					id: "1AB780552E0B7B4B"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+				{
+					id: "1BE5BD0AD488B260"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "6E2135354FEF676F"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU2MWMwZDU0ZmFjY2I2YTE5MzdmNTZiYmYzZDU5YTViN2QxMjZlYzM4NTBiMDQ5N2ViZTc3ZjFmNTY3YTlmNSJ9fX0="
+									}]
+								}
+								Id: [I;
+									797961014
+									-232764807
+									-1952866225
+									341423790
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Fancy Cube\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Obtain an Iron Rod"
+			x: 5.5d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "That's my Grindr screenname"
+			description: [
+				"The &bIron Rod&r is not just a decoration, it is also functional. When it is placed on a &bSticky Piston&r, it will &abreak the block&r the Piston pushes it into."
+				"This only works on blocks which can be pushed, so blocks like &bObsidian&r will not be affected."
+			]
+			id: "593CA14F58A43AEB"
+			tasks: [{
+				id: "7BA7E1B4A0BEB6D1"
+				type: "item"
+				item: "quark:iron_rod"
+			}]
+			rewards: [
+				{
+					id: "5D5DF2A399B6DB65"
+					type: "item"
+					item: "quark:iron_rod"
+				}
+				{
+					id: "1E1B10BB37B9187C"
+					type: "item"
+					item: "minecraft:sticky_piston"
+					count: 3
+				}
+				{
+					id: "780A04365934D2E1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			title: "A Player-Only Pressure Plate"
+			x: 6.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "It can sense your sentience"
+			description: ["The &bObsidian Pressure Plate&r can &aonly be activated by players&r, making it very useful for base entrances and such."]
+			id: "129EB9D48551AA2E"
+			tasks: [{
+				id: "38E9461ED962DF18"
+				type: "item"
+				item: "quark:obsidian_pressure_plate"
+			}]
+			rewards: [
+				{
+					id: "2280B33DED08333F"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 3
+				}
+				{
+					id: "1998BF7315195551"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D8595034E6705E7"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			title: "Sand Which Disobeys Gravity"
+			x: 5.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "This sand doesn't care about your RULES"
+			description: ["This unique End-enchanted item will only &afall when provided with a Redstone signal&r. If it is provided a redstone signal and &acannot fall, it will float up instead&r."]
+			id: "3C38D37B0E1FD22C"
+			tasks: [{
+				id: "3C19581008C8851B"
+				type: "item"
+				item: "quark:gravisand"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "7FBE361C175F1C1F"
+					type: "loot"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "23CC8413374A4380"
+					type: "item"
+					item: "minecraft:glass"
+					count: 10
+				}
+				{
+					id: "377B5D112F5594EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			title: "Obtain Iron and Gold Buttons"
+			x: 5.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Can't stop the signal"
+			description: ["These special buttons function similarly to other &bButtons&r, except that the &bIron Button&r gives a &amuch longer signal&r than usual, and the &bGold Button&r a &amuch shorter signal&r than usual."]
+			id: "03A72717715E8A5D"
+			tasks: [
+				{
+					id: "4F9668A0016EC26A"
+					type: "item"
+					item: "quark:iron_button"
+				}
+				{
+					id: "43768C0EFCAC5742"
+					type: "item"
+					item: "quark:gold_button"
+				}
+			]
+			rewards: [
+				{
+					id: "4FD8395B1851BF1C"
+					type: "loot"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "5494B393A733C493"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
+		}
+		{
+			title: "Obtain a Chute"
+			x: 4.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Please, don't chute!"
+			description: [
+				"The &bChute&r is a block which draws items from above it and &adrops them&r perfectly in the center of the block below it."
+				"It can be disabled with a Redstone signal, or by placing a block directly below it."
+			]
+			id: "2E4C149DAE459F03"
+			tasks: [{
+				id: "46353D8C4E64C59C"
+				type: "item"
+				item: "quark:chute"
+			}]
+			rewards: [
+				{
+					id: "015BE885EFACED24"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "1F37E2F83E06DF62"
+					type: "item"
+					item: "uppers:upper"
+				}
+				{
+					id: "2AE340E126CFCBF8"
+					type: "item"
+					item: "quark:chute"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "2BE44A5A7C52C52D"
+			tasks: [{
+				id: "6A7905E5CEF82F05"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: [
+				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (byt &6pressing the Cycle Trades button&r)."
+				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
+			]
+			dependencies: ["70C4F17973F6492E"]
+			id: "08F9BA2E3066C5FB"
+			tasks: [{
+				id: "6436F337BFCACE09"
+				type: "checkmark"
+				title: "Cycle some Trades"
+			}]
 		}
 	]
 	quest_links: [ ]

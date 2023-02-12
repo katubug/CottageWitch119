@@ -7,11 +7,23 @@
 	icon: "minecraft:bundle"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 11.0d
+		height: 7.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGCollections.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Flower Picking: Red"
-			x: -2.5d
-			y: -4.5d
+			x: -3.5d
+			y: -0.5d
 			shape: "hexagon"
 			subtitle: "Red for passion, love, blood"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -131,8 +143,8 @@
 		}
 		{
 			title: "Flower Picking: Orange"
-			x: -2.0d
-			y: -3.5d
+			x: -3.0d
+			y: 0.5d
 			shape: "hexagon"
 			subtitle: "Orange for health, warmth, fortune"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -217,8 +229,8 @@
 		}
 		{
 			title: "Music Lover"
-			x: -4.0d
-			y: -1.0d
+			x: 3.5d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "I can't get this song out of my head!"
 			description: ["Obtain all vanilla music discs."]
@@ -310,8 +322,8 @@
 		}
 		{
 			title: "Flower Picking: Yellow"
-			x: -1.5d
-			y: -4.5d
+			x: -2.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "40BBDD8D814A55C1"
@@ -405,8 +417,8 @@
 		}
 		{
 			title: "Flower Picking: Green and Cyan"
-			x: -1.0d
-			y: -3.5d
+			x: -2.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "56F3B965C1198BE9"
@@ -538,8 +550,8 @@
 		}
 		{
 			title: "Flower Picking: Blue"
-			x: -0.5d
-			y: -4.5d
+			x: -1.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "5435D7182F5A0C8D"
@@ -618,8 +630,8 @@
 		}
 		{
 			title: "Flower Picking: Periwinkle"
-			x: 0.0d
-			y: -3.5d
+			x: -1.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "6BED02ADA79C4A8D"
@@ -683,8 +695,8 @@
 		}
 		{
 			title: "Flower Picking: Purple"
-			x: 0.5d
-			y: -4.5d
+			x: -0.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "290D8441BBC918A1"
@@ -758,8 +770,8 @@
 		}
 		{
 			title: "Flower Picking: Pink"
-			x: 1.0d
-			y: -3.5d
+			x: 0.0d
+			y: 0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "692725454B955B4C"
@@ -885,8 +897,8 @@
 		}
 		{
 			title: "Flower Picking: Magenta"
-			x: 1.5d
-			y: -4.5d
+			x: 0.5d
+			y: -0.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "198D780CB29A2F3B"
@@ -985,8 +997,8 @@
 		}
 		{
 			title: "Flower Picking: Black and White"
-			x: -0.5d
-			y: -2.5d
+			x: -1.5d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "04973320B5F27BD7"
@@ -1065,8 +1077,8 @@
 		}
 		{
 			title: "Cool Mushrooms"
-			x: -4.5d
-			y: -2.0d
+			x: 3.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Is fungiphilia a thing?"
 			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
@@ -1173,8 +1185,8 @@
 		}
 		{
 			title: "Obtain the Rainbow"
-			x: -5.0d
-			y: -1.0d
+			x: 2.5d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "Taste the rainbow"
 			description: ["For this quest, show your love of color by collecting each different type of wool."]
@@ -1332,8 +1344,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 2.0d
 			shape: "octagon"
 			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
 			id: "75AD4BD901CEA061"
@@ -1359,12 +1371,14 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: 1.5d
+			y: -1.0d
+			shape: "gear"
 			description: [
 				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
 				"Ya-ha-ha!"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"7C3C2D24D60C6C1F"
 				"40BBDD8D814A55C1"
@@ -1422,8 +1436,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 0.0d
+			x: 2.0d
+			y: 2.0d
 			shape: "octagon"
 			description: ["Breed 2 of each vanilla animal in order to obtain this reward!"]
 			id: "401E8078C11F8919"
@@ -1450,8 +1464,8 @@
 		}
 		{
 			title: "Flower Picking: Lime"
-			x: -1.0d
-			y: -5.5d
+			x: -2.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "1CFFA3249B4DC950"
@@ -1526,8 +1540,8 @@
 		}
 		{
 			title: "Flower Picking: Light Blue"
-			x: 0.0d
-			y: -5.5d
+			x: -1.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "5C9725DEED609E88"
@@ -1597,8 +1611,8 @@
 		}
 		{
 			title: "Flower Picking: Grays"
-			x: 0.5d
-			y: -2.5d
+			x: -0.5d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "6933DD3003786443"
@@ -1689,6 +1703,19 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "3ADA19F1E7F84DD6"
+			tasks: [{
+				id: "4706D6442C3B1288"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

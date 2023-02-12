@@ -7,11 +7,73 @@
 	icon: "nethersdelight:stuffed_hoglin"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 10.0d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGNetherDelights.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGTeaAndSundry.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGSpiceOfLife.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGMiscFood.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGCookingPot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Cook some Tropical Stew"
-			x: -6.0d
-			y: -2.0d
+			x: -9.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "If you like piña coladas"
 			description: ["Have yourself a beachy delight with a &bTropical Stew&r. Authentic crab meat, savory onions, and rice inside a coconut shell - perfection!"]
@@ -30,8 +92,8 @@
 		}
 		{
 			title: "The Spice of Life"
-			x: -3.5d
-			y: -2.0d
+			x: -7.0d
+			y: -2.5d
 			shape: "rsquare"
 			subtitle: "(psst, it's variety)"
 			description: [
@@ -61,8 +123,8 @@
 		}
 		{
 			title: "Obtain Tea Seeds"
-			x: 1.0d
-			y: -3.5d
+			x: 0.5d
+			y: -5.0d
 			subtitle: "The beginning of a beautiful thing"
 			description: [
 				"&bTea&r is a small bush which can be grown on farmland in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
@@ -90,8 +152,8 @@
 		}
 		{
 			title: "Obtain Coffee Beans"
-			x: -1.0d
-			y: -5.5d
+			x: -1.5d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "coffeecoffeecoffeecoffee"
 			description: [
@@ -120,8 +182,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "These rose hips don't lie"
 			description: ["Rose hip tea will grant you a small amount of &aRegeneration&r!"]
@@ -147,8 +209,8 @@
 		}
 		{
 			title: "Obtain a Kettle"
-			x: 0.0d
-			y: -1.0d
+			x: -0.5d
+			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Don't let it call your Cooking Pot black."
 			description: [
@@ -170,8 +232,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.0d
+			x: 0.0d
+			y: -7.5d
 			shape: "hexagon"
 			subtitle: "Hello, little Darjeeling"
 			description: [
@@ -193,8 +255,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -6.0d
+			x: 1.5d
+			y: -7.5d
 			shape: "hexagon"
 			subtitle: "Oooh, long!"
 			description: ["Yellow tea, known to most as Oolong, is an earthier flavored tea with the &aability to grant resistance&r."]
@@ -212,8 +274,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.5d
+			x: 2.0d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Green is for fresh, delicate, and delightful!"
 			description: ["This tea is bright, grassy, and delicious! It also grants you the &aHaste&r effect."]
@@ -231,8 +293,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: 3.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "The dandiest of lions"
 			description: ["Brew some delightful Dandelion Tea for a sunny afternoon picnic. It will grant you the &dComforting&r effect, which &akeeps you healing regardless of hunger&r."]
@@ -250,8 +312,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -5.0d
+			x: 2.5d
+			y: -6.5d
 			shape: "hexagon"
 			subtitle: "Not very good for you"
 			description: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
@@ -278,8 +340,8 @@
 		}
 		{
 			title: "Obtain a Nether Fungus Colony"
-			x: 1.0d
-			y: 4.5d
+			x: 7.5d
+			y: -6.5d
 			subtitle: "I bet you're a really fun Gus"
 			description: ["Much like Mushroom colonies, &bNether Fungus&r can be grown in &acomplete darkness&r using Rich Soil. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 fungi. I've heard they're enjoyable to hang out with."]
 			dependencies: ["40C1DBE20E401EF9"]
@@ -313,8 +375,8 @@
 		}
 		{
 			title: "Make a Hoglin Mount"
-			x: 4.5d
-			y: 3.0d
+			x: 11.5d
+			y: -6.5d
 			shape: "hexagon"
 			subtitle: "No one mounts like Gaston!"
 			description: ["Are you a trophy hunter? Well, look no further than this tasteful and bold decoration - the &bHoglin Mount&r."]
@@ -332,8 +394,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: 9.5d
+			y: -6.5d
 			subtitle: "Soul Compost? Boy that's a mood"
 			description: ["You can also use &bHoglin Hides&r to create Soul &bCompost&r, which will slowly convert into &bRich Soul Soil&r. Simply &6place the Compost near Lava&r."]
 			dependencies: ["507ACD6D650DECA2"]
@@ -345,8 +407,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 9.5d
+			y: -5.0d
 			subtitle: "Hoglin, hide!"
 			description: ["&bHoglin Hide&r can be used in cooking recipes, or cleaned on a &bCutting Board&r to create &bLeather&r."]
 			dependencies: ["773834D44C436587"]
@@ -364,8 +426,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 12.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Why would you make this?"
 			description: ["This moldy meat is frankly pretty gross. But if you want to complete all your quests, you &6need to make it&r. Bwahahaha."]
@@ -383,8 +445,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: 10.0d
+			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Gird this"
 			description: ["By killing &eHoglins&r with your trusty &bKnife&r, you can gain &bHoglin Loin&r, &bHoglin Hide&r, and sometimes &bHam&r! These can be used in cooking recipes."]
@@ -403,8 +465,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: 7.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Heartless!"
 			description: ["In order to obtain &bStrider Slices&r, you need to slay &eStriders&r with a &bKnife&r. It's quite tragic, really. But if you do so, you can &6cook them as they are&r, or place the Slices on the &bCutting Board&r to obtain &bGround Strider&r, which has further recipe uses."]
@@ -424,8 +486,8 @@
 		}
 		{
 			title: "Stuff a Hoglin"
-			x: 6.5d
-			y: -1.0d
+			x: 7.5d
+			y: -3.5d
 			description: ["Make yourself a &bRaw Stuffed Hoglin&r and &6place it in a &bCooking Pot&r with 2 &bNether Salads&r to create a &bStuffed Hoglin&r, which can be placed down and eaten as the centerpiece of the most indulgent feast!"]
 			dependencies: ["773834D44C436587"]
 			id: "236484A484723F55"
@@ -442,8 +504,8 @@
 		}
 		{
 			title: "Obtain Some Propelpearls"
-			x: 5.5d
-			y: -3.5d
+			x: 12.0d
+			y: -4.0d
 			subtitle: "Don't be too hasty"
 			description: ["&bPropelplants&r can be found in the Nether. They look similar to Bamboo, but are black in color, with glowing globules at the top. &dBe careful when harvesting them&r! You'll need &bShears&r to obtain the &bPropelpearls&r."]
 			id: "76BB908C21246B36"
@@ -460,7 +522,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 11.0d
 			y: -5.5d
 			shape: "hexagon"
 			subtitle: "Hot stuff, comin' through!"
@@ -485,8 +547,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -4.0d
+			x: 13.0d
+			y: -5.5d
 			subtitle: "Are you Abel to get Cain?"
 			description: [
 				"&bPropelcane&r is obtained from &bPropelplants&r, but must be &6harvested with a Knife&r. It can be chopped into &bGunpowder&r at a Cutting Board, or used to &acreate special &bPropelplant Torches&r."
@@ -507,8 +569,8 @@
 		}
 		{
 			title: "Carve the Stuffed Hoglin"
-			x: 8.5d
-			y: -1.0d
+			x: 7.5d
+			y: -5.0d
 			subtitle: "He even carved the Roast Beast!"
 			description: [
 				"Before you can chow down on your &bStuffed Hoglin&r, you must first &6carve off the finest delicacy&r - the &bears&r. Delicious!"
@@ -546,8 +608,8 @@
 		}
 		{
 			title: "Obtain a Knife"
-			x: -5.5d
-			y: 2.0d
+			x: -7.0d
+			y: 2.5d
 			subtitle: "Baby's First Stabber"
 			description: ["&bKnives&r from this mod will guarantee you &aadditional drops from animals&r, such as &bfeathers&r or &bleather&r, as well as &aadditional drops when breaking grass&r. This makes it much easier to get started on your agricultural journey."]
 			dependencies: ["2615CD06E32EC741"]
@@ -582,8 +644,8 @@
 		}
 		{
 			title: "Obtain a Cooking Pot"
-			x: -3.0d
-			y: 1.0d
+			x: -5.0d
+			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Despite the name, it's not for cooking pot."
 			description: [
@@ -621,8 +683,8 @@
 		}
 		{
 			title: "Create a Stove"
-			x: -1.0d
-			y: 2.5d
+			x: -2.5d
+			y: 3.5d
 			subtitle: "Steve's Stove"
 			description: [
 				"A &bStove&r is an incredibly useful tool. Thanks to your inherent magic, it is fueled at all times! You can &6place up to 6 food items&r on the grill in order to cook them. They'll pop up into items when they're ready! You can &6place an upside-down &bBasket&r above it to collect them automatically."
@@ -643,8 +705,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 5.0d
+			x: -8.0d
+			y: 7.0d
 			shape: "hexagon"
 			subtitle: "Yer barking up the wrong tree...heehee"
 			description: [
@@ -666,8 +728,8 @@
 		}
 		{
 			title: "Obtain a Cutting Board"
-			x: -7.5d
-			y: 3.0d
+			x: -8.0d
+			y: 4.5d
 			subtitle: "Back to the ol' Cutting Board"
 			description: [
 				"A &bcutting board&r will allow you to prepare advanced ingredients for your meals, such as &bbacon&r or &bfish filets&r. Simply &6place the item on the cutting board&r and &6right click it&r with your knife."
@@ -688,8 +750,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 3.5d
+			x: -6.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Hmmm... Maybe YOU should try eating it... Go on..."
 			description: ["&bDog food&r, and its companion, &bHorse Food&r, will grant potion effects to their users such as &aspeed&r, &aresistance&r, or &ajump boost&r."]
@@ -708,8 +770,8 @@
 		}
 		{
 			title: "Make Hearty Meals"
-			x: -3.5d
-			y: 4.5d
+			x: -6.0d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Touched by his noodly appendage."
 			description: ["You can make &bPasta with Meatballs&r in a &bCooking Pot&r. Eating Full-Course meals, such as this one, will grant you the &aNourishing&r effect, which &aprevents you from losing hunger and saturation&r for a time. Helpful if you'll be going somewhere dangerous, as it will keep your health regenerating!"]
@@ -735,8 +797,8 @@
 		}
 		{
 			title: "Make Some Hot Cocoa"
-			x: -2.0d
-			y: 5.0d
+			x: -5.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Cures what ails ya"
 			description: ["&bHot Cocoa&r is made with &bBottled Milk&r. While &bBottled Milk&r will remove one effect from you, positive OR negative - &bHot Cocoa&r will &aonly remove negative effects&r! I always knew Swiss Miss knew what she was doing."]
@@ -756,8 +818,8 @@
 		}
 		{
 			title: "Make Placeable Meals"
-			x: -1.0d
-			y: 4.0d
+			x: -4.0d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Stuffed Pumpkin is the new cake"
 			description: [
@@ -812,8 +874,8 @@
 		}
 		{
 			title: "PBJ Deliciousness"
-			x: -2.0d
-			y: -5.0d
+			x: -8.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "A classic meal for both depression and joy"
 			description: ["With &bAcorns&r you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
@@ -843,8 +905,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -5.5d
+			x: -11.5d
+			y: -6.0d
 			shape: "hexagon"
 			description: ["Ahh, there we are! The ultimate meal. Veggies, protein, dairy, grains...a balanced meal to tempt the tums."]
 			dependencies: ["1556BE457F25FA9F"]
@@ -894,8 +956,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -4.5d
+			x: -9.5d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Toasty roasty goodness"
 			description: ["This quest exists purely so that when you make a &bS'more&r...you get some more!"]
@@ -913,8 +975,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -4.5d
+			x: -9.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "Nectar of the...higher beings?"
 			description: ["I'm not sure who pioneered the idea of eating &bEnder Pearls&r, but hey...why not?"]
@@ -932,8 +994,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -5.5d
+			x: -8.5d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Matcha? Gotcha!"
 			description: [
@@ -954,8 +1016,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -3.5d
+			x: -9.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Don't think too hard about the reward"
 			description: [
@@ -976,7 +1038,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -11.5d
 			y: -4.0d
 			shape: "hexagon"
 			subtitle: "chembubger"
@@ -996,8 +1058,8 @@
 		}
 		{
 			icon: "minecraft:cake"
-			x: 3.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 			description: ["Each a bunch of cake! It's a delicious treat and you deserve it."]
 			id: "78A59A17FEDDE305"
 			tasks: [{
@@ -1043,8 +1105,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 6.5d
+			x: -6.0d
+			y: 7.0d
 			shape: "octagon"
 			description: ["Achieve this advancement by &6eating a course of every meal available&r! You can search for \"food\" in JEI or your storage, but &donly foods from the &lFarmer's Delight&r &dmod&r count."]
 			dependencies: ["0E2749D8FEEF0D49"]
@@ -1109,8 +1171,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: -2.0d
+			y: 5.0d
 			shape: "octagon"
 			description: ["The &bSkillet&r allows you to cook on the go! Simply &6stand near a heat source&r and &6add your ingredients&r!"]
 			dependencies: ["2615CD06E32EC741"]
@@ -1149,7 +1211,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -11.5d
 			y: -2.5d
 			shape: "hexagon"
 			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
@@ -1233,7 +1295,7 @@
 		}
 		{
 			title: "Placeable Meal Diversity"
-			x: 0.0d
+			x: -3.5d
 			y: 5.5d
 			shape: "hexagon"
 			description: ["There are many meals which can be &6placed down and eaten&r. Craft one of each and show your prowess as a kitchen witch."]
@@ -1320,8 +1382,8 @@
 		}
 		{
 			title: "Dessert-a-holic"
-			x: -2.5d
-			y: 7.5d
+			x: -5.0d
+			y: 6.5d
 			description: ["Who doesn't love pie? &6Make each type of pie and cake&r, and at the end you'll have a sumptuous feast!"]
 			dependencies: ["2615CD06E32EC741"]
 			id: "42DD1CCF09065C51"
@@ -1408,8 +1470,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
+			x: -1.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "get your azalea in gear"
 			description: ["&bAzalea Tea&r is a delicious way to enjoy the beauty of the Azalea!"]
@@ -1428,8 +1490,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
+			x: 6.0d
+			y: 5.0d
 			shape: "rsquare"
 			description: [
 				"The mod &lCaupona&r adds a lot of new recipes and ways to cook them."
@@ -1453,6 +1515,19 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "1649B81C8A139731"
+			tasks: [{
+				id: "0B274B316154EF4D"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

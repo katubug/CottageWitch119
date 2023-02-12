@@ -7,11 +7,23 @@
 	icon: "minecraft:spyglass"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 20.0d
+		height: 20.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGScavengerHunt.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Scavenger Hunt: Clay Ball"
-			x: -4.0d
-			y: -4.0d
+			x: -3.0d
+			y: 2.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "10F079B6E31FCF17"
@@ -23,8 +35,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Mangrove Propagule"
-			x: -2.5d
-			y: -2.0d
+			x: -1.5d
+			y: 4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "4FDB48B5AE01AFB4"
@@ -36,8 +48,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Diamond"
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: 5.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "52C4175797FFE14B"
@@ -49,8 +61,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Soul Lantern"
-			x: -6.5d
-			y: -4.5d
+			x: -5.5d
+			y: 1.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "4307E6EA2E01F82B"
@@ -62,8 +74,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Sweet Berries"
-			x: -7.0d
-			y: -7.0d
+			x: -6.0d
+			y: -1.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "4A8A373C89D91E51"
@@ -75,8 +87,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Raw Rabbit"
-			x: 2.5d
-			y: -2.0d
+			x: 3.5d
+			y: 4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "5C44B803FBB46C7F"
@@ -88,8 +100,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Poisonous Potato"
-			x: 5.0d
-			y: -7.0d
+			x: 6.0d
+			y: -1.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "795033CC78FE8CCE"
@@ -101,8 +113,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Chorus Fruit"
-			x: 2.5d
-			y: -4.0d
+			x: 3.5d
+			y: 2.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "78A818CEEFA49F95"
@@ -114,8 +126,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Pufferfish"
-			x: -2.5d
-			y: -8.0d
+			x: -1.5d
+			y: -1.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "34D4613E61AF3AEF"
@@ -127,8 +139,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Cookies"
-			x: 3.0d
-			y: -6.0d
+			x: 4.0d
+			y: 0.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "1E1E47B50314B64A"
@@ -157,8 +169,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Feather"
-			x: 0.5d
-			y: -8.0d
+			x: 1.5d
+			y: -1.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "628D5F4ACDE2C665"
@@ -170,8 +182,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Egg"
-			x: -4.5d
-			y: -6.0d
+			x: -3.5d
+			y: 0.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "223792FEBB2154CA"
@@ -183,8 +195,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Ink Sacs"
-			x: 0.5d
-			y: -2.0d
+			x: 1.5d
+			y: 4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "75A98C846E56A570"
@@ -203,8 +215,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Magma Cream"
-			x: -4.5d
-			y: -2.0d
+			x: -3.5d
+			y: 4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "78FB1E1156B8A23C"
@@ -216,8 +228,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Shroomlight"
-			x: -6.5d
-			y: -2.5d
+			x: -5.5d
+			y: 3.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "36AC202292F23D2D"
@@ -229,8 +241,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Sugar"
-			x: 4.5d
-			y: -2.5d
+			x: 5.5d
+			y: 3.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "5D7D1F5AEDE61466"
@@ -242,8 +254,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Fungi"
-			x: 1.5d
-			y: -10.5d
+			x: 2.5d
+			y: -4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "3EDAAAB87F7C1022"
@@ -262,8 +274,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Dead Bush"
-			x: -3.5d
-			y: -10.5d
+			x: -2.5d
+			y: -4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "7AD80A3479D0B0A8"
@@ -275,8 +287,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Sea Pickle"
-			x: -1.0d
-			y: -10.0d
+			x: 0.0d
+			y: -3.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "4B1050C983FA2708"
@@ -288,8 +300,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Flowers"
-			x: -3.0d
-			y: 0.0d
+			x: -2.0d
+			y: 6.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "443F18D755145E26"
@@ -313,8 +325,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Crying Obsidian"
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: 6.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "217230971261385C"
@@ -326,8 +338,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Amethyst"
-			x: -5.0d
-			y: -8.5d
+			x: -4.0d
+			y: -2.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "0781A21B04D458DE"
@@ -346,8 +358,8 @@
 		}
 		{
 			title: "Scavenger Hunt: End Rod"
-			x: 3.0d
-			y: -8.5d
+			x: 4.0d
+			y: -2.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "56DBC16948476CBE"
@@ -359,8 +371,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Hay Bale"
-			x: -6.5d
-			y: -10.5d
+			x: -5.5d
+			y: -4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "74A5C07E1CC1BDCB"
@@ -372,8 +384,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Sea Lantern"
-			x: 4.5d
-			y: -10.5d
+			x: 5.5d
+			y: -4.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "77F821E672D8FE6B"
@@ -385,8 +397,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Horn Coral Block"
-			x: -1.0d
-			y: -12.0d
+			x: 0.0d
+			y: -5.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "5D51C92D31F9974B"
@@ -399,7 +411,7 @@
 		{
 			title: "Scavenger Hunt: Honey"
 			x: 6.5d
-			y: -1.0d
+			y: 5.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "74403CDD36E19E5B"
@@ -418,8 +430,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Raw Blocks"
-			x: -8.5d
-			y: -1.5d
+			x: -6.5d
+			y: 5.0d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "60205D338359F03C"
@@ -443,8 +455,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Trio of Stews"
-			x: -5.5d
-			y: -0.5d
+			x: -4.5d
+			y: 5.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "04CB1359F805B396"
@@ -468,8 +480,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Powder Snow Bucket"
-			x: 4.0d
-			y: -0.5d
+			x: 5.0d
+			y: 5.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "358EB6DB33F203FE"
@@ -481,8 +493,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Bucket of Tadpole"
-			x: 5.0d
-			y: -4.5d
+			x: 6.0d
+			y: 1.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "178EB94C72B16D88"
@@ -494,8 +506,8 @@
 		}
 		{
 			title: "Scavenger Hunt: Bell"
-			x: -4.5d
-			y: -12.0d
+			x: -3.5d
+			y: -5.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "5F1A07D19C09FFE6"
@@ -506,28 +518,21 @@
 			}]
 		}
 		{
-			title: "Scavenger Hunt: Any Music Disc"
-			x: 3.0d
-			y: -12.0d
+			title: "Scavenger Hunt: 5 Disc"
+			x: 4.0d
+			y: -5.5d
 			shape: "hexagon"
 			dependencies: ["505C0E55270CBFBC"]
 			id: "0B947B43262CD036"
 			tasks: [{
-				id: "29A4037C143D7E28"
+				id: "307E0C118A08D100"
 				type: "item"
-				title: "Any #minecraft:music_discs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:music_discs"
-					}
-				}
+				item: "minecraft:music_disc_5"
 			}]
 		}
 		{
-			x: -1.0d
-			y: -5.0d
+			x: 0.0d
+			y: 1.0d
 			shape: "rsquare"
 			subtitle: "Time to scavenge!"
 			description: [
@@ -543,9 +548,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 3.0d
-			shape: "rsquare"
+			x: 0.0d
+			y: 7.0d
+			shape: "gear"
 			subtitle: "It's finally done"
 			description: [
 				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
@@ -617,6 +622,19 @@
 					table_id: 1739670786502713488L
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "5F7EBDA2EDC4F25B"
+			tasks: [{
+				id: "2F59A64EF5D05CBF"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
 		}
 	]
 	quest_links: [ ]

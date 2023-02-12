@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			width: 12.5d
+			width: 13.0d
 			height: 5.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/questsbanner.png"
@@ -22,11 +22,35 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 7.5d
 			width: 11.5d
 			height: 6.5d
 			rotation: 0.0d
 			image: "cottagewitch:textures/questkey.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGDeath.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGFreebies.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -37,8 +61,8 @@
 		{
 			title: "Begin your World"
 			icon: "minecraft:grass_block"
-			x: 0.0d
-			y: 6.0d
+			x: -3.0d
+			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Welcome in!"
 			description: [
@@ -140,75 +164,15 @@
 			]
 		}
 		{
-			title: "Find Biomes with the Nature's Compass"
-			x: 1.5d
-			y: 8.5d
-			shape: "hexagon"
-			description: [
-				"The &bNature's Compass&r is a magical tool, similar to a &bDowsing Rod&r, which will allow you to find your way to a particular type of biome."
-				"Simply &6right click while holding it&r in order to search for the biome you want to find."
-			]
-			dependencies: ["6C6635F6D9644BB7"]
-			id: "1F4569590B7666F5"
-			tasks: [{
-				id: "0AA5D5B5891F4838"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
-				{
-					id: "2E7C57E4CDF3A562"
-					type: "choice"
-					table_id: 6990203354287577879L
-				}
-				{
-					id: "46F1CF2EAD0F55EC"
-					type: "choice"
-					table_id: 6990203354287577879L
-				}
-			]
-		}
-		{
-			title: "Find Structures with the Explorer's Compass"
-			x: -1.5d
-			y: 8.5d
-			shape: "hexagon"
-			description: [
-				"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
-				"Simply &6right click while holding it&r in order to search for the structure you want to find."
-			]
-			dependencies: ["6C6635F6D9644BB7"]
-			id: "292B26978E644D9F"
-			tasks: [{
-				id: "628297917BCB66ED"
-				type: "item"
-				item: {
-					id: "explorerscompass:explorerscompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3697431A62122609"
-				type: "loot"
-				table_id: 6941837675484043489L
-			}]
-		}
-		{
 			title: "Baby's First Death"
-			x: 4.0d
-			y: 6.0d
+			x: 3.5d
+			y: 1.0d
 			subtitle: "Handbook for the recently deceased"
 			description: [
 				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
 				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
 				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
 			]
-			dependencies: ["6C6635F6D9644BB7"]
 			id: "47643C0C8D4BCBD9"
 			tasks: [{
 				id: "412E4F0BC4FEF92B"
@@ -242,13 +206,12 @@
 		}
 		{
 			x: -4.5d
-			y: 5.5d
+			y: 1.0d
 			subtitle: "Cute house starter pack"
 			description: [
 				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
 				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
 			]
-			dependencies: ["6C6635F6D9644BB7"]
 			id: "21AD64E594528F4D"
 			tasks: [{
 				id: "76B325FD29C28A89"
@@ -263,13 +226,12 @@
 		}
 		{
 			title: "Mushroom Hat"
-			x: -4.5d
-			y: 7.0d
+			x: -5.0d
+			y: 2.0d
 			description: [
 				"Would you like a Mushroom Hat? Cool! Click the box above."
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
 			]
-			dependencies: ["6C6635F6D9644BB7"]
 			can_repeat: true
 			id: "3DFB7EF14F053582"
 			tasks: [{
@@ -292,8 +254,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.0d
+			x: 2.0d
+			y: 1.5d
 			shape: "octagon"
 			description: ["Congratulations on cheating death! Sorry about your totem, though."]
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -313,8 +275,8 @@
 		}
 		{
 			title: "Die 50 Times"
-			x: 6.0d
-			y: 7.5d
+			x: 2.5d
+			y: 3.0d
 			subtitle: "YOU DIED"
 			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -333,8 +295,8 @@
 		}
 		{
 			title: "Survival Skills"
-			x: 8.0d
-			y: 6.5d
+			x: 4.5d
+			y: 3.0d
 			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
 			dependencies: ["47643C0C8D4BCBD9"]
 			id: "2508051D98B7CB06"
@@ -352,10 +314,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 8.5d
+			x: -4.5d
+			y: 3.0d
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
-			dependencies: ["6C6635F6D9644BB7"]
 			id: "7232C9D413054886"
 			tasks: [{
 				id: "474CE1AAC07815BD"
@@ -378,11 +339,14 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			invisible: true
+			secret: true
 			id: "457F26BFBE27EC1C"
 			tasks: [{
 				id: "6574D787435FC4EA"
 				type: "item"
 				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

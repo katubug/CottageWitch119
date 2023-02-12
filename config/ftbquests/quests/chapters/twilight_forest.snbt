@@ -1,18 +1,30 @@
 {
 	id: "23CEC5718927D582"
 	group: "5FB460EFA0A2567E"
-	order_index: 1
+	order_index: 0
 	filename: "twilight_forest"
 	title: "Twilight Forest"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 27.0d
+		height: 15.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGTwilightForest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Reach the Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -3.0d
-			y: -2.5d
+			x: -10.0d
+			y: 0.0d
 			subtitle: "Entering a crepuscular zone"
 			description: [
 				"Welcome to the Twilight Forest! This dimension can be dangerous to navigate, although it is convieniently laid out with its &amajor landmarks in a grid&r."
@@ -41,8 +53,8 @@
 		}
 		{
 			title: "Obtain a Portal Key"
-			x: 0.0d
-			y: -4.0d
+			x: -10.0d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Throw it in a limpid pool and then back away"
 			description: [
@@ -80,8 +92,8 @@
 		{
 			title: "Find a Forest Raven"
 			icon: "twilightforest:raven_feather"
-			x: -2.0d
-			y: -0.5d
+			x: -5.5d
+			y: 0.0d
 			subtitle: "Unfortunately, you have to kill it"
 			description: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for it's feathers&r, which are important for making the &bMagical Map Focus&r."]
 			dependencies: ["730964D8E1FD059F"]
@@ -102,7 +114,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -5.5d
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Come on, Focus!"
@@ -126,8 +138,8 @@
 		}
 		{
 			title: "Find a Hedge Maze"
-			x: -2.5d
-			y: -4.5d
+			x: -7.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Now you can be a Hedge Witch!"
 			description: [
@@ -149,8 +161,8 @@
 		}
 		{
 			title: "Obtain an Ore Magnet"
-			x: -4.5d
-			y: -4.5d
+			x: -7.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "I'm a total ore magnet"
 			description: [
@@ -177,8 +189,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.5d
+			x: -6.0d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Steel yourself"
 			description: [
@@ -200,8 +212,8 @@
 		}
 		{
 			title: "Obtain Liveroot"
-			x: -3.0d
-			y: -5.5d
+			x: -6.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "These roots...they're alive!"
 			description: ["Break down the &aLiveroots&r beneath a Tree in order to obtain them. This item can be combined with &bIron&r and &bGold&r in order to create &bIronwood&r, which can be used to create pre-enchanted pieces of gear."]
@@ -220,8 +232,8 @@
 		}
 		{
 			title: "Obtain the Peacock Feather Fan"
-			x: -3.5d
-			y: -4.5d
+			x: -5.0d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Ostentatious but very useful"
 			description: [
@@ -257,8 +269,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -5.5d
+			x: -7.0d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "You might want to sit down for this one"
 			description: ["&bThe Moonworm Queen&r is an...item...that is filled with Moonworms. When you &6right click her&r, they will be dispensed - either directly onto a surface, or shot like an arrow. The moonworms serve no purpose other than &aas a light source&r. You can replenish the Queen by crafting her with &bTorchberries&r, and get...even more worms. Yay."]
@@ -283,8 +295,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.5d
+			x: -5.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Uncraftables are delicious. Wait..."
 			description: [" One of the most valuable items in the game, &bThe Uncrafting Table&r allows you to &arecoup materials from crafted items&r in exchange for experience levels. &6Place the unwanted item in the left slot&r and then &6click one of the ingredients&r in the center to remove it."]
@@ -304,8 +316,8 @@
 		{
 			title: "Find a Naga Courtyard"
 			icon: "twilightforest:naga_trophy"
-			x: -1.5d
-			y: 1.5d
+			x: -3.5d
+			y: 0.0d
 			subtitle: "Nag your local Naga"
 			description: [
 				"The first boss you must face is the block-destroying &eNaga&r. It is a long serpent who slowly shrinks in length as you damage him."
@@ -328,7 +340,7 @@
 		{
 			title: "Purchase Quest: 20 Naga Scales"
 			x: -3.5d
-			y: 0.5d
+			y: -1.5d
 			shape: "pentagon"
 			subtitle: "A chance to use unwanted scales"
 			description: ["Defeat &eNaga&r in the &dTwilight Forest&r to obtain their scales. Then, relinquish those scales in exchange for loot!"]
@@ -356,8 +368,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 0.0d
 			subtitle: "Where my liches at?"
 			description: [
 				"Inside the &dLich Tower&r is the undead noble of the Twilight Forest. His &aCastle&r is fraught with mobs, but also filled with loot."
@@ -382,8 +394,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.5d
+			x: -1.5d
+			y: 2.0d
 			subtitle: "Unfortunately, no Goblin Kings here..."
 			description: [
 				"The Labyrinth, found in the depths of &dthe Swamp&r, houses a number of nasty creatures, culminating in the vicious &eMinotaurs&r and &eMinoshroom&r."
@@ -405,8 +417,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 6.0d
+			x: -3.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Keep your charming ways"
 			description: [
@@ -428,8 +440,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 8.5d
+			x: 3.5d
+			y: 2.0d
 			subtitle: "Remove one head, and two appear!"
 			description: [
 				"The &eHydra&r is a fearsome foe that is only weak in one place: within its fire-spewing maw!"
@@ -454,8 +466,8 @@
 		}
 		{
 			title: "Obtain the Mazebreaker"
-			x: -2.5d
-			y: 7.0d
+			x: -1.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Now why would you break a perfectly good maze?"
 			description: [
@@ -498,8 +510,8 @@
 		}
 		{
 			title: "Purchase Quest: 20 Fiery Blood"
-			x: -3.5d
-			y: 9.0d
+			x: 3.5d
+			y: 4.5d
 			shape: "pentagon"
 			subtitle: "A chance to use unwanted blood"
 			description: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for a chance at something valuable!"]
@@ -528,7 +540,7 @@
 		}
 		{
 			x: 1.0d
-			y: 4.5d
+			y: 0.0d
 			subtitle: "Better bring some extra torches"
 			description: [
 				"Located in the gloomy depths of the &dDark Forest&r, the Knight Stronghold is infested with &eGoblins&r, and you cannot enter without one of the &bTrophies&r from the previous bosses."
@@ -554,8 +566,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.5d
+			x: 1.0d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Even more charming"
 			description: [
@@ -576,8 +588,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 5.5d
+			x: 3.5d
+			y: 0.0d
 			subtitle: "I ain't afraid of no ghast"
 			description: [
 				"In the Center of the &dDark Forest&r, the Dark Tower can be found. It is a massive structure, filled with monsters, and ruled over by a deadly &eUr-Ghast&r."
@@ -603,8 +615,8 @@
 		}
 		{
 			title: "Find the Yeti Cave"
-			x: 0.5d
-			y: 6.0d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "Are you ready? Not yeti"
 			description: [
 				"The Yeti Cave can be found in the Snowy Forest, and houses both &eYetis&r (which are neutral), and the &eAlpha Yeti&r, who is the boss you must face in this area."
@@ -626,8 +638,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.0d
+			x: 8.0d
+			y: -2.0d
 			subtitle: "There's an Elsa joke in here somewhere"
 			description: [
 				"The &eSnow Queen&r is found at the top of the &dAurora Palace&r, a treacherous mansion filled with icy monsters and slippery parkour."
@@ -666,8 +678,8 @@
 		}
 		{
 			title: "Finally: The Highlands!"
-			x: 2.5d
-			y: 8.5d
+			x: 8.0d
+			y: 0.0d
 			subtitle: "You did it!"
 			description: [
 				"You've finally reached the Highlands! This is going to sound suspicious, but hear me out: you need to find some &bMagic Beans&r."
@@ -703,8 +715,8 @@
 		}
 		{
 			title: "Gain Access to the Final Castle"
-			x: 2.5d
-			y: 10.5d
+			x: 10.0d
+			y: 0.0d
 			subtitle: "A thankless task"
 			description: [
 				"In the heart of the &cThorns&r lies a castle which holds the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r."
@@ -741,8 +753,8 @@
 		}
 		{
 			title: "Defeat the Naga"
-			x: 0.5d
-			y: 1.5d
+			x: -3.5d
+			y: -3.0d
 			dependencies: ["00B1A6C679547AF2"]
 			id: "3A0205CA0568641F"
 			tasks: [{
@@ -766,8 +778,8 @@
 		}
 		{
 			title: "Defeat a Lich"
-			x: -4.0d
-			y: 2.0d
+			x: -1.5d
+			y: -1.5d
 			dependencies: ["1B8E61A0872EEA1C"]
 			id: "62F755926795DBB6"
 			tasks: [{
@@ -791,8 +803,8 @@
 		}
 		{
 			title: "Defeat the Knight Phantoms"
-			x: 3.0d
-			y: 3.5d
+			x: 1.0d
+			y: -3.0d
 			dependencies: ["10C91592DCBC6FBD"]
 			id: "470A6825C49EEFAF"
 			tasks: [{
@@ -809,8 +821,8 @@
 		}
 		{
 			title: "Defeat the Ur-Ghast"
-			x: 6.0d
-			y: 8.0d
+			x: 5.5d
+			y: 0.0d
 			dependencies: ["5C463B10FDE8CEF2"]
 			id: "761DD39F82235893"
 			tasks: [{
@@ -827,8 +839,8 @@
 		}
 		{
 			title: "Eat Meef Stroganoff"
-			x: -4.0d
-			y: 4.0d
+			x: -3.5d
+			y: 2.0d
 			dependencies: ["6016A3D8B7FD7A14"]
 			id: "169272849A588544"
 			tasks: [{
@@ -844,8 +856,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 10.5d
+			x: 5.5d
+			y: 2.0d
 			dependencies: ["3657239C35390F17"]
 			id: "54A57B37E1C04785"
 			tasks: [{
@@ -861,8 +873,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 7.5d
+			x: 1.0d
+			y: 4.5d
 			dependencies: ["41CBB146259DAF34"]
 			id: "2F267ADA86FA5503"
 			tasks: [{
@@ -879,8 +891,8 @@
 		}
 		{
 			title: "Defeat the Aurora Snow Queen"
-			x: 3.0d
-			y: 6.0d
+			x: 8.0d
+			y: -4.0d
 			dependencies: ["2C905E4DE5051CC5"]
 			id: "27AFCBF70AA24760"
 			tasks: [{
@@ -897,8 +909,8 @@
 		}
 		{
 			title: "Complete the Quest Ram"
-			x: -7.5d
-			y: 8.25d
+			x: -6.75d
+			y: 2.25d
 			shape: "circle"
 			description: [
 				"Find yourself a &eQuest Ram&r and you'll notice it seems to be missing something."
@@ -921,8 +933,9 @@
 		}
 		{
 			title: "Complete the Twilight Forest"
-			x: 2.0d
-			y: 12.5d
+			x: 7.5d
+			y: 4.5d
+			shape: "gear"
 			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
 			dependencies: [
 				"2B8E1553C1487EBA"
@@ -983,6 +996,19 @@
 					}
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "723D12B934CAB46C"
+			tasks: [{
+				id: "3F86DB1D1FDA86D5"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
 		}
 	]
 	quest_links: [ ]

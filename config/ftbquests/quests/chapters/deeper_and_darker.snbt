@@ -1,19 +1,19 @@
 {
 	id: "41296202479D0531"
 	group: "5FB460EFA0A2567E"
-	order_index: 5
+	order_index: 4
 	filename: "deeper_and_darker"
 	title: "Deep Dark"
 	icon: "deeperdarker:heart_of_the_deep"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 3.5d
-		y: 0.5d
+		x: 0.0d
+		y: 0.0d
 		width: 20.0d
 		height: 10.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGDeepDark.png"
+		image: "cottagewitch:textures/BGDeeperDarker.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -22,8 +22,8 @@
 	quests: [
 		{
 			title: "Go Deeper, Get Darker"
-			x: -3.0d
-			y: 0.0d
+			x: -6.5d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "Break on through to the Otherside"
 			description: [
@@ -49,8 +49,8 @@
 		}
 		{
 			title: "Sculk Crafting"
-			x: -2.5d
-			y: 2.5d
+			x: -6.0d
+			y: 2.0d
 			description: [
 				"&bSculk&r is the signature block of the &cDeep Dark&r, a biome in which &cAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
 				"Where &bSculk&r comes from and what it does is not entirely known... but it is clear that it is &lalive&r."
@@ -71,8 +71,8 @@
 		}
 		{
 			title: "Making More Sculk"
-			x: -1.0d
-			y: 3.5d
+			x: -4.5d
+			y: 3.0d
 			subtitle: "a catalyst for greatness. or at least sculk."
 			description: ["Once you have obtained &bEcho Shards&r, you can produce your own &bSculk&r and &bSculk Veins&r by &6feeding exp to a &bSculk Catalyst&r, which will &atransform the surrounding blocks&r. The primary method of doing this is to &6slay monsters nearby&r."]
 			dependencies: ["001E117581BE05D5"]
@@ -91,8 +91,8 @@
 		}
 		{
 			title: "Making the Sculk Sensor"
-			x: 1.5d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 			subtitle: "potentially helpful for automation"
 			description: [
 				"&bSculk Sensors&r are cute - and mildly terrifying - beings which will &atransmit a redstone signal when alerted&r. They listen for nearby sounds, such as &afootsteps, blocks placing or breaking, or opening inventories&r."
@@ -114,8 +114,8 @@
 		}
 		{
 			title: "Defeat the Warden"
-			x: 2.5d
-			y: 0.0d
+			x: -1.0d
+			y: -0.5d
 			shape: "diamond"
 			description: [
 				"The &eWarden&r pulls no punches. It is easily capable of killing the unprepared witch in a single hit, and it is &aincredibly sturdy&r. However, with the right preparation one might be able to face it!"
@@ -146,8 +146,8 @@
 		}
 		{
 			title: "An Impossible Task"
-			x: 2.5d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 			shape: "diamond"
 			subtitle: "or is it?"
 			description: [
@@ -243,8 +243,8 @@
 		}
 		{
 			title: "Explore the Otherside"
-			x: 8.5d
-			y: 1.0d
+			x: 5.0d
+			y: 0.5d
 			description: [
 				"The &cOtherside&r is a dark and dangerous place. It's likely you &awon't be able to see&r more than a few feet ahead of you."
 				"Thankfully, the &bWarden Helmet&r will alleviate this issue."
@@ -261,8 +261,8 @@
 		}
 		{
 			title: "Craft a Warden Helmet"
-			x: 6.5d
-			y: -1.0d
+			x: 3.0d
+			y: -1.5d
 			description: [
 				"In order to brave the &cOtherside&r, you will want to be very geared up in general, but the piece of armor you'll need most is the &bWarden Helmet&r."
 				"Aside from its defense and armor toughness, it grants &bimmunity to Darkness&r, allowing you to see."
@@ -288,8 +288,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: -4.0d
+			y: -0.5d
 			dependencies: ["4C2DDEC05C13A3FB"]
 			id: "2384853DE131A8A7"
 			tasks: [{
@@ -300,8 +300,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
+			x: -2.5d
+			y: -2.0d
 			description: [
 				"&bAncient Vases&r are loot containers which can contain &bWarden Carapaces&r in rare instances. This may help you to &acraft the Warden Helmet&r before killing the &eWarden&r."
 				"However, be wary, as &aeach time a Vase is broken&r, there is a chance to spawn &eThe Stalker&r, which is a relative of the &eWarden&r."
@@ -324,8 +324,8 @@
 		}
 		{
 			title: "Clear Away the Sculk"
-			x: 5.0d
-			y: 1.5d
+			x: 1.5d
+			y: 1.0d
 			description: [
 				"In the &cheart of the Ancient City&r there is a &amassive portal&r. In order to use it, you must first &6clear away the &bSculk Veins&r."
 				"Once it's clear, you can &6right click it&r with the &bHeart of the Deep&r to activate it."
@@ -343,8 +343,8 @@
 		}
 		{
 			title: "Observe the Geyser"
-			x: 10.5d
-			y: -1.5d
+			x: 7.0d
+			y: -2.0d
 			subtitle: "i'm gey ser"
 			description: ["Encounter a &bGeyser&r, a block which will &aboost you into the air&r and &agrant you Slow Falling&r for a time."]
 			dependencies: ["3BED9B52B38D87AC"]
@@ -365,8 +365,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.5d
+			x: 3.5d
+			y: 3.0d
 			description: [
 				"Defeat the &eSculk Centipedes&r of the &cDeeplands&r to obtain &bSculk Bones&r."
 				"\"But wait,\" I hear you said. \"Centipedes don't have bones!\""
@@ -386,8 +386,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 1.5d
+			y: 3.0d
 			description: [
 				"Obtain &bSoul Dust&d from the &eShattered&r in the &cEchoing Forest&r, a &bSoul Crystal&r from defeating &eStalkers&r, and &bSculk Bones&r from defeated &eSculk Centipedes&r."
 				"Once you have these ingredients, you can convert your &bElytra&r to a &bSoul Elytra&r, which grants boosts randomly when you are midair, &anegating the need for many fireworks&r."
@@ -414,8 +414,8 @@
 		}
 		{
 			title: "The Echoing Forest"
-			x: 10.0d
-			y: 1.0d
+			x: 6.5d
+			y: 0.5d
 			description: [
 				"According to the ancient texts:"
 				"This biome often generates in layers consisting of &bSculk, Sculk Stone, and Echo Soil&r. Echo trees populate the biome making The Otherside more vibrant with their purple leaves and &bSculk Gleam&r. The fog color in this biome is purple much like the leaves, and &athe only mobs that spawn here are &eShattered&r, which makes this biome a pleasant change from the many horrors of the Otherside Deeplands."
@@ -445,8 +445,8 @@
 		}
 		{
 			title: "The Overcast Columns"
-			x: 8.5d
-			y: -1.5d
+			x: 5.0d
+			y: -2.0d
 			description: [
 				"According to the ancient texts:"
 				"The &cOvercast Columns&r are a vast, uninhabited wasteland. They are composed of multiple amber columns, which have a biome-exclusive &bCrystallized Amber&r block in each of them. Overcast Columns also have multiple &bGeysers&r scattered throughout the terrain, which is composed of &bGloomslate&r and &bGloom Sculk&r. Nothing is known to live here due to the &ahostile and barren nature&r of the environment."
@@ -481,8 +481,8 @@
 		}
 		{
 			title: "The Otherside Deeplands"
-			x: 7.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			description: [
 				"According to the ancient texts:"
 				"The first biome is called &cOtherside Deeplands&r. The Deeplands are made up of mostly &bSculk&r and &bSculk Stone&r. Large groups of &ePhantoms&r can be seen flying around the caverns of this biome, along with hordes of &eSculk Snappers&r. &bSculk Jaws&r and &bInfested Sculk&r are very common in the Deeplands, making it more &adifficult to navigate&r. Beware of the &eShriekworms&r which lay beneath the &bInfested Sculk&r, waiting to strike."
@@ -512,8 +512,8 @@
 		}
 		{
 			title: "Discover the Ancient Temple"
-			x: 9.0d
-			y: 3.5d
+			x: 5.5d
+			y: 3.0d
 			description: [
 				"Within the &cOtherside Deeplands&r, one can find an &aAncient Temple&r. These structures are filled with the &aspoils of those who came before&r."
 				"In the &dcenter of the temple&r, there are some blocks which, when broken, allow you to &6descend further into the Temple&r."
@@ -539,6 +539,19 @@
 					table_id: 5161092699925703455L
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "36715B16A3C5082F"
+			tasks: [{
+				id: "7B18F6197773ECE8"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
 		}
 	]
 	quest_links: [ ]

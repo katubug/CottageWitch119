@@ -7,10 +7,22 @@
 	icon: "ars_nouveau:archmage_spell_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 25.0d
+		height: 15.0d
+		rotation: 0.0d
+		image: "cottagewitch:textures/BGArsNouveau.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: -6.0d
-			y: 5.0d
+			x: -9.0d
+			y: -1.5d
 			shape: "rsquare"
 			subtitle: "Can you be ars'd?"
 			description: [
@@ -27,8 +39,8 @@
 		}
 		{
 			title: "Obtain a Novice Spell Book"
-			x: -4.5d
-			y: 3.0d
+			x: -7.0d
+			y: -1.0d
 			subtitle: "Good beginner's luck!"
 			description: [
 				"To obtain the &bNovice Spell Book&r, you must &6remove the Worn Notebook&r and craft it with &bGold&r in a &bCrafting Table&r."
@@ -54,8 +66,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			x: -7.0d
+			y: -2.5d
 			subtitle: "Tick the box when you're ready"
 			description: [
 				"To make a spell, you must choose the &aForm&r (touch, self, or projectile) and the &aEffect&r (harm or break). These are called &bGlyphs&r, and you'll unlock more as you go."
@@ -77,7 +89,7 @@
 		}
 		{
 			x: -7.0d
-			y: 2.5d
+			y: 0.5d
 			description: ["You can &aupgrade your spell book&r in order to &alearn higher tiers of glyphs&r."]
 			dependencies: ["56A2E0152608BC39"]
 			id: "276A3F8EA6F66922"
@@ -93,8 +105,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 1.0d
+			x: -9.0d
+			y: 0.5d
 			description: ["The ultimate spell book! Become an &aArchmage&r and learn Tier 3 Glyphs!"]
 			dependencies: ["276A3F8EA6F66922"]
 			id: "5632F590E56DD76C"
@@ -111,8 +123,8 @@
 		}
 		{
 			title: "Obtain Archwood and Make an Amethyst Dowsing Rod"
-			x: -0.5d
-			y: 3.0d
+			x: -5.5d
+			y: -2.5d
 			subtitle: "A rare tree and a rare gem"
 			description: [
 				"Your next step is to obtain &bArchwood&r of some type. These trees are found somewhat rarely in many biomes."
@@ -154,8 +166,8 @@
 		}
 		{
 			title: "Obtaining Source"
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: -2.5d
 			subtitle: "A place to keep the universe's energy"
 			description: [
 				"Magic such as &aImbuement&r requires &dSource&r, a force which flows through all living things. You may craft a &bSourcelink&r to collect it, and a &bSource Jar&r to contain it,"
@@ -183,8 +195,8 @@
 		}
 		{
 			title: "Make an Imbuement Chamber"
-			x: 1.0d
-			y: 4.0d
+			x: -3.5d
+			y: -2.5d
 			subtitle: "Enmagicking stones"
 			description: [
 				"The &bImbuement Chamber&r is how you can create &bSource Gems&r. Simply &6place an Amethyst or Lapis&r inside the Chamber and wait for it to slowly transform."
@@ -214,8 +226,8 @@
 		}
 		{
 			title: "Obtain a Scribe's Table"
-			x: -0.5d
-			y: 6.0d
+			x: -3.5d
+			y: -1.0d
 			subtitle: "I would explain it to you but that would de-scribe it"
 			description: [
 				"Craft a &bScribe's Table&r to take your next steps. The Scribe's Table is where you will do your &amagical crafting&r and acquire new Glyphs!"
@@ -251,8 +263,8 @@
 		}
 		{
 			title: "Make a Spell Parchment"
-			x: -2.5d
-			y: 7.0d
+			x: -5.5d
+			y: 0.5d
 			shape: "hexagon"
 			subtitle: "Spells to go"
 			description: [
@@ -287,8 +299,8 @@
 		}
 		{
 			title: "Make some Arcane Pedestals"
-			x: 2.5d
-			y: 7.5d
+			x: -1.5d
+			y: -1.0d
 			subtitle: "I love a good pedal-stool"
 			description: [
 				"Craft an &bArcane Pedestal&r in a Crafting Bench using Arcane Stone."
@@ -315,8 +327,8 @@
 		}
 		{
 			title: "Obtain Some Sourcestone"
-			x: 3.0d
-			y: 5.5d
+			x: -1.5d
+			y: -2.5d
 			subtitle: "It's also a lovely decorative block"
 			description: ["&bSourcetone&r is a material used in magical crafting recipes. It can be created at a basic &bCrafting Table&r, by surrounding a &bSource Gem&r with &bany kind of Stone&r."]
 			dependencies: ["6A1AECF9FED954C9"]
@@ -348,8 +360,8 @@
 		}
 		{
 			title: "Making a Glyph"
-			x: 0.0d
-			y: 9.0d
+			x: -3.5d
+			y: 0.5d
 			subtitle: "Building blocks of spells"
 			description: [
 				"For starters, let's make the &bHarvest Glyph&r. As you can see in &lJEI&r, it requires an &bIron Hoe&r and an &bEarth Essence&r."
@@ -390,17 +402,14 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 11.0d
+			x: -7.0d
+			y: 2.0d
 			subtitle: "A more mystical method of crafting"
 			description: [
 				"To move forward, you'll want an &bEnchanting Apparatus&r, which requires an &bArcane Core&r beneath it, and &bPedestals&r surrounding it."
 				"You can either bury the Arcane Core and place everything on floor-level, or you can place the Core on floor level and raise the Pedestals up."
 			]
-			dependencies: [
-				"1692491D59BA0527"
-				"1AEACEEBD42A4E1B"
-			]
+			dependencies: ["1692491D59BA0527"]
 			id: "1300FBB6DF2AF01A"
 			tasks: [
 				{
@@ -431,8 +440,8 @@
 		}
 		{
 			title: "Craft a Magebloom Seed to get Fiber"
-			x: -3.0d
-			y: 9.0d
+			x: -5.5d
+			y: 2.0d
 			subtitle: "A source of magical fiber"
 			description: [
 				"&bMagebloom&r is an intensely magical plant which cannot be found naturally. You must create it using an &bEnchanting Apparatus&r. It requires &bSource Gems&r and &bSeeds&r."
@@ -462,8 +471,8 @@
 		}
 		{
 			title: "Obtain Novice Robes"
-			x: -5.0d
-			y: 9.0d
+			x: -3.5d
+			y: 2.0d
 			subtitle: "Unlike Witches, Mages do wear pants."
 			description: ["Use your newly-acquired &bMagebloom Fiber&r to craft yourself a set of &bNovice Robes&r, which will &aincrease the amount of mana&r you have access to."]
 			dependencies: ["0C6AA50E808EBB9F"]
@@ -531,8 +540,8 @@
 		}
 		{
 			title: "New Potion Options"
-			x: 1.0d
-			y: 12.0d
+			x: -5.5d
+			y: 3.5d
 			subtitle: "The Potion Jar, Melder, and Flasks"
 			description: [
 				"The &bPotion Jar&r can hold up to 100 doses of a single potion."
@@ -568,8 +577,8 @@
 		}
 		{
 			title: "Potion Melding"
-			x: 3.0d
-			y: 13.0d
+			x: -5.5d
+			y: 5.0d
 			subtitle: "Combine multiple effects into a single bottle!"
 			description: [
 				"The &bPotion Melder&r allows you to &amix the effects of two or more potions&r. It draws from &bPotion Jars&r which surround it on either side, and when &6provided with Source&r, outputs to a Jar beneath it."
@@ -599,8 +608,8 @@
 		}
 		{
 			title: "Obtain Mage Armor"
-			x: -7.0d
-			y: 9.0d
+			x: -3.5d
+			y: 3.5d
 			description: ["This armor grants additional &aMana&r over the basic set."]
 			dependencies: ["7A5533BEA4D6B751"]
 			optional: true
@@ -668,8 +677,8 @@
 		}
 		{
 			title: "Obtain Archmage Armor"
-			x: -8.5d
-			y: 10.5d
+			x: -3.5d
+			y: 5.0d
 			description: ["The highest tier armor, this &bArchmage set&r is almost as good as &bNetherite&r, with hefty bonuses to &amana&r."]
 			dependencies: ["43BD92DEB06541F2"]
 			id: "1D9FDA3FA050DBEA"
@@ -735,8 +744,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 12.5d
+			x: -7.0d
+			y: 3.5d
 			shape: "hexagon"
 			description: [
 				"The &bCasting Wand&r is an item which you can assign a single spell to. It will automatically have the form &aProjectile&r and the Glyph of &aAccelerate&r."
@@ -769,8 +778,8 @@
 		}
 		{
 			title: "Time to Accessorize"
-			x: 2.5d
-			y: 10.0d
+			x: -1.5d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "Are you a little bit curio-us?"
 			description: ["In order to make magical accessories, you must make their mundane counterparts!"]
@@ -809,8 +818,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 7.5d
+			x: -1.5d
+			y: 5.0d
 			shape: "hexagon"
 			description: ["Despite the worrisome name, this Curio is all positive! The &bBelt of Unstable Gifts&r will &agrant you random positive potion effects&r periodically."]
 			dependencies: ["74996388CF70DE6A"]
@@ -835,8 +844,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 11.5d
+			x: 1.5d
+			y: 5.0d
 			shape: "hexagon"
 			description: ["Unfortunately, this won't get you better deals with villagers. The &bRings of Discount&r (lesser and greater) make your spells cost less mana!"]
 			dependencies: ["74996388CF70DE6A"]
@@ -853,8 +862,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 9.0d
+			x: 1.5d
+			y: 3.5d
 			shape: "hexagon"
 			description: [
 				"The &bFocus of Summoning&r allows your summoned companions to last longer."
@@ -877,8 +886,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 14.0d
+			x: 6.0d
+			y: -0.5d
 			description: ["To move on, you'll need a &bRitual Brazier&r, which accepts various &bRitual Tablets&r in order to work."]
 			dependencies: ["1300FBB6DF2AF01A"]
 			id: "67BD14F42C133046"
@@ -895,8 +904,8 @@
 		}
 		{
 			title: "Special Jars"
-			x: -3.5d
-			y: 10.0d
+			x: -9.0d
+			y: 2.0d
 			shape: "hexagon"
 			description: [
 				"These two &bJars&r each have a unique effect."
@@ -933,8 +942,8 @@
 		}
 		{
 			title: "Ritual of Awakening"
-			x: -1.0d
-			y: 15.5d
+			x: 6.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "An ent is never hasty"
 			description: [
@@ -984,8 +993,8 @@
 		}
 		{
 			title: "Craft a Ritual Tablet"
-			x: 2.0d
-			y: 15.5d
+			x: 4.0d
+			y: -0.5d
 			subtitle: "You know I wanna get ritual, ritual"
 			description: ["In order to perform a &aRitual&r, you'll need a &bTablet&r for the Ritual you want to perform. You can check your &aspell book documentation&r to find out what each ritual does."]
 			dependencies: ["67BD14F42C133046"]
@@ -1010,8 +1019,8 @@
 		}
 		{
 			title: "Summon the Wilden Chimera"
-			x: 5.0d
-			y: 14.5d
+			x: 3.0d
+			y: 1.5d
 			shape: "diamond"
 			subtitle: "To become an Archmage, you must fight"
 			description: [
@@ -1041,8 +1050,8 @@
 		}
 		{
 			title: "Obtaining New Familiars"
-			x: 0.5d
-			y: 16.5d
+			x: 8.0d
+			y: 1.5d
 			subtitle: "Natural automation and friendly companions"
 			description: [
 				"&eFamiliars&r are small creatures who help you with your magical duties. These differ from &eCrows&r in both how you meet them, and what they can do."
@@ -1065,8 +1074,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 17.5d
+			x: 6.5d
+			y: 1.5d
 			description: [
 				"&bStarbuncles&r are small, squirrel-like creatures which love &bGold Nuggets&r. Find a wild Starbuncle and toss them one to receive a &bStarbuncle Shard&r in return, which is used to craft its &bCharm.&r You can simply &6right click the charm on the ground&r to summon its tame counterpart."
 				"When following you, the &eStarbuncle&r will grant you &aSpeed II&r and, when fed Gold Nuggets, it will give you the ability to &asee gold veins through blocks&r."
@@ -1094,8 +1103,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 18.5d
+			x: 8.0d
+			y: 3.5d
 			description: [
 				"The &eWhirlisprig&r looks like an unripe tomato helicopter. Once you locate a wild one, &6grow a tree near it&r in order to receive its &bShards&r, used to make its &bCharm&r! You can then &6right click the charm&r on any small flower to summon one."
 				"While in Familiar mode, they &areduce the cost of earth spells&r by half. Food you eat will also grant you more saturation."
@@ -1115,8 +1124,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 19.0d
+			x: 9.5d
+			y: 1.5d
 			description: [
 				"The &eDrygmy&r is a small gnome-like creature with antlers, and can be found in the wild. In exchange for a &bWilden Horn&r dropped at its feet, it will give you a &bDrygmy Shard&r, which can be used to create its &bCharm&r. &6Right click the Charm on &bMossy Cobblestone&r."
 				"When it is following you, it increases your Earth spell damage, and boosts &aLooting&r."
@@ -1136,8 +1145,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 18.5d
+			x: 9.5d
+			y: -2.5d
 			subtitle: "Take a look, it's in a book"
 			description: [
 				"The &eBookwyrm&r is a small flying creature that resembles a wyvern, with book pages for wings. You can summon it using a &bBookwyrm Charm&r (made with &bIron&r and &bSource Gems&r and &ba book&r), which you &6shift right click on a &bLectern&r. After the Lectern finishes drawing magic to itself, the Bookwyrm will appear!"
@@ -1158,8 +1167,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 17.0d
+			x: 8.0d
+			y: -2.5d
 			subtitle: "The world's cutest crafting table"
 			description: [
 				"The &bWixie&r's &bShards&r are obtained by using the &aDispel&r effect on a &aWitch&r when they're under half health. Once you craft the &bCharm&r, you can &6right click it on a &bCauldron&r to summon the &aWixie&r."
@@ -1180,8 +1189,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: -3.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Tower defense game time!"
 			description: ["&bSpell Turrets&r can cast &aTouch&r and &aProjectile&r spells when provided with &bParchment Scrolls&r, &bSource&r, and a redstone signal."]
@@ -1206,8 +1215,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 15.0d
+			x: 3.0d
+			y: 4.5d
 			shape: "gear"
 			subtitle: "I~ can do anything!"
 			description: ["There is much more that this mod has to offer! &bRunes&r, &bEnchanter's Weapons&r, &bSource Relays&r and more! Check out the documentation in your &bSpell Book&r to help you learn even more!"]
@@ -1272,14 +1281,17 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 19.0d
+			x: 8.0d
+			y: -0.5d
 			description: [
 				"The &bAmethyst Golem&r can be summoned by using the &6Ritual of Awakening&r on some &bBudding Amethyst&r."
 				"&6Right click&r the shard on a block to summon the &eGolem&r, and then &6set its home block&r with your &bDominion Wand&r."
 				"&eAmethyst Golems&r will convert Amethyst into &bBudding Amethyst&r, speed up &aamethyst growth&r, and will also &aharvest amethyst clusters&r, so long as their home block is an inventory such as a chest or barrel."
 			]
-			dependencies: ["518A08681965283A"]
+			dependencies: [
+				"518A08681965283A"
+				"72CACA09D66C8B43"
+			]
 			id: "01FF4033A5D2BCD3"
 			tasks: [{
 				id: "54AC3AEE86B82852"
@@ -1293,8 +1305,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 20.0d
+			x: 9.5d
+			y: 3.5d
 			description: [
 				"&eSirens&r can be found rarely in &aOcean Biomes&r, and you can obtain their &bShards&r by giving them a &bSea Pickle&r, their favorite snack!"
 				"Use the &bSiren Charm&r on a piece of Prismarine to summon it. &eSirens&r will change color if given &bkelp&r or &bcorals&r."
@@ -1314,8 +1326,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 20.0d
+			x: 9.5d
+			y: -0.5d
 			description: [
 				"Unlike the other &bCharms&r, the &eFlarecannon&r's does not require &bShards&r, and can be simply crafted."
 				"The &eFlarecannon&r will &adefend its territory&r much like the &eWeald Walkers&r, by firing homing projectiles at enemies."
@@ -1336,8 +1348,8 @@
 		}
 		{
 			title: "Fruitful Labors"
-			x: -1.0d
-			y: 1.0d
+			x: -5.5d
+			y: -4.0d
 			description: [
 				"Each type of &aArchwood Tree&r bears its own &bfruit&r!"
 				"The &bBastion Fruit&r comes from the &aVexing Archwood&r Tree. When consumed, it will grant you &aShielding&r, a form of &aResistance&r."
@@ -1383,8 +1395,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
+			x: 3.0d
+			y: -4.5d
 			description: ["The &bVitalic Sourcelink&r generates source when it is around &eAnimals&r. When animals &breed, grow up, or die&r, it will generate source."]
 			dependencies: ["66F0429FA3DB8535"]
 			id: "52BA326D307DE192"
@@ -1401,8 +1413,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
+			x: 1.5d
+			y: -4.5d
 			description: [
 				"The &bMycelial Sourcelink&r generates &aSource&r from &afood items&r. Provide it with delicious delectables and it will provide you with magic!"
 				"It will also &agenerate mushrooms&r in the surrounding area."
@@ -1428,8 +1440,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: 1.5d
+			y: -0.5d
 			description: [
 				"The &bVolcanic Sourcelink&r produces Source when provided with &bHeat&r. They will &dmelt blocks around them&r and will also cause &bLava Lilies&r to spawn."
 				"Change the color of your &bLava Lily&r by placing it over Lava or Magma."
@@ -1456,8 +1468,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 3.0d
+			y: -2.5d
 			description: ["The &bAlchemical Sourcelink&r generates source when provided with &bPotions&r. The more complex the potion, the more Source is produced."]
 			dependencies: ["66F0429FA3DB8535"]
 			id: "205A56EE169E1DC0"
@@ -1487,8 +1499,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 13.5d
+			x: -0.5d
+			y: 1.5d
 			shape: "octagon"
 			description: ["Gift a &eWild Starbuncle&r a &bGold Nugget&r and see what happens!"]
 			id: "1AEACEEBD42A4E1B"
@@ -1506,8 +1518,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 16.0d
+			x: 5.0d
+			y: 5.0d
 			description: [
 				"Although charming, &eStarbuncles&r are not the hardiest creatures, and it can be a pain to reinstruct them should something unpleasant happen to them."
 				"Thankfully, the &bScroll of Save Starbuncle&r will &apreserve all their settings&r. Just be sure to &6right click the scroll&r on your Starby after you've finished setting them up!"
@@ -1543,8 +1555,8 @@
 		}
 		{
 			title: "Multiple Sets At Once"
-			x: -4.5d
-			y: 7.5d
+			x: -5.5d
+			y: -1.0d
 			description: [
 				"There are so many options for &bmagely gear&r... How can you choose? Well, you may not have to!"
 				"The &bWizard's Armarium&r is a &aBelt curio&r which can contain up to &athree sets of armor&r and even &ahotbar items&r for you to swap on the fly."
@@ -1571,8 +1583,8 @@
 		}
 		{
 			title: "Starbuncles Carry Liquid!"
-			x: -4.0d
-			y: 19.0d
+			x: 6.5d
+			y: 3.5d
 			description: ["Equip your &eStarbuncles&r with a &bStarbucket&r to allow them to &atransport fluid back and forth&r. You may wish to store the fluid in a &bFluid Containment Jar&r."]
 			dependencies: ["772E17A1C8332FCA"]
 			id: "0070E0B930AC3ABD"
@@ -1596,8 +1608,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 16.5d
+			x: 5.0d
+			y: 3.5d
 			description: ["The &eStarbuncles&r are capable of taking lessons from &eBookwyrms&r using the &bWyrm Degree&r. Now that they're much smarter, they can &aoperate on only certain sides of their blocks&r."]
 			dependencies: ["772E17A1C8332FCA"]
 			id: "72E1E1A6B5BBAB5D"
@@ -1613,8 +1625,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 15.5d
+			x: 5.0d
+			y: 1.5d
 			description: [
 				"The &bStarbin&r will allow your &aStarbuncle&r to &adelete items it picks up&r. Be sure to set a filter first!"
 				"You can set a filter by &6preparing an Allow/Deny Scroll&r and &6clicking your Starbuncle&r with it."
@@ -1633,8 +1645,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 18.0d
+			x: 6.5d
+			y: 5.0d
 			description: ["Although it lacks polish, the &bStarddle&r allows you to do what the best of us have only dreamed of: &ariding a giant Starbuncle&r."]
 			dependencies: ["772E17A1C8332FCA"]
 			id: "68F7C83A4EB11B54"
@@ -1650,8 +1662,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 11.5d
+			x: -7.0d
+			y: 5.0d
 			shape: "hexagon"
 			description: [
 				"A &bCasting Crystal&r is an item which can have a &aspell bound to it&r, and then you can &6equip it as a Curio&r, and access its spell via a hotkey."
@@ -1676,6 +1688,19 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "5DF07C53B8BA59F4"
+			tasks: [{
+				id: "4B02807D92193F6F"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

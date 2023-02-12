@@ -1,17 +1,67 @@
 {
 	id: "5775D7E4FB7F551A"
 	group: "5FB460EFA0A2567E"
-	order_index: 4
+	order_index: 3
 	filename: "globetrotting"
 	title: "Globetrotting"
 	icon: "ars_nouveau:glyph_underfoot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -9.0d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGExploration.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGDungeons.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			width: 17.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGStructures_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGWaystones.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Witch of the Hidden Leaf Village"
-			x: -2.0d
-			y: -5.5d
+			x: -6.5d
+			y: -3.5d
 			shape: "octagon"
 			subtitle: "it's over 90000"
 			description: ["Is there much overlap between Ninjas and Witches? I'm not sure, but this armor is pretty cool, so why not stop asking questions and just do the quest, eh? Whippersnapper. Go &6climb 90,000cm&r to prove your worth."]
@@ -71,8 +121,8 @@
 		}
 		{
 			title: "Unlucky or just Ignorant"
-			x: 0.0d
-			y: -5.5d
+			x: -7.5d
+			y: -4.0d
 			shape: "octagon"
 			description: ["Congratulations, you have opened 10 trapped chests! An achievement worth celebrating. Now heal up."]
 			id: "4470E2B09DB2B676"
@@ -95,11 +145,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.0d
+			x: -2.0d
+			y: 6.5d
 			shape: "octagon"
 			description: ["This quaint &cFisherman's Lodge&r is water-bound, and is a great place to go fishing."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "653C7B872B33A477"
 			tasks: [{
 				id: "4B3E6C3A869F86EF"
@@ -115,14 +164,13 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 3.5d
+			y: 6.5d
 			shape: "octagon"
 			description: [
 				"The &cAncient Mines&r been to be seen to be believed. A massive underground chasm, once inhabited by those who delved too greedily and too deep. Beware what now lives there."
 				"&dCW: Giant Cave Centipedes&r. Although they are disabled in most of the modpack, this structure has a spawner for them. Be prepared, should you go inside."
 			]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "7EB4DAB78F4A04F3"
 			tasks: [{
 				id: "170552A21C159816"
@@ -171,14 +219,13 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 4.5d
+			y: 4.0d
 			shape: "octagon"
 			description: [
 				"The &cPillager Fortress&r is best taken on with a group of friends. However, a particularly capable or tenacious witch could certainly try to go it alone."
 				"&6Remember to check for hidden walls&r."
 			]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "64D0EFCC9BE460DE"
 			tasks: [{
 				id: "64377903CBF23570"
@@ -221,14 +268,13 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 4.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"To find the &cLabyrinth of the Serpent&r, you must purchase a map from a Villager."
 				"Beware, though. Within lie many dangers, and even a final boss!"
 			]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "4A83D94AEF11125B"
 			tasks: [{
 				id: "27A9ED0A2197FE82"
@@ -262,8 +308,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: 0.0d
+			y: 3.5d
 			shape: "rsquare"
 			description: [
 				"This world has a ton of different structures for you to encounter! Some are dangerous, others contain only &amild peril&r."
@@ -285,11 +331,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
+			x: 3.0d
+			y: 5.0d
 			shape: "octagon"
 			description: ["Locate the &cApothecary's Abode&r, a large structure filled with bizarre machines and absolutely loaded with &eIllagers&r."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "3577B78260820DA0"
 			tasks: [{
 				id: "39EFEB4A1B414E2C"
@@ -338,11 +383,10 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
+			x: -3.0d
+			y: 4.0d
 			shape: "octagon"
 			description: ["Would your life be complete without visiting a &cWitch's Stump&r? No. Unfortunately the coven that makes their home there is an unfriendly one. But once you conquer them, you can use their items for your own purposes."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "28AAD7D3C76F2FE2"
 			tasks: [{
 				id: "14B11A713AEFEC99"
@@ -358,11 +402,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			x: -4.0d
+			y: 5.0d
 			shape: "octagon"
 			description: ["Climb the &cWizard's Tower&r and you may find what happened to its previous inhabitant. Also, beware of the basement."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "12A79C72CA9EF466"
 			tasks: [{
 				id: "0ED9B835FE2F669E"
@@ -381,14 +424,13 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: -3.5d
+			y: 6.5d
 			shape: "octagon"
 			description: [
 				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks&r, but it also contains the cargo it was transporting."
 				"Make sure you bring your best diving gear!"
 			]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "3B7028DB3EDD6001"
 			tasks: [{
 				id: "767829D51515DD23"
@@ -423,8 +465,8 @@
 		}
 		{
 			title: "Visit all Vanilla Biomes"
-			x: -3.5d
-			y: -4.5d
+			x: -7.0d
+			y: -5.0d
 			shape: "octagon"
 			subtitle: "witches abroad"
 			description: ["The best witches are those who are worldly. As such, &6prove your mettle by traversing all vanilla biomes&r!"]
@@ -495,8 +537,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -4.5d
+			x: -10.5d
+			y: -3.5d
 			shape: "octagon"
 			description: ["Traverse all Nether biomes!"]
 			id: "7EF7EE2181ECA4E9"
@@ -527,11 +569,10 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 7.5d
 			shape: "octagon"
 			description: ["Discover an &cEnchanting Tower&r, a small but cozy spire featuring a magical twist."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "418199C728BB5312"
 			tasks: [{
 				id: "752675751DB2B66B"
@@ -547,10 +588,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
+			x: 0.5d
+			y: 7.5d
+			shape: "octagon"
 			description: ["The &bCastle&r is home to several friendly &eVillagers&r, and their ruler sits atop a throne of &bNetherite&r."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "2990F79A11CD8ED8"
 			tasks: [{
 				id: "7D7446AC694E63D0"
@@ -571,11 +612,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: -4.0d
+			y: 3.0d
 			shape: "octagon"
 			description: ["Discover &cThe Catacombs&r, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "3533886FEAAAE291"
 			tasks: [{
 				id: "128CFDF2939D2CA6"
@@ -611,15 +651,14 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
+			x: 2.0d
+			y: 7.0d
 			shape: "octagon"
 			description: [
 				"Find a &cFortress of the Undead&r, and survive!*"
 				""
 				"*survival optional"
 			]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "06689552C75A9825"
 			tasks: [{
 				id: "63AA88E3E44804D8"
@@ -656,8 +695,8 @@
 		}
 		{
 			title: "Meet a Wise Oak"
-			x: -1.0d
-			y: -4.0d
+			x: -8.5d
+			y: -6.5d
 			shape: "heart"
 			subtitle: "not always that wise tbh"
 			description: ["In certain forests, it's said that the trees are not only alive, but can speak! Seek one out for yourself."]
@@ -680,10 +719,9 @@
 		}
 		{
 			title: "Find an Underground Village"
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 5.5d
 			description: ["In this world, not every villager loves the sunlight. &cSubterranean Villages&r may be found rarely throughout the world. You may find them surprisingly unconcerned with their unconventional lifestyle."]
-			dependencies: ["4EE44DF5D0E5BD53"]
 			id: "73836C5FE0C5A1BE"
 			tasks: [{
 				id: "5C61B30DBC372EC7"
@@ -707,8 +745,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -6.0d
+			x: -11.5d
+			y: -4.0d
 			shape: "gear"
 			description: ["What an odd statue. Who made these, and for what purpose?"]
 			secret: true
@@ -731,8 +769,8 @@
 		}
 		{
 			title: "Find the Tower"
-			x: -1.0d
-			y: -7.0d
+			x: 0.0d
+			y: -6.5d
 			shape: "rsquare"
 			description: ["The beginning of your journey should bring you to a &cTower&r, looming over the surrounding lands. Found most often in plains, forests, and mountains, these Towers &ahold countless treasures&r, as well as a &bmap to the next dungeon...&r"]
 			size: 2.0d
@@ -759,8 +797,8 @@
 		}
 		{
 			title: "Reanimated Ruins"
-			x: -2.0d
-			y: -9.0d
+			x: 0.0d
+			y: -4.5d
 			description: ["There are &athree types&r of &cReanimated Ruins&r. Which one you complete will determine which &anew map you unlock&r. You only need to find one to complete this quest, but if you wish to &aobtain all the unique artifacts&r, you'll need to &6seek out more ruins&r!"]
 			dependencies: ["4609AFE9E0472C33"]
 			hide: true
@@ -795,8 +833,8 @@
 		}
 		{
 			title: "Leviathan"
-			x: -3.5d
-			y: -10.5d
+			x: -2.0d
+			y: -4.5d
 			description: ["The journals from which I discovered these dungeons had this to say: \"This &cancient skeleton&r can be found in &cdeserts&r and hides a secret beneath. Explore the ancient temple and &afind the treasures that rest within&r. Legend has it that this is where the &bLeviathan Blade&r resides. Along with treasure, the &ehusks&r that spawn here are &acapable of dropping &bsand&r with their normal loot.\""]
 			dependencies: ["2BAEDCFF3F99C4F0"]
 			hide: true
@@ -822,8 +860,8 @@
 		}
 		{
 			title: "Snowy Temple"
-			x: -2.0d
-			y: -11.5d
+			x: 0.0d
+			y: -2.5d
 			subtitle: "not to be confused with shirley temple"
 			description: ["The journals from which I discovered these dungeons had this to say: \"This &cabandoned temple of old&r has long since been taken over by &eStrays&r. At the top, you’ll find the &bFrosted Cowl&r to aid you in your combat. Strays spawned within this structure &acan drop &bice&r, or rarely &bpacked ice&r, on death, and they’re the only mob allowed to spawn inside.\""]
 			dependencies: ["2BAEDCFF3F99C4F0"]
@@ -850,8 +888,8 @@
 		}
 		{
 			title: "Warped Garden"
-			x: -0.5d
-			y: -10.5d
+			x: 2.0d
+			y: -4.5d
 			subtitle: "it's not in the nether"
 			description: ["The journals from which I discovered these dungeons had this to say: \"This shell of an &cundersea town&r is home to many axe-wielding &edrowned&r and provides a renewable source of &bcoral blocks&r. Weapons from a time forgotten, such as the &bWarped Axe&r, can still be found inside.\""]
 			dependencies: ["2BAEDCFF3F99C4F0"]
@@ -878,8 +916,8 @@
 		}
 		{
 			title: "End Ruins"
-			x: 1.0d
-			y: -9.5d
+			x: -2.0d
+			y: -6.5d
 			description: ["The journals from which I discovered these dungeons had this to say: \"Once you defeat the dragon and gain access to the &couter islands&r, you may be lucky enough to find this &cdilapidated structure&r. There isn’t much loot inside, but at the top of the tower, you can find a &bdragon egg&r. Be careful though, the &eendermen&r inside &aaren’t quite as peaceful&r as the ones outside of the structure.\""]
 			dependencies: ["4609AFE9E0472C33"]
 			hide: true
@@ -900,7 +938,7 @@
 		{
 			title: "Soul Prison"
 			x: 2.0d
-			y: -8.0d
+			y: -6.5d
 			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
 			dependencies: ["4609AFE9E0472C33"]
 			hide: true
@@ -923,6 +961,278 @@
 				exclude_from_claim_all: true
 				table_id: 8808494820591225409L
 			}]
+		}
+		{
+			title: "Find Structures with the Explorer's Compass"
+			x: -11.0d
+			y: -6.0d
+			shape: "hexagon"
+			description: [
+				"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
+				"Simply &6right click while holding it&r in order to search for the structure you want to find."
+			]
+			id: "292B26978E644D9F"
+			tasks: [{
+				id: "628297917BCB66ED"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3697431A62122609"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Find Biomes with the Nature's Compass"
+			x: -10.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"The &bNature's Compass&r is a magical tool, similar to a &bDowsing Rod&r, which will allow you to find your way to a particular type of biome."
+				"Simply &6right click while holding it&r in order to search for the biome you want to find."
+			]
+			id: "1F4569590B7666F5"
+			tasks: [{
+				id: "0AA5D5B5891F4838"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2E7C57E4CDF3A562"
+					type: "choice"
+					table_id: 6990203354287577879L
+				}
+				{
+					id: "46F1CF2EAD0F55EC"
+					type: "choice"
+					table_id: 6990203354287577879L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "4E9CAB55113B5280"
+			tasks: [{
+				id: "6BECC83661F60E79"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Obtain a Warp Plate"
+			x: 7.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Quickly back and forth"
+			description: [
+				"&bWarp Plates&r function alongside &bAttuned Shards&r to teleport you between two defined places. Once placed and right clicked, a Warp Plate will create an Attuned Shard which is bound to that Warp Plate. The Shard will be &ainscribed with unique runes&r that match those in the Plate's GUI upper right corner."
+				"In you &6insert the shard into another Warp Plate&r, it will now teleport you to the Plate inscribed on that stone. You can create multiple Shards with &bFlint&r and &bWarp Dust&r."
+			]
+			dependencies: ["722C9A16509E524B"]
+			id: "06DC33669C98F5A4"
+			tasks: [{
+				id: "59AC7FC2C8A63192"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [
+				{
+					id: "59434BCB0FA7DE89"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "1208FF044A4E5F34"
+					type: "item"
+					item: "waystones:warp_dust"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"&bWaystones&r are a method for fast travel between places in the world. Once a Waystone has been &aactivated&r, it can be ported to from any other Waystone, or using other methods."
+				"&bWaystones&r generate naturally in &dVillages&r, but they can also be crafted."
+			]
+			size: 2.0d
+			id: "722C9A16509E524B"
+			tasks: [{
+				id: "6016BBE0CBC4141C"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "25205FA9313B665D"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+				{
+					id: "7FF19DA50CF1BE25"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
+		}
+		{
+			title: "Obtain a Bound Scroll"
+			x: 7.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"The &bBound Scroll&r is a single-use item which can teleport to you &aa Waystone to which it is bound&r. Simply &6crouch and right click&r the Waystone to bind the scroll. Each scroll must be bound individually. However, you can craft &bReturn Scrolls&r and bind an entire stack at once."
+				"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
+			]
+			dependencies: ["722C9A16509E524B"]
+			id: "133D48874069E59B"
+			tasks: [{
+				id: "1FC4B305579CDA7F"
+				type: "item"
+				item: "waystones:bound_scroll"
+			}]
+			rewards: [{
+				id: "42B9AB11D9E3ABCD"
+				type: "random"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Obtain a Warp Scroll"
+			x: 8.5d
+			y: -6.0d
+			shape: "hexagon"
+			description: [
+				"The &bWarp Scroll&r is a one-time use item which can &awarp to any Waystone from anywhere in the world&r. It does not have a cooldown, but the item is consumed upon use."
+				"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
+				"These should not be confused with the &bWarp Scrolls&r from &dArs Nouveau&r, which have the same name but a different function."
+			]
+			dependencies: ["722C9A16509E524B"]
+			id: "7527E0A9EF5C3697"
+			tasks: [{
+				id: "05CBC59215AFFC0A"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+			rewards: [{
+				id: "2C983FA06FB6C836"
+				type: "random"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Obtain a Warp Stone"
+			x: 10.5d
+			y: -6.0d
+			shape: "hexagon"
+			description: [
+				"The &bWarp Stone&r is an item which will allow you to &awarp to any Waystone from anywhere in the world&r. It is a multi-use item, which has a cooldown between uses."
+				"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
+			]
+			dependencies: ["722C9A16509E524B"]
+			id: "2E1A6A93F48AAF58"
+			tasks: [{
+				id: "27EF600DF7DC0004"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3178D82564BA7BD9"
+				type: "random"
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["The &bPortstone&r is a method of accessing Waystone travel, but cannot be traveled to, itself."]
+			dependencies: ["722C9A16509E524B"]
+			id: "7B4772B066474C41"
+			tasks: [{
+				id: "206F9F2340A72B5E"
+				type: "item"
+				item: "waystones:portstone"
+			}]
+			rewards: [{
+				id: "16E016B66087E8AC"
+				type: "random"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Obtain a Sharestone"
+			x: 12.0d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"&bSharestones&r allow for travel &aonly within their colored network&r. From a Red Sharestone, you can teleport to any other Red Sharestone. However, you cannot do so from an Orange Sharestone."
+				"This makes them very useful for having private or separate networks of travel. They cannot be access from &bWarp Stones&r or any &bScrolls&r."
+			]
+			dependencies: ["722C9A16509E524B"]
+			id: "2E07A04D5589B674"
+			tasks: [{
+				id: "4E45F31FA018D542"
+				type: "item"
+				item: "waystones:sharestone"
+			}]
+			rewards: [{
+				id: "102031CA994CF7D6"
+				type: "random"
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Find a Sky Village"
+			x: -5.0d
+			y: 4.0d
+			description: [
+				"Long ago, wandering tribes of &aVillagers&r mastered the art of &amagical flight&r, and now exist in &cfloating cities&r across the land."
+				"If one were to have a &bflying Broomstick&r, one could easily reach such a place!"
+			]
+			id: "081CE468F6E6F2C1"
+			tasks: [{
+				id: "7C4463CED91676B4"
+				type: "structure"
+				icon: "twilightforest:wispy_cloud"
+				structure: "skyvillages:skyvillage"
+			}]
+			rewards: [
+				{
+					id: "526AEB5057FFED43"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3CE0466A119A3B13"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

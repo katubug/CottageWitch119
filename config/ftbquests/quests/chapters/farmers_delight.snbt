@@ -8,12 +8,12 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: -2.5d
-		y: -12.5d
-		width: 10.0d
-		height: 3.0d
+		x: 0.0d
+		y: 0.0d
+		width: 20.0d
+		height: 10.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/FarmingHeader.png"
+		image: "cottagewitch:textures/BGFarming.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -22,8 +22,8 @@
 	quests: [
 		{
 			title: "Obtain some seeds"
-			x: -2.5d
-			y: -8.0d
+			x: -1.0d
+			y: 0.0d
 			shape: "rsquare"
 			subtitle: "A Bit Seedy..."
 			description: [
@@ -54,8 +54,8 @@
 		}
 		{
 			title: "Obtain a Mushroom Colony"
-			x: 3.5d
-			y: -5.5d
+			x: 5.0d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "So happy together"
 			description: ["Mushroom colonies can be &agrown in complete darkness&r using &bRich Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 mushrooms. Hooray for mush!"]
@@ -88,8 +88,8 @@
 		}
 		{
 			title: "Make a Pie"
-			x: -4.5d
-			y: -10.5d
+			x: -2.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Tastes so good, makes a grown man cry"
 			description: [
@@ -131,8 +131,8 @@
 		}
 		{
 			title: "Obtain Straw"
-			x: -5.0d
-			y: -9.0d
+			x: -3.5d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "Just don't draw the short one"
 			description: ["&bStraw&r can be used to make &bRope&r, which is very useful. It can also be used to make &bCanvas&r, &bCompost&r, and building materials such as &bDaub&r."]
@@ -150,8 +150,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -10.5d
+			x: -5.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "A blank canvas is a powerful thing"
 			description: ["&bCanvas&r is a versatile material which can create &bMats&r, &bSigns&r, and more!"]
@@ -170,8 +170,8 @@
 		}
 		{
 			title: "Obtain Rope"
-			x: -7.0d
-			y: -8.5d
+			x: -5.5d
+			y: -0.5d
 			shape: "hexagon"
 			subtitle: "Always practice rope safety"
 			description: ["&bRope&r can be used to make tools such as the &bSafety Net&r, which &anegates falling damage when landed on&r. It can also be crafted into &bRope Arrows&r, which will unroll a length of rope to the ground beneath where the arrow lands, allowing you to climb up it."]
@@ -196,8 +196,8 @@
 		}
 		{
 			title: "Compact Your Crops"
-			x: 4.5d
-			y: -9.0d
+			x: 6.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "Crops but compact"
 			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each material in a Crafting Grid&r to obtain a Crate or Bag of it!"]
@@ -271,8 +271,8 @@
 		}
 		{
 			title: "Obtain the New Crops"
-			x: 2.0d
-			y: -7.0d
+			x: 3.5d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "More, give me more"
 			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
@@ -308,8 +308,8 @@
 		}
 		{
 			title: "Overweight Crops"
-			x: 0.5d
-			y: -8.5d
+			x: 2.0d
+			y: -0.5d
 			subtitle: "Everyone loves a chubby carrot"
 			description: [
 				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
@@ -345,8 +345,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -10.0d
+			x: 1.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "It's called fashion, sweaty, look it up"
 			description: [
@@ -387,8 +387,8 @@
 		}
 		{
 			title: "Peel A Carrot"
-			x: 1.5d
-			y: -10.5d
+			x: 3.0d
+			y: -2.5d
 			shape: "hexagon"
 			description: [
 				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
@@ -409,8 +409,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -6.0d
+			x: 1.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Mmm, so planty"
 			description: ["The &bPlanter&r is useful both as a decorative block, and as a utility. It can grow crops without the need for water, and without the danger of being trampled."]
@@ -435,8 +435,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -6.5d
+			x: -3.5d
+			y: 1.5d
 			shape: "octagon"
 			description: ["Throw a &bRotten Tomato&r at someone. Maybe even a bunch of them. We're not judging you based on how many rotten tomatoes you throw. Probably."]
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -475,8 +475,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.5d
+			x: -1.5d
+			y: 2.5d
 			shape: "octagon"
 			description: [
 				"They say not to waste your diamonds on a hoe. But you've taken this a step further."
@@ -506,8 +506,8 @@
 		}
 		{
 			title: "Collect Chubby Crops"
-			x: 3.0d
-			y: -9.5d
+			x: 4.5d
+			y: -1.5d
 			description: ["Gather &6one of each kind of &bOverweight Crop&r, which can be used as decoration, or &6cut on a &bCutting Board&r."]
 			dependencies: ["780D09CCF1A8D814"]
 			id: "34C84EC0EC5B8A2E"
@@ -584,8 +584,8 @@
 		}
 		{
 			title: "Ship Your Crops"
-			x: 2.0d
-			y: -5.0d
+			x: 3.5d
+			y: 3.0d
 			description: [
 				"Have you &6automated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
 				"[Repeatable Quest]"
@@ -724,8 +724,8 @@
 		}
 		{
 			title: "Sack Up"
-			x: 5.5d
-			y: -7.5d
+			x: 7.0d
+			y: 0.5d
 			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
 			dependencies: ["2CA80140F624D0AE"]
 			id: "2973338AB622C5D6"
@@ -785,8 +785,8 @@
 		}
 		{
 			title: "Obtain a Nether Fungus Colony"
-			x: 5.0d
-			y: -6.0d
+			x: 6.5d
+			y: 2.0d
 			shape: "hexagon"
 			description: ["Similar to their overworld counterparts, &bNether Fungi&r can also be grown in colonies in the same way, except using &bRich Soul Soil&r."]
 			dependencies: ["435BD760D0F2E010"]
@@ -811,8 +811,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -7.5d
+			x: -4.0d
+			y: 0.5d
 			description: [
 				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
 				"Once tilled, &bRich Soil&r will &agrant extra growth&r ticks to your plants. It also &acannot be trampled&r, and &adoes not require water&r."
@@ -840,8 +840,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -6.5d
+			x: -5.5d
+			y: 1.5d
 			description: [
 				"Much like its browner brother, &bRich Soul Soil&r is formed of &bSoil Compost&r that has been &aleft adjacent to Lava&r."
 				"You can use it to grow &bNether Crops&r more quickly!"
@@ -868,8 +868,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -5.0d
+			x: -6.5d
+			y: 2.5d
 			shape: "hexagon"
 			description: [
 				"The &bMimicarnation&r will spontaneously grow on &bRich Soul Soil&r when it is left &ain complete darkness&r. The &bMimicarnation&r gives off a slight amount of light, and can be crafted into &bMimicream&r, which allows you to &aduplicate items&r."
@@ -886,6 +886,19 @@
 				id: "42462A64750BF2F2"
 				type: "item"
 				item: "alexsmobs:mimicream"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "7814F0DBA486B635"
+			tasks: [{
+				id: "3801314A9A864A28"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

@@ -4,13 +4,46 @@
 	order_index: 2
 	filename: "fishing__gathering"
 	title: "Fishing \\& Gathering"
+	icon: {
+		id: "minecraft:fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 4.5d
+			y: 0.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGFishing.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGGathering.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Nether Fishing"
-			x: -5.0d
-			y: -2.0d
+			x: 2.5d
+			y: 2.0d
 			description: [
 				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
 				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
@@ -81,8 +114,8 @@
 		}
 		{
 			title: "A Fisher's Life For Me"
-			x: -5.0d
-			y: -4.0d
+			x: 2.5d
+			y: 0.5d
 			shape: "circle"
 			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
 			dependencies: ["2E4D1699E2A7876B"]
@@ -106,8 +139,8 @@
 		}
 		{
 			title: "Get a Fishing Rod"
-			x: -3.0d
-			y: -6.0d
+			x: 4.0d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "a fisher's life for me"
 			description: [
@@ -139,8 +172,8 @@
 		}
 		{
 			title: "Get Lucky"
-			x: -0.5d
-			y: -6.0d
+			x: 6.5d
+			y: 2.0d
 			description: ["The &bLucky Pad&r is an item which can be &6applied to your Rod via the &bSmithing Table&r. Each time you do so, it grants you &aanother level of Luck&r on your rod, which increases your Rod's bonuses."]
 			dependencies: ["2E4D1699E2A7876B"]
 			id: "100842B78CAFB393"
@@ -165,8 +198,8 @@
 		}
 		{
 			title: "Basic Fish"
-			x: -5.5d
-			y: -6.0d
+			x: 4.5d
+			y: 1.5d
 			description: ["Catch one each of the &abasic fish in vanilla&r!"]
 			dependencies: ["2E4D1699E2A7876B"]
 			id: "7A31753911D1CCFC"
@@ -209,8 +242,8 @@
 		}
 		{
 			title: "Rare Fish"
-			x: -1.5d
-			y: -4.0d
+			x: 6.5d
+			y: -0.5d
 			description: [
 				"Some fish are rarer and more nutritive than others. These can each be fished up in &aunique biomes&r. If you cook these fish, they'll grant &amore hunger&r than usual."
 				"- The &bDark Crab&r can be found in &aLush Caves&r."
@@ -293,8 +326,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -9.0d
+			x: -2.0d
+			y: 1.5d
 			dependencies: ["2093240CD42882CF"]
 			id: "015EA4B35A947259"
 			tasks: [{
@@ -310,8 +343,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -10.5d
+			x: -6.5d
+			y: 0.0d
 			dependencies: ["2093240CD42882CF"]
 			id: "0E2CC89B895C9494"
 			tasks: [{
@@ -327,8 +360,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -11.5d
+			x: -5.5d
+			y: -1.0d
 			dependencies: ["2093240CD42882CF"]
 			id: "0D61BF5085BCEF31"
 			tasks: [{
@@ -344,8 +377,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -11.5d
+			x: -3.5d
+			y: -1.0d
 			dependencies: ["2093240CD42882CF"]
 			id: "56DF02D06E0FD715"
 			tasks: [{
@@ -361,8 +394,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -10.5d
+			x: -2.5d
+			y: 0.0d
 			dependencies: ["2093240CD42882CF"]
 			id: "5C5DF640A2605954"
 			tasks: [{
@@ -378,8 +411,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -9.0d
+			x: -7.0d
+			y: 1.5d
 			dependencies: ["2093240CD42882CF"]
 			id: "5A18AB9A4B6370A2"
 			tasks: [{
@@ -397,8 +430,8 @@
 		{
 			title: "Forage Wild Crops"
 			icon: "farmersdelight:wild_carrots"
-			x: -3.0d
-			y: -9.0d
+			x: -4.5d
+			y: 1.5d
 			shape: "rsquare"
 			description: [
 				"Scattered around the world, you can find &bWild Crops&r growing."
@@ -458,6 +491,19 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "60BA7A551EC7DC60"
+			tasks: [{
+				id: "7ECEF384E4BC434F"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]

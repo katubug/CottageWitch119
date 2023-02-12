@@ -4,12 +4,39 @@
 	order_index: 3
 	filename: "herbalism"
 	title: "Herbalism \\& Potions"
+	icon: "fantasyfurniture:decorations/brewing_cauldron"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 4.5d
+			y: 0.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGHerbalism.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/BGPotions.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: 0.0d
-			y: -5.5d
+			x: 6.5d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["The &bHerb Pouch&r can carry several stacks of &bHerbs&r. In order to use it, &6right click the herb on the Pouch&r in your inventory."]
 			dependencies: ["7E3EF86ECA10B730"]
@@ -36,8 +63,8 @@
 		}
 		{
 			title: "Visit a Snowy Plains Biome"
-			x: -1.5d
-			y: -3.0d
+			x: 2.5d
+			y: 0.0d
 			shape: "rsquare"
 			description: ["&bHibernal herbs&r can be found solely in &cSnowy Plains biomes&r. You can make your way to one by &6searching with the &bNature's Compass&r!"]
 			size: 2.0d
@@ -63,8 +90,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -8.0d
+			x: 2.5d
+			y: 2.0d
 			shape: "octagon"
 			description: ["This probably shouldn't exist."]
 			dependencies: ["5F59C5AB2A405A2D"]
@@ -79,7 +106,7 @@
 		}
 		{
 			x: -6.5d
-			y: -2.0d
+			y: -1.0d
 			description: [
 				"The &bRudimentary Gauntlet&r is a weapon which, by itself, is not all that impressive. However, &aupgrading it&r will unlock its true potential!"
 				"As it is, it is &acomparable to an &bIron Sword&r."
@@ -105,8 +132,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.0d
+			x: -6.5d
+			y: 2.0d
 			description: ["The &bNetherite Gauntlet&r is slightly more powerful than its sword counterpart, but what is truly impressive is &aits final upgrade&r: the &bPotioneer Gauntlet&r."]
 			dependencies: ["17E7E31CA9913B11"]
 			id: "2678B12013B210AE"
@@ -129,8 +156,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -1.0d
+			x: -4.5d
+			y: 2.0d
 			description: [
 				"The &bPotioneer's Gauntlet&r allows one to &ainject potions into their attacks&r using the &bPotion Injector&r. Up to 6 &bSplash Potions&r can be injected."
 				"When attacking with the Gauntlet, you will deal both melee damage and the potion effect's damage. This can be toggled by pressing &6shift+right click&r."
@@ -165,7 +192,7 @@
 		}
 		{
 			x: -4.5d
-			y: -2.0d
+			y: -1.0d
 			shape: "rsquare"
 			description: [
 				"Okay, I admit, I have a Cauldron addiction. Can you blame me?"
@@ -190,8 +217,8 @@
 		}
 		{
 			title: "Obtain a Hibernal Herb"
-			x: -1.5d
-			y: -5.0d
+			x: 4.5d
+			y: -1.5d
 			description: ["These special flora can be &aused to create unique blends&r with positive and negative effects."]
 			dependencies: ["6D507B10A01132A5"]
 			id: "7E3EF86ECA10B730"
@@ -216,8 +243,8 @@
 		}
 		{
 			title: "Press your Herbs"
-			x: -1.5d
-			y: -6.5d
+			x: 4.5d
+			y: 0.0d
 			description: ["&bHibernal Herbs&r can be &apounded&r either by pressing them with &bCoal and Paper&r, or by placing them in the &bCreate Compactor&r. This is an easy way to double each herb, as well as prepare them for use."]
 			dependencies: ["7E3EF86ECA10B730"]
 			id: "4C5A3A7BD19459AA"
@@ -242,8 +269,8 @@
 		}
 		{
 			title: "Create an Herb Blend"
-			x: -1.5d
-			y: -8.0d
+			x: 4.5d
+			y: 2.0d
 			description: ["Once pressed, you can &6mix your &bPounded Herbs&r in a &bMortar and Pestle&r to create &bHerb Blends&r. These provide potion effects to &aeither the target or the user&r, depending on how it is applied."]
 			dependencies: ["4C5A3A7BD19459AA"]
 			id: "5F59C5AB2A405A2D"
@@ -267,8 +294,8 @@
 		}
 		{
 			title: "Smoke Dat Herb"
-			x: -1.5d
-			y: -9.5d
+			x: 6.5d
+			y: 2.0d
 			subtitle: "sorry, i had to"
 			description: ["Once you have &acrafted an &bHerb Blend&r, you can &aincrease its potency&r by &6smoking it&r, either via Create or a Smoker."]
 			dependencies: ["5F59C5AB2A405A2D"]
@@ -293,8 +320,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.5d
+			x: 6.5d
+			y: 0.0d
 			shape: "hexagon"
 			description: ["The &bBlend Canister&r functions similarly to the &bHerb Pouch&r, except that it holds &bBlends&r instead."]
 			dependencies: ["5F59C5AB2A405A2D"]
@@ -308,6 +335,19 @@
 				id: "48DBDE77BD7F3B7D"
 				type: "item"
 				item: "biomesinjars:empty_biome_jar"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			invisible: true
+			secret: true
+			id: "2C429E16893BA850"
+			tasks: [{
+				id: "263B51EFEF700467"
+				type: "item"
+				item: "minecraft:calcite"
+				only_from_crafting: true
 			}]
 		}
 	]
