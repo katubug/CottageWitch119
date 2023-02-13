@@ -13,7 +13,7 @@
 		width: 20.0d
 		height: 20.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGScavengerHunt.png"
+		image: "cottagewitch:textures/bgscavengerhunt.png"
 		hover: [ ]
 		click: ""
 		dev: false

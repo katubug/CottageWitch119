@@ -1,0 +1,15 @@
+{
+  "particles": {
+    "enabled": true,
+    "lifetime": 60,
+    "colourfromtrophycolor": true
+  },
+  "showNames": true,
+  "excludedNamespaces": [
+    "vanillatweaks"
+  ],
+  "excludedAdvancementResourceNames": [
+    "example:category/name"
+  ],
+  "showOutdatedMessageOnJoin": true
+}

@@ -14,7 +14,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGExploration.png"
+			image: "cottagewitch:textures/bgexplorating.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGDungeons.png"
+			image: "cottagewitch:textures/bgdungeons.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 17.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGStructures_1.png"
+			image: "cottagewitch:textures/bgstructures.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGWaystones.png"
+			image: "cottagewitch:textures/bgwaystones.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -1233,6 +1233,85 @@
 					table_id: 8035711958862449784L
 				}
 			]
+		}
+		{
+			title: "Obtain a Glowstick"
+			x: -10.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Peace, Love, Unity, Respect, Glowstick"
+			description: ["&bGlow sticks&r are a light source that can be &6placed on any surface&r, or thrown like a &6snowball&r (sticking to wherever it lands). Try them out in caves, dungeons, and even under water! Comes in 16 delicious flav- I mean colours. "]
+			id: "6D1210B36D6927EA"
+			tasks: [{
+				id: "22ED47290FE7FD37"
+				type: "item"
+				title: "Any #spelunkery:glowsticks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spelunkery:glowsticks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A2C69238CD59379"
+				type: "item"
+				item: {
+					id: "cnb:glowing_flower_crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Obtain Rope Ladder and a Wooden Rail"
+			x: -9.5d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "It’s probably strong enough, right?"
+			description: ["Craft yourself some &bRope Ladders&r and &bWooden Rails&r to carefully traverse difficult terrain - easy to make, easy to place, and able to &achain across air gaps&r without support blocks below them. Vertical and Horizontal travel has never been so handy! Both can be placed similarly to &bScaffolding&r- &6right click one onto another&r and they’ll build in the direction you face. You can even &apull your rope ladder up&r behind you by right clicking the top piece! "]
+			id: "764EC9973027FFD1"
+			tasks: [
+				{
+					id: "150E63B474A42DA9"
+					type: "item"
+					item: "spelunkery:rope_ladder"
+				}
+				{
+					id: "4D9753FCE98F1708"
+					type: "item"
+					item: "spelunkery:wooden_rail"
+				}
+			]
+			rewards: [{
+				id: "586F5FF40E862D6A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3965165831041023950L
+			}]
+		}
+		{
+			title: "Obtain Magnetite"
+			x: -11.5d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "I choose you, Magnetite!"
+			description: ["&bMagnetite&r generates in small clusters underground, surrounded by lava and deepslate iron, &aencased in a shell of obsidian&r. Harvest this rare ore with your Pickaxe to get magnetite chunks… or for &bMagnetite ore&r, use a Hammer + Chisel (or &asilk touch&r). Both of these items will help you discover some strangely attractive new crafting recipes! "]
+			id: "55481D0A52C6BD09"
+			tasks: [{
+				id: "250F48C70BB57499"
+				type: "item"
+				item: "spelunkery:magnetite"
+			}]
+			rewards: [{
+				id: "304EB69026E5530D"
+				type: "item"
+				item: "spelunkery:rough_cinnabar_block"
+				count: 5
+			}]
 		}
 	]
 	quest_links: [ ]

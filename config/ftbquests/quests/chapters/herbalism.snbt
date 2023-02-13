@@ -14,7 +14,7 @@
 			width: 8.0d
 			height: 8.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGHerbalism.png"
+			image: "cottagewitch:textures/bgherbalism.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 8.0d
 			height: 8.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGPotions.png"
+			image: "cottagewitch:textures/bgpotions.png"
 			hover: [ ]
 			click: ""
 			dev: false

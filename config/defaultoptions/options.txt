@@ -25,7 +25,7 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:0.5
+gamma:0.77
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","3d-blast-furnace-e1920.zip","3d-sweet-berry-bush-1-16.zip","3d-woodfire-furnace.zip","Better Chains.zip","BlinkingEnderEyes_1.18_v2.zip","Botany\u0027s+3D+Mushrooms.zip","Brewing Guide.zip","Create_Building_Gadgets_GUI_and_3D_Items.zip","Cute Turtle Helmet.zip","Cutest+Striders.zip","Enhanced+Blossom.zip","Fancy+Boss+Bars+v0.1.1.zip","FragrantFlowers.zip","Henry\u0027s+Pots+and+Plants.zip","KatusCarpets.zip","Kubban\u0027s Saplings.zip","MagitechPipez.zip","OsShulkerboxescolorblindfriendly.zip","Pluvia\u0027s Doors (1.18.1).zip","PolyStashAllFences.zip","Recreated containers free version.zip","Redesgined Dragon Egg.zip","Reinforced Deepslate Chest.zip","Supplementaries Generated Pack","Tom\u0027s Simple Storage Revamped.zip","Xaero\u0027s Minimap - Mod Icons.zip","_6Breadier Breads_8[v1].zip","alice-doll-totem-e1340.zip","antique-enchanting-table.zip","better-chorus-16x-e1691.zip","better-cobblestone-e1630.zip","better-crops-3d-16x.zip","better-flowers-e1940.zip","better-fungus-e1460.zip","better-stations.zip","chiseled-prismarine-pack.zip","coral-cobblestone-1569592297.zip","cottagewitch","different-dyes.zip","dynamic-beehives-beenests.zip","elytra-luna-moth-16x.zip","fancy-beacon.zip","floweryladder.zip","foodstuffs.zip","liet-custom-armors.zip","more-pumpkins-e2900.zip","mushroom-cap-hat.zip","mushroom-slimes.zip","mushroomwitch-e3600.zip","pmc-mob-pack-shulker_white_multicolored-shulker.zip","prettier-glowstone-e3640.zip","quark:emote_resources","rainbow-quartz-v2.zip","reglazed.zip","sugrcube-s-paintings.zip","uniqueshulkerskins.zip","viavens-paintings.zip","warped-roots-3d-e2240.zip","wrapped-moss-carpet.zip","xksp-hollow-shulker.zip","xksp-lush-flowers.zip","xksp-naturalize.zip"]
+incompatibleResourcePacks:["3D+Dripstones.zip","3d-blast-furnace-e1920.zip","3d-sweet-berry-bush-1-16.zip","3d-woodfire-furnace.zip","Better Chains.zip","BlinkingEnderEyes_1.18_v2.zip","Botany\u0027s+3D+Mushrooms.zip","Brewing Guide.zip","Create_Building_Gadgets_GUI_and_3D_Items.zip","Created Storage Network 1.2.zip","Cute Turtle Helmet.zip","Cutest+Striders.zip","FragrantFlowers.zip","Henry\u0027s+Pots+and+Plants.zip","KatusCarpets.zip","Kubban\u0027s Saplings.zip","Lush-Desert.zip","MagitechPipez.zip","Pluvia\u0027s Doors (1.18.1).zip","PolyStashAllFences.zip","Tom\u0027s Simple Storage Revamped.zip","Xaero\u0027s Minimap - Mod Icons.zip","_6Breadier Breads_8[v1].zip","_6Chests-Reimagined_8-[v1.3].zip","alice-doll-totem-e1340.zip","antique-enchanting-table.zip","better-chorus-16x-e1691.zip","better-crops-3d-16x.zip","better-flowers-e1940.zip","better-fungus-e1460.zip","better-stations.zip","chiseled-prismarine-pack.zip","coral-cobblestone-1569592297.zip","cottagewitch","different-dyes.zip","elytra-luna-moth-16x.zip","fancy-beacon.zip","liet-custom-armors.zip","more-pumpkins-e2900.zip","mushroomwitch-e3600.zip","pmc-mob-pack-shulker_white_multicolored-shulker.zip","prettier-glowstone-e3640.zip","quark:emote_resources","sugrcube-s-paintings.zip","wrapped-moss-carpet.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -48,7 +48,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -77,7 +77,7 @@ showAutosaveIndicator:true
 allowServerListing:true
 chatPreview:1
 onlyShowSecureChat:false
-soundCategory_master:0.31456953
+soundCategory_master:0.04139073
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

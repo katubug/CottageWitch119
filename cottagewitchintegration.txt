@@ -1,3 +1,9 @@
+Server Stuff:
+
+- server.properties edit
+
+
+
 Mods to integrate:
 
 TODO: 
@@ -6,19 +12,18 @@ TODO:
 - tooltips: food DONE, flowers DONE, plants DONE, light sources
 - sell rare Alex items via NPC
 
-new enchantments
+
 o Alex's Mobs New Stuff
 o Ars Elemental
 o Ars Instrumentum
 o Collector's Reap
-o Create Central Cooking
-o Create Confectionary
-o Create Slice and Dice
 o Delightful new stuff
 o Spelunkery
 o Starbuncle Mania
 Structory & Towers
 
+x Create Central Cooking
+x Create Slice and Dice
 x Sky Villages
 x Caupona *for now*
 x Nether Depths Update

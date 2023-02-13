@@ -14,7 +14,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGBuilding.png"
+			image: "cottagewitch:textures/bgbuilding.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGDecorating.png"
+			image: "cottagewitch:textures/bgdecorating.png"
 			hover: [ ]
 			click: ""
 			dev: false

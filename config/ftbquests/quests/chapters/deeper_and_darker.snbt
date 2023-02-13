@@ -13,7 +13,7 @@
 		width: 20.0d
 		height: 10.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGDeeperDarker.png"
+		image: "cottagewitch:textures/bgdeeperdarker.png"
 		hover: [ ]
 		click: ""
 		dev: false

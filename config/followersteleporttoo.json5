@@ -1,0 +1,7 @@
+{
+	// When enabled, disables damage for followers shortly after a teleport. This can prevent fall damage or suffocation from an estimate target position.
+	"disableFollowerDamageAfterTeleport": true,
+	// How long in seconds damage should be disabled for after a teleport when disableFollowerDamageAfterTeleport is enabled.
+	// min: 0, max: 86400
+	"durationInSecondsDamageShouldBeDisabled": 20
+}

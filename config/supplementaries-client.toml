@@ -110,6 +110,10 @@
 		#Range: 0.01 ~ 200.0
 		wobbling_period = 12.0
 
+	[blocks.notice_board]
+		#Allows notice board displayed text to be centered instead of being left aligned
+		centered_text = true
+
 #Particle parameters
 [particles]
 
@@ -137,6 +141,8 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
+	#Enables custom Configured config screen
+	custom_configured_screen = true
 
 #Game tweaks
 [tweaks]

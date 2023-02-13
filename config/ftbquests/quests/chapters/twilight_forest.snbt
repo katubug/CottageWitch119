@@ -13,7 +13,7 @@
 		width: 27.0d
 		height: 15.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGTwilightForest.png"
+		image: "cottagewitch:textures/bgtwilightforest.png"
 		hover: [ ]
 		click: ""
 		dev: false

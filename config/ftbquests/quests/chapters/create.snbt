@@ -14,7 +14,7 @@
 			width: 25.0d
 			height: 15.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGCreate.png"
+			image: "cottagewitch:textures/bgcreate.png"
 			hover: [ ]
 			click: ""
 			dev: false

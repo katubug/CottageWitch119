@@ -14,7 +14,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGCommerce.png"
+			image: "cottagewitch:textures/bgcommerce.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGAutomation.png"
+			image: "cottagewitch:textures/bgautomation.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGMiscTeal.png"
+			image: "cottagewitch:textures/bgmiscteal.png"
 			hover: [ ]
 			click: ""
 			dev: false

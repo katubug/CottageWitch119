@@ -38,7 +38,7 @@
 			width: 6.0d
 			height: 6.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGDeath.png"
+			image: "cottagewitch:textures/bgdeath.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 6.0d
 			height: 6.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGFreebies.png"
+			image: "cottagewitch:textures/bgfreebies.png"
 			hover: [ ]
 			click: ""
 			dev: false

@@ -13,7 +13,7 @@
 		width: 25.0d
 		height: 15.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGArsNouveau.png"
+		image: "cottagewitch:textures/bgarsnouveau.png"
 		hover: [ ]
 		click: ""
 		dev: false

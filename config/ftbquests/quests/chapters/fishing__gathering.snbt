@@ -20,7 +20,7 @@
 			width: 8.0d
 			height: 8.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGFishing.png"
+			image: "cottagewitch:textures/bgfishing.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -32,7 +32,7 @@
 			width: 8.0d
 			height: 8.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGGathering.png"
+			image: "cottagewitch:textures/bggathering.png"
 			hover: [ ]
 			click: ""
 			dev: false

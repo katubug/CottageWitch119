@@ -14,7 +14,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGNetherDelights.png"
+			image: "cottagewitch:textures/bgnetherdelight.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGTeaAndSundry.png"
+			image: "cottagewitch:textures/bgteaandsundry.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGSpiceOfLife.png"
+			image: "cottagewitch:textures/bgspiceoflife.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGMiscFood.png"
+			image: "cottagewitch:textures/bgmiscfood.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -62,7 +62,7 @@
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGCookingPot.png"
+			image: "cottagewitch:textures/bgcookingpot.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -1528,6 +1528,30 @@
 				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Cooking with Create"
+			x: 3.0d
+			y: 4.5d
+			shape: "gear"
+			description: [
+				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
+				"Right click the &bCooking Guide&r onto a &bBlaze Burner&r to &6create a Blaze Stove&r."
+				"Hold \"w\" to &dponder&r the &bCooking Guide&r for more information."
+			]
+			size: 1.5d
+			id: "1C7D5C2C8C201E83"
+			tasks: [{
+				id: "3A0EBB76C04A0C8A"
+				type: "item"
+				item: {
+					id: "create_central_kitchen:cooking_guide"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
 			}]
 		}
 	]

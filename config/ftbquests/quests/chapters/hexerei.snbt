@@ -17,7 +17,7 @@
 		width: 25.0d
 		height: 15.0d
 		rotation: 0.0d
-		image: "cottagewitch:textures/BGHexerei.png"
+		image: "cottagewitch:textures/bghexerei.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -144,7 +144,10 @@
 			x: 3.0d
 			y: 1.5d
 			subtitle: "A Cauldron that's just cauld-right!"
-			description: ["A cauldron is fine and dandy, but you'll want something a little more magical for your endeavors. Enhance a regular &bCauldron&r with &biron&r and &btorches&r in order to create this advanced crafting tool."]
+			description: [
+				"A cauldron is fine and dandy, but you'll want something a little more magical for your endeavors. Enhance a regular &bCauldron&r with &biron&r and &btorches&r in order to create this advanced crafting tool."
+				"&dBeware! Do not use your Infinity water bucket with this cauldron!&r. It will consume the water and the enchantment."
+			]
 			dependencies: ["082D264993F18EDB"]
 			id: "327D93798A7BE211"
 			tasks: [{

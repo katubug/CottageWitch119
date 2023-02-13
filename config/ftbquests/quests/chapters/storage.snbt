@@ -14,7 +14,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGStorageNetwork.png"
+			image: "cottagewitch:textures/bgstoragenetwork.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGItemTransport.png"
+			image: "cottagewitch:textures/bgitemstransport.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGDrawers.png"
+			image: "cottagewitch:textures/bgdrawers.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/BGMisc.png"
+			image: "cottagewitch:textures/bgmiscpurple.png"
 			hover: [ ]
 			click: ""
 			dev: false
