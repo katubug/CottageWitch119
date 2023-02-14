@@ -163,16 +163,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "53084827437F5C3A"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 1279979498352596350L
-			}]
+			rewards: [
+				{
+					id: "53084827437F5C3A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+				{
+					id: "5733FE4FC03C948A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7707783220386620668L
+				}
+			]
 		}
 		{
 			title: "Get Lucky"
-			x: 6.5d
+			x: 6.0d
 			y: 2.0d
 			description: ["The &bLucky Pad&r is an item which can be &6applied to your Rod via the &bSmithing Table&r. Each time you do so, it grants you &aanother level of Luck&r on your rod, which increases your Rod's bonuses."]
 			dependencies: ["2E4D1699E2A7876B"]
@@ -505,6 +513,33 @@
 				item: "minecraft:calcite"
 				only_from_crafting: true
 			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "octagon"
+			description: ["You &aleveled your Rod up&r! Congratulations! Who knows what great things you'll accomplish now!"]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "3B37401B901420C3"
+			tasks: [{
+				id: "492913EDE20F02DB"
+				type: "advancement"
+				advancement: "majruszsenchantments:fishing_fanatic"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1100A279A0F70015"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "0B9D53B7B2478CEC"
+					type: "item"
+					item: "better_fishing_rods:lucky_pad"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

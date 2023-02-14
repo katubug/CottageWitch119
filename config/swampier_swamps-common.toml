@@ -83,11 +83,11 @@
 		# This is measured in ticks.
 		#
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage1 = 5
+		lilyPadSinkTimeStage1 = 20
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage2 = 5
+		lilyPadSinkTimeStage2 = 20
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage3 = 10
+		lilyPadSinkTimeStage3 = 20
 		#Range: 1 ~ 200
-		lilyPadResetTime = 20
+		lilyPadResetTime = 40
 

@@ -830,3 +830,11 @@ for umbrella in umbrellas{
     <item:better_fishing_rods:orely_fishing_rod>,
     <item:minecraft:fishing_rod>
 );
+
+// Dried Sage Recipe
+
+craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
+    [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>],
+    [<item:hexerei:dried_sage>, <item:minecraft:string>, <item:hexerei:dried_sage>],
+    [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>]
+])

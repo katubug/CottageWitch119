@@ -44,11 +44,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7B03ECB960F43CA2"
-				type: "loot"
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "7B03ECB960F43CA2"
+					type: "loot"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "66F840ADEF6868F0"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -67,6 +75,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3E71893970FB14C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -87,6 +101,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59D5819F6A1DF3BA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -4.0d
@@ -105,6 +125,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "317B59CE91F954A0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -125,6 +151,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "57E86B80B8DABCFB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -3.0d
@@ -143,6 +175,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "11D711C47166B750"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -163,6 +201,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "44335C7AD6A4DF74"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -4.0d
@@ -181,6 +225,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "798DF96B9837235D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -201,6 +251,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "16866C8BC1B49A76"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -5.5d
@@ -219,6 +275,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6546FCC5018CB0A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -239,6 +301,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "46A71C1A85887BEC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -5.0d
@@ -257,6 +325,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "45EF02BC028B69D6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{
@@ -277,6 +351,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3353D01BC8E3691E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -5.5d
@@ -296,6 +376,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "10C486355C05FB0A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
+			}]
 		}
 		{
 			x: -5.0d
@@ -314,6 +400,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "58624D9FAD24CB4C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7707783220386620668L
 			}]
 		}
 		{

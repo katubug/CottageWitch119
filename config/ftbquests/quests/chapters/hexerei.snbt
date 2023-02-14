@@ -793,12 +793,20 @@
 				type: "item"
 				item: "hexerei:blood_sigil"
 			}]
-			rewards: [{
-				id: "188B83FAAB1ABDC5"
-				type: "item"
-				item: "minecraft:glass_bottle"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "188B83FAAB1ABDC5"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3
+				}
+				{
+					id: "7EDE0609C26D3267"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4636896809631346949L
+				}
+			]
 		}
 		{
 			title: "Obtain Broom Netherite Tip"
