@@ -56,6 +56,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 0.0d
+			y: 12.0d
+			width: 10.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "cottagewitch:textures/akliz.png"
+			hover: [ ]
+			click: "https://www.akliz.net/cottagewitch"
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{

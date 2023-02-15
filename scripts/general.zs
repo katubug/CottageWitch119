@@ -837,4 +837,4 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>],
     [<item:hexerei:dried_sage>, <item:minecraft:string>, <item:hexerei:dried_sage>],
     [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>]
-])
+]);
