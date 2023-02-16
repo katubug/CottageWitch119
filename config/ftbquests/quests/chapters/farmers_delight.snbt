@@ -563,24 +563,24 @@
 					item: "overweight_farming:overweight_cabbage_block"
 				}
 			]
-			rewards: [{
-				id: "0F42F0BDE68231FC"
-				type: "item"
-				item: {
-					id: "creative_items:creative_item"
-					Count: 1b
-					tag: {
-						InnerItem: {
-							id: "farmersdelight:diamond_knife"
-							tag: {
-								Damage: 0
-							}
-							Count: 1b
+			rewards: [
+				{
+					id: "6E3A73DDE4D0EA58"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "3DCD2B47A882540B"
+					type: "item"
+					item: {
+						id: "farmersdelight:golden_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
-						Enchantments: [ ]
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "Ship Your Crops"

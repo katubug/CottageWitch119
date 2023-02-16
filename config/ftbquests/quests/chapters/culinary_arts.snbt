@@ -405,6 +405,11 @@
 				type: "item"
 				item: "nethersdelight:soul_compost"
 			}]
+			rewards: [{
+				id: "02B50B11ACF8B13D"
+				type: "item"
+				item: "nethersdelight:soul_compost"
+			}]
 		}
 		{
 			x: 9.5d
@@ -497,9 +502,9 @@
 				item: "nethersdelight:stuffed_hoglin"
 			}]
 			rewards: [{
-				id: "370689940A81BCBA"
+				id: "238817E1F80D8DF2"
 				type: "item"
-				item: "brewinandchewin:mead"
+				item: "fantasyfurniture:decorations/nordic_mead_bottles"
 			}]
 		}
 		{
@@ -1010,9 +1015,10 @@
 				item: "delightful:berry_matcha_latte"
 			}]
 			rewards: [{
-				id: "04DAEF0FC4A7CF41"
-				type: "item"
-				item: "collectorsalbum:common_card_package"
+				id: "309D8CC70326452A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6951594928314176539L
 			}]
 		}
 		{
@@ -1552,6 +1558,11 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "6A0AE4E69D14B683"
+				type: "item"
+				item: "create:empty_blaze_burner"
 			}]
 		}
 	]

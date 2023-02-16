@@ -134,11 +134,18 @@
 				type: "item"
 				item: "functionalstorage:void_upgrade"
 			}]
-			rewards: [{
-				id: "292FCC80A297F6BB"
-				type: "random"
-				table_id: 8808494820591225409L
-			}]
+			rewards: [
+				{
+					id: "292FCC80A297F6BB"
+					type: "random"
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "1365D107453B0401"
+					type: "item"
+					item: "functionalstorage:void_upgrade"
+				}
+			]
 		}
 		{
 			x: -6.0d

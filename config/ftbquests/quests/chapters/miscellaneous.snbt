@@ -380,10 +380,7 @@
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Catch a running cow and put it in your pocket"
-			description: [
-				"The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."
-				"However, it is &aone-time use only&r and will break when you release the animal."
-			]
+			description: ["The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."]
 			id: "1E6176C9919F1D06"
 			tasks: [{
 				id: "4E6BE1180F28455A"
@@ -786,6 +783,12 @@
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
+				{
+					id: "355E971D34CF6BC3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -809,6 +812,12 @@
 				}
 				{
 					id: "32D22BEA8DC9AD62"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "4A17133D15FF264B"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
@@ -840,6 +849,12 @@
 				{
 					id: "41CD92015AD0CB9B"
 					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "7B0C02AF2799DAEB"
+					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
@@ -877,6 +892,12 @@
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
+				{
+					id: "4F73DB493D99D5CE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -902,6 +923,12 @@
 				}
 				{
 					id: "2EA7771EAF0FFD29"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "4546B9ACFEDF91A1"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
@@ -932,6 +959,12 @@
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
+				{
+					id: "4F61C8A456DA1809"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -950,11 +983,19 @@
 				type: "item"
 				item: "supplementaries:faucet"
 			}]
-			rewards: [{
-				id: "25E6A85160A3B1D8"
-				type: "item"
-				item: "minecraft:lava_bucket"
-			}]
+			rewards: [
+				{
+					id: "25E6A85160A3B1D8"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "3088ADDA4C6ABEA9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -1006,6 +1047,12 @@
 						}
 					}
 				}
+				{
+					id: "3546809490B8ED0B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -1038,6 +1085,12 @@
 				}
 				{
 					id: "780A04365934D2E1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "1802013EAD2A66D1"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
@@ -1075,6 +1128,12 @@
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
+				{
+					id: "06CAAA927BA83E02"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -1105,6 +1164,12 @@
 				}
 				{
 					id: "377B5D112F5594EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+				{
+					id: "1C1FE5DC55266402"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
@@ -1143,6 +1208,12 @@
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
 				}
+				{
+					id: "2ACDE9B99BE0B8EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
 			]
 		}
 		{
@@ -1176,6 +1247,12 @@
 					id: "2AE340E126CFCBF8"
 					type: "item"
 					item: "quark:chute"
+				}
+				{
+					id: "3F6AC6587B1D20A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
 				}
 			]
 		}

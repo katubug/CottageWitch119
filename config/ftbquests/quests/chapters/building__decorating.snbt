@@ -243,8 +243,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 7.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Delete! Delete! Delete!"
 			description: ["The &bDestruction Gadget&r is a dangerous tool which will &acompletely delete blocks&r. It is mostly used to clear a large area for building."]
@@ -270,7 +270,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Don't eat the paste"
@@ -804,6 +804,28 @@
 				id: "2B14D54FC2813530"
 				type: "item"
 				item: "alexsmobs:banana_slug_slime_block"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["The &bCharging Station&r will &aburn fuel in order to charge your Building Gadgets&r."]
+			dependencies: ["1AFE0FBF887D22FD"]
+			id: "6D3D3329A2772A3F"
+			tasks: [{
+				id: "5EE45AA279FC7F22"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4D5B508BB59CE983"
+				type: "item"
+				item: "minecraft:coal"
+				count: 25
 			}]
 		}
 	]
