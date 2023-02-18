@@ -290,6 +290,7 @@
 		{
 			x: -4.0d
 			y: -0.5d
+			description: ["You've found your way into an &bAncient City&r. Good luck adventurer, for here lie many treasures and equally many dangers."]
 			dependencies: ["4C2DDEC05C13A3FB"]
 			id: "2384853DE131A8A7"
 			tasks: [{
@@ -297,6 +298,12 @@
 				type: "advancement"
 				advancement: "deeperdarker:main/locate_ancient_city"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2EB9B1725AEF032B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7062805133306069640L
 			}]
 		}
 		{

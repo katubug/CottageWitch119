@@ -1237,13 +1237,9 @@
 				item: "domesticationinnovation:deed_of_ownership"
 			}]
 			rewards: [{
-				id: "10CA226F4AF34E65"
+				id: "77997DDEE288B36E"
 				type: "item"
-				item: {
-					id: "portablemobs:master_capture_cell"
-					Count: 1b
-					tag: { }
-				}
+				item: "mobcatcher:net"
 			}]
 		}
 		{

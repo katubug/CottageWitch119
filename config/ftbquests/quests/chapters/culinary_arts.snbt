@@ -102,6 +102,7 @@
 				"You can also find what you've yet to eat by searching \"yet\" in the right side of your inventory screen (&lJEI&r)."
 			]
 			size: 2.5d
+			optional: true
 			id: "6EFFB8ED37DC8A47"
 			tasks: [{
 				id: "257597C327C3C41E"
@@ -456,6 +457,7 @@
 			subtitle: "Gird this"
 			description: ["By killing &eHoglins&r with your trusty &bKnife&r, you can gain &bHoglin Loin&r, &bHoglin Hide&r, and sometimes &bHam&r! These can be used in cooking recipes."]
 			size: 2.0d
+			optional: true
 			id: "773834D44C436587"
 			tasks: [{
 				id: "695DBF55095C94CE"

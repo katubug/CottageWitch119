@@ -21,6 +21,9 @@
 	#Threshold rate of the gas starbuncles, lower this if you need them to check and fill more often.
 	#Range: > 1
 	starballoon_threshold = 250
+	#Source cost to make a bucket of liquid source.
+	#Range: > 1
+	source_condense_cost = 1000
 
 ["Mekanism Compat"]
 	#How much energy is produced per mB of Gaseous Source

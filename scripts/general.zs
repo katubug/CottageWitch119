@@ -838,3 +838,103 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     [<item:hexerei:dried_sage>, <item:minecraft:string>, <item:hexerei:dried_sage>],
     [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>]
 ]);
+
+// Caupona Tags
+
+<tag:items:caupona:mushroom>.add(
+    <item:spelunkery:button_mushroom>,
+    <item:collectorsreap:portobello>,
+    <item:spelunkery:portabella>,
+    <item:spelunkery:crimini>,
+    <item:byg:white_puffball_cap>,
+    <item:byg:cooked_white_puffball_cap>
+);
+
+<tag:items:caupona:meats>.add(
+    <item:alexsdelight:kangaroo_shank>,
+    <item:twilightforest:cooked_meef>,
+    <item:twilightforest:raw_meef>,
+    <item:delightful:venison_chops>,
+    <item:delightful:cooked_venison_chops>,
+    <item:delightful:raw_goat>,
+    <item:delightful:cooked_goat>,
+    <item:twilightforest:cooked_venison>,
+    <item:twilightforest:raw_venison>,
+    <item:alexsmobs:cooked_kangaroo_meat>,
+    <item:alexsmobs:kangaroo_meat>,
+    <item:alexsmobs:cooked_moose_ribs>,
+    <item:alexsmobs:moose_ribs>,
+    <item:alexsdelight:bison_patty>,
+    <item:alexsdelight:cooked_bison>,
+    <item:alexsdelight:raw_bison>,
+    <item:alexsdelight:bison_mince>,
+    <item:alexsdelight:cooked_loose_moose_rib>,
+    <item:alexsdelight:loose_moose_rib>,
+    <item:alexsdelight:cooked_kangaroo_shank>
+);
+
+<tag:items:caupona:meats/meat>.add(
+    <item:alexsdelight:kangaroo_shank>,
+    <item:twilightforest:cooked_meef>,
+    <item:twilightforest:raw_meef>,
+    <item:delightful:venison_chops>,
+    <item:delightful:cooked_venison_chops>,
+    <item:delightful:raw_goat>,
+    <item:delightful:cooked_goat>,
+    <item:twilightforest:cooked_venison>,
+    <item:twilightforest:raw_venison>,
+    <item:alexsmobs:cooked_kangaroo_meat>,
+    <item:alexsmobs:kangaroo_meat>,
+    <item:alexsmobs:cooked_moose_ribs>,
+    <item:alexsmobs:moose_ribs>,
+    <item:alexsdelight:bison_patty>,
+    <item:alexsdelight:cooked_bison>,
+    <item:alexsdelight:raw_bison>,
+    <item:alexsdelight:bison_mince>,
+    <item:alexsdelight:cooked_loose_moose_rib>,
+    <item:alexsdelight:loose_moose_rib>,
+    <item:alexsdelight:cooked_kangaroo_shank>
+);
+
+<tag:items:caupona:meats/poultry>.add(
+    <item:duckling:cooked_duck>,
+    <item:duckling:raw_duck>,
+    <item:alexsdelight:cooked_bunfungus>,
+    <item:alexsdelight:raw_bunfungus>,
+    <item:alexsdelight:cooked_bunfungus_drumstick>,
+    <item:alexsdelight:raw_bunfungus_drumstick> 
+);
+
+<tag:items:caupona:meats>.add(
+    <item:duckling:cooked_duck>,
+    <item:duckling:raw_duck>,
+    <item:alexsdelight:cooked_bunfungus>,
+    <item:alexsdelight:raw_bunfungus>,
+    <item:alexsdelight:cooked_bunfungus_drumstick>,
+    <item:alexsdelight:raw_bunfungus_drumstick>
+);
+
+<tag:items:caupona:seafood/fish>.add(
+    <item:quark:crab_leg>,
+    <item:quark:cooked_crab_leg>,
+    <item:alexsmobs:lobster_tail>,
+    <item:alexsmobs:cooked_lobster_tail>,
+    <item:alexsmobs:raw_catfish>,
+    <item:alexsmobs:cooked_catfish>,
+    <item:alexsdelight:cooked_catfish_slice>,
+    <item:alexsdelight:raw_catfish_slice>
+);
+
+<tag:items:caupona:eggs>.add(
+    <item:duckling:duck_egg>,
+    <item:alexsmobs:terrapin_egg>,
+    <item:cnb:lizard_egg>,
+    <item:quark:egg_parrot_red_blue>,
+    <item:quark:egg_parrot_blue>,
+    <item:alexsmobs:emu_egg>,
+    <item:quark:egg_parrot_green>,
+    <item:quark:egg_parrot_yellow_blue>,
+    <item:alexsmobs:crocodile_egg>,
+    <item:quark:egg_parrot_grey>,
+    <item:whatareyouvotingfor:sniffer_egg>
+);

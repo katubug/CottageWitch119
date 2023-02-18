@@ -105,7 +105,6 @@
 				"&bAndesite Alloy&r is used in making both &bShafts&r (which are then used to make &bCogs&r), and also to reinforce stripped logs into &bAndesite Casing&r. Together, these make up the basis of most of the recipes in this mod."
 				"&6Equip these Goggles in your Curio slot&r to &aeasily see detailed information&r about all your machines."
 			]
-			dependencies: ["01896E1F4E0B7F2F"]
 			id: "283B3A75443BDA35"
 			tasks: [{
 				id: "5D594104287FDEDE"

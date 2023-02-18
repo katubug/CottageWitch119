@@ -706,7 +706,7 @@
 			y: 0.5d
 			shape: "rsquare"
 			description: [
-				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a sawmill&r."
+				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a Stonecutter&r."
 				"You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."
 			]
 			size: 2.0d

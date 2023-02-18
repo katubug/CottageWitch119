@@ -161,6 +161,8 @@
 	banner_pattern_tooltip = true
 	#Wearing mob heads will apply post processing
 	mob_head_shaders = true
+	#Enables paintings tooltip image preview
+	paintings_tooltip = true
 
 [items]
 
