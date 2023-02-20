@@ -938,3 +938,9 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     <item:quark:egg_parrot_grey>,
     <item:whatareyouvotingfor:sniffer_egg>
 );
+
+<tag:items:crafttweaker:canisters>.add(
+    <item:hibernalherbs:canister_iron>,
+    <item:hibernalherbs:canister_amethyst>,
+    <item:hibernalherbs:canister_diamond>
+);

@@ -666,15 +666,15 @@
 			}]
 			rewards: [
 				{
-					id: "3BB0037DD908BB33"
-					type: "item"
-					item: "pipez:basic_upgrade"
-				}
-				{
 					id: "10E7DC7C7F53B457"
 					type: "item"
 					item: "pipez:item_pipe"
 					count: 10
+				}
+				{
+					id: "63D4D09CF18BAD6B"
+					type: "item"
+					item: "pipez:wrench"
 				}
 			]
 		}
@@ -833,6 +833,7 @@
 			description: [
 				"There are many ways to carry items with you while you adventure, but not all of them are quite as terrifying as a &bLuggage&r. It has little concern for others, and loves to &agobble up dropped items&r. And yet, it's strangely endearing."
 				"You can &6access its inventory with right click&r, and &6pick it up with shift right click&r. It &aretains its inventory&r when picked up, and it cannot die."
+				"The &eLuggage&r can &awear a collar&r, which will grant it the enchanted abilities. However, &dplacing the Luggage in your inventory will delete the collar&r, so be sure to remove it before picking it back up."
 			]
 			id: "0AC47FF8FD45B289"
 			tasks: [{
@@ -1186,6 +1187,35 @@
 				type: "item"
 				item: "quark:crate"
 			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			description: [
+				"The &bFilter Destination Tool&r is a multi-use tool which will allow you to &aset the destination&r of a &bfiltered item type&r."
+				"You can assign it an inventory by &6right clicking it &lon the face of the block the &bPipe&6 connects to&r. It will not work if you do not select the correct face of the inventory."
+			]
+			dependencies: ["0A76B3D9CF688878"]
+			id: "329CC0CC1B48C600"
+			tasks: [{
+				id: "4200E7C6D9AC5F1F"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+			rewards: [
+				{
+					id: "337B73B6EAD72E39"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "149EDF51A1614C54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3965165831041023950L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

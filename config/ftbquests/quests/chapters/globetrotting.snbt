@@ -864,8 +864,13 @@
 			y: -2.5d
 			subtitle: "not to be confused with shirley temple"
 			description: ["The journals from which I discovered these dungeons had this to say: \"This &cabandoned temple of old&r has long since been taken over by &eStrays&r. At the top, you’ll find the &bFrosted Cowl&r to aid you in your combat. Strays spawned within this structure &acan drop &bice&r, or rarely &bpacked ice&r, on death, and they’re the only mob allowed to spawn inside.\""]
-			dependencies: ["2BAEDCFF3F99C4F0"]
+			dependencies: [
+				"2BAEDCFF3F99C4F0"
+				"4E1F4BA7F58DCAC8"
+				"24BA87E903CB3B76"
+			]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "7185E4EBAB87EBF0"
 			tasks: [{
 				id: "3B0BEB2BDEFCC616"

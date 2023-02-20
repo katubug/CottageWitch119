@@ -1246,7 +1246,11 @@
 			x: -1.5d
 			y: -6.5d
 			shape: "hexagon"
-			description: ["The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."]
+			description: [
+				"The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."
+				"If you &alose your pet in another dimension&r, you will need to &6place a Lantern in that dimension&r to get them back."
+				"In &dMultiplayer&r, your pets will respawn at the &aclosest Lantern&r, so be careful in other people's areas."
+			]
 			id: "5DB08A394A7B8122"
 			tasks: [{
 				id: "4FEF850143E6C25D"

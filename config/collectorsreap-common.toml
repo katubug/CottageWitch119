@@ -41,6 +41,16 @@
 	salmon_tartare = true
 	spicy_grenadine_jelly = true
 	stuffed_portobello_cap = true
+	lime_cake = true
+	lime_cake_slice = true
+	lime_ice_cream = true
+	lime_ice_cream_block = true
+	lime_milkshake = true
+	pomegranate_cake = true
+	pomegranate_cake_slice = true
+	pomegranate_ice_cream = true
+	pomegranate_ice_cream_block = true
+	pomegranate_milkshake = true
 
 [Generation]
 	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Portobello to false above.

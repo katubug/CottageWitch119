@@ -113,10 +113,11 @@
 			]
 		}
 		{
-			title: "A Fisher's Life For Me"
+			title: "I've Nether Fished So Well"
 			x: 2.5d
 			y: 0.5d
 			shape: "circle"
+			subtitle: "a hellish rod"
 			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
 			dependencies: ["2E4D1699E2A7876B"]
 			id: "104D0C28773A1DD4"
@@ -453,7 +454,7 @@
 					type: "questsadditions:break"
 					icon: "farmersdelight:wild_cabbages"
 					block_type: 0
-					block: "farmersdelight:wild_cabbage"
+					block: "farmersdelight:wild_cabbages"
 					value: 1L
 					checkItem: false
 				}

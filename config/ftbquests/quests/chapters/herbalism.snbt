@@ -35,16 +35,27 @@
 	]
 	quests: [
 		{
+			title: "Obtain a Pouch"
 			x: 6.5d
 			y: -1.5d
 			shape: "hexagon"
-			description: ["The &bHerb Pouch&r can carry several stacks of &bHerbs&r. In order to use it, &6right click the herb on the Pouch&r in your inventory."]
+			description: [
+				"The &bHerb Pouch&r can carry several stacks of &bHerbs&r. In order to use it, &6right click the herb on the Pouch&r in your inventory."
+				"There are three tiers of pouches, each of which holds progressively more herbs!"
+			]
 			dependencies: ["7E3EF86ECA10B730"]
 			id: "6B5A17D80DE38763"
 			tasks: [{
-				id: "06E8227C1C4C4382"
+				id: "355FB22CBDB4EA66"
 				type: "item"
-				item: "hibernalherbs:pouch"
+				title: "Any #hibernalherbs:pouches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hibernalherbs:pouches"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -320,6 +331,7 @@
 			}]
 		}
 		{
+			title: "Obtain a Canister"
 			x: 6.5d
 			y: 0.0d
 			shape: "hexagon"
@@ -327,15 +339,30 @@
 			dependencies: ["5F59C5AB2A405A2D"]
 			id: "450D79C79D56BFD9"
 			tasks: [{
-				id: "4F26CD4D303EBE50"
+				id: "40B3560E87A59DEF"
 				type: "item"
-				item: "hibernalherbs:canister"
+				title: "Any #crafttweaker:canisters"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:canisters"
+					}
+				}
 			}]
-			rewards: [{
-				id: "48DBDE77BD7F3B7D"
-				type: "item"
-				item: "biomesinjars:empty_biome_jar"
-			}]
+			rewards: [
+				{
+					id: "48DBDE77BD7F3B7D"
+					type: "item"
+					item: "biomesinjars:empty_biome_jar"
+				}
+				{
+					id: "0600C80C067EDA6F"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4636896809631346949L
+				}
+			]
 		}
 		{
 			x: 0.0d

@@ -930,7 +930,6 @@
 			description: [
 				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
 				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
-				"A trident with &bTelekinesis&r will &apull mob drops into your inventory&r."
 			]
 			id: "6A3F5153FB6473E1"
 			tasks: [{
