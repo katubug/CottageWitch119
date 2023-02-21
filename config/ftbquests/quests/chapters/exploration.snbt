@@ -107,7 +107,7 @@
 					player_command: false
 				}
 				{
-					id: "5A30AC30D18DF6A3"
+					id: "656D108CEC4CA101"
 					type: "item"
 					item: {
 						id: "akashictome:tome"
@@ -167,6 +167,13 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "caupona:book"
+									}
+								}
+								lexicon: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "lexicon:lexicon"
 									}
 								}
 							}

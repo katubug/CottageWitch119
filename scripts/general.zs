@@ -944,3 +944,25 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     <item:hibernalherbs:canister_amethyst>,
     <item:hibernalherbs:canister_diamond>
 );
+
+// Add recipe Warp scroll < Warp Stone
+
+craftingTable.addShaped("scrolltostone", <item:waystones:warp_stone>,
+[[<item:minecraft:air>, <item:waystones:warp_scroll>, <item:minecraft:air>],
+[<item:waystones:warp_scroll>, <item:minecraft:emerald>, <item:waystones:warp_scroll>],
+[<item:minecraft:air>, <item:waystones:warp_scroll>, <item:minecraft:air>]]);
+
+// Convert Waystones to Sharestones
+
+craftingTable.addShapeless("waystonetosharestone", <item:waystones:sharestone>,
+[<item:waystones:waystone>]);
+
+craftingTable.addShapeless("sharestonetowaystone", <item:waystones:waystone>,
+[<item:waystones:sharestone>]);
+
+craftingTable.addShapeless("mossywaystonetosharestone", <item:waystones:sharestone>,
+[<item:waystones:mossy_waystone>]);
+
+
+craftingTable.addShapeless("sandywaystonetosharestone", <item:waystones:sharestone>,
+[<item:waystones:sandy_waystone>]);

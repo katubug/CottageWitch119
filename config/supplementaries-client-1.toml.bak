@@ -8,10 +8,6 @@
 		#Enable a random globe texture for each world
 		random_world = true
 
-	[blocks.notice_board]
-		#Allows notice board displayed text to be centered instead of being left aligned
-		centered_text = true
-
 	[blocks.clock_block]
 		#Display 24h time format. False for 12h format
 		24h_format = true
@@ -114,6 +110,10 @@
 		#Range: 0.01 ~ 200.0
 		wobbling_period = 12.0
 
+	[blocks.notice_board]
+		#Allows notice board displayed text to be centered instead of being left aligned
+		centered_text = true
+
 #Particle parameters
 [particles]
 
@@ -132,8 +132,6 @@
 	tooltip_hints = true
 	#Show tooltips items that have been made placeable
 	placeable_tooltips = true
-	#Enables custom Configured config screen
-	custom_configured_screen = true
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test1 = 0.0
@@ -143,6 +141,8 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
+	#Enables custom Configured config screen
+	custom_configured_screen = true
 
 #Game tweaks
 [tweaks]
@@ -159,10 +159,10 @@
 	placeable_books_glint = false
 	#Enables banner pattern tooltip image preview
 	banner_pattern_tooltip = true
-	#Enables paintings tooltip image preview
-	paintings_tooltip = true
 	#Wearing mob heads will apply post processing
 	mob_head_shaders = true
+	#Enables paintings tooltip image preview
+	paintings_tooltip = true
 
 [items]
 

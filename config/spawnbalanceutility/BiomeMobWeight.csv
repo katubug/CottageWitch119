@@ -884,7 +884,7 @@
 3517,none,byg:shulkren_forest,CREATURE,alexsmobs:spectre,10,1,2
 3525,none,byg:cryptic_wastes,CREATURE,alexsmobs:spectre,10,1,2
 3534,none,byg:imparius_grove,CREATURE,alexsmobs:spectre,10,1,2
-1710,nether,minecraft:basalt_deltas,MONSTER,alexsmobs:straddler,20,1,3
+1710,nether,minecraft:basalt_deltas,MONSTER,alexsmobs:straddler,70,1,3
 1715,nether,minecraft:basalt_deltas,WATER_CREATURE,alexsmobs:stradpole,10,1,1
 340,forest,minecraft:birch_forest,CREATURE,alexsmobs:sugar_glider,15,2,4
 412,forest,minecraft:old_growth_birch_forest,CREATURE,alexsmobs:sugar_glider,15,2,4
@@ -2481,7 +2481,7 @@
 680,none,minecraft:windswept_gravelly_hills,CREATURE,minecraft:llama,10,4,6
 708,none,minecraft:windswept_forest,CREATURE,minecraft:llama,10,4,6
 1650,nether,minecraft:nether_wastes,MONSTER,minecraft:magma_cube,10,4,4
-1707,nether,minecraft:basalt_deltas,MONSTER,minecraft:magma_cube,80,2,5
+1707,nether,minecraft:basalt_deltas,MONSTER,minecraft:magma_cube,40,2,5
 3323,nether,byg:brimstone_caverns,MONSTER,minecraft:magma_cube,80,2,5
 3335,nether,byg:crimson_gardens,MONSTER,minecraft:magma_cube,80,2,5
 3348,nether,byg:embur_bog,MONSTER,minecraft:magma_cube,80,2,5
