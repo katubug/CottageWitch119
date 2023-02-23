@@ -8,5 +8,5 @@
 		# Whether or not vanilla Nether Fortresses should be disabled.
 		# Default: true
 		#
-		"Disable Vanilla Nether Fortresses" = true
+		"Disable Vanilla Nether Fortresses" = false
 

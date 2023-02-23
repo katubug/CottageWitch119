@@ -1,0 +1,12 @@
+
+[general]
+	milkification = false
+	#Range: > 1
+	gauntlet_cooldown = 600
+	#Cooldown in ticks when switching to potions
+	#Range: 0 ~ 20000
+	potion_switch_cooldown = 30
+	#Cooldown in ticks when throwing potions
+	#Range: 0 ~ 20000
+	potion_throw_cooldown = 30
+

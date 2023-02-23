@@ -1,0 +1,3 @@
+#Should commands work without cheats enabled? Mainly recommended for single player, otherwise all users on servers can trigger commands.
+commandsCheatsDisabled = false
+

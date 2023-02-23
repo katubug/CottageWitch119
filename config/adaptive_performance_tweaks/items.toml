@@ -1,0 +1,22 @@
+
+#Adaptive Performance Tweaks: Items
+[Items]
+	#Enable/Disable items optimization.
+	optimizeItems = true
+	#Defines the max. number of items / item stacks per type which are allowed to lay around in the world.
+	#Range: 16 ~ 128
+	maxNumberOfItemsPerType = 32
+	#Defines the max. number of items / item stacks which are allowed to lay around in a single world.
+	#Range: 16 ~ 1000
+	maxNumberOfItems = 128
+	#Defines the radius in blocks which items / item stacks will be clustered together.
+	#Range: 1 ~ 16
+	itemsClusterRange = 3
+
+["Experience Orbs"]
+	#Enable/Disable experience orbs optimization.
+	optimizeExperienceOrbs = true
+	#Defines the radius in which experience orbs will be clustered together.
+	#Range: 1 ~ 16
+	experienceOrbsClusterRange = 4
+

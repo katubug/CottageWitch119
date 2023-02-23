@@ -251,76 +251,57 @@
 			shape: "rsquare"
 			subtitle: "When you're away, your base will play"
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r. In order to do this, craft a &bBasic Chunk Loader&r."
-				"By &6placing down the Chunk Loader&r, you will &aload chunks in a 3x3 area&r. Want to see the chunk boundaries? &6F3+G&r will show the edges of each chunk. Press it again to disable."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
+				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
+				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
 			]
 			size: 1.5d
+			min_width: 350
 			id: "26D8EAD9D892805E"
 			tasks: [{
-				id: "2F646B35705318CA"
-				type: "item"
-				item: "chunkloaders:basic_chunk_loader"
+				id: "4FA4B92C6339251C"
+				type: "checkmark"
+				title: "Claim and Load Chunks"
 			}]
 			rewards: [{
-				id: "78700E907D3C9286"
-				type: "item"
-				item: "chunkloaders:basic_chunk_loader"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 0.5d
-			shape: "hexagon"
-			description: ["This &bAdvanced Chunk Loader&r will load chunks in a &alarger 5x5 area&r."]
-			dependencies: ["26D8EAD9D892805E"]
-			id: "6C61BE87539B25B6"
-			tasks: [{
-				id: "17C66EFED857A5F7"
-				type: "item"
-				item: "chunkloaders:advanced_chunk_loader"
-			}]
-			rewards: [{
-				id: "3EBE62570F04ADC7"
-				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 3
+				id: "5DF31CEACA7283A2"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
 			x: -3.5d
 			y: -0.5d
 			shape: "hexagon"
-			description: ["The &bSingle Chunk Loader&r does what it says on the tin. &6Craft a Basic chunkloader&r into 9 &bSingle Chunk Loaders&r if you have &asmall, unconnected areas&r which need loading."]
+			description: [
+				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
+				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/createaparty.png width:100 height:100 align:1 fit:true}"
+				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
+			]
 			dependencies: ["26D8EAD9D892805E"]
 			id: "20F9C02AF5CBE665"
 			tasks: [{
-				id: "518CD1390097C7A9"
-				type: "item"
-				item: "chunkloaders:single_chunk_loader"
+				id: "5D2FC3F7E82A27A3"
+				type: "checkmark"
+				title: "Adding Allies"
 			}]
-			rewards: [{
-				id: "193F56FAD5A4D08C"
-				type: "item"
-				item: "minecraft:ender_pearl"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.5d
-			shape: "hexagon"
-			description: ["This &bUltimate Chunk Loader&r will &aload a whopping 7x7 area&r. Be wary of making too many of these, as the amount of loaded chunks can affect your performance."]
-			dependencies: ["6C61BE87539B25B6"]
-			id: "14B701CFF7A90EE4"
-			tasks: [{
-				id: "421DBD39D23C331C"
-				type: "item"
-				item: "chunkloaders:ultimate_chunk_loader"
-			}]
-			rewards: [{
-				id: "72EA87FE8C22A66E"
-				type: "random"
-				table_id: 5161092699925703455L
-			}]
+			rewards: [
+				{
+					id: "193F56FAD5A4D08C"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "3101E5B37D3A9BB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			title: "Extreme Sound Muffler"

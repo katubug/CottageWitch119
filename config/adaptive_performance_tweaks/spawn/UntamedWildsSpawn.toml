@@ -1,0 +1,24 @@
+
+#Adaptive Performance Tweaks: Spawn
+["Untamed Wilds Spawn Config"]
+	untamedWildsEnabled = true
+	untamedWildsId = "untamedwilds"
+	#Range: 1 ~ 64
+	untamedWildsMaxPassiveMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	untamedWildsMaxPassiveMobsPerWorld = 16
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
+	untamedWildsPassiveMobsList = ["untamedwilds:arowana", "untamedwilds:giant_clam", "untamedwilds:giant_salamander", "untamedwilds:rhino", "untamedwilds:sunfish", "untamedwilds:trevally"]
+	#Range: 1 ~ 64
+	untamedWildsMaxNeutralMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	untamedWildsMaxNeutralMobsPerWorld = 16
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
+	untamedWildsNeutralMobsList = ["untamedwilds:aardvark", "untamedwilds:softshell_turtle", "untamedwilds:tortoise"]
+	#Range: 1 ~ 64
+	untamedWildsMaxHostileMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	untamedWildsMaxHostileMobsPerWorld = 16
+	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
+	untamedWildsHostileMobsList = ["untamedwilds:bear_black", "untamedwilds:bear_blind", "untamedwilds:bear_brown", "untamedwilds:bear_cave", "untamedwilds:bear_panda", "untamedwilds:bear_polar", "untamedwilds:bear_spectacled", "untamedwilds:bear_sun", "untamedwilds:bigcat_jaguar", "untamedwilds:bigcat_leopard", "untamedwilds:bigcat_lion", "untamedwilds:bigcat_puma", "untamedwilds:bigcat_snow_leopard", "untamedwilds:bigcat_tiger", "untamedwilds:football_fish", "untamedwilds:hippo", "untamedwilds:shark", "untamedwilds:snake", "untamedwilds:tarantula"]
+

@@ -8,7 +8,7 @@
 		# Whether or not vanilla desert pyramids should be disabled.
 		# Default: true
 		#
-		"Disable Vanilla Pyramids" = true
+		"Disable Vanilla Pyramids" = false
 		# Whether or not mining fatigue is applied to players in the desert temple if it has not yet been cleared.
 		# Default: true
 		#

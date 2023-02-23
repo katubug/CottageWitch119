@@ -1,0 +1,6 @@
+
+[general]
+	#Number of uses before mob catcher breaks, damaged every time a mob is released, -1 disables durability, numbers above will set stack size to 1
+	#Range: > -1
+	net_durability = -1
+

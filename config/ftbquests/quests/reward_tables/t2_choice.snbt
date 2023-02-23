@@ -4,7 +4,7 @@
 	title: "T2 Choice"
 	loot_size: 1
 	rewards: [
-		{ item: "ars_nouveau:source_gem" }
+		{ item: "ars_nouveau:source_gem", count: 15 }
 		{ item: "minecraft:emerald", count: 4 }
 		{ item: "ars_nouveau:greater_experience_gem" }
 		{ item: "minecraft:diamond" }
@@ -22,8 +22,7 @@
 		}
 		{ item: "alexsmobs:cachalot_whale_tooth" }
 		{ item: "minecraft:echo_shard", count: 5 }
-		{ item: "mobcatcher:net" }
+		{ item: "mobcatcher:net", count: 5 }
 		{ item: "pipez:advanced_upgrade" }
-		{ item: "functionalstorage:diamond_upgrade" }
 	]
 }

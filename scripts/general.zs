@@ -752,7 +752,7 @@ craftingTable.remove(<item:tarotcards:tarot_deck>);
 
 craftingTable.addShaped("tarotdeck", <item:tarotcards:tarot_deck>,
 [
-    [<item:create:golden_sheet>, <item:contact:ender_wrapping_paper>, <item:create:golden_sheet>],
+    [<item:create:golden_sheet>, <item:minecraft:dragon_egg>, <item:create:golden_sheet>],
     [<item:create:golden_sheet>, <item:minecraft:nether_star>, <item:create:golden_sheet>],
     [<item:create:golden_sheet>, <item:tarotcards:justice>, <item:create:golden_sheet>]
 ]);

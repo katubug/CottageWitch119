@@ -2,13 +2,11 @@
 [misc]
 	creative_tab = false
 	cross_section_world_mode = false
-	increased_slime_spawn_rate = true
 	#Range: 1 ~ 128
 	diamond_grindstone_deplete_chance = 20
 	enable_rough_gems = true
-	enable_gem_shards = true
 	enable_raw_nuggets = true
-	sculk_drops_with_shears = true
+	enable_mores = true
 
 [echo_fork]
 	#Range: 1 ~ 128
@@ -17,6 +15,7 @@
 	echo_cooldown = 600
 	#Range: 1 ~ 72000
 	echo_glow_durration = 1200
+	sculk_drops_with_shears = true
 
 [magnets]
 	#Range: 1 ~ 32
@@ -37,4 +36,14 @@
 	stone_stripe_features = true
 	enable_sporophytes = true
 	dark_forest_portabellas = true
+
+[slimes]
+	increased_slime_spawn_rate = false
+	#Range: 1 ~ 2400
+	slime_eat_cooldown = 150
+	enable_slime_growth = true
+	#Range: 1 ~ 127
+	slime_growth_chance = 10
+	#Range: 1 ~ 127
+	slime_growth_max = 5
 

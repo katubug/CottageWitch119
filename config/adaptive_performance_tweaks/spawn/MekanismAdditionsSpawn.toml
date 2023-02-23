@@ -1,0 +1,24 @@
+
+#Adaptive Performance Tweaks: Spawn
+["Mekanism Spawn Config"]
+	mekanismAdditionsEnabled = true
+	mekanismAdditionsId = "mekanismadditions"
+	#Range: 1 ~ 64
+	mekanismAdditionsMaxPassiveMobsPerPlayer = 3
+	#Range: 1 ~ 512
+	mekanismAdditionsMaxPassiveMobsPerWorld = 12
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
+	mekanismAdditionsPassiveMobsList = []
+	#Range: 1 ~ 64
+	mekanismAdditionsMaxNeutralMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	mekanismAdditionsMaxNeutralMobsPerWorld = 16
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
+	mekanismAdditionsNeutralMobsList = []
+	#Range: 1 ~ 64
+	mekanismAdditionsMaxHostileMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	mekanismAdditionsMaxHostileMobsPerWorld = 16
+	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
+	mekanismAdditionsHostileMobsList = ["mekanismadditions:baby_creeper", "mekanismadditions:baby_enderman", "mekanismadditions:baby_skeleton", "mekanismadditions:baby_stray", "mekanismadditions:baby_wither_skeleton"]
+

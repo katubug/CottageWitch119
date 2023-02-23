@@ -1,0 +1,10 @@
+
+[General]
+	#Change max anvil level
+	#Range: > 1
+	maxAnvilLevel = 40
+	#Clamp anvil to not go above max level even if calculations would make it more expensive. This will effectively remove "Too Expensive!" message.
+	clampToMax = true
+	#By default enchantments costs grow exponentially, making them linear with a higher max cost, stretches out the amount of times you can repair or add/combine enchantments before reaching max level.
+	makeEnchantmentCostLinear = true
+

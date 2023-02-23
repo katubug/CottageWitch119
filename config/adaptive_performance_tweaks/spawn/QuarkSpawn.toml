@@ -1,0 +1,24 @@
+
+#Adaptive Performance Tweaks: Spawn
+["Quark Spawn Config"]
+	quarkEnabled = true
+	quarkId = "quark"
+	#Range: 1 ~ 64
+	quarkMaxPassiveMobsPerPlayer = 2
+	#Range: 1 ~ 512
+	quarkMaxPassiveMobsPerWorld = 16
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
+	quarkPassiveMobsList = ["quark:crab", "quark:frog", "quark:stoneling"]
+	#Range: 1 ~ 64
+	quarkMaxNeutralMobsPerPlayer = 2
+	#Range: 1 ~ 512
+	quarkMaxNeutralMobsPerWorld = 16
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
+	quarkNeutralMobsList = ["quark:toretoise"]
+	#Range: 1 ~ 64
+	quarkMaxHostileMobsPerPlayer = 4
+	#Range: 1 ~ 512
+	quarkMaxHostileMobsPerWorld = 16
+	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
+	quarkHostileMobsList = ["quark:forgotten", "quark:foxhound", "quark:wraith"]
+

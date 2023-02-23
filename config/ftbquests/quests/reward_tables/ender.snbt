@@ -5,17 +5,7 @@
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:ender_pearl", count: 2 }
-		{ item: "delightful:ender_nectar" }
 		{ item: "supplementaries:enderman_head" }
 		{ item: "minecraft:phantom_membrane", count: 3 }
-		{
-			item: {
-				id: "minecraft:splash_potion"
-				Count: 1b
-				tag: {
-					Potion: "minecraft:slow_falling"
-				}
-			}
-		}
 	]
 }
