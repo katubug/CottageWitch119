@@ -59,7 +59,7 @@
 			subtitle: "Throw it in a limpid pool and then back away"
 			description: [
 				"&dThe Twilight Forest&r is a night-ridden dimension filled with mysteries and odd creatures both friendly and hostile. Freely traveling the dimension is difficult - you must conquer each challenge in turn in order to traverse."
-				"To &amake the portal&r, you must &6dig a 3x3x1 hole and fill it with water&r. Then, &6surround the pond with flowers or mushrooms&r. Finally, &6throw a Diamond into the pool&r. Beware, opening a portal can be dangerous!"
+				"To &amake the portal&r, you must &6dig a 3x3x1 (or 2x2x1) hole and fill it with water&r. Then, &6surround the pond with flowers or mushrooms&r. Finally, &6throw a Diamond into the pool&r. Beware, opening a portal can be dangerous!"
 			]
 			size: 2.0d
 			id: "399D55B3452588FF"

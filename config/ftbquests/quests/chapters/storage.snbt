@@ -358,14 +358,14 @@
 			]
 			rewards: [
 				{
-					id: "3B909177C8E76B79"
-					type: "item"
-					item: "minecraft:chest"
-				}
-				{
 					id: "4F0820A607503EB4"
 					type: "loot"
 					table_id: 8808494820591225409L
+				}
+				{
+					id: "3FACEBD6DA635158"
+					type: "item"
+					item: "minecraft:barrel"
 				}
 			]
 		}
