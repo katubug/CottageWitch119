@@ -12,6 +12,10 @@
 	#Defines the radius in blocks which items / item stacks will be clustered together.
 	#Range: 1 ~ 16
 	itemsClusterRange = 3
+	#Defines a list of items which will be optimized and all other items will be ignored by the optimization.
+	itemsAllowList = []
+	#Defines a list of items which will be ignored by the optimization and all other relevant items will be optimized.
+	itemsDenyList = ["item.minecraft.diamond", "item.minecraft.diamond_block"]
 
 ["Experience Orbs"]
 	#Enable/Disable experience orbs optimization.

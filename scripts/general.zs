@@ -405,7 +405,11 @@ craftingTable.addShapeless("windsweptsandstone", <item:byg:windswept_sandstone>,
 
 craftingTable.addShapeless("endeyestopearl", <item:minecraft:ender_pearl> * 4, [<tag:items:crafttweaker:eyes>]);
 
-// Make frogs tameable
+// Also make Eyes not uncraftable
+
+//<tag:items:twilightforest:banned_uncrafting_ingredients>.add(<item:minecraft:ender_pearl>);
+
+// Make warped toads tameable
 craftingTable.addShapeless("mosquitolarva", <item:alexsmobs:mosquito_larva>, [<item:alexsmobs:maggot>, <item:minecraft:crimson_fungus>]);
 
 // Add uses for Hexerei herbs
@@ -966,3 +970,122 @@ craftingTable.addShapeless("mossywaystonetosharestone", <item:waystones:sharesto
 
 craftingTable.addShapeless("sandywaystonetosharestone", <item:waystones:sharestone>,
 [<item:waystones:sandy_waystone>]);
+
+
+//Sleeping Bags not Overlap Sheets
+
+var sleepingbags = [
+    <item:comforts:sleeping_bag_purple>,
+    <item:comforts:sleeping_bag_blue>,
+    <item:comforts:sleeping_bag_brown>,
+    <item:comforts:sleeping_bag_green>,
+    <item:comforts:sleeping_bag_red>,
+    <item:comforts:sleeping_bag_black>,
+    <item:comforts:sleeping_bag_white>,
+    <item:comforts:sleeping_bag_orange>,
+    <item:comforts:sleeping_bag_magenta>,
+    <item:comforts:sleeping_bag_light_blue>,
+    <item:comforts:sleeping_bag_yellow>,
+    <item:comforts:sleeping_bag_lime>,
+    <item:comforts:sleeping_bag_pink>,
+    <item:comforts:sleeping_bag_gray>,
+    <item:comforts:sleeping_bag_light_gray>,
+    <item:comforts:sleeping_bag_cyan>
+] as IItemStack[];
+
+for bag in sleepingbags {
+    craftingTable.remove(bag);
+}
+
+var leather = <item:minecraft:leather>;
+var air = <item:minecraft:air>;
+
+craftingTable.addShaped("sleepingbag_cyan", <item:comforts:sleeping_bag_cyan>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_purple", <item:comforts:sleeping_bag_purple>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:purple_wool>, <item:minecraft:purple_wool>, <item:minecraft:purple_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_blue", <item:comforts:sleeping_bag_blue>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:blue_wool>, <item:minecraft:blue_wool>, <item:minecraft:blue_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_brown", <item:comforts:sleeping_bag_brown>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:brown_wool>, <item:minecraft:brown_wool>, <item:minecraft:brown_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_green", <item:comforts:sleeping_bag_green>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:green_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_red", <item:comforts:sleeping_bag_red>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:red_wool>, <item:minecraft:red_wool>, <item:minecraft:red_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_black", <item:comforts:sleeping_bag_black>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_white", <item:comforts:sleeping_bag_white>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_orange", <item:comforts:sleeping_bag_orange>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:orange_wool>, <item:minecraft:orange_wool>, <item:minecraft:orange_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_light_blue", <item:comforts:sleeping_bag_light_blue>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_yellow", <item:comforts:sleeping_bag_yellow>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_lime", <item:comforts:sleeping_bag_lime>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:lime_wool>, <item:minecraft:lime_wool>, <item:minecraft:lime_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_pink", <item:comforts:sleeping_bag_pink>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_gray", <item:comforts:sleeping_bag_gray>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:gray_wool>, <item:minecraft:gray_wool>, <item:minecraft:gray_wool>]
+]);
+
+craftingTable.addShaped("sleepingbag_light_gray", <item:comforts:sleeping_bag_light_gray>, 
+[
+    [leather, air, leather],
+    [<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>]
+]);
