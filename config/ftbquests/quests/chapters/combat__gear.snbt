@@ -967,12 +967,27 @@
 				advancement: "majruszsaccessories:white_flag"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "5BE9A0356326EF9D"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "5BE9A0356326EF9D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "08A4ECE4AC4E37BB"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:white_flag"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Adventurer's Guide"
@@ -990,12 +1005,27 @@
 				advancement: "majruszsaccessories:adventurers_guide"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "34FD7AD6B6E9FC2F"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "34FD7AD6B6E9FC2F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "18FE49BCB7956324"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:adventurers_guide"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Angler's Trophy"
@@ -1013,14 +1043,30 @@
 				advancement: "majruszsaccessories:anglers_trophy"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "4BC2AE12BE671E2F"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "4BC2AE12BE671E2F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "1CCBBEEBAF8AEC38"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:anglers_trophy"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
+			title: "Certificate of Taming"
 			x: 4.5d
 			y: 1.5d
 			shape: "octagon"
@@ -1035,12 +1081,27 @@
 				advancement: "majruszsaccessories:certificate_of_taming"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "5801DE974396B99A"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "5801DE974396B99A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "689C8455157132A7"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:certificate_of_taming"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Overworld Rune"
@@ -1081,12 +1142,27 @@
 				advancement: "majruszsaccessories:idol_of_fertility"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "2542795296DFBBF8"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "2542795296DFBBF8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "6DE448538B4F9E94"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:idol_of_fertility"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Lucky Rock"
@@ -1104,12 +1180,27 @@
 				advancement: "majruszsaccessories:lucky_rock"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "4713BC72D79D6310"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "4713BC72D79D6310"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "0DCF79EDC94D384F"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:lucky_rock"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Secret Ingredient"
@@ -1127,12 +1218,27 @@
 				advancement: "majruszsaccessories:secret_ingredient"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "192038D70B752CFA"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "192038D70B752CFA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "7B846A8506266249"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:secret_ingredient"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Tamed Potato Beetle"
@@ -1150,12 +1256,27 @@
 				advancement: "majruszsaccessories:tamed_potato_beetle"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "02D0FBD2E1820A3E"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "02D0FBD2E1820A3E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "7BC8323F360678B6"
+					type: "item"
+					item: {
+						id: "majruszsaccessories:tamed_potato_beetle"
+						Count: 1b
+						tag: {
+							Bonus: {
+								Value: 0.0f
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "The Full Set: Iron Tools"
@@ -1826,6 +1947,39 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Tarot Trading"
+			x: 2.5d
+			y: 4.5d
+			shape: "pentagon"
+			subtitle: "another chance at justice"
+			description: [
+				"Hold 2 Tarot Cards in your inventory and turn in this quest to receive a random Tarot card in exchange. You may get lucky!"
+				"This is for players who have collected many duplicates and want a shot at a different type. &dThis quest is repeatable&r."
+			]
+			can_repeat: true
+			id: "20B24E5006BC7D1B"
+			tasks: [{
+				id: "6C6CC6A2E015B887"
+				type: "item"
+				title: "Any #tarotcards:tarot_cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tarotcards:tarot_cards"
+					}
+				}
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "520EC71AF3CC06A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7265408724434505998L
 			}]
 		}
 	]

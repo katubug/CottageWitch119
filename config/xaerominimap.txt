@@ -105,8 +105,9 @@ displayClaims:true
 displayCurrentClaim:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
-infoDisplayOrder:coords:angles:dimension:biome:weather:light_level:time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
+infoDisplayOrder:coords:chunk_coords:angles:dimension:biome:weather:light_level:time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
 infoDisplay:coords:true:15:-1
+infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
 infoDisplay:dimension:false:15:-1
 infoDisplay:biome:true:15:-1

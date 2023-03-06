@@ -71,7 +71,7 @@
 		the_world_range = 3.0
 		#Amplifier for effect (9 = X)
 		#Range: 0 ~ 20
-		the_world_slownessamplifier = 4
+		the_world_slownessamplifier = 1
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
 		wheel_of_fortune_luckbonus = 1.5
