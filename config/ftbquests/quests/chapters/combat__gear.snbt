@@ -66,8 +66,8 @@
 	quests: [
 		{
 			title: "Gild Your Netherite Gear"
-			x: -4.0d
-			y: 3.0d
+			x: -5.0d
+			y: 5.0d
 			shape: "pentagon"
 			subtitle: "Gild your loins! Or head, or chest, or..."
 			description: [
@@ -104,6 +104,12 @@
 					id: "6052CF2F9F1A30E9"
 					type: "choice"
 					table_id: 5036677739913042344L
+				}
+				{
+					id: "6EB3D4E3537DF6CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7265408724434505998L
 				}
 			]
 		}
@@ -295,7 +301,7 @@
 		{
 			title: "Make Pearls into Jewelry"
 			x: -5.5d
-			y: 5.0d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "I know what you're thinking, and no, I'm not saying it"
 			description: [
@@ -325,8 +331,8 @@
 		}
 		{
 			title: "Upgrade your Jewelry"
-			x: -5.0d
-			y: 4.0d
+			x: -4.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Taking it to the next level"
 			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
@@ -352,8 +358,8 @@
 		}
 		{
 			title: "The Ultimate Accessory"
-			x: -4.5d
-			y: 5.0d
+			x: -5.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Upgrade your necklace to its final form"
 			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
@@ -423,7 +429,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -3.5d
 			y: 2.0d
 			shape: "hexagon"
 			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
@@ -495,8 +501,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: -3.0d
+			y: -2.0d
 			shape: "hexagon"
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
@@ -516,8 +522,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 2.0d
+			x: -5.5d
+			y: 4.0d
 			shape: "octagon"
 			description: [
 				"A full set of Netherite Armor takes..."
@@ -1519,12 +1525,20 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7CB7683DA395CAF5"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "7CB7683DA395CAF5"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "1932DF187F981A97"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			title: "The Full Set: Steeleaf Armor"
@@ -1595,17 +1609,25 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "6E27634C83CF6ADD"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			rewards: [
+				{
+					id: "6E27634C83CF6ADD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "157534B164962891"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			title: "The Full Set: Golden Glory"
-			x: -3.5d
-			y: 2.0d
+			x: 2.5d
+			y: -3.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
 			id: "63244E494B2159D8"
@@ -1877,12 +1899,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5DCF345B1E63D9E3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8891211325592123080L
-			}]
+			rewards: [
+				{
+					id: "5DCF345B1E63D9E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8891211325592123080L
+				}
+				{
+					id: "55872EB8DC922282"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7265408724434505998L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1980,6 +2010,427 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 7265408724434505998L
+			}]
+		}
+		{
+			title: "The Full Set: Ironwood Armor"
+			x: -1.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bIronwood Armor&r from the &cTwilight Forest&r."]
+			id: "2F0A831353FB38B9"
+			tasks: [
+				{
+					id: "7568897D04A7CF2E"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "615758BEA9E22BDC"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1132F59D52C7A138"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "6A1C757B99883BEE"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "795550A9EA41F849"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "The Full Set: Knightmetal"
+			x: -4.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bKnightmetal Armor&r from the &cTwilight Forest&r."]
+			id: "1A3BD31918571FA9"
+			tasks: [
+				{
+					id: "446B3C0A55FF8510"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5392BBDC0C7DA81C"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13AD9E60BC194329"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11840E2D96DFDADE"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "374DD5C850FCAC63"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bNaga Scale Armor&r from the &cTwilight Forest&r."]
+			id: "55E21D193564A15D"
+			tasks: [
+				{
+					id: "02AF3B025C0DE59D"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5B87D6FF86048B75"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "25BCC5AA95FEC6A2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "The Full Set: Fiery"
+			x: -3.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bFiery Metal Armor&r from the &cTwilight Forest&r."]
+			id: "2FD288BBE179EE79"
+			tasks: [
+				{
+					id: "0E4FA6159044D9A4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07F6FAD90D9E8CBD"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42BFBF6C9B26FD53"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66377D28E10E01CE"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "257876E4ED81AD41"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "The Full Set: Phantom"
+			x: -2.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bPhantom Knight Armor&r from the &cTwilight Forest&r."]
+			id: "6B6E01618D3B5999"
+			tasks: [
+				{
+					id: "4D7E3BFABB32F26F"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6AF38C1CD9147286"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7370B2D8F5A2E9F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "The Full Set: Arctic Fur Armor"
+			x: -5.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bArctic Fur Armor&r from the Yeti caves in &cTwilight Forest&r."]
+			id: "360508D2A7ACB5D6"
+			tasks: [
+				{
+					id: "788B3B9913981F11"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "165FE1693A653871"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "133500C05D06FDCE"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73232D74AC81AF8F"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "58AA97376CEE5824"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "The Full Seti: The Yeti"
+			x: -4.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["Obtain a full set of &bAlpha Yeti Armor&r from the &cTwilight Forest&r."]
+			id: "3BE446AB23DAFFFE"
+			tasks: [
+				{
+					id: "754F3EFCBEF22877"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0FCA4A428B2408F2"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "77E89B5926621E80"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "55A7F0773495FA3C"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "38F40BF04713CDFE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2688518876927697228L
 			}]
 		}
 	]

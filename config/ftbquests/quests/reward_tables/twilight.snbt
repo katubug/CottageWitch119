@@ -1,0 +1,82 @@
+{
+	id: "254F89AC9735214C"
+	order_index: 25
+	title: "Twilight"
+	loot_size: 3
+	rewards: [
+		{
+			item: {
+				id: "twilightforest:twilight_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:lifedrain_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:zombie_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:fortification_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:liveroot", count: 5, weight: 5 }
+		{ item: "twilightforest:transformation_powder", count: 4, weight: 5 }
+		{
+			item: {
+				id: "twilightforest:ore_magnet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:peacock_feather_fan"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:moonworm_queen"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{ item: "twilightforest:magic_beans", weight: 3 }
+		{ item: "twilightforest:reappearing_block", count: 10, weight: 5 }
+		{ item: "twilightforest:hollow_oak_sapling" }
+		{ item: "twilightforest:time_sapling" }
+		{ item: "twilightforest:transformation_sapling" }
+		{ item: "twilightforest:mining_sapling" }
+		{ item: "twilightforest:sorting_sapling" }
+		{ item: "twilightforest:rainbow_oak_sapling", weight: 5 }
+	]
+}

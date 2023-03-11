@@ -33,7 +33,6 @@
 		{ item: "glassential:glass_ethereal", count: 2, weight: 4 }
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "ars_nouveau:amethyst_golem_charm" }
-		{ item: "functionalstorage:diamond_upgrade" }
 		{ item: "pipez:advanced_upgrade" }
 		{
 			item: {
@@ -42,5 +41,6 @@
 				tag: { }
 			}
 		}
+		{ item: "alexsmobs:lost_tentacle" }
 	]
 }

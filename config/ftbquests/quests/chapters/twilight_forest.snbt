@@ -153,11 +153,19 @@
 				type: "structure"
 				structure: "twilightforest:hedge_maze"
 			}]
-			rewards: [{
-				id: "4C02CF218E659553"
-				type: "random"
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "4C02CF218E659553"
+					type: "random"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "1A2A5C6AA28D867A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			title: "Obtain an Ore Magnet"
@@ -182,11 +190,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0DF298E510FEE5B8"
-				type: "random"
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "0DF298E510FEE5B8"
+					type: "random"
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "14EA3BEAB0D5EB03"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -224,11 +240,19 @@
 				type: "item"
 				item: "twilightforest:liveroot"
 			}]
-			rewards: [{
-				id: "2AA5905FFDE223BA"
-				type: "item"
-				item: "twilightforest:ironwood_block"
-			}]
+			rewards: [
+				{
+					id: "2AA5905FFDE223BA"
+					type: "item"
+					item: "twilightforest:ironwood_block"
+				}
+				{
+					id: "238AA074016ACCDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			title: "Obtain the Peacock Feather Fan"
@@ -253,20 +277,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7613E44F834D267C"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:feather_falling"
-						}]
+			rewards: [
+				{
+					id: "7613E44F834D267C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "19A5F0C7617CD80D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -287,12 +319,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "112733AC98209D26"
-				type: "item"
-				item: "twilightforest:torchberries"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "112733AC98209D26"
+					type: "item"
+					item: "twilightforest:torchberries"
+					count: 3
+				}
+				{
+					id: "0BA3232E56833C88"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -501,12 +541,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7869AF04C5C8C870"
-				type: "item"
-				item: "twilightforest:decorative_mazestone"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "7869AF04C5C8C870"
+					type: "item"
+					item: "twilightforest:decorative_mazestone"
+					count: 10
+				}
+				{
+					id: "7B14E9612F4F61E6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2688518876927697228L
+				}
+			]
 		}
 		{
 			title: "Purchase Quest: 20 Fiery Blood"

@@ -1585,27 +1585,15 @@
 			}]
 			rewards: [
 				{
-					id: "2A52ED3F16031658"
-					type: "item"
-					item: {
-						id: "creative_items:creative_item"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							InnerItem: {
-								id: "minecraft:dirt"
-								Count: 1b
-							}
-							display: {
-								Name: "{\"text\":\"Unlimited Dirt\"}"
-							}
-						}
-					}
-				}
-				{
 					id: "1330C0871BA69A9A"
 					type: "item"
 					item: "minecraft:creeper_spawn_egg"
+				}
+				{
+					id: "2F85A96668CE761D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
 				}
 			]
 		}
