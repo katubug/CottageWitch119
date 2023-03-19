@@ -135,11 +135,19 @@
 					item: "hibernalherbs:essitte"
 				}
 			]
-			rewards: [{
-				id: "7C6BCDA400B6A367"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "7C6BCDA400B6A367"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "630A1F56825F3D91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Orange"
@@ -409,11 +417,19 @@
 					item: "sprout:yellow_tulip"
 				}
 			]
-			rewards: [{
-				id: "157334951D384948"
-				type: "choice"
-				table_id: 2068679807827730220L
-			}]
+			rewards: [
+				{
+					id: "157334951D384948"
+					type: "choice"
+					table_id: 2068679807827730220L
+				}
+				{
+					id: "6B64AD45AF355360"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Green and Cyan"
@@ -546,6 +562,12 @@
 					exclude_from_claim_all: true
 					table_id: 6941837675484043489L
 				}
+				{
+					id: "42BF5C8C6250FDD8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
 			]
 		}
 		{
@@ -622,11 +644,19 @@
 					item: "sprout:blue_dandelion"
 				}
 			]
-			rewards: [{
-				id: "268D54B93D84C44B"
-				type: "choice"
-				table_id: 2068679807827730220L
-			}]
+			rewards: [
+				{
+					id: "268D54B93D84C44B"
+					type: "choice"
+					table_id: 2068679807827730220L
+				}
+				{
+					id: "3DFED648E3730DCF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Periwinkle"
@@ -687,11 +717,19 @@
 					item: "hibernalherbs:sorrel"
 				}
 			]
-			rewards: [{
-				id: "45A9B2230F5D46EA"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "45A9B2230F5D46EA"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "2F02BF712FCA9085"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Purple"
@@ -762,11 +800,19 @@
 					item: "byg:hydrangea_hedge"
 				}
 			]
-			rewards: [{
-				id: "7DA76ECFC213F2E1"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "7DA76ECFC213F2E1"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "4FF4BB30501FCB3D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Pink"
@@ -889,11 +935,19 @@
 					item: "sprout:pink_orchid"
 				}
 			]
-			rewards: [{
-				id: "74684E8AE902E936"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "74684E8AE902E936"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "699D75572A615EA1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Magenta"
@@ -989,11 +1043,19 @@
 					item: "sprout:magenta_cornflower"
 				}
 			]
-			rewards: [{
-				id: "1E491E743D9EB255"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "1E491E743D9EB255"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "1A90D98E6591443C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Black and White"
@@ -1069,11 +1131,19 @@
 					item: "byg:clover_patch"
 				}
 			]
-			rewards: [{
-				id: "181F0311EA162994"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "181F0311EA162994"
+					type: "choice"
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "406DB8401AF9656E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Cool Mushrooms"
@@ -1341,6 +1411,12 @@
 					}
 					count: 3
 				}
+				{
+					id: "77B2E3B1C1FEEA55"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
 			]
 		}
 		{
@@ -1531,12 +1607,20 @@
 					item: "sprout:lime_orchid"
 				}
 			]
-			rewards: [{
-				id: "0C13808E235F34AF"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "0C13808E235F34AF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "4F3EE0744EC05BA7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Light Blue"
@@ -1602,12 +1686,20 @@
 					item: "nethersdelight:mimicarnation"
 				}
 			]
-			rewards: [{
-				id: "7FD09028A87B535B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "7FD09028A87B535B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "225CBA3ED518E8D8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			title: "Flower Picking: Grays"
@@ -1698,12 +1790,20 @@
 					item: "sprout:gray_azure_bluet"
 				}
 			]
-			rewards: [{
-				id: "24E389DE768B25D6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			rewards: [
+				{
+					id: "24E389DE768B25D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "7BA4C1CF8873903B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
 		}
 		{
 			x: 0.0d

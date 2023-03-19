@@ -47,23 +47,28 @@
 	]
 	quests: [
 		{
-			title: "Make a Mailbox to Get Mail"
+			title: "Snail Mail"
 			x: -6.0d
 			y: 1.5d
 			shape: "hexagon"
 			subtitle: "A way to communicate in multiplayer"
 			description: [
-				"You can send letters and packages to your friends! You can &areceive mail&r using a &bMail Box&r. &6Shift right click with empty hands&r to bind your mailbox to you."
-				"You can send mail and packages using a &bPost Box&r. If you do not have a Mailbox set up and someone sets you a letter, it can arrive at a &bCentral Mailbox&r, which can be placed by the server operator."
-				"Postcards can be &aobtained from the Wandering Trader&r or earned through quest rewards. You can &6right click&r while holding them to write on them."
-				"To send items, you'll need &bWrapping Paper&r. Each parcel can hold 4 items."
+				"You can send letters and packages to your friends! You can &asend and receive mail&r using a &bSnailbox&r. Placing it down claims it, and you can even give it a name by &6right clicking on it&r and entering text in the name field."
+				"To &asend mail&r, you'll need a &bStamp&r and an &bOpen Envelope&r. These envelopes can be reused, so they're good for the environment. &6Place the Envelope in the upper right of the &bSnailbox&r. Then click &6\"Open Envelope&r.\""
+				"{image:cottagewitch:textures/snailmail1.png width:250 height:300 align:1}"
+				"In here, you can put your mail! You can send &bpostcards, wrapped parcels, and more&r! &aDon't forget to add a Stamp&r! Enter the name of the recipient, your name if desired, and then &6Hit Esc to go back to the previous window&r!"
+				"{image:cottagewitch:textures/snailmail2.png width:250 height:200 align:1}"
+				"Once you've hit &dEsc&r, you can &aselect the Snailbox to send to&r, and ta-da! You're done!"
+				"{image:cottagewitch:textures/snailmail3.png width:250 height:80 align:1}"
+				"{image:cottagewitch:textures/snailmail4.png width:250 height:150 align:1}"
 			]
 			size: 1.5d
+			min_width: 300
 			id: "476D80268DFAFC7A"
 			tasks: [{
-				id: "6358D0985B21236B"
+				id: "47B16BD50607E0B8"
 				type: "item"
-				item: "contact:white_mailbox"
+				item: "snailmail:stamp"
 			}]
 			rewards: [
 				{
@@ -77,6 +82,17 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6951594928314176539L
+				}
+				{
+					id: "0599A3D734B1522D"
+					type: "item"
+					item: "snailmail:stamp"
+					count: 4
+				}
+				{
+					id: "792EE14262BC256A"
+					type: "item"
+					item: "snailmail:snail_box"
 				}
 			]
 		}
@@ -361,7 +377,10 @@
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Catch a running cow and put it in your pocket"
-			description: ["The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."]
+			description: [
+				"The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."
+				"Be aware that &da bug causes seated creatures to turn to pigs&r when captured. Be sure to &6break the Seat beneath them&r before attempting to capture."
+			]
 			id: "1E6176C9919F1D06"
 			tasks: [{
 				id: "4E6BE1180F28455A"
@@ -480,7 +499,10 @@
 			y: 2.5d
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
-			description: ["The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to use it."]
+			description: [
+				"The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to use it."
+				"You can &6shift right click&r in order to place it without sleeping."
+			]
 			id: "34E82F6EBE6762A3"
 			tasks: [{
 				id: "38FDE24FC2D7BDCF"
@@ -527,41 +549,6 @@
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
 			}]
-		}
-		{
-			title: "Make a Post Box to Send Mail"
-			x: -7.0d
-			y: 2.5d
-			shape: "hexagon"
-			description: ["The &bPost Box&r will allow you to send mail to your server mates! Simply &6right click it&r, and &6insert your postcard or packages&r, then &6type the recipient's name&r! It will tell you how long it will take to send, and then you can confirm sending it. Tada!"]
-			dependencies: ["476D80268DFAFC7A"]
-			id: "7D910AD700761922"
-			tasks: [{
-				id: "75C169025F187265"
-				type: "item"
-				title: "Any #crafttweaker:postboxes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "crafttweaker:postboxes"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1D1D9BF5C61C7724"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8035711958862449784L
-				}
-				{
-					id: "5A3452E12F6211CD"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8035711958862449784L
-				}
-			]
 		}
 		{
 			title: "Stay Connected"
@@ -1263,6 +1250,35 @@
 				id: "6436F337BFCACE09"
 				type: "checkmark"
 				title: "Cycle some Trades"
+			}]
+		}
+		{
+			title: "Keeping in \"Contact\" via Snail Mail"
+			x: -7.0d
+			y: 2.5d
+			shape: "hexagon"
+			description: [
+				"&bPostcards&r and &bParcels&r are from the mod &lContact&r. Unfortunately, this mod's &bMailboxes&r have a &dbad habit of coming unclaimed&r, so that &dno one can receive mail&r. However, they can still be sent via &lSnail Mail&r, an idea come up with by a very smart witch."
+				"Postcards can be &aobtained from the Wandering Trader&r or earned through quest rewards. You can &6right click&r while holding them to write on them."
+				"You can wrap gifts up in &bWrapping Paper&r. Each parcel can hold 4 items. There is no functional difference between the regular and Ender versions when using them with &lSnail Mail&r."
+			]
+			id: "190B6687A0C04CEF"
+			tasks: [{
+				id: "2365DCB3A2913DAD"
+				type: "item"
+				item: {
+					id: "contact:postcard"
+					Count: 1b
+					tag: {
+						CardID: "contact:crock_pot"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C4AF27FCD738A75"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6951594928314176539L
 			}]
 		}
 	]

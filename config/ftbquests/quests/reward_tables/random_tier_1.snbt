@@ -33,5 +33,6 @@
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "pipez:basic_upgrade" }
 		{ item: "functionalstorage:copper_upgrade" }
+		{ item: "snailmail:stamp" }
 	]
 }

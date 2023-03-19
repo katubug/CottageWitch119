@@ -421,7 +421,7 @@
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Time to get a globe-up (that was bad, i'm sorry)"
-			description: ["The Globe can only be obtained from the &eWandering Trader&r, and is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
+			description: ["The Globe is a decorative item which is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
 			id: "3E509A27A92746F4"
 			tasks: [{
 				id: "480C6E3F2F44680E"

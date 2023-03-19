@@ -22,6 +22,9 @@ sendMessages = true
 maxDiskSize = "25 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
+#How often should a full backup be created if only modified files should be saved? This creates a full backup when x minutes are over and the next backup needs to be done. Once a year is default.
+#Range: 1 ~ 5259600
+fullBackupTimer = 525960
 
 [mod_compat]
 	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)

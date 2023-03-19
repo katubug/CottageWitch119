@@ -12,6 +12,7 @@ import crafttweaker.api.ingredient.transform.type.TransformDamage;
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.block.Block;
 import mods.create.CompactingManager;
+import mods.jeitweaker.Jei;
 
 
 
@@ -79,7 +80,7 @@ var removeGadgets = [
 
 for rgadget in removeGadgets {
 craftingTable.remove(rgadget);
-//JEI.hideIngredient(rgadget);
+Jei.hideIngredient(rgadget);
 }
 
 // Makes Building Gadgets Accessible without power
@@ -109,7 +110,7 @@ var addGadgets = [
 ] as IItemStack[];
 
 for agadget in addGadgets {
-//JEI.addIngredient(agadget);
+Jei.addIngredient(agadget);
 }
 
 // Akashic Tome Stuff
@@ -209,12 +210,32 @@ var removeNope = [
     <item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
-    <item:pipez:universal_pipe>
+    <item:pipez:universal_pipe>,
+    <item:luggage:jukebox_luggage>,
+    <item:contact:green_postbox>,
+    <item:contact:red_postbox>,
+    <item:contact:center_mailbox>,
+    <item:contact:black_mailbox>,
+    <item:contact:red_mailbox>,
+    <item:contact:green_mailbox>,
+    <item:contact:brown_mailbox>,
+    <item:contact:blue_mailbox>,
+    <item:contact:purple_mailbox>,
+    <item:contact:orange_mailbox>,
+    <item:contact:magenta_mailbox>,
+    <item:contact:light_blue_mailbox>,
+    <item:contact:yellow_mailbox>,
+    <item:contact:lime_mailbox>,
+    <item:contact:pink_mailbox>,
+    <item:contact:gray_mailbox>,
+    <item:contact:light_gray_mailbox>,
+    <item:contact:cyan_mailbox>,
+    <item:contact:white_mailbox>
 ] as IItemStack[];
 
 for item in removeNope {
 craftingTable.remove(item);
-//JEI.hideIngredient(item);
+Jei.hideIngredient(item);
 }
 
 // Cloud Crafting
@@ -287,6 +308,15 @@ brewing.addRecipe(bugp, <item:alexsmobs:leafcutter_ant_pupa>, awk);
 brewing.addRecipe(poi, <item:minecraft:poisonous_potato>, awk);
 
 brewing.addRecipe(lpoi, <item:minecraft:redstone>, poi);
+
+<tag:items:forge:cheese>.add(
+    <item:caupona:scalded_milk>,
+    <item:minecraft:milk_bucket>,
+    <item:farmersdelight:milk_bottle>,
+    <item:hexerei:milk_bottle>,
+    <item:minecraft:potion>.withTag({Potion: "davespotioneering:milk"}),
+    <item:caupona:milk>
+);
 
 // Burger recipes
 
