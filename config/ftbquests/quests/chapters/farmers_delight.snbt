@@ -868,27 +868,6 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.5d
-			shape: "hexagon"
-			description: [
-				"The &bMimicarnation&r will spontaneously grow on &bRich Soul Soil&r when it is left &ain complete darkness&r. The &bMimicarnation&r gives off a slight amount of light, and can be crafted into &bMimicream&r, which allows you to &aduplicate items&r."
-				"Because the Mimicarnation gives off light, it &dprevents other Mimicarnations from growing&r, as the Soul Soil is no longer in complete darkness. So remember to harvest often!"
-			]
-			dependencies: ["60445E736AE3B5B4"]
-			id: "3A802819868A3118"
-			tasks: [{
-				id: "449A2A9680F3B0FD"
-				type: "item"
-				item: "nethersdelight:mimicarnation"
-			}]
-			rewards: [{
-				id: "42462A64750BF2F2"
-				type: "item"
-				item: "alexsmobs:mimicream"
-			}]
-		}
-		{
 			x: 0.0d
 			y: 0.0d
 			invisible: true

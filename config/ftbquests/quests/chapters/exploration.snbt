@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 7.5d
+			x: -3.5d
+			y: 8.0d
 			width: 11.5d
 			height: 6.5d
 			rotation: 0.0d
@@ -65,6 +65,18 @@
 			image: "cottagewitch:textures/akliz.png"
 			hover: [ ]
 			click: "https://www.akliz.net/cottagewitch"
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/tutorials.png"
+			hover: [ ]
+			click: ""
 			dev: false
 			corner: false
 		}
@@ -335,6 +347,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
+			subtitle: "slimy transport"
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
 			id: "7232C9D413054886"
 			tasks: [{
@@ -366,6 +379,101 @@
 				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Chunk Loading"
+			x: 3.75d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "When you're away, your base will play"
+			description: [
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
+				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
+				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
+			]
+			size: 1.5d
+			min_width: 350
+			id: "26D8EAD9D892805E"
+			tasks: [{
+				id: "4FA4B92C6339251C"
+				type: "checkmark"
+				title: "Claim and Load Chunks"
+			}]
+			rewards: [{
+				id: "5DF31CEACA7283A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			shape: "gear"
+			description: [
+				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
+				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/createaparty.png width:100 height:100 align:1 fit:true}"
+				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
+			]
+			dependencies: ["26D8EAD9D892805E"]
+			id: "20F9C02AF5CBE665"
+			tasks: [{
+				id: "5D2FC3F7E82A27A3"
+				type: "checkmark"
+				title: "Adding Allies"
+			}]
+			rewards: [
+				{
+					id: "193F56FAD5A4D08C"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "3101E5B37D3A9BB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Extreme Sound Muffler"
+			x: 3.5d
+			y: 9.5d
+			shape: "gear"
+			subtitle: "Selective hearing. Literally."
+			description: [
+				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
+			]
+			id: "171D4EACF7B9F4D5"
+			tasks: [{
+				id: "4B25469609B1A60C"
+				type: "checkmark"
+				title: "Extreme Sound Muffler"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			shape: "gear"
+			subtitle: "Take a little look-see"
+			description: [
+				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
+				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
+				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+				"This will let you view how to make anything in the game!"
+			]
+			size: 2.0d
+			id: "226D1B09B2958EFC"
+			tasks: [{
+				id: "70ED8357EEA2ACA4"
+				type: "checkmark"
+				title: "Get to know the mods"
 			}]
 		}
 	]
