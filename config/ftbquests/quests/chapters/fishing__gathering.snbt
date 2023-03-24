@@ -207,8 +207,8 @@
 		}
 		{
 			title: "Basic Fish"
-			x: 4.5d
-			y: 1.5d
+			x: 3.5d
+			y: 1.0d
 			description: ["Catch one each of the &abasic fish in vanilla&r!"]
 			dependencies: ["2E4D1699E2A7876B"]
 			id: "7A31753911D1CCFC"
@@ -236,16 +236,15 @@
 			]
 			rewards: [
 				{
-					id: "4DCF25776F77BDF5"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
 					id: "6933C2EABDC4F6E6"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 1279979498352596350L
+				}
+				{
+					id: "0974F835394F997D"
+					type: "item"
+					item: "better_fishing_rods:lucky_pad"
 				}
 			]
 		}
@@ -541,6 +540,64 @@
 					item: "better_fishing_rods:lucky_pad"
 				}
 			]
+		}
+		{
+			title: "Catch 500 Fish"
+			x: 4.5d
+			y: 2.0d
+			description: ["If you truly wish to dedicate yourself to fishing, you may be rewarded. &6Catch 500 fish&r in order to complete this quest."]
+			dependencies: ["2E4D1699E2A7876B"]
+			id: "5DA91B3B409332E9"
+			tasks: [{
+				id: "4EE24F4380B9BDD6"
+				type: "stat"
+				icon: "minecraft:cod"
+				stat: "minecraft:fish_caught"
+				value: 500
+			}]
+			rewards: [{
+				id: "1D8CDCAA76D97CDB"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:golden_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Deliver Fish"
+			x: 5.5d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&bLucky Pads&r allow you to upgrade the luck on your &bFishing Rod&r. You can &aobtain more&r by trading in &bthe fish you've caught&r."
+				"&dThis quest is repeatable&r."
+			]
+			dependencies: ["2E4D1699E2A7876B"]
+			can_repeat: true
+			id: "2CAAC737A4D4FF60"
+			tasks: [{
+				id: "68C6E45464091E53"
+				type: "item"
+				title: "Any #minecraft:fishes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B6E74114EE8418E"
+				type: "item"
+				item: "better_fishing_rods:lucky_pad"
+			}]
 		}
 	]
 	quest_links: [ ]

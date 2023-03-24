@@ -75,4 +75,6 @@
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
 		wheel_of_fortune_luckbonus = 1.5
+		#Stops upgrading enchantment books when they are at max level
+		the_highpriestess_capenchants = true
 

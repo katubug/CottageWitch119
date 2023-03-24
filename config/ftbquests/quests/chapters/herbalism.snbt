@@ -377,6 +377,40 @@
 				only_from_crafting: true
 			}]
 		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "octagon"
+			description: ["Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."]
+			id: "3B84722A9CD28821"
+			tasks: [{
+				id: "3A8AB0F1F2EAB075"
+				type: "advancement"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "33B0D43C0A77E807"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8891211325592123080L
+				}
+				{
+					id: "7B3C07A23A62C2D8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7265408724434505998L
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

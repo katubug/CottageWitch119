@@ -1206,6 +1206,25 @@
 				table_id: 6951594928314176539L
 			}]
 		}
+		{
+			x: -7.5d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
+			id: "1DB7D51E15454923"
+			tasks: [{
+				id: "229B2B3EC65918C9"
+				type: "questsadditions:days"
+				icon: "minecraft:clock"
+				days: 999
+			}]
+			rewards: [{
+				id: "6C0FB88D68341C28"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5525848455660196930L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

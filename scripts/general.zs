@@ -1119,3 +1119,24 @@ craftingTable.addShaped("sleepingbag_light_gray", <item:comforts:sleeping_bag_li
     [leather, air, leather],
     [<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>]
 ]);
+
+//Quark Azalea Wood Recipes
+
+<tag:items:crafttweaker:azalea_logs>.add(<item:ecologics:flowering_azalea_log>,
+<item:ecologics:azalea_log>);
+
+<tag:items:crafttweaker:azalea_wood>.add(<item:ecologics:azalea_wood>, 
+<item:ecologics:flowering_azalea_wood>);
+
+<tag:items:crafttweaker:azalea_planks>.add(<item:ecologics:azalea_planks>, 
+<item:ecologics:flowering_azalea_planks>);
+
+craftingTable.addShapeless("quarkazalog", <item:quark:azalea_log>, [<item:minecraft:moss_block>, <tag:items:crafttweaker:azalea_logs>]);
+
+craftingTable.addShapeless("quarkazawood", <item:quark:azalea_wood>, [<item:minecraft:moss_block>, <tag:items:crafttweaker:azalea_wood>]);
+
+craftingTable.addShapeless("quarkazaplanks", <item:quark:azalea_planks>, [<item:minecraft:moss_block>, <tag:items:crafttweaker:azalea_planks>]);
+
+craftingTable.addShapeless("quarkazastriplog", <item:quark:stripped_azalea_log>, [<item:minecraft:moss_block>, <item:ecologics:stripped_azalea_log>]);
+
+craftingTable.addShapeless("quarkazastripwood", <item:quark:stripped_azalea_wood>, [<item:minecraft:moss_block>, <item:ecologics:stripped_azalea_wood>]);
