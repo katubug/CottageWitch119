@@ -1225,6 +1225,26 @@
 				table_id: 5525848455660196930L
 			}]
 		}
+		{
+			title: "Sea Witch"
+			x: -4.5d
+			y: -0.5d
+			description: [
+				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
+				"To craft it, you'll need this &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
+			]
+			id: "3E72CBC6D658F80E"
+			tasks: [{
+				id: "15840490177FE604"
+				type: "item"
+				item: "mermod:sea_crystal"
+			}]
+			rewards: [{
+				id: "2CF983C199825C7C"
+				type: "item"
+				item: "mermod:ursula_shell_modifier"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

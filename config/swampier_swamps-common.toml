@@ -90,4 +90,10 @@
 		lilyPadSinkTimeStage3 = 20
 		#Range: 1 ~ 200
 		lilyPadResetTime = 40
+		# This can be used to disable Lily Pad sinking completely.
+		# Values:
+		# true: Lily Pads will sink when a big Entity stands on them
+		# false: Lily Pads wont sink when any Entity stands on them
+		#
+		doLilyPadsSink = false
 

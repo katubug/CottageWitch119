@@ -4,12 +4,12 @@
 	title: "Random Tier 1"
 	loot_size: 10
 	rewards: [
-		{ item: "minecraft:iron_ingot", count: 5, weight: 10 }
-		{ item: "minecraft:prismarine_shard", count: 3, only_one: true, weight: 5 }
-		{ item: "ars_nouveau:experience_gem", weight: 25 }
-		{ item: "farmersrespite:coffee", weight: 20 }
-		{ item: "farmersdelight:organic_compost", weight: 10 }
-		{ item: "waystones:warp_scroll", weight: 18 }
+		{ item: "minecraft:iron_ingot", count: 5, weight: 10.0f }
+		{ item: "minecraft:prismarine_shard", count: 3, only_one: true, weight: 5.0f }
+		{ item: "ars_nouveau:experience_gem", weight: 25.0f }
+		{ item: "farmersrespite:coffee", weight: 20.0f }
+		{ item: "farmersdelight:organic_compost", weight: 10.0f }
+		{ item: "waystones:warp_scroll", weight: 18.0f }
 		{
 			item: {
 				id: "hexerei:dried_sage_bundle"
@@ -18,14 +18,14 @@
 					Damage: 0
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
-		{ item: "delightful:cheeseburger", weight: 15 }
-		{ item: "quark:diamond_heart", only_one: true, weight: 5 }
-		{ item: "advancementframes:advancement_frame", weight: 10 }
-		{ item: "minecraft:quartz", weight: 15 }
-		{ item: "minecraft:amethyst_shard", weight: 8 }
-		{ item: "minecraft:nautilus_shell", weight: 5 }
+		{ item: "delightful:cheeseburger", weight: 15.0f }
+		{ item: "quark:diamond_heart", only_one: true, weight: 5.0f }
+		{ item: "advancementframes:advancement_frame", weight: 10.0f }
+		{ item: "minecraft:quartz", weight: 15.0f }
+		{ item: "minecraft:amethyst_shard", weight: 8.0f }
+		{ item: "minecraft:nautilus_shell", weight: 5.0f }
 		{ item: "create:rose_quartz", count: 4 }
 		{ item: "quark:crab_shell" }
 		{ item: "quark:moss_paste", count: 16 }

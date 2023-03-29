@@ -2,7 +2,7 @@
 [misc]
 	creative_tab = false
 	cross_section_world_mode = false
-	#Range: 1 ~ 128
+	#Range: 0 ~ 128
 	diamond_grindstone_deplete_chance = 20
 	enable_rough_gems = true
 	enable_raw_nuggets = true
@@ -21,6 +21,7 @@
 	enable_sporophytes = true
 	dark_forest_portabellas = true
 	enable_mores = true
+	better_sculk_patches = true
 
 [slimes]
 	increased_slime_spawn_rate = false

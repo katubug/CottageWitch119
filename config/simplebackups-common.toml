@@ -10,7 +10,7 @@ backupsToKeep = 10
 #60 = each hour
 #1440 = each day
 #Range: 1 ~ 32767
-timer = 120
+timer = 1200
 #The compression level, 0 is no compression (less cpu usage) and takes a lot of space, 9 is best compression (most cpu usage) and takes less space. -1 is default
 #Range: -1 ~ 9
 compressionLevel = -1

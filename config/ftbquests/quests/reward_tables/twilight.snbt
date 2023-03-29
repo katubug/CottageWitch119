@@ -40,8 +40,8 @@
 				}
 			}
 		}
-		{ item: "twilightforest:liveroot", count: 5, weight: 5 }
-		{ item: "twilightforest:transformation_powder", count: 4, weight: 5 }
+		{ item: "twilightforest:liveroot", count: 5, weight: 5.0f }
+		{ item: "twilightforest:transformation_powder", count: 4, weight: 5.0f }
 		{
 			item: {
 				id: "twilightforest:ore_magnet"
@@ -68,15 +68,15 @@
 					Damage: 0
 				}
 			}
-			weight: 3
+			weight: 3.0f
 		}
-		{ item: "twilightforest:magic_beans", weight: 3 }
-		{ item: "twilightforest:reappearing_block", count: 10, weight: 5 }
+		{ item: "twilightforest:magic_beans", weight: 3.0f }
+		{ item: "twilightforest:reappearing_block", count: 10, weight: 5.0f }
 		{ item: "twilightforest:hollow_oak_sapling" }
 		{ item: "twilightforest:time_sapling" }
 		{ item: "twilightforest:transformation_sapling" }
 		{ item: "twilightforest:mining_sapling" }
 		{ item: "twilightforest:sorting_sapling" }
-		{ item: "twilightforest:rainbow_oak_sapling", weight: 5 }
+		{ item: "twilightforest:rainbow_oak_sapling", weight: 5.0f }
 	]
 }

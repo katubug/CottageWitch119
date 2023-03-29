@@ -1,0 +1,484 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/floralborderbackgroundgrey.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 3
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=604346%
+  width = 33
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=604346%
+  action = setbuttonlabel
+  value = &3s
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -1
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 200
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton2pressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 134
+  action = movebutton
+  y = 152
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 40
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavaccesspressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavaccess.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = sethoverlabel
+  label = Accessibility
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 83
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=376322%
+  width = 35
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 112
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 100
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueleftpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueleft.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 99
+  action = movebutton
+  y = 112
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 100
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/bluerightpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueright.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 80
+  action = movebutton
+  y = 152
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 40
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavlanguagepressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavlanguage.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = sethoverlabel
+  label = Language
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -107
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 200
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton1pressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 74
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 100
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseleftpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseleft.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-centered
+  x = 3
+  action = movebutton
+  y = 221
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = setbuttonlabel
+  value = Host a Server
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 23
+  action = movebutton
+  y = 152
+}
+
+customization {
+  identifier = %id=376346%
+  width = 40
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavquarkpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavquark.png
+}
+
+customization {
+  identifier = %id=376346%
+  action = sethoverlabel
+  label = Quark Settings
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 242
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = fbde6926-01f2-440f-bc1d-6d3c6070360b1669925873478
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
+  y = 408
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 471
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 69673f7c-ac7a-4f80-bf8d-ef6607b68f9e1669925873483
+  y = 430
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 479
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c2767795-7188-44ed-9682-b6b4bfa6e2d21669925873483
+  y = 209
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 239
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5314b433-92fc-43b1-97dc-2d90ddc3dc721669925873483
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #449470
+  hidden = true
+  x = 66
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 43d5186a-e09a-4c5c-8034-99a1993de5571669925873483
+  y = -68
+  height = 30
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roserightpressed.png
+  description = Host a server with Akliz and support the modpack!
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 100
+  width = 100
+  actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
+  action = addbutton
+  y = 74
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseright.png
+  value = https://www.akliz.net/cottagewitch
+  height = 40
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 60
+  showname = false
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = a011a95f-7603-4841-aa82-8236f87900731680030674211
+  playername = Katubug
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 108
+  orientation = top-left
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/beaa42994fc5695a67939a3933c139b11b6483fdae3557f9b82d02789f71a527
+  crouching = false
+  x = 531
+  width = 36
+  parrot_left_shoulder = false
+  y = 193
+  parrot = false
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/cottagewitchicontransparent.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 35
+  width = 130
+  action = addtexture
+  actionid = 474ea096-8db8-40a3-b48d-07521b13fa411680030714221
+  y = -138
+  height = 130
+}
+

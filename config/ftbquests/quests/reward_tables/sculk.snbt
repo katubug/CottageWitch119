@@ -4,9 +4,9 @@
 	title: "Sculk"
 	loot_size: 3
 	rewards: [
-		{ item: "minecraft:echo_shard", count: 4, weight: 10 }
-		{ item: "minecraft:sculk", count: 4, weight: 4 }
-		{ item: "minecraft:sculk_vein", count: 2, weight: 2 }
+		{ item: "minecraft:echo_shard", count: 4, weight: 10.0f }
+		{ item: "minecraft:sculk", count: 4, weight: 4.0f }
+		{ item: "minecraft:sculk_vein", count: 2, weight: 2.0f }
 		{ item: "minecraft:sculk_sensor" }
 	]
 }

@@ -4,9 +4,9 @@
 	title: "Hexerei"
 	loot_size: 3
 	rewards: [
-		{ item: "hexerei:seed_mixture", count: 5, weight: 8 }
-		{ item: "hexerei:tallow_impurity", count: 3, weight: 8 }
-		{ item: "hexerei:blood_bottle", weight: 5 }
+		{ item: "hexerei:seed_mixture", count: 5, weight: 8.0f }
+		{ item: "hexerei:tallow_impurity", count: 3, weight: 8.0f }
+		{ item: "hexerei:blood_bottle", weight: 5.0f }
 		{ item: "hexerei:infused_fabric" }
 		{
 			item: {

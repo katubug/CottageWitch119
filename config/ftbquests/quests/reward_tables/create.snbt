@@ -5,8 +5,8 @@
 	loot_size: 4
 	rewards: [
 		{ item: "create:electron_tube" }
-		{ item: "create:brass_ingot", count: 3, weight: 5 }
-		{ item: "create:rose_quartz", count: 5, weight: 15 }
+		{ item: "create:brass_ingot", count: 3, weight: 5.0f }
+		{ item: "create:rose_quartz", count: 5, weight: 15.0f }
 		{
 			item: {
 				id: "create:sand_paper"
@@ -15,20 +15,20 @@
 					Damage: 0
 				}
 			}
-			weight: 10
+			weight: 10.0f
 		}
-		{ item: "create:cogwheel", count: 5, weight: 20 }
-		{ item: "create:large_cogwheel", count: 3, weight: 20 }
-		{ item: "create:gearbox", weight: 10 }
-		{ item: "create:builders_tea", weight: 5 }
+		{ item: "create:cogwheel", count: 5, weight: 20.0f }
+		{ item: "create:large_cogwheel", count: 3, weight: 20.0f }
+		{ item: "create:gearbox", weight: 10.0f }
+		{ item: "create:builders_tea", weight: 5.0f }
 		{ item: "create:blaze_cake_base" }
-		{ item: "create:cinder_flour", count: 10, weight: 10 }
-		{ item: "create:andesite_casing", count: 6, weight: 15 }
-		{ item: "create:brass_casing", count: 3, weight: 15 }
-		{ item: "create:copper_casing", count: 3, weight: 10 }
-		{ item: "create_crystal_clear:andesite_glass_casing", count: 4, weight: 10 }
-		{ item: "create_crystal_clear:brass_glass_casing", count: 4, weight: 10 }
-		{ item: "create_crystal_clear:copper_glass_casing", count: 4, weight: 10 }
-		{ item: "create:raw_zinc", count: 10, weight: 5 }
+		{ item: "create:cinder_flour", count: 10, weight: 10.0f }
+		{ item: "create:andesite_casing", count: 6, weight: 15.0f }
+		{ item: "create:brass_casing", count: 3, weight: 15.0f }
+		{ item: "create:copper_casing", count: 3, weight: 10.0f }
+		{ item: "create_crystal_clear:andesite_glass_casing", count: 4, weight: 10.0f }
+		{ item: "create_crystal_clear:brass_glass_casing", count: 4, weight: 10.0f }
+		{ item: "create_crystal_clear:copper_glass_casing", count: 4, weight: 10.0f }
+		{ item: "create:raw_zinc", count: 10, weight: 5.0f }
 	]
 }

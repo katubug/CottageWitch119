@@ -10,7 +10,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -18,7 +18,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -33,7 +33,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 3
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -49,7 +49,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -57,7 +57,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -72,7 +72,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 3
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -80,7 +80,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -88,7 +88,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -103,7 +103,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -111,7 +111,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -119,7 +119,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -127,7 +127,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -135,7 +135,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -143,7 +143,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -151,7 +151,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 5
+			weight: 5.0f
 		}
 		{
 			item: {

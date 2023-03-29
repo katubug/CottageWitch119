@@ -4,21 +4,21 @@
 	title: "Random Tier 2"
 	loot_size: 5
 	rewards: [
-		{ item: "byg:ametrine_cluster", weight: 30 }
-		{ item: "byg:raw_pendorite", weight: 30 }
-		{ item: "nethersdelight:stuffed_hoglin", weight: 50 }
-		{ item: "ars_nouveau:greater_experience_gem", weight: 50 }
-		{ item: "byg:emeraldite_shards", weight: 30 }
-		{ item: "minecraft:heart_of_the_sea", weight: 10 }
-		{ item: "minecraft:name_tag", weight: 45 }
-		{ item: "ars_nouveau:source_gem", weight: 20 }
-		{ item: "minecraft:phantom_membrane", weight: 30 }
-		{ item: "minecraft:ender_pearl", weight: 20 }
-		{ item: "minecraft:diamond", count: 3, weight: 20 }
-		{ item: "minecraft:emerald", count: 5, weight: 15 }
-		{ item: "minecraft:scute", weight: 30 }
-		{ item: "twilightforest:hollow_oak_sapling", weight: 19 }
-		{ item: "minecraft:golden_apple", weight: 10 }
+		{ item: "byg:ametrine_cluster", weight: 30.0f }
+		{ item: "byg:raw_pendorite", weight: 30.0f }
+		{ item: "nethersdelight:stuffed_hoglin", weight: 50.0f }
+		{ item: "ars_nouveau:greater_experience_gem", weight: 50.0f }
+		{ item: "byg:emeraldite_shards", weight: 30.0f }
+		{ item: "minecraft:heart_of_the_sea", weight: 10.0f }
+		{ item: "minecraft:name_tag", weight: 45.0f }
+		{ item: "ars_nouveau:source_gem", weight: 20.0f }
+		{ item: "minecraft:phantom_membrane", weight: 30.0f }
+		{ item: "minecraft:ender_pearl", weight: 20.0f }
+		{ item: "minecraft:diamond", count: 3, weight: 20.0f }
+		{ item: "minecraft:emerald", count: 5, weight: 15.0f }
+		{ item: "minecraft:scute", weight: 30.0f }
+		{ item: "twilightforest:hollow_oak_sapling", weight: 19.0f }
+		{ item: "minecraft:golden_apple", weight: 10.0f }
 		{ item: "create:blaze_cake" }
 		{
 			item: {
@@ -29,8 +29,8 @@
 				}
 			}
 		}
-		{ item: "nethersdelight:nether_skewer", weight: 10 }
-		{ item: "glassential:glass_ethereal", count: 2, weight: 4 }
+		{ item: "nethersdelight:nether_skewer", weight: 10.0f }
+		{ item: "glassential:glass_ethereal", count: 2, weight: 4.0f }
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "ars_nouveau:amethyst_golem_charm" }
 		{ item: "pipez:advanced_upgrade" }

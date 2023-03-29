@@ -3768,7 +3768,7 @@
 1673,nether,minecraft:warped_forest,AMBIENT,sprout:bounce_bug,25,1,4
 1686,nether,minecraft:crimson_forest,AMBIENT,sprout:bounce_bug,25,1,4
 987,plains,minecraft:meadow,AMBIENT,sprout:elephant,10,0,1
-195,swamp,minecraft:swamp,CREATURE,swampier_swamps:dragonfly,15,3,6
+195,swamp,minecraft:swamp,CREATURE,swampier_swamps:dragonfly,10,3,6
 3565,none,twilightforest:forest,CREATURE,twilightforest:bighorn_sheep,12,4,4
 3578,none,twilightforest:dense_forest,CREATURE,twilightforest:bighorn_sheep,12,4,4
 3591,none,twilightforest:firefly_forest,CREATURE,twilightforest:bighorn_sheep,12,4,4

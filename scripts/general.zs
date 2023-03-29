@@ -211,7 +211,7 @@ var removeNope = [
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
     <item:pipez:universal_pipe>,
-    <item:luggage:jukebox_luggage>,
+//    <item:luggage:jukebox_luggage>,
     <item:contact:green_postbox>,
     <item:contact:red_postbox>,
     <item:contact:center_mailbox>,
@@ -1140,3 +1140,18 @@ craftingTable.addShapeless("quarkazaplanks", <item:quark:azalea_planks>, [<item:
 craftingTable.addShapeless("quarkazastriplog", <item:quark:stripped_azalea_log>, [<item:minecraft:moss_block>, <item:ecologics:stripped_azalea_log>]);
 
 craftingTable.addShapeless("quarkazastripwood", <item:quark:stripped_azalea_wood>, [<item:minecraft:moss_block>, <item:ecologics:stripped_azalea_wood>]);
+
+// Walnut tagging and recipes
+
+<tag:items:forge:nuts>.add(<item:caupona:walnut>);
+<tag:items:forge:nuts/walnut>.add(<item:caupona:walnut>);
+
+craftingTable.remove(<item:delightful:honey_glazed_walnut>);
+
+craftingTable.addShapeless("honey_walnut", <item:delightful:honey_glazed_walnut> * 3, [<tag:items:forge:nuts/walnut>, <tag:items:forge:nuts/walnut>, <tag:items:forge:nuts/walnut>, <item:minecraft:honey_bottle>]);
+
+// Mermod Crafting Changes
+
+craftingTable.remove(<item:mermod:sea_crystal>);
+
+craftingTable.addShapeless("seacrystal", <item:mermod:sea_crystal> * 4, [<item:endrem:guardian_eye>, <item:minecraft:heart_of_the_sea>]);
