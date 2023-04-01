@@ -1066,8 +1066,8 @@
 		}
 		{
 			icon: "minecraft:cake"
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: 6.5d
 			description: ["Each a bunch of cake! It's a delicious treat and you deserve it."]
 			id: "78A59A17FEDDE305"
 			tasks: [{
@@ -1498,12 +1498,13 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 2.0d
 			shape: "rsquare"
 			description: [
 				"The mod &lCaupona&r adds a lot of new recipes and ways to cook them."
 				"Although quests may be added in the future, for now &6please read the guidebook&r to learn how the mod works."
+				"&dQuests for this mod are currently being developed&r."
 			]
 			size: 2.0d
 			id: "23A1554470B97991"
@@ -1540,8 +1541,8 @@
 		}
 		{
 			title: "Cooking with Create"
-			x: 3.0d
-			y: 4.5d
+			x: 2.25d
+			y: 3.75d
 			shape: "gear"
 			description: [
 				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
@@ -1565,6 +1566,145 @@
 				id: "6A0AE4E69D14B683"
 				type: "item"
 				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			title: "Brew Some Booze"
+			x: 8.0d
+			y: 7.0d
+			subtitle: "party responsibly!"
+			description: [
+				"Time to put that Keg to use! &bMead&r grants the effect &dSweetheart&r, which increases all incoming healing."
+				"&bRice Wine&r gives &dSatisfaction&r, which causes Hunger to regen the same way Health does."
+			]
+			dependencies: ["6347F33BF36A112E"]
+			id: "6DF8D73EB3A4C0B6"
+			tasks: [
+				{
+					id: "433D4EB8693BD179"
+					type: "item"
+					item: "brewinandchewin:mead"
+				}
+				{
+					id: "02E42A39C5F5F67B"
+					type: "item"
+					item: "brewinandchewin:rice_wine"
+				}
+			]
+			rewards: [
+				{
+					id: "09F81A50FCC395DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "0EDC7CD5F0EB4938"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1739670786502713488L
+				}
+			]
+		}
+		{
+			title: "Obtain a Keg"
+			x: 5.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
+				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
+			]
+			size: 2.0d
+			id: "166F53EED3372358"
+			tasks: [
+				{
+					id: "29306B1442FA29F0"
+					type: "item"
+					item: "brewinandchewin:keg"
+				}
+				{
+					id: "2D17F5FF72E0E07E"
+					type: "item"
+					item: "brewinandchewin:tankard"
+				}
+			]
+			rewards: [
+				{
+					id: "48ED13802D196F7B"
+					type: "item"
+					item: "minecraft:sweet_berries"
+					count: 5
+				}
+				{
+					id: "2202874F92B1BC7C"
+					type: "item"
+					item: "minecraft:sugar"
+					count: 10
+				}
+				{
+					id: "17094E829617176D"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Heat and Cool Your Keg"
+			x: 7.5d
+			y: 5.5d
+			subtitle: "things are heating up"
+			description: [
+				"Place &bMagma Blocks&r around your &bKeg&r to raise the temperature and craft new brews! The more blocks you use, the higher the heat."
+				"With this method, you can even craft &bCheeses&r and &bFudge&r."
+				"You can also &acool down&r your &bKeg&r by placing &bIce Blocks&r around it instead! This will allow you to make things like &bPickles&r."
+			]
+			dependencies: ["166F53EED3372358"]
+			id: "6347F33BF36A112E"
+			tasks: [{
+				id: "77682E446D5BB282"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6C100CB15AA30F6B"
+				type: "item"
+				item: "minecraft:packed_ice"
+				count: 4
+			}]
+		}
+		{
+			title: "Make Some Cheese"
+			x: 6.5d
+			y: 7.0d
+			subtitle: "not another cheesy pun..."
+			description: [
+				"Cheese can be created in the Keg, but must &abe aged before it can be eaten&r. Place the Cheese out to let it ripen."
+				"Once it's ripe, you can place it on a &bCutting Board&r to obtain &bCheese Wedges&r to cook with."
+				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
+				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
+			]
+			dependencies: ["6347F33BF36A112E"]
+			id: "0593C1D467DB38E3"
+			tasks: [{
+				id: "026310FB86DCF6D3"
+				type: "item"
+				title: "Any #crafttweaker:cheeses"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:cheeses"
+					}
+				}
+			}]
+			rewards: [{
+				id: "38348E2ABC89F5F0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
 			}]
 		}
 	]

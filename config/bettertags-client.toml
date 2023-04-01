@@ -3,7 +3,7 @@
 	#Show mod name in tooltip.  Default: true
 	showModName = true
 	#Show nbt length, in bytes, in the tooltip.  Default: true
-	showNBTLength = true
+	showNBTLength = false
 	#Show NBT and Tags only if Advanced Tooltips (F3 + h) is on.  Default: true
-	showAsAdvanced = false
+	showAsAdvanced = true
 

@@ -1416,6 +1416,11 @@
 					item: "minecraft:skeleton_skull"
 					count: 5
 				}
+				{
+					id: "2B8B87F20448CF1A"
+					type: "item"
+					item: "minecraft:skeleton_spawn_egg"
+				}
 			]
 		}
 		{
@@ -1623,6 +1628,11 @@
 					exclude_from_claim_all: true
 					table_id: 8808494820591225409L
 				}
+				{
+					id: "46F7C59C3BD0BCBA"
+					type: "item"
+					item: "minecraft:zombie_spawn_egg"
+				}
 			]
 		}
 		{
@@ -1701,6 +1711,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "5CF1D8687CF1180D"
+					type: "item"
+					item: "minecraft:enderman_spawn_egg"
 				}
 			]
 		}
@@ -1817,6 +1832,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "36D89FBD81444CE5"
+					type: "item"
+					item: "minecraft:drowned_spawn_egg"
 				}
 			]
 		}

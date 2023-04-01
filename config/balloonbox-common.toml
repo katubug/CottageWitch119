@@ -1,0 +1,15 @@
+
+["Balloon Settings"]
+	#Range: 1 ~ 300
+	"Average Block Height Balloons Float Above the Ground" = 20
+	#Range: 0 ~ 10
+	"Max Balloon Movement Speed" = 3
+	"Rare PURPLE Balloon with Extra Valuable Loot can Spawn" = true
+	#Range: 1 ~ 100
+	"Percent Chance of a Rare Balloon to Spawn" = 10
+	"If a Balloon Chest falls into Water, it will be lost" = false
+	"If a Balloon Chest falls into Lava, it will be lost" = true
+
+	["Balloon Settings"."Balloons Draw from the Simple Dungeon Loot Table"]
+		" Rare Balloon's Draw from the End City Loot Table" = true
+

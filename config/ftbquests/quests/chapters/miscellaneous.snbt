@@ -1245,6 +1245,47 @@
 				item: "mermod:ursula_shell_modifier"
 			}]
 		}
+		{
+			title: "Apple Crates for Commerce and Deco!"
+			x: 6.0d
+			y: 7.0d
+			description: [
+				"If you're playing with others, you can use Crates from the &lApple Crates&r mod to &asell items to one another&r!"
+				"{image:cottagewitch:textures/applecrates.png width:200 height:130 align:1}"
+				"A) This input is &athe item you want to receive&r as payment. Place one into the slot."
+				"B) This is the &aitem you're trading&r. Stack size matters - in this example the trade is &a1 emerald for 64 cheeseburgers&r."
+				"C) This is &ayour personal inventory&r."
+				"D) You must &6press this button to lock in your trade&r."
+				"E) This is the &ainventory of the crate&r. Place all your items for sale here."
+				"F) This is where your &apayment is stored&r. As people purchase from you, the items they use to pay will go here."
+			]
+			dependencies: ["70C4F17973F6492E"]
+			id: "5C5768D4346FD3FE"
+			tasks: [{
+				id: "29D09AD08884A9A7"
+				type: "item"
+				title: "Any #crafttweaker:crates"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:crates"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00A8A4C42C977F33"
+					type: "item"
+					item: "quark:apple_crate"
+				}
+				{
+					id: "7B6194CD7C6965CF"
+					type: "item"
+					item: "applecrates:dark_oak_crate"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

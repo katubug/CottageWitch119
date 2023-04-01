@@ -9,18 +9,18 @@ customization-meta {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/floralborderbackgroundgrey.png
-  action = texturizebackground
-}
-
-customization {
-  action = setscale
-  scale = 2
+  name = mainmenu_slideshow
+  action = setbackgroundslideshow
 }
 
 customization {
   keepaspectratio = false
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
 }
 
 customization {
@@ -54,9 +54,9 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -1
+  x = 0
   action = movebutton
-  y = 38
+  y = 37
 }
 
 customization {
@@ -68,33 +68,27 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton2pressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton2.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton2pressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton2.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 134
+  x = 123
   action = movebutton
-  y = 152
+  y = 154
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  width = 40
+  width = 25
   action = resizebutton
-  height = 40
+  height = 25
 }
 
 customization {
@@ -108,8 +102,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavaccesspressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavaccess.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/miniaccesspressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/miniaccess.png
 }
 
 customization {
@@ -157,17 +151,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueleftpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueleft.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/blueleftpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/blueleft.png
 }
 
 customization {
@@ -188,33 +176,27 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/bluerightpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/blueright.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bluerightpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/blueright.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 80
+  x = 87
   action = movebutton
-  y = 152
+  y = 154
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  width = 40
+  width = 25
   action = resizebutton
-  height = 40
+  height = 25
 }
 
 customization {
@@ -228,8 +210,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavlanguagepressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavlanguage.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minilanguagepressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minilanguage.png
 }
 
 customization {
@@ -240,10 +222,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -107
+  orientation = mid-right
+  x = -236
   action = movebutton
-  y = -55
+  y = -51
 }
 
 customization {
@@ -255,17 +237,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton1pressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/menubutton1.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1.png
 }
 
 customization {
@@ -286,17 +262,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseleftpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseleft.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseleftpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseleft.png
 }
 
 customization {
@@ -322,16 +292,16 @@ customization {
   identifier = %id=376346%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 23
+  x = 51
   action = movebutton
-  y = 152
+  y = 154
 }
 
 customization {
   identifier = %id=376346%
-  width = 40
+  width = 25
   action = resizebutton
-  height = 40
+  height = 25
 }
 
 customization {
@@ -345,8 +315,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavquarkpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/lavquark.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/miniquarkpressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/miniquark.png
 }
 
 customization {
@@ -379,12 +349,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 471
+  hidden = true
+  x = 238
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 69673f7c-ac7a-4f80-bf8d-ef6607b68f9e1669925873483
-  y = 430
+  y = 280
   height = 9
 }
 
@@ -427,9 +397,9 @@ customization {
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roserightpressed.png
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roserightpressed.png
   description = Host a server with Akliz and support the modpack!
-  label = 
+  label = Host a Server
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 100
@@ -437,7 +407,7 @@ customization {
   actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   action = addbutton
   y = 74
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/roseright.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseright.png
   value = https://www.akliz.net/cottagewitch
   height = 40
 }
@@ -457,28 +427,28 @@ customization {
   auto_cape = false
   is_baby = false
   height = 108
-  orientation = top-left
+  orientation = bottom-left
   copy_client_player = true
   headrotationy = 0.0
   headrotationx = 0.0
   skinurl = http://textures.minecraft.net/texture/beaa42994fc5695a67939a3933c139b11b6483fdae3557f9b82d02789f71a527
   crouching = false
-  x = 531
+  x = 42
   width = 36
   parrot_left_shoulder = false
-  y = 193
+  y = -158
   parrot = false
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/cottagewitchicontransparent.png
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/cottagewitchicontransparent.png
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 35
-  width = 130
+  x = 53
+  width = 100
   action = addtexture
-  actionid = 474ea096-8db8-40a3-b48d-07521b13fa411680030714221
-  y = -138
-  height = 130
+  actionid = b097d754-3506-4529-94c2-5b8afcfef38a1680210548641
+  y = -95
+  height = 100
 }
 

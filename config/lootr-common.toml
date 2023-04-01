@@ -33,7 +33,7 @@ loot_structure_blacklist = []
 disable_break = false
 #when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
 power_comparators = true
-#lootr chests cannot be destroyed by explosions
+#lootr chests cannot be destroyed by creeper or TNT explosions
 blast_resistant = false
 #how long (in ticks) a decaying loot containers should take to decay (default 5 minutes = 5 * 60 * 20)
 #Range: > 0
@@ -61,4 +61,11 @@ refresh_dimensions = []
 refresh_structures = []
 #overriding refresh_loot_tables, refresh_modids and refresh_dimensions: all chests will refresh after being opened for the first time
 refresh_all = false
+#lootr chests cannot be destroyed by any explosion
+blast_immune = false
+#prevent notifications of decaying or refreshed chests
+disable_notifications = false
+#maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)
+#Range: > -1
+notification_delay = 600
 

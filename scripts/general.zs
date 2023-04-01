@@ -276,9 +276,9 @@ for item in pearlnecklaces {
 craftingTable.remove(item);
 }
 
-craftingTable.addShapeless("pearl2", <item:crittersandcompanions:pearl_necklace_2>, [<item:crittersandcompanions:pearl_necklace_2>, <item:minecraft:ender_pearl>]);
+craftingTable.addShapeless("pearl2", <item:crittersandcompanions:pearl_necklace_2>, [<item:crittersandcompanions:pearl_necklace_1>, <item:minecraft:ender_pearl>]);
 
-craftingTable.addShapeless("pearl3", <item:crittersandcompanions:pearl_necklace_3>, [<item:crittersandcompanions:pearl_necklace_2>, <item:minecraft:heart_of_the_sea>]);
+craftingTable.addShapeless("pearl3", <item:crittersandcompanions:pearl_necklace_3>, [<item:crittersandcompanions:pearl_necklace_2>, <item:mermod:glowing_pearl_modifier>]);
 
 // Making Mysterious Worm craftable
 
@@ -706,6 +706,7 @@ var hotBlocks = [
 
 for item in hotBlocks {
     <tag:blocks:farmersdelight:heat_sources>.add(item);
+    <tag:blocks:brewinandchewin:hot_blocks>.add(item);
     <tag:blocks:alexsmobs:froststalker_fears>.add(item);
 }
 
@@ -1155,3 +1156,49 @@ craftingTable.addShapeless("honey_walnut", <item:delightful:honey_glazed_walnut>
 craftingTable.remove(<item:mermod:sea_crystal>);
 
 craftingTable.addShapeless("seacrystal", <item:mermod:sea_crystal> * 4, [<item:endrem:guardian_eye>, <item:minecraft:heart_of_the_sea>]);
+
+// Apple crate tags
+
+<tag:items:crafttweaker:crates>.add(
+    <item:applecrates:oak_crate>,
+    <item:applecrates:birch_crate>,
+    <item:applecrates:spruce_crate>,
+    <item:applecrates:acacia_crate>,
+    <item:applecrates:jungle_crate>,
+    <item:applecrates:dark_oak_crate>,
+    <item:applecrates:crimson_crate>,
+    <item:applecrates:warped_crate>
+);
+
+// Add Create support for Cheeses
+
+// HauntingManager.addRecipe(name as string, outputs as Percentaged<IItemStack>[], input as IIngredient, duration as int) as void
+
+<recipetype:create:haunting>.addRecipe("hauntedflaxencheese", [<item:brewinandchewin:flaxen_cheese_wheel> % 100], <item:brewinandchewin:unripe_flaxen_cheese_wheel>, 200);
+
+<recipetype:create:haunting>.addRecipe("hauntedscarletcheese", [<item:brewinandchewin:scarlet_cheese_wheel> % 100], <item:brewinandchewin:unripe_scarlet_cheese_wheel>, 200);
+
+//Make Cheese Compactable
+
+// CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as Percentaged<IItemStack>[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int) as void
+
+<recipetype:create:compacting>.addRecipe("compactedflaxencheese", <constant:create:heat_condition:heated>, [<item:brewinandchewin:unripe_flaxen_cheese_wheel> % 100], [<item:minecraft:brown_mushroom> * 2, <item:minecraft:sugar>], [<fluid:minecraft:milk> * 1000], 4000);
+
+<recipetype:create:compacting>.addRecipe("compactedscarletcheese", <constant:create:heat_condition:heated>, [<item:brewinandchewin:unripe_scarlet_cheese_wheel> % 100], [<item:minecraft:crimson_fungus> * 2, <item:minecraft:sugar>], [<fluid:minecraft:milk> * 1000], 4000);
+
+
+// Add Cheese Wheel Tags
+
+<tag:items:crafttweaker:cheeses>.add(
+    <item:brewinandchewin:unripe_flaxen_cheese_wheel>,
+    <item:brewinandchewin:unripe_scarlet_cheese_wheel>
+);
+
+// Soul Beads and other Soul Stuff
+
+craftingTable.remove(<item:deeperdarker:soul_elytra>);
+craftingTable.addShaped("soulelytra", <item:deeperdarker:soul_elytra>, [
+    [<item:deeperdarker:sculk_bone>,<item:alexsmobs:skreecher_soul>, <item:deeperdarker:sculk_bone>],
+    [<item:deeperdarker:soul_dust>, <item:minecraft:elytra>, <item:deeperdarker:soul_dust>],
+    [<item:quark:soul_bead>, <item:deeperdarker:soul_crystal>, <item:quark:soul_bead>]
+]);
