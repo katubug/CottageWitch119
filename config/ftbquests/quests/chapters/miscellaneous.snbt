@@ -35,8 +35,8 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			width: 9.0d
-			height: 9.0d
+			width: 11.0d
+			height: 11.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgmiscteal.png"
 			hover: [ ]
@@ -48,8 +48,8 @@
 	quests: [
 		{
 			title: "Snail Mail"
-			x: -6.0d
-			y: 1.5d
+			x: -6.75d
+			y: 2.25d
 			shape: "hexagon"
 			subtitle: "A way to communicate in multiplayer"
 			description: [
@@ -97,8 +97,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: -2.5d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Do you wanna build a...uh...sandcastle?"
 			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
@@ -118,8 +118,8 @@
 		{
 			title: "Save your EXP"
 			icon: "spelunkery:carved_nephrite"
-			x: -3.0d
-			y: -1.5d
+			x: -3.75d
+			y: -2.25d
 			shape: "hexagon"
 			subtitle: "Unfortunately not the experience you can put on your resume"
 			description: [
@@ -173,7 +173,7 @@
 		{
 			title: "Obtain some Iron Grates"
 			x: -2.5d
-			y: -0.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Well isn't that just grate"
 			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
@@ -193,8 +193,8 @@
 		}
 		{
 			title: "Obtain an Ancient Tome"
-			x: -4.5d
-			y: 1.5d
+			x: -3.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "I tome you so"
 			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
@@ -218,8 +218,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Lots of things can go in bottles."
 			description: [
@@ -240,7 +240,7 @@
 		}
 		{
 			x: -2.5d
-			y: 1.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
 			description: [
@@ -262,8 +262,8 @@
 		}
 		{
 			title: "Capture Time in a Bottle"
-			x: -4.0d
-			y: 0.5d
+			x: -2.0d
+			y: -1.0d
 			shape: "hexagon"
 			description: [
 				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
@@ -298,8 +298,8 @@
 		}
 		{
 			title: "Transport your Mobs"
-			x: -7.0d
-			y: -1.5d
+			x: -7.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Catch a running cow and put it in your pocket"
 			description: [
@@ -320,8 +320,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -0.5d
+			x: -8.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: ["The &bMob Capture Device Launcher&r will fire &bCapture Devices&r at range, allowing you to catch mobs without needing to get close! &6Switch modes by shift+right clicking&r to decide whether to capture or release."]
 			dependencies: ["1E6176C9919F1D06"]
@@ -343,8 +343,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.5d
+			x: -6.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Despite all my rage, I am still just a...oh you know"
 			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
@@ -370,8 +370,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -1.5d
+			x: -5.5d
+			y: -3.0d
 			shape: "octagon"
 			description: [
 				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
@@ -393,7 +393,7 @@
 		}
 		{
 			x: -3.0d
-			y: 0.5d
+			y: -1.0d
 			shape: "hexagon"
 			description: [
 				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
@@ -420,8 +420,8 @@
 		}
 		{
 			title: "Roughing It"
-			x: -4.0d
-			y: 2.5d
+			x: -2.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
 			description: [
@@ -450,8 +450,8 @@
 		}
 		{
 			title: "Daytime naptime!"
-			x: -5.0d
-			y: 2.5d
+			x: -3.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["Make a &bHammock&r to &asleep through the day&r, making it night easily. Then, get up to shenanigans!"]
 			id: "4BCAADA647D7D85A"
@@ -477,8 +477,8 @@
 		}
 		{
 			title: "Stay Connected"
-			x: -5.5d
-			y: -0.5d
+			x: -7.0d
+			y: -1.5d
 			shape: "hexagon"
 			description: [
 				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
@@ -518,8 +518,8 @@
 		}
 		{
 			title: "Take Your Biomes With You"
-			x: -7.5d
-			y: 1.5d
+			x: -8.5d
+			y: 2.0d
 			shape: "hexagon"
 			description: [
 				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
@@ -1179,8 +1179,8 @@
 		}
 		{
 			title: "Keeping in \"Contact\" via Snail Mail"
-			x: -7.0d
-			y: 2.5d
+			x: -8.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: [
 				"&bPostcards&r and &bParcels&r are from the mod &lContact&r. Unfortunately, this mod's &bMailboxes&r have a &dbad habit of coming unclaimed&r, so that &dno one can receive mail&r. However, they can still be sent via &lSnail Mail&r, an idea come up with by a very smart witch."
@@ -1207,8 +1207,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -0.5d
+			x: -8.0d
+			y: 3.0d
 			shape: "rsquare"
 			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
 			id: "1DB7D51E15454923"
@@ -1227,8 +1227,8 @@
 		}
 		{
 			title: "Sea Witch"
-			x: -4.5d
-			y: -0.5d
+			x: -5.5d
+			y: -1.5d
 			description: [
 				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
 				"To craft it, you'll need this &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
@@ -1285,6 +1285,70 @@
 					item: "applecrates:dark_oak_crate"
 				}
 			]
+		}
+		{
+			x: -3.75d
+			y: 2.25d
+			shape: "rsquare"
+			subtitle: "you now owe money to a raccoon"
+			description: ["Have you ever seen a &aflying chest attached to a balloon&r? You can &6shoot them down&r! Keep your bow at your side."]
+			size: 1.5d
+			id: "50E79E7487CD3738"
+			tasks: [{
+				id: "6128DFEB0FCB36B4"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						balloonTYPE: 1
+						display: {
+							Name: "{\"translate\":\"Balloon Chest\"}"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "42C1EFF33EB5B860"
+					type: "item"
+					item: "starbunclemania:star_balloon"
+				}
+				{
+					id: "7F5461196EF66CDA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["If you're incredibly lucky, maybe you can land a &bRare Balloon Box&r!"]
+			dependencies: ["50E79E7487CD3738"]
+			id: "218B13F9470F9733"
+			tasks: [{
+				id: "5FE72F16468E2FDC"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						balloonTYPE: 5
+						display: {
+							Name: "{\"translate\":\"Rare Balloon Chest\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "4BF620BE9C053C6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 	]
 	quest_links: [ ]

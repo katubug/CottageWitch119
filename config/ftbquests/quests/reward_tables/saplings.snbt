@@ -82,5 +82,8 @@
 		{ item: "caupona:walnut_sapling" }
 		{ item: "hibernalherbs:myqueste_sapling" }
 		{ item: "ars_elemental:yellow_archwood_sapling" }
+		{ item: "culturaldelights:avocado_sapling" }
+		{ item: "vinery:cherry_sapling" }
+		{ item: "vinery:old_cherry_sapling" }
 	]
 }

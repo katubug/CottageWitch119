@@ -145,8 +145,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 6.5d
+			x: -2.5d
+			y: 7.0d
 			shape: "octagon"
 			description: ["This quaint &cFisherman's Lodge&r is water-bound, and is a great place to go fishing."]
 			id: "653C7B872B33A477"
@@ -164,8 +164,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 6.5d
+			x: 5.0d
+			y: 7.0d
 			shape: "octagon"
 			description: [
 				"The &cAncient Mines&r been to be seen to be believed. A massive underground chasm, once inhabited by those who delved too greedily and too deep. Beware what now lives there."
@@ -219,8 +219,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 4.0d
+			x: 5.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"The &cPillager Fortress&r is best taken on with a group of friends. However, a particularly capable or tenacious witch could certainly try to go it alone."
@@ -268,8 +268,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: 2.5d
 			shape: "octagon"
 			description: [
 				"To find the &cLabyrinth of the Serpent&r, you must purchase a map from a Villager."
@@ -331,7 +331,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: 5.0d
 			shape: "octagon"
 			description: ["Locate the &cApothecary's Abode&r, a large structure filled with bizarre machines and absolutely loaded with &eIllagers&r."]
@@ -383,8 +383,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: -3.5d
+			y: 5.0d
 			shape: "octagon"
 			description: ["Would your life be complete without visiting a &cWitch's Stump&r? No. Unfortunately the coven that makes their home there is an unfriendly one. But once you conquer them, you can use their items for your own purposes."]
 			id: "28AAD7D3C76F2FE2"
@@ -402,8 +402,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 5.0d
+			x: -2.5d
+			y: 3.5d
 			shape: "octagon"
 			description: ["Climb the &cWizard's Tower&r and you may find what happened to its previous inhabitant. Also, beware of the basement."]
 			id: "12A79C72CA9EF466"
@@ -424,8 +424,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.5d
+			x: -1.5d
+			y: 5.5d
 			shape: "octagon"
 			description: [
 				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks&r, but it also contains the cargo it was transporting."
@@ -569,8 +569,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 7.5d
+			x: -5.0d
+			y: 6.5d
 			shape: "octagon"
 			description: ["Discover an &cEnchanting Tower&r, a small but cozy spire featuring a magical twist."]
 			id: "418199C728BB5312"
@@ -652,7 +652,7 @@
 		}
 		{
 			x: 2.0d
-			y: 7.0d
+			y: 5.5d
 			shape: "octagon"
 			description: [
 				"Find a &cFortress of the Undead&r, and survive!*"
@@ -716,33 +716,6 @@
 				exclude_from_claim_all: true
 				table_id: 8808494820591225409L
 			}]
-		}
-		{
-			title: "Find an Underground Village"
-			x: 5.0d
-			y: 5.5d
-			description: ["In this world, not every villager loves the sunlight. &cSubterranean Villages&r may be found rarely throughout the world. You may find them surprisingly unconcerned with their unconventional lifestyle."]
-			id: "73836C5FE0C5A1BE"
-			tasks: [{
-				id: "5C61B30DBC372EC7"
-				type: "structure"
-				icon: "minecraft:stone"
-				structure: "underground_villages:underground_village"
-			}]
-			rewards: [
-				{
-					id: "57EFB7854A372224"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8035711958862449784L
-				}
-				{
-					id: "4E65C6471D37F233"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-			]
 		}
 		{
 			x: -11.5d

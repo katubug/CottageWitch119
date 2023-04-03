@@ -230,7 +230,9 @@ var removeNope = [
     <item:contact:gray_mailbox>,
     <item:contact:light_gray_mailbox>,
     <item:contact:cyan_mailbox>,
-    <item:contact:white_mailbox>
+    <item:contact:white_mailbox>,
+    <item:minecraft:splash_potion>.withTag({Potion: "davespotioneering:milk"}),
+    <item:minecraft:lingering_potion>.withTag({Potion: "davespotioneering:milk"})
 ] as IItemStack[];
 
 for item in removeNope {
@@ -308,15 +310,6 @@ brewing.addRecipe(bugp, <item:alexsmobs:leafcutter_ant_pupa>, awk);
 brewing.addRecipe(poi, <item:minecraft:poisonous_potato>, awk);
 
 brewing.addRecipe(lpoi, <item:minecraft:redstone>, poi);
-
-<tag:items:forge:cheese>.add(
-    <item:caupona:scalded_milk>,
-    <item:minecraft:milk_bucket>,
-    <item:farmersdelight:milk_bottle>,
-    <item:hexerei:milk_bottle>,
-    <item:minecraft:potion>.withTag({Potion: "davespotioneering:milk"}),
-    <item:caupona:milk>
-);
 
 // Burger recipes
 
@@ -701,16 +694,31 @@ var hotBlocks = [
     <block:byg:boric_campfire>,
     <block:decorative_blocks:brazier>,
     <block:decorative_blocks:soul_brazier>,
-    <block:byg:cryptic_campfire>
+    <block:byg:cryptic_campfire>,
+    <block:vinery:stove>,
+    <block:caupona:brick_hypocaust_firebox>,
+    <block:caupona:opus_incertum_hypocaust_firebox>,
+    <block:caupona:opus_latericium_hypocaust_firebox>,
+    <block:caupona:stone_brick_hypocaust_firebox>,
+    <block:caupona:mud_kitchen_stove>,
+    <block:caupona:brick_kitchen_stove>,
+    <block:caupona:opus_incertum_kitchen_stove>,
+    <block:caupona:opus_latericium_kitchen_stove>,
+    <block:caupona:stone_brick_kitchen_stove>,
+    <block:farmersdelight:stove>
 ] as Block[];
 
 for item in hotBlocks {
     <tag:blocks:farmersdelight:heat_sources>.add(item);
     <tag:blocks:brewinandchewin:hot_blocks>.add(item);
     <tag:blocks:alexsmobs:froststalker_fears>.add(item);
+    <tag:blocks:vinery:allows_cooking_pot_on>.add(item);
 }
 
-<tag:items:forge:seeds>.add(<item:farmersrespite:tea_seeds>);
+<tag:items:forge:seeds>.add(<item:farmersrespite:tea_seeds>,
+<item:culturaldelights:eggplant_seeds>,
+<item:culturaldelights:corn_kernels>,
+<item:culturaldelights:cucumber_seeds>);
 
 craftingTable.remove(<item:pipez:item_pipe>);
 
@@ -1202,3 +1210,54 @@ craftingTable.addShaped("soulelytra", <item:deeperdarker:soul_elytra>, [
     [<item:deeperdarker:soul_dust>, <item:minecraft:elytra>, <item:deeperdarker:soul_dust>],
     [<item:quark:soul_bead>, <item:deeperdarker:soul_crystal>, <item:quark:soul_bead>]
 ]);
+
+//Hide some unwanted categories
+
+//Jei.hideCategory(<resource:caupona:bowl_filling>);
+Jei.hideCategory(<resource:caupona:bowl_draining>);
+Jei.hideCategory(<resource:extendedmushrooms:fairy_ring>);
+
+//Dough tags
+
+<tag:items:minecraft:dough>.add(<item:culturaldelights:corn_dough>);
+<tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>, <item:vinery:dough>);
+
+// Rustic Dough Recipe
+
+craftingTable.remove(<item:vinery:dough>);
+craftingTable.addShapeless("rusticdough", <item:vinery:dough> * 2, 
+[<item:create:wheat_flour>,
+<item:create:wheat_flour>, 
+<item:spelunkery:salt>, 
+<item:minecraft:water_bucket>]);
+
+// Grape tags
+
+<tag:items:crafttweaker:grapes>.add(<item:vinery:red_grape>, <item:vinery:white_grape>);
+<tag:items:forge:fruits>.add(<item:vinery:red_grape>, <item:vinery:white_grape>);
+
+// Jelly Tags
+
+var jams = [
+<item:vinery:cherry_jam>,
+<item:vinery:apple_jam>,
+<item:vinery:sweetberry_jam>,
+<item:vinery:grape_jam>
+] as IItemStack[];
+
+for jam in jams{
+    <tag:items:forge:jams>.add(jam);
+    <tag:items:forge:jam>.add(jam);
+    <tag:items:forge:jellies>.add(jam);
+    <tag:items:forge:jelly>.add(jam);    
+}
+
+// Milk
+
+craftingTable.addShapeless("milktomilk", <item:farmersdelight:milk_bottle>, [<item:minecraft:potion>.withTag({Potion: "davespotioneering:milk"})]);
+
+brewing.removeRecipeByInputPotion(<potion:davespotioneering:milk>);
+
+// Tagging Figs
+
+<tag:items:forge:fruits>.add(<item:caupona:fig>);

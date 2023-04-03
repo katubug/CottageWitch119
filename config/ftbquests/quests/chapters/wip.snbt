@@ -1,0 +1,145 @@
+{
+	id: "35FE7BAE212BD14E"
+	group: ""
+	order_index: 0
+	filename: "wip"
+	title: "WIP"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "229C0177487B597A"
+			tasks: [{
+				id: "2D26CD8C2D10AE8F"
+				type: "stat"
+				stat: "minecraft:jump"
+				value: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			id: "372CB971CFD2BFA7"
+			tasks: [{
+				id: "00EA2A87474CE403"
+				type: "stat"
+				stat: "minecraft:raid_trigger"
+				value: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "6EE5387EAD21E705"
+			tasks: [{
+				id: "25C6FAD95670D51F"
+				type: "stat"
+				stat: "waystones:waystone_activated"
+				value: 1
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			id: "1FDD653A3C13DFDF"
+			tasks: [{
+				id: "1FB45C4A92CEC1C7"
+				type: "stat"
+				stat: "minecraft:fish_caught"
+				value: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			id: "060940588B650F1D"
+			tasks: [{
+				id: "4DED0D306FD66C39"
+				type: "stat"
+				stat: "minecraft:time_since_rest"
+				value: 1
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			id: "38285B9280444C60"
+			tasks: [{
+				id: "191D3E228208A0CB"
+				type: "stat"
+				stat: "minecraft:sneak_time"
+				value: 1
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			id: "7E2641B15D6AF49E"
+			tasks: [{
+				id: "16CAC410F6BBE772"
+				type: "stat"
+				stat: "minecraft:pig_one_cm"
+				value: 1
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			id: "7E961D086B3262E3"
+			tasks: [{
+				id: "5B8428FF14F8F075"
+				type: "stat"
+				stat: "minecraft:enchant_item"
+				value: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			id: "5B185B1B72278050"
+			tasks: [{
+				id: "5826833749DA8FAE"
+				type: "stat"
+				stat: "minecraft:raid_win"
+				value: 1
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			id: "4086571CAA144AE4"
+			tasks: [{
+				id: "36D029BDDD394442"
+				type: "stat"
+				stat: "twilightforest:bugs_squished"
+				value: 1
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			id: "66CDAE8FD3019598"
+			tasks: [{
+				id: "527268ABEC9E3616"
+				type: "stat"
+				stat: "minecraft:play_record"
+				value: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			id: "5A1DD637C09F0D13"
+			tasks: [{
+				id: "26A2431C7A0CBE9B"
+				type: "stat"
+				stat: "minecraft:pot_flower"
+				value: 1
+			}]
+		}
+	]
+	quest_links: [ ]
+}

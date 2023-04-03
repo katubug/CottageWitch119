@@ -26,7 +26,7 @@ dimension_blacklist = []
 #list of loot tables which shouldn't be converted (in the format of ["modid:loot_table", "othermodid:other_loot_table"])
 loot_table_blacklist = []
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
-loot_modid_blacklist = []
+loot_modid_blacklist = ["balloonbox"]
 #list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
 loot_structure_blacklist = []
 #prevent the destruction of Lootr chests except while sneaking in creative mode

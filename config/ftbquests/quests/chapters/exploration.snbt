@@ -5,6 +5,7 @@
 	filename: "exploration"
 	title: "Beginnings"
 	icon: "minecraft:grass_block"
+	subtitle: ["a very good place to start"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -57,12 +58,12 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 12.0d
+			x: -3.0d
+			y: 12.5d
 			width: 10.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "cottagewitch:textures/akliz.png"
+			image: "cottagewitch:textures/aklizbanner.png"
 			hover: [ ]
 			click: "https://www.akliz.net/cottagewitch"
 			dev: false
@@ -70,9 +71,9 @@
 		}
 		{
 			x: 5.0d
-			y: 8.0d
-			width: 6.0d
-			height: 6.0d
+			y: 8.5d
+			width: 8.0d
+			height: 8.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/tutorials.png"
 			hover: [ ]
@@ -442,8 +443,8 @@
 		}
 		{
 			title: "Extreme Sound Muffler"
-			x: 3.5d
-			y: 9.5d
+			x: 3.0d
+			y: 9.0d
 			shape: "gear"
 			subtitle: "Selective hearing. Literally."
 			description: [
@@ -458,8 +459,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 9.0d
+			x: 5.0d
+			y: 10.0d
 			shape: "gear"
 			subtitle: "Take a little look-see"
 			description: [
@@ -468,12 +469,60 @@
 				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
 				"This will let you view how to make anything in the game!"
 			]
-			size: 2.0d
+			size: 1.5d
 			id: "226D1B09B2958EFC"
 			tasks: [{
 				id: "70ED8357EEA2ACA4"
 				type: "checkmark"
 				title: "Get to know the mods"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			shape: "gear"
+			description: [
+				"You might be wondering where all the quests are, when your screen looks like this:"
+				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
+				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
+				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
+				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
+			]
+			size: 2.0d
+			min_width: 350
+			id: "51383D499E0DF0DA"
+			tasks: [{
+				id: "11A03582B84195D4"
+				type: "checkmark"
+				title: "Pin the Quest Categories"
+			}]
+			rewards: [{
+				id: "087C803B19537A4C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Pinning Other Things"
+			x: 7.5d
+			y: 9.0d
+			shape: "gear"
+			description: [
+				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
+				"Just &dbe warned that this overlaps your pinned Notes&r."
+				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
+			]
+			dependencies: ["51383D499E0DF0DA"]
+			id: "1E43FCEBA416DCFF"
+			tasks: [{
+				id: "65C18F6415665884"
+				type: "checkmark"
+				title: "Pin a Quest or Note"
+			}]
+			rewards: [{
+				id: "5D9376B26A3CE85B"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

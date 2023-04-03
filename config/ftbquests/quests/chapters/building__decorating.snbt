@@ -632,7 +632,7 @@
 			shape: "gear"
 			description: [
 				"One of the mods added is called &lEffortless Building&r. This allows you to build similarly to the way &bBuilding Gadgets&r do, but with a different set of functions."
-				"To access its building types, &6hold left CTRL&r and choose a mode from there. Have fun!"
+				"To access its building types, &6You'll need to bind the hotkey&r in your options, and then you can choose a mode from the radial menu once you press the hotkey. Have fun!"
 			]
 			size: 1.5d
 			id: "10844100547C60EE"

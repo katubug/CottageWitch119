@@ -254,6 +254,36 @@
 					type: "item"
 					item: "collectorsreap:pomegranate_crate"
 				}
+				{
+					id: "0C2A58FE05ABEE4C"
+					type: "item"
+					item: "culturaldelights:avocado_crate"
+				}
+				{
+					id: "1A0F4D927B8F0A64"
+					type: "item"
+					item: "culturaldelights:cucumber_crate"
+				}
+				{
+					id: "65F750C0E2B8159A"
+					type: "item"
+					item: "culturaldelights:pickle_crate"
+				}
+				{
+					id: "5EA6B5537664B758"
+					type: "item"
+					item: "culturaldelights:corn_cob_crate"
+				}
+				{
+					id: "542AC82A97801360"
+					type: "item"
+					item: "culturaldelights:eggplant_crate"
+				}
+				{
+					id: "611A8A518A5634F6"
+					type: "item"
+					item: "culturaldelights:white_eggplant_crate"
+				}
 			]
 			rewards: [
 				{
@@ -266,6 +296,50 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 8035711958862449784L
+				}
+				{
+					id: "37804E3EB83A5A7A"
+					type: "item"
+					item: {
+						id: "mcsa:magnus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66F2B5ABD87147F3"
+					type: "item"
+					item: {
+						id: "mcsa:magnus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E9AF9D548338732"
+					type: "item"
+					item: {
+						id: "mcsa:magnus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "570D4C783597351C"
+					type: "item"
+					item: {
+						id: "mcsa:magnus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -598,63 +672,91 @@
 					id: "421CB73C1AE799A5"
 					type: "item"
 					item: "farmersdelight:onion_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "55035A2527029547"
 					type: "item"
 					item: "farmersdelight:carrot_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "01215F6EE4B457A4"
 					type: "item"
 					item: "farmersdelight:potato_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "13803B6E5CB2DF76"
 					type: "item"
 					item: "farmersdelight:beetroot_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "5CE060E19611C1DE"
 					type: "item"
 					item: "farmersdelight:cabbage_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "241C1EBB473D9D1B"
 					type: "item"
 					item: "farmersdelight:tomato_crate"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "27019A5C04200225"
-					type: "item"
-					item: "quark:golden_apple_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "52AD3CA306639035"
 					type: "item"
 					item: "quark:apple_crate"
-					count: 64L
+					count: 10L
 					consume_items: true
 				}
 				{
 					id: "3BBA4F97ADF44CD9"
 					type: "item"
 					item: "prefab:item_carton_of_eggs"
-					count: 64L
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "335176CD3CC595F9"
+					type: "item"
+					item: "culturaldelights:avocado_crate"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "095EF4EE475C4250"
+					type: "item"
+					item: "culturaldelights:cucumber_crate"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "6D6FE18F9E75CBC3"
+					type: "item"
+					item: "culturaldelights:corn_cob_crate"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "30F3D5F7FA50469A"
+					type: "item"
+					item: "culturaldelights:eggplant_crate"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "02380DC77DCD3549"
+					type: "item"
+					item: "culturaldelights:white_eggplant_crate"
+					count: 10L
 					consume_items: true
 				}
 			]
@@ -677,48 +779,10 @@
 					table_id: 1739670786502713488L
 				}
 				{
-					id: "5BE1D43572ED1ABA"
+					id: "25673EACEF5A376C"
 					type: "item"
-					item: {
-						id: "mcsa:magnus_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "35F4DE7D50A5B54A"
-					type: "item"
-					item: {
-						id: "mcsa:magnus_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3EF10C73F799E73F"
-					type: "item"
-					item: {
-						id: "mcsa:magnus_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "45506AB831B5EC1A"
-					type: "item"
-					item: {
-						id: "mcsa:magnus_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "minecraft:emerald_block"
+					count: 10
 				}
 			]
 		}

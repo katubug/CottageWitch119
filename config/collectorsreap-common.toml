@@ -51,6 +51,31 @@
 	pomegranate_ice_cream = true
 	pomegranate_ice_cream_block = true
 	pomegranate_milkshake = true
+	adzuki_gummy = true
+	aloe_gummy = true
+	apple_gummy = true
+	banana_gummy = true
+	black_tea_gummy = true
+	chocolate_arils = true
+	chocolate_gummy = true
+	coffee_gummy = true
+	green_tea_gummy = true
+	lime_green_tea = true
+	lime_gummy = true
+	melon_gummy = true
+	mint_gummy = true
+	mint_limeade = true
+	passionfruit_gummy = true
+	pomegranate_bean_salad = true
+	pomegranate_black_tea = true
+	pomegranate_gummy = true
+	pomegranate_smoothie = true
+	pumpkin_gummy = true
+	strawberry_gummy = true
+	strawberry_jam_bun = true
+	vanilla_gummy = true
+	yellow_tea_gummy = true
+	yucca_gummy = true
 
 [Generation]
 	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Portobello to false above.

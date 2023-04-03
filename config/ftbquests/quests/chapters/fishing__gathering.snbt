@@ -336,6 +336,10 @@
 		{
 			x: -2.0d
 			y: 1.5d
+			description: [
+				"Persephone would surely be proud of you!"
+				"A pomegranate branch brings undiscovered wealth or new riches to the owner. You can also use dried pomegranate skins in abundance incenses."
+			]
 			dependencies: ["2093240CD42882CF"]
 			id: "015EA4B35A947259"
 			tasks: [{
@@ -353,6 +357,7 @@
 		{
 			x: -6.5d
 			y: 0.0d
+			description: ["Write a question on a fig leaf to receive a divinatory answer. If the leaf dries out slowly, then the answer is yes. If it dries out quickly, it's no, or is a bad omen. I'm not sure how quickly fig leaves are supposed to dry, though."]
 			dependencies: ["2093240CD42882CF"]
 			id: "0E2CC89B895C9494"
 			tasks: [{
@@ -370,6 +375,7 @@
 		{
 			x: -5.5d
 			y: -1.0d
+			description: ["A spell for curing toothache is to drive a nail into the trunk of a lime tree - but you must thank the lime tree first!"]
 			dependencies: ["2093240CD42882CF"]
 			id: "0D61BF5085BCEF31"
 			tasks: [{
@@ -387,6 +393,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
+			description: ["Cooking with Portobello mushrooms can be powerful magic if you are in need of emotional healing."]
 			dependencies: ["2093240CD42882CF"]
 			id: "56DF02D06E0FD715"
 			tasks: [{
@@ -404,6 +411,10 @@
 		{
 			x: -2.5d
 			y: 0.0d
+			description: [
+				"Historically, witches danced beneath the boughs of the walnut tree."
+				"Historically, witches danced beneath the boughs of the walnut tree. It is also said that giving someone a bag of walnuts will make all their dreams come true. This works especially well if their dream was to own a bag of walnuts."
+			]
 			dependencies: ["2093240CD42882CF"]
 			id: "5C5DF640A2605954"
 			tasks: [{
@@ -421,6 +432,7 @@
 		{
 			x: -7.0d
 			y: 1.5d
+			description: ["It is said that wolfberry allows for deep inner processing to happen without the need to consciously confront it."]
 			dependencies: ["2093240CD42882CF"]
 			id: "5A18AB9A4B6370A2"
 			tasks: [{
@@ -444,6 +456,9 @@
 			description: [
 				"Scattered around the world, you can find &bWild Crops&r growing."
 				"Find all of them to build your &alovely witchy garden&r!"
+				"Did you know that corn hung over a mirror will bring good luck to your household?"
+				"Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity."
+				"And carrots are said to promote... physical desire. *wink*"
 			]
 			size: 2.0d
 			id: "2093240CD42882CF"
@@ -490,6 +505,33 @@
 					icon: "farmersdelight:wild_onions"
 					block_type: 0
 					block: "farmersdelight:wild_onions"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "44DB742314C20457"
+					type: "questsadditions:break"
+					icon: "culturaldelights:wild_cucumbers"
+					block_type: 0
+					block: "culturaldelights:wild_cucumbers"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "44BBC1579C173631"
+					type: "questsadditions:break"
+					icon: "culturaldelights:wild_corn"
+					block_type: 0
+					block: "culturaldelights:wild_corn"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "1B2A4C08C5746E55"
+					type: "questsadditions:break"
+					icon: "culturaldelights:wild_eggplants"
+					block_type: 0
+					block: "culturaldelights:wild_eggplants"
 					value: 1L
 					checkItem: false
 				}
