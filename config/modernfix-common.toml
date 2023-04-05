@@ -1,0 +1,10 @@
+#These JEI plugins will be loaded on the main thread
+blacklist_async_jei_plugins = ["jepb:jei_plugin"]
+#Thread priority to use for the integrated server. By default this is one less than the client thread, to help prevent the server from lowering FPS.
+#Range: 1 ~ 10
+integratedServerPriority = 4
+#Whether Minecraft's built-in profiling logic should be enabled for resource reloading. Can help with diagnosing world load times.
+enable_debug_reloader = false
+#Rebuild blockstate cache asynchronously. Should work with most mods, but can be disabled.
+rebuild_blockstate_cache_async = true
+

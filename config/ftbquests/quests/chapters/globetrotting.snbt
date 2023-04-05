@@ -1291,6 +1291,113 @@
 				count: 5
 			}]
 		}
+		{
+			title: "Find a Forest Den"
+			x: 3.0d
+			y: 7.0d
+			shape: "octagon"
+			description: ["Cozy up to some bears in this lovely little den in the woods! It's probably totally safe! They're harmless! Probably!"]
+			id: "40FFFF9DE0AA9305"
+			tasks: [{
+				id: "41631CEFB083DB62"
+				type: "structure"
+				structure: "idas:animal_den/forest_den"
+			}]
+			rewards: [
+				{
+					id: "22490890E8407133"
+					type: "item"
+					item: "alexsmobs:bear_fur"
+					count: 4
+				}
+				{
+					id: "6CB25745B99F35B1"
+					type: "item"
+					item: "cnb:heal_spell_book_1"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			shape: "octagon"
+			description: [
+				"The &cTinker's Workshop&r appears to be a fairly innocuous place upon first glance. Perhaps an &eEngineer&r once lived here. Or perhaps someone a little less... sane."
+				"Beware of &ePillagers&r, and should you find any ladders down... well, &aproceed with caution&r. And maybe bring your broom."
+			]
+			id: "7ECEEEA9EB338ABC"
+			tasks: [{
+				id: "3E1DE7ABA49C6E39"
+				type: "advancement"
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "450E2792F21195C0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1032206960599939459L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "a caravan of festivities"
+			description: ["Should you happen upon a very large wagon, be sure to greet its inhabitants! These &ejolly fellows&r are nomadic people &abringing gifts&r to adventurers far and wide."]
+			id: "49665722F39B7A53"
+			tasks: [{
+				id: "46E10A7E9D1701CE"
+				type: "advancement"
+				advancement: "idas:winter_wagon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7A66844664FE5DC0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:starby_gift"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "07D6CAA445E14F38"
+					type: "item"
+					item: "supplementaries:present_red"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "octagon"
+			description: [
+				"&aDeep underground&r is the structure known as &cThe Nexus&r. This carved deepslate monstrosity contains broken portals to other worlds, such as the &cNether&r and &cThe Twilight Forest&r."
+				"These gateways are broken and in need of mending. Unfortunately it seems &amost are broken irreparably&r, and those worlds cannot be visited."
+			]
+			id: "5DD1FFEE7029315F"
+			tasks: [{
+				id: "50FFC388E982A772"
+				type: "advancement"
+				advancement: "idas:nexus"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "53CCA9A3E42F3241"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "0FF2E27C4B49653D"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 6
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

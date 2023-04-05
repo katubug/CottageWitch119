@@ -1703,6 +1703,33 @@
 				only_from_crafting: true
 			}]
 		}
+		{
+			x: 0.5d
+			y: 2.5d
+			shape: "octagon"
+			description: ["Did you know that &eUndead&r are susceptible to &aSpores&r and &aGrow&r spells? You should test it out sometime."]
+			id: "1614EF9C7E462CD9"
+			tasks: [{
+				id: "1483BD6D4B597C26"
+				type: "advancement"
+				advancement: "ars_elemental:spore_blossom"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "253E68C8CB0F45F7"
+					type: "item"
+					item: "minecraft:spore_blossom"
+					count: 3
+				}
+				{
+					id: "185E7572249B298E"
+					type: "item"
+					item: "ars_elemental:spore_blossom_up"
+					count: 3
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

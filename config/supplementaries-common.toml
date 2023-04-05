@@ -115,7 +115,7 @@
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
-		enabled = true
+		enabled = false
 
 #General settings
 [general]

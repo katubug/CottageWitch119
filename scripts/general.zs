@@ -1261,3 +1261,20 @@ brewing.removeRecipeByInputPotion(<potion:davespotioneering:milk>);
 // Tagging Figs
 
 <tag:items:forge:fruits>.add(<item:caupona:fig>);
+
+// Cheese tags
+
+<tag:items:forge:cheese>.add(<item:brewinandchewin:scarlet_cheese_wedge>, <item:brewinandchewin:flaxen_cheese_wedge>);
+
+// Fried Egg Recipe
+
+furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <item:duckling:duck_egg>, 1.0, 60);
+
+// Pouch fixing
+
+craftingTable.remove(<item:hibernalherbs:pouch_scratched>);
+craftingTable.addShaped("hibernalpouch", <item:hibernalherbs:pouch_scratched>, [
+    [<item:minecraft:air>, <tag:items:minecraft:flowers>, <item:minecraft:air>],
+    [<tag:items:forge:string>, <item:quark:seed_pouch>, <tag:items:forge:string>],
+    [<item:minecraft:air>, <tag:items:minecraft:flowers>, <item:minecraft:air>]
+]);

@@ -459,8 +459,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 10.0d
+			x: 3.75d
+			y: 10.5d
 			shape: "gear"
 			subtitle: "Take a little look-see"
 			description: [
@@ -521,6 +521,37 @@
 			}]
 			rewards: [{
 				id: "5D9376B26A3CE85B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			shape: "gear"
+			description: [
+				"{image:cottagewitch:textures/ftbdeathmarker.png width:100 height:70 align:1 fit:true}"
+				"Does this beam look familiar? Want to get rid of it? &6Follow these directions&r."
+				"In your inventory, look at the top left. You should see this map icon, pictured below. Click on that."
+				""
+				"{image:cottagewitch:textures/ftbmenu.png width:150 height:100 align:1}"
+				""
+				"Locate the &aSettings&r gear in the lower left, then click that."
+				"{image:cottagewitch:textures/ftbchunksettings.png width:150 height:75 align:1}"
+				""
+				"From here &6disable&r the options &d\"Create Waypoints on Death\"&r and &d\"Show Waypoints in World\"&r."
+				""
+				"{image:cottagewitch:textures/ftbchunksettings2.png width:100 height:10 align:1 fit:true}"
+			]
+			min_width: 300
+			id: "5FAC987075A81A8D"
+			tasks: [{
+				id: "66A2EE20A62B20BE"
+				type: "checkmark"
+				title: "Get rid of Death Marker Beams"
+			}]
+			rewards: [{
+				id: "3221B07C2CE46656"
 				type: "xp"
 				xp: 100
 			}]

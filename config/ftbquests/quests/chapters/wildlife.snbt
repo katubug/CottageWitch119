@@ -1898,6 +1898,68 @@
 				table_id: 6941837675484043489L
 			}]
 		}
+		{
+			x: -3.0d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			id: "3057155A3A2B5F47"
+			tasks: [{
+				id: "5D21FB1D6D4D7CDA"
+				type: "kill"
+				icon: "minecraft:prismarine_shard"
+				entity: "minecraft:elder_guardian"
+				value: 4L
+			}]
+			rewards: [
+				{
+					id: "57AEF83E18326ED4"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26C21B65560BD25A"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Meet the Snow Golem"
+			x: -11.0d
+			y: -3.0d
+			shape: "heart"
+			description: ["He's just a good boi. Don't let him stay out in the sun too long."]
+			id: "6CD4F0A4650CBA2F"
+			tasks: [{
+				id: "7DDD21C495EF730D"
+				type: "observation"
+				icon: "minecraft:snowball"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:snow_golem"
+			}]
+			rewards: [
+				{
+					id: "3A5546869704A4FE"
+					type: "item"
+					item: "minecraft:powder_snow_bucket"
+				}
+				{
+					id: "41813A712049D48B"
+					type: "item"
+					item: "minecraft:snow_block"
+					count: 5
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

@@ -48,8 +48,8 @@
 	quests: [
 		{
 			title: "Snail Mail"
-			x: -6.75d
-			y: 2.25d
+			x: -8.25d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "A way to communicate in multiplayer"
 			description: [
@@ -1179,7 +1179,7 @@
 		}
 		{
 			title: "Keeping in \"Contact\" via Snail Mail"
-			x: -8.0d
+			x: -7.5d
 			y: 1.0d
 			shape: "hexagon"
 			description: [
@@ -1227,23 +1227,40 @@
 		}
 		{
 			title: "Sea Witch"
-			x: -5.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
+			shape: "rsquare"
 			description: [
 				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
-				"To craft it, you'll need this &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
+				"To craft it, you'll need a &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
 			]
+			size: 1.5d
 			id: "3E72CBC6D658F80E"
 			tasks: [{
-				id: "15840490177FE604"
+				id: "03E158B19D645A2D"
 				type: "item"
-				item: "mermod:sea_crystal"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
-			rewards: [{
-				id: "2CF983C199825C7C"
-				type: "item"
-				item: "mermod:ursula_shell_modifier"
-			}]
+			rewards: [
+				{
+					id: "4D6DF23583CEDAA8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "4CAC99596EA711E2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
 		}
 		{
 			title: "Apple Crates for Commerce and Deco!"
@@ -1287,6 +1304,7 @@
 			]
 		}
 		{
+			icon: "starbunclemania:star_balloon"
 			x: -3.75d
 			y: 2.25d
 			shape: "rsquare"
@@ -1348,6 +1366,128 @@
 				id: "4BF620BE9C053C6C"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			title: "Obtain a Sea Crystal"
+			x: -6.0d
+			y: 1.5d
+			subtitle: "see? crystal!"
+			description: [
+				"Now that you've gotten your first &bSea Crystal&r, you can craft it into a &bSea Necklace&r. This can be worn in your &achest slot&r or &aas a curio&r."
+				"Equipping the necklace will &aturn you into a mermaid while in water&r. This will allow you to &aswim quickly&r and &abreathe underwater&r."
+				"You can also &6upgrade your appearance&r by crafting the &bNecklace&r with &bupgrade items&r."
+				"You can dye your tail by &6crafting the &bNecklace&r with different &bdyes&r, just like &bleather armor&r."
+				"To &dremove dyes or upgrades&r, you need to &6hold the necklace&r in your hand and &6right click&r."
+			]
+			dependencies: ["3E72CBC6D658F80E"]
+			id: "32235F4557C97245"
+			tasks: [{
+				id: "05B780BD03A97741"
+				type: "item"
+				item: "mermod:sea_crystal"
+			}]
+			rewards: [
+				{
+					id: "0F690C1236A49A15"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "461207DF6A2508FE"
+					type: "item"
+					item: "minecraft:sea_lantern"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["This &bGlowing Pearl&r will make your mermaid top and tail shimmer as if &aenchanted&r!"]
+			dependencies: ["32235F4557C97245"]
+			id: "446D2A3C8B066099"
+			tasks: [{
+				id: "1AC3BC2BA93D897A"
+				type: "item"
+				item: "mermod:glowing_pearl_modifier"
+			}]
+			rewards: [{
+				id: "4CF4355BEF3A17A7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Use this item to look like you're in h2o: Just Add Water!"]
+			dependencies: ["32235F4557C97245"]
+			id: "2ABFB8A3E57C7F1A"
+			tasks: [{
+				id: "0E0F18FDDDB3CAF0"
+				type: "item"
+				item: "mermod:moon_rock_modifier"
+			}]
+			rewards: [{
+				id: "21B44FA4EEDD6CA4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["Once you've dyed your tail, you can &aadd a gradient&r by &6crafting this item with &bdye&r and then &6crafting it with your necklace&r."]
+			dependencies: ["32235F4557C97245"]
+			id: "082F39C7CD7A47D9"
+			tasks: [{
+				id: "608D1D285D7168E6"
+				type: "item"
+				item: "mermod:tail_gradient_modifier"
+			}]
+			rewards: [{
+				id: "795FD36AE1F0BEEC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["Want to be the Little Mermaid? This upgrade will &agive you Ariel's appearance&r."]
+			dependencies: ["32235F4557C97245"]
+			id: "3C874A7A82622DA3"
+			tasks: [{
+				id: "39623CFEA41CA5EA"
+				type: "item"
+				item: "mermod:ursula_shell_modifier"
+			}]
+			rewards: [{
+				id: "2E27FE9F048B7753"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["Craft your necklace with this accessory to &aadd a bra to your mermaid look&r!"]
+			dependencies: ["32235F4557C97245"]
+			id: "7F994A9008E7F84D"
+			tasks: [{
+				id: "4F0676809027358D"
+				type: "item"
+				item: "mermod:mermaid_bra_modifier"
+			}]
+			rewards: [{
+				id: "3E4A0B59D9F7119E"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

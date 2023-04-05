@@ -42,14 +42,17 @@
 			}]
 		}
 		{
+			title: "Catch Em All (and Then Some)"
 			x: -3.5d
 			y: -3.5d
+			description: ["Wow, you've caught 999 fish? That's bonkers."]
 			id: "1FDD653A3C13DFDF"
 			tasks: [{
 				id: "1FB45C4A92CEC1C7"
 				type: "stat"
+				icon: "crittersandcompanions:koi_fish"
 				stat: "minecraft:fish_caught"
-				value: 1
+				value: 999
 			}]
 		}
 		{
@@ -138,6 +141,30 @@
 				type: "stat"
 				stat: "minecraft:pot_flower"
 				value: 1
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			shape: "octagon"
+			id: "1E0DDF203C978A5D"
+			tasks: [{
+				id: "3EB67C97EE9B44F5"
+				type: "advancement"
+				advancement: "idas:wizardtower"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			shape: "octagon"
+			id: "0E72FC6794833836"
+			tasks: [{
+				id: "241A5428562C7E13"
+				type: "advancement"
+				advancement: "idas:redhorn_guild"
+				criterion: ""
 			}]
 		}
 	]
