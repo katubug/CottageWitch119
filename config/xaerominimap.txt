@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:349
+ignoreUpdate:352
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -100,15 +100,13 @@ displayStainedGlass:true
 waypointOnMapScale:0
 switchToAutoOnDeath:true
 infoDisplayBackgroundOpacity:40
-caveModeToggleTimer:1000
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
-infoDisplayOrder:coords:overworld_coords:chunk_coords:angles:dimension:biome:weather:light_level:time:real_time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
+infoDisplayOrder:coords:chunk_coords:angles:dimension:biome:weather:light_level:time:real_time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
 infoDisplay:coords:true:15:-1
-infoDisplay:overworld_coords:false:15:-1
 infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
 infoDisplay:dimension:false:15:-1

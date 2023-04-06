@@ -1278,3 +1278,7 @@ craftingTable.addShaped("hibernalpouch", <item:hibernalherbs:pouch_scratched>, [
     [<tag:items:forge:string>, <item:quark:seed_pouch>, <tag:items:forge:string>],
     [<item:minecraft:air>, <tag:items:minecraft:flowers>, <item:minecraft:air>]
 ]);
+
+// tag apple
+
+<tag:items:forge:fruits/sweet>.add(<item:byg:green_apple>); 

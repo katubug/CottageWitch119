@@ -94,12 +94,12 @@
 	#Whether seagulls should steal food out of players' hotbar slots.
 	seagullStealing = true
 	#List of items that seagulls cannot take from players.
-	seagullStealingBlacklist = []
+	seagullStealingBlacklist = ["solsweetpotato:lunchbox", "solsweetpotato:lunchbag", "solsweetpotato:golden_lunchbox"]
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
 	clingingFlipEffect = false
 	#Percent chance of getting Pigshoes from Piglin Bartering. Set to zero to disable.
 	#Range: 0.0 ~ 1.0
-	tusklinShoesBarteringChance = 0.02500000037252903
+	tusklinShoesBarteringChance = 0.09500000037252904
 	#The visual zoom of the rainbow pattern on the rainbow glass block. Higher number = bigger pattern.
 	#Range: 1.0 ~ 10000.0
 	rainbowGlassFidelity = 16.0
