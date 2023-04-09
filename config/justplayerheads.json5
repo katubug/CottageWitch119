@@ -1,9 +1,0 @@
-{
-	// If enabled, enables the caching of player head textures. This fixes the limitations of the Mojang API, but does mean that whenever players update their skin the old head is still dropped until the server reboots or an administator uses the '/jph cache' command.
-	"enablePlayerHeadCaching": true,
-	// If enabled, allows players to drop their head on death.
-	"playerDropsHeadOnDeath": true,
-	// Sets the chance of a player dropping their head if 'playerDropsHeadOnDeath' is enabled.
-	// min: 1.0E-4, max: 1.0
-	"playerHeadDropChance": 0.01
-}
