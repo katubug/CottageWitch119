@@ -597,17 +597,24 @@
 				stat: "minecraft:fish_caught"
 				value: 500
 			}]
-			rewards: [{
-				id: "1D8CDCAA76D97CDB"
-				type: "item"
-				item: {
-					id: "better_fishing_rods:golden_fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "1D8CDCAA76D97CDB"
+					type: "item"
+					item: {
+						id: "better_fishing_rods:golden_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "04A537E4A83156B5"
+					type: "item"
+					item: "plushies:dolphin"
+				}
+			]
 		}
 		{
 			title: "Deliver Fish"

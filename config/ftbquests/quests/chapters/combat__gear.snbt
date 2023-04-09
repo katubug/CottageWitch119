@@ -15,10 +15,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 3.0d
-			width: 7.0d
-			height: 7.0d
+			width: 9.0d
+			height: 9.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgcurios.png"
 			hover: [ ]
@@ -27,10 +27,10 @@
 			corner: false
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: 3.0d
-			width: 7.0d
-			height: 7.0d
+			width: 9.0d
+			height: 9.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgarmor.png"
 			hover: [ ]
@@ -39,10 +39,10 @@
 			corner: false
 		}
 		{
-			x: -3.5d
-			y: -4.0d
-			width: 7.0d
-			height: 7.0d
+			x: -4.0d
+			y: -5.0d
+			width: 9.0d
+			height: 9.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgitemsmisc.png"
 			hover: [ ]
@@ -51,10 +51,10 @@
 			corner: false
 		}
 		{
-			x: 3.5d
-			y: -4.0d
-			width: 7.0d
-			height: 7.0d
+			x: 4.0d
+			y: -5.0d
+			width: 9.0d
+			height: 9.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgweaponsitems.png"
 			hover: [ ]
@@ -66,8 +66,8 @@
 	quests: [
 		{
 			title: "Gild Your Netherite Gear"
-			x: -5.0d
-			y: 5.0d
+			x: -6.0d
+			y: 1.5d
 			shape: "pentagon"
 			subtitle: "Gild your loins! Or head, or chest, or..."
 			description: [
@@ -115,8 +115,8 @@
 		}
 		{
 			title: "Obtain a Pickarang"
-			x: 5.0d
-			y: -4.0d
+			x: 5.5d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "Seriously this is like the coolest item in the game"
 			description: [
@@ -143,8 +143,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -4.0d
+			x: -4.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "The scale of the universe"
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
@@ -168,8 +168,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "The downside is killing Cindershells"
 			description: [
@@ -195,8 +195,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
+			x: -2.0d
+			y: -4.5d
 			shape: "hexagon"
 			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
 			id: "5A6FD28226BB8695"
@@ -218,8 +218,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: -3.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "Mushie mushie backpack"
 			description: [
@@ -246,8 +246,8 @@
 		}
 		{
 			title: "Lizard Net"
-			x: -3.5d
-			y: -3.0d
+			x: -4.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "You could also use a mob catcher, but where's the fun in that?"
 			description: ["You can use a &bNet&r to catch &eLizards&r and put them in your inventory!"]
@@ -270,8 +270,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: -3.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "Why do cactus need Totems of Undying?"
 			description: [
@@ -300,8 +300,8 @@
 		}
 		{
 			title: "Make Pearls into Jewelry"
-			x: -5.5d
-			y: -3.0d
+			x: 2.0d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "I know what you're thinking, and no, I'm not saying it"
 			description: [
@@ -331,8 +331,8 @@
 		}
 		{
 			title: "Upgrade your Jewelry"
-			x: -4.5d
-			y: -3.0d
+			x: 3.0d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Taking it to the next level"
 			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
@@ -358,8 +358,8 @@
 		}
 		{
 			title: "The Ultimate Accessory"
-			x: -5.0d
-			y: -2.0d
+			x: 1.5d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Upgrade your necklace to its final form"
 			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
@@ -384,8 +384,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.0d
+			x: 5.0d
+			y: -4.0d
 			shape: "hexagon"
 			description: [
 				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
@@ -430,7 +430,7 @@
 		}
 		{
 			x: -3.5d
-			y: 2.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
 			id: "2DEB453D0D763837"
@@ -453,8 +453,8 @@
 		}
 		{
 			title: "About Spawners"
-			x: -2.0d
-			y: -4.0d
+			x: -2.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "A different kind of farming"
 			description: [
@@ -481,8 +481,8 @@
 		}
 		{
 			title: "Craft a Totem of Undying"
-			x: -3.5d
-			y: -5.0d
+			x: -4.0d
+			y: -6.5d
 			shape: "hexagon"
 			subtitle: "Touhou-tem of Undying"
 			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
@@ -501,8 +501,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -3.5d
+			y: -3.5d
 			shape: "hexagon"
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
@@ -522,8 +522,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -7.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"A full set of Netherite Armor takes..."
@@ -556,7 +556,7 @@
 		{
 			title: "The Full Set: Warden Armor"
 			x: -2.5d
-			y: 2.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
 			id: "105A64813A4BA847"
@@ -661,8 +661,8 @@
 		}
 		{
 			title: "The Full Set: Diamond Tools"
-			x: 3.5d
-			y: -5.0d
+			x: 4.0d
+			y: -6.0d
 			shape: "hexagon"
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
 			id: "306EAF9F6F78ACC1"
@@ -784,8 +784,8 @@
 		}
 		{
 			title: "The Full Set: Netherite Tools"
-			x: 4.0d
-			y: -4.0d
+			x: 4.5d
+			y: -5.0d
 			shape: "hexagon"
 			description: ["A full set of &bNetherite Tools&r, well! That's an achievement to be lauded. Congratulations!"]
 			id: "6C413B091C8DBE2A"
@@ -905,8 +905,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -5.0d
+			x: -3.0d
+			y: -6.5d
 			shape: "hexagon"
 			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
 			id: "3FFC3D4F00661CA9"
@@ -930,8 +930,8 @@
 		}
 		{
 			title: "Build a Trident"
-			x: 4.5d
-			y: -5.0d
+			x: 5.0d
+			y: -6.0d
 			shape: "hexagon"
 			description: [
 				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
@@ -959,8 +959,8 @@
 		}
 		{
 			title: "White Flag"
-			x: 2.5d
-			y: 1.5d
+			x: 3.0d
+			y: 1.0d
 			shape: "octagon"
 			description: [
 				"Reduces both &aincoming and &doutgoing&a damage&r."
@@ -997,8 +997,8 @@
 		}
 		{
 			title: "Adventurer's Guide"
-			x: 2.5d
-			y: 3.5d
+			x: 3.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
@@ -1035,8 +1035,8 @@
 		}
 		{
 			title: "Angler's Trophy"
-			x: 3.5d
-			y: 2.0d
+			x: 4.0d
+			y: 1.5d
 			shape: "octagon"
 			description: [
 				"Increases your &aluck while fishing&r."
@@ -1073,8 +1073,8 @@
 		}
 		{
 			title: "Certificate of Taming"
-			x: 4.5d
-			y: 1.5d
+			x: 5.0d
+			y: 1.0d
 			shape: "octagon"
 			description: [
 				"Improves the stats of &amounts and pets&r."
@@ -1111,8 +1111,8 @@
 		}
 		{
 			title: "Overworld Rune"
-			x: 4.5d
-			y: 2.5d
+			x: 5.0d
+			y: 2.0d
 			shape: "octagon"
 			description: [
 				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
@@ -1134,8 +1134,8 @@
 		}
 		{
 			title: "Idol of Fertility"
-			x: 3.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 			shape: "octagon"
 			description: [
 				"Bred animals &asometimes produce twins&r."
@@ -1172,8 +1172,8 @@
 		}
 		{
 			title: "Lucky Rock"
-			x: 2.5d
-			y: 2.5d
+			x: 3.0d
+			y: 2.0d
 			shape: "octagon"
 			description: [
 				"Occasionally grants &abetter loot while mining&r."
@@ -1210,8 +1210,8 @@
 		}
 		{
 			title: "Secret Ingredient"
-			x: 4.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
@@ -1248,8 +1248,8 @@
 		}
 		{
 			title: "Tamed Potato Beetle"
-			x: 3.5d
-			y: 4.0d
+			x: 4.0d
+			y: 3.5d
 			shape: "octagon"
 			description: [
 				"Occasionally grants &adouble crops&r when harvesting."
@@ -1286,8 +1286,8 @@
 		}
 		{
 			title: "The Full Set: Iron Tools"
-			x: 3.0d
-			y: -4.0d
+			x: 3.5d
+			y: -5.0d
 			shape: "hexagon"
 			description: ["Full Iron tools! Feels good to make progress, huh? Congrats!"]
 			id: "78311C38AC02A32C"
@@ -1369,7 +1369,7 @@
 		{
 			title: "The Full Set: Iron Armor"
 			x: -2.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bIron Armor&r. Hey, it's better than Leather!"]
 			id: "3B1C91A3CD3EC221"
@@ -1428,8 +1428,8 @@
 		}
 		{
 			title: "The Full Set: Steeleaf Tools"
-			x: 2.0d
-			y: -4.0d
+			x: 2.5d
+			y: -5.0d
 			shape: "hexagon"
 			description: ["Did you know that &bSteeleaf tools&r come &apre-enchanted when you craft them&r? Pretty cool stuff."]
 			id: "6034E62A035F4F68"
@@ -1543,7 +1543,7 @@
 		{
 			title: "The Full Set: Steeleaf Armor"
 			x: -3.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bSteeleaf Armor&r from the &dTwilight Forest&r."]
 			id: "613C677D2D70278F"
@@ -1626,8 +1626,8 @@
 		}
 		{
 			title: "The Full Set: Golden Glory"
-			x: 2.5d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
 			id: "63244E494B2159D8"
@@ -1793,7 +1793,7 @@
 		{
 			title: "The Full Set: Diamond Armor"
 			x: -2.5d
-			y: 4.0d
+			y: 3.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bDiamond Armor&r to keep those cute cheeks of yours safe and sound."]
 			id: "29A6066615C12448"
@@ -1852,8 +1852,8 @@
 		}
 		{
 			title: "Protect Yourself from Potions"
-			x: 3.5d
-			y: -3.0d
+			x: 4.0d
+			y: -4.0d
 			shape: "hexagon"
 			description: ["Ever wished you could &ashield yourself from thrown Potions&r? Well, you can. Just bring your trusty &bUmbrella!&r."]
 			id: "14BCF2740DE93BD2"
@@ -1878,8 +1878,8 @@
 		}
 		{
 			title: "Obtain Tarot Cards"
-			x: 4.5d
-			y: 4.5d
+			x: 5.0d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "what's in the cards for you?"
 			description: [
@@ -1915,8 +1915,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 5.0d
+			x: 6.5d
+			y: 5.5d
 			shape: "hexagon"
 			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
 			dependencies: ["66BFC51EB4E7FDFB"]
@@ -1956,8 +1956,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.0d
+			x: -5.0d
+			y: -6.5d
 			shape: "hexagon"
 			description: ["The &bStink Ray&r can be used to create a disturbance among creatures. While passive mobs will flee the scent, &aneutral or hostile mobs will begin attacking the offending target&r."]
 			id: "64B6E2E1C384286C"
@@ -1981,14 +1981,15 @@
 		}
 		{
 			title: "Tarot Trading"
-			x: 2.5d
-			y: 4.5d
+			x: 6.0d
+			y: 4.0d
 			shape: "pentagon"
 			subtitle: "another chance at justice"
 			description: [
 				"Hold 2 Tarot Cards in your inventory and turn in this quest to receive a random Tarot card in exchange. You may get lucky!"
 				"This is for players who have collected many duplicates and want a shot at a different type. &dThis quest is repeatable&r."
 			]
+			dependencies: ["66BFC51EB4E7FDFB"]
 			can_repeat: true
 			id: "20B24E5006BC7D1B"
 			tasks: [{
@@ -2015,7 +2016,7 @@
 		{
 			title: "The Full Set: Ironwood Armor"
 			x: -1.5d
-			y: 4.0d
+			y: 3.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bIronwood Armor&r from the &cTwilight Forest&r."]
 			id: "2F0A831353FB38B9"
@@ -2091,7 +2092,7 @@
 		{
 			title: "The Full Set: Knightmetal"
 			x: -4.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bKnightmetal Armor&r from the &cTwilight Forest&r."]
 			id: "1A3BD31918571FA9"
@@ -2149,8 +2150,9 @@
 			}]
 		}
 		{
+			title: "The Full Set: Naga Scale"
 			x: -3.0d
-			y: 5.0d
+			y: 4.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bNaga Scale Armor&r from the &cTwilight Forest&r."]
 			id: "55E21D193564A15D"
@@ -2196,7 +2198,7 @@
 		{
 			title: "The Full Set: Fiery"
 			x: -3.5d
-			y: 4.0d
+			y: 3.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bFiery Metal Armor&r from the &cTwilight Forest&r."]
 			id: "2FD288BBE179EE79"
@@ -2256,7 +2258,7 @@
 		{
 			title: "The Full Set: Phantom"
 			x: -2.0d
-			y: 5.0d
+			y: 4.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bPhantom Knight Armor&r from the &cTwilight Forest&r."]
 			id: "6B6E01618D3B5999"
@@ -2294,7 +2296,7 @@
 		{
 			title: "The Full Set: Arctic Fur Armor"
 			x: -5.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bArctic Fur Armor&r from the Yeti caves in &cTwilight Forest&r."]
 			id: "360508D2A7ACB5D6"
@@ -2354,7 +2356,7 @@
 		{
 			title: "The Full Seti: The Yeti"
 			x: -4.5d
-			y: 2.0d
+			y: 1.0d
 			shape: "hexagon"
 			description: ["Obtain a full set of &bAlpha Yeti Armor&r from the &cTwilight Forest&r."]
 			id: "3BE446AB23DAFFFE"
@@ -2431,6 +2433,217 @@
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 2688518876927697228L
+			}]
+		}
+		{
+			title: "Oh my GOD a BACKPACK"
+			x: 1.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "just what you've always wanted!"
+			description: [
+				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
+				"It can hold a small amount of extra items and &aremains equipped when you die&r."
+				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
+				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
+				"Hover over each option to &asee what challenge unlocks that look&r."
+				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
+				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
+			]
+			id: "7B72E2C06B316F5A"
+			tasks: [{
+				id: "62D500A4711B3B3C"
+				type: "item"
+				item: "backpacked:backpack"
+			}]
+			rewards: [
+				{
+					id: "6FE42AC5E90113D8"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 15
+				}
+				{
+					id: "0FB0AAAB64B8D5B7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			title: "Obtain a Magic Mirror"
+			x: -5.5d
+			y: -5.5d
+			shape: "hexagon"
+			subtitle: "mirror, mirror, on the wall"
+			description: [
+				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
+				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
+				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
+				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
+				"&6Right click with empty hand&r to switch armor sets. If you accidentally store more than one set of armor, you can &6cycle through these by shift-clicking&r."
+				"You can also &6right click the mirrow&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
+				"And, if you'd like a more spooky option, &6right click it&r with a &bSkull&r to change the preview to a &eSkeleton!&r."
+				"All the upgrades &acan be combined&r."
+			]
+			id: "4D9EA3886EB6F73A"
+			tasks: [{
+				id: "189F1468E948737D"
+				type: "item"
+				item: "magic_mirror:magic_mirror"
+			}]
+			rewards: [
+				{
+					id: "40AF41A07D7A7188"
+					type: "item"
+					item: "domesticationinnovation:rotten_apple"
+				}
+				{
+					id: "2B6408B18ECCA86F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+			]
+		}
+		{
+			title: "Customize Your Elytra"
+			x: -2.5d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"Are you tired of the basic Luna Moth &bElytra&r and want to add some more &apizazz&r? &6Place it in a crafting grid&r and you'll get two separate wings from it."
+				"Each &bWing&r can be crafted with &bDye&r or &bBanners&r to take on their appearance."
+				"Be aware that &dModded banner patterns do not work&r!"
+			]
+			id: "14D43F04E15174D2"
+			tasks: [{
+				id: "55616BD9A6537339"
+				type: "item"
+				item: {
+					id: "customizableelytra:elytra_wing"
+					Count: 1b
+					tag: {
+						Damage: 0
+						RepairCost: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79673075EEE6BE59"
+					type: "item"
+					item: "fantasyfurniture:decorations/brewing_cauldron"
+				}
+				{
+					id: "05ABBF562A1DA539"
+					type: "item"
+					item: "minecraft:white_banner"
+					count: 2
+				}
+				{
+					id: "61A1D752FA2618EC"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 987967038148964353L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["Increases &amovement speed&r. Level up by &6traveling on foot!&r"]
+			id: "3BB3A6EFFDC3488E"
+			tasks: [{
+				id: "6CD329C1C41E3A3E"
+				type: "item"
+				item: {
+					id: "environmental:wanderer_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EF6C836DCC39293"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: ["Increases &aReach Distance&r. Level up by &6placing blocks&r!"]
+			id: "703818BD93BEFE6A"
+			tasks: [{
+				id: "7FD06EE2C0F0B82D"
+				type: "item"
+				item: {
+					id: "environmental:architect_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AD819643F74AE8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: ["Increases your ability to &aremain undetected&r. Level it up by &6killing mobs&r."]
+			id: "6635831904B90118"
+			tasks: [{
+				id: "712BFD371B2902DF"
+				type: "item"
+				item: {
+					id: "environmental:thief_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "41DCC57CAF7369E1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["The &bHealer's Pouch&r will periodically &agrant you a speed boost&r when you're hit by an enemy. You'll be faster the more hurt you are. Level it up by &6taking damage&r."]
+			id: "55C25ED49FACC6EC"
+			tasks: [{
+				id: "7B474C85130006C7"
+				type: "item"
+				item: {
+					id: "environmental:healer_pouch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17CC9011320AD02B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
 			}]
 		}
 	]

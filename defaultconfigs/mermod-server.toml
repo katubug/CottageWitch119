@@ -1,0 +1,12 @@
+
+[Server]
+	#Swim speed
+	swimSpeed = true
+	#Swim speed multiplier
+	#Range: 1.0 ~ 10.0
+	swimSpeedMultiplier = 2.0
+	#Water breathing
+	waterBreathing = true
+	#Night vision
+	nightVision = false
+

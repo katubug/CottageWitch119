@@ -113,7 +113,6 @@
 				{
 					id: "4B2B69209045245C"
 					type: "command"
-					icon: "alexsmobs:falconry_glove"
 					team_reward: false
 					auto: "enabled"
 					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
@@ -190,6 +189,45 @@
 									}
 								}
 							}
+						}
+					}
+				}
+				{
+					id: "406240E9D22156B6"
+					type: "item"
+					item: {
+						id: "quark:backpack"
+						Count: 1b
+						tag: {
+							Inventory: [
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
 						}
 					}
 				}
@@ -552,6 +590,28 @@
 			}]
 			rewards: [{
 				id: "3221B07C2CE46656"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			shape: "gear"
+			description: [
+				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
+				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
+				"To &aremove a book from the tome&r, you need to &6crouch and throw&r the item (default keybind is Q)."
+				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
+			]
+			id: "5B1C86C4A7C3351F"
+			tasks: [{
+				id: "0D6469F8CB52A79E"
+				type: "checkmark"
+				title: "Akashic Controls"
+			}]
+			rewards: [{
+				id: "39EB96715BA2FC9F"
 				type: "xp"
 				xp: 100
 			}]

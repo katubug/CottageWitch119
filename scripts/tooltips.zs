@@ -31,11 +31,11 @@ var drinks = [
     <item:farmersrespite:gamblers_tea>,
     <item:farmersrespite:coffee>,
     <item:delightful:lavender_tea>,
-    <item:vinery:chenet_wine>,
+    /*<item:vinery:chenet_wine>,
     <item:vinery:king_danis_wine>,
     <item:vinery:noir_wine>,
     <item:vinery:clark_wine>,
-    <item:vinery:mellohi_wine>,
+    <item:vinery:mellohi_wine>,*/
     <item:brewinandchewin:mead>,
     <item:brewinandchewin:rice_wine>,
     <item:brewinandchewin:egg_grog>,
@@ -52,7 +52,7 @@ var drinks = [
     <item:brewinandchewin:salty_folly>,
     <item:brewinandchewin:beer>,
     <item:brewinandchewin:vodka>,
-    <item:vinery:apple_wine>,
+    /*<item:vinery:apple_wine>,
     <item:vinery:aegis_wine>,
     <item:vinery:jellie_wine>,
     <item:vinery:solaris_wine>,
@@ -62,7 +62,13 @@ var drinks = [
     <item:vinery:bolvar_wine>,
     <item:vinery:red_grapejuice_wine_bottle>,
     <item:vinery:white_grapejuice_wine_bottle>,
-    <item:vinery:apple_juice>
+    <item:vinery:apple_juice>*/
+    <item:abnormals_delight:cherry_cream_soda>,
+    <item:ends_delight:chorus_flower_tea>,
+    <item:ends_delight:dragon_breath_soda>,
+    <item:ends_delight:bubble_tea>,
+    <item:ends_delight:chorus_fruit_milk_tea>,
+    <item:ends_delight:chorus_fruit_wine>
 ] as IItemStack[];
 
 for drink in drinks{
@@ -227,7 +233,7 @@ var rawfoods = [
     <item:brewinandchewin:flaxen_cheese_wheel>,
     <item:brewinandchewin:cocoa_fudge>,
     <item:brewinandchewin:unripe_flaxen_cheese_wheel>,
-    <item:vinery:grape_jam>,
+    /*<item:vinery:grape_jam>,
     <item:vinery:sweetberry_jam>,
     <item:vinery:apple_jam>,
     <item:vinery:cherry_jam>,
@@ -235,7 +241,7 @@ var rawfoods = [
     <item:vinery:cherry>,
     <item:vinery:white_grape>,
     <item:vinery:red_grape>,
-    <item:vinery:dough>,
+    <item:vinery:dough>,*/
     <item:culturaldelights:glow_squid>,
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:corn_dough>,
@@ -246,7 +252,27 @@ var rawfoods = [
     <item:culturaldelights:cut_cucumber>,
     <item:culturaldelights:eggplant>,
     <item:culturaldelights:cut_eggplant>,
-    <item:culturaldelights:white_eggplant>
+    <item:culturaldelights:white_eggplant>,
+    <item:environmental:duck_egg>,
+    <item:environmental:duck>,
+    <item:environmental:koi>,
+    <item:environmental:venison>,
+    <item:environmental:cherries>,
+    <item:abnormals_delight:venison_shanks>,
+    <item:environmental:truffle>,
+    <item:abnormals_delight:duck_fillet>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:dragon_leg>,
+    <item:ends_delight:ender_man_limb>,
+    <item:ends_delight:non_hatchable_dragon_egg>,
+    <item:ends_delight:shulker_meat>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:ender_pearl_grain>,
+    <item:ends_delight:chorus_fruit_grain>,
+    <item:ends_delight:chorus_succulent>,
+    <item:ends_delight:dried_chorus_flower>
 ] as IItemStack[];
 
 for rawfood in rawfoods{
@@ -590,14 +616,14 @@ var cookedfoods = [
     <item:brewinandchewin:creamy_onion_soup>,
     <item:brewinandchewin:scarlet_pierogies>,
     <item:brewinandchewin:horror_lasagna>,
-    <item:vinery:chocolate_bread>,
+    /*<item:vinery:chocolate_bread>,
     <item:vinery:toast>,
     <item:vinery:donut>,
     <item:vinery:milk_bread>,
     <item:vinery:apple_cupcake>,
     <item:vinery:apple_pie_slice>,
     <item:vinery:applesauce>,
-    <item:vinery:bread_slice>,
+    <item:vinery:bread_slice>,*/
     <item:culturaldelights:smoked_cut_eggplant>,
     <item:culturaldelights:smoked_corn>,
     <item:culturaldelights:smoked_tomato>,
@@ -622,7 +648,45 @@ var cookedfoods = [
     <item:culturaldelights:pork_wrap>,
     <item:culturaldelights:rice_ball>,
     <item:culturaldelights:calamari_roll>,
-    <item:culturaldelights:exotic_roll_medley>
+    <item:culturaldelights:exotic_roll_medley>,
+    <item:environmental:apple_pie>,
+    <item:environmental:cherry_pie>,
+    <item:abnormals_delight:slabdish>,
+    <item:abnormals_delight:venison_with_bamboo_shoots>,
+    <item:abnormals_delight:duck_noodles>,
+    <item:abnormals_delight:seared_venison>,
+    <item:abnormals_delight:cherry_cookie>,
+    <item:environmental:truffle_pie>,
+    <item:abnormals_delight:cooked_duck_fillet>,
+    <item:abnormals_delight:cooked_venison_shanks>,
+    <item:environmental:truffle_mash>,
+    <item:environmental:cooked_duck>,
+    <item:environmental:cooked_venison>,
+    <item:ends_delight:chorus_fruit_popsicle>,
+    <item:ends_delight:chorus_flower_pie>,
+    <item:ends_delight:smoked_dragon_leg>,
+    <item:ends_delight:roasted_dragon_meat>,
+    <item:ends_delight:roasted_dragon_meat_cuts>,
+    <item:ends_delight:roasted_ender_mite_meat>,
+    <item:ends_delight:baked_rice_cake_with_chorus_fruit_filling>,
+    <item:ends_delight:roasted_shulker_meat_slice>,
+    <item:ends_delight:roasted_shulker_meat>,
+    <item:ends_delight:liquid_dragon_egg>,
+    <item:ends_delight:assorted_salad>,
+    <item:ends_delight:end_mixed_salad>,
+    <item:ends_delight:dragon_breath_and_chorus_soup>,
+    <item:ends_delight:stir_fried_shulker_meat>,
+    <item:ends_delight:liquid_dragon_egg_in_bowl>,
+    <item:ends_delight:fried_dragon_egg>,
+    <item:ends_delight:end_barbecue_stick>,
+    <item:ends_delight:steamed_dragon_egg_block>,
+    <item:ends_delight:grilled_shulker>,
+    <item:ends_delight:grilled_shulker_block>,
+    <item:ends_delight:dragon_meat_stew>,
+    <item:ends_delight:dragon_meat_stew_block>,
+    <item:ends_delight:steamed_dragon_egg>,
+    <item:ends_delight:chorus_fruit_pie_slice>,
+    <item:ends_delight:chorus_fruit_pie>
 ] as IItemStack[];
 
 for cookedfood in cookedfoods{
@@ -1165,7 +1229,24 @@ var flowers = [
     <item:sprout:green_cornflower>,
     <item:sprout:yellow_azure_bluet>,
     <item:sprout:yellow_lily_of_the_valley>,
-    <item:sprout:yellow_allium>
+    <item:sprout:yellow_allium>,
+    <item:environmental:cartwheel>,
+    <item:environmental:violet>,
+    <item:environmental:dianthus>,
+    <item:environmental:red_lotus_flower>,
+    <item:environmental:white_lotus_flower>,
+    <item:environmental:yellow_hibiscus>,
+    <item:environmental:orange_hibiscus>,
+    <item:environmental:red_hibiscus>,
+    <item:environmental:pink_hibiscus>,
+    <item:environmental:magenta_hibiscus>,
+    <item:environmental:purple_hibiscus>,
+    <item:environmental:pink_delphinium>,
+    <item:environmental:blue_delphinium>,
+    <item:environmental:purple_delphinium>,
+    <item:environmental:white_delphinium>,
+    <item:environmental:bird_of_paradise>,
+    <item:environmental:bluebell>
 ] as IItemStack[];
 
 for flower in flowers{
@@ -1243,7 +1324,13 @@ var plants = [
     <item:byg:oddity_bush>,
     <item:sprout:sprouts>,
     <item:sprout:dune_grass>,
-    <item:sprout:cattail>
+    <item:sprout:cattail>,
+    <item:environmental:pink_hanging_wisteria_leaves>,
+    <item:environmental:blue_hanging_wisteria_leaves>,
+    <item:environmental:purple_hanging_wisteria_leaves>,
+    <item:environmental:white_hanging_wisteria_leaves>,
+    <item:environmental:tall_cattail>,
+    <item:environmental:cattail>
 ] as IItemStack[];
 
 for plant in plants{
@@ -1303,9 +1390,24 @@ var jobBlocks = [
     <item:friendsandfoes:spruce_beehive>,
     <item:friendsandfoes:warped_beehive>,
     <item:minecraft:beehive>,
-    <item:villagersplus:alchemist_table>
+    <item:villagersplus:alchemist_table>,
+    <item:farmersdelight:cooking_pot>,
+    <item:farmersdelight:skillet>
 ] as IItemStack[];
 
 for block in jobBlocks{
 block.addTooltip("Job Block");
 }
+
+<item:reaping:iron_reaping_tool>.addTooltip("Hold shift for failure chance.");
+<item:reaping:iron_reaping_tool>.addShiftTooltip("Base Chance of Failure: 45%");
+<item:reaping:iron_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
+<item:reaping:gold_reaping_tool>.addTooltip("Hold shift for failure chance.");
+<item:reaping:gold_reaping_tool>.addShiftTooltip("Base Chance of Failure: 34%");
+<item:reaping:gold_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
+<item:reaping:diamond_reaping_tool>.addTooltip("Hold shift for failure chance.");
+<item:reaping:diamond_reaping_tool>.addShiftTooltip("Base Chance of Failure: 18%");
+<item:reaping:diamond_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
+<item:reaping:netherite_reaping_tool>.addTooltip("Hold shift for failure chance.");
+<item:reaping:netherite_reaping_tool>.addShiftTooltip("Base Chance of Failure: 9%");
+<item:reaping:netherite_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");

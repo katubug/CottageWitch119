@@ -1,0 +1,57 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:spruce_sapling",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:jungle_sapling",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:acacia_sapling",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:dark_oak_sapling",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}, {
+					"function": "minecraft:set_count",
+					"count": 4
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:flowering_azalea",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:mangrove_propagule",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			}
+		]
+	}]
+}

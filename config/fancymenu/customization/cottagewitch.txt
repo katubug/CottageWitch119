@@ -1,0 +1,87 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 125
+  width = 450
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 372bc6c8-7577-4a40-bd22-aa6e94345c8c1680825643432
+  y = 169
+  height = 112
+}
+
+customization {
+  custom_color_hex = #57664E
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = d65dd062-b02c-480a-b15b-5ea0bddc59141680825643441
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 125
+  width = 450
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = d266d54f-c9e9-4ea2-af93-c63e0cba1b311680825643441
+  y = 369
+  height = 10
+}
+
+customization {
+  orientation = bottom-centered
+  background_color = #30372C
+  bar_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/barfill.png
+  x = -225
+  width = 450
+  bar_color = #545D51
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  y = -115
+  progress_for_element_orientation = true
+  direction = right
+  height = 34
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bunny.png
+  orientation = element
+  orientation_element = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  x = -24
+  width = 50
+  action = addtexture
+  actionid = 32b9d7e3-3a0c-45e9-b624-304281b1754e1680826690082
+  y = -34
+  height = 50
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/cottagewitchicontransparent.png
+  orientation = mid-centered
+  x = -116
+  width = 225
+  action = addtexture
+  actionid = 9f6e3337-306d-4c43-9860-3f703f15e2fa1680826887180
+  y = -158
+  height = 225
+}
+

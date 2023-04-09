@@ -75,7 +75,7 @@
 [LuckyRock]
 	#Chance to drop extra items when mining stone.
 	#Range: 0.0 ~ 1.0
-	extra_loot_chance = 0.01
+	extra_loot_chance = 0.03
 	#Chance for Lucky Rock to drop when mining stone.
 	#Range: 0.0 ~ 1.0
 	drop_chance = 2.0E-4

@@ -8,5 +8,14 @@
 		{ item: "minecraft:wither_skeleton_skull", only_one: true }
 		{ item: "minecraft:zombie_head" }
 		{ item: "minecraft:creeper_head" }
+		{
+			item: {
+				id: "alexsmobs:sombrero"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 }

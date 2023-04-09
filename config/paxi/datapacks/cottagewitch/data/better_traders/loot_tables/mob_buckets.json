@@ -1,0 +1,18 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:pufferfish_bucket"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:axolotl_bucket"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:tadpole_bucket"
+			}
+		]
+	}]
+}

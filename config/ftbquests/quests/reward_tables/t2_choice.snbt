@@ -22,7 +22,6 @@
 		}
 		{ item: "alexsmobs:cachalot_whale_tooth" }
 		{ item: "minecraft:echo_shard", count: 5 }
-		{ item: "mobcatcher:net", count: 5 }
 		{ item: "pipez:advanced_upgrade" }
 	]
 }

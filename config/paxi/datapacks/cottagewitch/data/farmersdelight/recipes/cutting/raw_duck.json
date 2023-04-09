@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "duckling:raw_duck"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "abnormals_delight:duck_fillet",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ]
+}

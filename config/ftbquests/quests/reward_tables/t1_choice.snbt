@@ -17,6 +17,5 @@
 		{ item: "ars_nouveau:source_berry", count: 5 }
 		{ item: "functionalstorage:copper_upgrade", count: 2 }
 		{ item: "pipez:basic_upgrade" }
-		{ item: "mobcatcher:net" }
 	]
 }

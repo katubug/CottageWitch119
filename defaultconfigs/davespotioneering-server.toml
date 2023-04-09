@@ -9,4 +9,5 @@
 	#Cooldown in ticks when throwing potions
 	#Range: 0 ~ 20000
 	potion_throw_cooldown = 30
+	milk = false
 

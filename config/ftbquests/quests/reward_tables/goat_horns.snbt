@@ -1,0 +1,80 @@
+{
+	id: "14F5FB461C686385"
+	order_index: 27
+	title: "Goat Horns"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:sing_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:seek_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:feel_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:admire_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:call_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:yearn_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:dream_goat_horn"
+				}
+			}
+		}
+	]
+}

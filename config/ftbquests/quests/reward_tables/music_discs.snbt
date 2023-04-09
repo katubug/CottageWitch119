@@ -128,5 +128,7 @@
 		{ item: "morediscs:music_disc_squiggles" }
 		{ item: "morediscs:music_disc_stridehop" }
 		{ item: "morediscs:music_disc_strikethemdown" }
+		{ item: "environmental:music_disc_slabrave" }
+		{ item: "environmental:music_disc_leaving_home" }
 	]
 }

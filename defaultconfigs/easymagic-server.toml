@@ -7,14 +7,18 @@ reroll_enchantments = true
 #Choose how many enchantments are shown on the enchanting tooltip, if any at all.
 #Allowed Values: NONE, SINGLE, ALL
 enchantment_hint = "SINGLE"
-#Amount of lapis lazuli taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
-#Requires the re-rolling option to be enabled.
-#Range: 0 ~ 64
-reroll_lapis_lazuli_cost = 1
 #Amount of experience points (not enchantment levels) taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
 #Requires the re-rolling option to be enabled.
 #Range: > 0
 reroll_experience_points_cost = 5
-#Blocks without a collision shape (e.g. grass or torches) do not block bookshelves placed behind from counting towards current enchanting power.
+#Blocks without a full collision shape (e.g. torches & carpet) do not block bookshelves placed behind from counting towards current enchanting power.
 lenient_bookshelves = true
+#Amount of catalyst item taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
+#The default re-roll catalyst is simply lapis lazuli as defined in 'easymagic:enchanting_catalysts'.
+#Requires the re-rolling option to be enabled.
+#Range: 0 ~ 64
+reroll_catalyst_cost = 1
+#Catalyst items for re-rolling are defined by the 'easymagic:reroll_catalysts' item tag instead of 'easymagic:enchanting_catalysts' (which includes just lapis lazuli by default).
+#Unlocks an additional slot for providing those items in the enchanting table interface.
+dedicated_reroll_catalyst = false
 

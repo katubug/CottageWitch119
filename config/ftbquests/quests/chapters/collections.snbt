@@ -95,44 +95,19 @@
 					item: "byg:rose"
 				}
 				{
-					id: "20DD0F1BCD888809"
-					type: "item"
-					item: "sprout:red_azure_bluet"
-				}
-				{
-					id: "6D7B021BC089B7B7"
-					type: "item"
-					item: "sprout:red_lily_of_the_valley"
-				}
-				{
-					id: "31DC251CDB4D3706"
-					type: "item"
-					item: "sprout:red_allium"
-				}
-				{
-					id: "4DE710F32C397480"
-					type: "item"
-					item: "sprout:red_dandelion"
-				}
-				{
-					id: "3EC4881C4EC3CB2E"
-					type: "item"
-					item: "sprout:red_daisy"
-				}
-				{
-					id: "51C6F9A5BB10E7E3"
-					type: "item"
-					item: "sprout:red_cornflower"
-				}
-				{
-					id: "4A3136004BE01EB3"
-					type: "item"
-					item: "sprout:red_orchid"
-				}
-				{
 					id: "7C369DE8E557A08F"
 					type: "item"
 					item: "hibernalherbs:essitte"
+				}
+				{
+					id: "302B88C7413DC028"
+					type: "item"
+					item: "environmental:red_lotus_flower"
+				}
+				{
+					id: "1F445D2E0FC1F84B"
+					type: "item"
+					item: "environmental:red_hibiscus"
 				}
 			]
 			rewards: [
@@ -184,49 +159,19 @@
 					item: "byg:california_poppy"
 				}
 				{
-					id: "1F19663B195B9705"
-					type: "item"
-					item: "sprout:orange_orchid"
-				}
-				{
-					id: "29E49EBC551358B3"
-					type: "item"
-					item: "sprout:orange_cornflower"
-				}
-				{
-					id: "544F58FA48F25270"
-					type: "item"
-					item: "sprout:orange_poppy"
-				}
-				{
-					id: "1A0A4856108F7BDC"
-					type: "item"
-					item: "sprout:orange_daisy"
-				}
-				{
-					id: "4AED4A751D2B0873"
-					type: "item"
-					item: "sprout:orange_dandelion"
-				}
-				{
-					id: "38E8A27DE78EC274"
-					type: "item"
-					item: "sprout:orange_allium"
-				}
-				{
-					id: "1A2ABF0C8E6A2986"
-					type: "item"
-					item: "sprout:orange_lily_of_the_valley"
-				}
-				{
-					id: "6249943630D2BA9C"
-					type: "item"
-					item: "sprout:orange_azure_bluet"
-				}
-				{
 					id: "12BFA26765EA7662"
 					type: "item"
 					item: "hibernalherbs:verbena"
+				}
+				{
+					id: "30695DC4B56127A5"
+					type: "item"
+					item: "environmental:orange_hibiscus"
+				}
+				{
+					id: "3CCB0C16B27E8BC0"
+					type: "item"
+					item: "environmental:cartwheel"
 				}
 			]
 			rewards: [{
@@ -372,49 +317,14 @@
 					item: "byg:yellow_tulip"
 				}
 				{
-					id: "35B614F89C069954"
-					type: "item"
-					item: "sprout:yellow_azure_bluet"
-				}
-				{
-					id: "19293FC2BCF25BF1"
-					type: "item"
-					item: "sprout:yellow_lily_of_the_valley"
-				}
-				{
-					id: "376741C9C558891E"
-					type: "item"
-					item: "sprout:yellow_allium"
-				}
-				{
 					id: "7B2D0935501E498F"
 					type: "item"
 					item: "hibernalherbs:chamomile"
 				}
 				{
-					id: "182F9A365F8C680A"
+					id: "705E3F57D0837B0E"
 					type: "item"
-					item: "sprout:yellow_orchid"
-				}
-				{
-					id: "46502C551D4E38A7"
-					type: "item"
-					item: "sprout:yellow_cornflower"
-				}
-				{
-					id: "557DD8B123C278E4"
-					type: "item"
-					item: "sprout:yellow_poppy"
-				}
-				{
-					id: "68EA6DFD9C23AEE4"
-					type: "item"
-					item: "sprout:yellow_daisy"
-				}
-				{
-					id: "240FCB26057ABCDC"
-					type: "item"
-					item: "sprout:yellow_tulip"
+					item: "environmental:yellow_hibiscus"
 				}
 			]
 			rewards: [
@@ -470,16 +380,6 @@
 					item: "byg:cyan_amaranth"
 				}
 				{
-					id: "0E410893B917D6D0"
-					type: "item"
-					item: "sprout:cyan_lily_of_the_valley"
-				}
-				{
-					id: "0866C5AB19F85297"
-					type: "item"
-					item: "sprout:cyan_azure_bluet"
-				}
-				{
 					id: "50B79144BC51D343"
 					type: "item"
 					item: "byg:flower_patch"
@@ -513,41 +413,6 @@
 					id: "4E825BBA61BE2E69"
 					type: "item"
 					item: "hibernalherbs:fennsel"
-				}
-				{
-					id: "23FA5D137DFFFEB4"
-					type: "item"
-					item: "sprout:cyan_orchid"
-				}
-				{
-					id: "5397891CF2649225"
-					type: "item"
-					item: "sprout:cyan_cornflower"
-				}
-				{
-					id: "1F1CDD14B0ED2028"
-					type: "item"
-					item: "sprout:cyan_poppy"
-				}
-				{
-					id: "777178B6A7E35661"
-					type: "item"
-					item: "sprout:cyan_daisy"
-				}
-				{
-					id: "7BB27C2F8665BA11"
-					type: "item"
-					item: "sprout:cyan_dandelion"
-				}
-				{
-					id: "7DCA773EEE9D3F68"
-					type: "item"
-					item: "sprout:cyan_tulip"
-				}
-				{
-					id: "6EEE128079825D41"
-					type: "item"
-					item: "sprout:cyan_allium"
 				}
 			]
 			rewards: [
@@ -602,46 +467,6 @@
 					id: "4635551D704B51AE"
 					type: "item"
 					item: "minecraft:cornflower"
-				}
-				{
-					id: "2B7BAE16846B8DE7"
-					type: "item"
-					item: "sprout:blue_allium"
-				}
-				{
-					id: "46DA36DDDBC96EF6"
-					type: "item"
-					item: "sprout:blue_tulip"
-				}
-				{
-					id: "29A1CE5BB9459A3B"
-					type: "item"
-					item: "sprout:blue_orchid"
-				}
-				{
-					id: "66F291FBBEEE10CA"
-					type: "item"
-					item: "sprout:blue_azure_bluet"
-				}
-				{
-					id: "479C7F3AC97F8B95"
-					type: "item"
-					item: "sprout:blue_lily_of_the_valley"
-				}
-				{
-					id: "00A65205BDFED6A6"
-					type: "item"
-					item: "sprout:blue_poppy"
-				}
-				{
-					id: "18BCFFED294DFDBE"
-					type: "item"
-					item: "sprout:blue_daisy"
-				}
-				{
-					id: "76666515CF2B16F4"
-					type: "item"
-					item: "sprout:blue_dandelion"
 				}
 			]
 			rewards: [
@@ -799,6 +624,21 @@
 					type: "item"
 					item: "byg:hydrangea_hedge"
 				}
+				{
+					id: "47844E396E7388A4"
+					type: "item"
+					item: "environmental:purple_hibiscus"
+				}
+				{
+					id: "361E672772392D7B"
+					type: "item"
+					item: "environmental:violet"
+				}
+				{
+					id: "7A359781AD882456"
+					type: "item"
+					item: "environmental:purple_delphinium"
+				}
 			]
 			rewards: [
 				{
@@ -890,49 +730,19 @@
 					}
 				}
 				{
-					id: "7F7714E70C0CC46A"
-					type: "item"
-					item: "sprout:pink_poppy"
-				}
-				{
-					id: "2637A34153207A44"
-					type: "item"
-					item: "sprout:pink_cornflower"
-				}
-				{
-					id: "540D27912543A784"
-					type: "item"
-					item: "sprout:pink_daisy"
-				}
-				{
-					id: "642986A7602EF7F5"
-					type: "item"
-					item: "sprout:pink_dandelion"
-				}
-				{
 					id: "17AA907FBDF0B888"
 					type: "item"
 					item: "byg:silver_vase_flower"
 				}
 				{
-					id: "5E651435B5040B56"
+					id: "08C4D7C3FA0278FC"
 					type: "item"
-					item: "sprout:pink_allium"
+					item: "environmental:pink_delphinium"
 				}
 				{
-					id: "47C7529D2119CEB4"
+					id: "4C42B6E5BB9590CC"
 					type: "item"
-					item: "sprout:pink_lily_of_the_valley"
-				}
-				{
-					id: "12357D5585ABEDE0"
-					type: "item"
-					item: "sprout:pink_azure_bluet"
-				}
-				{
-					id: "60048D88B07079A8"
-					type: "item"
-					item: "sprout:pink_orchid"
+					item: "environmental:pink_hibiscus"
 				}
 			]
 			rewards: [
@@ -1003,44 +813,9 @@
 					item: "byg:incan_lily"
 				}
 				{
-					id: "5E7212AE9FE483A3"
+					id: "2E858E7A5019E562"
 					type: "item"
-					item: "sprout:magenta_azure_bluet"
-				}
-				{
-					id: "3A828A60A4B16EB4"
-					type: "item"
-					item: "sprout:magenta_daisy"
-				}
-				{
-					id: "4EE587F1066B403B"
-					type: "item"
-					item: "sprout:magenta_dandelion"
-				}
-				{
-					id: "256B973B128A592A"
-					type: "item"
-					item: "sprout:magenta_tulip"
-				}
-				{
-					id: "6DE6DB2AAABBD99F"
-					type: "item"
-					item: "sprout:magenta_lily_of_the_valley"
-				}
-				{
-					id: "3E2D570E4989DB62"
-					type: "item"
-					item: "sprout:magenta_poppy"
-				}
-				{
-					id: "3A1D6D88300BA2F7"
-					type: "item"
-					item: "sprout:magenta_orchid"
-				}
-				{
-					id: "2CFA3EF5616246E2"
-					type: "item"
-					item: "sprout:magenta_cornflower"
+					item: "environmental:magenta_hibiscus"
 				}
 			]
 			rewards: [
@@ -1126,9 +901,14 @@
 					item: "byg:black_rose"
 				}
 				{
-					id: "00826C5FBB03E333"
+					id: "0FF916689C41397C"
 					type: "item"
-					item: "byg:clover_patch"
+					item: "environmental:white_lotus_flower"
+				}
+				{
+					id: "500454A516F65136"
+					type: "item"
+					item: "environmental:white_delphinium"
 				}
 			]
 			rewards: [
@@ -1444,6 +1224,11 @@
 					exclude_from_claim_all: true
 					table_id: 5161092699925703455L
 				}
+				{
+					id: "62149A202F095504"
+					type: "item"
+					item: "plushies:cat"
+				}
 			]
 		}
 		{
@@ -1468,7 +1253,6 @@
 				"692725454B955B4C"
 				"1CFFA3249B4DC950"
 				"5C9725DEED609E88"
-				"6933DD3003786443"
 			]
 			id: "2DDA757CE80078C3"
 			tasks: [{
@@ -1536,6 +1320,11 @@
 					exclude_from_claim_all: true
 					table_id: 7049021818423122779L
 				}
+				{
+					id: "61EB5CFD1CCEDF2A"
+					type: "item"
+					item: "plushies:mooshroom"
+				}
 			]
 		}
 		{
@@ -1552,41 +1341,6 @@
 					item: "hibernalherbs:thyocielle"
 				}
 				{
-					id: "144EE97498CAB96E"
-					type: "item"
-					item: "sprout:lime_tulip"
-				}
-				{
-					id: "7BB78D388E79A6F1"
-					type: "item"
-					item: "sprout:lime_allium"
-				}
-				{
-					id: "2351111467D2CB0E"
-					type: "item"
-					item: "sprout:lime_lily_of_the_valley"
-				}
-				{
-					id: "5DC36ED22EA7C813"
-					type: "item"
-					item: "sprout:lime_azure_bluet"
-				}
-				{
-					id: "729E927C6AB73CF6"
-					type: "item"
-					item: "sprout:lime_dandelion"
-				}
-				{
-					id: "5E0F7D8A051DDD4D"
-					type: "item"
-					item: "sprout:lime_daisy"
-				}
-				{
-					id: "70112D9AE1BE226C"
-					type: "item"
-					item: "sprout:lime_poppy"
-				}
-				{
 					id: "16B3A2E20B618EAD"
 					type: "item"
 					item: "hibernalherbs:chervil"
@@ -1597,14 +1351,9 @@
 					item: "hibernalherbs:bloforia"
 				}
 				{
-					id: "0ED5727ADD3FC378"
+					id: "571C8DCD0712B2E6"
 					type: "item"
-					item: "sprout:lime_cornflower"
-				}
-				{
-					id: "288C49C724B00FF6"
-					type: "item"
-					item: "sprout:lime_orchid"
+					item: "environmental:dianthus"
 				}
 			]
 			rewards: [
@@ -1631,46 +1380,6 @@
 			id: "5C9725DEED609E88"
 			tasks: [
 				{
-					id: "500632D773E28B95"
-					type: "item"
-					item: "sprout:light_blue_poppy"
-				}
-				{
-					id: "7A3D27AF8FC4039F"
-					type: "item"
-					item: "sprout:light_blue_cornflower"
-				}
-				{
-					id: "55B3F1320CC6ADD9"
-					type: "item"
-					item: "sprout:light_blue_allium"
-				}
-				{
-					id: "2ED72BF30C971564"
-					type: "item"
-					item: "sprout:light_blue_lily_of_the_valley"
-				}
-				{
-					id: "542ADDF3452DFC40"
-					type: "item"
-					item: "sprout:light_blue_azure_bluet"
-				}
-				{
-					id: "4BA6E33D27DB09A5"
-					type: "item"
-					item: "sprout:light_blue_tulip"
-				}
-				{
-					id: "32A875B976AF2AF1"
-					type: "item"
-					item: "sprout:light_blue_dandelion"
-				}
-				{
-					id: "1A46C4BAF81F6975"
-					type: "item"
-					item: "sprout:light_blue_daisy"
-				}
-				{
 					id: "57DBDAB459BFFE95"
 					type: "item"
 					item: "hibernalherbs:ceillis"
@@ -1681,9 +1390,9 @@
 					item: "byg:snowdrops"
 				}
 				{
-					id: "387D4992440A76B1"
+					id: "7E435FF42D1B8906"
 					type: "item"
-					item: "nethersdelight:mimicarnation"
+					item: "environmental:blue_delphinium"
 				}
 			]
 			rewards: [
@@ -1695,110 +1404,6 @@
 				}
 				{
 					id: "225CBA3ED518E8D8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 987967038148964353L
-				}
-			]
-		}
-		{
-			title: "Flower Picking: Grays"
-			x: -0.5d
-			y: 1.5d
-			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "6933DD3003786443"
-			tasks: [
-				{
-					id: "30998FE71AB66B30"
-					type: "item"
-					item: "sprout:light_gray_orchid"
-				}
-				{
-					id: "2DE6C0148DC8C8D0"
-					type: "item"
-					item: "sprout:light_gray_cornflower"
-				}
-				{
-					id: "2E2565DB75C3FFF7"
-					type: "item"
-					item: "sprout:light_gray_poppy"
-				}
-				{
-					id: "32A2AF2A643258F5"
-					type: "item"
-					item: "sprout:light_gray_dandelion"
-				}
-				{
-					id: "102B0872761AAE2F"
-					type: "item"
-					item: "sprout:light_gray_tulip"
-				}
-				{
-					id: "22001AA882943635"
-					type: "item"
-					item: "sprout:light_gray_allium"
-				}
-				{
-					id: "165897B2CF66DDEB"
-					type: "item"
-					item: "sprout:light_gray_lily_of_the_valley"
-				}
-				{
-					id: "1D8B002602B744C0"
-					type: "item"
-					item: "sprout:gray_cornflower"
-				}
-				{
-					id: "3458C07B30324DDD"
-					type: "item"
-					item: "sprout:gray_poppy"
-				}
-				{
-					id: "72BD13214470FFAF"
-					type: "item"
-					item: "sprout:gray_daisy"
-				}
-				{
-					id: "48EE3D580B464EE3"
-					type: "item"
-					item: "sprout:gray_dandelion"
-				}
-				{
-					id: "5CCC61D7754EF80D"
-					type: "item"
-					item: "sprout:gray_tulip"
-				}
-				{
-					id: "274ABF0D57CBA82E"
-					type: "item"
-					item: "sprout:gray_allium"
-				}
-				{
-					id: "031C3115305C73E1"
-					type: "item"
-					item: "sprout:gray_lily_of_the_valley"
-				}
-				{
-					id: "01022B1509F99489"
-					type: "item"
-					item: "sprout:gray_orchid"
-				}
-				{
-					id: "5EA7C625060B512C"
-					type: "item"
-					item: "sprout:gray_azure_bluet"
-				}
-			]
-			rewards: [
-				{
-					id: "24E389DE768B25D6"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "7BA4C1CF8873903B"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 987967038148964353L

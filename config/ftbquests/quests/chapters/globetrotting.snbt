@@ -395,10 +395,30 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "12F199D0ACD42E51"
-				type: "command"
-				command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Frog\\\"}\"},SkullOwner:{Id:[I;-855401369,-1764405596,-1406284308,-1929382356],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2ZTcwMGMyYzU3ZGUwYTI0OWQ0MGFjYzEzMzJhZWVmNTMyYzFlNDA5NmI4YzI2ODgzNjU5NjY2YmQzNjgwOSJ9fX0=\"}]}}} 1"
-				player_command: false
+				id: "7CF06A724295ED1F"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2ZTcwMGMyYzU3ZGUwYTI0OWQ0MGFjYzEzMzJhZWVmNTMyYzFlNDA5NmI4YzI2ODgzNjU5NjY2YmQzNjgwOSJ9fX0="
+								}]
+							}
+							Id: [I;
+								-855401369
+								-1764405596
+								-1406284308
+								-1929382356
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Frog\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -428,14 +448,14 @@
 			y: 5.5d
 			shape: "octagon"
 			description: [
-				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks&r, but it also contains the cargo it was transporting."
+				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks and worse&r, but it also contains the cargo it was transporting."
 				"Make sure you bring your best diving gear!"
 			]
 			id: "3B7028DB3EDD6001"
 			tasks: [{
-				id: "767829D51515DD23"
+				id: "6D999B3A3AC5F9BD"
 				type: "advancement"
-				advancement: "idas:bearclaw_inn"
+				advancement: "idas:sunken_ship"
 				criterion: ""
 			}]
 			rewards: [

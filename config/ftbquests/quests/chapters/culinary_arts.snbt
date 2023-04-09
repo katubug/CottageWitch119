@@ -45,7 +45,7 @@
 			corner: false
 		}
 		{
-			x: 5.0d
+			x: 0.5d
 			y: 4.0d
 			width: 10.0d
 			height: 10.0d
@@ -57,7 +57,7 @@
 			corner: false
 		}
 		{
-			x: -5.0d
+			x: -9.0d
 			y: 4.0d
 			width: 10.0d
 			height: 10.0d
@@ -69,7 +69,7 @@
 			corner: false
 		}
 		{
-			x: 14.0d
+			x: 10.0d
 			y: 4.0d
 			width: 10.0d
 			height: 10.0d
@@ -81,12 +81,12 @@
 			corner: false
 		}
 		{
-			x: -14.0d
-			y: 4.0d
+			x: 0.5d
+			y: 13.0d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
-			image: "cottagewitch:textures/bgwinery.png"
+			image: "cottagewitch:textures/bgenddelight.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -400,8 +400,8 @@
 		}
 		{
 			title: "Make a Hoglin Mount"
-			x: 11.5d
-			y: -6.5d
+			x: 11.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "No one mounts like Gaston!"
 			description: ["Are you a trophy hunter? Well, look no further than this tasteful and bold decoration - the &bHoglin Mount&r."]
@@ -583,7 +583,7 @@
 			subtitle: "Are you Abel to get Cain?"
 			description: [
 				"&bPropelcane&r is obtained from &bPropelplants&r, but must be &6harvested with a Knife&r. It can be chopped into &bGunpowder&r at a Cutting Board, or used to &acreate special &bPropelplant Torches&r."
-				"You can also combine it with some &bCrimson Roots&r to create a &bPropelplant Stem&r, which can be &aplanted on &bRich Soul Soil&r, or other Nether soils."
+				"The &bCane&r can also be &aplanted on &bRich Soul Soil&r."
 			]
 			dependencies: ["76BB908C21246B36"]
 			id: "3975B8BC61249AF4"
@@ -639,7 +639,7 @@
 		}
 		{
 			title: "Obtain a Knife"
-			x: -7.0d
+			x: -11.0d
 			y: 2.5d
 			subtitle: "Baby's First Stabber"
 			description: ["&bKnives&r from this mod will guarantee you &aadditional drops from animals&r, such as &bfeathers&r or &bleather&r, as well as &aadditional drops when breaking grass&r. This makes it much easier to get started on your agricultural journey."]
@@ -675,7 +675,7 @@
 		}
 		{
 			title: "Obtain a Cooking Pot"
-			x: -5.0d
+			x: -9.0d
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Despite the name, it's not for cooking pot."
@@ -714,7 +714,7 @@
 		}
 		{
 			title: "Create a Stove"
-			x: -2.5d
+			x: -6.5d
 			y: 3.5d
 			subtitle: "Steve's Stove"
 			description: [
@@ -736,7 +736,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -12.0d
 			y: 6.0d
 			shape: "hexagon"
 			subtitle: "Yer barking up the wrong tree...heehee"
@@ -759,7 +759,7 @@
 		}
 		{
 			title: "Obtain a Cutting Board"
-			x: -8.0d
+			x: -12.0d
 			y: 4.5d
 			subtitle: "Back to the ol' Cutting Board"
 			description: [
@@ -781,7 +781,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -10.5d
 			y: 3.5d
 			shape: "hexagon"
 			subtitle: "Hmmm... Maybe YOU should try eating it... Go on..."
@@ -801,7 +801,7 @@
 		}
 		{
 			title: "Make Hearty Meals"
-			x: -6.0d
+			x: -10.0d
 			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Touched by his noodly appendage."
@@ -828,7 +828,7 @@
 		}
 		{
 			title: "Make Some Hot Cocoa"
-			x: -6.5d
+			x: -10.5d
 			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Cures what ails ya"
@@ -849,7 +849,7 @@
 		}
 		{
 			title: "Make Placeable Meals"
-			x: -4.0d
+			x: -8.0d
 			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Stuffed Pumpkin is the new cake"
@@ -1090,8 +1090,8 @@
 		}
 		{
 			icon: "minecraft:cake"
-			x: 7.5d
-			y: 5.5d
+			x: 3.25d
+			y: 5.0d
 			description: ["Each a bunch of cake! It's a delicious treat and you deserve it."]
 			id: "78A59A17FEDDE305"
 			tasks: [{
@@ -1137,7 +1137,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -10.0d
 			y: 7.0d
 			shape: "octagon"
 			description: ["Achieve this advancement by &6eating a course of every meal available&r! You can search for \"food\" in JEI or your storage, but &donly foods from the &lFarmer's Delight&r &dmod&r count."]
@@ -1203,7 +1203,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -6.0d
 			y: 5.0d
 			shape: "octagon"
 			description: ["The &bSkillet&r allows you to cook on the go! Simply &6stand near a heat source&r and &6add your ingredients&r!"]
@@ -1327,7 +1327,7 @@
 		}
 		{
 			title: "Placeable Meal Diversity"
-			x: -3.5d
+			x: -7.5d
 			y: 5.5d
 			shape: "hexagon"
 			description: ["There are many meals which can be &6placed down and eaten&r. Craft one of each and show your prowess as a kitchen witch."]
@@ -1414,7 +1414,7 @@
 		}
 		{
 			title: "Dessert-a-holic"
-			x: -5.0d
+			x: -9.0d
 			y: 6.5d
 			description: ["Who doesn't love pie? &6Make each type of pie and cake&r, and at the end you'll have a sumptuous feast!"]
 			dependencies: ["2615CD06E32EC741"]
@@ -1522,8 +1522,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 0.75d
+			y: 4.5d
 			shape: "rsquare"
 			description: [
 				"The mod &lCaupona&r adds a lot of new recipes and ways to cook them."
@@ -1565,13 +1565,14 @@
 		}
 		{
 			title: "Cooking with Create"
-			x: 3.75d
-			y: 3.0d
+			x: -0.5d
+			y: 2.5d
 			shape: "gear"
 			description: [
 				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
 				"Right click the &bCooking Guide&r onto a &bBlaze Burner&r to &6create a Blaze Stove&r."
-				"Hold \"w\" to &dponder&r the &bCooking Guide&r for more information."
+				"Hold \"w\" to &6ponder&r the &bCooking Guide&r for more information."
+				"Be sure that the &bCooking Guide&r is outside of your &bAkashic Tome&r! &dThe book will be consumed&r by this process. Check the &atutorial quests&r for info on removing a book from the &bAkashic Tome&r."
 			]
 			size: 1.5d
 			id: "1C7D5C2C8C201E83"
@@ -1594,7 +1595,7 @@
 		}
 		{
 			title: "Brew Some Booze"
-			x: 16.5d
+			x: 12.5d
 			y: 6.5d
 			subtitle: "party responsibly!"
 			description: [
@@ -1632,7 +1633,7 @@
 		}
 		{
 			title: "Obtain a Keg"
-			x: 13.0d
+			x: 9.0d
 			y: 3.5d
 			shape: "rsquare"
 			description: [
@@ -1676,7 +1677,7 @@
 		}
 		{
 			title: "Heat and Cool Your Keg"
-			x: 15.5d
+			x: 11.5d
 			y: 4.0d
 			subtitle: "things are heating up"
 			description: [
@@ -1701,7 +1702,7 @@
 		}
 		{
 			title: "Make Some Cheese"
-			x: 14.5d
+			x: 10.5d
 			y: 5.5d
 			subtitle: "not another cheesy pun..."
 			description: [
@@ -1732,515 +1733,7 @@
 			}]
 		}
 		{
-			title: "Obtain Grape Seeds"
-			x: -14.0d
-			y: 2.0d
-			shape: "rsquare"
-			description: ["You can obtain &bGrape Seeds&r from &eWinemaker Villagers&r, whose job block is an &bApple Press&r. Grapes &acan be planted directly as bushes&r."]
-			size: 2.0d
-			id: "48BC958EA34FEF99"
-			tasks: [{
-				id: "767A5FCA5FE9F6C7"
-				type: "item"
-				item: "vinery:red_grape_seeds"
-			}]
-			rewards: [{
-				id: "109ECBC1575BFD9F"
-				type: "item"
-				item: "vinery:red_grape"
-				count: 6
-			}]
-		}
-		{
-			title: "Increase Your Output"
-			x: -16.0d
-			y: 2.0d
-			subtitle: "what a grape idea"
-			description: [
-				"Although &bGrapes&r can be planted directly in the ground, you can get &agreater output&r by &6planting them on &bGrapevine Stems&r."
-				"{image:cottagewitch:textures/grapevine.png width:100 height:80 align:1 fit:true}"
-			]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "68BDA76B6874944A"
-			tasks: [{
-				id: "4DBCAE27C224CC96"
-				type: "item"
-				item: "vinery:grapevine_stem"
-			}]
-			rewards: [{
-				id: "08F42EFCA0373E27"
-				type: "item"
-				item: "vinery:grapevine_stem"
-				count: 5
-			}]
-		}
-		{
-			title: "Cooking with Copper"
-			x: -16.0d
-			y: 3.5d
-			description: [
-				"The &bRustic Cooking Pot&r must be placed on a &aHeat Source&r in order to work. This can include &bStoves&r, &bBlaze Burners&r, or &bFireboxes&r."
-				"With this pot, you can &amake Jams and even Applesauce&r!"
-				"Be sure to &6click the recipe book&r inside the &bRustic Cooking Pot&r to see the recipes you can make!"
-			]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "0F875E3BE22AAC09"
-			tasks: [
-				{
-					id: "136F4404AF4B881C"
-					type: "item"
-					item: "vinery:stove"
-				}
-				{
-					id: "1B9A7C4A88AD0F66"
-					type: "item"
-					item: "vinery:cooking_pot"
-				}
-			]
-			rewards: [
-				{
-					id: "69B9226D6CDA1FA5"
-					type: "item"
-					auto: "disabled"
-					item: "vinery:apple_mash"
-				}
-				{
-					id: "6DF6B21860B43FDD"
-					type: "item"
-					auto: "disabled"
-					item: "minecraft:sugar"
-				}
-			]
-		}
-		{
-			title: "Everything But The..."
-			x: -12.0d
-			y: 2.0d
-			shape: "hexagon"
-			subtitle: "an infinite water source"
-			description: [
-				"You can craft a &bKitchen Sink&r and even &aplace a faucet on it!&r This functions as an easy &ainfinite water source&r for your kitchen!"
-				"&6Right click&r the sink to fill it!"
-			]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "6B31A71366773D0F"
-			tasks: [
-				{
-					id: "5AE6A42704E2C417"
-					type: "item"
-					item: "vinery:kitchen_sink"
-				}
-				{
-					id: "25A57AC4B71CFC1E"
-					type: "item"
-					item: "vinery:faucet"
-				}
-			]
-			rewards: [{
-				id: "335017746A855C31"
-				type: "item"
-				item: "minecraft:glass_bottle"
-				count: 10
-			}]
-		}
-		{
-			x: -17.0d
-			y: 5.0d
-			shape: "hexagon"
-			description: ["To obtain cherries, &6right click with shears&r on fruited cherry leaves. The only &bCherry Trees&r which provide the fruit are from the &lLet's Do Wine/Vinery&r mod."]
-			dependencies: ["0F875E3BE22AAC09"]
-			id: "29118255ADA550DA"
-			tasks: [{
-				id: "5671FD7EF55EB3C3"
-				type: "item"
-				item: "vinery:cherry"
-			}]
-			rewards: [
-				{
-					id: "101E2763115AE451"
-					type: "item"
-					auto: "disabled"
-					item: "vinery:cherry"
-					count: 3
-				}
-				{
-					id: "743296D0B889ACDA"
-					type: "item"
-					auto: "disabled"
-					item: "vinery:cherry_jar"
-				}
-				{
-					id: "16CA692DE13BF24B"
-					type: "item"
-					auto: "disabled"
-					item: "vinery:old_cherry_sapling"
-				}
-			]
-		}
-		{
-			title: "Make some Jam"
-			x: -16.0d
-			y: 6.0d
-			shape: "hexagon"
-			subtitle: "we jammin"
-			description: ["Put your new items and skills to work and &acook up some Cherry Jam&r! It goes delicious with some homemade &bCrusty Bread&r. Mmmm."]
-			dependencies: ["29118255ADA550DA"]
-			id: "331FAD73BDDA2AE9"
-			tasks: [{
-				id: "2AD45C28A387431E"
-				type: "item"
-				item: "vinery:cherry_jam"
-			}]
-			rewards: [{
-				id: "7F934146805602DE"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
-		}
-		{
-			x: -17.0d
-			y: 7.0d
-			shape: "hexagon"
-			description: [
-				"To obtain a &bSlice of Jammy Bread&r, &6place down a &bloaf of Crusty Bread&r using shift-right click&r. Then, holding your &bJam&r, &6right click the Bread!&r."
-				"&dThis is currently a little buggy&r. Do not click the Bread with the Empty Jam jars, or with &bSweetberry&r or &bGrape&r Jam, as you will just eat the bread."
-			]
-			dependencies: [
-				"331FAD73BDDA2AE9"
-				"7A5F86F9E6B5EEC8"
-			]
-			id: "33B8D3D552B3DCFF"
-			tasks: [{
-				id: "613F0730229BF166"
-				type: "item"
-				item: "vinery:bread_slice"
-			}]
-			rewards: [
-				{
-					id: "0D859E0E4C4F2817"
-					type: "item"
-					item: "delightful:nut_butter_bottle"
-				}
-				{
-					id: "1B55349C66694D83"
-					type: "item"
-					item: "farmersdelight:milk_bottle"
-				}
-			]
-		}
-		{
-			x: -14.5d
-			y: 4.0d
-			description: [
-				"The &bWood Fired Oven&r is an important inclusion to any witch's kitchen. We know well the magic that comes with freshly-baked bread!"
-				"When provided with &bFuel&r, the &bWood Fired Oven&r can make a number of warm, fluffy delicacies."
-				"Don't forget to &6check the recipe book&r inside the &aOven's GUI&r."
-			]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "5610138E703EF7F9"
-			tasks: [{
-				id: "18DB7AC06D728835"
-				type: "item"
-				item: "vinery:wood_fired_oven"
-			}]
-			rewards: [
-				{
-					id: "1A0A576296431FCA"
-					type: "item"
-					item: "create:wheat_flour"
-					count: 2
-				}
-				{
-					id: "08E6BFBA1CD11FA9"
-					type: "item"
-					item: "spelunkery:rock_salt"
-				}
-			]
-		}
-		{
-			title: "Pressing the Grapes"
-			x: -12.0d
-			y: 3.5d
-			subtitle: "get stompin"
-			description: [
-				"You can &aplace up to 3 grapes&r at one time into the &bGrapevine Pot&r to be crushed. Once the pot is full, &6get in there and start stomping&r (jump)!"
-				"This will provide you with &a3 bottles of &bGrapejuice&r, which you can get by &6right clicking the &bPot&r with a &bWine Bottle&r."
-			]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "741CA7B7725E4CD2"
-			tasks: [{
-				id: "3F020079C469B8CE"
-				type: "item"
-				item: "vinery:grapevine_pot"
-			}]
-			rewards: [{
-				id: "78795BFCE8652B11"
-				type: "item"
-				item: "vinery:wine_bottle"
-				count: 3
-			}]
-		}
-		{
-			title: "Bottling the Wine"
-			x: -11.0d
-			y: 4.5d
-			description: [
-				"You'll need a &bWine Bottle&r to hold your boozy libations."
-				"&dRight now this is a little unbalanced&r. Although your &bGrape Juice&r is inside a &bWine Bottle&r, you &adon't get those bottles back&r when you &acraft and consume&r the wine."
-				"Good things come at a cost, I guess!"
-			]
-			dependencies: ["741CA7B7725E4CD2"]
-			id: "4ACAAFA9FA54EBBC"
-			tasks: [
-				{
-					id: "3C791DDCA0CEAED3"
-					type: "item"
-					item: "vinery:wine_bottle"
-				}
-				{
-					id: "3F936A25BD382D59"
-					type: "item"
-					item: "vinery:red_grapejuice_wine_bottle"
-				}
-			]
-			rewards: [{
-				id: "33B54B1057F1AB80"
-				type: "item"
-				item: "vinery:wine_bottle"
-				count: 10
-			}]
-		}
-		{
-			title: "Make Some Dough"
-			x: -15.0d
-			y: 5.5d
-			subtitle: "let's get this bread"
-			description: [
-				"&bRustic Dough&r is &aslightly different&r - a little heartier and more salty - than regular &bDough&r."
-				"Although it can be used in many recipes, &aonly &bRustic Dough&r can be used to make items like &bMilk Bread&r or &bCrusty Bread&r."
-			]
-			dependencies: ["5610138E703EF7F9"]
-			id: "578F190F097CCEAD"
-			tasks: [{
-				id: "6047AF7E3AFB6798"
-				type: "item"
-				item: "vinery:dough"
-			}]
-			rewards: [
-				{
-					id: "3C7653927043428C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "785ADCF1B815AAC2"
-					type: "item"
-					item: "minecraft:cocoa_beans"
-				}
-				{
-					id: "31E08C834F149BFC"
-					type: "item"
-					item: "minecraft:sugar"
-				}
-			]
-		}
-		{
-			title: "Fermentation"
-			x: -11.0d
-			y: 6.0d
-			description: [
-				"The &bAging Barrel&r is where all the experimentation takes place! &aThis mod encourages you to play with ingredients&r and see what you can make! You can &6view the recipe book&r inside the interface, and view the possible ingredients there."
-				"You have some &bRed Grapejuice&r, right? Why not try &6placing 2 of those into the barrel&r?"
-			]
-			dependencies: ["4ACAAFA9FA54EBBC"]
-			id: "5857EEBAA90A022B"
-			tasks: [{
-				id: "5A96822085F11144"
-				type: "item"
-				item: "vinery:fermentation_barrel"
-			}]
-			rewards: [
-				{
-					id: "4015D4FA72194A9C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "6E9387F50D774619"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8808494820591225409L
-				}
-			]
-		}
-		{
-			title: "Meet the Wandering Winemaker"
-			x: -17.0d
-			y: 3.0d
-			shape: "heart"
-			description: ["This nomadic fellow can be found leading two pack mules, and will &atrade you items useful to your winemaking journey!&r"]
-			id: "6FC1D97ADDBDF58E"
-			tasks: [{
-				id: "58333EE30FA66058"
-				type: "observation"
-				icon: "vinery:king_danis_wine"
-				timer: 0L
-				observe_type: 5
-				to_observe: "vinery:wandering_winemaker"
-			}]
-			rewards: [{
-				id: "761BA6C6D3034D20"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 5
-			}]
-		}
-		{
-			x: -15.0d
-			y: 7.0d
-			shape: "hexagon"
-			description: [
-				"This loaf of bread is known for its signature thick, chewy, delicious crust."
-				"It &acannot be eaten directly&r, but rather it should be &6placed in the world with right click&r."
-				"From there, you can &6apply Jam&r, or &aeat it directly like a cake!&r"
-			]
-			dependencies: ["578F190F097CCEAD"]
-			id: "7A5F86F9E6B5EEC8"
-			tasks: [{
-				id: "485B2229EC0FF0BE"
-				type: "item"
-				item: "vinery:crusty_bread"
-			}]
-			rewards: [{
-				id: "32C3423D96826BB0"
-				type: "item"
-				item: "vinery:crusty_bread"
-			}]
-		}
-		{
-			title: "You Did Wine!"
-			x: -12.0d
-			y: 7.0d
-			shape: "hexagon"
-			description: [
-				"Congratulations, you've made a delicious (to some people) bottle of &bdark red wine&r. This should &apair nicely with a steak dinner&r."
-				"Now make sure you try other ingredients, such as &bApple Mash&r, &bHoney&r, and even &bGolden Apples&r!"
-			]
-			dependencies: ["5857EEBAA90A022B"]
-			id: "2D269958D5BFA5DE"
-			tasks: [{
-				id: "008ECD50D9EDAE6C"
-				type: "item"
-				item: "vinery:noir_wine"
-			}]
-			rewards: [
-				{
-					id: "54C6196348098571"
-					type: "item"
-					item: "farmersdelight:steak_and_potatoes"
-				}
-				{
-					id: "15DEC727CC795806"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-		}
-		{
-			title: "Obtain some Gloves"
-			x: -12.5d
-			y: 5.0d
-			shape: "hexagon"
-			subtitle: "they fit like...well..."
-			description: ["&bGloves&r are obtained from &aMaster-level&r &eWinemaker Villagers&r, and are used to craft the &bWinemaker's Apron&r."]
-			dependencies: ["48BC958EA34FEF99"]
-			id: "0F5068CA7BE2E4E7"
-			tasks: [{
-				id: "37E0CA7ACC4E0517"
-				type: "item"
-				item: "vinery:gloves"
-			}]
-			rewards: [
-				{
-					id: "617E0876545F93FC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7917666410282180869L
-				}
-				{
-					id: "7DCB300F10012FEB"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-			]
-		}
-		{
-			title: "Winemaking Drip"
-			x: -13.5d
-			y: 6.5d
-			shape: "hexagon"
-			subtitle: "ngl i'm way too old to be using \"drip\""
-			description: ["Once you've made your &bfull set of rustic winemaking attire&r, you will not only look adorable - but &abonemeal you use won't be consumed&r anymore!"]
-			dependencies: ["0F5068CA7BE2E4E7"]
-			id: "3DB2CACD558FA795"
-			tasks: [
-				{
-					id: "7301AF71EC995ED5"
-					type: "item"
-					item: {
-						id: "vinery:straw_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7622D5C60A6E50A5"
-					type: "item"
-					item: {
-						id: "vinery:vinemaker_apron"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "01B7288FA50C013B"
-					type: "item"
-					item: {
-						id: "vinery:vinemaker_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2054716D62357DA5"
-					type: "item"
-					item: {
-						id: "vinery:vinemaker_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "37D9C26F2E2FB7C5"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
-		}
-		{
-			x: 11.5d
+			x: 7.5d
 			y: 6.5d
 			shape: "hexagon"
 			description: ["Have you ever had lasagna so good that it was frightening? Well, &awhat are you waiting for?&r"]
@@ -2266,7 +1759,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 9.0d
 			y: 7.0d
 			shape: "hexagon"
 			subtitle: "tonight we dine in hell"
@@ -2286,7 +1779,7 @@
 		}
 		{
 			title: "Make some Fudge"
-			x: 14.5d
+			x: 10.5d
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "fudge it"
@@ -2307,7 +1800,7 @@
 		}
 		{
 			title: "Pickle some Pickles"
-			x: 16.5d
+			x: 12.5d
 			y: 2.5d
 			shape: "hexagon"
 			description: ["&bPickles&r need a &anice, cold&r Keg to marinate in."]
@@ -2357,6 +1850,277 @@
 					}
 				}
 			]
+		}
+		{
+			x: -1.5d
+			y: 11.25d
+			shape: "rsquare"
+			description: [
+				"In order to craft certain high-level dishes, you'll need the &bDragon Egg Research Notes&r."
+				"You need a &bBook and Quill&r in your main hand, &bfour Obsidians&r in your off hand, an &bEnd Crystal&r and a &bNether Star&r in your inventory, then &6right click on the dragon egg&r and you will get the &bDragon Egg Research Notes&r."
+				"Note that in doing this, the Book and Quill, four Obsidians, End Crystal and Nether Star &dwill be consumed&r."
+			]
+			size: 1.5d
+			id: "1052339A2BC4D132"
+			tasks: [{
+				id: "24EA58558F4E4982"
+				type: "item"
+				item: "ends_delight:dragon_egg_research_notes"
+			}]
+			rewards: [{
+				id: "17EEA44B4E8E9736"
+				type: "item"
+				item: "ends_delight:non_hatchable_dragon_egg"
+			}]
+		}
+		{
+			title: "A Different Dragon Egg"
+			x: 0.5d
+			y: 11.5d
+			shape: "hexagon"
+			description: [
+				"Once you've obtained the &bDragon Egg Research Notes&r, you can use them to craft a &bNourishing Dragon Egg&r."
+				"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
+			]
+			dependencies: ["1052339A2BC4D132"]
+			id: "4264920573ADC879"
+			tasks: [{
+				id: "533CE3A0F90D92E6"
+				type: "item"
+				item: "ends_delight:non_hatchable_dragon_egg"
+			}]
+			rewards: [{
+				id: "077F1BFE976B91C4"
+				type: "item"
+				item: "ends_delight:dragon_egg_shell"
+				count: 3
+			}]
+		}
+		{
+			title: "An Eggshellent Bowl"
+			x: 0.5d
+			y: 13.0d
+			shape: "hexagon"
+			description: [
+				"To serve the unbridled taste sensation that is &adragon protein&r, you'll need an appropriate vessel."
+				"Craft the &bHalf Dragon Egg Shell&r."
+			]
+			dependencies: ["4264920573ADC879"]
+			id: "16ECF08D421359AC"
+			tasks: [{
+				id: "1EDE66F2AA094083"
+				type: "item"
+				item: "ends_delight:half_dragon_egg_shell"
+			}]
+			rewards: [
+				{
+					id: "73BDB58110F0E9A8"
+					type: "item"
+					item: "ends_delight:chorus_succulent"
+					count: 3
+				}
+				{
+					id: "50A025BAEC58D43F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 13.0d
+			shape: "hexagon"
+			description: [
+				"&bDragon Meat Stew&r... what could be a greater show of power than &cconsuming your fallen enemies&r?"
+				""
+				"Was that too much? That was too much, wasn't it?"
+			]
+			dependencies: ["16ECF08D421359AC"]
+			id: "10BD344DE9BF9D75"
+			tasks: [{
+				id: "344338EB1EF089CD"
+				type: "item"
+				item: "ends_delight:dragon_meat_stew_block"
+			}]
+			rewards: [{
+				id: "7C9B1229AA7B77AB"
+				type: "item"
+				item: "ends_delight:dragon_meat_stew"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.5d
+			shape: "hexagon"
+			description: ["This dreamy steamed dish will &afulfill your wildest dreams&r... or, at least, it'll &agive you some great buffs&r!"]
+			dependencies: ["16ECF08D421359AC"]
+			id: "43110B76D590F312"
+			tasks: [{
+				id: "5A19395E94557321"
+				type: "item"
+				item: "ends_delight:steamed_dragon_egg_block"
+			}]
+			rewards: [{
+				id: "10AA0AA0B0C4005F"
+				type: "item"
+				item: "ends_delight:steamed_dragon_egg"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.0d
+			shape: "octagon"
+			description: ["Make this advancement by crafting the &bAssorted Salad&r."]
+			dependencies: ["16ECF08D421359AC"]
+			id: "25C3A6BEFE246C3A"
+			tasks: [{
+				id: "5A3136C711223B37"
+				type: "advancement"
+				advancement: "ends_delight:get_assorted_salad"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "39B5615A2FD2DC12"
+					type: "item"
+					item: "ends_delight:assorted_salad"
+				}
+				{
+					id: "6A8F38155FA4D447"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2MmEzMTdmMmU4ZjM0OWEyN2UyOTZjZTIyNWI5ZThiMTI3ZDg4YmU2MWFhZWJmMTY2MDRiZmEyYWQ4MTMwOCJ9fX0="
+									}]
+								}
+								Id: [I;
+									2032202894
+									-1286453322
+									-1382874841
+									1386387422
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Eye of Ender\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 14.5d
+			shape: "octagon"
+			description: ["Congratulations, you've cooked some of the &amost magically imbued food&r in the game! Truly a kitchen witch of supreme renown!"]
+			dependencies: [
+				"43110B76D590F312"
+				"10BD344DE9BF9D75"
+			]
+			id: "224C1B2D30B8E7DF"
+			tasks: [{
+				id: "05A7CA3D3CBCBE10"
+				type: "advancement"
+				advancement: "ends_delight:dragon_egg_shell_feast"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "093972A8B8FC8B91"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 16.0d
+			shape: "hexagon"
+			subtitle: "keep your feet on the ground"
+			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
+			id: "7CDFDA310DE2A4E4"
+			tasks: [{
+				id: "6A0AFA1484FD16DD"
+				type: "item"
+				item: "ends_delight:chorus_flower_tea"
+			}]
+			rewards: [{
+				id: "0165EAD200F02FA0"
+				type: "item"
+				item: "ends_delight:chorus_flower_tea"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			shape: "hexagon"
+			description: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
+			id: "456D45D35A596109"
+			tasks: [{
+				id: "37EB8F8C66BBC25A"
+				type: "item"
+				item: "ends_delight:baked_rice_cake_with_chorus_fruit_filling"
+			}]
+			rewards: [{
+				id: "76DBA410347A19ED"
+				type: "item"
+				item: "ends_delight:baked_rice_cake_with_chorus_fruit_filling"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 16.0d
+			shape: "hexagon"
+			description: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
+			id: "6CA036FC470C17EA"
+			tasks: [{
+				id: "63995D2F0B5FC3F1"
+				type: "item"
+				item: "ends_delight:grilled_shulker_block"
+			}]
+			rewards: [{
+				id: "4754115A15498F8C"
+				type: "item"
+				item: "ends_delight:grilled_shulker_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 15.0d
+			shape: "hexagon"
+			description: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
+			id: "482A2BB52514C35B"
+			tasks: [{
+				id: "6F26534C78596D5F"
+				type: "item"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+			}]
+			rewards: [{
+				id: "7CD023621DC3250A"
+				type: "item"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 16.0d
+			shape: "hexagon"
+			description: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
+			id: "28D201EE3AA699C2"
+			tasks: [{
+				id: "5985A424F685AC04"
+				type: "item"
+				item: "ends_delight:liquid_dragon_egg_in_bowl"
+			}]
+			rewards: [{
+				id: "738D5A2356F21597"
+				type: "item"
+				item: "ends_delight:liquid_dragon_egg_in_bowl"
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -203,8 +203,8 @@
 		}
 		{
 			title: "Meet a Snuffle!"
-			x: 7.0d
-			y: -4.5d
+			x: 6.0d
+			y: -4.0d
 			shape: "heart"
 			subtitle: "So warm and snuffly"
 			description: ["The &eSnuffle&r is a passive creature with a permanent blep. It can be found in snowy biomes, and &atamed with potatoes&r."]
@@ -579,6 +579,7 @@
 			x: 8.5d
 			y: 3.0d
 			shape: "hexagon"
+			subtitle: "oh whoa, straddlite of love"
 			description: ["A saddle which allows the player to ride a &eLavathian&r."]
 			dependencies: ["0CED4D17E7F90678"]
 			id: "295D2FB1A88B8928"
@@ -727,8 +728,8 @@
 		{
 			title: "The Rarest Fish in the World"
 			icon: "alexsmobs:devils_hole_pupfish_bucket"
-			x: -7.0d
-			y: -4.0d
+			x: -6.5d
+			y: -4.5d
 			shape: "heart"
 			subtitle: "Speak of the devil..."
 			description: [
@@ -1047,6 +1048,11 @@
 					type: "item"
 					item: "mobcatcher:net"
 				}
+				{
+					id: "4932557C828D26FE"
+					type: "item"
+					item: "plushies:cow"
+				}
 			]
 		}
 		{
@@ -1062,11 +1068,18 @@
 				advancement: "minecraft:husbandry/breed_an_animal"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "6D4990F08A4D5483"
-				type: "choice"
-				table_id: 7049021818423122779L
-			}]
+			rewards: [
+				{
+					id: "6D4990F08A4D5483"
+					type: "choice"
+					table_id: 7049021818423122779L
+				}
+				{
+					id: "0AEB98268C0B3561"
+					type: "item"
+					item: "plushies:parrot"
+				}
+			]
 		}
 		{
 			title: "Get an Apple for your Straw Golem"
@@ -1306,6 +1319,7 @@
 				"The &bRascal&r is a lonely creature who dwells in &cMineshafts below y 0&r! What it spends its days doing is a mystery, but one thing is clear: it wants to play!"
 				"If you can &6find the same &eRascal&6 3 times within 15 minutes&r, it will give you a small reward as thanks."
 			]
+			invisible: true
 			id: "0C7029D3D91202D8"
 			tasks: [{
 				id: "3AC7E8D48402FA59"
@@ -1391,6 +1405,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:skeleton_skull"
 			x: -9.0d
 			y: 3.5d
 			shape: "square"
@@ -1425,6 +1440,7 @@
 		}
 		{
 			title: "Creeper Collector"
+			icon: "handcrafted:creeper_trophy"
 			x: -9.0d
 			y: 4.5d
 			shape: "square"
@@ -1543,9 +1559,15 @@
 					exclude_from_claim_all: true
 					table_id: 7049021818423122779L
 				}
+				{
+					id: "23C411FB6E5B7932"
+					type: "item"
+					item: "handcrafted:creeper_trophy"
+				}
 			]
 		}
 		{
+			icon: "minecraft:creeper_head"
 			x: -8.0d
 			y: 6.0d
 			shape: "square"
@@ -1575,6 +1597,16 @@
 			]
 		}
 		{
+			icon: {
+				id: "twilightforest:creeper_skull_candle"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						CandleColor: 0
+						CandleAmount: 1
+					}
+				}
+			}
 			x: -8.0d
 			y: 7.5d
 			shape: "square"
@@ -1603,6 +1635,7 @@
 			]
 		}
 		{
+			icon: "minecraft:zombie_head"
 			x: -7.0d
 			y: 6.5d
 			shape: "square"
@@ -1655,6 +1688,7 @@
 			}]
 		}
 		{
+			icon: "supplementaries:enderman_head"
 			x: -5.0d
 			y: 6.5d
 			shape: "square"
@@ -1717,9 +1751,24 @@
 					type: "item"
 					item: "minecraft:enderman_spawn_egg"
 				}
+				{
+					id: "2340B768458086C7"
+					type: "item"
+					item: "plushies:enderman"
+				}
 			]
 		}
 		{
+			icon: {
+				id: "twilightforest:wither_skeleton_skull_candle"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						CandleColor: 0
+						CandleAmount: 1
+					}
+				}
+			}
 			x: -4.0d
 			y: 7.5d
 			shape: "square"
@@ -1748,6 +1797,7 @@
 			]
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			x: -4.0d
 			y: 6.0d
 			shape: "square"
@@ -1776,6 +1826,7 @@
 			]
 		}
 		{
+			icon: "handcrafted:pillager_trophy"
 			x: -3.0d
 			y: 4.5d
 			shape: "square"
@@ -1803,6 +1854,13 @@
 			]
 		}
 		{
+			icon: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -3.0d
 			y: 3.5d
 			shape: "square"
@@ -1823,20 +1881,14 @@
 					count: 3
 				}
 				{
-					id: "3DA98342EB8F6090"
-					type: "item"
-					item: {
-						id: "minecraft:trident"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "36D89FBD81444CE5"
 					type: "item"
 					item: "minecraft:drowned_spawn_egg"
+				}
+				{
+					id: "4EEA3A9E253B7412"
+					type: "item"
+					item: "bettertridents:trident_fragment"
 				}
 			]
 		}
@@ -1958,7 +2010,226 @@
 					item: "minecraft:snow_block"
 					count: 5
 				}
+				{
+					id: "025034A031F1EE27"
+					type: "item"
+					item: "plushies:snow_golem"
+				}
 			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["43B3A6804B59565E"]
+			repeatable: true
+			id: "22628C8DC1BB807F"
+			tasks: [{
+				id: "593E0D6FD65220E2"
+				type: "kill"
+				icon: "minecraft:spider_eye"
+				entity: "minecraft:spider"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "5FAF5E951EEF853D"
+					type: "item"
+					item: "alexsmobs:centipede_leg"
+				}
+				{
+					id: "330B95DA0BDA0267"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+				{
+					id: "788934F4168FA21E"
+					type: "item"
+					item: "alexsmobs:tarantula_hawk_wing_fragment"
+				}
+			]
+		}
+		{
+			title: "Meet the Raccoon"
+			x: -10.0d
+			y: -7.5d
+			shape: "heart"
+			description: [
+				"Raccoons are adorable but mischeivous nocturnal creatures which will &abeg you for food&r if you happen to be holding some."
+				"They can also &asteal food out of your storage&r, so be careful when building in the wilds!"
+				"They can be &atamed by giving it an &bEgg&r and letting it wash it."
+			]
+			id: "60F070208CAD2886"
+			tasks: [{
+				id: "58E7C57CA3A8E8DC"
+				type: "observation"
+				icon: "alexsmobs:raccoon_tail"
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:raccoon"
+			}]
+			rewards: [{
+				id: "4B61840933BBC775"
+				type: "item"
+				item: "alexsmobs:raccoon_tail"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			shape: "octagon"
+			subtitle: "captainsparklez intensifies"
+			description: [
+				"It's time to play &aGoat in a Boat&r! The rules are simple:"
+				"1. Get a &eGoat&r."
+				"2. Get a &bBoat&r."
+				"3. Get that &eGoat&r in that &bBoat&r."
+				"4. Get your &abutt&r in that &bBoat&r."
+				"You win!"
+			]
+			id: "114EFE7EF75B22F3"
+			tasks: [{
+				id: "5A01D74D65A58962"
+				type: "advancement"
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24BE315499AA4A97"
+				type: "item"
+				item: "plushies:goat"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "octagon"
+			description: [
+				"Axolotls are cute lil guys, but they're also &astrong&r and &avicious&r. If you tame one, it will &afight alongside you&r should you decide to take on an underwater threat."
+				"They'll also sometimes &agive you Regeneration&r, and once they do so, you'll know that you are &dbest friends 5ever&r."
+			]
+			id: "232A8F9F6388C377"
+			tasks: [{
+				id: "66A0BD4051C658F5"
+				type: "advancement"
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3D06E592368CB47A"
+				type: "item"
+				item: "plushies:axolotl"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			shape: "octagon"
+			description: [
+				"&eTadpoles&r, otherwise known as \"the forbidden boba,\" are cute lil wiggly fellas who are particularly susceptible to &eAxolotls&r."
+				"They're also susceptible to &bBuckets&r, and if you should capture one in such a way, then you've completed this quest."
+			]
+			id: "2FC0EAD96E3C41D4"
+			tasks: [{
+				id: "7A90C9C915A28458"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "44BE0CD5ECFD83B2"
+				type: "item"
+				item: "plushies:frog"
+			}]
+		}
+		{
+			title: "Meet the Slabfish"
+			x: -7.5d
+			y: -3.5d
+			shape: "heart"
+			description: [
+				"The &eSlabfish&r is a rectangular entity which can be &atamed&r with &bTropical Fish&r."
+				"Once tamed, you can &6right click&r to &agive them a sweater&r by equipping them with &bWool&r. They can also help you carry items if you &agive them a &bChest&r."
+				"You can also &adye the chest backpack&r by placing a dye in that slot."
+				"&eSlabfish&r will toggle sitting or standing if you &6shift right click&r them."
+				"However, they will &donly follow you when you're holding &bTropical Fish&r."
+			]
+			id: "7A028A2ABDD3D304"
+			tasks: [{
+				id: "7EADDF251FAAE962"
+				type: "observation"
+				icon: "environmental:slabfish_effigy"
+				timer: 0L
+				observe_type: 5
+				to_observe: "environmental:slabfish"
+			}]
+			rewards: [{
+				id: "4DF7256C6FF7781B"
+				type: "item"
+				item: "environmental:slabfish_effigy"
+			}]
+		}
+		{
+			title: "Gateways to Eternity"
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"Looking for a challenge? Why not craft yourself a &bGate Pearl&r? &dYou can craft any one you'd like for this quest&r."
+				"A &bGate Pearl&r allows you to summon a &eGateway&r by using it on a block.There will need to be &asufficient space&r available, and &aanother Gateway cannot already be open&r."
+				"An open Gateway will &dfail in a burst of lightning&r if it &acannot spawn a mob&r, any active &amob gets too far away&r, or the &awave timer&r elapses. Rewards will spawn from the Gateway as they are obtained."
+				"These &eGateway&r provide a challenge for powerful players, and are a great source of &bMob Drops&r."
+			]
+			id: "538D45E5FE8591D6"
+			tasks: [{
+				id: "6870A2403C99B582"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C76B55071F1CB88"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 4747620395501175375L
+			}]
+		}
+		{
+			title: "Meet the Goat"
+			x: 7.5d
+			y: -4.5d
+			shape: "heart"
+			description: [
+				"&eGoats&r are ornery things. If you should happen across one, &abeware of their headbutts&r! "
+				"However, if you can get it to &acharge into a hard block&r such as &bStone&r, it will drop a &bHorn&r."
+			]
+			id: "3556685D896ADA7C"
+			tasks: [{
+				id: "5BB9CB6527E6EF77"
+				type: "observation"
+				icon: {
+					id: "minecraft:goat_horn"
+					Count: 1b
+					tag: {
+						instrument: "minecraft:ponder_goat_horn"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:goat"
+			}]
+			rewards: [{
+				id: "1711429F0EE0C533"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1510389528595555205L
+			}]
 		}
 	]
 	quest_links: [ ]

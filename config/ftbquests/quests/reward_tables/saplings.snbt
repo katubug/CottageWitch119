@@ -85,5 +85,11 @@
 		{ item: "culturaldelights:avocado_sapling" }
 		{ item: "vinery:cherry_sapling" }
 		{ item: "vinery:old_cherry_sapling" }
+		{ item: "environmental:willow_sapling" }
+		{ item: "environmental:cherry_sapling" }
+		{ item: "environmental:pink_wisteria_sapling" }
+		{ item: "environmental:blue_wisteria_sapling" }
+		{ item: "environmental:purple_wisteria_sapling" }
+		{ item: "environmental:white_wisteria_sapling" }
 	]
 }

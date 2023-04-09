@@ -66,16 +66,16 @@
 	# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 	# Prevents chunks being claimed indefinitely by teams who no longer play.
 	# Default of 0 means no automatic loss of claims.
-	# Default: 0
-	# Range: 0 ~ 9223372036854775807
-	max_idle_days_before_unclaim: 0L
+	# Default: 0.0
+	# Range: 0.0 ~ 3650.0
+	max_idle_days_before_unclaim: 0.0d
 	
 	# Maximum time (in real-world days) where if no player in a team logs in, any forceloaded chunks owned by the team are no longer forceloaded.
 	# Prevents chunks being forceloaded indefinitely by teams who no longer play.
 	# Default of 0 means no automatic loss of forceloading.
-	# Default: 0
-	# Range: 0 ~ 9223372036854775807
-	max_idle_days_before_unforce: 5L
+	# Default: 0.0
+	# Range: 0.0 ~ 3650.0
+	max_idle_days_before_unforce: 5.0d
 	
 	# Requires you to claim chunks in order to edit and interact with blocks
 	# Default: false

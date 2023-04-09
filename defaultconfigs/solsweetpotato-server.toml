@@ -4,7 +4,7 @@
 	# they will get the benefits associated with that threshold.
 	#
 	#
-	thresholds = [3.0, 5.0, 7.0, 10.0, 13.0, 18.0, 25.0, 31.0]
+	thresholds = [3.0, 5.0, 7.0, 10.0, 13.0, 18.0, 25.0, 31.0, 40.0, 52.0, 66.0, 83.0, 100.0]
 	# 
 	# Define custom benefits here. Each entry in the list corresponds to a benefit that will be obtained
 	# at the corresponding diversity threshold defined the list above. For example, the first entry in
@@ -32,7 +32,7 @@
 	# and Slowness I below the corresponding threshold.
 	#
 	#
-	benefitsUnparsed = ["attribute,generic.max_health,2", "attribute,generic.max_health,2;effect,strength,0", "attribute,generic.max_health,2;effect,regeneration,0", "attribute,generic.max_health,2;effect,speed,0", "attribute,generic.max_health,2;attribute,generic.armor_toughness,2", "attribute,generic.armor_toughness,2;effect,strength,1", "attribute,generic.max_health,4", "attribute,generic.max_health,6"]
+	benefitsUnparsed = ["attribute,generic.max_health,2", "attribute,generic.max_health,2", "attribute,generic.max_health,2", "attribute,generic.max_health,2", "attribute,generic.max_health,2", "effect,strength,0", "effect,regeneration,0", "effect,speed,0", "attribute,generic.armor_toughness,2", "attribute,generic.armor_toughness,2;effect,strength,1", "attribute,generic.max_health,4", "attribute,generic.max_health,6", "effect,farmersdelight:nourishment,0"]
 	# The minimum number of foods a player needs to eat before any benefits are applied.
 	#
 	#
@@ -102,12 +102,12 @@
 	#
 	#
 	#Range: 0 ~ 1000
-	startDecay = 10
+	startDecay = 0
 	#
 	# Whether blacklisted foods should still take a spot in the queue, even if they don't contribute any diversity.
 	#
 	#
-	shouldForbiddenCount = false
+	shouldForbiddenCount = true
 
 [Complexity]
 	# Define custom complexity values for individual foods here.
@@ -117,4 +117,5 @@
 	# Note that tags are NOT currently supported.
 	#
 	#
-	complexityUnparsed = ["minecraft:cooked_porkchop,2", "minecraft:cooked_beef,2", "minecraft:golden_carrot,2", "minecraft:golden_apple,4", "minecraft:enchanted_golden_apple,10", "farmersrespite:green_tea,3", "farmersrespite:yellow_tea,3", "farmersrespite:coffee,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_tea,3", "farmersrespite:dandelion_tea,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_pie_slice,4", "farmersrespite:coffee_cake_slice,4", "farmersrespite:blazing_chili,5", "farmersdelight:cake_slice,4", "farmersdelight:chocolate_pie_slice,4", "farmersdelight:apple_pie_slice,4", "farmersdelight:sweet_berry_cheesecake_slice,4",  "nethersdelight:hoglin_ear,2", "nethersdelight:magma_gelatin,3", "twilightforest:hydra_chop,1", "delightful:deluxe_cheeseburger,6", "delightful:smore,4", "ecologics:tropical_stew,4", "farmersdelight:chocolate_pie_slice,5", "farmersdelight:fruit_salad,2", "farmersdelight:mixed_salad,1", "farmersdelight:dumplings,4"]
+	complexityUnparsed = ["minecraft:golden_carrot,2", "minecraft:golden_carrot,2", "minecraft:enchanted_golden_apple,5"]
+

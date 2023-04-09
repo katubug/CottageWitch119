@@ -82,7 +82,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 5
+			cooldown: 30
 			
 			# Default: true
 			enabled: true
@@ -119,7 +119,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 120
+			cooldown: 600
 			
 			# Default: true
 			enabled: true
@@ -127,7 +127,7 @@
 			# /rtp max distance from spawn point
 			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 15000
+			max_distance: 25000
 			
 			# Number of tries before /rtp gives up
 			# Default: 100

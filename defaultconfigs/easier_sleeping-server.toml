@@ -1,0 +1,21 @@
+#Percentage of players required to skip the night.
+#Range: 0 ~ 100
+sleep_percent = 50
+#Message shown, if a player goes to bed
+sleep_message = "is now in bed."
+#Message shown, if a player leaves his bed
+wake_message = "stood up."
+#Message shown, if the night was skipped
+morning_message = "Good Morning"
+#If true, the time since last rest is reset for all players, if enough other players are successfully sleeping. So not every player has to sleep to prevent phantom spawning for him.
+all_players_rest = false
+#If dimension_list_type is set to SLEEP_ACTIVE, the list is the list of dimensions in which the sleep voting is active.
+#If dimension_list_type is set to SLEEP_INACTIVE, the list is the list of dimensions in which the sleep voting is inactive.
+dimensions = ["minecraft:overworld"]
+#If dimension_list_type is set to SLEEP_ACTIVE, the dimension list is the list of dimensions in which the sleep voting is active.
+#If dimension_list_type is set to SLEEP_INACTIVE, the dimension list is the list of dimensions in which the sleep voting is inactive.
+#Allowed Values: SLEEP_ACTIVE, SLEEP_INACTIVE
+dimension_list_type = "SLEEP_ACTIVE"
+#Block names of beds being ignored for sleep percentage.
+block_blacklist = []
+

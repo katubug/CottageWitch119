@@ -14,7 +14,7 @@ import crafttweaker.api.block.Block;
 import mods.create.CompactingManager;
 import mods.jeitweaker.Jei;
 
-
+var air = <item:minecraft:air>;
 
 // Adds a recipe for the Mimicarnation
 craftingTable.addShapeless("mimicarnacream", <item:alexsmobs:mimicream>, [<item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>]);
@@ -195,23 +195,15 @@ var removeNope = [
     <item:alexsmobs:komodo_spit_bottle>,
     <item:alexsmobs:cockroach_wing>,
     <item:alexsmobs:cockroach_ootheca>,
-//    <item:alexsmobs:centipede_leg>,
-//    <item:alexsmobs:centipede_leggings>,
-//    <item:alexsmobs:mosquito_larva>,
     <item:alexsmobs:cockroach_wing_fragment>,
-//    <item:alexsmobs:sombrero>,
     <item:alexsmobs:maraca>,
     <item:alexsmobs:warped_muscle>,
     <item:alexsmobs:hemolymph_sac>,
-//    <item:alexsmobs:hemolymph_blaster>,
-//    <item:alexsmobs:tarantula_hawk_wing_fragment>,
-//    <item:alexsmobs:tarantula_hawk_wing>,
-//    <item:alexsmobs:tarantula_hawk_elytra>,
+    <item:alexsmobs:hemolymph_blaster>,
     <item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
     <item:pipez:universal_pipe>,
-//    <item:luggage:jukebox_luggage>,
     <item:contact:green_postbox>,
     <item:contact:red_postbox>,
     <item:contact:center_mailbox>,
@@ -256,9 +248,9 @@ craftingTable.addShaped("timeinabottle", <item:tiab:time_in_a_bottle>, [[<item:m
 // Ars Nouveau Novice Spellbook
 
 craftingTable.addShaped("novicebook", <item:ars_nouveau:novice_spell_book>, 
-[[<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
+[[air, <item:minecraft:gold_ingot>, air],
 [<item:minecraft:gold_ingot>, <item:ars_nouveau:worn_notebook>, <item:minecraft:gold_ingot>],
-[<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>]]);
+[air, <item:minecraft:gold_ingot>, air]]);
 
 
 // Eggs Carton
@@ -387,14 +379,14 @@ craftingTable.addShaped("naturescompass", <item:naturescompass:naturescompass>, 
 
 // Chest recipe?!
 
-craftingTable.addShaped("chestwtf", <item:minecraft:chest>, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
+craftingTable.addShaped("chestwtf", <item:minecraft:chest>, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, air, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 
 // ladder recipe?!
 
 craftingTable.addShaped("ladderwtf", <item:minecraft:ladder> * 4, [
-    [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:stick>], 
+    [<item:minecraft:stick>, air, <item:minecraft:stick>], 
     [<item:minecraft:stick>, <tag:items:minecraft:planks>, <item:minecraft:stick>], 
-    [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:stick>]]);
+    [<item:minecraft:stick>, air, <item:minecraft:stick>]]);
 
 //making more heat sources work with farmer's delight
 
@@ -404,6 +396,7 @@ craftingTable.addShaped("ladderwtf", <item:minecraft:ladder> * 4, [
 //    <item:storagenetwork:crafting_remote>,
 //    <item:storagenetwork:inventory_remote>
 //);
+
 
 craftingTable.addShapeless("windsweptsandstone", <item:byg:windswept_sandstone>, [<item:byg:windswept_sand>, <item:byg:windswept_sand>, <item:byg:windswept_sand>, <item:byg:windswept_sand>]);
 
@@ -516,62 +509,58 @@ craftingTable.addShaped("ringofenderchest", <item:ring_of_enderchest:ring_of_end
 
 craftingTable.addShapeless("waterlettuce", <item:babyfat:water_lettuce> * 2, [<item:farmersdelight:cabbage>, <item:farmersdelight:rice_panicle>]);
 
-// Mob Catcher
-<item:mobcatcher:net>.addTooltip("Catch mobs! Multiple uses.");
-
-
 // Upgrade your Ars Nouveau armors
 
 //Novice to Mage
 /*
 craftingTable.addShaped("novicetoappboots", <item:ars_nouveau:apprentice_boots>, [
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:blaze_fiber>, air],
     [<item:ars_nouveau:blaze_fiber>, <item:ars_nouveau:novice_boots>, <item:ars_nouveau:blaze_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:blaze_fiber>, air]
 ]);
 
 craftingTable.addShaped("novicetoapplegs", <item:ars_nouveau:apprentice_leggings>, [
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:blaze_fiber>, air],
     [<item:ars_nouveau:blaze_fiber>, <item:ars_nouveau:novice_leggings>, <item:ars_nouveau:blaze_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:blaze_fiber>, air]
 ]);
 
 craftingTable.addShaped("novicetoappchest", <item:ars_nouveau:apprentice_robes>, [
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:blaze_fiber>, air],
     [<item:ars_nouveau:blaze_fiber>, <item:ars_nouveau:novice_robes>, <item:ars_nouveau:blaze_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:blaze_fiber>, air]
 ]);
 
 craftingTable.addShaped("novicetoapphead", <item:ars_nouveau:apprentice_hood>, [
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:blaze_fiber>, air],
     [<item:ars_nouveau:blaze_fiber>, <item:ars_nouveau:novice_hood>, <item:ars_nouveau:blaze_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:blaze_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:blaze_fiber>, air]
 ]);
 
 // Mage to Archmage
 
 craftingTable.addShaped("apptoarchboots", <item:ars_nouveau:archmage_boots>, [
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:end_fiber>, air],
     [<item:ars_nouveau:end_fiber>, <item:ars_nouveau:apprentice_boots>, <item:ars_nouveau:end_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:end_fiber>, air]
 ]);
 
 craftingTable.addShaped("apptoarchlegs", <item:ars_nouveau:archmage_leggings>, [
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:end_fiber>, air],
     [<item:ars_nouveau:end_fiber>, <item:ars_nouveau:apprentice_leggings>, <item:ars_nouveau:end_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:end_fiber>, air]
 ]);
 
 craftingTable.addShaped("apptoarchchest", <item:ars_nouveau:archmage_robes>, [
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:end_fiber>, air],
     [<item:ars_nouveau:end_fiber>, <item:ars_nouveau:apprentice_robes>, <item:ars_nouveau:end_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:end_fiber>, air]
 ]);
 
 craftingTable.addShaped("apptoarchhead", <item:ars_nouveau:archmage_hood>, [
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>],
+    [air, <item:ars_nouveau:end_fiber>, air],
     [<item:ars_nouveau:end_fiber>, <item:ars_nouveau:apprentice_hood>, <item:ars_nouveau:end_fiber>],
-    [<item:minecraft:air>, <item:ars_nouveau:end_fiber>, <item:minecraft:air>]
+    [air, <item:ars_nouveau:end_fiber>, air]
 ]);
 */
 // egg carton to eggs
@@ -695,7 +684,7 @@ var hotBlocks = [
     <block:decorative_blocks:brazier>,
     <block:decorative_blocks:soul_brazier>,
     <block:byg:cryptic_campfire>,
-    <block:vinery:stove>,
+//    <block:vinery:stove>,
     <block:caupona:brick_hypocaust_firebox>,
     <block:caupona:opus_incertum_hypocaust_firebox>,
     <block:caupona:opus_latericium_hypocaust_firebox>,
@@ -712,7 +701,7 @@ for item in hotBlocks {
     <tag:blocks:farmersdelight:heat_sources>.add(item);
     <tag:blocks:brewinandchewin:hot_blocks>.add(item);
     <tag:blocks:alexsmobs:froststalker_fears>.add(item);
-    <tag:blocks:vinery:allows_cooking_pot_on>.add(item);
+//    <tag:blocks:vinery:allows_cooking_pot_on>.add(item);
 }
 
 <tag:items:forge:seeds>.add(<item:farmersrespite:tea_seeds>,
@@ -736,15 +725,15 @@ craftingTable.addShaped("itempipe", <item:pipez:item_pipe> * 16, [
 craftingTable.remove(<item:heartstone:heartstone>);
 
 craftingTable.addShaped("heartstone", <item:heartstone:heartstone> * 2, 
-[[<item:minecraft:air>,
+[[air,
 <item:create:polished_rose_quartz>,
-<item:minecraft:air>],
+air],
 [<item:create:polished_rose_quartz>,
 <item:minecraft:heart_of_the_sea>,
 <item:create:polished_rose_quartz>],
-[<item:minecraft:air>,
+[air,
 <item:create:polished_rose_quartz>,
-<item:minecraft:air>]]);
+air]]);
 
 //Sculk crafting
 craftingTable.addShaped("sculkcatalyst", <item:minecraft:sculk_catalyst>, [[<item:minecraft:echo_shard>, <item:minecraft:echo_shard>, <item:minecraft:echo_shard>],[<item:minecraft:echo_shard>, <item:minecraft:end_stone>, <item:minecraft:echo_shard>], [<item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>]]);
@@ -991,9 +980,9 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
 // Add recipe Warp scroll < Warp Stone
 
 craftingTable.addShaped("scrolltostone", <item:waystones:warp_stone>,
-[[<item:minecraft:air>, <item:waystones:warp_scroll>, <item:minecraft:air>],
+[[air, <item:waystones:warp_scroll>, air],
 [<item:waystones:warp_scroll>, <item:minecraft:emerald>, <item:waystones:warp_scroll>],
-[<item:minecraft:air>, <item:waystones:warp_scroll>, <item:minecraft:air>]]);
+[air, <item:waystones:warp_scroll>, air]]);
 
 // Convert Waystones to Sharestones
 
@@ -1037,7 +1026,6 @@ for bag in sleepingbags {
 }
 
 var leather = <item:minecraft:leather>;
-var air = <item:minecraft:air>;
 
 craftingTable.addShaped("sleepingbag_cyan", <item:comforts:sleeping_bag_cyan>, 
 [
@@ -1220,8 +1208,8 @@ Jei.hideCategory(<resource:extendedmushrooms:fairy_ring>);
 //Dough tags
 
 <tag:items:minecraft:dough>.add(<item:culturaldelights:corn_dough>);
-<tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>, <item:vinery:dough>);
-
+//<tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>, <item:vinery:dough>);
+/*
 // Rustic Dough Recipe
 
 craftingTable.remove(<item:vinery:dough>);
@@ -1251,7 +1239,7 @@ for jam in jams{
     <tag:items:forge:jellies>.add(jam);
     <tag:items:forge:jelly>.add(jam);    
 }
-
+*/
 // Milk
 
 craftingTable.addShapeless("milktomilk", <item:farmersdelight:milk_bottle>, [<item:minecraft:potion>.withTag({Potion: "davespotioneering:milk"})]);
@@ -1274,11 +1262,263 @@ furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <item:ducklin
 
 craftingTable.remove(<item:hibernalherbs:pouch_scratched>);
 craftingTable.addShaped("hibernalpouch", <item:hibernalherbs:pouch_scratched>, [
-    [<item:minecraft:air>, <tag:items:minecraft:flowers>, <item:minecraft:air>],
+    [air, <tag:items:minecraft:flowers>, air],
     [<tag:items:forge:string>, <item:quark:seed_pouch>, <tag:items:forge:string>],
-    [<item:minecraft:air>, <tag:items:minecraft:flowers>, <item:minecraft:air>]
+    [air, <tag:items:minecraft:flowers>, air]
 ]);
 
 // tag apple
 
 <tag:items:forge:fruits/sweet>.add(<item:byg:green_apple>); 
+
+// Mixed ore chunk uses tags
+
+craftingTable.remove(<item:better_fishing_rods:mixed_ore_chunk>);
+craftingTable.addShapeless("mixedore", <item:better_fishing_rods:mixed_ore_chunk>, [
+    <tag:items:forge:ores/coal>,
+    <tag:items:forge:ores/iron>,
+    <tag:items:forge:ores/redstone>,
+    <tag:items:forge:ores/gold>,
+    <tag:items:forge:ores/lapis>,
+    <tag:items:forge:ores/diamond>,
+    <tag:items:forge:ores/emerald>
+]);
+
+// Glowstick recipe
+
+<tag:items:crafttweaker:glowstick_ingredient>.add(<item:minecraft:glow_berries>,
+<item:minecraft:glow_ink_sac>,
+<item:spelunkery:phosphor_fungus>,
+<item:spelunkery:mushgloom>,
+<item:extendedmushrooms:glowshroom>,
+<item:twilightforest:torchberries>);
+
+craftingTable.remove(<item:spelunkery:glowstick>);
+craftingTable.addShaped("glowsticktags", <item:spelunkery:glowstick> * 4,[
+    [air, <tag:items:forge:slimeballs>, air],
+    [air, <tag:items:crafttweaker:glowstick_ingredient>, air],
+    [air, <item:minecraft:stick>, air]
+]);
+
+// Coal to compacting drawers
+
+craftingTable.remove(<item:spelunkery:coal_lump>);
+craftingTable.remove(<item:minecraft:coal>);
+craftingTable.addShapeless("coallumps", <item:spelunkery:coal_lump> * 9, [<item:minecraft:coal>]);
+craftingTable.addShapeless("coalfromlump", <item:minecraft:coal>, [
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>,
+    <item:spelunkery:coal_lump>
+]);
+
+craftingTable.addShapeless("coalfromblock", <item:minecraft:coal> * 9, [<item:minecraft:coal_block>]);
+
+//reaper scythe tags
+
+<tag:items:crafttweaker:scythe>.add(<item:reaping:diamond_reaping_tool>,
+<item:reaping:gold_reaping_tool>,
+<item:reaping:iron_reaping_tool>,
+<item:reaping:netherite_reaping_tool>);
+
+// BYG Sandstone
+
+<tag:items:c:purple_sand>.add(<item:byg:purple_sand>);
+<tag:items:c:pink_sand>.add(<item:byg:pink_sand>);
+<tag:items:c:blue_sand>.add(<item:byg:blue_sand>);
+<tag:items:c:white_sand>.add(<item:byg:white_sand>);
+<tag:items:c:black_sand>.add(<item:byg:black_sand>);
+
+// Plushie Cloning
+
+var plushies = [
+    <item:plushies:turtle>,
+    <item:plushies:sheep>,
+    <item:plushies:warden>,
+    <item:plushies:goat>,
+    <item:plushies:frog>,
+    <item:plushies:white_fox>,
+    <item:plushies:llama>,
+    <item:plushies:mooshroom>,
+    <item:plushies:parrot>,
+    <item:plushies:enderman>,
+    <item:plushies:dragon>,
+    <item:plushies:dolphin>,
+    <item:plushies:cow>,
+    <item:plushies:cat>,
+    <item:plushies:bee>,
+    <item:plushies:axolotl>,
+    <item:plushies:snow_golem>
+] as IItemStack[];
+
+for plush in plushies{
+    craftingTable.remove(plush);
+    plush.addTooltip("Quest Reward");
+}
+
+craftingTable.addShaped("snow_golemplushie", <item:plushies:snow_golem> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:snow_golem>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("axolotlplushie", <item:plushies:axolotl> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:axolotl>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("beeplushie", <item:plushies:bee> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:bee>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("catplushie", <item:plushies:cat> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:cat>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("cowplushie", <item:plushies:cow> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:cow>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("dolphinplushie", <item:plushies:dolphin> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:dolphin>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("dragonplushie", <item:plushies:dragon> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:dragon>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("endermanplushie", <item:plushies:enderman> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:enderman>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("parrotplushie", <item:plushies:parrot> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:parrot>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("mooshroomplushie", <item:plushies:mooshroom> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:mooshroom>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+/*
+craftingTable.addShaped("magma_cubeplushie", <item:plushies:magma_cube>, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:magma_cube>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("red_foxplushie", <item:plushies:red_fox>, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:red_fox>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("pandaplushie", <item:plushies:panda>, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:panda>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("slimeplushie", <item:plushies:slime>, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:slime>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+*/
+
+craftingTable.addShaped("llamaplushie", <item:plushies:llama> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:llama>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("white_foxplushie", <item:plushies:white_fox> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:white_fox>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("frogplushie", <item:plushies:frog> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:frog>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("goatplushie", <item:plushies:goat> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:goat>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("wardenplushie", <item:plushies:warden> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:warden>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("sheepplushie", <item:plushies:sheep> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:sheep>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("turtleplushie", <item:plushies:turtle> * 2, [
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:plushies:turtle>, <item:ars_nouveau:mirrorweave>],
+    [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
+]);
+
+craftingTable.addShaped("dragonplushie2", <item:plushies:dragon>, [
+    [air, <item:minecraft:dragon_head>, air],
+    [<item:ars_nouveau:wilden_wing>, <item:minecraft:dragon_egg>, <item:ars_nouveau:wilden_wing>],
+    [air, <item:alexsmobs:raccoon_tail>, air]
+]);
+
+// Backpacks
+
+craftingTable.addShaped("packtopack", <item:backpacked:backpack>, [
+    [air, <item:minecraft:bone_meal>, air],
+    [<item:minecraft:leather>, <item:quark:backpack>, <item:minecraft:leather>],
+    [air, <item:minecraft:bone_meal>, air]
+]);
+
+// Duck Meats
+
+<tag:items:forge:raw_duck>.add(<item:duckling:raw_duck>);
+
+// Dragon Egg Shell
+
+craftingTable.addShapeless("glueeggshell", <item:ends_delight:larger_dragon_egg_shell>, [
+    <item:ends_delight:dragon_egg_shell>,
+    <item:ends_delight:dragon_egg_shell>,
+    <item:ends_delight:dragon_egg_shell>,
+    <item:create:super_glue>.anyDamage().transformDamage(1)
+    ]);
+
+<tag:items:twilightforest:banned_uncraftables>.add(<item:ends_delight:non_hatchable_dragon_egg>);
+
+// Magnetite
+/*
+craftingTable.addShapeless("magchunktoblock", <item:spelunkery:magnetite>, [<item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>]);
+craftingTable.addShapeless("magblocktochunk", <item:spelunkery:magnetite_chunk> * 4, [<item:spelunkery:magnetite>]);
+*/

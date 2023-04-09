@@ -2,7 +2,7 @@
 ["Tarot Cards"]
 	#How many ticks it takes to check if a player has a tarot or not, more = more performace but longer time to activate/deactivate effects
 	#Range: 0 ~ 1200
-	tick_rate = 20
+	tick_rate = 60
 
 	["Tarot Cards".Loot]
 		#Chance a tarot card appears in default loot (0.75 = 75%)(1.0 = there will always be a single tarot card in chests)
@@ -65,7 +65,7 @@
 		the_star_reachboost = 0.5
 		#Percentage increase of base health (0.5 = +50%)
 		#Range: 0.0 ~ 100.0
-		the_sun_healthboost = 0.15
+		the_sun_healthboost = 0.1
 		#How close non-allies need to be to apply slowness
 		#Range: 0.0 ~ 256.0
 		the_world_range = 3.0

@@ -239,6 +239,11 @@
 					exclude_from_claim_all: true
 					table_id: 5525848455660196930L
 				}
+				{
+					id: "36FA088D44048D78"
+					type: "item"
+					item: "plushies:warden"
+				}
 			]
 		}
 		{

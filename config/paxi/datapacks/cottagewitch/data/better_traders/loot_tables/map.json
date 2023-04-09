@@ -1,0 +1,109 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions": [{
+					"function": "minecraft:exploration_map",
+					"destination": "better_traders:jungle_pyramid",
+					"decoration": "target_point",
+					"zoom": 2,
+					"search_radius": 50,
+					"skip_existing_chunks": true
+				},
+				{
+					"function": "minecraft:set_name",
+					"name": "Jungle Explorer Map",
+					"entity": "this"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:14b},TradeOffer:1b}"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{display:{MapColor:3181082}}"
+				}
+			]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions": [{
+					"function": "minecraft:exploration_map",
+					"destination": "better_traders:desert_pyramid",
+					"decoration": "target_point",
+					"zoom": 2,
+					"search_radius": 50,
+					"skip_existing_chunks": true
+				},
+				{
+					"function": "minecraft:set_name",
+					"name": "Desert Explorer Map",
+					"entity": "this"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:14b},TradeOffer:1b}"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{display:{MapColor:13402118}}"
+				}
+			]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions": [{
+					"function": "minecraft:exploration_map",
+					"destination": "better_traders:igloo",
+					"decoration": "target_point",
+					"zoom": 2,
+					"search_radius": 50,
+					"skip_existing_chunks": true
+				},
+				{
+					"function": "minecraft:set_name",
+					"name": "Tundra Explorer Map",
+					"entity": "this"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:14b},TradeOffer:1b}"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{display:{MapColor:2255764}}"
+				}
+			]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions": [{
+					"function": "minecraft:exploration_map",
+					"destination": "better_traders:swamp_hut",
+					"decoration": "target_point",
+					"zoom": 2,
+					"search_radius": 50,
+					"skip_existing_chunks": true
+				},
+				{
+					"function": "minecraft:set_name",
+					"name": "Swamp Explorer Map",
+					"entity": "this"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:14b},TradeOffer:1b}"
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{display:{MapColor:5776745}}"
+				}
+			]
+		}]
+	}]
+}

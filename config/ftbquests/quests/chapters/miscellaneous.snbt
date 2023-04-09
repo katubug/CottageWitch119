@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 4.5d
-			y: 4.5d
+			x: 8.5d
+			y: -4.5d
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 4.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 			width: 9.0d
 			height: 9.0d
 			rotation: 0.0d
@@ -33,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.5d
 			width: 11.0d
 			height: 11.0d
 			rotation: 0.0d
@@ -44,12 +44,24 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -8.5d
+			y: -4.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/bgcaves.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
 			title: "Snail Mail"
-			x: -8.25d
-			y: 0.0d
+			x: -3.25d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "A way to communicate in multiplayer"
 			description: [
@@ -97,8 +109,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 2.0d
+			x: 2.5d
+			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Do you wanna build a...uh...sandcastle?"
 			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
@@ -108,18 +120,25 @@
 				type: "item"
 				item: "ecologics:sandcastle"
 			}]
-			rewards: [{
-				id: "6FA462CBA8F1F1A0"
-				type: "item"
-				item: "minecraft:seagrass"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "6FA462CBA8F1F1A0"
+					type: "item"
+					item: "minecraft:seagrass"
+					count: 6
+				}
+				{
+					id: "67DB8C7385EA982C"
+					type: "item"
+					item: "plushies:turtle"
+				}
+			]
 		}
 		{
 			title: "Save your EXP"
 			icon: "spelunkery:carved_nephrite"
-			x: -3.75d
-			y: -2.25d
+			x: -7.5d
+			y: -3.75d
 			shape: "hexagon"
 			subtitle: "Unfortunately not the experience you can put on your resume"
 			description: [
@@ -172,8 +191,8 @@
 		}
 		{
 			title: "Obtain some Iron Grates"
-			x: -2.5d
-			y: -2.0d
+			x: 2.5d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "Well isn't that just grate"
 			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
@@ -193,8 +212,8 @@
 		}
 		{
 			title: "Obtain an Ancient Tome"
-			x: -3.5d
-			y: 0.0d
+			x: 1.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "I tome you so"
 			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
@@ -218,8 +237,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: 3.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Lots of things can go in bottles."
 			description: [
@@ -239,8 +258,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: 2.5d
+			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
 			description: [
@@ -262,8 +281,8 @@
 		}
 		{
 			title: "Capture Time in a Bottle"
-			x: -2.0d
-			y: -1.0d
+			x: 3.0d
+			y: 3.5d
 			shape: "hexagon"
 			description: [
 				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
@@ -297,58 +316,11 @@
 			]
 		}
 		{
-			title: "Transport your Mobs"
-			x: -7.5d
-			y: -2.5d
-			shape: "hexagon"
-			subtitle: "Catch a running cow and put it in your pocket"
-			description: [
-				"The &bMob Capture Device&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."
-				"Be aware that &da bug causes seated creatures to turn to pigs&r when captured. Be sure to &6break the Seat beneath them&r before attempting to capture."
-			]
-			id: "1E6176C9919F1D06"
-			tasks: [{
-				id: "4E6BE1180F28455A"
-				type: "item"
-				item: "mobcatcher:net"
-			}]
-			rewards: [{
-				id: "11AF24C6D321B7EB"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 7049021818423122779L
-			}]
-		}
-		{
-			x: -8.0d
-			y: -1.5d
-			shape: "hexagon"
-			description: ["The &bMob Capture Device Launcher&r will fire &bCapture Devices&r at range, allowing you to catch mobs without needing to get close! &6Switch modes by shift+right clicking&r to decide whether to capture or release."]
-			dependencies: ["1E6176C9919F1D06"]
-			id: "2681470499B91F3D"
-			tasks: [{
-				id: "664457F2320ABE76"
-				type: "item"
-				item: {
-					id: "mobcatcher:net_launcher"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1717D61F99BFA93D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
-		}
-		{
-			x: -6.5d
-			y: -2.5d
+			x: -1.5d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Despite all my rage, I am still just a...oh you know"
 			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
-			dependencies: ["1E6176C9919F1D06"]
 			id: "2AD60B373912C5A4"
 			tasks: [{
 				id: "69932938B19DB961"
@@ -370,8 +342,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -3.0d
+			x: -1.0d
+			y: 3.0d
 			shape: "octagon"
 			description: [
 				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
@@ -384,16 +356,23 @@
 				advancement: "supplementaries:story/unenchanter"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "33D0F4658286711D"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5036677739913042344L
-			}]
+			rewards: [
+				{
+					id: "33D0F4658286711D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "0C1984AA729F6517"
+					type: "item"
+					item: "plushies:white_fox"
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: 2.0d
+			y: 3.5d
 			shape: "hexagon"
 			description: [
 				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
@@ -420,8 +399,8 @@
 		}
 		{
 			title: "Roughing It"
-			x: -2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
 			description: [
@@ -450,8 +429,8 @@
 		}
 		{
 			title: "Daytime naptime!"
-			x: -3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 5.5d
 			shape: "hexagon"
 			description: ["Make a &bHammock&r to &asleep through the day&r, making it night easily. Then, get up to shenanigans!"]
 			id: "4BCAADA647D7D85A"
@@ -477,8 +456,8 @@
 		}
 		{
 			title: "Stay Connected"
-			x: -7.0d
-			y: -1.5d
+			x: -2.0d
+			y: 3.0d
 			shape: "hexagon"
 			description: [
 				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
@@ -518,8 +497,8 @@
 		}
 		{
 			title: "Take Your Biomes With You"
-			x: -8.5d
-			y: 2.0d
+			x: -3.5d
+			y: 6.5d
 			shape: "hexagon"
 			description: [
 				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
@@ -540,8 +519,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: 6.5d
+			y: -5.5d
 			shape: "octagon"
 			subtitle: "extreme couponing"
 			description: [
@@ -564,8 +543,8 @@
 		}
 		{
 			title: "The Basis of an Economy"
-			x: 4.5d
-			y: 5.0d
+			x: 8.5d
+			y: -4.0d
 			shape: "rsquare"
 			description: [
 				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
@@ -596,8 +575,8 @@
 		}
 		{
 			title: "Trade with a Villager"
-			x: 2.5d
-			y: 6.5d
+			x: 6.5d
+			y: -2.5d
 			shape: "octagon"
 			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r who sells &bMending&r doesn't suddenly run away to join the circus."]
 			dependencies: ["70C4F17973F6492E"]
@@ -617,8 +596,8 @@
 		}
 		{
 			title: "Meet the Goblin Trader"
-			x: 7.0d
-			y: 5.0d
+			x: 11.0d
+			y: -4.0d
 			shape: "heart"
 			subtitle: "Eager but not too bright"
 			description: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
@@ -639,17 +618,16 @@
 					table_id: 8808494820591225409L
 				}
 				{
-					id: "7A4F5FB3B95C3932"
-					type: "command"
-					command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Frog\\\"}\"},SkullOwner:{Id:[I;1526238932,-1094236219,-2050186183,1457710252],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI1YzRiNGI4MjQyMjVmYjE5NTI3ZDQyZWZmZDRkYjQxNTM4YTY4ZTc4ZTdlNjI0MWI4MjUyOWI5MjJiMmU5NSJ9fX0=\"}]}}} 1"
-					player_command: false
+					id: "085B97D1A7BA8CA9"
+					type: "item"
+					item: "plushies:llama"
 				}
 			]
 		}
 		{
 			title: "Obtain the Redstone Randomizer"
-			x: 3.5d
-			y: -3.0d
+			x: -1.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Flip a coin. Or a lever."
 			description: ["As its name suggests, the &bRedstone Randomizer&r determines randomly whether to output the provided signal to the &aleft or to the right&r."]
@@ -685,8 +663,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: -1.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "You know the joke I wanna make."
 			description: ["The &bCog Block&r performs the same way that &bplaced Redstone&r does. However, it doesn't wash away in water, and can be placed vertically both up and down to send a signal."]
@@ -718,8 +696,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: -0.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "Make it rain"
 			description: [
@@ -754,8 +732,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -5.0d
+			x: -1.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "Holler and bellow"
 			description: [
@@ -794,8 +772,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: -1.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "How the turn tables!"
 			description: [
@@ -829,8 +807,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -6.0d
+			x: -0.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "Beware the power of the Illuminate-y"
 			description: ["The &bRedstone Illuminator&r is a light source which is on by default. It grows dimmer depending on how much &aRedstone signal&r it receives. One can use a &bCrank&r instead of a &bLever&r for more fine-tuned control."]
@@ -862,8 +840,8 @@
 		}
 		{
 			title: "Obtain a Faucet"
-			x: 4.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "Just hope it's not too leaky"
 			description: [
@@ -891,8 +869,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -6.0d
+			x: 0.5d
+			y: -5.5d
 			shape: "hexagon"
 			description: ["The &bEnder Watcher&r transmits a Redstone signal when &aa player is looking at it&r. The signal intensity is determined by how far the player is."]
 			id: "416C9C912FDB1ADC"
@@ -950,8 +928,8 @@
 		}
 		{
 			title: "Obtain an Iron Rod"
-			x: 5.5d
-			y: -5.0d
+			x: 1.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "That's my Grindr screenname"
 			description: [
@@ -992,8 +970,8 @@
 		}
 		{
 			title: "A Player-Only Pressure Plate"
-			x: 6.0d
-			y: -4.0d
+			x: 1.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "It can sense your sentience"
 			description: ["The &bObsidian Pressure Plate&r can &aonly be activated by players&r, making it very useful for base entrances and such."]
@@ -1031,8 +1009,8 @@
 		}
 		{
 			title: "Sand Which Disobeys Gravity"
-			x: 5.0d
-			y: -4.0d
+			x: 0.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "This sand doesn't care about your RULES"
 			description: ["This unique End-enchanted item will only &afall when provided with a Redstone signal&r. If it is provided a redstone signal and &acannot fall, it will float up instead&r."]
@@ -1071,8 +1049,8 @@
 		}
 		{
 			title: "Obtain Iron and Gold Buttons"
-			x: 5.5d
-			y: -3.0d
+			x: 1.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Can't stop the signal"
 			description: ["These special buttons function similarly to other &bButtons&r, except that the &bIron Button&r gives a &amuch longer signal&r than usual, and the &bGold Button&r a &amuch shorter signal&r than usual."]
@@ -1111,8 +1089,8 @@
 		}
 		{
 			title: "Obtain a Chute"
-			x: 4.5d
-			y: -3.0d
+			x: 0.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Please, don't chute!"
 			description: [
@@ -1163,8 +1141,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.5d
+			x: 8.5d
+			y: -6.5d
 			description: [
 				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (byt &6pressing the Cycle Trades button&r)."
 				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
@@ -1179,8 +1157,8 @@
 		}
 		{
 			title: "Keeping in \"Contact\" via Snail Mail"
-			x: -7.5d
-			y: 1.0d
+			x: -2.5d
+			y: 5.5d
 			shape: "hexagon"
 			description: [
 				"&bPostcards&r and &bParcels&r are from the mod &lContact&r. Unfortunately, this mod's &bMailboxes&r have a &dbad habit of coming unclaimed&r, so that &dno one can receive mail&r. However, they can still be sent via &lSnail Mail&r, an idea come up with by a very smart witch."
@@ -1207,8 +1185,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 3.0d
+			x: -3.0d
+			y: 7.5d
 			shape: "rsquare"
 			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
 			id: "1DB7D51E15454923"
@@ -1227,8 +1205,8 @@
 		}
 		{
 			title: "Sea Witch"
-			x: -6.0d
-			y: 0.0d
+			x: -1.0d
+			y: 4.5d
 			shape: "rsquare"
 			description: [
 				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
@@ -1264,8 +1242,8 @@
 		}
 		{
 			title: "Apple Crates for Commerce and Deco!"
-			x: 6.0d
-			y: 7.0d
+			x: 10.0d
+			y: -2.0d
 			description: [
 				"If you're playing with others, you can use Crates from the &lApple Crates&r mod to &asell items to one another&r!"
 				"{image:cottagewitch:textures/applecrates.png width:200 height:130 align:1}"
@@ -1305,26 +1283,26 @@
 		}
 		{
 			icon: "starbunclemania:star_balloon"
-			x: -3.75d
-			y: 2.25d
+			x: 1.25d
+			y: 6.75d
 			shape: "rsquare"
 			subtitle: "you now owe money to a raccoon"
 			description: ["Have you ever seen a &aflying chest attached to a balloon&r? You can &6shoot them down&r! Keep your bow at your side."]
 			size: 1.5d
 			id: "50E79E7487CD3738"
 			tasks: [{
-				id: "6128DFEB0FCB36B4"
+				id: "410E1917008F61C8"
 				type: "item"
 				item: {
 					id: "minecraft:chest"
 					Count: 1b
 					tag: {
-						balloonTYPE: 1
 						display: {
 							Name: "{\"translate\":\"Balloon Chest\"}"
 						}
 					}
 				}
+				match_nbt: true
 				weak_nbt_match: true
 			}]
 			rewards: [
@@ -1342,8 +1320,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 3.5d
+			x: 3.0d
+			y: 8.0d
 			description: ["If you're incredibly lucky, maybe you can land a &bRare Balloon Box&r!"]
 			dependencies: ["50E79E7487CD3738"]
 			id: "218B13F9470F9733"
@@ -1370,8 +1348,8 @@
 		}
 		{
 			title: "Obtain a Sea Crystal"
-			x: -6.0d
-			y: 1.5d
+			x: -1.0d
+			y: 6.0d
 			subtitle: "see? crystal!"
 			description: [
 				"Now that you've gotten your first &bSea Crystal&r, you can craft it into a &bSea Necklace&r. This can be worn in your &achest slot&r or &aas a curio&r."
@@ -1401,8 +1379,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 2.5d
+			x: -0.5d
+			y: 7.0d
 			shape: "hexagon"
 			description: ["This &bGlowing Pearl&r will make your mermaid top and tail shimmer as if &aenchanted&r!"]
 			dependencies: ["32235F4557C97245"]
@@ -1419,8 +1397,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.5d
+			x: -1.5d
+			y: 7.0d
 			shape: "hexagon"
 			description: ["Use this item to look like you're in h2o: Just Add Water!"]
 			dependencies: ["32235F4557C97245"]
@@ -1437,8 +1415,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.5d
+			x: -2.0d
+			y: 8.0d
 			shape: "hexagon"
 			description: ["Once you've dyed your tail, you can &aadd a gradient&r by &6crafting this item with &bdye&r and then &6crafting it with your necklace&r."]
 			dependencies: ["32235F4557C97245"]
@@ -1455,8 +1433,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: -1.0d
+			y: 8.0d
 			shape: "hexagon"
 			description: ["Want to be the Little Mermaid? This upgrade will &agive you Ariel's appearance&r."]
 			dependencies: ["32235F4557C97245"]
@@ -1473,8 +1451,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 3.5d
+			x: 0.0d
+			y: 8.0d
 			shape: "hexagon"
 			description: ["Craft your necklace with this accessory to &aadd a bra to your mermaid look&r!"]
 			dependencies: ["32235F4557C97245"]
@@ -1488,6 +1466,236 @@
 				id: "3E4A0B59D9F7119E"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"&bDimensional Tears&r, pronounced like \"scares,\" are a fluid which &ateleports an entity&r to its point of origin. If a &eplayer&r has a &arespawn point&r set, it will bring them there. If they don't, and for &eall other entities&r, it will transport them to &cworld spawn&r."
+				"You can obtain this item from &acertain chests&r, or by &6right clicking a bottle&r onto &bCrying Obsidian&r or an activated &bRespawn Anchor&r."
+				"To use the item, either &6drink it from the bottle&r or &6place it in a cauldron&r and jump into it."
+			]
+			id: "7D8A8CE389AE21D1"
+			tasks: [{
+				id: "4C826373E785268A"
+				type: "item"
+				item: {
+					id: "spelunkery:portal_fluid_bottle"
+					Count: 1b
+					tag: {
+						bool: 0b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "066FFA50F7238763"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8035711958862449784L
+				}
+				{
+					id: "2B1B545261760FE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
+		}
+		{
+			title: "Obtain a Glow Stick"
+			x: -8.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"&bGlow Sticks&r are a light source that can be &aplaced on any surface&r or &athrown like a snowball&r (placing itself wherever it lands)."
+				"They can be &athrown and placed underwater&r, making them ideal for subnautical exploration."
+				"Glow sticks also come in all 16 colors as well as the glow ink hue, making them ideal for &amarking out pathways&r to different locations."
+			]
+			id: "0697B419AB22174A"
+			tasks: [{
+				id: "59BDD56EDDDACA8F"
+				type: "item"
+				title: "Any #spelunkery:glowsticks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spelunkery:glowsticks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "32FD7C8B72D3DFF5"
+				type: "item"
+				item: "minecraft:glow_ink_sac"
+				count: 5
+			}]
+		}
+		{
+			title: "Obtain Magnetite"
+			x: -10.5d
+			y: -6.0d
+			shape: "hexagon"
+			description: [
+				"&bMagnetite&r generates in small clusters deep underground, and are surrounded by &bLava&r and &bDeepslate Iron&r, encased in a shell of &bObsidian&r. These geodes are somewhat rare to come across."
+				"You'll need &aSilk Touch&r or a &bHammer and Chisel&r to obtain the blocks, otherwise you will get &bMagnetite Chunks&r instead, which can be used in crafting."
+			]
+			dependencies: ["43C76F7F1994F0E0"]
+			id: "77EAB36408ACB7A1"
+			tasks: [{
+				id: "6A933BFEFDAA3A5F"
+				type: "item"
+				item: "spelunkery:magnetite_chunk"
+			}]
+			rewards: [{
+				id: "61F6B69365B178D4"
+				type: "item"
+				item: "spelunkery:magnetite"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: [
+				"Crafted with &bCinnabar&r and &bMagnetite&r, this incredibly useful tool will &adraw items on the ground to you&r for pickup! "
+				"Simply &6right click while holding it&r to activate it, and then &akeep it in your inventory&r. You can turn it off the same way."
+			]
+			dependencies: [
+				"77EAB36408ACB7A1"
+				"48E170D061AE51F6"
+			]
+			id: "1B8AFC09F97B6D48"
+			tasks: [{
+				id: "7540ABAB50BABF7E"
+				type: "item"
+				item: {
+					id: "spelunkery:item_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3C1250D1F75FA025"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Obtain Cinnabar"
+			x: -9.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&bRough Cinnabar&r is dropped from &bRedstone Ore&r. To gain the refined version, &6polish it on a Grindstone&r."]
+			dependencies: ["43C76F7F1994F0E0"]
+			id: "48E170D061AE51F6"
+			tasks: [{
+				id: "380C4AC342D0DC3A"
+				type: "item"
+				item: "spelunkery:cinnabar"
+			}]
+			rewards: [{
+				id: "695C1FDC2A4B4EEB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Polishing Rough Gems, Pt 2"
+			x: -6.0d
+			y: -2.5d
+			description: ["The &bDiamond Grindstone&r gives a finer polish and thus is suitable for &ararer gems&r such as &bDiamonds&r or &bEmeralds&r. "]
+			dependencies: ["1F496C3BE6AA3F4D"]
+			id: "5F76FC5927EDF85F"
+			tasks: [{
+				id: "34A48890D5131340"
+				type: "item"
+				item: "spelunkery:diamond_grindstone"
+			}]
+			rewards: [{
+				id: "225806DDE6229D54"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4747620395501175375L
+			}]
+		}
+		{
+			title: "Rough Rare Gems"
+			x: -6.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["5892F99033AB929C"]
+			id: "1F496C3BE6AA3F4D"
+			tasks: [{
+				id: "77E630447BEE5971"
+				type: "item"
+				title: "Any #spelunkery:diamond_grindable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spelunkery:diamond_grindable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DCE14A76CFAB27D"
+				type: "item"
+				item: "spelunkery:rough_emerald"
+			}]
+		}
+		{
+			title: "Polishing Rough Gems, Pt 1"
+			x: -6.5d
+			y: -5.5d
+			description: [
+				"Among its other duties, a &bGrindstone&r can be used to &apolish Rough minerals&r, as long as they're not too precious."
+				"By &6right clicking the item&r on the &bGrindstone&r, you can polish &bRough Lazurite or Cinnabar&r."
+				"Note that you can also use &bSandpaper&r to polish these gems."
+			]
+			dependencies: ["43C76F7F1994F0E0"]
+			id: "5892F99033AB929C"
+			tasks: [{
+				id: "61DD8BD89D1A0250"
+				type: "item"
+				item: "minecraft:grindstone"
+			}]
+			rewards: [{
+				id: "18C6EF87B540271C"
+				type: "item"
+				item: "spelunkery:rough_cinnabar"
+				count: 5
+			}]
+		}
+		{
+			title: "Rough Common Gems"
+			x: -8.25d
+			y: -6.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "43C76F7F1994F0E0"
+			tasks: [{
+				id: "4F2613CD853BCABB"
+				type: "item"
+				title: "Any #spelunkery:grindable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spelunkery:grindable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A1F5434B528325B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
 			}]
 		}
 	]

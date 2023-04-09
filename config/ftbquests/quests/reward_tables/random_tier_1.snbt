@@ -29,7 +29,6 @@
 		{ item: "create:rose_quartz", count: 4 }
 		{ item: "quark:crab_shell" }
 		{ item: "quark:moss_paste", count: 16 }
-		{ item: "mobcatcher:net" }
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "pipez:basic_upgrade" }
 		{ item: "functionalstorage:copper_upgrade" }

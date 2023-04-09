@@ -258,6 +258,10 @@
 	[building.celebratory_lamps]
 		"Light Level" = 15
 
+	[building.vertical_slabs]
+		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
+		"Allow Side Connections" = true
+
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
@@ -302,6 +306,8 @@
 		#Enable comparing enchantments to find a replacement
 		"Enable Enchant Matching" = true
 		"Unstackables Only" = false
+		#Allow pulling items from one hotbar slot to another
+		"Check Hotbar" = false
 
 [tools]
 	Trowel = true
@@ -536,6 +542,8 @@
 		"Easy Sticks" = true
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
+		#Can you craft a boat around a chest to directly make a chest boat?
+		"Enable Chest Boats" = true
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -662,6 +670,15 @@
 		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+
+	[tweaks.double_door_opening]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - utilitix
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Enable Doors" = true
+		"Enable Fence Gates" = true
 
 [world]
 	"Spiral Spires" = true
@@ -1663,6 +1680,6 @@
 		"Super Op Mode" = false
 		"Enable Ravager Hide" = true
 		"Items In Backpack Tick" = true
-		"Base Ravager Hide Drop" = 1
+		"Base Ravager Hide Drop" = 50
 		"Extra Chance Per Looting" = 0.5
 

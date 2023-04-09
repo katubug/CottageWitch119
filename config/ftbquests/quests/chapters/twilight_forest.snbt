@@ -973,11 +973,18 @@
 				advancement: "twilightforest:quest_ram"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "315D065F86EA659A"
-				type: "item"
-				item: "twilightforest:quest_ram_trophy"
-			}]
+			rewards: [
+				{
+					id: "315D065F86EA659A"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+				{
+					id: "7BAD2380264D5D6C"
+					type: "item"
+					item: "plushies:sheep"
+				}
+			]
 		}
 		{
 			title: "Complete the Twilight Forest"
