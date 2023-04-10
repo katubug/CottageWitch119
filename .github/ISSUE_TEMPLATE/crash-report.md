@@ -3,13 +3,16 @@ name: Crash report
 about: For crashing off of SMP or to desktop. If you do not have a crash report, please
   put in Other
 title: "[Crash]"
-labels: ''
+labels: Crash
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**What Cottage Witch version are you using?**
+Version: 
+
+**What were you doing when you crashed?**
+A clear and concise description of what happened.
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -18,22 +21,11 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Crash Reports or Latest.log**
+Drag and drop your latest.log and/or crash report here, or paste a pastebin.com or gist.github.com link with their contents. To find these files (assuming CurseForge launcher), click the 3 dots next to the Play button and choose "Open Folder." Logs are in the /logs/ folder, and crashes are in /crash-reports/. *These files are often CRUCIAL to diagnosing your issue, so please include them.*
 
 **Additional context**
 Add any other context about the problem here.
