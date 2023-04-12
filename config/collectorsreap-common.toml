@@ -88,3 +88,11 @@
 	#Range: > 0
 	chance_pomegranate_bush = 15
 
+[Behavior]
+	#Whether Lime Bushes require Bee pollination to reach final growth stage.
+	lime_pollination = true
+	#Whether Pomegranate Bushes require Bee pollination to reach final growth stage in overworld.
+	pomegranate_pollination = true
+	#Whether bee pollination of bushes should occur much quicker (when Bee collides with it) rather than on Bee's AI scheduled timing. Use this if having issues with pollination.
+	fast_pollinate = false
+

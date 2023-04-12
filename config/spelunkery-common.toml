@@ -20,11 +20,14 @@
 	stone_stripe_features = true
 	enable_sporophytes = true
 	dark_forest_portabellas = true
-	enable_mores = true
 	better_sculk_patches = true
+	enable_mores = true
 
 [slimes]
 	increased_slime_spawn_rate = false
+	slime_cauldrons = true
+	slimes_friendly_if_regen = true
+	slimes_always_friendly = false
 	#Range: 1 ~ 2400
 	slime_eat_cooldown = 150
 	enable_slime_growth = true
@@ -32,9 +35,6 @@
 	slime_growth_chance = 10
 	#Range: 1 ~ 127
 	slime_growth_max = 5
-	slime_cauldrons = true
-	slimes_friendly_if_regen = true
-	slimes_always_friendly = false
 
 [utilities]
 	#Range: 1 ~ 128

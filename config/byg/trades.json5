@@ -165,6 +165,20 @@ to make editing this file much easier.
 				}
 			]
 		},
+		"chefsdelight:delightchef": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"chefsdelight:delightcook": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"domesticationinnovation:animal_tamer": {
 			"1": [],
 			"2": [],
@@ -443,6 +457,34 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"villagersplus:alchemist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"villagersplus:horticulturist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"villagersplus:occultist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"villagersplus:oceanographer": {
 			"1": [],
 			"2": [],
 			"3": [],

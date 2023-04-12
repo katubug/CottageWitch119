@@ -46,16 +46,24 @@
 	warden_knife = true
 	zinc_knife = true
 
-[Cabinets]
-	basalt_cabinet = true
-	quartz_cabinet = true
+[Generation]
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Salmonberries to false above.
+	#Range: > 0
+	chance_wild_salmonberries = 30
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Mini Melon to false above.
+	#Range: > 0
+	chance_mini_melon = 30
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Cantaloupe to false above.
+	#Range: > 0
+	chance_cantaloupe = 50
 
-["Foods and Other Items"]
+[Registry]
 	acorn = true
 	acorn_sack = true
-	animal_fat = false
-	animal_oil_bottle = false
+	animal_fat = true
+	animal_oil_bottle = true
 	azalea_tea = true
+	basalt_cabinet = true
 	berry_matcha_latte = true
 	blueberry_pie_slice = true
 	cactus_flesh = true
@@ -67,7 +75,7 @@
 	chunk_nugget = true
 	chunkwich = true
 	coconut_curry = true
-	cooked_goat = true
+	cooked_goat = false
 	cooked_marshmallow_stick = true
 	cooked_venison_chops = true
 	crab_rangoon = true
@@ -84,6 +92,7 @@
 	marshmallow_stick = true
 	matcha = true
 	matcha_ice_cream = true
+	matcha_ice_cream_block = true
 	matcha_latte = true
 	mini_melon = true
 	nightshade_berry_pie_slice = true
@@ -91,10 +100,13 @@
 	nut_butter_bottle = true
 	prickly_pear_juice = true
 	pumpkin_pie_slice = true
-	raw_goat = true
+	quartz_cabinet = true
+	raw_goat = false
 	rock_candy = true
 	salmonberries = true
+	salmonberry_gummy = true
 	salmonberry_ice_cream = true
+	salmonberry_ice_cream_block = true
 	salmonberry_pie = true
 	salmonberry_pie_slice = true
 	salmonberry_pips = true
@@ -113,15 +125,4 @@
 	melon_juicing = true
 	#Make pumpkin pies a block with slices rather than an item eaten whole
 	pumpkin_pie_overhaul = true
-
-[Generation]
-	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Salmonberries to false above.
-	#Range: > 0
-	chance_wild_salmonberries = 30
-	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Mini Melon to false above.
-	#Range: > 0
-	chance_mini_melon = 30
-	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Cantaloupe to false above.
-	#Range: > 0
-	chance_cantaloupe = 50
 

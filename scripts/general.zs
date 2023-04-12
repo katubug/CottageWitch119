@@ -755,30 +755,6 @@ for casing in glassCasings{
 <tag:items:crafttweaker:glasscasings>.add(casing);
 }
 
-// Removing Hibernal Herbs crafting recipes so I can add them to the Mortar and Pestle instead
-
-var blends = 
-[
-    <item:hibernalherbs:blend_speed>,
-    <item:hibernalherbs:blend_regeneration>,
-    <item:hibernalherbs:blend_poison>,
-    <item:hibernalherbs:blend_slowness>,
-    <item:hibernalherbs:blend_mining_fatigue>,
-    <item:hibernalherbs:blend_haste>,
-    <item:hibernalherbs:blend_fire>,
-    <item:hibernalherbs:blend_wither>,
-    <item:hibernalherbs:blend_night_vision>,
-    <item:hibernalherbs:blend_weakness>,
-    <item:hibernalherbs:blend_blindness>,
-    <item:hibernalherbs:blend_regen_speed_weak>,
-    <item:hibernalherbs:blend_glowing>,
-    <item:hibernalherbs:blend_regen_slow>
-] as IItemStack[];
-
-for blend in blends{
-craftingTable.remove(blend);
-}
-
 // balance tarot deck curio
 craftingTable.remove(<item:tarotcards:tarot_deck>);
 
@@ -815,40 +791,6 @@ var umbrellas = [
 for umbrella in umbrellas{
     <tag:items:crafttweaker:umbrellas>.add(umbrella);
 }
-
-// Compacting recipes for pounding herbs
-
-<recipetype:create:compacting>.addRecipe("compactedtarragon", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_tarragon> * 2) % 100], [<item:hibernalherbs:tarragon> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedchamomile", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chamomile> * 2) % 100], [<item:hibernalherbs:chamomile> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedchives", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chives> * 2) % 100], [<item:hibernalherbs:chives> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedbloforia", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_bloforia> * 2) % 100], [<item:hibernalherbs:bloforia> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedessitte", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_essitte> * 2) % 100], [<item:hibernalherbs:essitte> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedpunuel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_punuel> * 2) % 100], [<item:hibernalherbs:punuel> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedceillis", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_ceillis> * 2) % 100], [<item:hibernalherbs:ceillis> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedthyocielle", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_thyocielle> * 2) % 100], [<item:hibernalherbs:thyocielle> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedfennkystral", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_fennkystral> * 2) % 100], [<item:hibernalherbs:fennkystral> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedverbena", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_verbena> * 2) % 100], [<item:hibernalherbs:verbena> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedsorrel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_sorrel> * 2) % 100], [<item:hibernalherbs:sorrel> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedmarjoram", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_marjoram> * 2) % 100], [<item:hibernalherbs:marjoram> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedrosemary", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_rosemary> * 2) % 100], [<item:hibernalherbs:rosemary> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedthyme", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_thyme> * 2) % 100], [<item:hibernalherbs:thyme> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedfennsel", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_fennsel> * 2) % 100], [<item:hibernalherbs:fennsel> * 1], [], 200);
-
-<recipetype:create:compacting>.addRecipe("compactedchervil", <constant:create:heat_condition:none>, [ (<item:hibernalherbs:pounded_chervil> * 2) % 100], [<item:hibernalherbs:chervil> * 1], [], 200);
 
 // Fishing Rod Tags
 
@@ -969,12 +911,6 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     <item:alexsmobs:crocodile_egg>,
     <item:quark:egg_parrot_grey>,
     <item:whatareyouvotingfor:sniffer_egg>
-);
-
-<tag:items:crafttweaker:canisters>.add(
-    <item:hibernalherbs:canister_iron>,
-    <item:hibernalherbs:canister_amethyst>,
-    <item:hibernalherbs:canister_diamond>
 );
 
 // Add recipe Warp scroll < Warp Stone
@@ -1258,15 +1194,6 @@ brewing.removeRecipeByInputPotion(<potion:davespotioneering:milk>);
 
 furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <item:duckling:duck_egg>, 1.0, 60);
 
-// Pouch fixing
-
-craftingTable.remove(<item:hibernalherbs:pouch_scratched>);
-craftingTable.addShaped("hibernalpouch", <item:hibernalherbs:pouch_scratched>, [
-    [air, <tag:items:minecraft:flowers>, air],
-    [<tag:items:forge:string>, <item:quark:seed_pouch>, <tag:items:forge:string>],
-    [air, <tag:items:minecraft:flowers>, air]
-]);
-
 // tag apple
 
 <tag:items:forge:fruits/sweet>.add(<item:byg:green_apple>); 
@@ -1516,9 +1443,3 @@ craftingTable.addShapeless("glueeggshell", <item:ends_delight:larger_dragon_egg_
     ]);
 
 <tag:items:twilightforest:banned_uncraftables>.add(<item:ends_delight:non_hatchable_dragon_egg>);
-
-// Magnetite
-/*
-craftingTable.addShapeless("magchunktoblock", <item:spelunkery:magnetite>, [<item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>, <item:spelunkery:magnetite_chunk>]);
-craftingTable.addShapeless("magblocktochunk", <item:spelunkery:magnetite_chunk> * 4, [<item:spelunkery:magnetite>]);
-*/
