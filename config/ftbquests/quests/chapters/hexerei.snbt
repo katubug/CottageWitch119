@@ -801,12 +801,6 @@
 					count: 3
 				}
 				{
-					id: "7EDE0609C26D3267"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 4636896809631346949L
-				}
-				{
 					id: "77C9F258E151E680"
 					type: "choice"
 					exclude_from_claim_all: true

@@ -8,17 +8,17 @@
 	bone_knife = false
 	brass_knife = true
 	bronze_knife = true
-	constantan_knife = true
+	constantan_knife = false
 	copper_knife = false
-	deorum_knife = true
+	deorum_knife = false
 	draco_arcanus_knife = true
-	electrum_knife = true
+	electrum_knife = false
 	emerald_knife = false
 	enderite_knife = true
-	experience_knife = true
+	experience_knife = false
 	fiery_knife = true
-	gilded_quartz_knife = true
-	invar_knife = true
+	gilded_quartz_knife = false
+	invar_knife = false
 	ironwood_knife = true
 	kiwano_knife = true
 	knightmetal_knife = true
@@ -57,11 +57,11 @@
 	#Range: > 0
 	chance_cantaloupe = 50
 
-[Registry]
+["Registry & Recipes"]
 	acorn = true
 	acorn_sack = true
-	animal_fat = true
-	animal_oil_bottle = true
+	animal_fat = false
+	animal_oil_bottle = false
 	azalea_tea = true
 	basalt_cabinet = true
 	berry_matcha_latte = true
@@ -115,6 +115,8 @@
 	smore = true
 	source_berry_pie_slice = true
 	venison_chops = true
+	#Force the replacement of forge:cheese item tag in recipes with forge:milk
+	use_milk_tag = false
 	#Allow cooking milk from nuts
 	nut_milk = true
 	#Allow cooking honey from honey and clovers

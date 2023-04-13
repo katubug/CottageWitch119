@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.GenericDirtMessageScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = bda62901-2036-4ee6-98d9-03b37d5fe3f71681421719328
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 4.0
+  source = %n%Loading...%n%While you wait, hydrate!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -240
+  width = 525
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 18f6feab-6eb8-44b2-a8a3-a1c00c129a2c1681336154883
+  y = -49
+  alignment = centered
+  height = 150
+}
+

@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = katubase2
+  speed = 2.0
+  fov = 100.0
+  angle = 25.0
+}

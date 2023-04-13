@@ -42,42 +42,6 @@
 			}]
 		}
 		{
-			title: "Catch Em All (and Then Some)"
-			x: -3.5d
-			y: -3.5d
-			description: ["Wow, you've caught 999 fish? That's bonkers."]
-			id: "1FDD653A3C13DFDF"
-			tasks: [{
-				id: "1FB45C4A92CEC1C7"
-				type: "stat"
-				icon: "crittersandcompanions:koi_fish"
-				stat: "minecraft:fish_caught"
-				value: 999
-			}]
-		}
-		{
-			x: -4.0d
-			y: -4.5d
-			id: "060940588B650F1D"
-			tasks: [{
-				id: "4DED0D306FD66C39"
-				type: "stat"
-				stat: "minecraft:time_since_rest"
-				value: 1
-			}]
-		}
-		{
-			x: -5.0d
-			y: -4.5d
-			id: "38285B9280444C60"
-			tasks: [{
-				id: "191D3E228208A0CB"
-				type: "stat"
-				stat: "minecraft:sneak_time"
-				value: 1
-			}]
-		}
-		{
 			x: -3.0d
 			y: -4.5d
 			id: "7E2641B15D6AF49E"
@@ -129,17 +93,6 @@
 				id: "527268ABEC9E3616"
 				type: "stat"
 				stat: "minecraft:play_record"
-				value: 1
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.5d
-			id: "5A1DD637C09F0D13"
-			tasks: [{
-				id: "26A2431C7A0CBE9B"
-				type: "stat"
-				stat: "minecraft:pot_flower"
 				value: 1
 			}]
 		}

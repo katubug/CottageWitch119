@@ -80,16 +80,14 @@
 		{ item: "caupona:wolfberry_sapling" }
 		{ item: "caupona:fig_sapling" }
 		{ item: "caupona:walnut_sapling" }
-		{ item: "hibernalherbs:myqueste_sapling" }
 		{ item: "ars_elemental:yellow_archwood_sapling" }
 		{ item: "culturaldelights:avocado_sapling" }
-		{ item: "vinery:cherry_sapling" }
-		{ item: "vinery:old_cherry_sapling" }
 		{ item: "environmental:willow_sapling" }
 		{ item: "environmental:cherry_sapling" }
 		{ item: "environmental:pink_wisteria_sapling" }
 		{ item: "environmental:blue_wisteria_sapling" }
 		{ item: "environmental:purple_wisteria_sapling" }
 		{ item: "environmental:white_wisteria_sapling" }
+		{ item: "hexerei:witch_hazel_sapling" }
 	]
 }

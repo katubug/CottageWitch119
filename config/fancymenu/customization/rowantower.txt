@@ -1,0 +1,55 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ConnectScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 38
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
+  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1.png
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = dc07cd43-850b-4d5a-a877-b91c17e16b861681421890392
+  y = 0
+  height = %guiheight%
+}
+

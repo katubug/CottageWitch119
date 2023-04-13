@@ -501,8 +501,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
+			x: -5.0d
+			y: -4.5d
 			shape: "hexagon"
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
@@ -964,7 +964,7 @@
 			shape: "octagon"
 			description: [
 				"Reduces both &aincoming and &doutgoing&a damage&r."
-				"Bonuses increase and debuffs decrease with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "47FD547C85F350BB"
 			tasks: [{
@@ -1002,7 +1002,7 @@
 			shape: "octagon"
 			description: [
 				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "20B71AB01AD6CDE6"
 			tasks: [{
@@ -1040,7 +1040,7 @@
 			shape: "octagon"
 			description: [
 				"Increases your &aluck while fishing&r."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "28402A0A69E7B8AA"
 			tasks: [{
@@ -1078,7 +1078,7 @@
 			shape: "octagon"
 			description: [
 				"Improves the stats of &amounts and pets&r."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "2A8267EAD14040DB"
 			tasks: [{
@@ -1116,7 +1116,7 @@
 			shape: "octagon"
 			description: [
 				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "0C3C0190EB3C6A5F"
 			tasks: [{
@@ -1139,7 +1139,7 @@
 			shape: "octagon"
 			description: [
 				"Bred animals &asometimes produce twins&r."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "5D7AFC213FB3DCF8"
 			tasks: [{
@@ -1177,7 +1177,7 @@
 			shape: "octagon"
 			description: [
 				"Occasionally grants &abetter loot while mining&r."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "76559362F9123020"
 			tasks: [{
@@ -1215,7 +1215,7 @@
 			shape: "octagon"
 			description: [
 				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
-				"Bonuses increase and debuffs decrease with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "17670074E6ECFB57"
 			tasks: [{
@@ -1253,7 +1253,7 @@
 			shape: "octagon"
 			description: [
 				"Occasionally grants &adouble crops&r when harvesting."
-				"Bonuses increase with effectiveness level."
+				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "44FE4CEFBB14CB63"
 			tasks: [{
@@ -2509,7 +2509,7 @@
 		}
 		{
 			title: "Customize Your Elytra"
-			x: -2.5d
+			x: -3.5d
 			y: -3.5d
 			shape: "hexagon"
 			description: [

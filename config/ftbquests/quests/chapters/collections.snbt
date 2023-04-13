@@ -85,19 +85,9 @@
 					item: "byg:kovan_flower"
 				}
 				{
-					id: "2ED277304452B974"
-					type: "item"
-					item: "hibernalherbs:punuel"
-				}
-				{
 					id: "00B0CF2D582B4CD5"
 					type: "item"
 					item: "byg:rose"
-				}
-				{
-					id: "7C369DE8E557A08F"
-					type: "item"
-					item: "hibernalherbs:essitte"
 				}
 				{
 					id: "302B88C7413DC028"
@@ -157,11 +147,6 @@
 					id: "58A832C3B1121346"
 					type: "item"
 					item: "byg:california_poppy"
-				}
-				{
-					id: "12BFA26765EA7662"
-					type: "item"
-					item: "hibernalherbs:verbena"
 				}
 				{
 					id: "30695DC4B56127A5"
@@ -317,11 +302,6 @@
 					item: "byg:yellow_tulip"
 				}
 				{
-					id: "7B2D0935501E498F"
-					type: "item"
-					item: "hibernalherbs:chamomile"
-				}
-				{
 					id: "705E3F57D0837B0E"
 					type: "item"
 					item: "environmental:yellow_hibiscus"
@@ -385,34 +365,9 @@
 					item: "byg:flower_patch"
 				}
 				{
-					id: "3414E4DA5CE14951"
+					id: "26CCA06D7C4AD427"
 					type: "item"
-					item: "hibernalherbs:fennkystral"
-				}
-				{
-					id: "00454FC2D9D3BFE0"
-					type: "item"
-					item: "hibernalherbs:thyme"
-				}
-				{
-					id: "3CF217CEE9AA47CE"
-					type: "item"
-					item: "hibernalherbs:rosemary"
-				}
-				{
-					id: "2B74CC2BEEDC76D6"
-					type: "item"
-					item: "hibernalherbs:tarragon"
-				}
-				{
-					id: "2C9937153E7BF53F"
-					type: "item"
-					item: "hibernalherbs:marjoram"
-				}
-				{
-					id: "4E825BBA61BE2E69"
-					type: "item"
-					item: "hibernalherbs:fennsel"
+					item: "environmental:dianthus"
 				}
 			]
 			rewards: [
@@ -530,16 +485,6 @@
 					id: "1318C2AA3C455F23"
 					type: "item"
 					item: "minecraft:peony"
-				}
-				{
-					id: "013DF21651BAAAA6"
-					type: "item"
-					item: "hibernalherbs:chives"
-				}
-				{
-					id: "7A24E288ECE504DE"
-					type: "item"
-					item: "hibernalherbs:sorrel"
 				}
 			]
 			rewards: [
@@ -1251,7 +1196,6 @@
 				"04973320B5F27BD7"
 				"6BED02ADA79C4A8D"
 				"692725454B955B4C"
-				"1CFFA3249B4DC950"
 				"5C9725DEED609E88"
 			]
 			id: "2DDA757CE80078C3"
@@ -1328,50 +1272,6 @@
 			]
 		}
 		{
-			title: "Flower Picking: Lime"
-			x: -2.0d
-			y: -1.5d
-			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "1CFFA3249B4DC950"
-			tasks: [
-				{
-					id: "103DEDB98410D26D"
-					type: "item"
-					item: "hibernalherbs:thyocielle"
-				}
-				{
-					id: "16B3A2E20B618EAD"
-					type: "item"
-					item: "hibernalherbs:chervil"
-				}
-				{
-					id: "15E3979DEAB9A981"
-					type: "item"
-					item: "hibernalherbs:bloforia"
-				}
-				{
-					id: "571C8DCD0712B2E6"
-					type: "item"
-					item: "environmental:dianthus"
-				}
-			]
-			rewards: [
-				{
-					id: "0C13808E235F34AF"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "4F3EE0744EC05BA7"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 987967038148964353L
-				}
-			]
-		}
-		{
 			title: "Flower Picking: Light Blue"
 			x: -1.0d
 			y: -1.5d
@@ -1379,11 +1279,6 @@
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "5C9725DEED609E88"
 			tasks: [
-				{
-					id: "57DBDAB459BFFE95"
-					type: "item"
-					item: "hibernalherbs:ceillis"
-				}
 				{
 					id: "6E8DFC017382CBDE"
 					type: "item"

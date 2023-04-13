@@ -1092,7 +1092,7 @@
 			icon: "minecraft:cake"
 			x: 3.25d
 			y: 5.0d
-			description: ["Each a bunch of cake! It's a delicious treat and you deserve it."]
+			description: ["Eat a bunch of cake! It's a delicious treat and you deserve it."]
 			id: "78A59A17FEDDE305"
 			tasks: [{
 				id: "23C5964D9AF61295"
@@ -1772,9 +1772,9 @@
 				item: "brewinandchewin:fiery_fondue_pot"
 			}]
 			rewards: [{
-				id: "492AD1656D920F09"
+				id: "693738686EF4421A"
 				type: "item"
-				item: "vinery:clark_wine"
+				item: "brewinandchewin:pale_jane"
 			}]
 		}
 		{

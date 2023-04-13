@@ -1044,11 +1044,6 @@
 					}
 				}
 				{
-					id: "6F64A38B89F66834"
-					type: "item"
-					item: "mobcatcher:net"
-				}
-				{
 					id: "4932557C828D26FE"
 					type: "item"
 					item: "plushies:cow"
@@ -2229,6 +2224,26 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1510389528595555205L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			shape: "square"
+			description: ["Although &eWraiths&r are not hostile, they sure are spooky. Put 50 of them &aout of their misery&r to earn this ingredient in crafting the &bUndead Eye&r."]
+			dependencies: ["43B3A6804B59565E"]
+			id: "2A930C9591A317A3"
+			tasks: [{
+				id: "67167BE721C1C831"
+				type: "kill"
+				icon: "quark:soul_bead"
+				entity: "quark:wraith"
+				value: 50L
+			}]
+			rewards: [{
+				id: "5DC83818918FD852"
+				type: "item"
+				item: "endrem:undead_soul"
 			}]
 		}
 	]

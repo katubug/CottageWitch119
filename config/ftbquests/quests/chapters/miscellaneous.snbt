@@ -56,6 +56,30 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 9.0d
+			y: 4.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/bgpotions.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/bgmilestones.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -1696,6 +1720,276 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"Okay, I admit, I have a Cauldron addiction. Can you blame me?"
+				"Anyway, the &bReinforced Cauldron&r has a few traits to set it apart from its brethren."
+				"It &afunctions as an infinite water source&r when filling &bEmpty Bottles&r."
+				"It can also be filled with potions, but don't try to mix different kinds!"
+				"There is supposedly a way to dip one's weapon in it, but this seems to be dysfunctional at this time."
+			]
+			size: 2.0d
+			id: "55B5B1FF2E582197"
+			tasks: [{
+				id: "221D7BBAC6B140CF"
+				type: "item"
+				item: "davespotioneering:reinforced_cauldron"
+			}]
+			rewards: [{
+				id: "27687415ACFAC3B5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			description: [
+				"The &bRudimentary Gauntlet&r is a weapon which, by itself, is not all that impressive. However, &aupgrading it&r will unlock its true potential!"
+				"As it is, it is &acomparable to an &bIron Sword&r."
+			]
+			dependencies: ["55B5B1FF2E582197"]
+			id: "17E7E31CA9913B11"
+			tasks: [{
+				id: "063114B2110D72F9"
+				type: "item"
+				item: {
+					id: "davespotioneering:rudimentary_gauntlet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "676587CE89B2B2D4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 223398162038636868L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			description: ["The &bNetherite Gauntlet&r is slightly more powerful than its sword counterpart, but what is truly impressive is &aits final upgrade&r: the &bPotioneer Gauntlet&r."]
+			dependencies: ["17E7E31CA9913B11"]
+			id: "2678B12013B210AE"
+			tasks: [{
+				id: "3B88C2AF5574687A"
+				type: "item"
+				item: {
+					id: "davespotioneering:netherite_gauntlet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "423345F89B6CC035"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			description: [
+				"The &bPotioneer's Gauntlet&r allows one to &ainject potions into their attacks&r using the &bPotion Injector&r. Up to 6 &bSplash Potions&r can be injected."
+				"When attacking with the Gauntlet, you will deal both melee damage and the potion effect's damage. This can be toggled by pressing &6shift+right click&r."
+				"Once one potion is used, it will automatically load up the next potion after a few seconds."
+				"They will &aload in the order they were placed&r in the Injector UI. The potions are not consumed, but will be on cooldown after use."
+				"To resupply your gauntlet, apply &bBlaze Powder&r in the &bPotion Injector&r."
+			]
+			dependencies: ["2678B12013B210AE"]
+			id: "025915069DC65690"
+			tasks: [
+				{
+					id: "104301CDAFF8EF72"
+					type: "item"
+					item: {
+						id: "davespotioneering:potioneer_gauntlet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1C8E87F23750E634"
+					type: "item"
+					item: "davespotioneering:potion_injector"
+				}
+			]
+			rewards: [{
+				id: "6B824B48F8C6CBB1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			shape: "octagon"
+			description: ["Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."]
+			id: "3B84722A9CD28821"
+			tasks: [{
+				id: "3A8AB0F1F2EAB075"
+				type: "advancement"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "33B0D43C0A77E807"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8891211325592123080L
+				}
+				{
+					id: "7B3C07A23A62C2D8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7265408724434505998L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			shape: "circle"
+			description: ["Insomnia is hell. Go to bed, you silly witch."]
+			id: "060940588B650F1D"
+			tasks: [{
+				id: "4DED0D306FD66C39"
+				type: "stat"
+				icon: "minecraft:red_bed"
+				stat: "minecraft:time_since_rest"
+				value: 10
+			}]
+			rewards: [
+				{
+					id: "1376A05B3A5F0EA4"
+					type: "item"
+					item: "farmersrespite:dandelion_tea"
+				}
+				{
+					id: "2F1C7D47289BDC10"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+			]
+		}
+		{
+			title: "Sneaking Around"
+			x: -9.0d
+			y: 3.0d
+			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
+			id: "38285B9280444C60"
+			tasks: [{
+				id: "191D3E228208A0CB"
+				type: "stat"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:sneak_time"
+				value: 99999
+			}]
+			rewards: [{
+				id: "38E09DED192D360D"
+				type: "item"
+				item: {
+					id: "environmental:thief_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Catch Em All (and Then Some)"
+			x: -8.0d
+			y: 4.5d
+			description: ["Wow, you've caught 999 fish? That's bonkers."]
+			id: "1FDD653A3C13DFDF"
+			tasks: [{
+				id: "1FB45C4A92CEC1C7"
+				type: "stat"
+				icon: "crittersandcompanions:koi_fish"
+				stat: "minecraft:fish_caught"
+				value: 999
+			}]
+			rewards: [{
+				id: "551C86E899306ABB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			description: [
+				"What soothes the soul more than houseplants?"
+				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
+			]
+			id: "5A1DD637C09F0D13"
+			tasks: [{
+				id: "26A2431C7A0CBE9B"
+				type: "stat"
+				icon: "minecraft:flower_pot"
+				stat: "minecraft:pot_flower"
+				value: 50
+			}]
+		}
+		{
+			title: "Preventing Mob Spawning"
+			x: 1.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "an alternative to sage"
+			description: [
+				"The &bMagnum Torches&r are a set-it-and-forget-it method of preventing mob spawns."
+				"The &bDiamond Magnum Torch&r prevents &ehostile mobs&r from spawning."
+				"The &bEmerald Magnum Torch&r prevents &eneutral and passive mobs&r from spawning."
+				"The &bAmethyst Magnum Torch&r prevents &lALL&r mob spawns."
+			]
+			id: "592DF5A6484F1988"
+			tasks: [{
+				id: "5D582D2A264F8D84"
+				type: "item"
+				title: "Any #crafttweaker:magnumtorches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:magnumtorches"
+					}
+				}
+			}]
+			rewards: [{
+				id: "29F8DE93007B6851"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

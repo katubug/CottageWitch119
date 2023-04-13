@@ -1351,7 +1351,7 @@
 			x: -5.5d
 			y: -4.0d
 			description: [
-				"Each type of &aArchwood Tree&r bears its own &bfruit&r!"
+				"Each type of &aArchwood Tree&r bears its own &bfruit&r! You can find it &agrowing from the tree like Cocoa Beans&r."
 				"The &bBastion Fruit&r comes from the &aVexing Archwood&r Tree. When consumed, it will grant you &aShielding&r, a form of &aResistance&r."
 				"The &bFrostaya&r comes from the &aCascading Archwood&r Tree. When consumed, it will &abegin to freeze you&r."
 				"The &bMendosteen&r comes from the &aFlourishing Archwood&r Tree. It grants the &aRecovery&r effect, which increases healing you receive from health items."

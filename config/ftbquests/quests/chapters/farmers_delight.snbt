@@ -1017,6 +1017,45 @@
 				item: "plushies:bee"
 			}]
 		}
+		{
+			title: "Craft a Cart"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "item and animal transport"
+			description: [
+				"These &bCarts&r are useful for transporting &aitems and entities&r. &6Press \"r\"&r by default when either mounted or on foot to &ahaul the cart&r. Press R again to set it down."
+				"The &bSupply Cart&r is fairly self-explanatory. &6Shift right click the cart&r to access its inventory, and &aload it up with items&r! You can then transport those items over land. However, &abreaking the cart&r will drop its inventory."
+				"The &bAnimal Cart&r will help you &atransport entities&r! &6Right click the cart item&r onto the creature you want to move. Then, haul as normal. &aBreak the cart&r to free the animal."
+				"{image:cottagewitch:textures/cart.png width:100 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4930ECD60EA9ED8D"]
+			id: "04BD2724E24B4125"
+			tasks: [{
+				id: "57567AFD23A55AC8"
+				type: "item"
+				title: "Any #crafttweaker:carts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:carts"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "78C0D516B0CB0241"
+					type: "item"
+					item: "minecraft:horse_spawn_egg"
+				}
+				{
+					id: "73CBD7FB040007FD"
+					type: "item"
+					item: "farmersdelight:horse_feed"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

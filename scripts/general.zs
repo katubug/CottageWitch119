@@ -224,7 +224,15 @@ var removeNope = [
     <item:contact:cyan_mailbox>,
     <item:contact:white_mailbox>,
     <item:minecraft:splash_potion>.withTag({Potion: "davespotioneering:milk"}),
-    <item:minecraft:lingering_potion>.withTag({Potion: "davespotioneering:milk"})
+    <item:minecraft:lingering_potion>.withTag({Potion: "davespotioneering:milk"}),
+    <item:artifacts:flippers>,
+    <item:artifacts:golden_hook>,
+    <item:artifacts:feral_claws>,
+    <item:artifacts:helium_flamingo>,
+    <item:artifacts:everlasting_beef>,
+    <item:artifacts:eternal_steak>,
+    <item:artifacts:snorkel>,
+    <item:artifacts:umbrella>
 ] as IItemStack[];
 
 for item in removeNope {
@@ -1443,3 +1451,14 @@ craftingTable.addShapeless("glueeggshell", <item:ends_delight:larger_dragon_egg_
     ]);
 
 <tag:items:twilightforest:banned_uncraftables>.add(<item:ends_delight:non_hatchable_dragon_egg>);
+
+// Cart tagging
+
+<tag:items:crafttweaker:carts>.add(<item:astikorcarts:supply_cart>, 
+<item:astikorcarts:animal_cart>);
+
+// Torch Tagging
+
+<tag:items:crafttweaker:magnumtorches>.add(<item:magnumtorch:diamond_magnum_torch>,
+<item:magnumtorch:emerald_magnum_torch>,
+<item:magnumtorch:amethyst_magnum_torch>);

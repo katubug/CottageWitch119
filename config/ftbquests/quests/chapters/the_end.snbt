@@ -362,7 +362,7 @@
 			x: -5.5d
 			y: 0.5d
 			shape: "hexagon"
-			description: ["This eye is said to be favored by Chosen Undead. The &bUndead Eye&r can be crafted using an &bUndead Soul&r, acquired from the Nether."]
+			description: ["This eye is said to be favored by Chosen Undead. The &bUndead Eye&r can be crafted using an &bUndead Soul&r, acquired from killing a &eSkeleton Horse&r, or a large number of &eWraiths&r."]
 			dependencies: ["19ED6330FD3E968C"]
 			id: "3AADAC34ECDEF891"
 			tasks: [{
