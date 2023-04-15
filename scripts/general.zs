@@ -232,7 +232,10 @@ var removeNope = [
     <item:artifacts:everlasting_beef>,
     <item:artifacts:eternal_steak>,
     <item:artifacts:snorkel>,
-    <item:artifacts:umbrella>
+    <item:artifacts:umbrella>,
+    <item:functionalstorage:armory_cabinet>,
+    <item:caupona:stock_aspic>,
+    <item:caupona:stock>
 ] as IItemStack[];
 
 for item in removeNope {
@@ -1462,3 +1465,32 @@ craftingTable.addShapeless("glueeggshell", <item:ends_delight:larger_dragon_egg_
 <tag:items:crafttweaker:magnumtorches>.add(<item:magnumtorch:diamond_magnum_torch>,
 <item:magnumtorch:emerald_magnum_torch>,
 <item:magnumtorch:amethyst_magnum_torch>);
+
+// stock hiding
+
+Jei.hideIngredient(<fluid:caupona:stock>);
+
+// frying pan tags
+
+<tag:items:crafttweaker:cookingpans>.add(<item:caupona:stone_griddle>,
+<item:caupona:copper_frying_pan>,
+<item:caupona:iron_frying_pan>);
+
+// walnut tagging pt 2
+
+<tag:items:caupona:walnut>.add(<item:ecologics:walnut>);
+
+// Dolium tagging
+
+<tag:items:crafttweaker:dolium>.add(<item:caupona:brick_counter_with_dolium>,
+    <item:caupona:opus_incertum_counter_with_dolium>,
+    <item:caupona:opus_latericium_counter_with_dolium>,
+    <item:caupona:mud_counter_with_dolium>,
+    <item:caupona:stone_brick_counter_with_dolium>);
+
+// alliums are onions
+
+<tag:items:forge:vegetables/onion>.add(
+    <item:minecraft:allium>,
+    <item:byg:pink_allium>
+);

@@ -81,12 +81,24 @@
 			corner: false
 		}
 		{
-			x: 0.5d
+			x: 5.5d
 			y: 13.0d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
 			image: "cottagewitch:textures/bgenddelight.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: 13.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "cottagewitch:textures/bgcaupona.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -1090,8 +1102,8 @@
 		}
 		{
 			icon: "minecraft:cake"
-			x: 3.25d
-			y: 5.0d
+			x: 1.5d
+			y: 2.5d
 			description: ["Eat a bunch of cake! It's a delicious treat and you deserve it."]
 			id: "78A59A17FEDDE305"
 			tasks: [{
@@ -1522,35 +1534,6 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: 4.5d
-			shape: "rsquare"
-			description: [
-				"The mod &lCaupona&r adds a lot of new recipes and ways to cook them."
-				"Although quests may be added in the future, for now &6please read the guidebook&r to learn how the mod works."
-				"&dQuests for this mod are currently being developed&r."
-			]
-			size: 2.0d
-			id: "23A1554470B97991"
-			tasks: [{
-				id: "4B4FAE89252E603D"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "caupona:book"
-					}
-				}
-			}]
-			rewards: [{
-				id: "21A49B0B389587B3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
-		}
-		{
 			x: 0.0d
 			y: 0.0d
 			invisible: true
@@ -1852,8 +1835,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 11.25d
+			x: 3.5d
+			y: 11.0d
 			shape: "rsquare"
 			description: [
 				"In order to craft certain high-level dishes, you'll need the &bDragon Egg Research Notes&r."
@@ -1875,8 +1858,8 @@
 		}
 		{
 			title: "A Different Dragon Egg"
-			x: 0.5d
-			y: 11.5d
+			x: 5.5d
+			y: 11.25d
 			shape: "hexagon"
 			description: [
 				"Once you've obtained the &bDragon Egg Research Notes&r, you can use them to craft a &bNourishing Dragon Egg&r."
@@ -1898,8 +1881,8 @@
 		}
 		{
 			title: "An Eggshellent Bowl"
-			x: 0.5d
-			y: 13.0d
+			x: 5.5d
+			y: 12.75d
 			shape: "hexagon"
 			description: [
 				"To serve the unbridled taste sensation that is &adragon protein&r, you'll need an appropriate vessel."
@@ -1928,8 +1911,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 13.0d
+			x: 8.0d
+			y: 12.75d
 			shape: "hexagon"
 			description: [
 				"&bDragon Meat Stew&r... what could be a greater show of power than &cconsuming your fallen enemies&r?"
@@ -1950,8 +1933,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 14.5d
+			x: 7.0d
+			y: 14.25d
 			shape: "hexagon"
 			description: ["This dreamy steamed dish will &afulfill your wildest dreams&r... or, at least, it'll &agive you some great buffs&r!"]
 			dependencies: ["16ECF08D421359AC"]
@@ -1968,8 +1951,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 13.0d
+			x: 3.5d
+			y: 12.75d
 			shape: "octagon"
 			description: ["Make this advancement by crafting the &bAssorted Salad&r."]
 			dependencies: ["16ECF08D421359AC"]
@@ -2015,8 +1998,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 14.5d
+			x: 8.5d
+			y: 14.25d
 			shape: "octagon"
 			description: ["Congratulations, you've cooked some of the &amost magically imbued food&r in the game! Truly a kitchen witch of supreme renown!"]
 			dependencies: [
@@ -2037,8 +2020,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 16.0d
+			x: 4.5d
+			y: 15.75d
 			shape: "hexagon"
 			subtitle: "keep your feet on the ground"
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
@@ -2055,8 +2038,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 15.0d
+			x: 3.0d
+			y: 14.75d
 			shape: "hexagon"
 			description: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
 			id: "456D45D35A596109"
@@ -2072,8 +2055,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 16.0d
+			x: 2.5d
+			y: 15.75d
 			shape: "hexagon"
 			description: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
 			id: "6CA036FC470C17EA"
@@ -2089,8 +2072,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 15.0d
+			x: 4.0d
+			y: 14.75d
 			shape: "hexagon"
 			description: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
 			id: "482A2BB52514C35B"
@@ -2106,8 +2089,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 16.0d
+			x: 3.5d
+			y: 15.75d
 			shape: "hexagon"
 			description: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
 			id: "28D201EE3AA699C2"
@@ -2120,6 +2103,396 @@
 				id: "738D5A2356F21597"
 				type: "item"
 				item: "ends_delight:liquid_dragon_egg_in_bowl"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 13.0d
+			description: [
+				"You can also &aadd Spices to your food&r! One such spice is &bVinegar&r, which is created by leaving &bSweet Berries&r to &arest in the Dolium&r with a &bFlower Pot&r."
+				"Adding spices to your food &agives it greater saturation&r."
+			]
+			dependencies: ["0AB07DA9AF0FB294"]
+			id: "6FB77462CDE121E0"
+			tasks: [{
+				id: "77CED17C872CD141"
+				type: "item"
+				item: {
+					id: "caupona:vinegar_spice_jar"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6482B9A414C2F51D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Obtain a Dolium"
+			x: -5.5d
+			y: 13.0d
+			subtitle: "the doldrums"
+			description: [
+				"The &bDolium&r is used for &aResting Conversion&r, which consists of placing your &aingredients and other items&r inside and &6letting them rest&r, for up to an &ain-game day&r."
+				"Each recipe needs all ingredients, as well as a container to hold the result, and sometimes an additional item (such as &aAnvils for Gravy Boats&r). &dThe resting process will not begin without all components&r."
+				"This can be sped up using the &bTime in a Bottle&r."
+			]
+			dependencies: ["1C80130EFE5C2FFC"]
+			id: "0AB07DA9AF0FB294"
+			tasks: [{
+				id: "3EA0F6C131FDF221"
+				type: "item"
+				title: "Any #crafttweaker:dolium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:dolium"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "185280CA37E4EE83"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+				{
+					id: "0EC15D91B0841254"
+					type: "item"
+					item: "minecraft:sweet_berries"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 11.0d
+			shape: "rsquare"
+			description: [
+				"&lCaupona&r is a cooking mod that employs a freeform style of recipe."
+				"With most recipes, you will &amaintain a ratio&r of ingredients, such as ensuring that you have &a\"mostly beef\"&r and &a\"some vegetables\"&r, with &a\"no fish\"&r, and so on."
+				"You can use &bthe guidebook&r or &lJEI&r to learn the recipes."
+				"{image:cottagewitch:textures/cauponajei.png width:100 height:80 align:1 fit:true}"
+				"When viewing &bStews and Soups&r, ensure that you &6click these icons&r to access their recipes."
+				""
+				"{image:cottagewitch:textures/cauponarecipe.png width:100 height:90 align:1 fit:true}"
+				"A) This is the &bSoup Base&r. For example, for &bNail Soup&r, you &6boil water&r."
+				"B) This is the &aratio of ingredients to liquid&r. For example, 3 or more ingredients to 1 bucket/4 bowls of liquid."
+				"C) This is the &aoutput&r, or what the recipe will make."
+				"D) These are ingredients which &amust not be included&r."
+				"E and F) These are the &aratio of items to each other&r, for example, a majority of &bbeef&r and at least one &bvegetable&r."
+				""
+				"Now that you know how to read the recipes, let's make some!"
+			]
+			size: 2.0d
+			id: "1C80130EFE5C2FFC"
+			tasks: [{
+				id: "62F668FBB95DA821"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "caupona:book"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F977FCE0DC2C342"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 5
+				}
+				{
+					id: "218BF142EC10208A"
+					type: "item"
+					item: "minecraft:brick"
+					count: 20
+				}
+			]
+		}
+		{
+			title: "Obtain a Stove"
+			x: -4.0d
+			y: 11.0d
+			description: [
+				"The &bStove&r is a helpful and aesthetically-pleasing &aheat source&r, which can be used to heat &bStew Pots, Stir Fry Pans, and Hypocausts&r."
+				"Strictly speaking, a &bStove&r is not the only &aheat source usable by the mod&r. However, it's very pretty."
+			]
+			dependencies: ["1C80130EFE5C2FFC"]
+			id: "50C95EB7CBDC346C"
+			tasks: [{
+				id: "222DF6FB2BDBE753"
+				type: "item"
+				title: "Any #caupona:stoves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "caupona:stoves"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20C950EB18CF3B54"
+					type: "item"
+					item: "minecraft:coal"
+					count: 15
+				}
+				{
+					id: "68C4DADB681A65A3"
+					type: "item"
+					item: "minecraft:bowl"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Obtain a Stir-Fry Pan"
+			x: -3.5d
+			y: 13.0d
+			description: [
+				"To stir-fry things, you'll need two things: a &bpan or stone&r, and a &bGravy Boat&r."
+				"The Pan must be &6placed atop a heat source&r. The &bGravy Boat&r must be placed &adirectly next to the pan&r. You can place it with &6shift right click&r."
+			]
+			dependencies: ["50C95EB7CBDC346C"]
+			id: "71C8716D1914B882"
+			tasks: [{
+				id: "2E6DB140B6C0DA58"
+				type: "item"
+				title: "Any #crafttweaker:cookingpans"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:cookingpans"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B7C1D25705EEE00"
+				type: "item"
+				item: "caupona:walnut"
+				count: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: 14.5d
+			description: [
+				"A &bGravy Boat&r is crucial to making &aStir Fried dishes&r. It's crafted by &aresting&r, which is a unique mechanic involving &6putting things in a &bDolium&r and then &6leaving it the heck alone&r."
+				""
+				"{image:cottagewitch:textures/gravyboat.png width:100 height:100 align:1 fit:true}"
+				"In this image, you can see there are &aat least 8 &bWalnuts&r, one &bAnvil&r, and one &bGlass Bottle&r (you can also use an empty Gravy Boat) in the &bDolium&r. All of these must be present in order for the &aresting process&r to begin. Be aware that this &dtakes a very long time&r. Most resting takes &dan in-game day&r to complete."
+				"You can speed it up by using &bTime in a Bottle&r."
+			]
+			dependencies: ["71C8716D1914B882"]
+			id: "2DFE677856208F14"
+			tasks: [{
+				id: "3013E83825BE3012"
+				type: "item"
+				item: {
+					id: "caupona:gravy_boat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FE4DD30ABD1C102"
+				type: "item"
+				item: {
+					id: "caupona:gravy_boat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Obtain a Stew Pot"
+			x: -2.0d
+			y: 13.0d
+			description: [
+				"To begin with, you'll need a &bClay Pot&r, which you'll need to &6fire in a furnace&r. A &bStew Pot&r is used to make &aSoups, Stews, and Aspics&r."
+				"Once placed, you can &afill the Stew Pot&r by &6right clicking it&r with a &bBucket of Milk or Water&r, or &bBowls&r of whichever ingredient."
+			]
+			dependencies: ["50C95EB7CBDC346C"]
+			id: "3502E25C90113657"
+			tasks: [
+				{
+					id: "4D056C50983F3A3A"
+					type: "item"
+					item: "caupona:clay_cistern"
+				}
+				{
+					id: "533DE80660D97571"
+					type: "item"
+					item: "caupona:stew_pot"
+				}
+			]
+			rewards: [{
+				id: "6A32F2E793A1F940"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Make a Stew"
+			x: -2.0d
+			y: 15.0d
+			shape: "hexagon"
+			description: [
+				"Now that you're ready to cook, let's try making some &bBorscht&r. Just like babshka used to make."
+				""
+				"{image:cottagewitch:textures/borscht.png width:100 height:60 align:1 fit:true}"
+				"As you can see, it's a &bBeetroot&r-heavy &avegetable soup&r, that doesn't have any &adenial ingredients&r."
+				"Make sure you place &aat least 3 &bBeetroot&r and &aat least 1 &bother vegetable&r (or another &bBeetroot&r)."
+				"However, you can &dadd more than that&r! If you make it with &b9 Beetroot&r, it will give you &agreater saturation&r."
+				"There is a &dbug where the correct Saturation won't appear&r when you hover over the item. However, it will be correct when you eat it."
+				"Stews can also &abe placed down with &6shift + right click&r!"
+				"Additionally, you can &aadd &bPotions&a to your food&r by including them in the 9 ingredients."
+			]
+			dependencies: ["3502E25C90113657"]
+			id: "1A24E1B112A913B5"
+			tasks: [{
+				id: "3FDAECE6DCA50478"
+				type: "item"
+				item: {
+					id: "caupona:borscht"
+					Count: 1b
+					tag: {
+						type: "caupona:borscht"
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A03646F4272C219"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "0A1CFFFD5A572CE2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6951594928314176539L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 16.0d
+			shape: "hexagon"
+			description: ["Soups will &aconvert to Aspic&r if left to sit in a &bStew Pot&r or &bDolium&r for long periods of time. This can be a good way of &astacking your stews&r, as &bBowls&r do not stack."]
+			dependencies: ["1A24E1B112A913B5"]
+			id: "2B95A3784844A835"
+			tasks: [{
+				id: "390D095EFFB0452D"
+				type: "item"
+				item: "caupona:borscht_aspic"
+			}]
+			rewards: [{
+				id: "685A465100AE8BF1"
+				type: "item"
+				item: "caupona:mushroom_soup_aspic"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 16.0d
+			shape: "hexagon"
+			description: [
+				"In order to &athaw an &bAspic&r, you can either &6place it in a &bStew Pot&r and let it convert, or you can use a &bPortable Brazier&r."
+				"The &bBrazier&r can be done while traveling, but it will require a &bBowl of Water&r and some &bVivid Charcoal&r in order to work."
+			]
+			dependencies: ["2B95A3784844A835"]
+			id: "17005FF934CF893E"
+			tasks: [{
+				id: "7FAB652F6F66B8B2"
+				type: "item"
+				item: "caupona:portable_brazier"
+			}]
+			rewards: [
+				{
+					id: "063721E083CD0092"
+					type: "item"
+					item: "caupona:vivid_charcoal"
+				}
+				{
+					id: "5EE98E840E0DA2F8"
+					type: "item"
+					item: {
+						id: "caupona:water"
+						Count: 1b
+						tag: {
+							type: "minecraft:water"
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 14.5d
+			shape: "hexagon"
+			description: ["To test your Stir-Fry Skills, why not make some &bSauteed Roots&r? This dish is made with &aroot vegetables such as &bCarrots&r or &bPotatoes&r."]
+			dependencies: ["2DFE677856208F14"]
+			id: "07EB926AC767EEEE"
+			tasks: [{
+				id: "4EB57E2010CEE329"
+				type: "item"
+				item: {
+					id: "caupona:sauteed_roots"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DB1CA10880F4886"
+				type: "item"
+				item: {
+					id: "caupona:sauteed_roots"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
 			}]
 		}
 	]

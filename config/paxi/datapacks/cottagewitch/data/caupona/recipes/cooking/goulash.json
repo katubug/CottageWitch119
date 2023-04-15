@@ -1,0 +1,32 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": "forge:raw_beef",
+      "cond": "mainly"
+    },
+    {
+      "type": "caupona:vegetables",
+      "cond": "contains"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.75,
+  "deny": [
+    {
+      "type": "caupona:seafood",
+      "cond": "contains"
+    },
+    {
+      "type": "caupona:cereals",
+      "cond": "contains"
+    }
+  ],
+  "output": "caupona:goulash",
+  "priority": 1152,
+  "time": 200
+}

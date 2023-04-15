@@ -121,134 +121,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -11.5d
-			description: [
-				"&lCaupona&r is a cooking mod that employs a freeform style of recipe."
-				"It's recommended to use &afour ingredients&r at a time."
-			]
-			id: "1C80130EFE5C2FFC"
-			tasks: [{
-				id: "62F668FBB95DA821"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "caupona:book"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0F977FCE0DC2C342"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 5
-				}
-				{
-					id: "218BF142EC10208A"
-					type: "item"
-					item: "minecraft:brick"
-					count: 20
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: -11.5d
-			id: "3502E25C90113657"
-			tasks: [{
-				id: "4D056C50983F3A3A"
-				type: "item"
-				item: "caupona:clay_cistern"
-			}]
-			rewards: [
-				{
-					id: "5950C7AC533F5130"
-					type: "item"
-					item: "minecraft:bone"
-					count: 2
-				}
-				{
-					id: "358F3B10792FABEA"
-					type: "item"
-					item: "minecraft:chicken"
-					count: 2
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: -11.5d
-			id: "50C95EB7CBDC346C"
-			tasks: [{
-				id: "222DF6FB2BDBE753"
-				type: "item"
-				title: "Any #caupona:stoves"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "caupona:stoves"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "20C950EB18CF3B54"
-					type: "item"
-					item: "minecraft:coal"
-					count: 15
-				}
-				{
-					id: "68C4DADB681A65A3"
-					type: "item"
-					item: "minecraft:bowl"
-					count: 4
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: -11.5d
-			id: "0CFFE885D1617932"
-			tasks: [{
-				id: "1DC87F62EBB66C03"
-				type: "item"
-				item: {
-					id: "caupona:stock"
-					Count: 1b
-					tag: {
-						type: "caupona:stock"
-						soup: {
-							effects: [ ]
-							feffects: [ ]
-							sat: 0.7f
-							heal: 5
-							items: [
-								{
-									id: "minecraft:bone"
-									Count: 1b
-									th_countf: 0.25f
-								}
-								{
-									id: "minecraft:chicken"
-									Count: 1b
-									th_countf: 0.75f
-								}
-							]
-							hasSpice: 0b
-							base: "caupona:nail_soup"
-							afluid: 0.25f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: -9.0d
+			x: -1.0d
+			y: -4.5d
 			shape: "octagon"
 			id: "2ADFD97B3FBCF3FE"
 			tasks: [{
@@ -259,8 +133,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -9.0d
+			x: 0.0d
+			y: -4.5d
 			shape: "octagon"
 			id: "35E10BE37EE7B4F3"
 			tasks: [{

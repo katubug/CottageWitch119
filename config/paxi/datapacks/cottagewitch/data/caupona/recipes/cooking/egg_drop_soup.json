@@ -1,0 +1,23 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": "caupona:eggs",
+      "cond": "mainly"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.5,
+  "deny": [
+    {
+      "type": "caupona:vegetables",
+      "cond": "contains"
+    }
+  ],
+  "output": "caupona:egg_drop_soup",
+  "time": 200
+}

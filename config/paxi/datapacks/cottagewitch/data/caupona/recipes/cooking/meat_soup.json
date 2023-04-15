@@ -1,0 +1,17 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": "caupona:meats/meat",
+      "cond": "mainly"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.75,
+  "output": "caupona:meat_soup",
+  "time": 200
+}

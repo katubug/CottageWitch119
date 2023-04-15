@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{"item": "minecraft:flower_pot"},
+		{"tag": "forge:vegetables/onion"},
+		{"tag": "forge:vegetables/onion"}
+	],
+	"result": {
+		"item": "caupona:chives_spice_jar"
+	}
+}

@@ -17,10 +17,10 @@
 	portal_destruction_sound = true
 
 [worldgen]
-	stone_stripe_features = true
+	stone_stripe_features = false
 	enable_sporophytes = true
 	dark_forest_portabellas = true
-	better_sculk_patches = true
+	better_sculk_patches = false
 	enable_mores = true
 
 [slimes]

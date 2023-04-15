@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "If your server operator has it set up, you can now use proximity voice chat! Press 'v' by default to change your settings."
+    }
+  }

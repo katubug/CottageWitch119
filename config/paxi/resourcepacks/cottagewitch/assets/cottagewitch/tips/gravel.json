@@ -5,6 +5,6 @@
       "color": "green"
     },
     "tip": {
-      "text": "Compare a piece of gear to what you're wearing by hovering over it and pressing Left Shift!"
+      "text": "Falling gravel will now be automatically mined, without the need to place torches at the bottom!"
     }
-  }
+}
