@@ -266,7 +266,7 @@
 			shape: "hexagon"
 			subtitle: "Lots of things can go in bottles."
 			description: [
-				"You can obtain a &bCloud in a Bottle&r by ascending to y-level 126-132 and &6right clicking the air with a glass bottle&r."
+				"You can obtain a &bCloud in a Bottle&r by ascending to &acloud height&r and &6right clicking the air with a glass bottle&r."
 				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
 			]
 			id: "24B3EE21C9B6292B"
@@ -1802,7 +1802,7 @@
 			x: 9.0d
 			y: 6.5d
 			description: [
-				"The &bPotioneer's Gauntlet&r allows one to &ainject potions into their attacks&r using the &bPotion Injector&r. Up to 6 &bSplash Potions&r can be injected."
+				"The &bPotioneer's Gauntlet&r allows one to &ainject potions into their attacks&r using the &bPotion Injector&r. Up to 6 &bLingering Potions&r can be injected."
 				"When attacking with the Gauntlet, you will deal both melee damage and the potion effect's damage. This can be toggled by pressing &6shift+right click&r."
 				"Once one potion is used, it will automatically load up the next potion after a few seconds."
 				"They will &aload in the order they were placed&r in the Injector UI. The potions are not consumed, but will be on cooldown after use."
@@ -1864,33 +1864,6 @@
 					type: "choice"
 					exclude_from_claim_all: true
 					table_id: 7265408724434505998L
-				}
-			]
-		}
-		{
-			x: -10.5d
-			y: 3.0d
-			shape: "circle"
-			description: ["Insomnia is hell. Go to bed, you silly witch."]
-			id: "060940588B650F1D"
-			tasks: [{
-				id: "4DED0D306FD66C39"
-				type: "stat"
-				icon: "minecraft:red_bed"
-				stat: "minecraft:time_since_rest"
-				value: 10
-			}]
-			rewards: [
-				{
-					id: "1376A05B3A5F0EA4"
-					type: "item"
-					item: "farmersrespite:dandelion_tea"
-				}
-				{
-					id: "2F1C7D47289BDC10"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8808494820591225409L
 				}
 			]
 		}
@@ -1991,6 +1964,74 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+		}
+		{
+			title: "Traveling Piggyback"
+			x: -10.5d
+			y: 3.5d
+			description: [
+				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
+				""
+				"No, that's it, that's the whole sentence."
+			]
+			id: "7E2641B15D6AF49E"
+			tasks: [
+				{
+					id: "16CAC410F6BBE772"
+					type: "stat"
+					stat: "minecraft:pig_one_cm"
+					value: 10000
+				}
+				{
+					id: "4F6C803E22B3FF71"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0CA93B79B9D94DF7"
+				type: "item"
+				item: "minecraft:pig_spawn_egg"
+			}]
+		}
+		{
+			title: "Raid Master"
+			x: -9.0d
+			y: 5.5d
+			subtitle: "please can someone go healer"
+			description: ["Winning a &aRaid&r can be a satisfying challenge. Even better, win a bunch of raids, and you'll get rewarded!"]
+			id: "5B185B1B72278050"
+			tasks: [{
+				id: "5826833749DA8FAE"
+				type: "stat"
+				stat: "minecraft:raid_win"
+				value: 10
+			}]
+			rewards: [
+				{
+					id: "20AC21AA37AC578D"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "108FCFEFF3CFD90B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "19BF21C8EB91FC15"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1510389528595555205L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

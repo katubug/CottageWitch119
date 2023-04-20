@@ -1,0 +1,59 @@
+{
+  "debuglogging": {
+    "desc:": "Enable debug logging, default:false",
+    "debuglogging": false
+  },
+  "dimensionconnections": [
+    {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "xcoordmultiplier": 0.125,
+      "zcoordmultiplier": 0.125,
+      "teleporttype": {
+        "teleporttype": "AIR",
+        "teleport_to_y": 125
+      },
+      "belowy": -60,
+      "slowfallticks": 400
+    },
+    {
+      "from": "minecraft:the_end",
+      "to": "minecraft:overworld",
+      "teleporttype": {
+        "teleporttype": "AIR",
+        "teleport_to_y": 300
+      },
+      "belowy": 0,
+      "slowfallticks": 400
+    },
+    {
+      "from": "minecraft:the_nether",
+      "to": "minecraft:the_nether",
+      "teleporttype": {
+        "teleporttype": "CAVE",
+        "teleport_to_y": 4
+      },
+      "belowy": 0
+    },
+    {
+      "from": "minecraft:the_nether",
+      "to": "minecraft:overworld",
+      "xcoordmultiplier": 8.0,
+      "zcoordmultiplier": 8.0,
+      "teleporttype": {
+        "teleporttype": "CAVE",
+        "teleport_to_y": -60
+      },
+      "abovey": 121
+    },
+    {
+      "from": "minecraft:overworld",
+      "to": "minecraft:overworld",
+      "teleporttype": {
+        "teleporttype": "AIR",
+        "teleport_to_y": 360
+      },
+      "abovey": 364
+    }
+  ]
+}

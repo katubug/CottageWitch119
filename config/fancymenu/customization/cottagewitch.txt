@@ -53,28 +53,62 @@ customization {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/folkcornersdown.png
+  orientation = bottom-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 964ea5a5-efee-4e94-8ca4-b9522ca04fde1681666712306
+  y = -100
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  background_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
+  bar_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
+  progress_for_element_orientation = true
+  background_color = #30372C
+  x = -219
+  width = 399
+  bar_color = #545D51
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  y = 145
+  direction = right
+  height = 34
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/folkcornersup.png
   orientation = top-left
   x = 0
   width = %guiwidth%
   action = addtexture
-  actionid = 9b42acc6-599a-4e74-bec2-0c90321c75de1681421965142
+  actionid = dc0df729-c040-4ed1-b1d2-b54fb6387c491681666139240
   y = 0
-  height = %guiheight%
+  height = 100
 }
 
 customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
   orientation = top-centered
-  background_color = #30372C
-  bar_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/barfill.png
-  x = -225
-  width = 450
-  bar_color = #545D51
-  action = custom_layout_element:drippy_custom_loading_bar
-  actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  y = 64
-  progress_for_element_orientation = true
-  direction = right
+  x = -217
+  width = 400
+  action = addtexture
+  actionid = 8d5a92a2-5962-404a-bfcc-400343f6e6871681666205780
+  y = 5
+  height = 208
+}
+
+customization {
+  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
+  orientation = mid-centered
+  x = -219
+  width = 398
+  action = addtexture
+  actionid = e7f98ea0-928b-40cb-b734-12bb31f862e01681936512389
+  y = 145
   height = 34
 }
 

@@ -1,4 +1,4 @@
 {
   "enableDispenserBehavior": true,
-  "reapPlayers": true
+  "reapPlayers": false
 }

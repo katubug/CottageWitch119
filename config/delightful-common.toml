@@ -75,7 +75,7 @@
 	chunk_nugget = true
 	chunkwich = true
 	coconut_curry = true
-	cooked_goat = false
+	cooked_goat = true
 	cooked_marshmallow_stick = true
 	cooked_venison_chops = true
 	crab_rangoon = true
@@ -101,7 +101,7 @@
 	prickly_pear_juice = true
 	pumpkin_pie_slice = true
 	quartz_cabinet = true
-	raw_goat = false
+	raw_goat = true
 	rock_candy = true
 	salmonberries = true
 	salmonberry_gummy = true

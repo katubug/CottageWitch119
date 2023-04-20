@@ -142,7 +142,7 @@
 		#Determines if the recipe(s) associated with the Swift Blade are enabled.
 		"Swift Blade" = false
 		#Determines if the recipe(s) associated with the Sickle are enabled.
-		Sickle = true
+		Sickle = false
 		#Determines if the recipe(s) associated with the Dirt Recipes are enabled.
 		"Dirt Recipes" = true
 		#Determines if the recipe(s) associated with the Bunch of Beets are enabled.

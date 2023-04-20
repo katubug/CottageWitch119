@@ -1,0 +1,166 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2023-04-19 14:43:22
+Description: Rendering overlay
+
+java.lang.NullPointerException: Cannot read field "playOnLoad" because "me.ichun.mods.ding.common.Ding.config" is null
+	at me.ichun.mods.ding.common.core.EventHandlerClient.postInit(EventHandlerClient.java:35) ~[Ding-1.19.2-Forge-1.4.0.jar%23571!/:1.4.0] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$blc000$setOverlay(Minecraft.java:8407) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91150_(Minecraft.java) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.LoadingOverlay.m_6305_(LoadingOverlay.java:128) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinLoadingOverlay,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinLoadingOverlay,pl:mixin:APP:fancymenu.general.mixin.json:MixinLoadingOverlay,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:885) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:supplementaries-common.mixins.json:GameRendererMixin,pl:mixin:APP:fairylights.mixins.json:GameRendererMixin,pl:mixin:APP:mixins.oculus.json:GameRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinGameRenderer,pl:mixin:APP:mixins.oculus.json:MixinModelViewBobbing,pl:mixin:APP:mixins.oculus.json:MixinTweakFarPlane,pl:mixin:APP:ars_nouveau.mixins.json:GameRendererMixin,pl:mixin:APP:rubidium_extras.mixins.json:TotalDarkness.MixinGameRenderer,pl:mixin:APP:rubidium_extras.mixins.json:Zoom.GameRendererMixin,pl:mixin:APP:immersive_aircraft.mixins.json:GameRendererMixin,pl:mixin:APP:mermod.mixins.json:GameRendererMixin,pl:mixin:APP:create.mixins.json:GameRendererMixin,pl:mixin:APP:create.mixins.json:accessor.GameRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinGameRenderer_NightVisionCompat,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1115) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.6.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at me.ichun.mods.ding.common.core.EventHandlerClient.postInit(EventHandlerClient.java:35) ~[Ding-1.19.2-Forge-1.4.0.jar%23571!/:1.4.0] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$blc000$setOverlay(Minecraft.java:8407) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91150_(Minecraft.java) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.LoadingOverlay.m_6305_(LoadingOverlay.java:128) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinLoadingOverlay,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinLoadingOverlay,pl:mixin:APP:fancymenu.general.mixin.json:MixinLoadingOverlay,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraft.client.gui.screens.LoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:885) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:supplementaries-common.mixins.json:GameRendererMixin,pl:mixin:APP:fairylights.mixins.json:GameRendererMixin,pl:mixin:APP:mixins.oculus.json:GameRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinGameRenderer,pl:mixin:APP:mixins.oculus.json:MixinModelViewBobbing,pl:mixin:APP:mixins.oculus.json:MixinTweakFarPlane,pl:mixin:APP:ars_nouveau.mixins.json:GameRendererMixin,pl:mixin:APP:rubidium_extras.mixins.json:TotalDarkness.MixinGameRenderer,pl:mixin:APP:rubidium_extras.mixins.json:Zoom.GameRendererMixin,pl:mixin:APP:immersive_aircraft.mixins.json:GameRendererMixin,pl:mixin:APP:mermod.mixins.json:GameRendererMixin,pl:mixin:APP:create.mixins.json:GameRendererMixin,pl:mixin:APP:create.mixins.json:accessor.GameRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinGameRenderer_NightVisionCompat,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1115) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.6.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, OsShulkerboxescolorblindfriendly.zip, Recreated containers free version.zip, Redesgined Dragon Egg.zip, Reinforced Deepslate Chest.zip, better-cobblestone-e1630.zip, dynamic-beehives-beenests.zip, floweryladder.zip, foodstuffs.zip, mushroom-cap-hat.zip, mushroom-slimes.zip, rainbow-quartz-v2.zip, reglazed.zip, uniqueshulkerskins.zip, viavens-paintings.zip, warped-roots-3d-e2240.zip, xksp-hollow-shulker.zip, xksp-lush-flowers.zip, xksp-naturalize.zip, Better-Leaves-7.1-1.19+.zip, Brewing Guide.zip, EnderEyes_1.19_v2.zip, xksp-lush-plants-e1510.zip, §6Chests-Reimagined§8-[v1.4].zip, 3D Dripstones.zip, 3d-blast-furnace-e1920.zip, 3d-sweet-berry-bush-1-16.zip, 3d-woodfire-furnace.zip, Better Chains.zip, Botany's+3D+Mushrooms.zip, Cute Turtle Helmet.zip, Fancy Boss Bars v0.1.1.zip, Henry's+Pots+and+Plants.zip, Kubban's Saplings.zip, Pluvia's Doors (1.18.1).zip, PolyStashAllFences.zip, _6Breadier Breads_8[v1].zip, alice-doll-totem-e1340.zip, antique-enchanting-table.zip, better-chorus-16x-e1691.zip, better-crops-3d-16x.zip, better-flowers-e1940.zip, better-fungus-e1460.zip, better-stations.zip, chiseled-prismarine-pack.zip, coral-cobblestone-1569592297.zip, different-dyes.zip, elytra-luna-moth-16x.zip, fancy-beacon.zip, liet-custom-armors.zip, more-pumpkins-e2900.zip, mushroomwitch-e3600.zip, pmc-mob-pack-shulker_white_multicolored-shulker.zip, prettier-glowstone-e3640.zip, sugrcube-s-paintings.zip, wrapped-moss-carpet.zip, FragrantFlowers.zip, Charging Gadgets + Create.zip, Create Simple Storage 1.1.zip, LootrChestRetexture_v1.1_1.19.zip
+Stacktrace:
+	at net.minecraft.client.ResourceLoadStateTracker.m_168562_(ResourceLoadStateTracker.java:49) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2287) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:717) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23789!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.6.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 452119464 bytes (431 MiB) / 981467136 bytes (936 MiB) up to 8489271296 bytes (8096 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: unknown
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: NVIDIA GeForce RTX 3060 Laptop GPU
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2520
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.1640
+	Graphics card #1 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x46a6
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.3962
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 47819.19
+	Virtual memory used (MB): 12922.10
+	Swap memory total (MB): 31744.00
+	Swap memory used (MB): 60.86
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8096m -Xms256m
+	Loaded Shaderpack: (off)
+	Launched Version: forge-43.2.6
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 516.40, NVIDIA Corporation
+	Window size: 1400x900
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, file/OsShulkerboxescolorblindfriendly.zip, file/Recreated containers free version.zip, file/Redesgined Dragon Egg.zip, file/Reinforced Deepslate Chest.zip, file/better-cobblestone-e1630.zip, file/dynamic-beehives-beenests.zip, file/floweryladder.zip, file/foodstuffs.zip, file/mushroom-cap-hat.zip, file/mushroom-slimes.zip, file/rainbow-quartz-v2.zip, file/reglazed.zip, file/uniqueshulkerskins.zip, file/viavens-paintings.zip, file/warped-roots-3d-e2240.zip, file/xksp-hollow-shulker.zip, file/xksp-lush-flowers.zip, file/xksp-naturalize.zip, file/Better-Leaves-7.1-1.19+.zip, file/Brewing Guide.zip, file/EnderEyes_1.19_v2.zip, file/xksp-lush-plants-e1510.zip, file/§6Chests-Reimagined§8-[v1.4].zip, file/3D Dripstones.zip, file/3d-blast-furnace-e1920.zip, file/3d-sweet-berry-bush-1-16.zip, file/3d-woodfire-furnace.zip, file/Better Chains.zip, file/Botany's+3D+Mushrooms.zip, file/Cute Turtle Helmet.zip, file/Fancy Boss Bars v0.1.1.zip, file/Henry's+Pots+and+Plants.zip, file/Kubban's Saplings.zip, file/Pluvia's Doors (1.18.1).zip, file/PolyStashAllFences.zip, file/_6Breadier Breads_8[v1].zip, file/alice-doll-totem-e1340.zip, file/antique-enchanting-table.zip, file/better-chorus-16x-e1691.zip, file/better-crops-3d-16x.zip, file/better-flowers-e1940.zip, file/better-fungus-e1460.zip, file/better-stations.zip, file/chiseled-prismarine-pack.zip, file/coral-cobblestone-1569592297.zip, file/different-dyes.zip, file/elytra-luna-moth-16x.zip, file/fancy-beacon.zip, file/liet-custom-armors.zip, file/more-pumpkins-e2900.zip, file/mushroomwitch-e3600.zip, file/pmc-mob-pack-shulker_white_multicolored-shulker.zip, file/prettier-glowstone-e3640.zip, file/sugrcube-s-paintings.zip, file/wrapped-moss-carpet.zip, file/FragrantFlowers.zip (incompatible), file/Charging Gadgets + Create.zip, file/Create Simple Storage 1.1.zip (incompatible), file/LootrChestRetexture_v1.1_1.19.zip
+	Current Language: English (US)
+	CPU: 20x 12th Gen Intel(R) Core(TM) i7-12700H
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.6.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.6.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.6.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.6.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.6.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		kotlinforforge@3.11.0
+		lowcodefml@null
+	Mod List: 
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |NONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		forge-1.19.2-43.2.6-universal.jar                 |Forge                         |forge                         |43.2.6              |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90

@@ -141,7 +141,7 @@ var removeNope = [
     <item:prefab:block_double_compressed_quartz_crete>,
     <item:prefab:block_quartz_crete>,
     <item:prefab:block_quartz_crete_wall>,
-    <item:prefab:item_string_of_lanterns>,
+    //<item:prefab:item_string_of_lanterns>,
     <item:prefab:block_quartz_crete_chiseled>,
     <item:prefab:block_quartz_crete_pillar>,
     <item:prefab:block_quartz_crete_stairs>,
@@ -169,7 +169,7 @@ var removeNope = [
     <item:prefab:item_bunch_of_potatoes>,
     <item:prefab:item_wooden_crate>,
     <item:prefab:block_quartz_crete_bricks>,
-    <item:prefab:item_coil_of_lanterns>,
+    //<item:prefab:item_coil_of_lanterns>,
     <item:prefab:item_crate_of_potatoes>,
     <item:prefab:item_crate_of_carrots>,
     <item:prefab:item_swift_blade_netherite>,
@@ -712,6 +712,7 @@ for item in hotBlocks {
     <tag:blocks:farmersdelight:heat_sources>.add(item);
     <tag:blocks:brewinandchewin:hot_blocks>.add(item);
     <tag:blocks:alexsmobs:froststalker_fears>.add(item);
+    <tag:blocks:caupona:stoves>.add(item);
 //    <tag:blocks:vinery:allows_cooking_pot_on>.add(item);
 }
 
@@ -823,106 +824,6 @@ craftingTable.addShaped("driedsagebundle", <item:hexerei:dried_sage_bundle>, [
     [<item:hexerei:dried_sage>, <item:minecraft:string>, <item:hexerei:dried_sage>],
     [<item:hexerei:dried_sage>, <item:hexerei:dried_sage>, <item:hexerei:dried_sage>]
 ]);
-
-// Caupona Tags
-
-<tag:items:caupona:mushroom>.add(
-    <item:spelunkery:button_mushroom>,
-    <item:collectorsreap:portobello>,
-    <item:spelunkery:portabella>,
-    <item:spelunkery:crimini>,
-    <item:byg:white_puffball_cap>,
-    <item:byg:cooked_white_puffball_cap>
-);
-
-<tag:items:caupona:meats>.add(
-    <item:alexsdelight:kangaroo_shank>,
-    <item:twilightforest:cooked_meef>,
-    <item:twilightforest:raw_meef>,
-    <item:delightful:venison_chops>,
-    <item:delightful:cooked_venison_chops>,
-    <item:delightful:raw_goat>,
-    <item:delightful:cooked_goat>,
-    <item:twilightforest:cooked_venison>,
-    <item:twilightforest:raw_venison>,
-    <item:alexsmobs:cooked_kangaroo_meat>,
-    <item:alexsmobs:kangaroo_meat>,
-    <item:alexsmobs:cooked_moose_ribs>,
-    <item:alexsmobs:moose_ribs>,
-    <item:alexsdelight:bison_patty>,
-    <item:alexsdelight:cooked_bison>,
-    <item:alexsdelight:raw_bison>,
-    <item:alexsdelight:bison_mince>,
-    <item:alexsdelight:cooked_loose_moose_rib>,
-    <item:alexsdelight:loose_moose_rib>,
-    <item:alexsdelight:cooked_kangaroo_shank>
-);
-
-<tag:items:caupona:meats/meat>.add(
-    <item:alexsdelight:kangaroo_shank>,
-    <item:twilightforest:cooked_meef>,
-    <item:twilightforest:raw_meef>,
-    <item:delightful:venison_chops>,
-    <item:delightful:cooked_venison_chops>,
-    <item:delightful:raw_goat>,
-    <item:delightful:cooked_goat>,
-    <item:twilightforest:cooked_venison>,
-    <item:twilightforest:raw_venison>,
-    <item:alexsmobs:cooked_kangaroo_meat>,
-    <item:alexsmobs:kangaroo_meat>,
-    <item:alexsmobs:cooked_moose_ribs>,
-    <item:alexsmobs:moose_ribs>,
-    <item:alexsdelight:bison_patty>,
-    <item:alexsdelight:cooked_bison>,
-    <item:alexsdelight:raw_bison>,
-    <item:alexsdelight:bison_mince>,
-    <item:alexsdelight:cooked_loose_moose_rib>,
-    <item:alexsdelight:loose_moose_rib>,
-    <item:alexsdelight:cooked_kangaroo_shank>
-);
-
-<tag:items:caupona:meats/poultry>.add(
-    <item:duckling:cooked_duck>,
-    <item:duckling:raw_duck>,
-    <item:alexsdelight:cooked_bunfungus>,
-    <item:alexsdelight:raw_bunfungus>,
-    <item:alexsdelight:cooked_bunfungus_drumstick>,
-    <item:alexsdelight:raw_bunfungus_drumstick> 
-);
-
-<tag:items:caupona:meats>.add(
-    <item:duckling:cooked_duck>,
-    <item:duckling:raw_duck>,
-    <item:alexsdelight:cooked_bunfungus>,
-    <item:alexsdelight:raw_bunfungus>,
-    <item:alexsdelight:cooked_bunfungus_drumstick>,
-    <item:alexsdelight:raw_bunfungus_drumstick>
-);
-
-<tag:items:caupona:seafood/fish>.add(
-    <item:quark:crab_leg>,
-    <item:quark:cooked_crab_leg>,
-    <item:alexsmobs:lobster_tail>,
-    <item:alexsmobs:cooked_lobster_tail>,
-    <item:alexsmobs:raw_catfish>,
-    <item:alexsmobs:cooked_catfish>,
-    <item:alexsdelight:cooked_catfish_slice>,
-    <item:alexsdelight:raw_catfish_slice>
-);
-
-<tag:items:caupona:eggs>.add(
-    <item:duckling:duck_egg>,
-    <item:alexsmobs:terrapin_egg>,
-    <item:cnb:lizard_egg>,
-    <item:quark:egg_parrot_red_blue>,
-    <item:quark:egg_parrot_blue>,
-    <item:alexsmobs:emu_egg>,
-    <item:quark:egg_parrot_green>,
-    <item:quark:egg_parrot_yellow_blue>,
-    <item:alexsmobs:crocodile_egg>,
-    <item:quark:egg_parrot_grey>,
-    <item:whatareyouvotingfor:sniffer_egg>
-);
 
 // Add recipe Warp scroll < Warp Stone
 
@@ -1063,6 +964,57 @@ craftingTable.addShaped("sleepingbag_light_gray", <item:comforts:sleeping_bag_li
     [leather, air, leather],
     [<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>]
 ]);
+
+// Dyeing Sleeping Bags
+
+
+craftingTable.addShapeless("white_sleepingbag", <item:comforts:sleeping_bag_white>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:white_dye>]);
+
+craftingTable.addShapeless("orange_sleepingbag", <item:comforts:sleeping_bag_orange>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:orange_dye>]);
+
+craftingTable.addShapeless("magenta_sleepingbag", <item:comforts:sleeping_bag_magenta>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:magenta_dye>]);
+
+craftingTable.addShapeless("light_blue_sleepingbag", <item:comforts:sleeping_bag_light_blue>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:light_blue_dye>]);
+
+craftingTable.addShapeless("yellow_sleepingbag", <item:comforts:sleeping_bag_yellow>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:yellow_dye>]);
+
+craftingTable.addShapeless("lime_sleepingbag", <item:comforts:sleeping_bag_lime>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:lime_dye>]);
+
+craftingTable.addShapeless("pink_sleepingbag", <item:comforts:sleeping_bag_pink>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:pink_dye>]);
+
+craftingTable.addShapeless("gray_sleepingbag", <item:comforts:sleeping_bag_gray>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:gray_dye>]);
+
+craftingTable.addShapeless("light_gray_sleepingbag", <item:comforts:sleeping_bag_light_gray>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:light_gray_dye>]);
+
+craftingTable.addShapeless("cyan_sleepingbag", <item:comforts:sleeping_bag_cyan>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:cyan_dye>]);
+
+craftingTable.addShapeless("purple_sleepingbag", <item:comforts:sleeping_bag_purple>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:purple_dye>]);
+
+craftingTable.addShapeless("blue_sleepingbag", <item:comforts:sleeping_bag_blue>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:blue_dye>]);
+
+craftingTable.addShapeless("brown_sleepingbag", <item:comforts:sleeping_bag_brown>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:brown_dye>]);
+
+craftingTable.addShapeless("green_sleepingbag", <item:comforts:sleeping_bag_green>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:green_dye>]);
+
+craftingTable.addShapeless("red_sleepingbag", <item:comforts:sleeping_bag_red>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:red_dye>]);
+
+craftingTable.addShapeless("black_sleepingbag", <item:comforts:sleeping_bag_black>, 
+[<tag:items:comforts:sleeping_bags>, <item:minecraft:black_dye>]);
 
 //Quark Azalea Wood Recipes
 
@@ -1494,3 +1446,398 @@ Jei.hideIngredient(<fluid:caupona:stock>);
     <item:minecraft:allium>,
     <item:byg:pink_allium>
 );
+
+// mushroom stew
+
+<tag:items:crafttweaker:bowls>.add(<item:minecraft:bowl>,
+<item:ecologics:coconut_husk>);
+
+craftingTable.remove(<item:minecraft:mushroom_stew>);
+
+craftingTable.addShapeless("mushroomstew", <item:minecraft:mushroom_stew>, [<item:minecraft:brown_mushroom>,
+<item:minecraft:red_mushroom>, <tag:items:crafttweaker:bowls>]);
+
+// Immersive Aircraft recipes
+
+craftingTable.remove(<item:immersive_aircraft:improved_landing_gear>);
+craftingTable.addShaped("advlanding", <item:immersive_aircraft:improved_landing_gear>, [
+    [air, <item:create:gearbox>, air],
+    [<item:create:shaft>, air, <item:create:shaft>],
+    [<item:astikorcarts:wheel>, air, <item:astikorcarts:wheel>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:industrial_gears>);
+craftingTable.addShaped("indgears", <item:immersive_aircraft:industrial_gears>, [
+    [<item:create:copper_sheet>, <item:create:cogwheel>, <item:create:copper_sheet>],
+    [air, air, air],
+    [<item:create:iron_sheet>, <item:create:cogwheel>, <item:create:iron_sheet>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:hull_reinforcement>);
+craftingTable.addShaped("reinhull", <item:immersive_aircraft:hull_reinforcement>, [
+    [<item:create:iron_sheet>, <item:create:iron_sheet>, <item:create:iron_sheet>],
+    [<item:immersive_aircraft:hull>, <item:immersive_aircraft:hull>, <item:immersive_aircraft:hull>],
+    [<item:create:iron_sheet>, <item:create:iron_sheet>, <item:create:iron_sheet>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:boiler>);
+craftingTable.addShaped("boiler", <item:immersive_aircraft:boiler>, [
+    [air, <item:create:copper_valve_handle>, air],
+    [<item:create:fluid_pipe>, <item:create:steam_engine>, <item:create:fluid_pipe>],
+    [air, <item:minecraft:blaze_powder>, air]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:hull>);
+craftingTable.addShaped("hull", <item:immersive_aircraft:hull>, [
+    [air, air, air],
+    [<item:create:andesite_casing>, <item:minecraft:iron_ingot>, <item:create:andesite_casing>],
+    [<item:create:andesite_casing>, <item:minecraft:iron_ingot>, <item:create:andesite_casing>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:engine>);
+craftingTable.addShaped("engine", <item:immersive_aircraft:engine>, [
+    [<item:create:hand_crank>, <item:create:encased_chain_drive>, <item:create:hand_crank>],
+    [<item:create:mechanical_piston>, <item:immersive_aircraft:boiler>, <item:create:mechanical_piston>],
+    [<item:minecraft:cobbled_deepslate>, <item:minecraft:cobbled_deepslate>, <item:minecraft:cobbled_deepslate>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:steel_boiler>);
+craftingTable.addShaped("steelboiler", <item:immersive_aircraft:steel_boiler>, [
+    [<item:create:iron_sheet>, <item:create:propeller>, <item:create:iron_sheet>],
+    [<item:create:precision_mechanism>, <item:immersive_aircraft:boiler>, <item:create:precision_mechanism>],
+    [<item:minecraft:coal_block>, <item:create:blaze_burner>, <item:minecraft:coal_block>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:propeller>);
+craftingTable.addShaped("propeller", <item:immersive_aircraft:propeller>, [
+    [air, <item:create:propeller>, air],
+    [air, <item:create:shaft>, air],
+    [air, <item:create:propeller>, air]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:enhanced_propeller>);
+craftingTable.addShaped("enhancedprop", <item:immersive_aircraft:enhanced_propeller>, [
+    [air, <item:minecraft:copper_ingot>, air],
+    [<item:minecraft:copper_ingot>, <item:immersive_aircraft:propeller>, <item:minecraft:copper_ingot>],
+    [air, <item:minecraft:copper_ingot>, air]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:sail>);
+craftingTable.addShaped("sail", <item:immersive_aircraft:sail>, [
+    [air, air, air],
+    [<item:create:white_sail>, <item:create:white_sail>, <item:create:white_sail>],
+    [<item:create:white_sail>, <item:create:white_sail>, <item:create:white_sail>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:sturdy_pipes>);
+craftingTable.addShaped("sturdypipes", <item:immersive_aircraft:sturdy_pipes>, [
+    [air, <item:create:iron_sheet>, <item:create:fluid_pipe>],
+    [<item:create:iron_sheet>, <item:create:fluid_pipe>, <item:create:iron_sheet>],
+    [<item:create:fluid_pipe>, <item:create:iron_sheet>, air]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:airship>);
+craftingTable.addShaped("airship", <item:immersive_aircraft:airship>, [
+    [<item:immersive_aircraft:sail>, <item:immersive_aircraft:sail>, <item:immersive_aircraft:sail>],
+    [<item:immersive_aircraft:sail>, <item:create:red_seat>, <item:immersive_aircraft:propeller>],
+    [<item:immersive_aircraft:hull>, <item:immersive_aircraft:engine>, <item:immersive_aircraft:hull>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:biplane>);
+craftingTable.addShaped("biplane", <item:immersive_aircraft:biplane>, [
+    [air, <item:immersive_aircraft:propeller>, air],
+    [<item:immersive_aircraft:sail>, <item:immersive_aircraft:engine>, <item:immersive_aircraft:sail>],
+    [<item:immersive_aircraft:hull>, <item:create:red_seat>, <item:immersive_aircraft:hull>]
+]);
+
+craftingTable.remove(<item:immersive_aircraft:gyrodyne>);
+craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
+    [<item:immersive_aircraft:propeller>, air, <item:immersive_aircraft:propeller>],
+    [<item:immersive_aircraft:hull>, <item:create:precision_mechanism>, <item:immersive_aircraft:hull>],
+    [<item:immersive_aircraft:propeller>, <item:create:red_seat>, <item:immersive_aircraft:propeller>]
+]);
+
+// Tagging Foods
+
+<tag:items:forge:vegetables>.add(
+    <item:culturaldelights:cut_cucumber>,
+    <item:culturaldelights:cucumber>,
+    <item:culturaldelights:cut_avocado>,
+    <item:culturaldelights:avocado>,
+    <item:culturaldelights:eggplant>,
+    <item:culturaldelights:cut_eggplant>,
+    <item:culturaldelights:white_eggplant>,
+    <item:culturaldelights:corn_cob>,
+    <item:delightful:cactus_flesh>,
+    <item:farmersdelight:pumpkin_slice>
+);
+
+<tag:items:forge:fruits>.add(
+    <item:ars_nouveau:frostaya_pod>,
+    <item:ecologics:coconut_slice>,
+    <item:collectorsreap:pomegranate_slice>,
+    <item:collectorsreap:lime>,
+    <item:collectorsreap:lime_slice>,
+    <item:collectorsreap:pomegranate>,
+    <item:ends_delight:chorus_succulent>,
+    <item:ends_delight:chorus_fruit_grain>,
+    <item:ends_delight:ender_pearl_grain>,
+    <item:ars_nouveau:mendosteen_pod>,
+    <item:ars_nouveau:bastion_pod>,
+    <item:ars_nouveau:bombegranate_pod>
+);
+
+
+// Caupona Tags
+
+<tag:items:caupona:mushroom>.add(
+    <item:spelunkery:button_mushroom>,
+    <item:collectorsreap:portobello>,
+    <item:spelunkery:portabella>,
+    <item:spelunkery:crimini>,
+    <item:byg:white_puffball_cap>,
+    <item:byg:cooked_white_puffball_cap>,
+    <item:environmental:truffle>
+);
+
+<tag:items:forge:mushrooms>.add(
+    <item:spelunkery:button_mushroom>,
+    <item:collectorsreap:portobello>,
+    <item:spelunkery:portabella>,
+    <item:spelunkery:crimini>,
+    <item:byg:white_puffball_cap>,
+    <item:byg:cooked_white_puffball_cap>,
+    <item:environmental:truffle>
+);
+
+<tag:items:caupona:meats>.add(
+    <item:alexsdelight:kangaroo_shank>,
+    <item:twilightforest:cooked_meef>,
+    <item:twilightforest:raw_meef>,
+    <item:delightful:venison_chops>,
+    <item:delightful:cooked_venison_chops>,
+    <item:delightful:raw_goat>,
+    <item:delightful:cooked_goat>,
+    <item:twilightforest:cooked_venison>,
+    <item:twilightforest:raw_venison>,
+    <item:alexsmobs:cooked_kangaroo_meat>,
+    <item:alexsmobs:kangaroo_meat>,
+    <item:alexsmobs:cooked_moose_ribs>,
+    <item:alexsmobs:moose_ribs>,
+    <item:alexsdelight:bison_patty>,
+    <item:alexsdelight:cooked_bison>,
+    <item:alexsdelight:raw_bison>,
+    <item:alexsdelight:bison_mince>,
+    <item:alexsdelight:cooked_loose_moose_rib>,
+    <item:alexsdelight:loose_moose_rib>,
+    <item:alexsdelight:cooked_kangaroo_shank>,
+    <item:nethersdelight:ground_strider>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:dragon_leg>,
+    <item:ends_delight:ender_man_limb>,
+    <item:nethersdelight:strider_slice>,
+    <item:environmental:venison>,
+    <item:abnormals_delight:venison_shanks>
+);
+
+<tag:items:caupona:meats/meat>.add(
+    <item:alexsdelight:kangaroo_shank>,
+    <item:twilightforest:cooked_meef>,
+    <item:twilightforest:raw_meef>,
+    <item:delightful:venison_chops>,
+    <item:delightful:cooked_venison_chops>,
+    <item:delightful:raw_goat>,
+    <item:delightful:cooked_goat>,
+    <item:twilightforest:cooked_venison>,
+    <item:twilightforest:raw_venison>,
+    <item:alexsmobs:cooked_kangaroo_meat>,
+    <item:alexsmobs:kangaroo_meat>,
+    <item:alexsmobs:cooked_moose_ribs>,
+    <item:alexsmobs:moose_ribs>,
+    <item:alexsdelight:bison_patty>,
+    <item:alexsdelight:cooked_bison>,
+    <item:alexsdelight:raw_bison>,
+    <item:alexsdelight:bison_mince>,
+    <item:alexsdelight:cooked_loose_moose_rib>,
+    <item:alexsdelight:loose_moose_rib>,
+    <item:alexsdelight:cooked_kangaroo_shank>,
+    <item:nethersdelight:ground_strider>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:dragon_leg>,
+    <item:nethersdelight:strider_slice>,
+    <item:environmental:venison>,
+    <item:abnormals_delight:venison_shanks>
+);
+
+<tag:items:caupona:meats/poultry>.add(
+    <item:duckling:cooked_duck>,
+    <item:duckling:raw_duck>,
+    <item:alexsdelight:cooked_bunfungus>,
+    <item:alexsdelight:raw_bunfungus>,
+    <item:alexsdelight:cooked_bunfungus_drumstick>,
+    <item:alexsdelight:raw_bunfungus_drumstick>,
+    <item:farmersdelight:chicken_cuts>,
+    <item:abnormals_delight:duck_fillet>,
+    <item:environmental:duck>
+);
+
+<tag:items:caupona:meats>.add(
+    <item:duckling:cooked_duck>,
+    <item:duckling:raw_duck>,
+    <item:alexsdelight:cooked_bunfungus>,
+    <item:alexsdelight:raw_bunfungus>,
+    <item:alexsdelight:cooked_bunfungus_drumstick>,
+    <item:alexsdelight:raw_bunfungus_drumstick>,
+    <item:farmersdelight:chicken_cuts>,
+    <item:abnormals_delight:duck_fillet>,
+    <item:environmental:duck>
+);
+
+<tag:items:caupona:seafood/fish>.add(
+    <item:alexsmobs:raw_catfish>,
+    <item:alexsmobs:cooked_catfish>,
+    <item:alexsdelight:cooked_catfish_slice>,
+    <item:alexsdelight:raw_catfish_slice>,
+    <item:netherdepthsupgrade:soulsucker_slice>,
+    <item:netherdepthsupgrade:glowdine_slice>,
+    <item:netherdepthsupgrade:magmacubefish_slice>,
+    <item:netherdepthsupgrade:blazefish_slice>,
+    <item:netherdepthsupgrade:searing_cod_slice>,
+    <item:netherdepthsupgrade:obsidianfish_slice>,
+    <item:netherdepthsupgrade:lava_pufferfish_slice>,
+    <item:bigfish:mantaray>,
+    <item:bigfish:cooked_mantaray>,
+    <item:bigfish:shark>,
+    <item:bigfish:cooked_shark>,
+    <item:bigfish:anglerfish>,
+    <item:bigfish:cooked_anglerfish>,
+    <item:bigfish:monkfish>,
+    <item:bigfish:cooked_monkfish>,
+    <item:bigfish:swordfish>,
+    <item:bigfish:cooked_swordfish>
+);
+
+<tag:items:minecraft:fishes>.add(
+    <item:alexsmobs:raw_catfish>,
+    <item:alexsmobs:cooked_catfish>,
+    <item:alexsdelight:cooked_catfish_slice>,
+    <item:alexsdelight:raw_catfish_slice>,
+    <item:netherdepthsupgrade:soulsucker_slice>,
+    <item:netherdepthsupgrade:glowdine_slice>,
+    <item:netherdepthsupgrade:magmacubefish_slice>,
+    <item:netherdepthsupgrade:blazefish_slice>,
+    <item:netherdepthsupgrade:searing_cod_slice>,
+    <item:netherdepthsupgrade:obsidianfish_slice>,
+    <item:netherdepthsupgrade:lava_pufferfish_slice>,
+    <item:bigfish:mantaray>,
+    <item:bigfish:cooked_mantaray>,
+    <item:bigfish:shark>,
+    <item:bigfish:cooked_shark>,
+    <item:bigfish:anglerfish>,
+    <item:bigfish:cooked_anglerfish>,
+    <item:bigfish:monkfish>,
+    <item:bigfish:cooked_monkfish>,
+    <item:bigfish:swordfish>,
+    <item:bigfish:cooked_swordfish>
+);
+
+<tag:items:caupona:seafood>.add(
+    <item:quark:crab_leg>,
+    <item:quark:cooked_crab_leg>,
+    <item:alexsmobs:lobster_tail>,
+    <item:alexsmobs:cooked_lobster_tail>,
+    <item:ecologics:crab_meat>,
+    <item:culturaldelights:squid>,
+    <item:culturaldelights:raw_calamari>,
+    <item:culturaldelights:glow_squid>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:shulker_meat>,
+    <item:bigfish:lobster>,
+    <item:bigfish:cooked_lobster>,
+    <item:bigfish:slimy_eel>,
+    <item:bigfish:cooked_slimy_eel>,
+    <item:bigfish:dark_crab>,
+    <item:bigfish:cooked_dark_crab>
+);
+
+<tag:items:forge:seafood>.add(
+    <item:quark:crab_leg>,
+    <item:quark:cooked_crab_leg>,
+    <item:alexsmobs:lobster_tail>,
+    <item:alexsmobs:cooked_lobster_tail>,
+    <item:ecologics:crab_meat>,
+    <item:culturaldelights:squid>,
+    <item:culturaldelights:raw_calamari>,
+    <item:culturaldelights:glow_squid>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:shulker_meat>,
+    <item:bigfish:lobster>,
+    <item:bigfish:cooked_lobster>,
+    <item:bigfish:slimy_eel>,
+    <item:bigfish:cooked_slimy_eel>,
+    <item:bigfish:dark_crab>,
+    <item:bigfish:cooked_dark_crab>
+);
+
+<tag:items:caupona:eggs>.add(
+    <item:duckling:duck_egg>,
+    <item:alexsmobs:terrapin_egg>,
+    <item:cnb:lizard_egg>,
+    <item:quark:egg_parrot_red_blue>,
+    <item:quark:egg_parrot_blue>,
+    <item:alexsmobs:emu_egg>,
+    <item:quark:egg_parrot_green>,
+    <item:quark:egg_parrot_yellow_blue>,
+    <item:alexsmobs:crocodile_egg>,
+    <item:quark:egg_parrot_grey>,
+    <item:environmental:duck_egg>
+);
+
+<tag:items:forge:meats>.add(
+    <item:alexsmobs:moose_ribs>,
+    <item:farmersdelight:bacon>,
+    <item:farmersdelight:mutton_chops>,
+    <item:twilightforest:raw_meef>,
+    <item:farmersdelight:minced_beef>,
+    <item:alexsdelight:loose_moose_rib>,
+    <item:nethersdelight:hoglin_loin>,
+    <item:farmersdelight:ham>,
+    <item:alexsmobs:kangaroo_meat>,
+    <item:alexsdelight:bison_mince>,
+    <item:alexsdelight:kangaroo_shank>,
+    <item:alexsdelight:raw_bison>,
+    <item:nethersdelight:ground_strider>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:dragon_leg>,
+    <item:ends_delight:ender_man_limb>,
+    <item:nethersdelight:strider_slice>,
+    <item:alexsdelight:raw_bunfungus>,
+    <item:alexsdelight:raw_bunfungus_drumstick>
+);
+
+<tag:items:caupona:cereals>.add(
+<item:create:dough>,
+<item:culturaldelights:corn_dough>,
+<item:create:wheat_flour>,
+<item:culturaldelights:tortilla>
+);
+
+<tag:items:caupona:cereals/baked>.add(
+<item:culturaldelights:tortilla>
+);
+
+// Venison
+
+craftingTable.addShapeless("eventotven", <item:twilightforest:cooked_venison>, [<item:environmental:cooked_venison>]);
+craftingTable.addShapeless("tventoeven", <item:environmental:cooked_venison>, [<item:twilightforest:cooked_venison>]);
+
+craftingTable.addShapeless("ashanktodshank", <item:delightful:venison_chops>, [<item:abnormals_delight:venison_shanks>]);
+craftingTable.addShapeless("dshanktoashank", <item:abnormals_delight:venison_shanks>, [<item:delightful:venison_chops>]);
+
+craftingTable.addShapeless("erawtotraw", <item:twilightforest:raw_venison>, [<item:environmental:venison>]);
+craftingTable.addShapeless("trawtoeraw", <item:environmental:venison>, [<item:twilightforest:raw_venison>]);

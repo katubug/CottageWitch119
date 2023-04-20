@@ -9,6 +9,9 @@ SmokeChance = 1.0
 DirtyChance = 0.05
 #Enable/disable wind effect on smoke particles:
 Wind = true
+#How much effect wind has on the smoke. Default: 0.05
+#Range: 0.0 ~ 1.0
+WindStrengthMultiplier = 0.05
 
 [JEI]
 	#Soot Covering category will be added to JEI.

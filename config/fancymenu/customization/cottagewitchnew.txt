@@ -396,7 +396,7 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.akliz.net/cottagewitch%btnaction_splitter_fm%
   backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roserightpressed.png
   description = Host a server with Akliz and support the modpack!
   label = Host a Server
@@ -404,40 +404,38 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 100
   width = 100
-  actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   action = addbutton
+  actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   y = 74
   backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseright.png
-  value = https://www.akliz.net/cottagewitch
   height = 40
 }
 
 customization {
+  orientation = bottom-left
+  copy_client_player = true
   slim = false
   auto_skin = false
   scale = 60
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/b7060aec492b583d0b930f5356a263e60ac572859c351ce025afdd94818727de
   showname = false
+  crouching = false
   follow_mouse = true
-  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  x = 42
+  width = 36
+  parrot_left_shoulder = false
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = a011a95f-7603-4841-aa82-8236f87900731680030674211
+  y = -158
   playername = Katubug
   bodyrotationx = 0.0
+  parrot = false
   bodyrotationy = 0.0
   auto_cape = false
   is_baby = false
   height = 108
-  orientation = bottom-left
-  copy_client_player = true
-  headrotationy = 0.0
-  headrotationx = 0.0
-  skinurl = http://textures.minecraft.net/texture/beaa42994fc5695a67939a3933c139b11b6483fdae3557f9b82d02789f71a527
-  crouching = false
-  x = 42
-  width = 36
-  parrot_left_shoulder = false
-  y = -158
-  parrot = false
 }
 
 customization {

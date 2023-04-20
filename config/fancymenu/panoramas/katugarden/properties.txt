@@ -1,8 +1,0 @@
-type = panorama
-
-panorama-meta {
-  name = katugarden
-  speed = 2.0
-  fov = 100.0
-  angle = 25.0
-}

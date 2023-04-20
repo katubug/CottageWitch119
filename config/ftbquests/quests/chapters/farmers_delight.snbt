@@ -943,6 +943,9 @@
 				"This ritual does not work on mobs with no baby stage, such as &eCod&r. It also does not work on &ehostile mobs&r, even if they DO have a baby stage."
 				"If you &dreap a baby animal, it does die&r, so don't be greedy! Remember, the key to sustainable agriculture is to &aharvest responsibly&r."
 				"&bReaping Tools&r can be used by &bDispensers&r."
+				"Placing a &bReaping Tool&r into an &bEnchanting Table&r results in &dUnbreaking only, 99% of the time&r. It's better to enchant it with books."
+				"&bReaping Tools&r can be enchanted with &aMending, Sharpness, and Unbreaking&r, as you might expect."
+				"However, they can also be enchanted with &aExecutioner&r, which &dcurrently has no effect&r."
 			]
 			dependencies: ["4930ECD60EA9ED8D"]
 			id: "78CB4E7CEB48941A"
@@ -963,61 +966,6 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 7049021818423122779L
-			}]
-		}
-		{
-			title: "Enchant your Reaping Tool"
-			x: 1.5d
-			y: -3.0d
-			shape: "hexagon"
-			description: [
-				"Placing a &bReaping Tool&r into an &bEnchanting Table&r results in &dUnbreaking only, 99% of the time&r. It's better to enchant it with books."
-				"&bReaping Tools&r can be enchanted with &aMending, Sharpness, and Unbreaking&r, as you might expect."
-				"However, they can also be enchanted with &aExecutioner&r, which allows you to obtain &bPlayer Heads&r in multiplayer."
-			]
-			dependencies: ["78CB4E7CEB48941A"]
-			id: "6D517E5023641497"
-			tasks: [{
-				id: "69356D7983671C2B"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "reaping:executioner"
-						}]
-					}
-				}
-			}]
-			rewards: [{
-				id: "2CF957C774484819"
-				type: "item"
-				item: {
-					id: "minecraft:player_head"
-					Count: 1b
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								1868246204
-								179587991
-								-1669567827
-								-240697611
-							]
-							Properties: {
-								textures: [{
-									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MDkwNjM5ODEwMCwKICAicHJvZmlsZUlkIiA6ICI2ZjViMmNiYzBhYjQ0Yjk3OWM3YzZhYWRmMWE3M2VmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJV2FudF9SYW1lbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYjg1ZGUxMzVkZWQ0ODc5MzU5MTE1YTk1YjJlYzdlZmU1NDU4ZmRkOWNmNzllOWI3ZmI0OTg5OWQ4MWI0NGE4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
-									Signature: "A9ETfn6m8WYjOZncPpEy77fLRQta5ke5zK3fGDzuccKSIrP8XQnNeTC3YO+Z/iYFbnP+FlyoI2I1U8BWOARVkT7QhzEE75XMflGLKlPc7rjq+nB8f2PCltXDNZJ/fMto734S9+zh40OLzXZ1Pu12UqiVPAy2eekj46gOT539jGFxY4R+BigiuxlkCdNWXlE9cAnxHsMwiL5vkZNaOknNFr1PbEcohw7fVFIiMA5sehaOto/BaLmPPQ2tc2C+TdunxyQ2MV9/G1dUn9NH67EJvbH0oB6JeNN2oXmF9aq4ugfTWUmVt+mw+6YIMHHAzpfL2JzLggt1ORqkjCWw7yJ434qvEOuF0GA+udeyX6uG2WCt8urkaMaQjFM2JQATxrNC7s9HnpeTndm/+AI4yRuzed2zm3T5b9sG3G/Ezfsx+ISX34nZ+kVn01smy3a1s0KxJRTOr7yV3cRmWYMBCxRxfeLkIqmm9Z3jXdDfgDtpRUdhz+w5KqtPsC3ovxZmlyHWuPvbCPQLfPbwNBDFdFNa1y9FJXdxLUIWmIBs8RKrCBMkySyzFzPCmnU95opnpIeWe4ANBefLWuxJ8HraJrcZ0qCYiCAO0ISvkQ59riFNqwWEnTbd6/TDnezf6usf3LKtx+BVtxwDvnbPZiFNj5gNXq8jFADmSpkUAEpiyLdiHPA="
-								}]
-							}
-							Name: "IWant_Ramen"
-						}
-						display: {
-							Name: "{\"text\":\"Girl\"}"
-						}
-					}
-				}
 			}]
 		}
 		{

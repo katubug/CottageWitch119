@@ -42,17 +42,6 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
-			id: "7E2641B15D6AF49E"
-			tasks: [{
-				id: "16CAC410F6BBE772"
-				type: "stat"
-				stat: "minecraft:pig_one_cm"
-				value: 1
-			}]
-		}
-		{
 			x: -2.5d
 			y: -3.5d
 			id: "7E961D086B3262E3"
@@ -60,17 +49,6 @@
 				id: "5B8428FF14F8F075"
 				type: "stat"
 				stat: "minecraft:enchant_item"
-				value: 1
-			}]
-		}
-		{
-			x: -2.0d
-			y: -4.5d
-			id: "5B185B1B72278050"
-			tasks: [{
-				id: "5826833749DA8FAE"
-				type: "stat"
-				stat: "minecraft:raid_win"
 				value: 1
 			}]
 		}

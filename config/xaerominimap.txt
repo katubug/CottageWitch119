@@ -101,6 +101,7 @@ waypointOnMapScale:0
 switchToAutoOnDeath:true
 infoDisplayBackgroundOpacity:40
 caveModeToggleTimer:1000
+legibleCaveMaps:false
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true

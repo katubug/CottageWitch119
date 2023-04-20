@@ -1006,8 +1006,8 @@
 			subtitle: "IDK, my BFF Cow?"
 			description: [
 				"Gain this advancement by taming and befriending an animal!"
-				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Catcher on the animal, and then right click it on a block&r to place the animal down again."
-				"This does not work on hostile mobs. You can use a &bNetherite Mob Catcher&r for those."
+				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Cage on the animal, and then right click it on a block&r to place the animal down again."
+				"You can also &6shift right click&r to place it&r! It's totally normal to put your best friends in cages."
 			]
 			id: "52BC8196E858B238"
 			tasks: [{
@@ -1047,6 +1047,11 @@
 					id: "4932557C828D26FE"
 					type: "item"
 					item: "plushies:cow"
+				}
+				{
+					id: "65E313A1D617E96C"
+					type: "item"
+					item: "supplementaries:cage"
 				}
 			]
 		}
@@ -1245,9 +1250,9 @@
 				item: "domesticationinnovation:deed_of_ownership"
 			}]
 			rewards: [{
-				id: "77997DDEE288B36E"
+				id: "7D8FC845A86B5AF0"
 				type: "item"
-				item: "mobcatcher:net"
+				item: "moblassos:golden_lasso"
 			}]
 		}
 		{
