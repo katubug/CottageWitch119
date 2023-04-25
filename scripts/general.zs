@@ -197,9 +197,6 @@ var removeNope = [
     <item:alexsmobs:cockroach_ootheca>,
     <item:alexsmobs:cockroach_wing_fragment>,
     <item:alexsmobs:maraca>,
-    <item:alexsmobs:warped_muscle>,
-    <item:alexsmobs:hemolymph_sac>,
-    <item:alexsmobs:hemolymph_blaster>,
     <item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
@@ -235,7 +232,8 @@ var removeNope = [
     <item:artifacts:umbrella>,
     <item:functionalstorage:armory_cabinet>,
     <item:caupona:stock_aspic>,
-    <item:caupona:stock>
+    <item:caupona:stock>,
+    <item:quark:feeding_trough>
 ] as IItemStack[];
 
 for item in removeNope {
@@ -1397,14 +1395,14 @@ craftingTable.addShaped("packtopack", <item:backpacked:backpack>, [
 <tag:items:forge:raw_duck>.add(<item:duckling:raw_duck>);
 
 // Dragon Egg Shell
-
+/*
 craftingTable.addShapeless("glueeggshell", <item:ends_delight:larger_dragon_egg_shell>, [
     <item:ends_delight:dragon_egg_shell>,
     <item:ends_delight:dragon_egg_shell>,
     <item:ends_delight:dragon_egg_shell>,
     <item:create:super_glue>.anyDamage().transformDamage(1)
     ]);
-
+*/
 <tag:items:twilightforest:banned_uncraftables>.add(<item:ends_delight:non_hatchable_dragon_egg>);
 
 // Cart tagging
@@ -1632,11 +1630,11 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:loose_moose_rib>,
     <item:alexsdelight:cooked_kangaroo_shank>,
     <item:nethersdelight:ground_strider>,
-    <item:ends_delight:raw_dragon_meat_cuts>,
-    <item:ends_delight:raw_dragon_meat>,
-    <item:ends_delight:raw_ender_mite_meat>,
-    <item:ends_delight:dragon_leg>,
-    <item:ends_delight:ender_man_limb>,
+    //<item:ends_delight:raw_dragon_meat_cuts>,
+    //<item:ends_delight:raw_dragon_meat>,
+    //<item:ends_delight:raw_ender_mite_meat>,
+    //<item:ends_delight:dragon_leg>,
+    //<item:ends_delight:ender_man_limb>,
     <item:nethersdelight:strider_slice>,
     <item:environmental:venison>,
     <item:abnormals_delight:venison_shanks>
@@ -1664,9 +1662,9 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:loose_moose_rib>,
     <item:alexsdelight:cooked_kangaroo_shank>,
     <item:nethersdelight:ground_strider>,
-    <item:ends_delight:raw_dragon_meat_cuts>,
-    <item:ends_delight:raw_dragon_meat>,
-    <item:ends_delight:dragon_leg>,
+    //<item:ends_delight:raw_dragon_meat_cuts>,
+    //<item:ends_delight:raw_dragon_meat>,
+    //<item:ends_delight:dragon_leg>,
     <item:nethersdelight:strider_slice>,
     <item:environmental:venison>,
     <item:abnormals_delight:venison_shanks>
@@ -1753,8 +1751,8 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:squid>,
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
-    <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:shulker_meat>,
+    //<item:ends_delight:shulker_meat_slice>,
+    //<item:ends_delight:shulker_meat>,
     <item:bigfish:lobster>,
     <item:bigfish:cooked_lobster>,
     <item:bigfish:slimy_eel>,
@@ -1772,8 +1770,8 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:squid>,
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
-    <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:shulker_meat>,
+    //<item:ends_delight:shulker_meat_slice>,
+    //<item:ends_delight:shulker_meat>,
     <item:bigfish:lobster>,
     <item:bigfish:cooked_lobster>,
     <item:bigfish:slimy_eel>,
@@ -1810,11 +1808,11 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:kangaroo_shank>,
     <item:alexsdelight:raw_bison>,
     <item:nethersdelight:ground_strider>,
-    <item:ends_delight:raw_dragon_meat_cuts>,
-    <item:ends_delight:raw_dragon_meat>,
-    <item:ends_delight:raw_ender_mite_meat>,
-    <item:ends_delight:dragon_leg>,
-    <item:ends_delight:ender_man_limb>,
+    //<item:ends_delight:raw_dragon_meat_cuts>,
+    //<item:ends_delight:raw_dragon_meat>,
+    //<item:ends_delight:raw_ender_mite_meat>,
+    //<item:ends_delight:dragon_leg>,
+    //<item:ends_delight:ender_man_limb>,
     <item:nethersdelight:strider_slice>,
     <item:alexsdelight:raw_bunfungus>,
     <item:alexsdelight:raw_bunfungus_drumstick>
@@ -1841,3 +1839,84 @@ craftingTable.addShapeless("dshanktoashank", <item:abnormals_delight:venison_sha
 
 craftingTable.addShapeless("erawtotraw", <item:twilightforest:raw_venison>, [<item:environmental:venison>]);
 craftingTable.addShapeless("trawtoeraw", <item:environmental:venison>, [<item:twilightforest:raw_venison>]);
+
+// Farseer fixing
+
+craftingTable.addShaped("farseergateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:farseer_gate"}), [
+    [<item:create:sturdy_sheet>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:enderman_gate_large"}), <item:create:sturdy_sheet>],
+    [<item:deeperdarker:soul_crystal>, <item:alexsmobs:shattered_dimensional_carver>, <item:deeperdarker:soul_crystal>],
+    [<item:create:sturdy_sheet>, <item:quark:soul_bead>, <item:create:sturdy_sheet>]
+]);
+
+craftingTable.remove(<item:alexsmobs:transmutation_table>);
+craftingTable.addShaped("transmutationtable", <item:alexsmobs:transmutation_table>, [
+    [<item:minecraft:netherite_ingot>, <item:minecraft:nether_star>, <item:minecraft:netherite_ingot>],
+    [<item:alexsmobs:farseer_arm>, <item:minecraft:dragon_egg>, <item:alexsmobs:farseer_arm>],
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
+]);
+
+// New Egg Recipe
+
+craftingTable.addShaped("nourishingegg", <item:ends_delight:non_hatchable_dragon_egg>, [
+    [<item:ends_delight:roasted_dragon_meat>, <item:minecraft:bone_meal>, <item:ends_delight:roasted_dragon_meat>],
+    [<item:minecraft:milk_bucket>, <item:minecraft:dragon_egg>, <item:minecraft:milk_bucket>],
+    [<item:ends_delight:roasted_dragon_meat>, <item:minecraft:bone_meal>, <item:ends_delight:roasted_dragon_meat>]
+]);
+
+// Gate Pearl Recipes
+
+craftingTable.addShaped("hoglin_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:hoglin_gate"}),
+[
+    [<item:minecraft:crimson_fungus>,<item:nethersdelight:hoglin_loin> , <item:minecraft:crimson_fungus>],
+    [<item:nethersdelight:hoglin_loin>, <item:minecraft:ender_eye>, <item:nethersdelight:hoglin_loin>],
+    [<item:minecraft:crimson_fungus>,<item:nethersdelight:hoglin_loin> , <item:minecraft:crimson_fungus>]
+]);
+
+craftingTable.addShaped("hoglin_gate_sm", <item:gateways:gate_pearl>.withTag({gateway: "gateways:hoglin_gate_small"}),
+[
+    [<item:minecraft:crimson_fungus>,<item:nethersdelight:hoglin_loin> , <item:minecraft:crimson_fungus>],
+    [<item:nethersdelight:hoglin_loin>, <item:minecraft:ender_pearl>, <item:nethersdelight:hoglin_loin>],
+    [<item:minecraft:crimson_fungus>,<item:nethersdelight:hoglin_loin> , <item:minecraft:crimson_fungus>]
+]);
+
+craftingTable.addShaped("wraith_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:wraith_gate"}),
+[
+    [<item:quark:soul_bead>, <item:quark:soul_bead>, <item:quark:soul_bead>],
+    [<item:quark:soul_bead>, <item:minecraft:ender_eye>, <item:quark:soul_bead>],
+    [<item:quark:soul_bead>, <item:quark:soul_bead>, <item:quark:soul_bead>]
+]);
+
+craftingTable.addShaped("murmur_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:murmur_gate"}),
+[
+    [<item:minecraft:note_block>, <item:alexsmobs:elastic_tendon>, <item:minecraft:note_block>],
+    [<item:hexerei:cloth>, <item:minecraft:ender_eye>, <item:hexerei:cloth>],
+    [<item:minecraft:note_block>, <item:hexerei:cloth>, <item:minecraft:note_block>]
+]);
+
+craftingTable.addShaped("mimicube_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:mimicube_gate"}),
+[
+    [<item:minecraft:dragon_breath>, <item:ars_nouveau:mimic_scroll>, <item:minecraft:dragon_breath>],
+    [<item:alexsmobs:mimicream>, <item:minecraft:ender_eye>, <item:alexsmobs:mimicream>],
+    [<item:minecraft:dragon_breath>, <item:minecraft:slime_block>, <item:minecraft:dragon_breath>]
+]);
+
+craftingTable.addShaped("sculk_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:sculk_gateway"}),
+[
+    [<item:minecraft:sculk>, <item:deeperdarker:reinforced_echo_shard>, <item:minecraft:sculk>],
+    [<item:deeperdarker:reinforced_echo_shard>, <item:minecraft:ender_eye>, <item:deeperdarker:reinforced_echo_shard>],
+    [<item:minecraft:sculk>, <item:deeperdarker:reinforced_echo_shard>, <item:minecraft:sculk>]
+]);
+
+craftingTable.addShaped("nether_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:nether_gate"}),
+[
+    [<item:minecraft:blaze_rod>, <item:minecraft:warped_fungus>, <item:minecraft:blaze_rod>],
+    [<item:alexsmobs:maggot>, <item:minecraft:ender_eye>, <item:alexsmobs:maggot>],
+    [<item:minecraft:blaze_rod>, <item:minecraft:crimson_fungus>, <item:minecraft:blaze_rod>]
+]);
+
+craftingTable.addShaped("insectoid_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:insectoid_gate"}),
+[
+    [<item:overweight_farming:vegetable_peels>, <item:minecraft:honey_bottle>, <item:overweight_farming:vegetable_peels>],
+    [<item:minecraft:honey_bottle>, <item:minecraft:ender_eye>, <item:minecraft:honey_bottle>],
+    [<item:overweight_farming:vegetable_peels>, <item:minecraft:honey_bottle>, <item:overweight_farming:vegetable_peels>]
+]);

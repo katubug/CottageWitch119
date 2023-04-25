@@ -48,11 +48,11 @@ var drinks = [
     <item:brewinandchewin:beer>,
     <item:brewinandchewin:vodka>,
     <item:abnormals_delight:cherry_cream_soda>,
-    <item:ends_delight:chorus_flower_tea>,
-    <item:ends_delight:dragon_breath_soda>,
-    <item:ends_delight:bubble_tea>,
+    <item:ends_delight:chorus_fruit_wine>,
     <item:ends_delight:chorus_fruit_milk_tea>,
-    <item:ends_delight:chorus_fruit_wine>
+    <item:ends_delight:bubble_tea>,
+    <item:ends_delight:dragon_breath_soda>,
+    <item:ends_delight:chorus_flower_tea>
 ] as IItemStack[];
 
 for drink in drinks{
@@ -233,18 +233,20 @@ var rawfoods = [
     <item:abnormals_delight:venison_shanks>,
     <item:environmental:truffle>,
     <item:abnormals_delight:duck_fillet>,
-    <item:ends_delight:raw_dragon_meat>,
-    <item:ends_delight:dragon_leg>,
-    <item:ends_delight:ender_man_limb>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:chorus_fruit_grain>,
+    <item:ends_delight:ender_pearl_grain>,
+    <item:ends_delight:chorus_succulent>,
+    <item:ends_delight:dragon_egg_shell>,
+    <item:ends_delight:dried_chorus_flower>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:liquid_dragon_egg>,
+    <item:ends_delight:suspicious_dragon_core>,
     <item:ends_delight:non_hatchable_dragon_egg>,
     <item:ends_delight:shulker_meat>,
-    <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:raw_ender_mite_meat>,
-    <item:ends_delight:raw_dragon_meat_cuts>,
-    <item:ends_delight:ender_pearl_grain>,
-    <item:ends_delight:chorus_fruit_grain>,
-    <item:ends_delight:chorus_succulent>,
-    <item:ends_delight:dried_chorus_flower>
+    <item:ends_delight:dragon_leg>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:raw_dragon_meat_cuts>
 ] as IItemStack[];
 
 for rawfood in rawfoods{
@@ -601,31 +603,36 @@ var cookedfoods = [
     <item:environmental:truffle_mash>,
     <item:environmental:cooked_duck>,
     <item:environmental:cooked_venison>,
-    <item:ends_delight:chorus_fruit_popsicle>,
-    <item:ends_delight:chorus_flower_pie>,
-    <item:ends_delight:smoked_dragon_leg>,
-    <item:ends_delight:roasted_dragon_meat>,
-    <item:ends_delight:roasted_dragon_meat_cuts>,
-    <item:ends_delight:roasted_ender_mite_meat>,
-    <item:ends_delight:baked_rice_cake_with_chorus_fruit_filling>,
+    <item:ends_delight:dragon_meat_stew>,
+    <item:ends_delight:grilled_shulker_block>,
+    <item:ends_delight:ender_congee>,
+    <item:ends_delight:dragon_leg_with_sauce>,
+    <item:ends_delight:dragon_leg_with_sauce_block>,
+    <item:ends_delight:roasted_dragon_steak>,
+    <item:ends_delight:stuffed_rice_cake>,
+    <item:ends_delight:fried_dragon_egg>,
     <item:ends_delight:roasted_shulker_meat_slice>,
     <item:ends_delight:roasted_shulker_meat>,
-    <item:ends_delight:liquid_dragon_egg>,
+    <item:ends_delight:dried_endermite_meat>,
+    <item:ends_delight:chorus_flower_pie>,
+    <item:ends_delight:roasted_dragon_meat_cuts>,
+    <item:ends_delight:roasted_dragon_meat>,
+    <item:ends_delight:chorus_fruit_popsicle>,
+    <item:ends_delight:smoked_dragon_leg>,
+    <item:ends_delight:steamed_dragon_egg_block>,
+    <item:ends_delight:chorus_cookie>,
+    <item:ends_delight:chorus_fruit_pie>,
+    <item:ends_delight:ender_sauce>,
+    <item:ends_delight:chorus_fruit_pie_slice>,
+    <item:ends_delight:dragon_breath_and_chorus_soup>,
+    <item:ends_delight:grilled_shulker>,
     <item:ends_delight:assorted_salad>,
     <item:ends_delight:end_mixed_salad>,
-    <item:ends_delight:dragon_breath_and_chorus_soup>,
     <item:ends_delight:stir_fried_shulker_meat>,
-    <item:ends_delight:liquid_dragon_egg_in_bowl>,
-    <item:ends_delight:fried_dragon_egg>,
     <item:ends_delight:end_barbecue_stick>,
     <item:ends_delight:steamed_dragon_egg_block>,
-    <item:ends_delight:grilled_shulker>,
-    <item:ends_delight:grilled_shulker_block>,
-    <item:ends_delight:dragon_meat_stew>,
-    <item:ends_delight:dragon_meat_stew_block>,
     <item:ends_delight:steamed_dragon_egg>,
-    <item:ends_delight:chorus_fruit_pie_slice>,
-    <item:ends_delight:chorus_fruit_pie>
+    <item:ends_delight:dragon_meat_stew_block>
 ] as IItemStack[];
 
 for cookedfood in cookedfoods{
@@ -1310,3 +1317,8 @@ block.addTooltip("Job Block");
 <item:reaping:netherite_reaping_tool>.addTooltip("Hold shift for failure chance.");
 <item:reaping:netherite_reaping_tool>.addShiftTooltip("Base Chance of Failure: 9%");
 <item:reaping:netherite_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
+
+<item:alexsmobs:shattered_dimensional_carver>.addTooltip("Do not use! This item is bugged. Please check the quests for more info.");
+
+<item:alexsmobs:warped_muscle>.addTooltip("Obtain this item from the Nether Dimension Gate.");
+<item:alexsmobs:hemolymph_sac>.addTooltip("Obtain this item from the Nether Dimension Gate.");

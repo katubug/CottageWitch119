@@ -1835,37 +1835,14 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 11.0d
-			shape: "rsquare"
-			description: [
-				"In order to craft certain high-level dishes, you'll need the &bDragon Egg Research Notes&r."
-				"You need a &bBook and Quill&r in your main hand, &bfour Obsidians&r in your off hand, an &bEnd Crystal&r and a &bNether Star&r in your inventory, then &6right click on the dragon egg&r and you will get the &bDragon Egg Research Notes&r."
-				"Note that in doing this, the Book and Quill, four Obsidians, End Crystal and Nether Star &dwill be consumed&r."
-			]
-			size: 1.5d
-			id: "1052339A2BC4D132"
-			tasks: [{
-				id: "24EA58558F4E4982"
-				type: "item"
-				item: "ends_delight:dragon_egg_research_notes"
-			}]
-			rewards: [{
-				id: "17EEA44B4E8E9736"
-				type: "item"
-				item: "ends_delight:non_hatchable_dragon_egg"
-			}]
-		}
-		{
 			title: "A Different Dragon Egg"
 			x: 5.5d
 			y: 11.25d
 			shape: "hexagon"
 			description: [
-				"Once you've obtained the &bDragon Egg Research Notes&r, you can use them to craft a &bNourishing Dragon Egg&r."
+				"Once you've obtained a &bDragon Egg&r, you can use them to craft a &bNourishing Dragon Egg&r."
 				"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
 			]
-			dependencies: ["1052339A2BC4D132"]
 			id: "4264920573ADC879"
 			tasks: [{
 				id: "533CE3A0F90D92E6"
@@ -2021,7 +1998,7 @@
 		}
 		{
 			x: 4.5d
-			y: 15.75d
+			y: 16.0d
 			shape: "hexagon"
 			subtitle: "keep your feet on the ground"
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
@@ -2039,24 +2016,24 @@
 		}
 		{
 			x: 3.0d
-			y: 14.75d
+			y: 15.0d
 			shape: "hexagon"
 			description: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
 			id: "456D45D35A596109"
 			tasks: [{
-				id: "37EB8F8C66BBC25A"
+				id: "407BDB60875F34F5"
 				type: "item"
-				item: "ends_delight:baked_rice_cake_with_chorus_fruit_filling"
+				item: "ends_delight:stuffed_rice_cake"
 			}]
 			rewards: [{
-				id: "76DBA410347A19ED"
+				id: "291FE13121613BC8"
 				type: "item"
-				item: "ends_delight:baked_rice_cake_with_chorus_fruit_filling"
+				item: "ends_delight:stuffed_rice_cake"
 			}]
 		}
 		{
 			x: 2.5d
-			y: 15.75d
+			y: 16.0d
 			shape: "hexagon"
 			description: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
 			id: "6CA036FC470C17EA"
@@ -2073,7 +2050,7 @@
 		}
 		{
 			x: 4.0d
-			y: 14.75d
+			y: 15.0d
 			shape: "hexagon"
 			description: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
 			id: "482A2BB52514C35B"
@@ -2090,19 +2067,19 @@
 		}
 		{
 			x: 3.5d
-			y: 15.75d
+			y: 16.0d
 			shape: "hexagon"
 			description: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
 			id: "28D201EE3AA699C2"
 			tasks: [{
-				id: "5985A424F685AC04"
+				id: "30E139E7631FCE09"
 				type: "item"
-				item: "ends_delight:liquid_dragon_egg_in_bowl"
+				item: "ends_delight:liquid_dragon_egg"
 			}]
 			rewards: [{
-				id: "738D5A2356F21597"
+				id: "1B8581D84149BDFB"
 				type: "item"
-				item: "ends_delight:liquid_dragon_egg_in_bowl"
+				item: "ends_delight:fried_dragon_egg"
 			}]
 		}
 		{
@@ -2145,7 +2122,7 @@
 			dependencies: ["1C80130EFE5C2FFC"]
 			id: "0AB07DA9AF0FB294"
 			tasks: [{
-				id: "3EA0F6C131FDF221"
+				id: "0D8863BF5312178C"
 				type: "item"
 				title: "Any #crafttweaker:dolium"
 				item: {
@@ -2493,6 +2470,23 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 15.0d
+			shape: "hexagon"
+			description: ["To obtain a &bSuspicious Dragon Core&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
+			id: "7E256574E63296C9"
+			tasks: [{
+				id: "30655A4DEDA535DA"
+				type: "item"
+				item: "ends_delight:suspicious_dragon_core"
+			}]
+			rewards: [{
+				id: "57AE010AE03449B7"
+				type: "item"
+				item: "ends_delight:suspicious_dragon_core"
 			}]
 		}
 	]

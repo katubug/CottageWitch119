@@ -9,7 +9,7 @@
 	#This option is toggled by the 'Toggle Buttons' key that can be defined in the Controls settings.
 	hideButtons = false
 	#If set to true, right-clicking the result slot in a crafting table will craft a full stack.
-	rightClickCraftsStack = true
+	rightClickCraftsStack = false
 	#Set this to true if you don't want the tweak buttons' tooltips to show.
 	hideButtonTooltips = false
 	#We both know JEI is much better. This option hides Vanilla's crafting book button instead of moving it.

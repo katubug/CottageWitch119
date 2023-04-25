@@ -262,8 +262,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 7.5d
+			x: 3.0d
+			y: 4.5d
 			shape: "hexagon"
 			description: [
 				"The &eGuster&r is an elemental spirit which can appear during storms. It will throw nearby entities or items up into the air, and are &aresistant to arrows&r."
@@ -402,7 +402,7 @@
 		}
 		{
 			title: "Summon the Void Worm"
-			x: 4.5d
+			x: 3.5d
 			y: 7.5d
 			shape: "diamond"
 			subtitle: "A multi-phase boss fight"
@@ -1285,32 +1285,6 @@
 			]
 		}
 		{
-			title: "Meet The Sniffer"
-			x: 11.0d
-			y: -3.0d
-			shape: "heart"
-			description: [
-				"The &eSniffer&r is a rather large creature with an &aexcellent sense of smell&r. They are not found in the wild, but instead can be &ahatched from &bSniffer Eggs&r, which are sometimes found in &cOcean Ruins&r."
-				"These peaceful creatures will snuffle around and &adig up seeds&r. Not ancient ones, unfortunately, but regular types of seeds."
-				"They can be &abred with &bBeetroot&r."
-			]
-			id: "3AD2E5835DA311EA"
-			tasks: [{
-				id: "6FFE30D43DDA1E13"
-				type: "observation"
-				icon: "whatareyouvotingfor:sniffer_egg"
-				timer: 0L
-				observe_type: 0
-				to_observe: "whatareyouvotingfor:sniffer"
-			}]
-			rewards: [{
-				id: "2B35E3BA5AEB552A"
-				type: "item"
-				item: "minecraft:beetroot"
-				count: 2
-			}]
-		}
-		{
 			title: "Win a Game of Hide and Seek"
 			x: 11.5d
 			y: -4.5d
@@ -1954,7 +1928,9 @@
 			x: -3.0d
 			y: 7.0d
 			shape: "square"
+			description: ["This quest is repeatable."]
 			dependencies: ["43B3A6804B59565E"]
+			repeatable: true
 			id: "3057155A3A2B5F47"
 			tasks: [{
 				id: "5D21FB1D6D4D7CDA"
@@ -2249,6 +2225,163 @@
 				id: "5DC83818918FD852"
 				type: "item"
 				item: "endrem:undead_soul"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			description: ["The &bDimensional Carver&r is an item which can &atear through space&r to teleport you to &cyour spawn point&r. Aim it at the air and &6hold right click&r to use. Be aware that this is &dsomewhat unstable&r."]
+			dependencies: ["0BC5E9E08677AFC5"]
+			id: "2B67ECD4F68DD10B"
+			tasks: [{
+				id: "31488AB7F012F95E"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "707AAE80F37CF965"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7707783220386620668L
+				}
+				{
+					id: "03B9150888515BEB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4747620395501175375L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			description: [
+				"You can obtain the &bShattered Dimensional Carver&r by &aplacing a Dimensional Carver inside a &bCapsid block&r."
+				"It will then slowly break down the Carver without untethering its pieces from one another. This is &astrange, very old magic&r."
+				"The &bShattered Dimensional Carver&r can be used to teleport 1 million blocks in whichever direction you're facing. &aNormally one must do this 30 times&r to access the Farseers."
+				"However, this is &dboth buggy and very hard on servers&r, so we recommend &dnot using the Carver as intended&r."
+				"Instead, use it to craft a &bFarseer Gate Pearl&r, an item which brings all the luxury and delight of fighting &eFarseers&r, right to your doorstep!"
+			]
+			dependencies: ["2B67ECD4F68DD10B"]
+			id: "00B06CAECE143947"
+			tasks: [{
+				id: "6E9B22E55A864DE8"
+				type: "item"
+				item: {
+					id: "alexsmobs:shattered_dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36BEC5618B463D5A"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+				{
+					id: "6D507D2855C3E52D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+				{
+					id: "4A06DA36E1A4F514"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			description: [
+				"The &bTransmutation Table&r is an item which will drain your &aexperience&r in exchange for &atransforming your items&r."
+				"You can &afeed the Table items&r for a chance at getting them back in exchange for something else."
+			]
+			dependencies: ["34C790E76C15E41B"]
+			id: "21DBD16B44D5452E"
+			tasks: [{
+				id: "43CEF2BA9F0960D0"
+				type: "item"
+				item: "alexsmobs:transmutation_table"
+			}]
+			rewards: [
+				{
+					id: "5258376A20A81A8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3ED8C9C002E35D79"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5161092699925703455L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			description: [
+				"A &bGate Pearl&r is a contained ritual which will &asummon waves of enemies&r, and grant &brewards&r for completing each wave, and for defeating the challenge."
+				"This item &asummons &eFarseers&r, a long-forgotten race of multidimensional spirits which inhabit metallic bodies. These entities &aare very powerful&r and can easily kill even the most powerful witch with a single &adeadly stare&r."
+				"&6Press shift&r while hovering over the Pearl in your inventory to view information about the &acombat challenge&r. Good luck!"
+			]
+			dependencies: ["00B06CAECE143947"]
+			id: "34C790E76C15E41B"
+			tasks: [{
+				id: "2ACE498822AD2B56"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:farseer_gate"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "5495D64F8DC8B823"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5525848455660196930L
+			}]
+		}
+		{
+			title: "Hatching the Duck"
+			x: -1.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"Approach this quest with caution, dear witches. &eDucks&r may seem cute and innocent, &dbut they are not&r."
+				"In the early days of the world, &eDucks&r swarmed the world, roving over rivers and quacking incessantly. It led to the &aGreat Duck War&r, in which witches wished wistfully for success against their foes. And killed a lot of ducks."
+				"Now, you may &6trade in 16 chicken eggs&r in order to receive &aa single Duck&r. But beware of causing another &aDuck War&r!!"
+			]
+			id: "09DB43154746CE4F"
+			tasks: [{
+				id: "309E15AE217D71E6"
+				type: "item"
+				item: "minecraft:egg"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73657EACEE0FFB13"
+				type: "item"
+				item: "duckling:duck_spawn_egg"
 			}]
 		}
 	]

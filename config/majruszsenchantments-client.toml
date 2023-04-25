@@ -1,3 +1,0 @@
-#Should the Enchanted Book has a different texture when it has any of the new enchantments on it (disabling it may fix some bugs with other mods)? (requires world/game restart)
-unique_book_texture = true
-

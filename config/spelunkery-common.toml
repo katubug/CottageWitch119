@@ -1,11 +1,11 @@
 
 [misc]
 	creative_tab = false
-	cross_section_world_mode = false
 	#Range: 0 ~ 128
 	diamond_grindstone_deplete_chance = 20
 	enable_rough_gems = true
 	enable_raw_nuggets = true
+	stonecutter_damage = true
 
 [nether_portals]
 	flint_and_steel_portal_lighting = true

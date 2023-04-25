@@ -14,7 +14,7 @@
 	#When picking up a backpack (with items inside) off the ground, the item will automatically equip. Having this enabled may not be ideal for multiplayer servers.
 	autoEquipBackpackOnPickup = false
 	#If enabled, allows players to access the backpack of another player by interacting with the visible backpack on their back.
-	pickpocketBackpacks = true
+	pickpocketBackpacks = false
 	#The maximum reach distance of a player to interact with another player's backpack.
 	#Range: 0.0 ~ 4.0
 	pickpocketDistance = 1.5

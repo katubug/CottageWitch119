@@ -747,6 +747,20 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "54AA8997ECDD7961"
+					type: "item"
+					item: "minecraft:crimson_stem"
+					count: 10
+				}
+				{
+					id: "069D6C11A0D4C3B6"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 0.0d

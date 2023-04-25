@@ -8,9 +8,13 @@
 	# Default: true
 	chunk_load_offline: true
 	
-	# Blacklist for dimensions where chunks can't be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End
+	# Dimension ID's where chunks may not be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End, or "othermod:*" to disable chunk claiming in *all* dimensions added by "othermod"
 	# Default: []
 	claim_dimension_blacklist: [ ]
+	
+	# Dimension ID's where chunks may be claimed. If non-empty, chunks may be claimed *only* in these dimensions (and the dimension is not in "claim_dimension_blacklist"). Same syntax as for "claim_dimension_blacklist".
+	# Default: []
+	claim_dimension_whitelist: [ ]
 	
 	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for force-loading
 	# Default: false
@@ -43,6 +47,10 @@
 	# Default: 0
 	# Range: 0 ~ 2147483647
 	hard_team_force_limit: 15
+	
+	# If true, "Location Visibility" team settings are ignored, and all players can see each other anywhere on the map.
+	# Default: false
+	location_mode_override: false
 	
 	# Interval in ticks to send updates to clients with long-range player tracking data.
 	# Lower values mean more frequent updates but more server load and network traffic; be careful with this, especially on busy servers.

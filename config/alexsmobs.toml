@@ -110,20 +110,20 @@
 	#List of items that cannot be put in a Transmuting Table.
 	transmutationBlacklist = ["minecraft:beacon"]
 	#True if transmutation tables should not have the ability to pick up new items to transmute, and only give options from the loot tables.
-	limitTransmutingToLootTables = false
+	limitTransmutingToLootTables = true
 	#True if transmutation tables can explode when broken.
 	transmutingTableExplodes = true
 	#The experience, in levels, that each transmutation of a stack takes in the transmuting table.
 	#Range: 0 ~ 100000
-	transmutingExperienceCost = 3
+	transmutingExperienceCost = 30
 	#The step value multiplied by the log of the stack size when transmuting an item, used to determine its weight for appearing in future transmutation possibilities. Higher number = more likely to appear.
 	#Range: 1.0 ~ 10000.0
-	transmutingWeightAddStep = 3.0
+	transmutingWeightAddStep = 2.0
 	#The step value that an item looses when selecting it as the transmutation result. Keep this number higher than the one above for balance reasons. Higher number = less likely to appear after transmuting multiple times.
 	#Range: 1.0 ~ 10000.0
-	transmutingWeightRemoveStep = 4.0
+	transmutingWeightRemoveStep = 6.0
 	#True if skreechers can summon a new warden, when applicable.
-	skreechersSummonWarden = true
+	skreechersSummonWarden = false
 	#The distance in blocks that will cause an underminer to dissapear when approached by a player.
 	#Range: 1.0 ~ 10000.0
 	underminerDisappearDistance = 8.0
@@ -131,7 +131,7 @@
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		grizzlyBearSpawnWeight = 8
+		grizzlyBearSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		grizzlyBearSpawnRolls = 0
@@ -167,19 +167,19 @@
 		flySpawnRolls = 10
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		hummingbirdSpawnWeight = 19
+		hummingbirdSpawnWeight = 35
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		hummingbirdSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		orcaSpawnWeight = 2
+		orcaSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		orcaSpawnRolls = 6
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		sunbirdSpawnWeight = 2
+		sunbirdSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		sunbirdSpawnRolls = 15
@@ -197,25 +197,25 @@
 		crimsonMosquitoSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		rattlesnakeSpawnWeight = 12
+		rattlesnakeSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		rattlesnakeSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		endergradeSpawnWeight = 10
+		endergradeSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		endergradeSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		hammerheadSharkSpawnWeight = 12
+		hammerheadSharkSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		hammerheadSharkSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		lobsterSpawnWeight = 7
+		lobsterSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		lobsterSpawnRolls = 0
@@ -236,16 +236,16 @@
 		caveCentipedeSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		caveCentipedeSpawnRolls = 1
+		caveCentipedeSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		warpedToadSpawnWeight = 30
+		warpedToadSpawnWeight = 50
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		warpedToadSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mooseSpawnWeight = 9
+		mooseSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mooseSpawnRolls = 0
@@ -269,7 +269,7 @@
 		blobfishSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		sealSpawnWeight = 20
+		sealSpawnWeight = 40
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		sealSpawnRolls = 0
@@ -281,7 +281,7 @@
 		cockroachSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		shoebillSpawnWeight = 10
+		shoebillSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		shoebillSpawnRolls = 0
@@ -293,13 +293,13 @@
 		elephantSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		soulVultureSpawnWeight = 15
+		soulVultureSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		soulVultureSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		snowLeopardSpawnWeight = 18
+		snowLeopardSpawnWeight = 40
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		snowLeopardSpawnRolls = 0
@@ -323,13 +323,13 @@
 		alligatorSnappingTurtleSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mungusSpawnWeight = 4
+		mungusSpawnWeight = 19
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mungusSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mantisShrimpSpawnWeight = 1
+		mantisShrimpSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mantisShrimpSpawnRolls = 0
@@ -344,7 +344,7 @@
 		warpedMoscoSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		warpedMoscoSpawnRolls = 1000
+		warpedMoscoSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		straddlerSpawnWeight = 30
@@ -359,13 +359,13 @@
 		stradpoleSpawnRolls = 10
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		emuSpawnWeight = 20
+		emuSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		emuSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		platypusSpawnWeight = 20
+		platypusSpawnWeight = 40
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		platypusSpawnRolls = 0
@@ -377,7 +377,7 @@
 		dropbearSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		tasmanianDevilSpawnWeight = 10
+		tasmanianDevilSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		tasmanianDevilSpawnRolls = 0
@@ -389,7 +389,7 @@
 		kangarooSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		cachalotWhaleSpawnWeight = 5
+		cachalotWhaleSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		cachalotWhaleSpawnRolls = 0
@@ -416,7 +416,7 @@
 		tarantulaHawkSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		tarantulaHawkSpawnRolls = 1
+		tarantulaHawkSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		voidWormSpawnWeight = 0
@@ -425,13 +425,13 @@
 		voidWormSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		frilledSharkSpawnWeight = 11
+		frilledSharkSpawnWeight = 35
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		frilledSharkSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mimicOctopusSpawnWeight = 9
+		mimicOctopusSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mimicOctopusSpawnRolls = 0
@@ -443,13 +443,13 @@
 		seagullSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		froststalkerSpawnWeight = 20
+		froststalkerSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		froststalkerSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		tusklinSpawnWeight = 18
+		tusklinSpawnWeight = 34
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		tusklinSpawnRolls = 0
@@ -473,7 +473,7 @@
 		toucanSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		manedWolfSpawnWeight = 8
+		manedWolfSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		manedWolfSpawnRolls = 0
@@ -485,7 +485,7 @@
 		anacondaSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		anteaterSpawnWeight = 7
+		anteaterSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		anteaterSpawnRolls = 0
@@ -497,19 +497,19 @@
 		rockyRollerSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		flutterSpawnWeight = 13
+		flutterSpawnWeight = 29
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		flutterSpawnRolls = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		geladaMonkeySpawnWeight = 5
+		geladaMonkeySpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		geladaMonkeySpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		jerboaSpawnWeight = 12
+		jerboaSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		jerboaSpawnRolls = 2
@@ -521,7 +521,7 @@
 		terrapinSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		combJellySpawnWeight = 5
+		combJellySpawnWeight = 50
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		combJellySpawnRolls = 1
@@ -533,19 +533,19 @@
 		cosmicCodSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		bunfungusSpawnWeight = 3
+		bunfungusSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		bunfungusSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		bisonSpawnWeight = 9
+		bisonSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		bisonSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		giantSquidSpawnWeight = 10
+		giantSquidSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		giantSquidSpawnRolls = 0
@@ -575,37 +575,37 @@
 		skelewagSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		rainFrogSpawnWeight = 10
+		rainFrogSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		rainFrogSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		potooSpawnWeight = 15
+		potooSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		potooSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mudskipperSpawnWeight = 28
+		mudskipperSpawnWeight = 40
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mudskipperSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		rhinocerosSpawnWeight = 24
+		rhinocerosSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		rhinocerosSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		sugarGliderSpawnWeight = 15
+		sugarGliderSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		sugarGliderSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		farseerSpawnWeight = 30
+		farseerSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		farseerSpawnRolls = 0
@@ -626,22 +626,22 @@
 		murmurSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		murmurSpawnRolls = 1
+		murmurSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		skunkSpawnWeight = 7
+		skunkSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		skunkSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		bananaSlugSpawnWeight = 14
+		bananaSlugSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		bananaSlugSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		blueJaySpawnWeight = 16
+		blueJaySpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		blueJaySpawnRolls = 0

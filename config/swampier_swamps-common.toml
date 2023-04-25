@@ -17,7 +17,7 @@
 		# This can be used to alter how big the Swamp Gas explosions are.
 		#
 		#Range: 1 ~ 10
-		explosionStrength = 6
+		explosionStrength = 2
 		# Whether the Swamp Gas Cloud will give Living Entities negative effects,
 		# when they walk through it (for example Effects like Poison).
 		#

@@ -1,0 +1,196 @@
+
+{
+    "size": "medium",
+    "color": "#9e1d00",
+    "waves": [{
+            "entities": [{
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "cnb:sporeling",
+                    "nbt": "{SporelingType:\"cnb:red_nether\"}"
+                },
+                {
+                    "entity": "cnb:sporeling",
+                    "nbt": "{SporelingType:\"cnb:red_nether\"}"
+                },
+                {
+                    "entity": "cnb:sporeling",
+                    "nbt": "{SporelingType:\"cnb:red_nether\"}"
+                }
+                
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "alexsmobs:crimson_mosquito",
+                "rolls": 4
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "alexsmobs:dropbear"
+                },
+                {
+                    "entity": "alexsmobs:dropbear"
+                },
+                {
+                    "entity": "alexsmobs:dropbear"
+                },
+                {
+                    "entity": "alexsmobs:dropbear"
+                },
+                {
+                    "entity": "alexsmobs:dropbear"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "alexsmobs:dropbear",
+                "rolls": 1
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:wither_skeleton"
+                },
+                {
+                    "entity": "minecraft:wither_skeleton"
+                },
+                {
+                    "entity": "minecraft:wither_skeleton"
+                },
+                {
+                    "entity": "quark:foxhound"
+                },
+                {
+                    "entity": "quark:foxhound"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:wither_skeleton",
+                "rolls": 1
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+				{
+                    "entity": "alexsmobs:crimson_mosquito"
+                },
+                {
+                    "entity": "alexsmobs:warped_mosco"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "alexsmobs:warped_mosco",
+                "rolls": 2
+            }],
+            "max_wave_time": 1350,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "loot_table",
+        "loot_table": "minecraft:chests/nether_bridge",
+        "rolls": 3
+    }],
+    "completion_xp": 500,
+	"spawn_range": 7
+}

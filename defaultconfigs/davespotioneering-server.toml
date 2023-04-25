@@ -10,4 +10,7 @@
 	#Range: 0 ~ 20000
 	potion_throw_cooldown = 30
 	milk = false
+	#Uses from coating
+	#Range: > 1
+	coating_uses = 25
 

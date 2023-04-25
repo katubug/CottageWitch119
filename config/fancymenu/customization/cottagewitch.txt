@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -21,6 +26,7 @@ customization {
 customization {
   orientation = top-left
   hidden = true
+  original_pos_size_calculation = true
   x = 125
   width = 450
   action = deep_customization_element:drippy_overlay_logo
@@ -44,6 +50,7 @@ customization {
 customization {
   orientation = top-left
   hidden = true
+  original_pos_size_calculation = true
   x = 125
   width = 450
   action = deep_customization_element:drippy_overlay_progress_bar
@@ -69,12 +76,12 @@ customization {
   bar_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
   progress_for_element_orientation = true
   background_color = #30372C
-  x = -219
-  width = 399
+  x = -132
+  width = 265
   bar_color = #545D51
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  y = 145
+  y = 111
   direction = right
   height = 34
 }
@@ -92,23 +99,23 @@ customization {
 
 customization {
   path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
-  orientation = top-centered
-  x = -217
-  width = 400
+  orientation = mid-left
+  x = 0
+  width = %guiwidth%
   action = addtexture
   actionid = 8d5a92a2-5962-404a-bfcc-400343f6e6871681666205780
-  y = 5
+  y = -105
   height = 208
 }
 
 customization {
   path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
   orientation = mid-centered
-  x = -219
-  width = 398
+  x = -132
+  width = 265
   action = addtexture
   actionid = e7f98ea0-928b-40cb-b734-12bb31f862e01681936512389
-  y = 145
+  y = 111
   height = 34
 }
 

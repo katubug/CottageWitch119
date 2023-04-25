@@ -1837,7 +1837,11 @@
 			x: 10.5d
 			y: 5.0d
 			shape: "octagon"
-			description: ["Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."]
+			description: [
+				"Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."
+				"This achievement involves getting &aevery vanilla effect&r at once, as well as the following modded effects:"
+				"Sculk Affinity (Deeper and Darker), Panic, Serenity (both Environmental), Health Boost, Resilience (Quark)."
+			]
 			id: "3B84722A9CD28821"
 			tasks: [{
 				id: "3A8AB0F1F2EAB075"
