@@ -12,7 +12,7 @@
 	#Use the 'BiomeMobWeight.csv' file to balance Biome spawn values
 	balanceBiomeSpawnValues = true
 	#Fix min, max values and add nether creatures
-	fixSpawnValues = true
+	fixSpawnValues = false
 	#Use the 'StructMobWeight.csv' file to balance structure spawn values
 	balanceStructureSpawnValues = true
 	#Mod Name set separated by SemiColons of mods to report.
@@ -21,7 +21,7 @@
 ["Spawn Weight Values"]
 	#minimum Spawn Weight
 	#Range: 1 ~ 1000
-	minSpawnWeight = 10
+	minSpawnWeight = 5
 	#maximum Spawn Weight
 	#Range: 1 ~ 1000
 	maxSpawnWeight = 80

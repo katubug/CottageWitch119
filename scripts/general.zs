@@ -1920,3 +1920,4 @@ craftingTable.addShaped("insectoid_gate", <item:gateways:gate_pearl>.withTag({ga
     [<item:minecraft:honey_bottle>, <item:minecraft:ender_eye>, <item:minecraft:honey_bottle>],
     [<item:overweight_farming:vegetable_peels>, <item:minecraft:honey_bottle>, <item:overweight_farming:vegetable_peels>]
 ]);
+

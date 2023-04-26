@@ -348,7 +348,7 @@
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "The builder's dream"
-			description: ["The &bTrowel&r will place a random block from your inventory when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
+			description: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
 			id: "0D02D4FAE63BABE6"
 			tasks: [{
 				id: "65E88FE1A733B2AB"

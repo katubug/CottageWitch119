@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "supplementaries:overencumbered",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:blasting_potion",
+      "required": false
+    }
+  ]
+}
