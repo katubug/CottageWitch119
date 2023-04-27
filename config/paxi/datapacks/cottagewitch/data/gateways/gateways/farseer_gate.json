@@ -9,7 +9,12 @@
             "modifiers": [{
                 "attribute": "generic.max_health",
                 "operation": "MULTIPLY_TOTAL",
-                "value": 0.33
+                "value": 1
+            },
+            {
+                "attribute": "generic.armor",
+                "operation": "ADDITION",
+                "value": 2.5
             }
             ],
             "rewards": [{
@@ -31,7 +36,7 @@
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.33
+                    "value": 2
                 },
                 {
                     "attribute": "generic.armor",
@@ -61,7 +66,7 @@
     "rewards": [{
         "type": "entity_loot",
         "entity": "alexsmobs:farseer",
-        "rolls": 5
+        "rolls": 1
     }],
     "completion_xp": 500,
 	"spawn_range": 7
