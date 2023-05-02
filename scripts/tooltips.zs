@@ -241,7 +241,6 @@ var rawfoods = [
     <item:ends_delight:dried_chorus_flower>,
     <item:ends_delight:shulker_meat_slice>,
     <item:ends_delight:liquid_dragon_egg>,
-    <item:ends_delight:suspicious_dragon_core>,
     <item:ends_delight:non_hatchable_dragon_egg>,
     <item:ends_delight:shulker_meat>,
     <item:ends_delight:dragon_leg>,

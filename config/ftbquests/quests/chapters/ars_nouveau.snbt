@@ -1152,13 +1152,14 @@
 				"The &eBookwyrm&r is a small flying creature that resembles a wyvern, with book pages for wings. You can summon it using a &bBookwyrm Charm&r (made with &bIron&r and &bSource Gems&r and &ba book&r), which you &6shift right click on a &bLectern&r. After the Lectern finishes drawing magic to itself, the Bookwyrm will appear!"
 				"When following you, the &eBookwyrm&r &adecreases your spell cost and increases your spell damage&r."
 				"When it is simply bound to a Lectern, it will &acast spells on the surrounding area&r, based on what &bParchment Scrolls&r you give it. It can be &adyed&r for color-coding purposes. To cast spells, there must be a filled &bSource Jar&r nearby."
+				"This &ditem is under construction&r and so the quest is temporarily a &acheckmark&r."
 			]
 			dependencies: ["518A08681965283A"]
 			id: "4006775C2145C6CD"
 			tasks: [{
-				id: "5275EE968BE4C1C4"
-				type: "item"
-				item: "ars_nouveau:bookwyrm_charm"
+				id: "243F528BBA3502B9"
+				type: "checkmark"
+				title: "Make a Bookwyrm Charm"
 			}]
 			rewards: [{
 				id: "1C33D861AAC45456"
@@ -1397,7 +1398,7 @@
 		{
 			x: 3.0d
 			y: -4.5d
-			description: ["The &bVitalic Sourcelink&r generates source when it is around &eAnimals&r. When animals &breed, grow up, or die&r, it will generate source."]
+			description: ["The &bVitalic Sourcelink&r generates source when it is around &eAnimals&r. When animals &abreed, grow up, or die&r, it will generate source."]
 			dependencies: ["66F0429FA3DB8535"]
 			id: "52BA326D307DE192"
 			tasks: [{

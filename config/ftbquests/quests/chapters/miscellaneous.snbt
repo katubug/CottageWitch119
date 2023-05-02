@@ -1134,11 +1134,6 @@
 					item: "minecraft:hopper"
 				}
 				{
-					id: "1F37E2F83E06DF62"
-					type: "item"
-					item: "uppers:upper"
-				}
-				{
 					id: "2AE340E126CFCBF8"
 					type: "item"
 					item: "quark:chute"
@@ -1148,6 +1143,11 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 3965165831041023950L
+				}
+				{
+					id: "2A676A7E9E19C257"
+					type: "item"
+					item: "create:chute"
 				}
 			]
 		}
@@ -1904,8 +1904,8 @@
 		}
 		{
 			title: "Catch Em All (and Then Some)"
-			x: -8.0d
-			y: 4.5d
+			x: -7.0d
+			y: 4.0d
 			description: ["Wow, you've caught 999 fish? That's bonkers."]
 			id: "1FDD653A3C13DFDF"
 			tasks: [{
@@ -1923,8 +1923,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 4.5d
+			x: -11.0d
+			y: 5.5d
 			description: [
 				"What soothes the soul more than houseplants?"
 				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
@@ -1971,8 +1971,8 @@
 		}
 		{
 			title: "Traveling Piggyback"
-			x: -10.5d
-			y: 3.5d
+			x: -11.0d
+			y: 4.0d
 			description: [
 				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
 				""
@@ -2007,7 +2007,7 @@
 		{
 			title: "Raid Master"
 			x: -9.0d
-			y: 5.5d
+			y: 6.5d
 			subtitle: "please can someone go healer"
 			description: ["Winning a &aRaid&r can be a satisfying challenge. Even better, win a bunch of raids, and you'll get rewarded!"]
 			id: "5B185B1B72278050"

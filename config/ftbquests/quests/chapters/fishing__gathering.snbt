@@ -459,6 +459,7 @@
 				"Did you know that corn hung over a mirror will bring good luck to your household?"
 				"Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity."
 				"And carrots are said to promote... physical desire. *wink*"
+				"You can find &bEggplant&r in &cJungles&r, &bCucumber&r in &cSwamps&r, &bCorn&r in &cPlains&r, and &bAvocado&r in &cJungles&r."
 			]
 			size: 2.0d
 			id: "2093240CD42882CF"
@@ -555,33 +556,6 @@
 				item: "minecraft:calcite"
 				only_from_crafting: true
 			}]
-		}
-		{
-			x: 7.0d
-			y: 1.0d
-			shape: "octagon"
-			description: ["You &aleveled your Rod up&r! Congratulations! Who knows what great things you'll accomplish now!"]
-			dependencies: ["2E4D1699E2A7876B"]
-			id: "3B37401B901420C3"
-			tasks: [{
-				id: "492913EDE20F02DB"
-				type: "advancement"
-				advancement: "majruszsenchantments:fishing_fanatic"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "1100A279A0F70015"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "0B9D53B7B2478CEC"
-					type: "item"
-					item: "better_fishing_rods:lucky_pad"
-				}
-			]
 		}
 		{
 			title: "Catch 500 Fish"

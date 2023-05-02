@@ -161,7 +161,7 @@ var removeNope = [
     <item:prefab:item_clutch_of_eggs>,
     <item:prefab:block_glass_slab>,
     <item:prefab:block_glass_stairs>,
-    <item:prefab:block_paper_lantern>,
+    //<item:prefab:block_paper_lantern>,
     <item:prefab:block_boundary>,
     <item:prefab:item_crate_of_beets>,
     <item:prefab:item_bunch_of_beets>,
@@ -1153,7 +1153,7 @@ brewing.removeRecipeByInputPotion(<potion:davespotioneering:milk>);
 
 // Fried Egg Recipe
 
-furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <item:duckling:duck_egg>, 1.0, 60);
+furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <tag:items:forge:eggs>, 1.0, 60);
 
 // tag apple
 
@@ -1630,11 +1630,10 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:loose_moose_rib>,
     <item:alexsdelight:cooked_kangaroo_shank>,
     <item:nethersdelight:ground_strider>,
-    //<item:ends_delight:raw_dragon_meat_cuts>,
-    //<item:ends_delight:raw_dragon_meat>,
-    //<item:ends_delight:raw_ender_mite_meat>,
-    //<item:ends_delight:dragon_leg>,
-    //<item:ends_delight:ender_man_limb>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:dragon_leg>,
     <item:nethersdelight:strider_slice>,
     <item:environmental:venison>,
     <item:abnormals_delight:venison_shanks>
@@ -1662,9 +1661,9 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:loose_moose_rib>,
     <item:alexsdelight:cooked_kangaroo_shank>,
     <item:nethersdelight:ground_strider>,
-    //<item:ends_delight:raw_dragon_meat_cuts>,
-    //<item:ends_delight:raw_dragon_meat>,
-    //<item:ends_delight:dragon_leg>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:dragon_leg>,
     <item:nethersdelight:strider_slice>,
     <item:environmental:venison>,
     <item:abnormals_delight:venison_shanks>
@@ -1679,7 +1678,12 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:raw_bunfungus_drumstick>,
     <item:farmersdelight:chicken_cuts>,
     <item:abnormals_delight:duck_fillet>,
-    <item:environmental:duck>
+    <item:environmental:duck>,
+    <item:environmental:cooked_duck>
+);
+
+<tag:items:forge:cooked_duck>.add(
+    <item:duckling:cooked_duck>
 );
 
 <tag:items:caupona:meats>.add(
@@ -1691,7 +1695,8 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:raw_bunfungus_drumstick>,
     <item:farmersdelight:chicken_cuts>,
     <item:abnormals_delight:duck_fillet>,
-    <item:environmental:duck>
+    <item:environmental:duck>,
+    <item:environmental:cooked_duck>
 );
 
 <tag:items:caupona:seafood/fish>.add(
@@ -1751,8 +1756,8 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:squid>,
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
-    //<item:ends_delight:shulker_meat_slice>,
-    //<item:ends_delight:shulker_meat>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:shulker_meat>,
     <item:bigfish:lobster>,
     <item:bigfish:cooked_lobster>,
     <item:bigfish:slimy_eel>,
@@ -1770,8 +1775,8 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:squid>,
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
-    //<item:ends_delight:shulker_meat_slice>,
-    //<item:ends_delight:shulker_meat>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:shulker_meat>,
     <item:bigfish:lobster>,
     <item:bigfish:cooked_lobster>,
     <item:bigfish:slimy_eel>,
@@ -1808,11 +1813,10 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:alexsdelight:kangaroo_shank>,
     <item:alexsdelight:raw_bison>,
     <item:nethersdelight:ground_strider>,
-    //<item:ends_delight:raw_dragon_meat_cuts>,
-    //<item:ends_delight:raw_dragon_meat>,
-    //<item:ends_delight:raw_ender_mite_meat>,
-    //<item:ends_delight:dragon_leg>,
-    //<item:ends_delight:ender_man_limb>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:ends_delight:dragon_leg>,
     <item:nethersdelight:strider_slice>,
     <item:alexsdelight:raw_bunfungus>,
     <item:alexsdelight:raw_bunfungus_drumstick>
@@ -1921,3 +1925,4 @@ craftingTable.addShaped("insectoid_gate", <item:gateways:gate_pearl>.withTag({ga
     [<item:overweight_farming:vegetable_peels>, <item:minecraft:honey_bottle>, <item:overweight_farming:vegetable_peels>]
 ]);
 
+furnace.remove(<item:alexsmobs:boiled_emu_egg>);

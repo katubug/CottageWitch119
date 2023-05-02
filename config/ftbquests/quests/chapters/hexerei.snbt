@@ -615,31 +615,48 @@
 			}]
 		}
 		{
-			title: "Make A Broom"
+			title: "Make A Broom and Whistle"
 			x: 0.5d
 			y: 0.5d
 			subtitle: "Either kind works!"
 			description: [
 				"There are two types of &bBrooms&r, &aWillow&r and &aMahogany&r. Of these, the Mahogany Broom is faster and fire-resistance. The Willow Broom, on the other hand, is susceptible to fire, and is a little harder to control, but is much cheaper to make."
 				"You can &6crouch and right click&r your &bBroom&r in order to access its customization options, as well as switch it from &aFloat Mode&r to &aRest Mode&r, which determines what the Broom will do when you dismount."
+				"You will also need a &bBroom Whistle&r."
+				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
+				"First, you'll need to &6place the &bWhistle&6 and &bBroom&r in a crafting grid&r to bind them. You can &aunbind&r them by &6putting the &bWhistle&r in alone."
+				"Be aware that this &dworks best when your broom is in sight&r. It will try to fly to you, but it's just a broom so it's &anot very smart&r and often gets stuck on things."
 			]
 			dependencies: [
 				"327D93798A7BE211"
 				"13B72F5C0CF9E9FB"
 			]
 			id: "1698226644682207"
-			tasks: [{
-				id: "610AC7B9B4F8D1E0"
-				type: "item"
-				title: "Any #crafttweaker:brooms"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "crafttweaker:brooms"
+			tasks: [
+				{
+					id: "610AC7B9B4F8D1E0"
+					type: "item"
+					title: "Any #crafttweaker:brooms"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "crafttweaker:brooms"
+						}
 					}
 				}
-			}]
+				{
+					id: "7DCEB8A6B4301FD3"
+					type: "item"
+					item: {
+						id: "hexerei:broom_whistle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "69FA42FB516A4B1E"
 				type: "item"
@@ -1073,44 +1090,6 @@
 							}
 						}
 					}
-				}
-			]
-		}
-		{
-			x: -0.5d
-			y: -2.0d
-			shape: "hexagon"
-			subtitle: "c'mere buddy!"
-			description: [
-				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
-				"First, you'll need to &6place the &bWhistle&6 and &bBroom&r in a crafting grid&r to bind them. You can &aunbind&r them by &6putting the &bWhistle&r in alone."
-				"Be aware that this &dworks best when your broom is in sight&r. It will try to fly to you, but it's just a broom so it's &anot very smart&r and often gets stuck on things."
-			]
-			dependencies: ["1698226644682207"]
-			id: "1E81D29480889D8F"
-			tasks: [{
-				id: "2D78AAA3E083C1C6"
-				type: "item"
-				item: {
-					id: "hexerei:broom_whistle"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "3993D0828B9F3030"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "1E839B4FFF30D139"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 578597190891487109L
 				}
 			]
 		}
