@@ -1,58 +1,34 @@
 {
     "size": "medium",
-    "color": "#FFFF84",
+    "color": "#00FFFF",
     "waves": [{
             "entities": [{
-                    "entity": "alexsmobs:fly"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:fly"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:fly"
-                },
-                {
-                    "entity": "alexsmobs:fly"
-                },
-                {
-                    "entity": "alexsmobs:fly"
-                },
-                {
-                    "entity": "alexsmobs:fly"
-                },
-                {
-                    "entity": "alexsmobs:fly"
-                },
-                {
-                    "entity": "alexsmobs:fly"
+                    "entity": "minecraft:guardian"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "alexsmobs:fly",
-                "rolls": 4
+                "entity": "minecraft:guardian",
+                "rolls": 5
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:cockroach"
-                },
-                {
-                    "entity": "alexsmobs:cockroach"
-                },
-                {
-                    "entity": "alexsmobs:cockroach"
-                },
-                {
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "minecraft:guardian"
                 }
             ],
             "modifiers": [{
@@ -83,27 +59,27 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "alexsmobs:cockroach",
-                "rolls": 5
+                "entity": "minecraft:guardian",
+                "rolls": 10
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "minecraft:guardian"
                 },
 				{
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "minecraft:elder_guardian"
                 }
             ],
             "modifiers": [{
@@ -125,81 +101,31 @@
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
                     "value": 0.10
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "alexsmobs:leafcutter_ant",
-                "rolls": 8
+                "entity": "minecraft:elder_guardian",
+                "rolls": 1
             }],
-            "max_wave_time": 750,
+            "max_wave_time": 1050,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "alexsmobs:tarantula_hawk"
+                    "entity": "minecraft:elder_guardian"
                 },
                 {
-                    "entity": "alexsmobs:tarantula_hawk"
+                    "entity": "minecraft:elder_guardian"
                 },
                 {
-                    "entity": "alexsmobs:tarantula_hawk"
+                    "entity": "minecraft:guardian"
                 },
 				{
-                    "entity": "alexsmobs:tarantula_hawk"
-                }
-            ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
+                    "entity": "minecraft:guardian"
                 },
                 {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 2
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
-                }
-            ],
-            "rewards": [{
-                "type": "entity_loot",
-                "entity": "alexsmobs:tarantula_hawk",
-                "rolls": 5
-            }],
-            "max_wave_time": 750,
-            "setup_time": 150
-        },
-        {
-            "entities": [{
-                    "entity": "alexsmobs:centipede_head"
-                },
-                {
-                    "entity": "alexsmobs:centipede_head"
-                },
-                {
-                    "entity": "alexsmobs:centipede_head"
-                },
-				{
-                    "entity": "alexsmobs:centipede_head"
+                    "entity": "minecraft:guardian"
                 }
             ],
             "modifiers": [{
@@ -230,8 +156,8 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "alexsmobs:centipede_head",
-                "rolls": 5
+                "entity": "minecraft:elder_guardian",
+                "rolls": 2
             }],
             "max_wave_time": 750,
             "setup_time": 150
@@ -239,8 +165,8 @@
     ],
     "rewards": [{
         "type": "entity_loot",
-        "entity": "alexsmobs:cockroach",
-        "rolls": 5
+        "entity": "minecraft:elder_guardian",
+        "rolls": 10
     }],
     "completion_xp": 500,
 	"spawn_range": 7

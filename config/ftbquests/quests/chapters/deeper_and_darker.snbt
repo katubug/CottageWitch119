@@ -565,6 +565,35 @@
 				only_from_crafting: true
 			}]
 		}
+		{
+			title: "Hearts of Darkness"
+			x: 0.5d
+			y: -2.0d
+			shape: "pentagon"
+			description: ["Don't ask me why, but I &aneed a bunch of &bHearts of the Deep&r. Trade them to me using this &arepeatable quest&r and I will give you some sculk-tastic rewards."]
+			dependencies: ["386BBE6DCF3DAB78"]
+			can_repeat: true
+			id: "5AA23C847AD13B06"
+			tasks: [{
+				id: "0D268135EB5A0C2B"
+				type: "item"
+				item: "deeperdarker:heart_of_the_deep"
+			}]
+			rewards: [
+				{
+					id: "30EB6B842A36C3F2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 7062805133306069640L
+				}
+				{
+					id: "321C8316CF3135E9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8844042123582301969L
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

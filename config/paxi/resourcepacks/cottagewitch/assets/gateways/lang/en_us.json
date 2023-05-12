@@ -7,5 +7,6 @@
     "gateways.mimicube_gate": "Mimicube Gate",
     "gateways.sculk_gate": "Sculk Dimension Gate",
     "gateways.nether_gate": "Nether Gate",
-    "gateways.insectoid_gate": "Insectoid Gate"
+    "gateways.insectoid_gate": "Insectoid Gate",
+    "gateways.elder_guardian_gate": "Guardian Gate"
 }

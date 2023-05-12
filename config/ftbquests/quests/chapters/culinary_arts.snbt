@@ -81,7 +81,7 @@
 			corner: false
 		}
 		{
-			x: 5.5d
+			x: 5.0d
 			y: 13.0d
 			width: 10.0d
 			height: 10.0d
@@ -2476,17 +2476,17 @@
 			x: 5.0d
 			y: 15.0d
 			shape: "hexagon"
-			description: ["To obtain a &bSuspicious Dragon Core&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
+			description: ["To obtain a &bDragon Tooth&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
 			id: "7E256574E63296C9"
 			tasks: [{
-				id: "30655A4DEDA535DA"
+				id: "11717C3E575F3C33"
 				type: "item"
-				item: "ends_delight:suspicious_dragon_core"
+				item: "ends_delight:dragon_tooth"
 			}]
 			rewards: [{
-				id: "57AE010AE03449B7"
+				id: "73BA3E043B4ADCF4"
 				type: "item"
-				item: "ends_delight:suspicious_dragon_core"
+				item: "ends_delight:dragon_tooth"
 			}]
 		}
 	]

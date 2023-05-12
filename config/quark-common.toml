@@ -148,6 +148,8 @@
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
 	"Enable Onboarding" = true
+	#Set to false to disable the behavior where quark will automatically hide any disabled items
+	"Hide Disabled Content" = true
 
 [categories]
 	Automation = true
@@ -420,6 +422,8 @@
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
 		"Unstackables Only" = false
+		#Any items you place in this list will be ignored by the restock feature
+		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
 [tools]
 	Trowel = true
@@ -522,6 +526,16 @@
 		Customs = []
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
+		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
+		"Apply Default Trades" = true
+		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
+		"Pathfinders Quill Speed" = 32
+		"Add To Cartographer" = true
+		"Add To Wandering Trader Forced" = true
+		"Add To Wandering Trader Generic" = false
+		"Add To Wandering Trader Rare" = false
+		"Draw Hud" = true
+		"Hud On Top" = false
 
 	[tools.parrot_eggs]
 		#The chance feeding a parrot will produce an egg
@@ -620,6 +634,7 @@
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
+	"Slimes To Magma Cubes" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -1648,6 +1663,13 @@
 	"Game Nerfs" = false
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
+	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
+	#for the Enchantments defined in 'Enchantments to Register'.
+	#
+	#Example: if 'minecraft:silk_touch' is added to 'Enchantments to Register', and 'minecraft:netherite_pickaxe'
+	#is added to 'Items to Change', then a predicate named 'quark_has_enchant_minecraft_silk_touch' will be available
+	#to the netherite_pickaxe.json item model, whose value will be the enchantment level.
+	"Enchantment Predicates" = false
 
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
@@ -1682,4 +1704,8 @@
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
+
+	[experimental.enchantment_predicates]
+		"Items To Change" = []
+		"Enchantments To Register" = []
 

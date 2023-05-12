@@ -1933,11 +1933,11 @@
 			repeatable: true
 			id: "3057155A3A2B5F47"
 			tasks: [{
-				id: "5D21FB1D6D4D7CDA"
+				id: "35A42B6209CA1D8C"
 				type: "kill"
 				icon: "minecraft:prismarine_shard"
-				entity: "minecraft:elder_guardian"
-				value: 4L
+				entity: "minecraft:guardian"
+				value: 30L
 			}]
 			rewards: [
 				{

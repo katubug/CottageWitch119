@@ -444,46 +444,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
-			shape: "octagon"
-			description: [
-				"The &bSunken Ship&r, found deep in the ocean, is &aswarming with sharks and worse&r, but it also contains the cargo it was transporting."
-				"Make sure you bring your best diving gear!"
-			]
-			id: "3B7028DB3EDD6001"
-			tasks: [{
-				id: "6D999B3A3AC5F9BD"
-				type: "advancement"
-				advancement: "idas:sunken_ship"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "5B92D35C2453E6E4"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:water_breathing"
-						}
-					}
-				}
-				{
-					id: "70F62D6DEBD5A89C"
-					type: "item"
-					item: {
-						id: "create:diving_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "Visit all Vanilla Biomes"
 			x: -7.0d
 			y: -5.0d
@@ -611,7 +571,7 @@
 			x: 0.5d
 			y: 7.5d
 			shape: "octagon"
-			description: ["The &bCastle&r is home to several friendly &eVillagers&r, and their ruler sits atop a throne of &bNetherite&r."]
+			description: ["The &bCastle&r is home to several friendly &eVillagers&r, and their ruler sits atop a throne of stone."]
 			id: "2990F79A11CD8ED8"
 			tasks: [{
 				id: "7D7446AC694E63D0"

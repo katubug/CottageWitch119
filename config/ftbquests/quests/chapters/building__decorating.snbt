@@ -554,10 +554,7 @@
 			x: -7.0d
 			y: -1.5d
 			shape: "circle"
-			description: [
-				"Interested in a more customizable bed? &lMulti-beds&r has you covered!"
-				"To begin, you'll want to craft a &bBuild-a-Bed Kit&r. Then, hold it and &6right click&r to access its menu. You'll need &bPlanks&r of the wood type you want your bed to be."
-			]
+			description: ["Sick of boring old flat beds? Make a &afancy one&r! To craft a &bBed&r, you'll need planks, wool, and &ba Cushion&r!"]
 			dependencies: ["7D82FBD000D41F84"]
 			id: "226368447EC1C9A9"
 			tasks: [{
@@ -591,7 +588,7 @@
 			title: "Make Your Bed"
 			x: -5.5d
 			y: -1.5d
-			description: ["Your bed might be a little bare-bones as is. Why not make a &bsheet&r and &bpillowcase&r to go on top? These can be &adyed any color you like&r."]
+			description: ["Your bed might be a little bare-bones as is. Why not make a &bsheet&r and &bCushion&r to go on top? These can be &adyed any color you like&r."]
 			dependencies: ["226368447EC1C9A9"]
 			id: "15781BD4547097E9"
 			tasks: [

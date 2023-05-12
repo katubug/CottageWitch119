@@ -51,6 +51,8 @@
 	squirrelRefreshRate = 600
 	#Set to false to disable the lightning crashing often on flashing archwood biome(s).
 	always_thunder = true
+	#If enabled, soulbound enchantment can appear in randomly enchanted loot chests.
+	soulbound_loot = true
 
 ["Source cost"]
 	#How much source does the water urn consume.
@@ -69,4 +71,13 @@
 [Mobs-Disabled]
 	#If true, the wandering mages will target players too, unless they wear the focus of the same school.
 	magesAggro = false
+
+#Adjust Elemental Armor Mana Buffs
+["Elemental Armors"]
+	#Max mana bonus for each elemental armor piece
+	#Range: 0 ~ 10000
+	armorMaxMana = 100
+	#Mana regen bonus for each elemental armor piece
+	#Range: 0 ~ 100
+	armorManaRegen = 4
 

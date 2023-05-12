@@ -77,14 +77,14 @@
 			dependencies: ["0AF3D2A62E51E5B2"]
 			id: "33EAE02ACC6CCA8B"
 			tasks: [{
-				id: "707B2395A702D2A3"
+				id: "3F88FFA9EE040D4B"
 				type: "item"
-				title: "Any #gildednetherite:gilded_netherite_ingot"
+				title: "Any #gildednetherite:gilded_netherite_items"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "gildednetherite:gilded_netherite_ingot"
+						value: "gildednetherite:gilded_netherite_items"
 					}
 				}
 			}]
@@ -2483,7 +2483,7 @@
 				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
 				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
 				"&6Right click with empty hand&r to switch armor sets. If you accidentally store more than one set of armor, you can &6cycle through these by shift-clicking&r."
-				"You can also &6right click the mirrow&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
+				"You can also &6right click the mirror&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
 				"And, if you'd like a more spooky option, &6right click it&r with a &bSkull&r to change the preview to a &eSkeleton!&r."
 				"All the upgrades &acan be combined&r."
 			]

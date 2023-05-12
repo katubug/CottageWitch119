@@ -137,19 +137,19 @@ var removeNope = [
     <item:ftbquests:custom_icon>,
     <item:ftbquests:barrier>,
     <item:ftbquests:stage_barrier>,
-    <item:prefab:block_compressed_quartz_crete>,
-    <item:prefab:block_double_compressed_quartz_crete>,
-    <item:prefab:block_quartz_crete>,
-    <item:prefab:block_quartz_crete_wall>,
+    //<item:prefab:block_compressed_quartz_crete>,
+    //<item:prefab:block_double_compressed_quartz_crete>,
+    //<item:prefab:block_quartz_crete>,
+    //<item:prefab:block_quartz_crete_wall>,
     //<item:prefab:item_string_of_lanterns>,
-    <item:prefab:block_quartz_crete_chiseled>,
-    <item:prefab:block_quartz_crete_pillar>,
-    <item:prefab:block_quartz_crete_stairs>,
-    <item:prefab:block_quartz_crete_slab>,
-    <item:prefab:block_quartz_crete_smooth>,
-    <item:prefab:block_quartz_crete_smooth_wall>,
-    <item:prefab:block_quartz_crete_smooth_stairs>,
-    <item:prefab:block_quartz_crete_smooth_slab>,
+    //<item:prefab:block_quartz_crete_chiseled>,
+    //<item:prefab:block_quartz_crete_pillar>,
+    //<item:prefab:block_quartz_crete_stairs>,
+    //<item:prefab:block_quartz_crete_slab>,
+    //<item:prefab:block_quartz_crete_smooth>,
+    //<item:prefab:block_quartz_crete_smooth_wall>,
+    //<item:prefab:block_quartz_crete_smooth_stairs>,
+    //<item:prefab:block_quartz_crete_smooth_slab>,
     <item:prefab:item_swift_blade_wood>,
     <item:prefab:item_swift_blade_gold>,
     <item:prefab:item_sickle_wood>,
@@ -159,8 +159,8 @@ var removeNope = [
     <item:prefab:item_sickle_diamond>,
     <item:prefab:item_sickle_netherite>,
     <item:prefab:item_clutch_of_eggs>,
-    <item:prefab:block_glass_slab>,
-    <item:prefab:block_glass_stairs>,
+    //<item:prefab:block_glass_slab>,
+    //<item:prefab:block_glass_stairs>,
     //<item:prefab:block_paper_lantern>,
     <item:prefab:block_boundary>,
     <item:prefab:item_crate_of_beets>,
@@ -168,7 +168,7 @@ var removeNope = [
     <item:prefab:item_bunch_of_carrots>,
     <item:prefab:item_bunch_of_potatoes>,
     <item:prefab:item_wooden_crate>,
-    <item:prefab:block_quartz_crete_bricks>,
+    //<item:prefab:block_quartz_crete_bricks>,
     //<item:prefab:item_coil_of_lanterns>,
     <item:prefab:item_crate_of_potatoes>,
     <item:prefab:item_crate_of_carrots>,
@@ -181,9 +181,9 @@ var removeNope = [
     <item:prefab:item_swift_blade_bronze>,
     <item:prefab:item_swift_blade_stone>,
     <item:prefab:item_swift_blade_copper>,
-    <item:alexsmobs:blood_sac>,
-    <item:alexsmobs:mosquito_proboscis>,
-    <item:alexsmobs:blood_sprayer>,
+    //<item:alexsmobs:blood_sac>,
+    //<item:alexsmobs:mosquito_proboscis>,
+    //<item:alexsmobs:blood_sprayer>,
     <item:quark:beetroot_crate>,
     <item:quark:potato_crate>,
     <item:quark:carrot_crate>,
@@ -193,10 +193,10 @@ var removeNope = [
     <item:delightful:animal_oil_bottle>,
     <item:alexsmobs:komodo_spit>,
     <item:alexsmobs:komodo_spit_bottle>,
-    <item:alexsmobs:cockroach_wing>,
-    <item:alexsmobs:cockroach_ootheca>,
-    <item:alexsmobs:cockroach_wing_fragment>,
-    <item:alexsmobs:maraca>,
+    //<item:alexsmobs:cockroach_wing>,
+    //<item:alexsmobs:cockroach_ootheca>,
+    //<item:alexsmobs:cockroach_wing_fragment>,
+    //<item:alexsmobs:maraca>,
     <item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
@@ -1926,3 +1926,52 @@ craftingTable.addShaped("insectoid_gate", <item:gateways:gate_pearl>.withTag({ga
 ]);
 
 furnace.remove(<item:alexsmobs:boiled_emu_egg>);
+
+// Golden Core
+
+craftingTable.addShaped("goldencore", <item:gildednetherite:golden_core>, [
+[<item:minecraft:gold_ingot>, air, <item:minecraft:gold_ingot>],
+[<item:minecraft:gold_ingot>, <item:create:precision_mechanism>, <item:minecraft:gold_ingot>],
+[<item:minecraft:gold_ingot>, air, <item:minecraft:gold_ingot>]
+]);
+
+
+craftingTable.remove(<item:luphieclutteredmod:luphie_sewing_table_clutter>);
+craftingTable.addShaped("sewingkit", <item:luphieclutteredmod:luphie_sewing_table_clutter>, [
+    [<tag:items:forge:string>, <tag:items:minecraft:wool_carpets>, <tag:items:minecraft:wool>],
+]);
+
+//Squid
+
+<tag:items:crafttweaker:squid>.add(
+    <item:culturaldelights:squid>,
+    <item:culturaldelights:cooked_squid>,
+    <item:culturaldelights:glow_squid>,
+    <item:miners_delight:squid>,
+    <item:miners_delight:glow_squid>,
+    <item:miners_delight:baked_squid>
+);
+
+craftingTable.addShapeless("ctom_squid", <item:miners_delight:squid>, [<item:culturaldelights:squid>]);
+craftingTable.addShapeless("ctom_glow_squid", <item:miners_delight:glow_squid>, [<item:culturaldelights:glow_squid>]);
+craftingTable.addShapeless("ctom_cooked_squid", <item:miners_delight:baked_squid>, [<item:culturaldelights:cooked_squid>]);
+
+craftingTable.addShapeless("mtoc_squid", <item:culturaldelights:squid>, [<item:miners_delight:squid>]);
+craftingTable.addShapeless("mtoc_glow_squid", <item:culturaldelights:glow_squid>, [<item:miners_delight:glow_squid>]);
+craftingTable.addShapeless("mtoc_cooked_squid", <item:culturaldelights:cooked_squid>, [<item:miners_delight:baked_squid>]);
+
+
+//Horse Armors
+
+var horseArmors = [
+    <item:byg:ametrine_horse_armor>,
+    <item:byg:pendorite_horse_armor>,
+    <item:minecraft:leather_horse_armor>,
+    <item:minecraft:iron_horse_armor>,
+    <item:minecraft:golden_horse_armor>,
+    <item:minecraft:diamond_horse_armor>
+] as IItemStack[];
+
+for armor in horseArmors {
+    armor.maxStackSize = 32;
+}

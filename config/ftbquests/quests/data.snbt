@@ -25,4 +25,5 @@
 	pause_game: false
 	lock_message: ""
 	progression_mode: "flexible"
+	detection_delay: 20
 }

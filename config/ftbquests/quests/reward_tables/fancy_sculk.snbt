@@ -1,0 +1,12 @@
+{
+	id: "7ABC597422B6E711"
+	order_index: 27
+	title: "Fancy Sculk"
+	loot_size: 2
+	rewards: [
+		{ item: "alexsmobs:sculk_boomer", weight: 0.1f }
+		{ item: "deeperdarker:gloom_sculk", count: 4 }
+		{ item: "minecraft:sculk_catalyst", weight: 0.5f }
+		{ item: "minecraft:sculk_shrieker", weight: 0.5f }
+	]
+}

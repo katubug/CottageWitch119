@@ -653,6 +653,28 @@
 				only_from_crafting: true
 			}]
 		}
+		{
+			title: "Getting Ahead in the End"
+			x: 3.5d
+			y: 2.0d
+			shape: "pentagon"
+			subtitle: "you egghead"
+			description: ["Swimming in &bEggs&r? That sounds unpleasant. You can &atrade in a &bDragon Egg&r to receive a &bDragon Head&r."]
+			dependencies: ["09ED0DFEB72DFD71"]
+			repeatable: true
+			id: "26E52D95C9C75019"
+			tasks: [{
+				id: "5E03B62FE26BC617"
+				type: "item"
+				item: "minecraft:dragon_egg"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "06C611660703EF32"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
