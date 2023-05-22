@@ -1,0 +1,8 @@
+{
+  "useFertilizableFlowerTag": true,
+  "#doublingChance": "if 0 or 100 the chance is 100%",
+  "doublingChance": 100,
+  "allowWitherRoses": false,
+  "#witherRosesDoublingChance": "if 0 or 100 the chance is 100%",
+  "witherRosesDoublingChance": 5
+}

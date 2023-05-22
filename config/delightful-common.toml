@@ -45,6 +45,10 @@
 	tin_knife = true
 	warden_knife = true
 	zinc_knife = true
+	adamantite_knife = true
+	blazing_knife = true
+	crystalline_knife = true
+	stellium_knife = true
 
 [Generation]
 	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Salmonberries to false above.
@@ -127,4 +131,5 @@
 	melon_juicing = true
 	#Make pumpkin pies a block with slices rather than an item eaten whole
 	pumpkin_pie_overhaul = true
+	wild_salmonberries = true
 

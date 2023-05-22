@@ -1321,3 +1321,5 @@ block.addTooltip("Job Block");
 
 <item:alexsmobs:warped_muscle>.addTooltip("Obtain this item from the Nether Dimension Gate.");
 <item:alexsmobs:hemolymph_sac>.addTooltip("Obtain this item from the Nether Dimension Gate.");
+
+<item:quark:backpack>.addTooltip("This item has been disabled. You can craft it into a Backpacked backpack.");

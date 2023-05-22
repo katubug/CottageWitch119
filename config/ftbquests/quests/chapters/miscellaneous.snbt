@@ -137,7 +137,10 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Do you wanna build a...uh...sandcastle?"
-			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
+			description: [
+				"The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies."
+				"However, there is &da bug currently&r which prevents eggs in a &bSand Castle&r from hatching."
+			]
 			id: "012D4FE416DC8BE7"
 			tasks: [{
 				id: "33B1F2EE602D5EAB"

@@ -380,7 +380,7 @@
 			x: 7.5d
 			y: -6.5d
 			subtitle: "I bet you're a really fun Gus"
-			description: ["Much like Mushroom colonies, &bNether Fungus&r can be grown in &acomplete darkness&r using Rich Soil. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 fungi. I've heard they're enjoyable to hang out with."]
+			description: ["Much like Mushroom colonies, &bNether Fungus&r can be grown in &acomplete darkness&r using &bRich Soul Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 fungi. I've heard they're enjoyable to hang out with."]
 			dependencies: ["40C1DBE20E401EF9"]
 			id: "57742DD8F99DBAF1"
 			tasks: [{

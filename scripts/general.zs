@@ -360,7 +360,7 @@ craftingTable.addShapeless("ultraburger", <item:delightful:deluxe_cheeseburger>,
 ]);
 
 craftingTable.addShapeless("ultraburgercon", <item:delightful:deluxe_cheeseburger>, [
-    <item:delightful:deluxe_cheeseburger>,
+    <item:delightful:cheeseburger>,
     <tag:items:forge:cooked_beef>,
     <tag:items:forge:cheese>,
     <item:farmersdelight:cooked_bacon>
@@ -1925,6 +1925,13 @@ craftingTable.addShaped("insectoid_gate", <item:gateways:gate_pearl>.withTag({ga
     [<item:overweight_farming:vegetable_peels>, <item:minecraft:honey_bottle>, <item:overweight_farming:vegetable_peels>]
 ]);
 
+craftingTable.addShaped("elder_guardian_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:elder_guardian_gate"}),
+[
+    [<item:minecraft:prismarine_shard>, air, <item:minecraft:prismarine_shard>],
+    [air, <item:minecraft:ender_eye>, air],
+    [<item:minecraft:prismarine_shard>, air, <item:minecraft:prismarine_shard>]
+]);
+
 furnace.remove(<item:alexsmobs:boiled_emu_egg>);
 
 // Golden Core
@@ -1975,3 +1982,11 @@ var horseArmors = [
 for armor in horseArmors {
     armor.maxStackSize = 32;
 }
+
+<tag:items:tarotcards:golden>.add(<item:reaping:gold_reaping_tool>,
+<item:better_fishing_rods:golden_fishing_rod>,
+<item:better_fishing_rods:lucky_golden_fishing_rod>,
+<item:twilightforest:gold_minotaur_axe>,
+<item:nethersdelight:golden_machete>,
+<item:farmersdelight:golden_knife>);
+
