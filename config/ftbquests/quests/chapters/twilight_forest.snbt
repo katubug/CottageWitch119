@@ -1,416 +1,414 @@
 {
-	id: "23CEC5718927D582"
-	group: "5FB460EFA0A2567E"
-	order_index: 0
-	filename: "twilight_forest"
-	title: "Twilight Forest"
-	icon: "twilightforest:twilight_portal_miniature_structure"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "5FB460EFA0A2567E"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "23CEC5718927D582"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgtwilightforest.png"
+		rotation: 0.0d
+		width: 27.0d
 		x: 0.0d
 		y: 0.0d
-		width: 27.0d
-		height: 15.0d
-		rotation: 0.0d
-		image: "cottagewitch:textures/bgtwilightforest.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Reach the Twilight Forest"
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -10.0d
-			y: 0.0d
-			subtitle: "Entering a crepuscular zone"
+			dependencies: ["399D55B3452588FF"]
 			description: [
 				"Welcome to the Twilight Forest! This dimension can be dangerous to navigate, although it is convieniently laid out with its &amajor landmarks in a grid&r."
 				"The first thing you will want is a &bMap&r, and for that, you'll need to find a &eRaven&r."
 				"And remember! &6If you get lost or wander into an inaccessible zone, look for Kobolds&r. They will be carrying the journal of previous adventurers, which will clue you in to your next goal."
 			]
-			dependencies: ["399D55B3452588FF"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "730964D8E1FD059F"
-			tasks: [{
-				id: "2522694F96FD15CA"
-				type: "dimension"
-				dimension: "twilightforest:twilight_forest"
-			}]
 			rewards: [
 				{
 					id: "19306FFE5AF17538"
-					type: "random"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 				{
 					id: "33E22D562AA8E674"
-					type: "item"
 					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
 				}
 			]
+			subtitle: "Entering a crepuscular zone"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2522694F96FD15CA"
+				type: "dimension"
+			}]
+			title: "Reach the Twilight Forest"
+			x: -10.0d
+			y: 0.0d
 		}
 		{
-			title: "Obtain a Portal Key"
-			x: -10.0d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "Throw it in a limpid pool and then back away"
 			description: [
 				"&dThe Twilight Forest&r is a night-ridden dimension filled with mysteries and odd creatures both friendly and hostile. Freely traveling the dimension is difficult - you must conquer each challenge in turn in order to traverse."
 				"To &amake the portal&r, you must &6dig a 3x3x1 (or 2x2x1) hole and fill it with water&r. Then, &6surround the pond with flowers or mushrooms&r. Finally, &6throw a Diamond into the pool&r. Beware, opening a portal can be dangerous!"
 			]
-			size: 2.0d
 			id: "399D55B3452588FF"
-			tasks: [{
-				id: "546DCCE3B330C33A"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
 			rewards: [
 				{
+					count: 3
 					id: "3CE5D25AECE3322A"
-					type: "item"
 					item: "minecraft:poppy"
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "34FDED8B106683EC"
-					type: "item"
 					item: "minecraft:dandelion"
-					count: 3
+					type: "item"
 				}
 				{
-					id: "730C5B0A95B13AFC"
-					type: "item"
-					item: "minecraft:red_mushroom"
 					count: 3
+					id: "730C5B0A95B13AFC"
+					item: "minecraft:red_mushroom"
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Throw it in a limpid pool and then back away"
+			tasks: [{
+				id: "546DCCE3B330C33A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Obtain a Portal Key"
+			x: -10.0d
+			y: -2.0d
 		}
 		{
-			title: "Find a Forest Raven"
-			icon: "twilightforest:raven_feather"
-			x: -5.5d
-			y: 0.0d
-			subtitle: "Unfortunately, you have to kill it"
-			description: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for it's feathers&r, which are important for making the &bMagical Map Focus&r."]
 			dependencies: ["730964D8E1FD059F"]
-			optional: true
+			description: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for it's feathers&r, which are important for making the &bMagical Map Focus&r."]
+			icon: "twilightforest:raven_feather"
 			id: "3B33F8C27B3361AC"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "769527119DB85277"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			subtitle: "Unfortunately, you have to kill it"
 			tasks: [{
 				id: "28457D6369D12841"
-				type: "observation"
-				timer: 0L
 				observe_type: 5
+				timer: 0L
 				to_observe: "twilightforest:raven"
+				type: "observation"
 			}]
-			rewards: [{
-				id: "769527119DB85277"
-				type: "item"
-				item: "minecraft:glowstone_dust"
-				count: 9
-			}]
+			title: "Find a Forest Raven"
+			x: -5.5d
+			y: 0.0d
 		}
 		{
-			x: -5.5d
-			y: -1.5d
-			shape: "hexagon"
-			subtitle: "Come on, Focus!"
+			dependencies: ["3B33F8C27B3361AC"]
 			description: [
 				"Craft a &bMagic Map Focus&r with a &bRaven Feather&r, some &bGlowstone Dust&r, and &bTorchberries&r (which can be found in Twilight Forest caves)."
 				"Then you can surround it with &bPaper&r to create a Magic Map, which will prove invaluable to your quest through the &dTwilight Forest&r."
 			]
-			dependencies: ["3B33F8C27B3361AC"]
 			id: "0F55C73877E7FD90"
+			rewards: [{
+				count: 5
+				id: "03F8A5DF08431675"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Come on, Focus!"
 			tasks: [{
 				id: "57C05D993313671F"
-				type: "item"
 				item: "twilightforest:magic_map_focus"
-			}]
-			rewards: [{
-				id: "03F8A5DF08431675"
 				type: "item"
-				item: "minecraft:paper"
-				count: 5
 			}]
+			x: -5.5d
+			y: -1.5d
 		}
 		{
-			title: "Find a Hedge Maze"
-			x: -7.0d
-			y: -2.0d
-			shape: "hexagon"
-			subtitle: "Now you can be a Hedge Witch!"
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"One of the features in the Twilight Forest is the &aHedge Maze&r. It is a labyrinth filled with spawners and chests full of loot!"
 				"It does not count towards, nor require, any progression through the Forest."
 			]
-			dependencies: ["730964D8E1FD059F"]
 			id: "03102B4CD0BE7031"
-			tasks: [{
-				id: "2AED38B113D31F29"
-				type: "structure"
-				structure: "twilightforest:hedge_maze"
-			}]
 			rewards: [
 				{
 					id: "4C02CF218E659553"
-					type: "random"
 					table_id: 6941837675484043489L
+					type: "random"
 				}
 				{
-					id: "1A2A5C6AA28D867A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1A2A5C6AA28D867A"
 					table_id: 2688518876927697228L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Now you can be a Hedge Witch!"
+			tasks: [{
+				id: "2AED38B113D31F29"
+				structure: "twilightforest:hedge_maze"
+				type: "structure"
+			}]
+			title: "Find a Hedge Maze"
+			x: -7.0d
+			y: -2.0d
 		}
 		{
-			title: "Obtain an Ore Magnet"
-			x: -7.5d
-			y: -3.0d
-			shape: "hexagon"
-			subtitle: "I'm a total ore magnet"
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"The &bOre Magnet&r can sometimes be found inside &dHollow Hills&r, and when used, will &apull entire veins of ores from the ground&r! Simply &6hold right click while aiming at the ground&r and the ores will be moved up to you!"
 				"It can be enchanted with Unbreaking or Mending."
 			]
-			dependencies: ["730964D8E1FD059F"]
 			id: "5B5DB6950BD9BC15"
+			rewards: [
+				{
+					id: "0DF298E510FEE5B8"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EA3BEAB0D5EB03"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I'm a total ore magnet"
 			tasks: [{
 				id: "37BFCF9F22551ED3"
-				type: "item"
 				item: {
-					id: "twilightforest:ore_magnet"
 					Count: 1b
+					id: "twilightforest:ore_magnet"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0DF298E510FEE5B8"
-					type: "random"
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "14EA3BEAB0D5EB03"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 2688518876927697228L
-				}
-			]
+			title: "Obtain an Ore Magnet"
+			x: -7.5d
+			y: -3.0d
 		}
 		{
-			x: -6.0d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "Steel yourself"
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"&bSteeleaf&r is a material which can be used to create pre-enchanted armor that is slightly better than Iron."
 				"Additionally, blocks of Steeleaf will reduce fall damage by 25% when landed on."
 			]
-			dependencies: ["730964D8E1FD059F"]
 			id: "6A5281FA52C785C6"
-			tasks: [{
-				id: "15FF51EB8323D171"
-				type: "item"
-				item: "twilightforest:steeleaf_ingot"
-			}]
 			rewards: [{
 				id: "6497B38870E2FDB2"
-				type: "item"
 				item: "twilightforest:steeleaf_block"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Steel yourself"
+			tasks: [{
+				id: "15FF51EB8323D171"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
 		}
 		{
-			title: "Obtain Liveroot"
-			x: -6.5d
-			y: -3.0d
-			shape: "hexagon"
-			subtitle: "These roots...they're alive!"
-			description: ["Break down the &aLiveroots&r beneath a Tree in order to obtain them. This item can be combined with &bIron&r and &bGold&r in order to create &bIronwood&r, which can be used to create pre-enchanted pieces of gear."]
 			dependencies: ["730964D8E1FD059F"]
+			description: ["Break down the &aLiveroots&r beneath a Tree in order to obtain them. This item can be combined with &bIron&r and &bGold&r in order to create &bIronwood&r, which can be used to create pre-enchanted pieces of gear."]
 			id: "2ACCE2B7760206C9"
-			tasks: [{
-				id: "7EC630320EED692D"
-				type: "item"
-				item: "twilightforest:liveroot"
-			}]
 			rewards: [
 				{
 					id: "2AA5905FFDE223BA"
-					type: "item"
 					item: "twilightforest:ironwood_block"
+					type: "item"
 				}
 				{
-					id: "238AA074016ACCDB"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "238AA074016ACCDB"
 					table_id: 2688518876927697228L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "These roots...they're alive!"
+			tasks: [{
+				id: "7EC630320EED692D"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			title: "Obtain Liveroot"
+			x: -6.5d
+			y: -3.0d
 		}
 		{
-			title: "Obtain the Peacock Feather Fan"
-			x: -5.0d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "Ostentatious but very useful"
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"The &bPeacock Feather Fan&r is an item which sends out a mighty gust of wind when &6right clicked&r."
 				"You can use this to gain an advantage in combat, or even to give yourself a boost in midair, when jumping or using &bElytra&r!"
 			]
-			dependencies: ["730964D8E1FD059F"]
 			id: "62A0D663EF2B58C1"
-			tasks: [{
-				id: "6640CC33AA28C74F"
-				type: "item"
-				item: {
-					id: "twilightforest:peacock_feather_fan"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "7613E44F834D267C"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
-								lvl: 2s
 								id: "minecraft:feather_falling"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "19A5F0C7617CD80D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "19A5F0C7617CD80D"
 					table_id: 2688518876927697228L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: -7.0d
-			y: -4.0d
 			shape: "hexagon"
-			subtitle: "You might want to sit down for this one"
-			description: ["&bThe Moonworm Queen&r is an...item...that is filled with Moonworms. When you &6right click her&r, they will be dispensed - either directly onto a surface, or shot like an arrow. The moonworms serve no purpose other than &aas a light source&r. You can replenish the Queen by crafting her with &bTorchberries&r, and get...even more worms. Yay."]
-			dependencies: ["730964D8E1FD059F"]
-			id: "79B6B78157E7D32C"
+			subtitle: "Ostentatious but very useful"
 			tasks: [{
-				id: "36DCC9327A7A9CEB"
-				type: "item"
+				id: "6640CC33AA28C74F"
 				item: {
-					id: "twilightforest:moonworm_queen"
 					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			title: "Obtain the Peacock Feather Fan"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["&bThe Moonworm Queen&r is an...item...that is filled with Moonworms. When you &6right click her&r, they will be dispensed - either directly onto a surface, or shot like an arrow. The moonworms serve no purpose other than &aas a light source&r. You can replenish the Queen by crafting her with &bTorchberries&r, and get...even more worms. Yay."]
+			id: "79B6B78157E7D32C"
 			rewards: [
 				{
-					id: "112733AC98209D26"
-					type: "item"
-					item: "twilightforest:torchberries"
 					count: 3
+					id: "112733AC98209D26"
+					item: "twilightforest:torchberries"
+					type: "item"
 				}
 				{
-					id: "0BA3232E56833C88"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0BA3232E56833C88"
 					table_id: 2688518876927697228L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "You might want to sit down for this one"
+			tasks: [{
+				id: "36DCC9327A7A9CEB"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
 		}
 		{
-			x: -5.5d
-			y: -3.0d
-			shape: "hexagon"
-			subtitle: "Uncraftables are delicious. Wait..."
-			description: [" One of the most valuable items in the game, &bThe Uncrafting Table&r allows you to &arecoup materials from crafted items&r in exchange for experience levels. &6Place the unwanted item in the left slot&r and then &6click one of the ingredients&r in the center to remove it."]
 			dependencies: ["730964D8E1FD059F"]
+			description: [" One of the most valuable items in the game, &bThe Uncrafting Table&r allows you to &arecoup materials from crafted items&r in exchange for experience levels. &6Place the unwanted item in the left slot&r and then &6click one of the ingredients&r in the center to remove it."]
 			id: "7D15924C5AEAC669"
-			tasks: [{
-				id: "4C765C9C13A943A9"
-				type: "item"
-				item: "twilightforest:uncrafting_table"
-			}]
 			rewards: [{
 				id: "7CC75457000A1AD8"
-				type: "item"
 				item: "minecraft:diamond_horse_armor"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Uncraftables are delicious. Wait..."
+			tasks: [{
+				id: "4C765C9C13A943A9"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
 		}
 		{
-			title: "Find a Naga Courtyard"
-			icon: "twilightforest:naga_trophy"
-			x: -3.5d
-			y: 0.0d
-			subtitle: "Nag your local Naga"
+			dependencies: ["3B33F8C27B3361AC"]
 			description: [
 				"The first boss you must face is the block-destroying &eNaga&r. It is a long serpent who slowly shrinks in length as you damage him."
 				"If the player flees the courtyard, the Naga will return to the center."
 				"Once he's defeated, &6be sure to loot the chest that he spawns&r, as you will need the &bNaga Trophy&r inside of it."
 			]
-			dependencies: ["3B33F8C27B3361AC"]
+			icon: "twilightforest:naga_trophy"
 			id: "00B1A6C679547AF2"
-			tasks: [{
-				id: "5736708CDA636001"
-				type: "structure"
-				structure: "twilightforest:naga_courtyard"
-			}]
 			rewards: [{
 				id: "6F184B1C2B99949E"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			subtitle: "Nag your local Naga"
+			tasks: [{
+				id: "5736708CDA636001"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			title: "Find a Naga Courtyard"
+			x: -3.5d
+			y: 0.0d
 		}
 		{
-			title: "Purchase Quest: 20 Naga Scales"
-			x: -3.5d
-			y: -1.5d
-			shape: "pentagon"
-			subtitle: "A chance to use unwanted scales"
-			description: ["Defeat &eNaga&r in the &dTwilight Forest&r to obtain their scales. Then, relinquish those scales in exchange for loot!"]
-			dependencies: ["00B1A6C679547AF2"]
 			can_repeat: true
+			dependencies: ["00B1A6C679547AF2"]
+			description: ["Defeat &eNaga&r in the &dTwilight Forest&r to obtain their scales. Then, relinquish those scales in exchange for loot!"]
 			id: "14B45702F0F82689"
-			tasks: [{
-				id: "292E38425879D005"
-				type: "item"
-				item: "twilightforest:naga_scale"
-				count: 20L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "58DC59194FD2B38E"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
 					id: "71EF3889F128E564"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "A chance to use unwanted scales"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "292E38425879D005"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "Purchase Quest: 20 Naga Scales"
+			x: -3.5d
+			y: -1.5d
 		}
 		{
-			x: -1.5d
-			y: 0.0d
-			subtitle: "Where my liches at?"
+			dependencies: ["00B1A6C679547AF2"]
 			description: [
 				"Inside the &dLich Tower&r is the undead noble of the Twilight Forest. His &aCastle&r is fraught with mobs, but also filled with loot."
 				"It is recommended to be well-geared before attempting this structure."
@@ -418,178 +416,178 @@
 				"And beware of the copies he summons during the fight!"
 				"Defeating the &eLich&r grants you access to the &dYeti's Lair&r, the &dDark Forest&r, and the &dSwamp&r."
 			]
-			dependencies: ["00B1A6C679547AF2"]
 			id: "1B8E61A0872EEA1C"
-			tasks: [{
-				id: "7D62DCC45EBECA2C"
-				type: "structure"
-				title: "Find a Lich Tower"
-				icon: "twilightforest:lich_tower_miniature_structure"
-				structure: "twilightforest:lich_tower"
-			}]
 			rewards: [{
 				id: "2545DFB3D90982C3"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			subtitle: "Where my liches at?"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "7D62DCC45EBECA2C"
+				structure: "twilightforest:lich_tower"
+				title: "Find a Lich Tower"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			x: -1.5d
-			y: 2.0d
-			subtitle: "Unfortunately, no Goblin Kings here..."
+			dependencies: ["1B8E61A0872EEA1C"]
 			description: [
 				"The Labyrinth, found in the depths of &dthe Swamp&r, houses a number of nasty creatures, culminating in the vicious &eMinotaurs&r and &eMinoshroom&r."
 				"The Minoshroom will drop &bMeef Stroganoff&r, which when eaten, will innoculate you against the curse of the &dFire Swamp&r, allowing you to progress."
 			]
-			dependencies: ["1B8E61A0872EEA1C"]
 			id: "6016A3D8B7FD7A14"
-			tasks: [{
-				id: "70BEC1A7AAC7CDF0"
-				type: "structure"
-				title: "Discover the Labyrinth"
-				icon: "twilightforest:minoshroom_trophy"
-				structure: "twilightforest:labyrinth"
-			}]
 			rewards: [{
 				id: "00A454F3DD11BB05"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Unfortunately, no Goblin Kings here..."
+			tasks: [{
+				icon: "twilightforest:minoshroom_trophy"
+				id: "70BEC1A7AAC7CDF0"
+				structure: "twilightforest:labyrinth"
+				title: "Discover the Labyrinth"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 2.0d
 		}
 		{
-			x: -3.5d
-			y: 4.5d
-			shape: "hexagon"
-			subtitle: "Keep your charming ways"
+			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
 				"The &bCharm of Keeping&r sacrifices itself to keep your inventory safe!"
 				"The first tier, Bronze, saves your &aheld item&r. Iron saves your &aheld item, and armor&r. Gold preserves &ayour entire inventory&r!"
 				"Helpful if you don't want to try to find your way back to your grave, or if you may die in the void."
 			]
-			dependencies: ["6016A3D8B7FD7A14"]
 			id: "7B609119699B446D"
-			tasks: [{
-				id: "103B0AD74DB72227"
-				type: "item"
-				item: "twilightforest:charm_of_keeping_1"
-			}]
 			rewards: [{
 				id: "0976BDF991E155D6"
-				type: "item"
 				item: "twilightforest:charm_of_keeping_2"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Keep your charming ways"
+			tasks: [{
+				id: "103B0AD74DB72227"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
 		}
 		{
-			x: 3.5d
-			y: 2.0d
-			subtitle: "Remove one head, and two appear!"
+			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
 				"The &eHydra&r is a fearsome foe that is only weak in one place: within its fire-spewing maw!"
 				"It is best to take on this fight with &a Fire Resistance&r, and make sure you &aim attacks at the Hydra's open mouths&r! You can use a &branged weapon&r, or use a sword to &adeflect their bombs&r back at them."
 				"Once you have defeated the beast, you have completed one task which will let you challenge the Highlands."
 			]
-			dependencies: ["6016A3D8B7FD7A14"]
 			id: "3657239C35390F17"
-			tasks: [{
-				id: "2FFCBE1976CCD735"
-				type: "structure"
-				title: "Find a Hydra's Lair"
-				icon: "twilightforest:hydra_trophy"
-				structure: "twilightforest:hydra_lair"
-			}]
 			rewards: [{
-				id: "0563B2194472DE74"
-				type: "item"
-				item: "twilightforest:fiery_ingot"
 				count: 5
+				id: "0563B2194472DE74"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
 			}]
+			subtitle: "Remove one head, and two appear!"
+			tasks: [{
+				icon: "twilightforest:hydra_trophy"
+				id: "2FFCBE1976CCD735"
+				structure: "twilightforest:hydra_lair"
+				title: "Find a Hydra's Lair"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 2.0d
 		}
 		{
-			title: "Obtain the Mazebreaker"
-			x: -1.5d
-			y: 4.5d
-			shape: "hexagon"
-			subtitle: "Now why would you break a perfectly good maze?"
+			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
 				"There is little point trying to mine through the incredibly tough blocks of the Labyrinth. Unless, however, you loot this item: &bThe Mazebreaker&r."
 				"This tool mines Labyrinth blocks faster, and with less durability loss, than any other. It can be looted from the Labyrinth chests."
 			]
-			dependencies: ["6016A3D8B7FD7A14"]
 			id: "187BD92930BA8670"
+			rewards: [
+				{
+					count: 10
+					id: "7869AF04C5C8C870"
+					item: "twilightforest:decorative_mazestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B14E9612F4F61E6"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Now why would you break a perfectly good maze?"
 			tasks: [{
 				id: "43F651AEFE00109D"
-				type: "item"
 				item: {
-					id: "twilightforest:mazebreaker_pickaxe"
 					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
 					tag: {
 						Damage: 0
 						Enchantments: [
 							{
-								lvl: 4s
 								id: "minecraft:efficiency"
+								lvl: 4s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
 							}
 							{
-								lvl: 2s
 								id: "minecraft:fortune"
+								lvl: 2s
 							}
 						]
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "7869AF04C5C8C870"
-					type: "item"
-					item: "twilightforest:decorative_mazestone"
-					count: 10
-				}
-				{
-					id: "7B14E9612F4F61E6"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 2688518876927697228L
-				}
-			]
+			title: "Obtain the Mazebreaker"
+			x: -1.5d
+			y: 4.5d
 		}
 		{
-			title: "Purchase Quest: 20 Fiery Blood"
-			x: 3.5d
-			y: 4.5d
-			shape: "pentagon"
-			subtitle: "A chance to use unwanted blood"
-			description: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for a chance at something valuable!"]
-			dependencies: ["3657239C35390F17"]
 			can_repeat: true
+			dependencies: ["3657239C35390F17"]
+			description: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for a chance at something valuable!"]
 			id: "23E5790A6CC6524C"
-			tasks: [{
-				id: "5172110E1EBECE10"
-				type: "item"
-				item: "twilightforest:fiery_blood"
-				count: 20L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "04DA991BC07CEDE9"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
 					id: "7992840F40B17A89"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "A chance to use unwanted blood"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "5172110E1EBECE10"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			title: "Purchase Quest: 20 Fiery Blood"
+			x: 3.5d
+			y: 4.5d
 		}
 		{
-			x: 1.0d
-			y: 0.0d
-			subtitle: "Better bring some extra torches"
+			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
 				"Located in the gloomy depths of the &dDark Forest&r, the Knight Stronghold is infested with &eGoblins&r, and you cannot enter without one of the &bTrophies&r from the previous bosses."
 				"You can use &bMaze Maps&r here, but the structures are so massive that you may need a number of them."
@@ -597,474 +595,476 @@
 				"The end of this dungeon contains a fight against the &eKnight Phantoms&r. These will not follow you out of the room, and can swarm you if you simply charge in. It is recommended to &6retreat out to the hallway periodically if healing is needed&r."
 				"Once you defeat them, you can now challenge the &dDark Tower&r."
 			]
-			dependencies: ["6016A3D8B7FD7A14"]
 			id: "10C91592DCBC6FBD"
-			tasks: [{
-				id: "3A8E49C2219C6265"
-				type: "structure"
-				title: "Find the Knight Stronghold"
-				icon: "twilightforest:knight_phantom_trophy"
-				structure: "twilightforest:knight_stronghold"
-			}]
 			rewards: [{
-				id: "76B6287EE4098FC2"
-				type: "item"
-				item: "twilightforest:knightmetal_ingot"
 				count: 5
+				id: "76B6287EE4098FC2"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
 			}]
+			subtitle: "Better bring some extra torches"
+			tasks: [{
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "3A8E49C2219C6265"
+				structure: "twilightforest:knight_stronghold"
+				title: "Find the Knight Stronghold"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			x: 1.0d
-			y: -1.5d
-			shape: "hexagon"
-			subtitle: "Even more charming"
+			dependencies: ["10C91592DCBC6FBD"]
 			description: [
 				"The Charm of Life is essentially a Totem of Undying. The unupgraded version gives you 4 hearts and several seconds of Regen."
 				"The upgraded version fully revives you, and grants Regen, Fire Resistance, and Resistance."
 			]
-			dependencies: ["10C91592DCBC6FBD"]
 			id: "495574D50B0E4B4E"
-			tasks: [{
-				id: "7DD0FF8C91053DDE"
-				type: "item"
-				item: "twilightforest:charm_of_life_1"
-			}]
 			rewards: [{
 				id: "5C2E647942ABCBC3"
-				type: "item"
 				item: "twilightforest:charm_of_life_1"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Even more charming"
+			tasks: [{
+				id: "7DD0FF8C91053DDE"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
 		}
 		{
-			x: 3.5d
-			y: 0.0d
-			subtitle: "I ain't afraid of no ghast"
+			dependencies: ["10C91592DCBC6FBD"]
 			description: [
 				"In the Center of the &dDark Forest&r, the Dark Tower can be found. It is a massive structure, filled with monsters, and ruled over by a deadly &eUr-Ghast&r."
 				"There are four smaller turrets, each containing a &bTower Key&r. These keys are used to unlock the central tower. There are many challenges here to undergo, so be prepared for a long expedition."
 				"To defeat the &eUr-Ghast&r, you must defeat his &eCarminite Ghastlings&r in the nearby rooms, near the Ghast Traps. Then and when the beast draws near, activate the trap."
 				"The Ur-Ghast is one of the 3 bosses you must defeat to access the &dHighlands&r."
 			]
-			dependencies: ["10C91592DCBC6FBD"]
 			id: "5C463B10FDE8CEF2"
-			tasks: [{
-				id: "130652635D0C4E6D"
-				type: "structure"
-				title: "Find the Dark Tower"
-				icon: "twilightforest:ur_ghast_trophy"
-				structure: "twilightforest:dark_tower"
-			}]
 			rewards: [{
-				id: "3E662212CD97B0B4"
-				type: "item"
-				item: "twilightforest:reappearing_block"
 				count: 32
+				id: "3E662212CD97B0B4"
+				item: "twilightforest:reappearing_block"
+				type: "item"
 			}]
+			subtitle: "I ain't afraid of no ghast"
+			tasks: [{
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "130652635D0C4E6D"
+				structure: "twilightforest:dark_tower"
+				title: "Find the Dark Tower"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			title: "Find the Yeti Cave"
-			x: 1.0d
-			y: 2.0d
-			subtitle: "Are you ready? Not yeti"
+			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
 				"The Yeti Cave can be found in the Snowy Forest, and houses both &eYetis&r (which are neutral), and the &eAlpha Yeti&r, who is the boss you must face in this area."
 				"Engaging this foe in melee combat can be dangerous, but even at range one must &abeware of falling icicles&r!"
 				"His death will grant you access to &dthe Glacier&r."
 			]
-			dependencies: ["6016A3D8B7FD7A14"]
 			id: "41CBB146259DAF34"
-			tasks: [{
-				id: "7805711EAE52723C"
-				type: "structure"
-				icon: "twilightforest:alpha_yeti_trophy"
-				structure: "twilightforest:yeti_cave"
-			}]
 			rewards: [{
 				id: "27D5E4B9499E2336"
-				type: "loot"
 				table_id: 8808494820591225409L
+				type: "loot"
 			}]
+			subtitle: "Are you ready? Not yeti"
+			tasks: [{
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "7805711EAE52723C"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			title: "Find the Yeti Cave"
+			x: 1.0d
+			y: 2.0d
 		}
 		{
-			x: 8.0d
-			y: -2.0d
-			subtitle: "There's an Elsa joke in here somewhere"
+			dependencies: ["41CBB146259DAF34"]
 			description: [
 				"The &eSnow Queen&r is found at the top of the &dAurora Palace&r, a treacherous mansion filled with icy monsters and slippery parkour."
 				"The Queen herself has three phases, and cannot be damaged through her &aIce Throne&r, so only her upper body can be targeted."
 				"When she is defeated, you have completed one of three tasks to gain access to &dThe Highlands&r."
 			]
-			dependencies: ["41CBB146259DAF34"]
 			id: "2C905E4DE5051CC5"
-			tasks: [{
-				id: "75D978C04D89D204"
-				type: "structure"
-				title: "Find the Aurora Palace"
-				icon: "twilightforest:snow_queen_trophy"
-				structure: "twilightforest:aurora_palace"
-			}]
 			rewards: [
 				{
+					count: 32
 					id: "4BD102C7AA30E305"
-					type: "item"
 					item: "twilightforest:aurora_block"
-					count: 32
+					type: "item"
 				}
 				{
-					id: "25BC2402BDA201C1"
-					type: "item"
-					item: "twilightforest:aurora_pillar"
 					count: 10
+					id: "25BC2402BDA201C1"
+					item: "twilightforest:aurora_pillar"
+					type: "item"
 				}
 				{
-					id: "02205F119C04D7A7"
-					type: "item"
-					item: "twilightforest:auroralized_glass"
 					count: 32
+					id: "02205F119C04D7A7"
+					item: "twilightforest:auroralized_glass"
+					type: "item"
 				}
 			]
+			subtitle: "There's an Elsa joke in here somewhere"
+			tasks: [{
+				icon: "twilightforest:snow_queen_trophy"
+				id: "75D978C04D89D204"
+				structure: "twilightforest:aurora_palace"
+				title: "Find the Aurora Palace"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -2.0d
 		}
 		{
-			title: "Finally: The Highlands!"
-			x: 8.0d
-			y: 0.0d
-			subtitle: "You did it!"
+			dependencies: [
+				"3657239C35390F17"
+				"2C905E4DE5051CC5"
+				"5C463B10FDE8CEF2"
+			]
 			description: [
 				"You've finally reached the Highlands! This is going to sound suspicious, but hear me out: you need to find some &bMagic Beans&r."
 				"You can obtain some either by killing &eTrolls&r underground, or by looting their obsidian-bound Caches."
 				"Then, find a large patch of &bUberous Soil&r, above which the &eGiants&r live. You'll need to defeat their Miner to obtain his &bGiant Pickaxe&r."
 				"Then, you can &6return underground and use the Giant Pick&r to break open the large Obsidian Vault. It will take a while."
 			]
-			dependencies: [
-				"3657239C35390F17"
-				"2C905E4DE5051CC5"
-				"5C463B10FDE8CEF2"
-			]
 			id: "2A52CFAE2D88AC1D"
-			tasks: [{
-				id: "22834B81EEEA5750"
-				type: "biome"
-				icon: "twilightforest:magic_beans"
-				biome: "twilightforest:highlands"
-			}]
 			rewards: [
 				{
 					id: "01398B9B50D833E9"
-					type: "random"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 				{
-					id: "28FEF8A4B3D9CF03"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "28FEF8A4B3D9CF03"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 			]
+			subtitle: "You did it!"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				icon: "twilightforest:magic_beans"
+				id: "22834B81EEEA5750"
+				type: "biome"
+			}]
+			title: "Finally: The Highlands!"
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			title: "Gain Access to the Final Castle"
-			x: 10.0d
-			y: 0.0d
-			subtitle: "A thankless task"
+			dependencies: ["2A52CFAE2D88AC1D"]
 			description: [
 				"In the heart of the &cThorns&r lies a castle which holds the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r."
 				"However, whether or not to defeat this being is up to you. &aThere is no reward for doing so&r. No accolades. This quest grants you the only thanks you will get."
 				"With that in mind, will you still challenge them?"
 			]
-			dependencies: ["2A52CFAE2D88AC1D"]
 			id: "2B8E1553C1487EBA"
+			rewards: [
+				{
+					id: "7A839112E01549EF"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E93A2B2452F75B"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
+			subtitle: "A thankless task"
 			tasks: [{
-				id: "0348C0E87AC1994A"
-				type: "structure"
 				icon: {
-					id: "twilightforest:lamp_of_cinders"
 					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
 					tag: {
 						Damage: 0
 					}
 				}
+				id: "0348C0E87AC1994A"
 				structure: "twilightforest:final_castle"
+				type: "structure"
 			}]
-			rewards: [
-				{
-					id: "7A839112E01549EF"
-					type: "loot"
-					table_id: 5161092699925703455L
-				}
-				{
-					id: "40E93A2B2452F75B"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 5525848455660196930L
-				}
-			]
+			title: "Gain Access to the Final Castle"
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			title: "Defeat the Naga"
-			x: -3.5d
-			y: -3.0d
 			dependencies: ["00B1A6C679547AF2"]
 			id: "3A0205CA0568641F"
-			tasks: [{
-				id: "1D993E6DD7CC725A"
-				type: "advancement"
-				advancement: "twilightforest:progress_naga"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "1F8FACBC9C53DC41"
-					type: "item"
 					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
 				}
 				{
 					id: "67CB71361CAB1CFF"
-					type: "item"
 					item: "twilightforest:naga_trophy"
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "1D993E6DD7CC725A"
+				type: "advancement"
+			}]
+			title: "Defeat the Naga"
+			x: -3.5d
+			y: -3.0d
 		}
 		{
-			title: "Defeat a Lich"
-			x: -1.5d
-			y: -1.5d
 			dependencies: ["1B8E61A0872EEA1C"]
 			id: "62F755926795DBB6"
-			tasks: [{
-				id: "7898CAECDDC6D1FA"
-				type: "advancement"
-				advancement: "twilightforest:progress_lich"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "1297B897EC9603F7"
-					type: "item"
 					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
 				}
 				{
 					id: "1333763D4F0147B9"
-					type: "item"
 					item: "twilightforest:lich_trophy"
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "7898CAECDDC6D1FA"
+				type: "advancement"
+			}]
+			title: "Defeat a Lich"
+			x: -1.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["10C91592DCBC6FBD"]
+			id: "470A6825C49EEFAF"
+			rewards: [{
+				id: "6E61129F3516D660"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "0BF937F4624FDA56"
+				type: "advancement"
+			}]
 			title: "Defeat the Knight Phantoms"
 			x: 1.0d
 			y: -3.0d
-			dependencies: ["10C91592DCBC6FBD"]
-			id: "470A6825C49EEFAF"
-			tasks: [{
-				id: "0BF937F4624FDA56"
-				type: "advancement"
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "6E61129F3516D660"
-				type: "item"
-				item: "twilightforest:knight_phantom_trophy"
-			}]
 		}
 		{
+			dependencies: ["5C463B10FDE8CEF2"]
+			id: "761DD39F82235893"
+			rewards: [{
+				id: "7A19C939ED75E268"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "68E22924E52442E1"
+				type: "advancement"
+			}]
 			title: "Defeat the Ur-Ghast"
 			x: 5.5d
 			y: 0.0d
-			dependencies: ["5C463B10FDE8CEF2"]
-			id: "761DD39F82235893"
-			tasks: [{
-				id: "68E22924E52442E1"
-				type: "advancement"
-				advancement: "twilightforest:progress_ur_ghast"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "7A19C939ED75E268"
-				type: "item"
-				item: "twilightforest:ur_ghast_trophy"
-			}]
 		}
 		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			id: "169272849A588544"
+			rewards: [{
+				id: "570E54B773C478EA"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "1D855A5D41C7624A"
+				type: "advancement"
+			}]
 			title: "Eat Meef Stroganoff"
 			x: -3.5d
 			y: 2.0d
-			dependencies: ["6016A3D8B7FD7A14"]
-			id: "169272849A588544"
-			tasks: [{
-				id: "1D855A5D41C7624A"
-				type: "advancement"
-				advancement: "twilightforest:progress_labyrinth"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "570E54B773C478EA"
-				type: "item"
-				item: "twilightforest:minoshroom_trophy"
-			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
 			dependencies: ["3657239C35390F17"]
 			id: "54A57B37E1C04785"
-			tasks: [{
-				id: "176B52B1E8AD95EA"
-				type: "advancement"
-				advancement: "twilightforest:progress_hydra"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "59B149EEE3F36F50"
-				type: "item"
 				item: "twilightforest:hydra_trophy"
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "176B52B1E8AD95EA"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 		{
-			x: 1.0d
-			y: 4.5d
 			dependencies: ["41CBB146259DAF34"]
 			id: "2F267ADA86FA5503"
-			tasks: [{
-				id: "5F68902062C5E874"
-				type: "kill"
-				entity: "twilightforest:alpha_yeti"
-				value: 1L
-			}]
 			rewards: [{
 				id: "33CCF59E9F804766"
-				type: "item"
 				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
 			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5F68902062C5E874"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["2C905E4DE5051CC5"]
+			id: "27AFCBF70AA24760"
+			rewards: [{
+				id: "59D69494D0E58D6B"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "77AEB177007F4630"
+				type: "advancement"
+			}]
 			title: "Defeat the Aurora Snow Queen"
 			x: 8.0d
 			y: -4.0d
-			dependencies: ["2C905E4DE5051CC5"]
-			id: "27AFCBF70AA24760"
-			tasks: [{
-				id: "77AEB177007F4630"
-				type: "advancement"
-				advancement: "twilightforest:progress_glacier"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "59D69494D0E58D6B"
-				type: "item"
-				item: "twilightforest:snow_queen_trophy"
-			}]
 		}
 		{
-			title: "Complete the Quest Ram"
-			x: -6.75d
-			y: 2.25d
-			shape: "circle"
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"Find yourself a &eQuest Ram&r and you'll notice it seems to be missing something."
 				"Maybe give it some &amore wool&r. Specifically, &6one of each color of wool&r."
 			]
-			dependencies: ["730964D8E1FD059F"]
-			size: 1.5d
 			id: "4EAE4C40B444930A"
-			tasks: [{
-				id: "51CE926FD2497567"
-				type: "advancement"
-				advancement: "twilightforest:quest_ram"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "315D065F86EA659A"
-					type: "item"
 					item: "twilightforest:quest_ram_trophy"
+					type: "item"
 				}
 				{
 					id: "7BAD2380264D5D6C"
-					type: "item"
 					item: "plushies:sheep"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "51CE926FD2497567"
+				type: "advancement"
+			}]
+			title: "Complete the Quest Ram"
+			x: -6.75d
+			y: 2.25d
 		}
 		{
-			title: "Complete the Twilight Forest"
-			x: 7.5d
-			y: 4.5d
-			shape: "gear"
-			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
 			dependencies: [
 				"2B8E1553C1487EBA"
 				"54A57B37E1C04785"
 				"761DD39F82235893"
 				"4EAE4C40B444930A"
 			]
+			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
 			id: "25CB8D0869249D24"
-			tasks: [{
-				id: "22B4D8AF2A94AC3B"
-				type: "advancement"
-				advancement: "twilightforest:progress_troll"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "4C3BB3CA740BD35D"
-					type: "item"
 					item: {
-						id: "mcsa:petra_helmet"
 						Count: 1b
+						id: "mcsa:petra_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7E820483190944E0"
-					type: "item"
 					item: {
-						id: "mcsa:petra_chestplate"
 						Count: 1b
+						id: "mcsa:petra_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4A6115BF0510BD35"
-					type: "item"
 					item: {
-						id: "mcsa:petra_leggings"
 						Count: 1b
+						id: "mcsa:petra_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "28A8A7CB748149C8"
-					type: "item"
 					item: {
-						id: "mcsa:petra_boots"
 						Count: 1b
+						id: "mcsa:petra_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "gear"
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "22B4D8AF2A94AC3B"
+				type: "advancement"
+			}]
+			title: "Complete the Twilight Forest"
+			x: 7.5d
+			y: 4.5d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "723D12B934CAB46C"
 			invisible: true
 			secret: true
-			id: "723D12B934CAB46C"
 			tasks: [{
 				id: "3F86DB1D1FDA86D5"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Twilight Forest"
 }

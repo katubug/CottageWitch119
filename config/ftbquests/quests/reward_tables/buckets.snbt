@@ -1,8 +1,7 @@
 {
 	id: "11C366927716D57E"
-	order_index: 14
-	title: "Buckets"
 	loot_size: 1
+	order_index: 14
 	rewards: [
 		{ item: "crittersandcompanions:sea_bunny_bucket" }
 		{ item: "crittersandcompanions:koi_fish_bucket" }
@@ -29,4 +28,5 @@
 		{ item: "netherdepthsupgrade:obsidianfish_bucket" }
 		{ item: "netherdepthsupgrade:lava_pufferfish_bucket" }
 	]
+	title: "Buckets"
 }

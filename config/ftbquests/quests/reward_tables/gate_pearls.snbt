@@ -1,13 +1,12 @@
 {
 	id: "41E2EF98823F424F"
-	order_index: 25
-	title: "Gate Pearls"
 	loot_size: 1
+	order_index: 25
 	rewards: [
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:blaze_gate_small"
 				}
@@ -15,8 +14,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:enderman_gate_small"
 				}
@@ -24,8 +23,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:magma_cube_gate_small"
 				}
@@ -33,8 +32,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:shulker_gate_small"
 				}
@@ -42,8 +41,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:skeleton_gate_small"
 				}
@@ -51,8 +50,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:slime_gate_small"
 				}
@@ -60,8 +59,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:spider_gate_small"
 				}
@@ -69,8 +68,8 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:witch_gate_small"
 				}
@@ -78,12 +77,13 @@
 		}
 		{
 			item: {
-				id: "gateways:gate_pearl"
 				Count: 1b
+				id: "gateways:gate_pearl"
 				tag: {
 					gateway: "gateways:zombie_gate_small"
 				}
 			}
 		}
 	]
+	title: "Gate Pearls"
 }

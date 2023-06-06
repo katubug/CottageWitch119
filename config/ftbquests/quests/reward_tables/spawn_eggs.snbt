@@ -1,8 +1,7 @@
 {
 	id: "61D327FF1D169B5B"
-	order_index: 11
-	title: "Spawn Eggs"
 	loot_size: 2
+	order_index: 11
 	rewards: [
 		{ item: "minecraft:cat_spawn_egg" }
 		{ item: "minecraft:cow_spawn_egg" }
@@ -35,4 +34,5 @@
 		{ item: "sprout:elephant_spawn_egg" }
 		{ item: "minecraft:allay_spawn_egg" }
 	]
+	title: "Spawn Eggs"
 }

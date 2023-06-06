@@ -1,178 +1,178 @@
 {
 	id: "64D3EABDB7F1510E"
-	order_index: 23
-	title: "Tarot Cards"
 	loot_size: 1
+	order_index: 23
 	rewards: [
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:death"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:judgement"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:justice"
-				Count: 1b
 				tag: { }
 			}
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:strength"
-				Count: 1b
 				tag: { }
 			}
 			weight: 3.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:temperance"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_chariot"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_devil"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
-				id: "tarotcards:the_emperor"
 				Count: 1b
+				id: "tarotcards:the_emperor"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				id: "tarotcards:the_moon"
 				Count: 1b
+				id: "tarotcards:the_moon"
 				tag: { }
 			}
 			weight: 3.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_magician"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_lovers"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_high_priestess"
-				Count: 1b
 				tag: { }
 			}
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_hierophant"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_hermit"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_hanged_man"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_fool"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_empress"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_star"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_sun"
-				Count: 1b
 				tag: { }
 			}
 			weight: 5.0f
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_tower"
-				Count: 1b
 				tag: { }
 			}
 		}
 		{
 			item: {
+				Count: 1b
 				id: "tarotcards:the_world"
-				Count: 1b
 				tag: { }
 			}
 		}
 		{
 			item: {
-				id: "tarotcards:wheel_of_fortune"
 				Count: 1b
+				id: "tarotcards:wheel_of_fortune"
 				tag: { }
 			}
 		}
 	]
+	title: "Tarot Cards"
 }

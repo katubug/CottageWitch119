@@ -1,309 +1,304 @@
 {
-	id: "7945F0FF12C496EA"
-	group: "346046A71D537172"
-	order_index: 1
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "combat__gear"
-	title: "Equipment \\& Gear"
+	group: "346046A71D537172"
 	icon: {
-		id: "minecraft:diamond_chestplate"
 		Count: 1b
+		id: "minecraft:diamond_chestplate"
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "7945F0FF12C496EA"
 	images: [
 		{
-			x: 4.0d
-			y: 3.0d
-			width: 9.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 9.0d
-			rotation: 0.0d
+			hover: [ ]
 			image: "cottagewitch:textures/bgcurios.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgarmor.png"
+			rotation: 0.0d
+			width: 9.0d
 			x: -4.0d
 			y: 3.0d
-			width: 9.0d
-			height: 9.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgarmor.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgitemsmisc.png"
+			rotation: 0.0d
+			width: 9.0d
 			x: -4.0d
 			y: -5.0d
-			width: 9.0d
-			height: 9.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgitemsmisc.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgweaponsitems.png"
+			rotation: 0.0d
+			width: 9.0d
 			x: 4.0d
 			y: -5.0d
-			width: 9.0d
-			height: 9.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgweaponsitems.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Gild Your Netherite Gear"
-			x: -6.0d
-			y: 1.5d
-			shape: "pentagon"
-			subtitle: "Gild your loins! Or head, or chest, or..."
+			dependencies: ["0AF3D2A62E51E5B2"]
 			description: [
 				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
 				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
 			]
-			dependencies: ["0AF3D2A62E51E5B2"]
 			id: "33EAE02ACC6CCA8B"
+			rewards: [
+				{
+					count: 3
+					id: "4F4FDA3469ADB8AC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "23A8673E6A1C933B"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "6052CF2F9F1A30E9"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB3D4E3537DF6CC"
+					table_id: 7265408724434505998L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Gild your loins! Or head, or chest, or..."
 			tasks: [{
 				id: "3F88FFA9EE040D4B"
-				type: "item"
-				title: "Any #gildednetherite:gilded_netherite_items"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "gildednetherite:gilded_netherite_items"
 					}
 				}
+				title: "Any #gildednetherite:gilded_netherite_items"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "4F4FDA3469ADB8AC"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 3
-				}
-				{
-					id: "23A8673E6A1C933B"
-					type: "loot"
-					table_id: 8808494820591225409L
-				}
-				{
-					id: "6052CF2F9F1A30E9"
-					type: "choice"
-					table_id: 5036677739913042344L
-				}
-				{
-					id: "6EB3D4E3537DF6CC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7265408724434505998L
-				}
-			]
+			title: "Gild Your Netherite Gear"
+			x: -6.0d
+			y: 1.5d
 		}
 		{
-			title: "Obtain a Pickarang"
-			x: 5.5d
-			y: -5.0d
-			shape: "hexagon"
-			subtitle: "Seriously this is like the coolest item in the game"
 			description: [
 				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
 				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
 				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
 			]
 			id: "5055BAE47F0F00DC"
+			rewards: [{
+				id: "240072CBB31D21BD"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Seriously this is like the coolest item in the game"
 			tasks: [{
 				id: "0A710AE6C4500B69"
-				type: "item"
 				item: {
-					id: "quark:pickarang"
 					Count: 1b
+					id: "quark:pickarang"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "240072CBB31D21BD"
-				type: "random"
-				table_id: 8808494820591225409L
-			}]
+			title: "Obtain a Pickarang"
+			x: 5.5d
+			y: -5.0d
 		}
 		{
-			x: -4.5d
-			y: -5.5d
-			shape: "hexagon"
-			subtitle: "The scale of the universe"
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
 			id: "6C4B68A0370C245B"
-			tasks: [{
-				id: "7699FD548E88FFFB"
-				type: "item"
-				item: "quark:dragon_scale"
-			}]
 			rewards: [
 				{
 					id: "6939729DA29BDE5B"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
 					id: "10895B3655E7A5A6"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "The scale of the universe"
+			tasks: [{
+				id: "7699FD548E88FFFB"
+				item: "quark:dragon_scale"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
 		}
 		{
-			x: 3.0d
-			y: -6.0d
-			shape: "hexagon"
-			subtitle: "The downside is killing Cindershells"
 			description: [
 				"Made from fallen &eCindershells&r, a passive mob in the Nether, this sword has a strong affinity for &bLava&r!"
 				"&6Right click the blade on Lava&r to recharge it, providing it with a damage boost and the Flame effect!"
 			]
 			id: "492E8ECEC74A1C20"
-			tasks: [{
-				id: "7FAF8811A0C6D269"
-				type: "item"
-				item: {
-					id: "cnb:cinder_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "6607DDAF6AC18B8F"
-				type: "item"
 				item: "minecraft:lava_bucket"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -4.5d
-			shape: "hexagon"
-			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
-			id: "5A6FD28226BB8695"
-			tasks: [{
-				id: "79BBFB3B5982AF81"
 				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The downside is killing Cindershells"
+			tasks: [{
+				id: "7FAF8811A0C6D269"
 				item: {
-					id: "cnb:flower_crown"
 					Count: 1b
+					id: "cnb:cinder_sword"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "2345F67B03B4695B"
-				type: "random"
-				table_id: 6941837675484043489L
-			}]
+			x: 3.0d
+			y: -6.0d
 		}
 		{
-			x: -3.0d
-			y: -4.5d
+			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
+			id: "5A6FD28226BB8695"
+			rewards: [{
+				id: "2345F67B03B4695B"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
 			shape: "hexagon"
-			subtitle: "Mushie mushie backpack"
+			tasks: [{
+				id: "79BBFB3B5982AF81"
+				item: {
+					Count: 1b
+					id: "cnb:flower_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
 			description: [
 				"Have you met the &eSporelings&r? Did you know you can befriend them and carry them around on your back?"
 				"Well, you can!"
 			]
 			id: "21228990B5312533"
+			rewards: [{
+				id: "29BC69F0100A42F5"
+				item: "cnb:sporeling_overworld_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Mushie mushie backpack"
 			tasks: [{
 				id: "5A0DBA87C51893B5"
-				type: "item"
 				item: {
-					id: "cnb:sporeling_backpack"
 					Count: 1b
+					id: "cnb:sporeling_backpack"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "29BC69F0100A42F5"
 				type: "item"
-				item: "cnb:sporeling_overworld_egg"
 			}]
+			x: -3.0d
+			y: -4.5d
 		}
 		{
+			description: ["You can use a &bNet&r to catch &eLizards&r and put them in your inventory!"]
+			id: "70A098603B9A8D63"
+			rewards: [{
+				id: "4F7EF935900DE95C"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "You could also use a mob catcher, but where's the fun in that?"
+			tasks: [{
+				id: "206CFA98ED7987EF"
+				item: {
+					Count: 1b
+					id: "cnb:entity_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			title: "Lizard Net"
 			x: -4.0d
 			y: -4.5d
-			shape: "hexagon"
-			subtitle: "You could also use a mob catcher, but where's the fun in that?"
-			description: ["You can use a &bNet&r to catch &eLizards&r and put them in your inventory!"]
-			id: "70A098603B9A8D63"
-			tasks: [{
-				id: "206CFA98ED7987EF"
-				type: "item"
-				item: {
-					id: "cnb:entity_net"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4F7EF935900DE95C"
-				type: "choice"
-				table_id: 2068679807827730220L
-			}]
 		}
 		{
-			x: -3.5d
-			y: -5.5d
-			shape: "hexagon"
-			subtitle: "Why do cactus need Totems of Undying?"
 			description: [
 				"This &bHealing Tome&r was created by a shaman of the &eCactem&r, a desert-dwelling plantlike species which have a love for &bTotems of Undying&r."
 				"Trade them Totems for a chance at obtaining this reusable spell book. It's a rare chance, but if you have the Totems to spare..."
 				"Best of all, if you obtain enough Tomes, you can &6combine them for a more powerful heal&r! The books can go up to level 3."
 			]
 			id: "5C653FEA59887F40"
-			tasks: [{
-				id: "613821EF8BD8E40C"
-				type: "item"
-				item: "cnb:heal_spell_book_1"
-			}]
 			rewards: [
 				{
 					id: "7156A52278A4B778"
-					type: "random"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 				{
 					id: "20A208BBF6DDA4D3"
-					type: "item"
 					item: "minecraft:totem_of_undying"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Why do cactus need Totems of Undying?"
+			tasks: [{
+				id: "613821EF8BD8E40C"
+				item: "cnb:heal_spell_book_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
 		}
 		{
-			title: "Make Pearls into Jewelry"
-			x: 2.0d
-			y: 4.0d
-			shape: "hexagon"
-			subtitle: "I know what you're thinking, and no, I'm not saying it"
 			description: [
 				"At times, &eElder Guardians&r will drop &bPearls&r, which can be used to make rather fetching jewelry."
 				"You can also get them from &6feeding Clams to &eOtters&r."
@@ -311,220 +306,222 @@
 				"These &agrant bonuses&r when held in inventory, but &dcannot be worn as Curios&r."
 			]
 			id: "77E446610B522392"
+			rewards: [{
+				id: "3EFD8D8716E10397"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "I know what you're thinking, and no, I'm not saying it"
 			tasks: [
 				{
 					id: "203A7AE60FCD8400"
-					type: "item"
 					item: "crittersandcompanions:pearl_necklace_1"
+					type: "item"
 				}
 				{
 					id: "28249FD310F42B87"
-					type: "item"
 					item: "crittersandcompanions:pearl"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3EFD8D8716E10397"
-				type: "choice"
-				table_id: 2068679807827730220L
-			}]
+			title: "Make Pearls into Jewelry"
+			x: 2.0d
+			y: 4.0d
 		}
 		{
-			title: "Upgrade your Jewelry"
-			x: 3.0d
-			y: 5.0d
+			dependencies: ["77E446610B522392"]
+			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
+			id: "6F81FCE0DCB18FA5"
+			rewards: [{
+				id: "2BD53F618708AA4A"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
 			shape: "hexagon"
 			subtitle: "Taking it to the next level"
-			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
-			dependencies: ["77E446610B522392"]
-			id: "6F81FCE0DCB18FA5"
 			tasks: [
 				{
 					id: "4E0722E4F7F6B4C3"
-					type: "item"
 					item: "crittersandcompanions:pearl_necklace_2"
+					type: "item"
 				}
 				{
 					id: "192985BC4199139E"
-					type: "item"
 					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2BD53F618708AA4A"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			title: "Upgrade your Jewelry"
+			x: 3.0d
+			y: 5.0d
 		}
 		{
-			title: "The Ultimate Accessory"
-			x: 1.5d
-			y: 5.5d
+			dependencies: ["6F81FCE0DCB18FA5"]
+			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
+			id: "1220403FE4E19BC8"
+			rewards: [{
+				id: "7D50796B6756DF97"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
 			shape: "hexagon"
 			subtitle: "Upgrade your necklace to its final form"
-			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
-			dependencies: ["6F81FCE0DCB18FA5"]
-			id: "1220403FE4E19BC8"
 			tasks: [
 				{
 					id: "21D15C8A119B5605"
-					type: "item"
 					item: "crittersandcompanions:pearl_necklace_3"
+					type: "item"
 				}
 				{
 					id: "55A4F873279A1ADE"
-					type: "item"
 					item: "minecraft:heart_of_the_sea"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7D50796B6756DF97"
-				type: "choice"
-				table_id: 5036677739913042344L
-			}]
+			title: "The Ultimate Accessory"
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			x: 5.0d
-			y: -4.0d
-			shape: "hexagon"
 			description: [
 				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
 				"By firing the Squok like a bow, the player can &6grapple to high places&r or even &6suspend themselves in midair&r with up to 4 tentacles. &6Pressing shift&r will dismount the player from the Squok, and retract the tentacles."
 			]
 			id: "3446350A572822BD"
-			tasks: [{
-				id: "5F1543D4A5A1E017"
-				type: "item"
-				item: {
-					id: "alexsmobs:squid_grapple"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "51413044596B1213"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_slow_falling"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3C8F537B8F3773B3"
-					type: "item"
 					item: {
-						id: "mcsa:harpers_headset_helmet"
 						Count: 1b
+						id: "mcsa:harpers_headset_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -3.5d
-			y: 1.0d
 			shape: "hexagon"
-			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
-			id: "2DEB453D0D763837"
 			tasks: [{
-				id: "461FBDC5C7F60A0D"
-				type: "item"
+				id: "5F1543D4A5A1E017"
 				item: {
-					id: "alexsmobs:flying_fish_boots"
 					Count: 1b
+					id: "alexsmobs:squid_grapple"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "24319E394A4695FC"
-				type: "loot"
-				table_id: 6941837675484043489L
-			}]
+			x: 5.0d
+			y: -4.0d
 		}
 		{
-			title: "About Spawners"
-			x: -2.5d
-			y: -5.5d
+			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
+			id: "2DEB453D0D763837"
+			rewards: [{
+				id: "24319E394A4695FC"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
 			shape: "hexagon"
-			subtitle: "A different kind of farming"
+			tasks: [{
+				id: "461FBDC5C7F60A0D"
+				item: {
+					Count: 1b
+					id: "alexsmobs:flying_fish_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
 			description: [
 				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
 				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
 			]
 			id: "5D7F2F7250CB2ECB"
+			rewards: [{
+				id: "07D7E299FE106861"
+				item: "minecraft:zombified_piglin_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A different kind of farming"
 			tasks: [{
 				id: "6597472A2407A2D2"
-				type: "item"
 				item: {
-					id: "spawnermod:spawner_key"
 					Count: 1b
+					id: "spawnermod:spawner_key"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "07D7E299FE106861"
 				type: "item"
-				item: "minecraft:zombified_piglin_spawn_egg"
 			}]
+			title: "About Spawners"
+			x: -2.5d
+			y: -5.5d
 		}
 		{
+			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
+			id: "7AAD7513F2D067D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EB05BE06489B33E"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Touhou-tem of Undying"
+			tasks: [{
+				id: "7379F20CFDE39949"
+				item: "minecraft:totem_of_undying"
+				only_from_crafting: true
+				type: "item"
+			}]
 			title: "Craft a Totem of Undying"
 			x: -4.0d
 			y: -6.5d
-			shape: "hexagon"
-			subtitle: "Touhou-tem of Undying"
-			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
-			id: "7AAD7513F2D067D8"
-			tasks: [{
-				id: "7379F20CFDE39949"
-				type: "item"
-				item: "minecraft:totem_of_undying"
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "7EB05BE06489B33E"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
 		}
 		{
-			x: -5.0d
-			y: -4.5d
-			shape: "hexagon"
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
 				"To do so will cost some &bExperience&r. And most &aCurses cannot be removed&r."
 			]
 			id: "195EC2CC57B6A75F"
+			rewards: [{
+				count: 10
+				id: "4A1B117A5FC22BE9"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "52F78AFB393CB21D"
-				type: "item"
 				item: "disenchanting:disenchanter"
-			}]
-			rewards: [{
-				id: "4A1B117A5FC22BE9"
 				type: "item"
-				item: "minecraft:book"
-				count: 10
 			}]
+			x: -5.0d
+			y: -4.5d
 		}
 		{
-			x: -7.0d
-			y: 3.0d
-			shape: "octagon"
 			description: [
 				"A full set of Netherite Armor takes..."
 				"*counts on fingers*..."
@@ -532,417 +529,411 @@
 				"At least four &bNetherite&r. Anyway the important thing isn't the math, just go do it and take the reward."
 			]
 			id: "0AF3D2A62E51E5B2"
-			tasks: [{
-				id: "5862E16DD2298F30"
-				type: "advancement"
-				advancement: "minecraft:nether/netherite_armor"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "3B6DD5B336297788"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "3B6DD5B336297788"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
-					id: "0AACAD60BBA977AF"
-					type: "item"
-					item: "minecraft:netherite_scrap"
 					count: 3
+					id: "0AACAD60BBA977AF"
+					item: "minecraft:netherite_scrap"
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "5862E16DD2298F30"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 3.0d
 		}
 		{
-			title: "The Full Set: Warden Armor"
-			x: -2.5d
-			y: 1.0d
-			shape: "hexagon"
 			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
 			id: "105A64813A4BA847"
-			tasks: [
-				{
-					id: "4BF9840656988012"
-					type: "item"
-					item: {
-						id: "deeperdarker:warden_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "55B43328CD1EEB18"
-					type: "item"
-					item: {
-						id: "deeperdarker:warden_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "74804B91154AF65D"
-					type: "item"
-					item: {
-						id: "deeperdarker:warden_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "29C593996336859D"
-					type: "item"
-					item: {
-						id: "deeperdarker:warden_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "130E35D4FE0C4F2E"
-					type: "item"
 					item: {
-						id: "mcsa:prismarine_soldier_helmet"
 						Count: 1b
+						id: "mcsa:prismarine_soldier_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "72003DC25FAB23D4"
-					type: "item"
 					item: {
-						id: "mcsa:prismarine_soldier_chestplate"
 						Count: 1b
+						id: "mcsa:prismarine_soldier_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3D9165D1E2027B66"
-					type: "item"
 					item: {
-						id: "mcsa:prismarine_soldier_leggings"
 						Count: 1b
+						id: "mcsa:prismarine_soldier_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7CFC9A8E3A1A7542"
-					type: "item"
 					item: {
-						id: "mcsa:prismarine_soldier_boots"
 						Count: 1b
+						id: "mcsa:prismarine_soldier_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "5F0E393288BFFE4B"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "5F0E393288BFFE4B"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4BF9840656988012"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55B43328CD1EEB18"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74804B91154AF65D"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29C593996336859D"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Warden Armor"
+			x: -2.5d
+			y: 1.0d
 		}
 		{
-			title: "The Full Set: Diamond Tools"
-			x: 4.0d
-			y: -6.0d
-			shape: "hexagon"
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
 			id: "306EAF9F6F78ACC1"
+			rewards: [
+				{
+					id: "04223EB2A64EE17D"
+					item: {
+						Count: 1b
+						id: "mcsa:champion_petra_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ADF145759143649"
+					item: {
+						Count: 1b
+						id: "mcsa:champion_petra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "151128DCF4C8B383"
+					item: {
+						Count: 1b
+						id: "mcsa:champion_petra_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CBE581CA0BBF845"
+					item: {
+						Count: 1b
+						id: "mcsa:champion_petra_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "5FA2D7EE7493AAD2"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_sword"
 						Count: 1b
+						id: "minecraft:diamond_sword"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "677A9FDF825367EA"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_shovel"
 						Count: 1b
+						id: "minecraft:diamond_shovel"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "24F596423DD63897"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_pickaxe"
 						Count: 1b
+						id: "minecraft:diamond_pickaxe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "27B0A1C92FB6158C"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_axe"
 						Count: 1b
+						id: "minecraft:diamond_axe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0C16903F22815CD8"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_hoe"
 						Count: 1b
+						id: "minecraft:diamond_hoe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7E64A2B8734B6083"
-					type: "item"
-					title: "Any #crafttweaker:diaknife"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "crafttweaker:diaknife"
 						}
 					}
+					title: "Any #crafttweaker:diaknife"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "04223EB2A64EE17D"
-					type: "item"
-					item: {
-						id: "mcsa:champion_petra_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0ADF145759143649"
-					type: "item"
-					item: {
-						id: "mcsa:champion_petra_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "151128DCF4C8B383"
-					type: "item"
-					item: {
-						id: "mcsa:champion_petra_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4CBE581CA0BBF845"
-					type: "item"
-					item: {
-						id: "mcsa:champion_petra_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			title: "The Full Set: Diamond Tools"
+			x: 4.0d
+			y: -6.0d
 		}
 		{
-			title: "The Full Set: Netherite Tools"
-			x: 4.5d
-			y: -5.0d
-			shape: "hexagon"
 			description: ["A full set of &bNetherite Tools&r, well! That's an achievement to be lauded. Congratulations!"]
 			id: "6C413B091C8DBE2A"
-			tasks: [
-				{
-					id: "3E7F57706F13DB80"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "57F7EB2544598AD8"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5740CE80997782D8"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "048B165BDB027012"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3602A1F61BB59C3C"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "25F3749D794D7F62"
-					type: "item"
-					item: {
-						id: "farmersdelight:netherite_knife"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "18DD9DADC52A6FCE"
-					type: "item"
 					item: {
-						id: "mcsa:adamantium_impervium_helmet"
 						Count: 1b
+						id: "mcsa:adamantium_impervium_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3979A80902DE9C71"
-					type: "item"
 					item: {
-						id: "mcsa:adamantium_impervium_chestplate"
 						Count: 1b
+						id: "mcsa:adamantium_impervium_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7714C8B0E402A80D"
-					type: "item"
 					item: {
-						id: "mcsa:adamantium_impervium_leggings"
 						Count: 1b
+						id: "mcsa:adamantium_impervium_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "453C465CF46BF10D"
-					type: "item"
 					item: {
-						id: "mcsa:adamantium_impervium_boots"
 						Count: 1b
+						id: "mcsa:adamantium_impervium_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3E7F57706F13DB80"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57F7EB2544598AD8"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5740CE80997782D8"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "048B165BDB027012"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3602A1F61BB59C3C"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25F3749D794D7F62"
+					item: {
+						Count: 1b
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Netherite Tools"
+			x: 4.5d
+			y: -5.0d
 		}
 		{
-			x: -3.0d
-			y: -6.5d
-			shape: "hexagon"
 			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
 			id: "3FFC3D4F00661CA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68F0DB3E444E7A5B"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7385F6D78E988F5F"
-				type: "item"
 				item: {
-					id: "alexsmobs:vine_lasso"
 					Count: 1b
+					id: "alexsmobs:vine_lasso"
 					tag: {
 						Swinging: 0b
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "68F0DB3E444E7A5B"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 7049021818423122779L
-			}]
+			x: -3.0d
+			y: -6.5d
 		}
 		{
-			title: "Build a Trident"
-			x: 5.0d
-			y: -6.0d
-			shape: "hexagon"
 			description: [
 				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
 				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
 			]
 			id: "6A3F5153FB6473E1"
-			tasks: [{
-				id: "7F7CAA3B73FD4E69"
-				type: "item"
-				item: "bettertridents:trident_fragment"
-			}]
 			rewards: [
 				{
 					id: "06106BE5551131A3"
@@ -950,1497 +941,1501 @@
 					xp_levels: 5
 				}
 				{
-					id: "69C5661F50A09166"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "69C5661F50A09166"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F7CAA3B73FD4E69"
+				item: "bettertridents:trident_fragment"
+				type: "item"
+			}]
+			title: "Build a Trident"
+			x: 5.0d
+			y: -6.0d
 		}
 		{
-			title: "White Flag"
-			x: 3.0d
-			y: 1.0d
-			shape: "octagon"
 			description: [
 				"Reduces both &aincoming and &doutgoing&a damage&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "47FD547C85F350BB"
-			tasks: [{
-				id: "5A4778CD78BCEF2C"
-				type: "advancement"
-				advancement: "majruszsaccessories:white_flag"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "5BE9A0356326EF9D"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "5BE9A0356326EF9D"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "08A4ECE4AC4E37BB"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:white_flag"
 						Count: 1b
+						id: "majruszsaccessories:white_flag"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:white_flag"
+				criterion: ""
+				id: "5A4778CD78BCEF2C"
+				type: "advancement"
+			}]
+			title: "White Flag"
+			x: 3.0d
+			y: 1.0d
 		}
 		{
-			title: "Adventurer's Guide"
-			x: 3.0d
-			y: 3.0d
-			shape: "octagon"
 			description: [
 				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "20B71AB01AD6CDE6"
-			tasks: [{
-				id: "54FC2ECD0C25897E"
-				type: "advancement"
-				advancement: "majruszsaccessories:adventurers_guide"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "34FD7AD6B6E9FC2F"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "34FD7AD6B6E9FC2F"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "18FE49BCB7956324"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:adventurers_guide"
 						Count: 1b
+						id: "majruszsaccessories:adventurers_guide"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:adventurers_guide"
+				criterion: ""
+				id: "54FC2ECD0C25897E"
+				type: "advancement"
+			}]
+			title: "Adventurer's Guide"
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			title: "Angler's Trophy"
-			x: 4.0d
-			y: 1.5d
-			shape: "octagon"
 			description: [
 				"Increases your &aluck while fishing&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "28402A0A69E7B8AA"
-			tasks: [{
-				id: "139A3A2EED7DBF24"
-				type: "advancement"
-				advancement: "majruszsaccessories:anglers_trophy"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "4BC2AE12BE671E2F"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4BC2AE12BE671E2F"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "1CCBBEEBAF8AEC38"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:anglers_trophy"
 						Count: 1b
+						id: "majruszsaccessories:anglers_trophy"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:anglers_trophy"
+				criterion: ""
+				id: "139A3A2EED7DBF24"
+				type: "advancement"
+			}]
+			title: "Angler's Trophy"
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			title: "Certificate of Taming"
-			x: 5.0d
-			y: 1.0d
-			shape: "octagon"
 			description: [
 				"Improves the stats of &amounts and pets&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "2A8267EAD14040DB"
-			tasks: [{
-				id: "0F3385E13DAB381A"
-				type: "advancement"
-				advancement: "majruszsaccessories:certificate_of_taming"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "5801DE974396B99A"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "5801DE974396B99A"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "689C8455157132A7"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:certificate_of_taming"
 						Count: 1b
+						id: "majruszsaccessories:certificate_of_taming"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:certificate_of_taming"
+				criterion: ""
+				id: "0F3385E13DAB381A"
+				type: "advancement"
+			}]
+			title: "Certificate of Taming"
+			x: 5.0d
+			y: 1.0d
 		}
 		{
-			title: "Overworld Rune"
-			x: 5.0d
-			y: 2.0d
-			shape: "octagon"
 			description: [
 				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "0C3C0190EB3C6A5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B90E65FF28AC781"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
 			tasks: [{
-				id: "79D1E0824D9890A4"
-				type: "advancement"
 				advancement: "majruszsaccessories:overworld_rune"
 				criterion: ""
+				id: "79D1E0824D9890A4"
+				type: "advancement"
 			}]
-			rewards: [{
-				id: "3B90E65FF28AC781"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			title: "Overworld Rune"
+			x: 5.0d
+			y: 2.0d
 		}
 		{
-			title: "Idol of Fertility"
-			x: 4.0d
-			y: 2.5d
-			shape: "octagon"
 			description: [
 				"Bred animals &asometimes produce twins&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "5D7AFC213FB3DCF8"
-			tasks: [{
-				id: "39C33F1607CC6BAB"
-				type: "advancement"
-				advancement: "majruszsaccessories:idol_of_fertility"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "2542795296DFBBF8"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "2542795296DFBBF8"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "6DE448538B4F9E94"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:idol_of_fertility"
 						Count: 1b
+						id: "majruszsaccessories:idol_of_fertility"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:idol_of_fertility"
+				criterion: ""
+				id: "39C33F1607CC6BAB"
+				type: "advancement"
+			}]
+			title: "Idol of Fertility"
+			x: 4.0d
+			y: 2.5d
 		}
 		{
-			title: "Lucky Rock"
-			x: 3.0d
-			y: 2.0d
-			shape: "octagon"
 			description: [
 				"Occasionally grants &abetter loot while mining&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "76559362F9123020"
-			tasks: [{
-				id: "1E8642D6E089F24A"
-				type: "advancement"
-				advancement: "majruszsaccessories:lucky_rock"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "4713BC72D79D6310"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4713BC72D79D6310"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "0DCF79EDC94D384F"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:lucky_rock"
 						Count: 1b
+						id: "majruszsaccessories:lucky_rock"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:lucky_rock"
+				criterion: ""
+				id: "1E8642D6E089F24A"
+				type: "advancement"
+			}]
+			title: "Lucky Rock"
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			title: "Secret Ingredient"
-			x: 5.0d
-			y: 3.0d
-			shape: "octagon"
 			description: [
 				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "17670074E6ECFB57"
-			tasks: [{
-				id: "096A41A47D35EBA4"
-				type: "advancement"
-				advancement: "majruszsaccessories:secret_ingredient"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "192038D70B752CFA"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "192038D70B752CFA"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "7B846A8506266249"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:secret_ingredient"
 						Count: 1b
+						id: "majruszsaccessories:secret_ingredient"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:secret_ingredient"
+				criterion: ""
+				id: "096A41A47D35EBA4"
+				type: "advancement"
+			}]
+			title: "Secret Ingredient"
+			x: 5.0d
+			y: 3.0d
 		}
 		{
-			title: "Tamed Potato Beetle"
-			x: 4.0d
-			y: 3.5d
-			shape: "octagon"
 			description: [
 				"Occasionally grants &adouble crops&r when harvesting."
 				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
 			]
 			id: "44FE4CEFBB14CB63"
-			tasks: [{
-				id: "2E11BE21BD1C4CC8"
-				type: "advancement"
-				advancement: "majruszsaccessories:tamed_potato_beetle"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "02D0FBD2E1820A3E"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "02D0FBD2E1820A3E"
 					table_id: 6941837675484043489L
+					type: "loot"
 				}
 				{
 					id: "7BC8323F360678B6"
-					type: "item"
 					item: {
-						id: "majruszsaccessories:tamed_potato_beetle"
 						Count: 1b
+						id: "majruszsaccessories:tamed_potato_beetle"
 						tag: {
 							Bonus: {
 								Value: 0.0f
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsaccessories:tamed_potato_beetle"
+				criterion: ""
+				id: "2E11BE21BD1C4CC8"
+				type: "advancement"
+			}]
+			title: "Tamed Potato Beetle"
+			x: 4.0d
+			y: 3.5d
 		}
 		{
-			title: "The Full Set: Iron Tools"
-			x: 3.5d
-			y: -5.0d
-			shape: "hexagon"
 			description: ["Full Iron tools! Feels good to make progress, huh? Congrats!"]
 			id: "78311C38AC02A32C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5813058479DED3FA"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "1A963A3A00CDCB9E"
-					type: "item"
 					item: {
-						id: "minecraft:iron_sword"
 						Count: 1b
+						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7D155EC73A5FA616"
-					type: "item"
 					item: {
-						id: "minecraft:iron_shovel"
 						Count: 1b
+						id: "minecraft:iron_shovel"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1AA659C76DB35CC8"
-					type: "item"
 					item: {
-						id: "minecraft:iron_pickaxe"
 						Count: 1b
+						id: "minecraft:iron_pickaxe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "70B72C634AB9F7BF"
-					type: "item"
 					item: {
-						id: "minecraft:iron_axe"
 						Count: 1b
+						id: "minecraft:iron_axe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3189EC4EF05E0F79"
-					type: "item"
 					item: {
-						id: "minecraft:iron_hoe"
 						Count: 1b
+						id: "minecraft:iron_hoe"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2252548D200A9F04"
-					type: "item"
 					item: {
-						id: "farmersdelight:iron_knife"
 						Count: 1b
+						id: "farmersdelight:iron_knife"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5813058479DED3FA"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			title: "The Full Set: Iron Tools"
+			x: 3.5d
+			y: -5.0d
 		}
 		{
-			title: "The Full Set: Iron Armor"
-			x: -2.0d
-			y: 2.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bIron Armor&r. Hey, it's better than Leather!"]
 			id: "3B1C91A3CD3EC221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "043BAFB961EC4E7B"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4C91596CF36B309D"
-					type: "item"
 					item: {
-						id: "minecraft:iron_helmet"
 						Count: 1b
+						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1D7478CEBC011BDD"
-					type: "item"
 					item: {
-						id: "minecraft:iron_chestplate"
 						Count: 1b
+						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "06DD8593134C5160"
-					type: "item"
 					item: {
-						id: "minecraft:iron_leggings"
 						Count: 1b
+						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "592BB6112C0AA480"
-					type: "item"
 					item: {
-						id: "minecraft:iron_boots"
 						Count: 1b
+						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "043BAFB961EC4E7B"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			title: "The Full Set: Iron Armor"
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			title: "The Full Set: Steeleaf Tools"
-			x: 2.5d
-			y: -5.0d
-			shape: "hexagon"
 			description: ["Did you know that &bSteeleaf tools&r come &apre-enchanted when you craft them&r? Pretty cool stuff."]
 			id: "6034E62A035F4F68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CB7683DA395CAF5"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1932DF187F981A97"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "336A1675A41F1E50"
-					type: "item"
 					item: {
-						id: "delightful:steeleaf_knife"
 						Count: 1b
+						id: "delightful:steeleaf_knife"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:smite"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "31BA0F4F90302E34"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_sword"
 						Count: 1b
+						id: "twilightforest:steeleaf_sword"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:looting"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "563AFED6BFA97CAB"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_shovel"
 						Count: 1b
+						id: "twilightforest:steeleaf_shovel"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:efficiency"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4A02F9DCC320A0DB"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_pickaxe"
 						Count: 1b
+						id: "twilightforest:steeleaf_pickaxe"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:fortune"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "411C0A50EB45E944"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_axe"
 						Count: 1b
+						id: "twilightforest:steeleaf_axe"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:efficiency"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3B8AD95B94A44531"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_hoe"
 						Count: 1b
+						id: "twilightforest:steeleaf_hoe"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 1s
 								id: "minecraft:efficiency"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "7CB7683DA395CAF5"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 5036677739913042344L
-				}
-				{
-					id: "1932DF187F981A97"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 2688518876927697228L
-				}
-			]
+			title: "The Full Set: Steeleaf Tools"
+			x: 2.5d
+			y: -5.0d
 		}
 		{
-			title: "The Full Set: Steeleaf Armor"
-			x: -3.0d
-			y: 2.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bSteeleaf Armor&r from the &dTwilight Forest&r."]
 			id: "613C677D2D70278F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E27634C83CF6ADD"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "157534B164962891"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "01AE8D45AB950B7B"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_helmet"
 						Count: 1b
+						id: "twilightforest:steeleaf_helmet"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:projectile_protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "07921846B15D7D75"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_chestplate"
 						Count: 1b
+						id: "twilightforest:steeleaf_chestplate"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:blast_protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "46CC19619825F909"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_leggings"
 						Count: 1b
+						id: "twilightforest:steeleaf_leggings"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:fire_protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "74DF2D4AD0171E78"
-					type: "item"
 					item: {
-						id: "twilightforest:steeleaf_boots"
 						Count: 1b
+						id: "twilightforest:steeleaf_boots"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:feather_falling"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "6E27634C83CF6ADD"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 8808494820591225409L
-				}
-				{
-					id: "157534B164962891"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 2688518876927697228L
-				}
-			]
+			title: "The Full Set: Steeleaf Armor"
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			title: "The Full Set: Golden Glory"
-			x: 3.0d
-			y: -4.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
 			id: "63244E494B2159D8"
-			tasks: [
-				{
-					id: "4431FD9F2261940D"
-					type: "item"
-					item: {
-						id: "minecraft:golden_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "58294C168F4C9EB9"
-					type: "item"
-					item: {
-						id: "minecraft:golden_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "74B9321ADDB55D43"
-					type: "item"
-					item: {
-						id: "minecraft:golden_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6B4FD1700E953829"
-					type: "item"
-					item: {
-						id: "minecraft:golden_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "69117BF9195BCB02"
-					type: "item"
-					item: {
-						id: "minecraft:golden_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4E8B34A475718BA8"
-					type: "item"
-					item: {
-						id: "minecraft:golden_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4EDBB90D229A9112"
-					type: "item"
-					item: {
-						id: "minecraft:golden_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "559CE8AB53CB8345"
-					type: "item"
-					item: {
-						id: "minecraft:golden_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "77CB6B7159A743CA"
-					type: "item"
-					item: {
-						id: "minecraft:golden_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2F7B26FCF44E9AC8"
-					type: "item"
-					item: {
-						id: "farmersdelight:golden_knife"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "5476C7B9652064BD"
-					type: "item"
 					item: {
-						id: "mcsa:golden_goliath_boots"
 						Count: 1b
+						id: "mcsa:golden_goliath_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3DA516992D1BFEAD"
-					type: "item"
 					item: {
-						id: "mcsa:golden_goliath_chestplate"
 						Count: 1b
+						id: "mcsa:golden_goliath_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7A5E08DFAA805D14"
-					type: "item"
 					item: {
-						id: "mcsa:golden_goliath_leggings"
 						Count: 1b
+						id: "mcsa:golden_goliath_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "26DD0CB2B8A63897"
-					type: "item"
 					item: {
-						id: "mcsa:golden_goliath_helmet"
 						Count: 1b
+						id: "mcsa:golden_goliath_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4431FD9F2261940D"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58294C168F4C9EB9"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B9321ADDB55D43"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4FD1700E953829"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69117BF9195BCB02"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E8B34A475718BA8"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EDBB90D229A9112"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559CE8AB53CB8345"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77CB6B7159A743CA"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F7B26FCF44E9AC8"
+					item: {
+						Count: 1b
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Golden Glory"
+			x: 3.0d
+			y: -4.0d
 		}
 		{
-			title: "The Full Set: Diamond Armor"
-			x: -2.5d
-			y: 3.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bDiamond Armor&r to keep those cute cheeks of yours safe and sound."]
 			id: "29A6066615C12448"
+			rewards: [{
+				count: 4
+				id: "2E19F4E374E18EE9"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "266F1E81111F0488"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_helmet"
 						Count: 1b
+						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5C5B71E86C05CB1D"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_chestplate"
 						Count: 1b
+						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2B7DCAEF00E69306"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_leggings"
 						Count: 1b
+						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1A894EF10AC95B18"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_boots"
 						Count: 1b
+						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2E19F4E374E18EE9"
-				type: "item"
-				item: "minecraft:ancient_debris"
-				count: 4
-			}]
+			title: "The Full Set: Diamond Armor"
+			x: -2.5d
+			y: 3.0d
 		}
 		{
-			title: "Protect Yourself from Potions"
-			x: 4.0d
-			y: -4.0d
-			shape: "hexagon"
 			description: ["Ever wished you could &ashield yourself from thrown Potions&r? Well, you can. Just bring your trusty &bUmbrella!&r."]
 			id: "14BCF2740DE93BD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D753C0CE2A197A6"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0EE77DD9D1FEA3A8"
-				type: "item"
-				title: "Any #crafttweaker:umbrellas"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:umbrellas"
 					}
 				}
+				title: "Any #crafttweaker:umbrellas"
+				type: "item"
 			}]
-			rewards: [{
-				id: "3D753C0CE2A197A6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			title: "Protect Yourself from Potions"
+			x: 4.0d
+			y: -4.0d
 		}
 		{
-			title: "Obtain Tarot Cards"
-			x: 5.0d
-			y: 5.0d
-			shape: "hexagon"
-			subtitle: "what's in the cards for you?"
 			description: [
 				"One of the treasured items you can find in loot chests are &bTarot Cards&r. Each grants a &astrong buff while held&r in your inventory."
 				"Can you find the whole Arcana?"
 			]
 			id: "66BFC51EB4E7FDFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DCF345B1E63D9E3"
+					table_id: 8891211325592123080L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55872EB8DC922282"
+					table_id: 7265408724434505998L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "what's in the cards for you?"
 			tasks: [{
 				id: "7EEC79529BBFE411"
-				type: "item"
-				title: "Any #tarotcards:tarot_cards"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "tarotcards:tarot_cards"
 					}
 				}
+				title: "Any #tarotcards:tarot_cards"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5DCF345B1E63D9E3"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8891211325592123080L
-				}
-				{
-					id: "55872EB8DC922282"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7265408724434505998L
-				}
-			]
+			title: "Obtain Tarot Cards"
+			x: 5.0d
+			y: 5.0d
 		}
 		{
-			x: 6.5d
-			y: 5.5d
-			shape: "hexagon"
-			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
 			dependencies: ["66BFC51EB4E7FDFB"]
+			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
 			id: "5107C3DE453627D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F512599C36DE552"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "274933D9ACA40CD2"
-				type: "item"
 				item: {
-					id: "tarotcards:tarot_deck"
 					Count: 1b
 					ForgeCaps: {
 						Parent: {
-							Size: 22
 							Items: [ ]
+							Size: 22
 						}
 					}
+					id: "tarotcards:tarot_deck"
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "0F512599C36DE552"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5161092699925703455L
-			}]
+			x: 6.5d
+			y: 5.5d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "5161948053596F24"
 			invisible: true
 			secret: true
-			id: "5161948053596F24"
 			tasks: [{
 				id: "10E8EC7751F2D54D"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: false
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: -5.0d
-			y: -6.5d
-			shape: "hexagon"
 			description: ["The &bStink Ray&r can be used to create a disturbance among creatures. While passive mobs will flee the scent, &aneutral or hostile mobs will begin attacking the offending target&r."]
 			id: "64B6E2E1C384286C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19D0A1A4EECDFEDD"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "61A399A8C9C36074"
-				type: "item"
 				item: {
-					id: "alexsmobs:stink_ray"
 					Count: 1b
+					id: "alexsmobs:stink_ray"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "19D0A1A4EECDFEDD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			x: -5.0d
+			y: -6.5d
 		}
 		{
-			title: "Tarot Trading"
-			x: 6.0d
-			y: 4.0d
-			shape: "pentagon"
-			subtitle: "another chance at justice"
+			can_repeat: true
+			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
 				"Hold 2 Tarot Cards in your inventory and turn in this quest to receive a random Tarot card in exchange. You may get lucky!"
 				"This is for players who have collected many duplicates and want a shot at a different type. &dThis quest is repeatable&r."
 			]
-			dependencies: ["66BFC51EB4E7FDFB"]
-			can_repeat: true
 			id: "20B24E5006BC7D1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520EC71AF3CC06A9"
+				table_id: 7265408724434505998L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "another chance at justice"
 			tasks: [{
+				consume_items: true
+				count: 2L
 				id: "6C6CC6A2E015B887"
-				type: "item"
-				title: "Any #tarotcards:tarot_cards"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "tarotcards:tarot_cards"
 					}
 				}
-				count: 2L
-				consume_items: true
+				title: "Any #tarotcards:tarot_cards"
+				type: "item"
 			}]
-			rewards: [{
-				id: "520EC71AF3CC06A9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7265408724434505998L
-			}]
+			title: "Tarot Trading"
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			title: "The Full Set: Ironwood Armor"
-			x: -1.5d
-			y: 3.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bIronwood Armor&r from the &cTwilight Forest&r."]
 			id: "2F0A831353FB38B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "795550A9EA41F849"
+				table_id: 2688518876927697228L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7568897D04A7CF2E"
-					type: "item"
 					item: {
-						id: "twilightforest:ironwood_helmet"
 						Count: 1b
+						id: "twilightforest:ironwood_helmet"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 1s
 								id: "minecraft:aqua_affinity"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "615758BEA9E22BDC"
-					type: "item"
 					item: {
-						id: "twilightforest:ironwood_chestplate"
 						Count: 1b
+						id: "twilightforest:ironwood_chestplate"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 1s
 								id: "minecraft:protection"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1132F59D52C7A138"
-					type: "item"
 					item: {
-						id: "twilightforest:ironwood_leggings"
 						Count: 1b
+						id: "twilightforest:ironwood_leggings"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 1s
 								id: "minecraft:protection"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6A1C757B99883BEE"
-					type: "item"
 					item: {
-						id: "twilightforest:ironwood_boots"
 						Count: 1b
+						id: "twilightforest:ironwood_boots"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 1s
 								id: "minecraft:feather_falling"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "795550A9EA41F849"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Ironwood Armor"
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			title: "The Full Set: Knightmetal"
-			x: -4.0d
-			y: 2.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bKnightmetal Armor&r from the &cTwilight Forest&r."]
 			id: "1A3BD31918571FA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "374DD5C850FCAC63"
+				table_id: 2688518876927697228L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "446B3C0A55FF8510"
-					type: "item"
 					item: {
-						id: "twilightforest:knightmetal_helmet"
 						Count: 1b
+						id: "twilightforest:knightmetal_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5392BBDC0C7DA81C"
-					type: "item"
 					item: {
-						id: "twilightforest:knightmetal_chestplate"
 						Count: 1b
+						id: "twilightforest:knightmetal_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "13AD9E60BC194329"
-					type: "item"
 					item: {
-						id: "twilightforest:knightmetal_leggings"
 						Count: 1b
+						id: "twilightforest:knightmetal_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "11840E2D96DFDADE"
-					type: "item"
 					item: {
-						id: "twilightforest:knightmetal_boots"
 						Count: 1b
+						id: "twilightforest:knightmetal_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "374DD5C850FCAC63"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Knightmetal"
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			title: "The Full Set: Naga Scale"
-			x: -3.0d
-			y: 4.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bNaga Scale Armor&r from the &cTwilight Forest&r."]
 			id: "55E21D193564A15D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25BCC5AA95FEC6A2"
+				table_id: 2688518876927697228L
+				type: "loot"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "02AF3B025C0DE59D"
-					type: "item"
 					item: {
-						id: "twilightforest:naga_chestplate"
 						Count: 1b
+						id: "twilightforest:naga_chestplate"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 3s
 								id: "minecraft:fire_protection"
+								lvl: 3s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5B87D6FF86048B75"
-					type: "item"
 					item: {
-						id: "twilightforest:naga_leggings"
 						Count: 1b
+						id: "twilightforest:naga_leggings"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 3s
 								id: "minecraft:protection"
+								lvl: 3s
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "25BCC5AA95FEC6A2"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Naga Scale"
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			title: "The Full Set: Fiery"
-			x: -3.5d
-			y: 3.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bFiery Metal Armor&r from the &cTwilight Forest&r."]
 			id: "2FD288BBE179EE79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257876E4ED81AD41"
+				table_id: 2688518876927697228L
+				type: "loot"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0E4FA6159044D9A4"
-					type: "item"
 					item: {
-						id: "twilightforest:fiery_helmet"
 						Count: 1b
+						id: "twilightforest:fiery_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "07F6FAD90D9E8CBD"
-					type: "item"
 					item: {
-						id: "twilightforest:fiery_chestplate"
 						Count: 1b
+						id: "twilightforest:fiery_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "42BFBF6C9B26FD53"
-					type: "item"
 					item: {
-						id: "twilightforest:fiery_leggings"
 						Count: 1b
+						id: "twilightforest:fiery_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "66377D28E10E01CE"
-					type: "item"
 					item: {
-						id: "twilightforest:fiery_boots"
 						Count: 1b
+						id: "twilightforest:fiery_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "257876E4ED81AD41"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Fiery"
+			x: -3.5d
+			y: 3.0d
 		}
 		{
-			title: "The Full Set: Phantom"
-			x: -2.0d
-			y: 4.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bPhantom Knight Armor&r from the &cTwilight Forest&r."]
 			id: "6B6E01618D3B5999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7370B2D8F5A2E9F3"
+				table_id: 2688518876927697228L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4D7E3BFABB32F26F"
-					type: "item"
 					item: {
-						id: "twilightforest:phantom_helmet"
 						Count: 1b
+						id: "twilightforest:phantom_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6AF38C1CD9147286"
-					type: "item"
 					item: {
-						id: "twilightforest:phantom_chestplate"
 						Count: 1b
+						id: "twilightforest:phantom_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7370B2D8F5A2E9F3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Phantom"
+			x: -2.0d
+			y: 4.0d
 		}
 		{
-			title: "The Full Set: Arctic Fur Armor"
-			x: -5.0d
-			y: 2.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bArctic Fur Armor&r from the Yeti caves in &cTwilight Forest&r."]
 			id: "360508D2A7ACB5D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58AA97376CEE5824"
+				table_id: 2688518876927697228L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "788B3B9913981F11"
-					type: "item"
 					item: {
-						id: "twilightforest:arctic_helmet"
 						Count: 1b
+						id: "twilightforest:arctic_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "165FE1693A653871"
-					type: "item"
 					item: {
-						id: "twilightforest:arctic_chestplate"
 						Count: 1b
+						id: "twilightforest:arctic_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "133500C05D06FDCE"
-					type: "item"
 					item: {
-						id: "twilightforest:arctic_leggings"
 						Count: 1b
+						id: "twilightforest:arctic_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "73232D74AC81AF8F"
-					type: "item"
 					item: {
-						id: "twilightforest:arctic_boots"
 						Count: 1b
+						id: "twilightforest:arctic_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "58AA97376CEE5824"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Set: Arctic Fur Armor"
+			x: -5.0d
+			y: 2.0d
 		}
 		{
-			title: "The Full Seti: The Yeti"
-			x: -4.5d
-			y: 1.0d
-			shape: "hexagon"
 			description: ["Obtain a full set of &bAlpha Yeti Armor&r from the &cTwilight Forest&r."]
 			id: "3BE446AB23DAFFFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38F40BF04713CDFE"
+				table_id: 2688518876927697228L
+				type: "loot"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "754F3EFCBEF22877"
-					type: "item"
 					item: {
-						id: "twilightforest:yeti_helmet"
 						Count: 1b
+						id: "twilightforest:yeti_helmet"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0FCA4A428B2408F2"
-					type: "item"
 					item: {
-						id: "twilightforest:yeti_chestplate"
 						Count: 1b
+						id: "twilightforest:yeti_chestplate"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "77E89B5926621E80"
-					type: "item"
 					item: {
-						id: "twilightforest:yeti_leggings"
 						Count: 1b
+						id: "twilightforest:yeti_leggings"
 						tag: {
 							Damage: 0
 							Enchantments: [{
-								lvl: 2s
 								id: "minecraft:protection"
+								lvl: 2s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "55A7F0773495FA3C"
-					type: "item"
 					item: {
-						id: "twilightforest:yeti_boots"
 						Count: 1b
+						id: "twilightforest:yeti_boots"
 						tag: {
 							Damage: 0
 							Enchantments: [
 								{
-									lvl: 2s
 									id: "minecraft:protection"
+									lvl: 2s
 								}
 								{
-									lvl: 4s
 									id: "minecraft:feather_falling"
+									lvl: 4s
 								}
 							]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "38F40BF04713CDFE"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2688518876927697228L
-			}]
+			title: "The Full Seti: The Yeti"
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			title: "Oh my GOD a BACKPACK"
-			x: 1.5d
-			y: 2.5d
-			shape: "hexagon"
-			subtitle: "just what you've always wanted!"
 			description: [
 				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
 				"It can hold a small amount of extra items and &aremains equipped when you die&r."
@@ -2451,32 +2446,32 @@
 				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
 			]
 			id: "7B72E2C06B316F5A"
-			tasks: [{
-				id: "62D500A4711B3B3C"
-				type: "item"
-				item: "backpacked:backpack"
-			}]
 			rewards: [
 				{
-					id: "6FE42AC5E90113D8"
-					type: "item"
-					item: "minecraft:bamboo"
 					count: 15
+					id: "6FE42AC5E90113D8"
+					item: "minecraft:bamboo"
+					type: "item"
 				}
 				{
-					id: "0FB0AAAB64B8D5B7"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0FB0AAAB64B8D5B7"
 					table_id: 6941837675484043489L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "just what you've always wanted!"
+			tasks: [{
+				id: "62D500A4711B3B3C"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			title: "Oh my GOD a BACKPACK"
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			title: "Obtain a Magic Mirror"
-			x: -5.5d
-			y: -5.5d
-			shape: "hexagon"
-			subtitle: "mirror, mirror, on the wall"
 			description: [
 				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
 				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
@@ -2488,164 +2483,169 @@
 				"All the upgrades &acan be combined&r."
 			]
 			id: "4D9EA3886EB6F73A"
-			tasks: [{
-				id: "189F1468E948737D"
-				type: "item"
-				item: "magic_mirror:magic_mirror"
-			}]
 			rewards: [
 				{
 					id: "40AF41A07D7A7188"
-					type: "item"
 					item: "domesticationinnovation:rotten_apple"
+					type: "item"
 				}
 				{
-					id: "2B6408B18ECCA86F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2B6408B18ECCA86F"
 					table_id: 8035711958862449784L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "mirror, mirror, on the wall"
+			tasks: [{
+				id: "189F1468E948737D"
+				item: "magic_mirror:magic_mirror"
+				type: "item"
+			}]
+			title: "Obtain a Magic Mirror"
+			x: -5.5d
+			y: -5.5d
 		}
 		{
-			title: "Customize Your Elytra"
-			x: -3.5d
-			y: -3.5d
-			shape: "hexagon"
 			description: [
 				"Are you tired of the basic Luna Moth &bElytra&r and want to add some more &apizazz&r? &6Place it in a crafting grid&r and you'll get two separate wings from it."
 				"Each &bWing&r can be crafted with &bDye&r or &bBanners&r to take on their appearance."
 				"Be aware that &dModded banner patterns do not work&r!"
 			]
 			id: "14D43F04E15174D2"
+			rewards: [
+				{
+					id: "79673075EEE6BE59"
+					item: "fantasyfurniture:decorations/brewing_cauldron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05ABBF562A1DA539"
+					item: "minecraft:white_banner"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61A1D752FA2618EC"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "55616BD9A6537339"
-				type: "item"
 				item: {
-					id: "customizableelytra:elytra_wing"
 					Count: 1b
+					id: "customizableelytra:elytra_wing"
 					tag: {
 						Damage: 0
 						RepairCost: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "79673075EEE6BE59"
-					type: "item"
-					item: "fantasyfurniture:decorations/brewing_cauldron"
-				}
-				{
-					id: "05ABBF562A1DA539"
-					type: "item"
-					item: "minecraft:white_banner"
-					count: 2
-				}
-				{
-					id: "61A1D752FA2618EC"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 987967038148964353L
-				}
-			]
+			title: "Customize Your Elytra"
+			x: -3.5d
+			y: -3.5d
 		}
 		{
-			x: -6.5d
-			y: 5.5d
-			shape: "hexagon"
 			description: ["Increases &amovement speed&r. Level up by &6traveling on foot!&r"]
 			id: "3BB3A6EFFDC3488E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF6C836DCC39293"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6CD329C1C41E3A3E"
-				type: "item"
 				item: {
-					id: "environmental:wanderer_boots"
 					Count: 1b
+					id: "environmental:wanderer_boots"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "7EF6C836DCC39293"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			x: -6.5d
+			y: 5.5d
 		}
 		{
-			x: -6.0d
-			y: 4.5d
-			shape: "hexagon"
 			description: ["Increases &aReach Distance&r. Level up by &6placing blocks&r!"]
 			id: "703818BD93BEFE6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD819643F74AE8F"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7FD06EE2C0F0B82D"
-				type: "item"
 				item: {
-					id: "environmental:architect_belt"
 					Count: 1b
+					id: "environmental:architect_belt"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "5AD819643F74AE8F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			x: -6.0d
+			y: 4.5d
 		}
 		{
-			x: -5.0d
-			y: 4.5d
-			shape: "hexagon"
 			description: ["Increases your ability to &aremain undetected&r. Level it up by &6killing mobs&r."]
 			id: "6635831904B90118"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41DCC57CAF7369E1"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "712BFD371B2902DF"
-				type: "item"
 				item: {
-					id: "environmental:thief_hood"
 					Count: 1b
+					id: "environmental:thief_hood"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "41DCC57CAF7369E1"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			x: -5.0d
+			y: 4.5d
 		}
 		{
-			x: -5.5d
-			y: 5.5d
-			shape: "hexagon"
 			description: ["The &bHealer's Pouch&r will periodically &agrant you a speed boost&r when you're hit by an enemy. You'll be faster the more hurt you are. Level it up by &6taking damage&r."]
 			id: "55C25ED49FACC6EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17CC9011320AD02B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7B474C85130006C7"
-				type: "item"
 				item: {
-					id: "environmental:healer_pouch"
 					Count: 1b
+					id: "environmental:healer_pouch"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "17CC9011320AD02B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			x: -5.5d
+			y: 5.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Equipment \\& Gear"
 }

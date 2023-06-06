@@ -1,11 +1,11 @@
 {
 	id: "6AF78C0058DC64FC"
-	order_index: 22
-	title: "Ender"
 	loot_size: 1
+	order_index: 22
 	rewards: [
-		{ item: "minecraft:ender_pearl", count: 2 }
+		{ count: 2, item: "minecraft:ender_pearl" }
 		{ item: "supplementaries:enderman_head" }
-		{ item: "minecraft:phantom_membrane", count: 3 }
+		{ count: 3, item: "minecraft:phantom_membrane" }
 	]
+	title: "Ender"
 }

@@ -1,222 +1,220 @@
 {
-	id: "19DEED79E2FA960E"
-	group: "2757402A47D6A081"
-	order_index: 2
-	filename: "create"
-	title: "Create"
-	icon: "create:brass_hand"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "2757402A47D6A081"
+	icon: "create:brass_hand"
+	id: "19DEED79E2FA960E"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcreate.png"
+			rotation: 0.0d
+			width: 25.0d
 			x: 0.0d
 			y: 0.0d
-			width: 25.0d
-			height: 15.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgcreate.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "cottagewitch:textures/underconstructionwip.png"
+			rotation: 0.0d
+			width: 4.0d
 			x: 7.0d
 			y: 5.0d
-			width: 4.0d
-			height: 4.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/underconstructionwip.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Beginning the Create-ive Process"
-			x: -9.0d
-			y: -2.0d
-			shape: "rsquare"
 			description: [
 				"&lCreate&r is an incredible mod focusing on low-tech automation and machinery. I am sure I don't need to explain to you that physics, science, and magic are all closely interrelated. Why not dabble a bit in &atech witchery&r? Unlike many tech mods, the basic energy type Create uses is &arotational force&r, which can be generated in a number of ways."
 				"These quests will help to guide you through the basics, but ultimately the final products will be up to you and your imagination! Thankfully, there is a robust in-game documentation system called &dPondering&r, which can be accessed by &6holding the “w” key down when hovering over an item&r in your inventory or in JEI. Make sure you aren’t typing in a text field first, though!"
 				"To begin with, take this &bWrench&r. You can &6right click on most Create blocks&r to rotate them or alter them in some way. &dWhich side of the block you click on&r determines which way the object rotates. Additionally, you can &6shift right click&r most Create items (and some vanilla, such as levers or hoppers) &ato instantly remove them directly into your inventory&r. An incredibly useful feature!"
 			]
-			size: 2.0d
 			id: "01896E1F4E0B7F2F"
-			tasks: [{
-				id: "22EB54AB0E27E048"
-				type: "checkmark"
-				title: "I'm Ready!"
-			}]
 			rewards: [{
 				id: "295347EC6BB61525"
-				type: "item"
 				item: "create:wrench"
+				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "22EB54AB0E27E048"
+				title: "I'm Ready!"
+				type: "checkmark"
+			}]
+			title: "Beginning the Create-ive Process"
+			x: -9.0d
+			y: -2.0d
 		}
 		{
-			title: "Your First Machine"
-			icon: "create:mechanical_press"
-			x: 0.0d
-			y: -2.0d
+			dependencies: ["090B731F01A14C75"]
 			description: [
 				"One of the first machines you'll want to build is the &bMechanical Press&r. This, well, presses items down to create things like &bBrass and Iron Sheets&r, which you'll need for future projects."
 				"To begin with, make a &bHand Crank&r to power it. Going forward, you'll &aautomate your power&r, but in a pinch, some elbow grease does the trick just as well."
 				"Take this &bIron&r and place it underneath the &bMechanical Press&r."
 			]
-			dependencies: ["090B731F01A14C75"]
+			icon: "create:mechanical_press"
 			id: "21D14DACAA03665A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4009F2AAEF768C00"
+					table_id: 1032206960599939459L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "534A0266C8870158"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "39621A068DC99E2B"
-					type: "item"
 					item: "create:mechanical_press"
+					type: "item"
 				}
 				{
 					id: "299A12CF294CDCB1"
-					type: "item"
 					item: "create:hand_crank"
-				}
-			]
-			rewards: [
-				{
-					id: "4009F2AAEF768C00"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 1032206960599939459L
-				}
-				{
-					id: "534A0266C8870158"
 					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 3
 				}
 			]
+			title: "Your First Machine"
+			x: 0.0d
+			y: -2.0d
 		}
 		{
-			title: "A Better Stone"
-			x: -7.0d
-			y: -2.0d
 			description: [
 				"&bAndesite&r is one of the foundational blocks of beginning your factory. However, though stone by itself is strong, it is not malleable. So, it is best to mix it with &bIron&r to create a more versatile material: &bAndesite Alloy&r."
 				"&bAndesite Alloy&r is used in making both &bShafts&r (which are then used to make &bCogs&r), and also to reinforce stripped logs into &bAndesite Casing&r. Together, these make up the basis of most of the recipes in this mod."
 				"&6Equip these Goggles in your Curio slot&r to &aeasily see detailed information&r about all your machines."
 			]
 			id: "283B3A75443BDA35"
-			tasks: [{
-				id: "5D594104287FDEDE"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4L
-			}]
 			rewards: [
 				{
-					id: "2F4BF3E91CBD171A"
-					type: "item"
-					item: "create:andesite_alloy"
 					count: 10
+					id: "2F4BF3E91CBD171A"
+					item: "create:andesite_alloy"
+					type: "item"
 				}
 				{
 					id: "1C3D47D7F86D1BF9"
-					type: "item"
 					item: "create:goggles"
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 4L
+				id: "5D594104287FDEDE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "A Better Stone"
+			x: -7.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["283B3A75443BDA35"]
+			description: ["&bShafts&r can be used to convey &arotational force&r, and &bCogs&r both &6convey and manipulate&r that force. Many machines have cogs in-built, which require an external &bCog&r to power them. Others can connect to either a &bShaft&r or the side of a &bCog&r."]
+			id: "1EB53FD55A3973BF"
+			rewards: [{
+				count: 10
+				id: "436F62794949962F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B282B1BFCD33D40"
+				item: "create:shaft"
+				type: "item"
+			}]
 			title: "Getting the Shaft"
 			x: -5.0d
 			y: -2.0d
-			description: ["&bShafts&r can be used to convey &arotational force&r, and &bCogs&r both &6convey and manipulate&r that force. Many machines have cogs in-built, which require an external &bCog&r to power them. Others can connect to either a &bShaft&r or the side of a &bCog&r."]
-			dependencies: ["283B3A75443BDA35"]
-			id: "1EB53FD55A3973BF"
-			tasks: [{
-				id: "1B282B1BFCD33D40"
-				type: "item"
-				item: "create:shaft"
-			}]
-			rewards: [{
-				id: "436F62794949962F"
-				type: "item"
-				item: "create:shaft"
-				count: 10
-			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
 				"The way that &bCogs&r connect is fairly simple: &bSmall Cogs&r can connect in a + pattern (ie, on the cardinal directional sides, as well as at the shaft). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
 				"If you connect the shafts of a &bSmall&r and then a &bLarge Cog&r, it will &aincrease the speed&r of the rotation. These can be &dstacked multiple times&r, by &6placing a second Small Cog at the diagonal&r of the Large Cog, and then another Large Cog at its shaft. You can continue this as many times as you have space for."
 			]
-			dependencies: ["1EB53FD55A3973BF"]
 			id: "0B539C0958C0AE9F"
+			rewards: [{
+				count: 5
+				id: "3E7EC968C6E711AF"
+				item: "create:cogwheel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04B84E2B75613645"
-				type: "item"
 				item: "create:cogwheel"
-			}]
-			rewards: [{
-				id: "3E7EC968C6E711AF"
 				type: "item"
-				item: "create:cogwheel"
-				count: 5
 			}]
+			x: -5.0d
+			y: -0.5d
 		}
 		{
-			x: -5.0d
-			y: 1.0d
+			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
 				"The way that &bCogs&r connect is fairly simple: &bLarge Cogs&r connect perpendicularly to one another, allowing you to &atransfer from horizontal to vertical rotation&r without a &bGearbox&r (more on that later). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
 				"&bLarge Cogwheels&r in particular are helpful, as they can connect to the top of the &bRotation Speed Controller&r, allowing you to &6customize the rotations per minute - rpm - of the subsequent machinery&r."
 				"If you connect the shafts of a &bSmall&r and then a &bLarge Cog&r, it will &aincrease the speed&r of the rotation. These can be &dstacked multiple times&r, by &6placing a second Small Cog at the diagonal&r of the Large Cog, and then another Large Cog at its shaft. You can continue this as many times as you have space for."
 			]
-			dependencies: ["1EB53FD55A3973BF"]
 			id: "053309454320882E"
+			rewards: [{
+				count: 5
+				id: "523BB2B9719BAC43"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "624F3254100ED18D"
-				type: "item"
 				item: "create:large_cogwheel"
-			}]
-			rewards: [{
-				id: "523BB2B9719BAC43"
 				type: "item"
-				item: "create:large_cogwheel"
-				count: 5
 			}]
+			x: -5.0d
+			y: 1.0d
 		}
 		{
-			title: "Rotational Force: Water"
-			x: -5.0d
-			y: 2.5d
+			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"{image:cottagewitch:textures/waterwheel.png width:230 height:200 align:1}"
 				"One of the primary methods of creating rotational force is the &bWater Wheel&r. It requires &aflowing water&r to function. The most optimal way of doing this is to &6place it vertically&r, ensuring that it is not clipping into any blocks, and then placing a block of &bSoul Sand&r to one side of the bottom. Then, &6place two water source blocks&r on top of the &bSoul Sand&r, creating a &awater elevator&r. This will give you a generation of &d320 su&r, which is the maximum a Water Wheel&r can provide."
 				"You then place &bShafts&r or &bCogs&r at the center of the wheel, which transfers the power to the machines."
 			]
-			dependencies: ["576AE3823B89AE8E"]
 			id: "2DC641E0D0A72439"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E1F76AD1981A37"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3368621D6793F441"
-				type: "item"
 				item: "create:water_wheel"
+				type: "item"
 			}]
-			rewards: [{
-				id: "77E1F76AD1981A37"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			title: "Rotational Force: Water"
+			x: -5.0d
+			y: 2.5d
 		}
 		{
-			title: "Rotational Force: Wind"
-			x: 0.0d
-			y: 4.0d
+			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"A very powerful method of generating force is the &bWindmill&r. One can be made relatively simply, and then improved later on to create even more su."
 				"A Windmill requires a &bWindmill Bearing&r, to begin with. This can be &aplaced either horizontally or vertically&r, and the shafts must connect to the back of it. The front of the Bearing is sticky, so you can &6place blocks on it&r and they will become part of the machine."
@@ -224,740 +222,742 @@
 				"Once you have attached 8 or more sail-like blocks, &6right click the &bWindmill Bearing&r to activate the structure&r. If there is an issue, you can read about it by &6hovering over the block&r."
 				"Over time, you can expand a windmill by adding more sail-like blocks to it. The more there are, the &amore su it will generate&r. However, be aware that the &bRadial Chassis&r only has a radial range of 8 blocks."
 			]
-			dependencies: ["576AE3823B89AE8E"]
 			id: "7653B8A3BFBA6E2C"
-			tasks: [{
-				id: "38C74E98233AE899"
-				type: "item"
-				item: "create:windmill_bearing"
-			}]
 			rewards: [
 				{
-					id: "24E15590EA44A012"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "24E15590EA44A012"
 					table_id: 1032206960599939459L
+					type: "random"
 				}
 				{
-					id: "4F0458414AE06049"
-					type: "item"
-					item: "create:white_sail"
 					count: 8
+					id: "4F0458414AE06049"
+					item: "create:white_sail"
+					type: "item"
 				}
 				{
 					id: "2DF9936EF7EAD09E"
-					type: "item"
 					item: "create:radial_chassis"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "38C74E98233AE899"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Rotational Force: Wind"
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			title: "Rotational Force: Exercise"
-			x: 2.0d
-			y: 2.5d
+			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"Another power option is &bStarbuncle Wheels&r. It turns out that the industry of the &eStarbuncle&r goes beyond collecting and transferring items - they &alove to run&r."
 				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r."
 			]
-			dependencies: ["576AE3823B89AE8E"]
 			id: "4E3C2382B7035B7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C3E96D9F238E3F4"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "28340DBE48085983"
-				type: "item"
 				item: "ars_creo:starbuncle_wheel"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0C3E96D9F238E3F4"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			title: "Rotational Force: Exercise"
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			x: -2.5d
-			y: -2.0d
-			description: ["&bAndesite Casing&r is one of three different tiers of Casing, used to craft various machinery. It is crafted by applying &bAndesite Alloy&r to a &bStripped Log&r. You can do this &6manually by placing the &bStripped Log&r in world and &6right clicking it with the &bAndesite Alloy&r. It can also be automated by using a &bDeployer&r."]
 			dependencies: ["1EB53FD55A3973BF"]
+			description: ["&bAndesite Casing&r is one of three different tiers of Casing, used to craft various machinery. It is crafted by applying &bAndesite Alloy&r to a &bStripped Log&r. You can do this &6manually by placing the &bStripped Log&r in world and &6right clicking it with the &bAndesite Alloy&r. It can also be automated by using a &bDeployer&r."]
 			id: "090B731F01A14C75"
+			rewards: [{
+				count: 5
+				id: "7E7BAA18A85430C6"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F182CEBAC59FA4F"
-				type: "item"
 				item: "create:andesite_casing"
-			}]
-			rewards: [{
-				id: "7E7BAA18A85430C6"
 				type: "item"
-				item: "create:andesite_casing"
-				count: 5
 			}]
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			x: 0.0d
-			y: -0.5d
-			shape: "octagon"
-			description: ["Turning a &bHand Crank&r is hungry work! Quick, eat this before you pass out."]
 			dependencies: ["21D14DACAA03665A"]
+			description: ["Turning a &bHand Crank&r is hungry work! Quick, eat this before you pass out."]
 			id: "50B994830A8846FA"
-			tasks: [{
-				id: "1C501BF5F5B320B9"
-				type: "advancement"
-				advancement: "create:hand_crank_000"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "45C58D5814FEA0AC"
-				type: "item"
 				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
 			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "create:hand_crank_000"
+				criterion: ""
+				id: "1C501BF5F5B320B9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"The &bGearbox&r helps you &amanipulate rotation&r in a small space by &aforming a right angle&r for 2 or more &bCogs&r or &bShafts&r."
 				"The &bGear Shift&r can be &6rotated on either x or y axis&r to help you &dturn corners&r and &achange directions&r."
 			]
-			dependencies: ["1EB53FD55A3973BF"]
 			id: "1371BBAA8FDBC0B2"
-			tasks: [{
-				id: "2078EBDBF2EEA435"
-				type: "item"
-				item: "create:gearbox"
-			}]
 			rewards: [
 				{
 					id: "24B9787F44F7ED3E"
-					type: "item"
 					item: "create:gearbox"
+					type: "item"
 				}
 				{
 					id: "3D82DF180970D7D8"
-					type: "item"
 					item: "create:vertical_gearbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2078EBDBF2EEA435"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
 		}
 		{
-			x: -2.5d
-			y: -0.5d
-			description: ["Among other things, the &bGearshift&r allows you to &areverse the direction of rotation&r, by placing it between two &bShafts&r or &bCogs&r, and &6applying a Redstone signal&r."]
 			dependencies: ["1EB53FD55A3973BF"]
+			description: ["Among other things, the &bGearshift&r allows you to &areverse the direction of rotation&r, by placing it between two &bShafts&r or &bCogs&r, and &6applying a Redstone signal&r."]
 			id: "5177165688541586"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C81C32AACAD6A8"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7D397854A54F838E"
-				type: "item"
 				item: "create:gearshift"
+				type: "item"
 			}]
-			rewards: [{
-				id: "63C81C32AACAD6A8"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			x: -9.0d
-			y: 0.0d
-			shape: "octagon"
 			description: ["Congratulations on your feat of engineering! You had to nerf yourself, that's how good you were. Take this armor set as a reward."]
-			invisible: true
 			id: "0C8B40405806EEB4"
-			tasks: [{
-				id: "64FB6A61F1EE24D3"
-				type: "advancement"
-				advancement: "create:crafter_lazy_000"
-				criterion: ""
-			}]
+			invisible: true
 			rewards: [
 				{
 					id: "40F1E962451E5BB6"
-					type: "item"
 					item: {
-						id: "mcsa:ellegaard_helmet"
 						Count: 1b
+						id: "mcsa:ellegaard_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6FB82F90E8017C7C"
-					type: "item"
 					item: {
-						id: "mcsa:ellegaard_chestplate"
 						Count: 1b
+						id: "mcsa:ellegaard_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "263BDF9767AF721F"
-					type: "item"
 					item: {
-						id: "mcsa:ellegaard_leggings"
 						Count: 1b
+						id: "mcsa:ellegaard_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "64E3D906B5C602AD"
-					type: "item"
 					item: {
-						id: "mcsa:ellegaard_boots"
 						Count: 1b
+						id: "mcsa:ellegaard_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "create:crafter_lazy_000"
+				criterion: ""
+				id: "64FB6A61F1EE24D3"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			shape: "octagon"
-			description: ["Congratulation on operating your first machine! Hopefully if you were feeling intimidated, you now feel a little more confident."]
 			dependencies: ["21D14DACAA03665A"]
+			description: ["Congratulation on operating your first machine! Hopefully if you were feeling intimidated, you now feel a little more confident."]
 			id: "6B62CA860B15D956"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B88700D573F9D76"
+				table_id: 1032206960599939459L
+				type: "random"
+			}]
+			shape: "octagon"
 			tasks: [{
-				id: "6E0445DDBF8B831D"
-				type: "advancement"
 				advancement: "create:mechanical_press"
 				criterion: ""
+				id: "6E0445DDBF8B831D"
+				type: "advancement"
 			}]
-			rewards: [{
-				id: "0B88700D573F9D76"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: -5.0d
-			y: 4.0d
-			description: ["You can use &bSails&r, which will &aautomatically become part of the structure&r, even if the block they are attached to is not a &bRadial Chassis&r. This method also does not require a &bSlime Ball&r."]
 			dependencies: ["7653B8A3BFBA6E2C"]
+			description: ["You can use &bSails&r, which will &aautomatically become part of the structure&r, even if the block they are attached to is not a &bRadial Chassis&r. This method also does not require a &bSlime Ball&r."]
 			id: "7086AF668F510A2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D91D14636EFD211"
+				table_id: 1032206960599939459L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D1ADB86F100E08F"
-				type: "item"
 				item: "create:white_sail"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0D91D14636EFD211"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: -5.0d
+			y: 4.0d
 		}
 		{
-			x: -2.5d
-			y: 4.0d
-			description: ["You may wish to use a &bRadial Chassis&r, which will attach to plain blocks such as &bWool&r. You must &6stick the wool to each side&r by first making it sticky. You can do this by right clicking the &bChassis&r with a &bSlime Block&r, and then &6placing the wool&r on the sticky side."]
 			dependencies: ["7653B8A3BFBA6E2C"]
+			description: ["You may wish to use a &bRadial Chassis&r, which will attach to plain blocks such as &bWool&r. You must &6stick the wool to each side&r by first making it sticky. You can do this by right clicking the &bChassis&r with a &bSlime Block&r, and then &6placing the wool&r on the sticky side."]
 			id: "72519F917B007C84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BF35074E42F785E"
+				table_id: 1032206960599939459L
+				type: "random"
+			}]
 			tasks: [{
 				id: "28A2A5CF8000F8A8"
-				type: "item"
 				item: "create:radial_chassis"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0BF35074E42F785E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: -2.5d
+			y: 4.0d
 		}
 		{
-			title: "The Power of Rotational Force"
-			x: 0.0d
-			y: 2.5d
+			dependencies: ["21D14DACAA03665A"]
 			description: [
 				"&aRotational force&r is measured in &dStress Units, or su&r. The more force you generate, the more su you have access to. Machines require a certain amount of su to run, and if you try to place too many operations on a single network, your system can become &dOverstressed&r. You can view this in individual parts by &6wearing Goggles&r, but it is also recommended to craft a &bStressometer&r to attach to your network."
 				"The Stressometer allows you to &aview your maximum su and how much of it is remaining&r."
 			]
-			dependencies: ["21D14DACAA03665A"]
 			id: "576AE3823B89AE8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "718EB60B0F5980F8"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6DCBF784844268E9"
-				type: "item"
 				item: "create:stressometer"
+				type: "item"
 			}]
-			rewards: [{
-				id: "718EB60B0F5980F8"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			title: "The Power of Rotational Force"
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			title: "To be Continued"
+			dependencies: ["5859015DE7AD5512"]
+			description: ["These quests are currently being worked on. Expect more in the near future!"]
 			icon: {
-				id: "supplementaries:wrench"
 				Count: 1b
+				id: "supplementaries:wrench"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: 6.0d
-			y: 1.0d
-			shape: "diamond"
-			description: ["These quests are currently being worked on. Expect more in the near future!"]
-			dependencies: ["5859015DE7AD5512"]
-			size: 2.0d
 			id: "4DC3913C41E20B81"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "1F02BA66A19E80A8"
 				type: "checkmark"
 			}]
+			title: "To be Continued"
+			x: 6.0d
+			y: 1.0d
 		}
 		{
-			x: -2.5d
-			y: 2.5d
+			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"The &bSteam Engine&r is another method of creating power, but it is &asignificantly more difficult&r and not recommended for beginners."
 				"To find out how to power a &bSteam Engine&r, as well as how to &dupgrade the output&r, please &6search &lJEI&r for \"steam engine\" and &6hold \"W\" to ponder&r."
 			]
-			dependencies: ["576AE3823B89AE8E"]
 			id: "265265A0C4DFD728"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C53EDCFB8E09772"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "11D3B342171AA509"
-				type: "item"
 				item: "create:steam_engine"
+				type: "item"
 			}]
-			rewards: [{
-				id: "7C53EDCFB8E09772"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: -2.5d
+			y: 2.5d
 		}
 		{
-			title: "Mixing and Crafting"
-			x: 2.0d
-			y: -2.0d
+			dependencies: ["21D14DACAA03665A"]
 			description: [
 				"The &bMechanical Mixer&r is used for multiple functions such as &acreating alloys&r and &aautocrafting shapeless recipes&r."
 				"It must be paired with a &bBasin&r, which holds the ingredients for it to mix."
 				"Let's test it out by &dmaking some &bChocolate Bars&r."
 				"Take these ingredients and &6set up your Basin above a Heat Source&r. This should make one bucket of &bMelted Chocolate&r. You can either &6extract it with a &bPump&r, or with a &bBucket&r."
 			]
-			dependencies: ["21D14DACAA03665A"]
 			id: "5859015DE7AD5512"
-			tasks: [
-				{
-					id: "764098748B128462"
-					type: "item"
-					item: "create:mechanical_mixer"
-				}
-				{
-					id: "40C5FBD3860DF308"
-					type: "item"
-					item: "create:basin"
-				}
-			]
 			rewards: [
 				{
-					id: "062442A75333576B"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "062442A75333576B"
 					table_id: 1032206960599939459L
+					type: "random"
 				}
 				{
+					count: 4
 					id: "0A631CC299FDBEFB"
-					type: "item"
 					item: "minecraft:cocoa_beans"
-					count: 4
+					type: "item"
 				}
 				{
-					id: "538440931A5F5CA2"
-					type: "item"
-					item: "minecraft:sugar"
 					count: 4
+					id: "538440931A5F5CA2"
+					item: "minecraft:sugar"
+					type: "item"
 				}
 				{
 					id: "465B033C178E6B90"
-					type: "item"
 					item: "minecraft:milk_bucket"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "764098748B128462"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "40C5FBD3860DF308"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Mixing and Crafting"
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			title: "Heating with Blaze Burners"
-			x: 2.0d
-			y: -3.5d
-			subtitle: "your very own Calcifer!"
+			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"Many &bMixer&r recipes will require &aHeat&r. You can use normal heat sources such as &bCampfires&r for certain recipes, but many will require a &bBlaze Burner&r."
 				"You can craft an &bEmpty Blaze Burner&r, and then you must &6find a &eBlaze&6 and right click it&r with the &bBlaze Burner&r to capture it."
 				"The &bBlaze Burner&r must be &afed to function&r. You can feed it by &6right clicking it with flammable things&r such as &blogs&r, &btorches&r, &bBlaze Rods&r, and most efficiently: &bBlaze Cakes&r. You'll be able to make those later, but for now, take this one."
 			]
-			dependencies: ["5859015DE7AD5512"]
 			id: "5073743E21AB8738"
-			tasks: [
-				{
-					id: "0B8587402D723175"
-					type: "item"
-					item: "create:empty_blaze_burner"
-				}
-				{
-					id: "276865EC42158D24"
-					type: "item"
-					item: "create:blaze_burner"
-				}
-			]
 			rewards: [
 				{
 					id: "73DF767CA53EC7DA"
-					type: "item"
 					item: "minecraft:blaze_spawn_egg"
+					type: "item"
 				}
 				{
 					id: "5EAC61D058CCB4CF"
-					type: "item"
 					item: "create:blaze_cake"
+					type: "item"
 				}
 			]
+			subtitle: "your very own Calcifer!"
+			tasks: [
+				{
+					id: "0B8587402D723175"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "276865EC42158D24"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Heating with Blaze Burners"
+			x: 2.0d
+			y: -3.5d
 		}
 		{
-			title: "Liquid to Solid via Compaction"
-			x: 4.0d
-			y: -3.5d
+			dependencies: ["5073743E21AB8738"]
 			description: [
 				"Now that you have your &bMelted Chocolate&r, you'll want to &6compact it into Bars using a &bMechanical Press&r."
 				"Place a &bBasin&r beneath a &bMechanical Press&r and either &apump or bucket&r the Chocolate into the Basin."
 				"With enough power, the &bPress&r will automatically turn the liquid into &bChocolate Bars&r, which can be retrieved by &6right clicking with an empty hand&r."
 			]
-			dependencies: ["5073743E21AB8738"]
 			id: "14877C882C4D9E9E"
-			tasks: [{
-				id: "14B92679442AA550"
-				type: "item"
-				item: "create:bar_of_chocolate"
-				count: 4L
-			}]
 			rewards: [
 				{
 					id: "0B260A952A19CD95"
-					type: "item"
 					item: "create:chocolate_bucket"
+					type: "item"
 				}
 				{
-					id: "2B4C8F06AD991A1E"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2B4C8F06AD991A1E"
 					table_id: 1032206960599939459L
+					type: "random"
 				}
 			]
+			tasks: [{
+				count: 4L
+				id: "14B92679442AA550"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			title: "Liquid to Solid via Compaction"
+			x: 4.0d
+			y: -3.5d
 		}
 		{
-			title: "Moving and Storing Fluids"
-			x: 2.0d
-			y: 1.0d
+			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"For certain recipes you may wish to use &bFluids&r, and for that you'll need &bTanks&r, &bPipes&r, and &bPumps&r."
 				"To test it out, why not &dset up an infinite &bLava&d source&r? Set up a basic &aLava Generator&r with &bDripstone&r and a &bCauldron&r."
 				"Then, place a &bPump&r and/or some &bFluid Pipes&r beside it, as well as a &bTank&r to hold the liquid. Power the pump and &6use the Wrench to change the Pump's direction&r."
 			]
-			dependencies: ["5859015DE7AD5512"]
 			id: "7AD3F51BD3B16B9F"
-			tasks: [
-				{
-					id: "55FE19C5B6CC95D0"
-					type: "item"
-					item: "create:fluid_tank"
-				}
-				{
-					id: "371257A8F4CB9530"
-					type: "item"
-					item: "create:fluid_pipe"
-				}
-				{
-					id: "38821E3809099AB6"
-					type: "item"
-					item: "create:mechanical_pump"
-				}
-			]
 			rewards: [
 				{
-					id: "01442DD22304F5DB"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "01442DD22304F5DB"
 					table_id: 1032206960599939459L
+					type: "loot"
 				}
 				{
 					id: "70A31A60AEB45D64"
-					type: "item"
 					item: "minecraft:lava_bucket"
+					type: "item"
 				}
 				{
 					id: "0C3BF8B2952352AC"
-					type: "item"
 					item: "minecraft:pointed_dripstone"
+					type: "item"
 				}
 				{
 					id: "67753934A08B3B1C"
-					type: "item"
 					item: "minecraft:cauldron"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "55FE19C5B6CC95D0"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "371257A8F4CB9530"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "38821E3809099AB6"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Moving and Storing Fluids"
+			x: 2.0d
+			y: 1.0d
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"Another important &aalloy&r is &bBrass&r, which is formed of &bCopper&r and &bZinc&r."
 				"To craft it, you'll need a &bMixer&r with a &bBlaze Burner&r underneath. Throw the ingredients into the mixer, &6feed the Blaze Burner&r, and make sure the &bMixer&r is receiving enough su."
 				"You can remove the finished product by setting up a &bConveyor Belt&r, or just by &6right clicking with an empty hand&r."
 			]
-			dependencies: ["5859015DE7AD5512"]
 			id: "196015594CAFB1C6"
-			tasks: [{
-				id: "7089C098D14B91F4"
-				type: "item"
-				item: "create:brass_ingot"
-			}]
 			rewards: [
 				{
-					id: "4B95F61619A303A8"
-					type: "item"
-					item: "create:brass_casing"
 					count: 4
+					id: "4B95F61619A303A8"
+					item: "create:brass_casing"
+					type: "item"
 				}
 				{
-					id: "5B0E607726A380E0"
-					type: "item"
-					item: "create:brass_ingot"
 					count: 4
+					id: "5B0E607726A380E0"
+					item: "create:brass_ingot"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "7089C098D14B91F4"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			x: 6.0d
-			y: -0.5d
-			description: ["&bRose Quartz&r is a glassy crystal that can be both decorative and useful. Its most important usage is in &bElectron Tubes&r, which help to power &a\"intelligent\" machines&r."]
 			dependencies: ["5859015DE7AD5512"]
+			description: ["&bRose Quartz&r is a glassy crystal that can be both decorative and useful. Its most important usage is in &bElectron Tubes&r, which help to power &a\"intelligent\" machines&r."]
 			id: "777BD51D55A705BC"
+			rewards: [{
+				count: 5
+				id: "6D7ECFDB6F2A4623"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3C73B11F5BD7C41A"
-					type: "item"
 					item: "create:polished_rose_quartz"
+					type: "item"
 				}
 				{
 					id: "63AF5E786556143F"
-					type: "item"
 					item: "create:rose_quartz"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6D7ECFDB6F2A4623"
-				type: "item"
-				item: "create:rose_quartz"
-				count: 5
-			}]
+			x: 6.0d
+			y: -0.5d
 		}
 		{
-			x: 8.0d
-			y: -0.5d
 			dependencies: ["777BD51D55A705BC"]
 			id: "21D3406A746CF116"
 			tasks: [{
 				id: "091B7D2A7E613348"
-				type: "item"
 				item: "create:electron_tube"
+				type: "item"
 			}]
+			x: 8.0d
+			y: -0.5d
 		}
 		{
-			x: 6.0d
-			y: -2.0d
-			description: ["The &bBrass Hand&r is used to craft both &bDeployers&r and the &bExtend-o Grip&r, the latter of which &aallows you to extend your main hand reach&r. It's very... handy. I'll see myself out."]
 			dependencies: ["196015594CAFB1C6"]
+			description: ["The &bBrass Hand&r is used to craft both &bDeployers&r and the &bExtend-o Grip&r, the latter of which &aallows you to extend your main hand reach&r. It's very... handy. I'll see myself out."]
 			id: "55F04B5FF196DD28"
-			tasks: [{
-				id: "5C68662ADF7FAB28"
-				type: "item"
-				item: "create:brass_hand"
-			}]
 			rewards: [{
 				id: "14E7CE5B2900B94E"
-				type: "item"
 				item: "create:brass_hand"
+				type: "item"
 			}]
+			tasks: [{
+				id: "5C68662ADF7FAB28"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			x: 8.0d
-			y: -2.0d
-			description: ["&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."]
 			dependencies: [
 				"55F04B5FF196DD28"
 				"21D3406A746CF116"
 			]
+			description: ["&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."]
 			id: "244FE0B3FC20D15C"
-			tasks: [{
-				id: "699B19CE2F94A034"
-				type: "item"
-				item: "create:deployer"
-			}]
 			rewards: [
 				{
 					id: "3C5DE06B10F5A698"
-					type: "item"
 					item: "create:cogwheel"
+					type: "item"
 				}
 				{
 					id: "19956AF4BA6EB17F"
-					type: "item"
 					item: "create:large_cogwheel"
+					type: "item"
 				}
 				{
 					id: "324BCB5CDD84D0BE"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "699B19CE2F94A034"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
 		}
 		{
-			title: "Moving Items"
-			x: 2.0d
-			y: -0.5d
-			shape: "hexagon"
+			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"&bMechanical Belts&r convey items between machines and inventories &ahorizontally or diagonally&r. Items placed on a &bMechanical Belt&r will stick to it and not despawn."
 				"&bChutes&r can transport items &avertically and diagonally&r. By default they transport downward, but &6hook them up to &bEncased Fans&r to change the direction. Unlike hoppers, they do not have a multi-slot inventory, and can transport multiple items at once."
 				"You can learn more about how they work by &6holding w to Ponder&r."
 			]
-			dependencies: ["5859015DE7AD5512"]
 			id: "27B39B900D3D7572"
-			tasks: [
-				{
-					id: "2E01E01B69AB87E9"
-					type: "item"
-					item: "create:belt_connector"
-				}
-				{
-					id: "752FF0D54854177F"
-					type: "item"
-					item: "create:chute"
-				}
-				{
-					id: "7EDAEDD8F4AF6EF0"
-					type: "item"
-					item: "create:smart_chute"
-				}
-			]
 			rewards: [
 				{
-					id: "3F1C00F1C761340A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3F1C00F1C761340A"
 					table_id: 1032206960599939459L
+					type: "random"
 				}
 				{
-					id: "122CFD7A67E34DEB"
-					type: "item"
-					item: "minecraft:kelp"
 					count: 10
+					id: "122CFD7A67E34DEB"
+					item: "minecraft:kelp"
+					type: "item"
 				}
 				{
 					id: "3DB472B71AD1BF8B"
-					type: "item"
 					item: "create:chute"
+					type: "item"
 				}
 				{
 					id: "742FF1057C85116E"
-					type: "item"
 					item: "create:smart_chute"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2E01E01B69AB87E9"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "752FF0D54854177F"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "7EDAEDD8F4AF6EF0"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			title: "Moving Items"
+			x: 2.0d
+			y: -0.5d
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			dependencies: ["244FE0B3FC20D15C"]
 			description: [
 				"The &bPrecision Mechanism&r is crafted by setting up a &bMechanical Belt&r and &bthree Deployers&r."
 				"You can view the recipe in &lJEI&r by selecting the second tab at the top, &d\"Recipe Sequence\"&r."
 				"{image:cottagewitch:textures/precisionmechanism.png width:150 height:150 align:1}"
 				"The first Deployer should hold a &bCogwheel&r, the second a &bLarge Cogwheel&r, and the third a &bIron Nugget&r. Each mechanism must &6go through the process 5 times&r. There is only an &d80% change of receiving&r the final product."
 			]
-			dependencies: ["244FE0B3FC20D15C"]
 			id: "5CCE41AE05329A9A"
-			tasks: [{
-				id: "3468E2C4E72B2BA7"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
 			rewards: [{
 				id: "44D0A947F01BF60F"
-				type: "item"
 				item: "create:precision_mechanism"
+				type: "item"
 			}]
+			tasks: [{
+				id: "3468E2C4E72B2BA7"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
 		}
 		{
-			x: 9.5d
-			y: -0.5d
+			dependencies: ["5CCE41AE05329A9A"]
 			description: [
 				"The &bRotational Speed Controller&r is a machine which can &aincrease, decrease, or reverse&r the speed and direction of rotation."
 				"&6Place it down and connect one of the sides&r to your su network. Then, &6attach a &bLarge Cogwheel&r as shown in the image, and &6connect the subsequent machinery&r to that &bCogwheel&r."
 				"The machinery will then adopt whatever speed you &aset the Controller to&r. &6Scroll to the negatives to reverse direction&r."
 				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
 			]
-			dependencies: ["5CCE41AE05329A9A"]
 			id: "0EBD468481C32221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E55F428F0549713"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "00539E7A71CF9CF8"
-				type: "item"
 				item: "create:rotation_speed_controller"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0E55F428F0549713"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1032206960599939459L
-			}]
+			x: 9.5d
+			y: -0.5d
 		}
 		{
-			title: "Glass Casings as Deco"
-			x: -7.0d
-			y: -0.5d
-			description: ["You can enhance your Create machines by integrating &bGlass Casings&r, which are both aesthetic and functional blocks with connective textures."]
 			dependencies: ["283B3A75443BDA35"]
+			description: ["You can enhance your Create machines by integrating &bGlass Casings&r, which are both aesthetic and functional blocks with connective textures."]
 			id: "3FCDDF81FEEE6D6A"
+			rewards: [{
+				count: 10
+				id: "5E4A5958DB618C26"
+				item: "create_crystal_clear:brass_clear_glass_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DF0C9F7BABD0B91"
-				type: "item"
-				title: "Any #crafttweaker:glasscasings"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:glasscasings"
 					}
 				}
-			}]
-			rewards: [{
-				id: "5E4A5958DB618C26"
+				title: "Any #crafttweaker:glasscasings"
 				type: "item"
-				item: "create_crystal_clear:brass_clear_glass_casing"
-				count: 10
 			}]
+			title: "Glass Casings as Deco"
+			x: -7.0d
+			y: -0.5d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "37CC982A449FB0DE"
 			invisible: true
 			secret: true
-			id: "37CC982A449FB0DE"
 			tasks: [{
 				id: "3B3F4A0AC945DFB5"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Create"
 }

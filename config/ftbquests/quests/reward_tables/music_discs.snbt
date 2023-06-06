@@ -1,9 +1,8 @@
 {
-	id: "18248D5CF79E6090"
-	order_index: 0
-	title: "Music Disc Reward"
 	icon: "minecraft:jukebox"
+	id: "18248D5CF79E6090"
 	loot_size: 2
+	order_index: 0
 	rewards: [
 		{ item: "minecraft:jukebox" }
 		{ item: "minecraft:music_disc_strad" }
@@ -131,4 +130,5 @@
 		{ item: "environmental:music_disc_slabrave" }
 		{ item: "environmental:music_disc_leaving_home" }
 	]
+	title: "Music Disc Reward"
 }

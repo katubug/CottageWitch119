@@ -137,6 +137,11 @@ var removeNope = [
     <item:ftbquests:custom_icon>,
     <item:ftbquests:barrier>,
     <item:ftbquests:stage_barrier>,
+    <item:sophisticatedstorage:feeding_upgrade>,
+    <item:sophisticatedstorage:advanced_feeding_upgrade>,
+    <item:sophisticatedstorage:xp_pump_upgrade>,
+    <item:sophisticatedstorage:advanced_pump_upgrade>,
+    <item:sophisticatedstorage:pump_upgrade>,
     //<item:prefab:block_compressed_quartz_crete>,
     //<item:prefab:block_double_compressed_quartz_crete>,
     //<item:prefab:block_quartz_crete>,
@@ -455,7 +460,7 @@ craftingTable.addShaped("mandraketotem", <item:minecraft:totem_of_undying>, [
 [<item:twilightforest:red_thread>, 
 <item:endrem:evil_eye>, 
 <item:twilightforest:red_thread>], 
-[<item:create:crushed_gold_ore>, 
+[<item:create:crushed_raw_gold>, 
 <item:hexerei:mandrake_root>, 
 <item:create:powdered_obsidian>], 
 [<item:twilightforest:red_thread>, 
@@ -729,21 +734,6 @@ craftingTable.addShaped("itempipe", <item:pipez:item_pipe> * 16, [
 <tag:items:forge:wrenches>.add(<item:supplementaries:wrench>);
 
 <tag:items:crafttweaker:postboxes>.add(<item:contact:red_postbox>, <item:contact:green_postbox>);
-
-// Change Heart Stone Recipe
-
-craftingTable.remove(<item:heartstone:heartstone>);
-
-craftingTable.addShaped("heartstone", <item:heartstone:heartstone> * 2, 
-[[air,
-<item:create:polished_rose_quartz>,
-air],
-[<item:create:polished_rose_quartz>,
-<item:minecraft:heart_of_the_sea>,
-<item:create:polished_rose_quartz>],
-[air,
-<item:create:polished_rose_quartz>,
-air]]);
 
 //Sculk crafting
 craftingTable.addShaped("sculkcatalyst", <item:minecraft:sculk_catalyst>, [[<item:minecraft:echo_shard>, <item:minecraft:echo_shard>, <item:minecraft:echo_shard>],[<item:minecraft:echo_shard>, <item:minecraft:end_stone>, <item:minecraft:echo_shard>], [<item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>]]);
@@ -1710,17 +1700,7 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:netherdepthsupgrade:blazefish_slice>,
     <item:netherdepthsupgrade:searing_cod_slice>,
     <item:netherdepthsupgrade:obsidianfish_slice>,
-    <item:netherdepthsupgrade:lava_pufferfish_slice>,
-    <item:bigfish:mantaray>,
-    <item:bigfish:cooked_mantaray>,
-    <item:bigfish:shark>,
-    <item:bigfish:cooked_shark>,
-    <item:bigfish:anglerfish>,
-    <item:bigfish:cooked_anglerfish>,
-    <item:bigfish:monkfish>,
-    <item:bigfish:cooked_monkfish>,
-    <item:bigfish:swordfish>,
-    <item:bigfish:cooked_swordfish>
+    <item:netherdepthsupgrade:lava_pufferfish_slice>
 );
 
 <tag:items:minecraft:fishes>.add(
@@ -1734,17 +1714,7 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:netherdepthsupgrade:blazefish_slice>,
     <item:netherdepthsupgrade:searing_cod_slice>,
     <item:netherdepthsupgrade:obsidianfish_slice>,
-    <item:netherdepthsupgrade:lava_pufferfish_slice>,
-    <item:bigfish:mantaray>,
-    <item:bigfish:cooked_mantaray>,
-    <item:bigfish:shark>,
-    <item:bigfish:cooked_shark>,
-    <item:bigfish:anglerfish>,
-    <item:bigfish:cooked_anglerfish>,
-    <item:bigfish:monkfish>,
-    <item:bigfish:cooked_monkfish>,
-    <item:bigfish:swordfish>,
-    <item:bigfish:cooked_swordfish>
+    <item:netherdepthsupgrade:lava_pufferfish_slice>
 );
 
 <tag:items:caupona:seafood>.add(
@@ -1757,13 +1727,7 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
     <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:shulker_meat>,
-    <item:bigfish:lobster>,
-    <item:bigfish:cooked_lobster>,
-    <item:bigfish:slimy_eel>,
-    <item:bigfish:cooked_slimy_eel>,
-    <item:bigfish:dark_crab>,
-    <item:bigfish:cooked_dark_crab>
+    <item:ends_delight:shulker_meat>
 );
 
 <tag:items:forge:seafood>.add(
@@ -1776,13 +1740,7 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
     <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:shulker_meat>,
-    <item:bigfish:lobster>,
-    <item:bigfish:cooked_lobster>,
-    <item:bigfish:slimy_eel>,
-    <item:bigfish:cooked_slimy_eel>,
-    <item:bigfish:dark_crab>,
-    <item:bigfish:cooked_dark_crab>
+    <item:ends_delight:shulker_meat>
 );
 
 <tag:items:caupona:eggs>.add(
@@ -1862,9 +1820,9 @@ craftingTable.addShaped("transmutationtable", <item:alexsmobs:transmutation_tabl
 // New Egg Recipe
 
 craftingTable.addShaped("nourishingegg", <item:ends_delight:non_hatchable_dragon_egg>, [
-    [<item:ends_delight:roasted_dragon_meat>, <item:minecraft:bone_meal>, <item:ends_delight:roasted_dragon_meat>],
+    [<tag:items:forge:roasted_dragon_meat>, <item:minecraft:bone_meal>, <tag:items:forge:roasted_dragon_meat>],
     [<item:minecraft:milk_bucket>, <item:minecraft:dragon_egg>, <item:minecraft:milk_bucket>],
-    [<item:ends_delight:roasted_dragon_meat>, <item:minecraft:bone_meal>, <item:ends_delight:roasted_dragon_meat>]
+    [<tag:items:forge:roasted_dragon_meat>, <item:minecraft:bone_meal>, <tag:items:forge:roasted_dragon_meat>]
 ]);
 
 // Gate Pearl Recipes
@@ -1904,7 +1862,7 @@ craftingTable.addShaped("mimicube_gate", <item:gateways:gate_pearl>.withTag({gat
     [<item:minecraft:dragon_breath>, <item:minecraft:slime_block>, <item:minecraft:dragon_breath>]
 ]);
 
-craftingTable.addShaped("sculk_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:sculk_gateway"}),
+craftingTable.addShaped("sculk_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:sculk_gate"}),
 [
     [<item:minecraft:sculk>, <item:deeperdarker:reinforced_echo_shard>, <item:minecraft:sculk>],
     [<item:deeperdarker:reinforced_echo_shard>, <item:minecraft:ender_eye>, <item:deeperdarker:reinforced_echo_shard>],
@@ -1990,3 +1948,22 @@ for armor in horseArmors {
 <item:nethersdelight:golden_machete>,
 <item:farmersdelight:golden_knife>);
 
+craftingTable.addShaped("hogshoes", <item:alexsmobs:pigshoes>, [
+    [<item:minecraft:iron_nugget>, air, <item:minecraft:iron_nugget>],
+    [<item:minecraft:iron_ingot>, air, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_nugget>, <item:twilightforest:ironwood_ingot>, <item:minecraft:iron_nugget>]
+]);
+
+craftingTable.addShapeless("blackstonefurnace1", <item:nethersdelight:blackstone_furnace>, [<item:quark:blackstone_furnace>]);
+craftingTable.addShapeless("blackstonefurnace2", <item:quark:blackstone_furnace>, [<item:nethersdelight:blackstone_furnace>]);
+
+<tag:items:crafttweaker:blackstonefurnaces>.add(<item:nethersdelight:blackstone_furnace>, <item:quark:blackstone_furnace>);
+
+craftingTable.remove(<item:nethersdelight:blackstone_blast_furnace>);
+craftingTable.addShaped("blackstoneblastfurnace", <item:nethersdelight:blackstone_blast_furnace>, [
+    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_ingot>, <tag:items:crafttweaker:blackstonefurnaces>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>]
+]);
+
+craftingTable.removeByName("byg:brown_dye");

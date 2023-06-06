@@ -1,191 +1,117 @@
 
-[mobs]
-	Wraith = true
-	Toretoise = true
-	Stonelings = true
-	Shiba = true
-	Foxhound = true
-	Forgotten = true
-	Crabs = true
+[oddities]
+	"Totem Of Holding" = false
+	"Tiny Potato" = true
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = true
+	Crate = true
+	Backpack = false
 
-	[mobs.wraith]
-		#List of sound sets to use with wraiths.
-		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
-		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+	[oddities.totem_of_holding]
+		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
+		"Dark Souls Mode" = true
+		#Totem will always spawn if the player killer is himself.
+		"Spawn Totem on PVP Kill" = false
+		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
+		"Destroy Lost Items" = false
+		#Set this to false to only allow the owner of a totem to collect its items rather than any player
+		"Allow Anyone To Collect" = true
+		"Enable Soul Compass" = true
 
-		[mobs.wraith.spawn_config]
-			"Max Cost" = 0.7
-			"Spawn Cost" = 0.15
-			#Allowed values: (0,)
-			"Spawn Weight" = 5
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 3
+	[oddities.tiny_potato]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - botania
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
+		"Never Use Heart Of Diamond" = false
 
-			[mobs.wraith.spawn_config.biomes]
+	[oddities.pipes]
+		#How long it takes for an item to cross a pipe. Bigger = slower.
+		"Pipe Speed" = 5
+		#Set to 0 if you don't want pipes to have a max amount of items
+		"Max Pipe Items" = 16
+		#When items eject or are absorbed by pipes, should they make sounds?
+		"Do Pipes Whoosh" = true
+		"Enable Encased Pipes" = true
+		"Render Pipe Items" = true
+		"Emit Vibrations" = true
 
-				[mobs.wraith.spawn_config.biomes.tags]
-					"Biome Tags" = []
-					"Is Blacklist" = true
+	[oddities.matrix_enchanting]
+		#The maximum enchanting power the matrix enchanter can accept
+		"Max Bookshelves" = 15
+		#Should this be X, the price of a piece increase by 1 every X pieces you generate
+		"Piece Price Scale" = 9
+		#The higher this is, the better enchantments you'll get on books
+		"Book Enchantability" = 12
+		#How many pieces you can generate without any bookshelves
+		"Base Max Piece Count" = 3
+		#How many pieces you can generate without any bookshelves (for Books)
+		"Base Max Piece Count Book" = 1
+		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
+		"Min Level Cutoff" = 8
+		#How many pieces a single Lapis can generate
+		"Charge Per Lapis" = 4
+		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
+		"Min Level Scale Factor" = 1.2
+		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
+		"Min Level Scale Factor Book" = 2.0
+		#How much to multiply the frequency of pieces where at least one of the same type has been generated
+		"Dupe Multiplier" = 1.4
+		#How much to multiply the frequency of pieces where incompatible pieces have been generated
+		"Incompatible Multiplier" = 0.0
+		#Set to false to disable the ability to create Enchanted Books
+		"Allow Books" = true
+		#Set this to true to allow treasure enchantments to be rolled as pieces
+		"Allow Treasures" = false
+		#Set to false to disable the tooltip for items with pending enchantments
+		"Show Tooltip" = true
+		#By default, enchantment rarities are fuzzed a bit to feel better with the new system. Set this to false to override this behaviour.
+		"Normalize Rarity" = true
+		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
+		"Allow Underwater Enchanting" = true
+		#Matrix Enchanting can be done with short (<= 3px blocks) instead of air around the enchanting table. Set this to false to disable this behaviour.
+		"Allow Short Block Enchanting" = true
+		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
+		"Soul Candles Invert" = true
+		#A list of enchantment IDs you don't want the enchantment table to be able to create
+		"Disallowed Enchantments" = []
+		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
+		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
+		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		#An array of influences that other blocks should apply.
+		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
+		"States To Influences" = []
+		#Set to false to disable the ability to influence enchantment outcomes with candles
+		"Allow Influencing" = true
+		#The max amount of candles that can influence a single enchantment
+		"Influence Max" = 4
+		#How much each candle influences an enchantment. This works as a multiplier to its weight
+		"Influence Power" = 0.125
+		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
+		"Automatically Convert" = true
+		#Add specific enchantments to matrix enchanter. Meant for treasure ones
+		"Treasure Whitelist" = []
 
-				[mobs.wraith.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
-					"Is Blacklist" = false
+	[oddities.magnets]
+		#Any items you place in this list will be derived so that any block made of it will become magnetizable
+		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
+		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
+		"Use Pre End Recipe" = false
 
-	[mobs.toretoise]
-		"Max Y Level" = 0
-		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
-		"Cooldown Ticks" = 1200
-		#The items that can be fed to toretoises to make them regrow ores.
-		Foods = ["minecraft:glow_berries"]
-		"Allow Toretoise To Regrow" = true
-		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
-		"Regrow Chance" = 3
+	[oddities.crate]
+		"Max Items" = 640
 
-		[mobs.toretoise.dimensions]
-			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
-
-		[mobs.toretoise.spawn_config]
-			#Allowed values: (0,)
-			"Spawn Weight" = 120
-			#Allowed values: [1,)
-			"Min Group Size" = 2
-			#Allowed values: [1,)
-			"Max Group Size" = 4
-
-			[mobs.toretoise.spawn_config.biomes]
-
-				[mobs.toretoise.spawn_config.biomes.tags]
-					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
-					"Is Blacklist" = true
-
-				[mobs.toretoise.spawn_config.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-	[mobs.stonelings]
-		"Max Y Level" = 0
-		"Enable Diamond Heart" = true
-		#When enabled, stonelings are much more aggressive in checking for players
-		"Cautious Stonelings" = false
-		"Tamable Stonelings" = true
-		#Disabled if if Pathfinder Maps are disabled.
-		"Weald Pathfinder Maps" = true
-
-		[mobs.stonelings.dimensions]
-			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
-
-		[mobs.stonelings.spawn_config]
-			#Allowed values: (0,)
-			"Spawn Weight" = 80
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 1
-
-			[mobs.stonelings.spawn_config.biomes]
-
-				[mobs.stonelings.spawn_config.biomes.tags]
-					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
-					"Is Blacklist" = true
-
-				[mobs.stonelings.spawn_config.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-	[mobs.shiba]
-		"Ignore Areas With Skylight" = false
-
-		[mobs.shiba.spawn_config]
-			#Allowed values: (0,)
-			"Spawn Weight" = 40
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 3
-
-			[mobs.shiba.spawn_config.biomes]
-
-				[mobs.shiba.spawn_config.biomes.tags]
-					"Biome Tags" = ["minecraft:is_mountain"]
-					"Is Blacklist" = false
-
-				[mobs.shiba.spawn_config.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-	[mobs.foxhound]
-		#The chance coal will tame a foxhound
-		"Tame Chance" = 0.05
-		"Foxhounds Speed Up Furnaces" = true
-
-		[mobs.foxhound.spawn_config]
-			#Allowed values: (0,)
-			"Spawn Weight" = 30
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 2
-
-			[mobs.foxhound.spawn_config.biomes]
-
-				[mobs.foxhound.spawn_config.biomes.tags]
-					"Biome Tags" = []
-					"Is Blacklist" = true
-
-				[mobs.foxhound.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
-					"Is Blacklist" = false
-
-		[mobs.foxhound.lesser_spawn_config]
-			"Max Cost" = 0.7
-			"Spawn Cost" = 0.15
-			#Allowed values: (0,)
-			"Spawn Weight" = 2
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 1
-
-			[mobs.foxhound.lesser_spawn_config.biomes]
-
-				[mobs.foxhound.lesser_spawn_config.biomes.tags]
-					"Biome Tags" = []
-					"Is Blacklist" = true
-
-				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
-					"Is Blacklist" = false
-
-	[mobs.forgotten]
-		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
-		"Forgotten Spawn Rate" = 0.05
-		"Max Height For Spawn" = 0
-
-	[mobs.crabs]
-		"Enable Brewing" = true
-		"Enable Resillience Effect" = true
-
-		[mobs.crabs.spawn_config]
-			#Allowed values: (0,)
-			"Spawn Weight" = 5
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#Allowed values: [1,)
-			"Max Group Size" = 3
-
-			[mobs.crabs.spawn_config.biomes]
-
-				[mobs.crabs.spawn_config.biomes.tags]
-					"Biome Tags" = ["minecraft:is_beach"]
-					"Is Blacklist" = false
-
-				[mobs.crabs.spawn_config.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+	[oddities.backpack]
+		#Set this to true to allow the backpacks to be unequipped even with items in them
+		"Super Op Mode" = false
+		"Enable Ravager Hide" = true
+		"Items In Backpack Tick" = true
+		"Base Ravager Hide Drop" = 1
+		"Extra Chance Per Looting" = 0.5
 
 [general]
 	"Enable 'q' Button" = true
@@ -201,7 +127,7 @@
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
 	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "hexerei:coffer", "create:white_toolbox", "create:orange_toolbox", "create:magenta_toolbox", "create:light_blue_toolbox", "create:yellow_toolbox", "create:lime_toolbox", "create:pink_toolbox", "create:gray_toolbox", "create:light_gray_toolbox", "create:cyan_toolbox", "create:purple_toolbox", "create:brown_toolbox", "create:blue_toolbox", "create:green_toolbox", "create:red_toolbox", "create:black_toolbox"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
 	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
@@ -306,7 +232,7 @@
 	"Soul Sandstone" = true
 	Shingles = true
 	"Shear Vines" = true
-	Rope = true
+	Rope = false
 	"Raw Metal Bricks" = true
 	"Nether Brick Fence Gate" = true
 	"More Stone Variants" = true
@@ -610,20 +536,20 @@
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF
 		Customs = []
+		"Search Radius" = 6400
+		"Xp From Trade" = 5
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
 		"Apply Default Trades" = true
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
 		"Pathfinders Quill Speed" = 32
-		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
-		"Multi Threaded" = true
-		"Search Radius" = 6400
-		"Xp From Trade" = 5
 		"Add To Cartographer" = true
 		"Add To Wandering Trader Forced" = true
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false
 		"Draw Hud" = true
 		"Hud On Top" = false
+		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
+		"Multi Threaded" = true
 
 	[tools.parrot_eggs]
 		#The chance feeding a parrot will produce an egg
@@ -691,7 +617,6 @@
 	"Utility Recipes" = true
 	"Sponge On Water Placement" = true
 	"Snow Golem Player Heads" = true
-	"Slimes To Magma Cubes" = true
 	"Slabs To Blocks" = true
 	"Simple Harvest" = true
 	"Sign Editing" = true
@@ -717,13 +642,14 @@
 	"Dyeable Item Frames" = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
-	"Diamond Repair" = true
 	"Coral On Cactus" = true
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
+	"Slimes To Magma Cubes" = true
+	"Diamond Repair" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -880,14 +806,6 @@
 		"Enable Doors" = true
 		"Enable Fence Gates" = true
 
-	[tweaks.diamond_repair]
-		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
-		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
-		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
-		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
-		"Unrepairable Items" = []
-		"Enable Jei Hints" = true
-
 	[tweaks.compasses_work_everywhere]
 		"Enable Compass Nerf" = true
 		"Enable Clock Nerf" = true
@@ -905,6 +823,14 @@
 		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+
+	[tweaks.diamond_repair]
+		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
+		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
+		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
+		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Unrepairable Items" = []
+		"Enable Jei Hints" = true
 
 [world]
 	"Spiral Spires" = true
@@ -1472,6 +1398,194 @@
 		#Allowed values: [0,)
 		"Ancient City Loot Quality" = 1
 
+[mobs]
+	Wraith = true
+	Toretoise = true
+	Stonelings = true
+	Shiba = true
+	Foxhound = true
+	Forgotten = true
+	Crabs = true
+
+	[mobs.wraith]
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.wraith.spawn_config.biomes]
+
+				[mobs.wraith.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.wraith.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+	[mobs.toretoise]
+		"Max Y Level" = 0
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["minecraft:glow_berries"]
+		"Allow Toretoise To Regrow" = true
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
+		"Regrow Chance" = 3
+
+		[mobs.toretoise.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.toretoise.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 120
+			#Allowed values: [1,)
+			"Min Group Size" = 2
+			#Allowed values: [1,)
+			"Max Group Size" = 4
+
+			[mobs.toretoise.spawn_config.biomes]
+
+				[mobs.toretoise.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				[mobs.toretoise.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.stonelings]
+		"Max Y Level" = 0
+		"Enable Diamond Heart" = true
+		#When enabled, stonelings are much more aggressive in checking for players
+		"Cautious Stonelings" = false
+		"Tamable Stonelings" = true
+		#Disabled if if Pathfinder Maps are disabled.
+		"Weald Pathfinder Maps" = true
+
+		[mobs.stonelings.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.stonelings.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 80
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.stonelings.spawn_config.biomes]
+
+				[mobs.stonelings.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				[mobs.stonelings.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.shiba]
+		"Ignore Areas With Skylight" = false
+
+		[mobs.shiba.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 40
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.shiba.spawn_config.biomes]
+
+				[mobs.shiba.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_mountain"]
+					"Is Blacklist" = false
+
+				[mobs.shiba.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.foxhound]
+		#The chance coal will tame a foxhound
+		"Tame Chance" = 0.05
+		"Foxhounds Speed Up Furnaces" = true
+
+		[mobs.foxhound.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 10
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 2
+
+			[mobs.foxhound.spawn_config.biomes]
+
+				[mobs.foxhound.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.foxhound.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
+					"Is Blacklist" = false
+
+		[mobs.foxhound.lesser_spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 2
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.foxhound.lesser_spawn_config.biomes]
+
+				[mobs.foxhound.lesser_spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+	[mobs.forgotten]
+		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 0
+
+	[mobs.crabs]
+		"Enable Brewing" = true
+		"Enable Resillience Effect" = true
+
+		[mobs.crabs.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.crabs.spawn_config.biomes]
+
+				[mobs.crabs.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_beach"]
+					"Is Blacklist" = false
+
+				[mobs.crabs.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
 [client]
 	"Wool Shuts Up Minecarts" = true
 	"Variant Animal Textures" = true
@@ -1526,17 +1640,12 @@
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
-		#The value of each shank of food.
-		#Tweak this when using mods like Hardcore Hunger which change that value.
-		"Food Divisor" = 2
 		"Show Saturation" = true
 		"Food Compression Threshold" = 4
 		"Fuel Time Divisor" = 200
-		#Should item attributes be colored relative to your current equipped item?
-		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
-		#If set to false, item attributes will show in white or red if they're negative values.
-		"Show Upgrade Status" = true
-		"Animate Up Down Arrows" = true
+		#The value of each shank of food.
+		#Tweak this when using mods like Hardcore Hunger which change that value.
+		"Food Divisor" = 2
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
 		#A list of additional stacks to display on each enchantment
 		#The format is as follows:
@@ -1544,6 +1653,11 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		#Should item attributes be colored relative to your current equipped item?
+		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
+		#If set to false, item attributes will show in white or red if they're negative values.
+		"Show Upgrade Status" = true
+		"Animate Up Down Arrows" = true
 
 	[client.greener_grass]
 		"Affect Leaves" = true
@@ -1579,6 +1693,7 @@
 	"Narrator Readout" = false
 	"Game Nerfs" = false
 	"Enchantments Begone" = false
+	"Adjustable Chat" = false
 	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
 	#for the Enchantments defined in 'Enchantments to Register'.
 	#
@@ -1586,7 +1701,6 @@
 	#is added to 'Items to Change', then a predicate named 'quark_has_enchant_minecraft_silk_touch' will be available
 	#to the netherite_pickaxe.json item model, whose value will be the enchantment level.
 	"Enchantment Predicates" = false
-	"Adjustable Chat" = false
 
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
@@ -1613,133 +1727,19 @@
 		"Disable Wool Drops" = true
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
+		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 		#Force Elytra to only work in specific dimensions
 		"Enable Dimension Locked Elytra" = true
-		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
 
-	[experimental.enchantment_predicates]
-		"Items To Change" = []
-		"Enchantments To Register" = []
-
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
 
-[oddities]
-	"Totem Of Holding" = true
-	"Tiny Potato" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
-
-	[oddities.totem_of_holding]
-		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
-		#Totem will always spawn if the player killer is himself.
-		"Spawn Totem on PVP Kill" = false
-		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
-		"Destroy Lost Items" = false
-		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = true
-		"Enable Soul Compass" = true
-
-	[oddities.tiny_potato]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - botania
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
-		"Never Use Heart Of Diamond" = false
-
-	[oddities.pipes]
-		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 5
-		#Set to 0 if you don't want pipes to have a max amount of items
-		"Max Pipe Items" = 16
-		#When items eject or are absorbed by pipes, should they make sounds?
-		"Do Pipes Whoosh" = true
-		"Enable Encased Pipes" = true
-		"Render Pipe Items" = true
-		"Emit Vibrations" = true
-
-	[oddities.matrix_enchanting]
-		#The maximum enchanting power the matrix enchanter can accept
-		"Max Bookshelves" = 15
-		#Should this be X, the price of a piece increase by 1 every X pieces you generate
-		"Piece Price Scale" = 9
-		#The higher this is, the better enchantments you'll get on books
-		"Book Enchantability" = 12
-		#How many pieces you can generate without any bookshelves
-		"Base Max Piece Count" = 3
-		#How many pieces you can generate without any bookshelves (for Books)
-		"Base Max Piece Count Book" = 1
-		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
-		"Min Level Cutoff" = 8
-		#How many pieces a single Lapis can generate
-		"Charge Per Lapis" = 4
-		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
-		"Min Level Scale Factor" = 1.2
-		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
-		"Min Level Scale Factor Book" = 2.0
-		#How much to multiply the frequency of pieces where at least one of the same type has been generated
-		"Dupe Multiplier" = 1.4
-		#How much to multiply the frequency of pieces where incompatible pieces have been generated
-		"Incompatible Multiplier" = 0.0
-		#Set to false to disable the ability to create Enchanted Books
-		"Allow Books" = true
-		#Set this to true to allow treasure enchantments to be rolled as pieces
-		"Allow Treasures" = false
-		#Add specific enchantments to matrix enchanter. Meant for treasure ones
-		"Treasure Whitelist" = []
-		#Set to false to disable the tooltip for items with pending enchantments
-		"Show Tooltip" = true
-		#By default, enchantment rarities are fuzzed a bit to feel better with the new system. Set this to false to override this behaviour.
-		"Normalize Rarity" = true
-		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
-		"Allow Underwater Enchanting" = true
-		#Matrix Enchanting can be done with short (<= 3px blocks) instead of air around the enchanting table. Set this to false to disable this behaviour.
-		"Allow Short Block Enchanting" = true
-		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
-		"Soul Candles Invert" = true
-		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = []
-		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
-		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
-		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
-		#An array of influences that other blocks should apply.
-		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
-		"States To Influences" = []
-		#Set to false to disable the ability to influence enchantment outcomes with candles
-		"Allow Influencing" = true
-		#The max amount of candles that can influence a single enchantment
-		"Influence Max" = 4
-		#How much each candle influences an enchantment. This works as a multiplier to its weight
-		"Influence Power" = 0.125
-		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
-		"Automatically Convert" = true
-
-	[oddities.magnets]
-		#Any items you place in this list will be derived so that any block made of it will become magnetizable
-		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
-		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
-		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
-		"Use Pre End Recipe" = false
-
-	[oddities.crate]
-		"Max Items" = 640
-
-	[oddities.backpack]
-		#Set this to true to allow the backpacks to be unequipped even with items in them
-		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
-		"Items In Backpack Tick" = true
-		"Base Ravager Hide Drop" = 1
-		"Extra Chance Per Looting" = 0.5
+	[experimental.enchantment_predicates]
+		"Items To Change" = []
+		"Enchantments To Register" = []
 

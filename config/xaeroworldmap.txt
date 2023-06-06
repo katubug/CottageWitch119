@@ -41,6 +41,7 @@ legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
+biomeBlending:true
 pacPlayers:true
 displayClaims:true
 claimsFillOpacity:46

@@ -1,250 +1,173 @@
 {
-	id: "5A00BD04AD81F733"
-	group: "7A9435459855DCCD"
-	order_index: 0
-	filename: "collections"
-	title: "Collections"
-	icon: "minecraft:bundle"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "collections"
+	group: "7A9435459855DCCD"
+	icon: "minecraft:bundle"
+	id: "5A00BD04AD81F733"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 7.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgcollections.png"
+		rotation: 0.0d
+		width: 11.0d
 		x: 0.0d
 		y: 0.0d
-		width: 11.0d
-		height: 7.0d
-		rotation: 0.0d
-		image: "cottagewitch:textures/bgcollections.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Flower Picking: Red"
-			x: -3.5d
-			y: -0.5d
-			shape: "hexagon"
-			subtitle: "Red for passion, love, blood"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "7C3C2D24D60C6C1F"
-			tasks: [
-				{
-					id: "599F0E00B4D055FE"
-					type: "item"
-					item: "twilightforest:thorn_rose"
-				}
-				{
-					id: "1CAC45BA0908278E"
-					type: "item"
-					item: "byg:amaranth"
-				}
-				{
-					id: "7BFEF9EE0A529BA0"
-					type: "item"
-					item: "byg:foxglove"
-				}
-				{
-					id: "38674A1A5BDD98E3"
-					type: "item"
-					item: "byg:lazarus_bellflower"
-				}
-				{
-					id: "31BF06E67E3BAE92"
-					type: "item"
-					item: "minecraft:poppy"
-				}
-				{
-					id: "55176398037D5CC3"
-					type: "item"
-					item: "byg:richea"
-				}
-				{
-					id: "225189C7EA42C086"
-					type: "item"
-					item: "minecraft:red_tulip"
-				}
-				{
-					id: "1F3B989ED98D93CB"
-					type: "item"
-					item: "byg:begonia"
-				}
-				{
-					id: "655ECA3272A6D8A8"
-					type: "item"
-					item: "minecraft:rose_bush"
-				}
-				{
-					id: "279FCB8C97BBF8F6"
-					type: "item"
-					item: "byg:rose"
-				}
-				{
-					id: "51E056401A66A88D"
-					type: "item"
-					item: "byg:kovan_flower"
-				}
-				{
-					id: "00B0CF2D582B4CD5"
-					type: "item"
-					item: "byg:rose"
-				}
-				{
-					id: "302B88C7413DC028"
-					type: "item"
-					item: "environmental:red_lotus_flower"
-				}
-				{
-					id: "1F445D2E0FC1F84B"
-					type: "item"
-					item: "environmental:red_hibiscus"
-				}
-			]
 			rewards: [
 				{
 					id: "7C6BCDA400B6A367"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "630A1F56825F3D91"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "630A1F56825F3D91"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Red for passion, love, blood"
+			tasks: [
+				{
+					id: "599F0E00B4D055FE"
+					item: "twilightforest:thorn_rose"
+					type: "item"
+				}
+				{
+					id: "1CAC45BA0908278E"
+					item: "byg:amaranth"
+					type: "item"
+				}
+				{
+					id: "7BFEF9EE0A529BA0"
+					item: "byg:foxglove"
+					type: "item"
+				}
+				{
+					id: "38674A1A5BDD98E3"
+					item: "byg:lazarus_bellflower"
+					type: "item"
+				}
+				{
+					id: "31BF06E67E3BAE92"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					id: "55176398037D5CC3"
+					item: "byg:richea"
+					type: "item"
+				}
+				{
+					id: "225189C7EA42C086"
+					item: "minecraft:red_tulip"
+					type: "item"
+				}
+				{
+					id: "1F3B989ED98D93CB"
+					item: "byg:begonia"
+					type: "item"
+				}
+				{
+					id: "655ECA3272A6D8A8"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "279FCB8C97BBF8F6"
+					item: "byg:rose"
+					type: "item"
+				}
+				{
+					id: "51E056401A66A88D"
+					item: "byg:kovan_flower"
+					type: "item"
+				}
+				{
+					id: "00B0CF2D582B4CD5"
+					item: "byg:rose"
+					type: "item"
+				}
+				{
+					id: "302B88C7413DC028"
+					item: "environmental:red_lotus_flower"
+					type: "item"
+				}
+				{
+					id: "1F445D2E0FC1F84B"
+					item: "environmental:red_hibiscus"
+					type: "item"
+				}
+			]
+			title: "Flower Picking: Red"
+			x: -3.5d
+			y: -0.5d
 		}
 		{
-			title: "Flower Picking: Orange"
-			x: -3.0d
-			y: 0.5d
-			shape: "hexagon"
-			subtitle: "Orange for health, warmth, fortune"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "7E9C70F7B0CFD820"
+			rewards: [{
+				id: "4F13530A54DDB6CB"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "Orange for health, warmth, fortune"
 			tasks: [
 				{
 					id: "7B508E880CEB3B9E"
-					type: "item"
 					item: "byg:orange_amaranth"
+					type: "item"
 				}
 				{
 					id: "36769988D68B6195"
-					type: "item"
 					item: "byg:orange_daisy"
+					type: "item"
 				}
 				{
 					id: "46FCC8FE2D20AB1D"
-					type: "item"
 					item: "minecraft:orange_tulip"
+					type: "item"
 				}
 				{
 					id: "48E3523A0F785529"
-					type: "item"
 					item: "byg:guzmania"
+					type: "item"
 				}
 				{
 					id: "58A832C3B1121346"
-					type: "item"
 					item: "byg:california_poppy"
+					type: "item"
 				}
 				{
 					id: "30695DC4B56127A5"
-					type: "item"
 					item: "environmental:orange_hibiscus"
+					type: "item"
 				}
 				{
 					id: "3CCB0C16B27E8BC0"
-					type: "item"
 					item: "environmental:cartwheel"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4F13530A54DDB6CB"
-				type: "choice"
-				table_id: 2068679807827730220L
-			}]
+			title: "Flower Picking: Orange"
+			x: -3.0d
+			y: 0.5d
 		}
 		{
-			title: "Music Lover"
-			x: 3.5d
-			y: 1.0d
-			shape: "hexagon"
-			subtitle: "I can't get this song out of my head!"
 			description: ["Obtain all vanilla music discs."]
 			id: "1FD157BDA5AF3BE9"
-			tasks: [
-				{
-					id: "7451BF72E73B7EF1"
-					type: "item"
-					item: "minecraft:music_disc_13"
-				}
-				{
-					id: "0DD2F00DD2DA22DF"
-					type: "item"
-					item: "minecraft:music_disc_cat"
-				}
-				{
-					id: "29CC947706C42B91"
-					type: "item"
-					item: "minecraft:music_disc_blocks"
-				}
-				{
-					id: "232F0635D295BB59"
-					type: "item"
-					item: "minecraft:music_disc_chirp"
-				}
-				{
-					id: "054726DD1632BE72"
-					type: "item"
-					item: "minecraft:music_disc_far"
-				}
-				{
-					id: "2B927ED082CDC5B4"
-					type: "item"
-					item: "minecraft:music_disc_mall"
-				}
-				{
-					id: "7DF3CBCB3158C521"
-					type: "item"
-					item: "minecraft:music_disc_mellohi"
-				}
-				{
-					id: "607EF5FD9E38DD88"
-					type: "item"
-					item: "minecraft:music_disc_stal"
-				}
-				{
-					id: "549BAF833D83722E"
-					type: "item"
-					item: "minecraft:music_disc_strad"
-				}
-				{
-					id: "7257AA73407C892D"
-					type: "item"
-					item: "minecraft:music_disc_ward"
-				}
-				{
-					id: "2D8EE5FCDDD7C6C2"
-					type: "item"
-					item: "minecraft:music_disc_11"
-				}
-				{
-					id: "5F167A27EAFBC280"
-					type: "item"
-					item: "minecraft:music_disc_wait"
-				}
-				{
-					id: "6E384131D10A0C1E"
-					type: "item"
-					item: "minecraft:music_disc_otherside"
-				}
-				{
-					id: "51FAD651FF5E59E6"
-					type: "item"
-					item: "minecraft:music_disc_pigstep"
-				}
-			]
 			rewards: [
 				{
 					id: "43F9EA89E7A7A7CA"
@@ -253,938 +176,1007 @@
 				}
 				{
 					id: "7DCECB41814CB556"
-					type: "choice"
 					table_id: 1739670786502713488L
+					type: "choice"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Yellow"
-			x: -2.5d
-			y: -0.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "40BBDD8D814A55C1"
+			subtitle: "I can't get this song out of my head!"
 			tasks: [
 				{
-					id: "2C7AE02EC1C5FABF"
+					id: "7451BF72E73B7EF1"
+					item: "minecraft:music_disc_13"
 					type: "item"
-					item: "hexerei:yellow_dock_flowers"
 				}
 				{
-					id: "6646480A0586896C"
+					id: "0DD2F00DD2DA22DF"
+					item: "minecraft:music_disc_cat"
 					type: "item"
-					item: "minecraft:dandelion"
 				}
 				{
-					id: "7E7B2584749D6144"
+					id: "29CC947706C42B91"
+					item: "minecraft:music_disc_blocks"
 					type: "item"
-					item: "byg:firecracker_flower_bush"
 				}
 				{
-					id: "00D6733FC0BCAE4E"
+					id: "232F0635D295BB59"
+					item: "minecraft:music_disc_chirp"
 					type: "item"
-					item: "minecraft:sunflower"
 				}
 				{
-					id: "5085417582A9F1DB"
+					id: "054726DD1632BE72"
+					item: "minecraft:music_disc_far"
 					type: "item"
-					item: "byg:yellow_daffodil"
 				}
 				{
-					id: "28DEDEDDFC8906E3"
+					id: "2B927ED082CDC5B4"
+					item: "minecraft:music_disc_mall"
 					type: "item"
-					item: "byg:lollipop_flower"
 				}
 				{
-					id: "1D4B5412C1075BB5"
+					id: "7DF3CBCB3158C521"
+					item: "minecraft:music_disc_mellohi"
 					type: "item"
-					item: "byg:yellow_tulip"
 				}
 				{
-					id: "705E3F57D0837B0E"
+					id: "607EF5FD9E38DD88"
+					item: "minecraft:music_disc_stal"
 					type: "item"
-					item: "environmental:yellow_hibiscus"
+				}
+				{
+					id: "549BAF833D83722E"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "7257AA73407C892D"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "2D8EE5FCDDD7C6C2"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "5F167A27EAFBC280"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "6E384131D10A0C1E"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "51FAD651FF5E59E6"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
 				}
 			]
+			title: "Music Lover"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "40BBDD8D814A55C1"
 			rewards: [
 				{
 					id: "157334951D384948"
-					type: "choice"
 					table_id: 2068679807827730220L
+					type: "choice"
 				}
 				{
-					id: "6B64AD45AF355360"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6B64AD45AF355360"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Green and Cyan"
-			x: -2.0d
-			y: 0.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "56F3B965C1198BE9"
 			tasks: [
 				{
-					id: "13B2F2F7B09F7E32"
+					id: "2C7AE02EC1C5FABF"
+					item: "hexerei:yellow_dock_flowers"
 					type: "item"
-					item: "byg:thereal_bellflower"
 				}
 				{
-					id: "5F815FC07B977F9E"
+					id: "6646480A0586896C"
+					item: "minecraft:dandelion"
 					type: "item"
-					item: "hexerei:mugwort_flowers"
 				}
 				{
-					id: "278D2065282C8105"
+					id: "7E7B2584749D6144"
+					item: "byg:firecracker_flower_bush"
 					type: "item"
-					item: "byg:cyan_rose"
 				}
 				{
-					id: "224947F18516E4FC"
+					id: "00D6733FC0BCAE4E"
+					item: "minecraft:sunflower"
 					type: "item"
-					item: "byg:cyan_tulip"
 				}
 				{
-					id: "7749F7617B0D52D5"
+					id: "5085417582A9F1DB"
+					item: "byg:yellow_daffodil"
 					type: "item"
-					item: "byg:green_tulip"
 				}
 				{
-					id: "653F1EDE14F9BC01"
+					id: "28DEDEDDFC8906E3"
+					item: "byg:lollipop_flower"
 					type: "item"
-					item: "byg:cyan_amaranth"
 				}
 				{
-					id: "50B79144BC51D343"
+					id: "1D4B5412C1075BB5"
+					item: "byg:yellow_tulip"
 					type: "item"
-					item: "byg:flower_patch"
 				}
 				{
-					id: "26CCA06D7C4AD427"
+					id: "705E3F57D0837B0E"
+					item: "environmental:yellow_hibiscus"
 					type: "item"
-					item: "environmental:dianthus"
 				}
 			]
+			title: "Flower Picking: Yellow"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "56F3B965C1198BE9"
 			rewards: [
 				{
 					id: "5FBBE32E9348A6F7"
-					type: "random"
 					table_id: 2068679807827730220L
-				}
-				{
-					id: "66C9613881E7A3FB"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "42BF5C8C6250FDD8"
 					type: "random"
+				}
+				{
 					exclude_from_claim_all: true
+					id: "66C9613881E7A3FB"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BF5C8C6250FDD8"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Blue"
-			x: -1.5d
-			y: -0.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "5435D7182F5A0C8D"
 			tasks: [
 				{
-					id: "6206FC8A6F656A11"
+					id: "13B2F2F7B09F7E32"
+					item: "byg:thereal_bellflower"
 					type: "item"
-					item: "minecraft:blue_orchid"
 				}
 				{
-					id: "2E73B408D54C05C7"
+					id: "5F815FC07B977F9E"
+					item: "hexerei:mugwort_flowers"
 					type: "item"
-					item: "missingwilds:blue_forget_me_not"
 				}
 				{
-					id: "74D8C3F4EFD36EBC"
+					id: "278D2065282C8105"
+					item: "byg:cyan_rose"
 					type: "item"
-					item: "byg:winter_cyclamen"
 				}
 				{
-					id: "1392ED8C679B190B"
+					id: "224947F18516E4FC"
+					item: "byg:cyan_tulip"
 					type: "item"
-					item: "byg:winter_scilla"
 				}
 				{
-					id: "4635551D704B51AE"
+					id: "7749F7617B0D52D5"
+					item: "byg:green_tulip"
 					type: "item"
-					item: "minecraft:cornflower"
+				}
+				{
+					id: "653F1EDE14F9BC01"
+					item: "byg:cyan_amaranth"
+					type: "item"
+				}
+				{
+					id: "50B79144BC51D343"
+					item: "byg:flower_patch"
+					type: "item"
+				}
+				{
+					id: "26CCA06D7C4AD427"
+					item: "environmental:dianthus"
+					type: "item"
 				}
 			]
+			title: "Flower Picking: Green and Cyan"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "5435D7182F5A0C8D"
 			rewards: [
 				{
 					id: "268D54B93D84C44B"
-					type: "choice"
 					table_id: 2068679807827730220L
+					type: "choice"
 				}
 				{
-					id: "3DFED648E3730DCF"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3DFED648E3730DCF"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Periwinkle"
-			x: -1.0d
-			y: 0.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "6BED02ADA79C4A8D"
 			tasks: [
 				{
-					id: "3BD10CC375E0D80E"
+					id: "6206FC8A6F656A11"
+					item: "minecraft:blue_orchid"
 					type: "item"
-					item: "byg:alpine_bellflower"
 				}
 				{
-					id: "4A13F8530629DA3E"
+					id: "2E73B408D54C05C7"
+					item: "missingwilds:blue_forget_me_not"
 					type: "item"
-					item: "byg:hydrangea_bush"
 				}
 				{
-					id: "1FB894514723E96B"
+					id: "74D8C3F4EFD36EBC"
+					item: "byg:winter_cyclamen"
 					type: "item"
-					item: "byg:angelica"
 				}
 				{
-					id: "0B01E20ADABBFBFA"
+					id: "1392ED8C679B190B"
+					item: "byg:winter_scilla"
 					type: "item"
-					item: "byg:blue_sage"
 				}
 				{
-					id: "3AA37D0D5C62926A"
+					id: "4635551D704B51AE"
+					item: "minecraft:cornflower"
 					type: "item"
-					item: "byg:violet_leather_flower"
-				}
-				{
-					id: "591F0CC5A4BDF195"
-					type: "item"
-					item: "byg:bistort"
-				}
-				{
-					id: "35AFD30EA609AFEA"
-					type: "item"
-					item: "byg:delphinium"
-				}
-				{
-					id: "1318C2AA3C455F23"
-					type: "item"
-					item: "minecraft:peony"
 				}
 			]
+			title: "Flower Picking: Blue"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "6BED02ADA79C4A8D"
 			rewards: [
 				{
 					id: "45A9B2230F5D46EA"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "2F02BF712FCA9085"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2F02BF712FCA9085"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Purple"
-			x: -0.5d
-			y: -0.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "290D8441BBC918A1"
 			tasks: [
 				{
-					id: "0361CBC524FFB587"
+					id: "3BD10CC375E0D80E"
+					item: "byg:alpine_bellflower"
 					type: "item"
-					item: "minecraft:allium"
 				}
 				{
-					id: "1F81F2D98FE88BA1"
+					id: "4A13F8530629DA3E"
+					item: "byg:hydrangea_bush"
 					type: "item"
-					item: "byg:purple_tulip"
 				}
 				{
-					id: "47D0517FC0E70E06"
+					id: "1FB894514723E96B"
+					item: "byg:angelica"
 					type: "item"
-					item: "missingwilds:purple_forget_me_not"
 				}
 				{
-					id: "79F3CDA88832996D"
+					id: "0B01E20ADABBFBFA"
+					item: "byg:blue_sage"
 					type: "item"
-					item: "byg:allium_flower_bush"
 				}
 				{
-					id: "57BA83FBFE37CEBA"
+					id: "3AA37D0D5C62926A"
+					item: "byg:violet_leather_flower"
 					type: "item"
-					item: "byg:tall_allium"
 				}
 				{
-					id: "282538573A094C3D"
+					id: "591F0CC5A4BDF195"
+					item: "byg:bistort"
 					type: "item"
-					item: "hexerei:belladonna_flowers"
 				}
 				{
-					id: "7ACAB3FAB0275615"
+					id: "35AFD30EA609AFEA"
+					item: "byg:delphinium"
 					type: "item"
-					item: "ars_nouveau:magebloom"
 				}
 				{
-					id: "55B078ECCBB6B770"
+					id: "1318C2AA3C455F23"
+					item: "minecraft:peony"
 					type: "item"
-					item: "byg:iris"
-				}
-				{
-					id: "4D74FFBEC1A22BE8"
-					type: "item"
-					item: "byg:crocus"
-				}
-				{
-					id: "350230F7456C15AD"
-					type: "item"
-					item: "byg:purple_sage"
-				}
-				{
-					id: "67B94BB14309A489"
-					type: "item"
-					item: "byg:purple_amaranth"
-				}
-				{
-					id: "3F9FA267B179F8E3"
-					type: "item"
-					item: "byg:hydrangea_hedge"
-				}
-				{
-					id: "47844E396E7388A4"
-					type: "item"
-					item: "environmental:purple_hibiscus"
-				}
-				{
-					id: "361E672772392D7B"
-					type: "item"
-					item: "environmental:violet"
-				}
-				{
-					id: "7A359781AD882456"
-					type: "item"
-					item: "environmental:purple_delphinium"
 				}
 			]
+			title: "Flower Picking: Periwinkle"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "290D8441BBC918A1"
 			rewards: [
 				{
 					id: "7DA76ECFC213F2E1"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "4FF4BB30501FCB3D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "4FF4BB30501FCB3D"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0361CBC524FFB587"
+					item: "minecraft:allium"
+					type: "item"
+				}
+				{
+					id: "1F81F2D98FE88BA1"
+					item: "byg:purple_tulip"
+					type: "item"
+				}
+				{
+					id: "47D0517FC0E70E06"
+					item: "missingwilds:purple_forget_me_not"
+					type: "item"
+				}
+				{
+					id: "79F3CDA88832996D"
+					item: "byg:allium_flower_bush"
+					type: "item"
+				}
+				{
+					id: "57BA83FBFE37CEBA"
+					item: "byg:tall_allium"
+					type: "item"
+				}
+				{
+					id: "282538573A094C3D"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "7ACAB3FAB0275615"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "55B078ECCBB6B770"
+					item: "byg:iris"
+					type: "item"
+				}
+				{
+					id: "4D74FFBEC1A22BE8"
+					item: "byg:crocus"
+					type: "item"
+				}
+				{
+					id: "350230F7456C15AD"
+					item: "byg:purple_sage"
+					type: "item"
+				}
+				{
+					id: "67B94BB14309A489"
+					item: "byg:purple_amaranth"
+					type: "item"
+				}
+				{
+					id: "3F9FA267B179F8E3"
+					item: "byg:hydrangea_hedge"
+					type: "item"
+				}
+				{
+					id: "47844E396E7388A4"
+					item: "environmental:purple_hibiscus"
+					type: "item"
+				}
+				{
+					id: "361E672772392D7B"
+					item: "environmental:violet"
+					type: "item"
+				}
+				{
+					id: "7A359781AD882456"
+					item: "environmental:purple_delphinium"
+					type: "item"
+				}
+			]
+			title: "Flower Picking: Purple"
+			x: -0.5d
+			y: -0.5d
 		}
 		{
-			title: "Flower Picking: Pink"
-			x: 0.0d
-			y: 0.5d
-			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "692725454B955B4C"
+			rewards: [
+				{
+					id: "74684E8AE902E936"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "699D75572A615EA1"
+					table_id: 987967038148964353L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "50AA1CE3DE3440C4"
-					type: "item"
 					item: "byg:pink_allium"
+					type: "item"
 				}
 				{
 					id: "1A1F09AA8DBECA4E"
-					type: "item"
 					item: "byg:tall_pink_allium"
+					type: "item"
 				}
 				{
 					id: "4F04652292E1EED6"
-					type: "item"
 					item: "byg:silver_vase_flower"
+					type: "item"
 				}
 				{
 					id: "12C99762585A1223"
-					type: "item"
 					item: "byg:peach_leather_flower"
+					type: "item"
 				}
 				{
 					id: "469C771000CECC07"
-					type: "item"
 					item: "byg:pink_allium_flower_bush"
+					type: "item"
 				}
 				{
 					id: "654EEEC582199E27"
-					type: "item"
 					item: "minecraft:lilac"
+					type: "item"
 				}
 				{
 					id: "20ED03353C7FD82D"
-					type: "item"
 					item: "byg:magenta_amaranth"
+					type: "item"
 				}
 				{
 					id: "2368E11F23F973ED"
-					type: "item"
 					item: "byg:japanese_orchid"
+					type: "item"
 				}
 				{
 					id: "43C291F48780210F"
-					type: "item"
 					item: "minecraft:pink_tulip"
+					type: "item"
 				}
 				{
 					id: "09265F4BBB508CD5"
-					type: "item"
 					item: "missingwilds:pink_forget_me_not"
+					type: "item"
 				}
 				{
 					id: "33D4967870A26D32"
-					type: "item"
 					item: "byg:pink_anemone"
+					type: "item"
 				}
 				{
 					id: "16BEAB150ECF2C2D"
-					type: "item"
-					title: "Any #crafttweaker:lilies"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "crafttweaker:lilies"
 						}
 					}
+					title: "Any #crafttweaker:lilies"
+					type: "item"
 				}
 				{
 					id: "17AA907FBDF0B888"
-					type: "item"
 					item: "byg:silver_vase_flower"
+					type: "item"
 				}
 				{
 					id: "08C4D7C3FA0278FC"
-					type: "item"
 					item: "environmental:pink_delphinium"
+					type: "item"
 				}
 				{
 					id: "4C42B6E5BB9590CC"
-					type: "item"
 					item: "environmental:pink_hibiscus"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "74684E8AE902E936"
-					type: "choice"
-					table_id: 5036677739913042344L
-				}
-				{
-					id: "699D75572A615EA1"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 987967038148964353L
-				}
-			]
+			title: "Flower Picking: Pink"
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			title: "Flower Picking: Magenta"
-			x: 0.5d
-			y: -0.5d
-			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "198D780CB29A2F3B"
-			tasks: [
-				{
-					id: "062C16E875716562"
-					type: "item"
-					item: "twilightforest:huge_water_lily"
-				}
-				{
-					id: "09D62B386E26915B"
-					type: "item"
-					item: "byg:torch_ginger"
-				}
-				{
-					id: "58E24CAFEDD82137"
-					type: "item"
-					item: "byg:protea_flower"
-				}
-				{
-					id: "00C3514B84784668"
-					type: "item"
-					item: "byg:osiria_rose"
-				}
-				{
-					id: "71D0D6ACDA9BD216"
-					type: "item"
-					item: "byg:pink_daffodil"
-				}
-				{
-					id: "0570A5381DCCE205"
-					type: "item"
-					item: "byg:magenta_tulip"
-				}
-				{
-					id: "67358AF4F298AD66"
-					type: "item"
-					item: "byg:fairy_slipper"
-				}
-				{
-					id: "16FFF54481890377"
-					type: "item"
-					item: "byg:daffodil"
-				}
-				{
-					id: "479D64D5CD1CC6F8"
-					type: "item"
-					item: "byg:incan_lily"
-				}
-				{
-					id: "2E858E7A5019E562"
-					type: "item"
-					item: "environmental:magenta_hibiscus"
-				}
-			]
 			rewards: [
 				{
 					id: "1E491E743D9EB255"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "1A90D98E6591443C"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1A90D98E6591443C"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Flower Picking: Black and White"
-			x: -1.5d
-			y: 1.5d
 			shape: "hexagon"
-			description: ["Collect one each of every flower in the game to earn rewards!"]
-			id: "04973320B5F27BD7"
 			tasks: [
 				{
-					id: "14648360B86631F2"
+					id: "062C16E875716562"
+					item: "twilightforest:huge_water_lily"
 					type: "item"
-					item: "minecraft:azure_bluet"
 				}
 				{
-					id: "6ABD1F0EBFFB02D1"
+					id: "09D62B386E26915B"
+					item: "byg:torch_ginger"
 					type: "item"
-					item: "minecraft:lily_of_the_valley"
 				}
 				{
-					id: "7D920FE9DCE5E998"
+					id: "58E24CAFEDD82137"
+					item: "byg:protea_flower"
 					type: "item"
-					item: "minecraft:oxeye_daisy"
 				}
 				{
-					id: "4CB1F5A8218028DB"
+					id: "00C3514B84784668"
+					item: "byg:osiria_rose"
 					type: "item"
-					item: "minecraft:white_tulip"
 				}
 				{
-					id: "537320DDBBF65FCF"
+					id: "71D0D6ACDA9BD216"
+					item: "byg:pink_daffodil"
 					type: "item"
-					item: "byg:white_sage"
 				}
 				{
-					id: "31461715D340973C"
+					id: "0570A5381DCCE205"
+					item: "byg:magenta_tulip"
 					type: "item"
-					item: "byg:winter_rose"
 				}
 				{
-					id: "2DF45E5B989AF291"
+					id: "67358AF4F298AD66"
+					item: "byg:fairy_slipper"
 					type: "item"
-					item: "byg:white_anemone"
 				}
 				{
-					id: "13ADD47E0742D9D0"
+					id: "16FFF54481890377"
+					item: "byg:daffodil"
 					type: "item"
-					item: "byg:snowdrops"
 				}
 				{
-					id: "5A8A97B6EEB8AB6B"
+					id: "479D64D5CD1CC6F8"
+					item: "byg:incan_lily"
 					type: "item"
-					item: "missingwilds:sweetspire"
 				}
 				{
-					id: "078284A02C78E0B4"
+					id: "2E858E7A5019E562"
+					item: "environmental:magenta_hibiscus"
 					type: "item"
-					item: "missingwilds:white_forget_me_not"
-				}
-				{
-					id: "11C675E4973F1879"
-					type: "item"
-					item: "minecraft:wither_rose"
-				}
-				{
-					id: "30F2FA192C278C5A"
-					type: "item"
-					item: "byg:black_rose"
-				}
-				{
-					id: "0FF916689C41397C"
-					type: "item"
-					item: "environmental:white_lotus_flower"
-				}
-				{
-					id: "500454A516F65136"
-					type: "item"
-					item: "environmental:white_delphinium"
 				}
 			]
+			title: "Flower Picking: Magenta"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Collect one each of every flower in the game to earn rewards!"]
+			id: "04973320B5F27BD7"
 			rewards: [
 				{
 					id: "181F0311EA162994"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "406DB8401AF9656E"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "406DB8401AF9656E"
 					table_id: 987967038148964353L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Cool Mushrooms"
-			x: 3.0d
-			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Is fungiphilia a thing?"
-			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
-			id: "6B3AD3CDE8EC90F1"
 			tasks: [
 				{
-					id: "371E746F7BA14ACE"
+					id: "14648360B86631F2"
+					item: "minecraft:azure_bluet"
 					type: "item"
-					item: "byg:shulkren_fungus"
 				}
 				{
-					id: "62F783639B880310"
+					id: "6ABD1F0EBFFB02D1"
+					item: "minecraft:lily_of_the_valley"
 					type: "item"
-					item: "quark:glow_shroom"
 				}
 				{
-					id: "6EBF197515ACA3EC"
+					id: "7D920FE9DCE5E998"
+					item: "minecraft:oxeye_daisy"
 					type: "item"
-					item: "byg:soul_shroom"
 				}
 				{
-					id: "28CD84F7B5274FFD"
+					id: "4CB1F5A8218028DB"
+					item: "minecraft:white_tulip"
 					type: "item"
-					item: "minecraft:crimson_fungus"
 				}
 				{
-					id: "6920EAFA142964D9"
+					id: "537320DDBBF65FCF"
+					item: "byg:white_sage"
 					type: "item"
-					item: "minecraft:red_mushroom"
 				}
 				{
-					id: "76971068BECCB289"
+					id: "31461715D340973C"
+					item: "byg:winter_rose"
 					type: "item"
-					item: "minecraft:brown_mushroom"
 				}
 				{
-					id: "748D985DE02CBFB2"
+					id: "2DF45E5B989AF291"
+					item: "byg:white_anemone"
 					type: "item"
-					item: "alexsmobs:gongylidia"
 				}
 				{
-					id: "74603D5C47858EA5"
+					id: "13ADD47E0742D9D0"
+					item: "byg:snowdrops"
 					type: "item"
-					item: "byg:green_mushroom"
 				}
 				{
-					id: "66D374A30D1140F0"
+					id: "5A8A97B6EEB8AB6B"
+					item: "missingwilds:sweetspire"
 					type: "item"
-					item: "byg:imparius_mushroom"
 				}
 				{
-					id: "61FE2D33E4980C7C"
+					id: "078284A02C78E0B4"
+					item: "missingwilds:white_forget_me_not"
 					type: "item"
-					item: "minecraft:warped_fungus"
 				}
 				{
-					id: "49C5309778C69B0A"
+					id: "11C675E4973F1879"
+					item: "minecraft:wither_rose"
 					type: "item"
-					item: "extendedmushrooms:honey_fungus"
 				}
 				{
-					id: "232E31DB413BD7CF"
+					id: "30F2FA192C278C5A"
+					item: "byg:black_rose"
 					type: "item"
-					item: "extendedmushrooms:slime_fungus"
 				}
 				{
-					id: "0A0A225B2F884D0F"
+					id: "0FF916689C41397C"
+					item: "environmental:white_lotus_flower"
 					type: "item"
-					item: "extendedmushrooms:poisonous_mushroom"
 				}
 				{
-					id: "0666ED2501985835"
+					id: "500454A516F65136"
+					item: "environmental:white_delphinium"
 					type: "item"
-					item: "extendedmushrooms:glowshroom"
-				}
-				{
-					id: "7C336275B87713BE"
-					type: "item"
-					item: "spelunkery:button_mushroom"
-				}
-				{
-					id: "7C5EEF479F30202C"
-					type: "item"
-					item: "spelunkery:white_inkcap_mushroom"
-				}
-				{
-					id: "7FF0C3263CC3A2E6"
-					type: "item"
-					item: "spelunkery:inkcap_mushroom"
 				}
 			]
+			title: "Flower Picking: Black and White"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
+			id: "6B3AD3CDE8EC90F1"
 			rewards: [
 				{
 					id: "5B49E95D66913E91"
-					type: "choice"
 					table_id: 174664628969880996L
+					type: "choice"
 				}
 				{
 					id: "35E657F9581317FF"
-					type: "choice"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 			]
-		}
-		{
-			title: "Obtain the Rainbow"
-			x: 2.5d
-			y: 1.0d
 			shape: "hexagon"
-			subtitle: "Taste the rainbow"
-			description: ["For this quest, show your love of color by collecting each different type of wool."]
-			id: "3F5F93D7191952F9"
+			subtitle: "Is fungiphilia a thing?"
 			tasks: [
 				{
-					id: "7DACF9E88A51EED7"
+					id: "371E746F7BA14ACE"
+					item: "byg:shulkren_fungus"
 					type: "item"
-					item: "minecraft:white_wool"
 				}
 				{
-					id: "7C2DCF5E681C6244"
+					id: "62F783639B880310"
+					item: "quark:glow_shroom"
 					type: "item"
-					item: "minecraft:orange_wool"
 				}
 				{
-					id: "1B23280837B05A61"
+					id: "6EBF197515ACA3EC"
+					item: "byg:soul_shroom"
 					type: "item"
-					item: "minecraft:magenta_wool"
 				}
 				{
-					id: "28E786F2551BE366"
+					id: "28CD84F7B5274FFD"
+					item: "minecraft:crimson_fungus"
 					type: "item"
-					item: "minecraft:light_blue_wool"
 				}
 				{
-					id: "7C569F29B9F45CD4"
+					id: "6920EAFA142964D9"
+					item: "minecraft:red_mushroom"
 					type: "item"
-					item: "minecraft:yellow_wool"
 				}
 				{
-					id: "2F47C82EFB191D96"
+					id: "76971068BECCB289"
+					item: "minecraft:brown_mushroom"
 					type: "item"
-					item: "minecraft:lime_wool"
 				}
 				{
-					id: "7C4ED20EF9E45D9B"
+					id: "748D985DE02CBFB2"
+					item: "alexsmobs:gongylidia"
 					type: "item"
-					item: "minecraft:pink_wool"
 				}
 				{
-					id: "425A4C25FC7D2008"
+					id: "74603D5C47858EA5"
+					item: "byg:green_mushroom"
 					type: "item"
-					item: "minecraft:gray_wool"
 				}
 				{
-					id: "7EE83753D0DF410E"
+					id: "66D374A30D1140F0"
+					item: "byg:imparius_mushroom"
 					type: "item"
-					item: "minecraft:light_gray_wool"
 				}
 				{
-					id: "7041C2F0A1554B3E"
+					id: "61FE2D33E4980C7C"
+					item: "minecraft:warped_fungus"
 					type: "item"
-					item: "minecraft:cyan_wool"
 				}
 				{
-					id: "648BB08B605292FD"
+					id: "49C5309778C69B0A"
+					item: "extendedmushrooms:honey_fungus"
 					type: "item"
-					item: "minecraft:purple_wool"
 				}
 				{
-					id: "524A5B9BD335CD0D"
+					id: "232E31DB413BD7CF"
+					item: "extendedmushrooms:slime_fungus"
 					type: "item"
-					item: "minecraft:blue_wool"
 				}
 				{
-					id: "71CEDB260E3EEC0D"
+					id: "0A0A225B2F884D0F"
+					item: "extendedmushrooms:poisonous_mushroom"
 					type: "item"
-					item: "minecraft:brown_wool"
 				}
 				{
-					id: "54E6F17508D346AD"
+					id: "0666ED2501985835"
+					item: "extendedmushrooms:glowshroom"
 					type: "item"
-					item: "minecraft:green_wool"
 				}
 				{
-					id: "1DB5520705342CE8"
+					id: "7C336275B87713BE"
+					item: "spelunkery:button_mushroom"
 					type: "item"
-					item: "minecraft:black_wool"
+				}
+				{
+					id: "7C5EEF479F30202C"
+					item: "spelunkery:white_inkcap_mushroom"
+					type: "item"
+				}
+				{
+					id: "7FF0C3263CC3A2E6"
+					item: "spelunkery:inkcap_mushroom"
+					type: "item"
 				}
 			]
+			title: "Cool Mushrooms"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["For this quest, show your love of color by collecting each different type of wool."]
+			id: "3F5F93D7191952F9"
 			rewards: [
 				{
-					id: "60967FCBA9CDD1D2"
-					type: "item"
-					item: "twilightforest:rainbow_oak_sapling"
 					count: 4
+					id: "60967FCBA9CDD1D2"
+					item: "twilightforest:rainbow_oak_sapling"
+					type: "item"
 				}
 				{
-					id: "3CA57C3B706C562D"
-					type: "item"
-					item: "alexsmobs:rainbow_glass"
 					count: 10
+					id: "3CA57C3B706C562D"
+					item: "alexsmobs:rainbow_glass"
+					type: "item"
 				}
 				{
-					id: "207EB76873ACDF1B"
-					type: "item"
-					item: "quark:rainbow_rune"
 					count: 8
+					id: "207EB76873ACDF1B"
+					item: "quark:rainbow_rune"
+					type: "item"
 				}
 				{
+					count: 3
 					id: "2095F78EF4981D37"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlNWJkMTI5ODJiMWJhMWI5ZTYwYzI0MjY4Zjg5MWM2YTcwYTY4Yjk1ZTAzZWZlYTU4ODEzYThkZjA4M2E5ZiJ9fX0="
-									}]
-								}
 								Id: [I;
 									-1360220919
 									757874878
 									-1326580427
 									-520989337
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlNWJkMTI5ODJiMWJhMWI5ZTYwYzI0MjY4Zjg5MWM2YTcwYTY4Yjk1ZTAzZWZlYTU4ODEzYThkZjA4M2E5ZiJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Rainbow Shulker\"}"
 							}
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "08A2D19DD8BCF367"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRiMDM3OTRiOWIzZTNiNWQwN2UzYmU2OGI5NmFmODdkZjIxNWMzNzUyZTU0NzM2YzgwZjdkNTBiZDM0MzdhNCJ9fX0="
-									}]
-								}
 								Id: [I;
 									2012311236
 									1495941521
 									-1550882921
 									-1115540014
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRiMDM3OTRiOWIzZTNiNWQwN2UzYmU2OGI5NmFmODdkZjIxNWMzNzUyZTU0NzM2YzgwZjdkNTBiZDM0MzdhNCJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Wool (rainbow)\"}"
 							}
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
-					id: "77B2E3B1C1FEEA55"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "77B2E3B1C1FEEA55"
 					table_id: 987967038148964353L
+					type: "choice"
 				}
 			]
-		}
-		{
-			x: 3.0d
-			y: 2.0d
-			shape: "octagon"
-			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
-			id: "75AD4BD901CEA061"
-			tasks: [{
-				id: "1FA9C71585BE62EF"
-				type: "advancement"
-				advancement: "minecraft:husbandry/complete_catalogue"
-				criterion: ""
-			}]
-			rewards: [
+			shape: "hexagon"
+			subtitle: "Taste the rainbow"
+			tasks: [
 				{
-					id: "15E9D9471927E0F8"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 7049021818423122779L
+					id: "7DACF9E88A51EED7"
+					item: "minecraft:white_wool"
+					type: "item"
 				}
 				{
-					id: "78D88788724EB26F"
-					type: "choice"
+					id: "7C2DCF5E681C6244"
+					item: "minecraft:orange_wool"
+					type: "item"
+				}
+				{
+					id: "1B23280837B05A61"
+					item: "minecraft:magenta_wool"
+					type: "item"
+				}
+				{
+					id: "28E786F2551BE366"
+					item: "minecraft:light_blue_wool"
+					type: "item"
+				}
+				{
+					id: "7C569F29B9F45CD4"
+					item: "minecraft:yellow_wool"
+					type: "item"
+				}
+				{
+					id: "2F47C82EFB191D96"
+					item: "minecraft:lime_wool"
+					type: "item"
+				}
+				{
+					id: "7C4ED20EF9E45D9B"
+					item: "minecraft:pink_wool"
+					type: "item"
+				}
+				{
+					id: "425A4C25FC7D2008"
+					item: "minecraft:gray_wool"
+					type: "item"
+				}
+				{
+					id: "7EE83753D0DF410E"
+					item: "minecraft:light_gray_wool"
+					type: "item"
+				}
+				{
+					id: "7041C2F0A1554B3E"
+					item: "minecraft:cyan_wool"
+					type: "item"
+				}
+				{
+					id: "648BB08B605292FD"
+					item: "minecraft:purple_wool"
+					type: "item"
+				}
+				{
+					id: "524A5B9BD335CD0D"
+					item: "minecraft:blue_wool"
+					type: "item"
+				}
+				{
+					id: "71CEDB260E3EEC0D"
+					item: "minecraft:brown_wool"
+					type: "item"
+				}
+				{
+					id: "54E6F17508D346AD"
+					item: "minecraft:green_wool"
+					type: "item"
+				}
+				{
+					id: "1DB5520705342CE8"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+			]
+			title: "Obtain the Rainbow"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
+			id: "75AD4BD901CEA061"
+			rewards: [
+				{
 					exclude_from_claim_all: true
+					id: "15E9D9471927E0F8"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D88788724EB26F"
 					table_id: 5161092699925703455L
+					type: "choice"
 				}
 				{
 					id: "62149A202F095504"
-					type: "item"
 					item: "plushies:cat"
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "1FA9C71585BE62EF"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			shape: "gear"
-			description: [
-				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
-				"Ya-ha-ha!"
-			]
-			hide_dependency_lines: true
 			dependencies: [
 				"7C3C2D24D60C6C1F"
 				"40BBDD8D814A55C1"
@@ -1198,126 +1190,134 @@
 				"692725454B955B4C"
 				"5C9725DEED609E88"
 			]
+			description: [
+				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
+				"Ya-ha-ha!"
+			]
+			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
-			tasks: [{
-				id: "3B66FE756544A418"
-				type: "checkmark"
-				title: "Ultimate Flower Enthusiast"
-			}]
 			rewards: [
 				{
 					id: "6D05B3B2A8A464A0"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU1ZWYxY2ZhNjBhM2Q2NmM5MTY0MGE0NTg5MzNiNTJlZTk3ODI4NmZhOWMyNmM3OGE0YmQxY2FjZGQ1NmRmNyJ9fX0="
-									}]
-								}
 								Id: [I;
 									1142206997
 									-819574750
 									-1410911784
 									-1724342287
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU1ZWYxY2ZhNjBhM2Q2NmM5MTY0MGE0NTg5MzNiNTJlZTk3ODI4NmZhOWMyNmM3OGE0YmQxY2FjZGQ1NmRmNyJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Korok\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "4177C6F44B86C87A"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "4177C6F44B86C87A"
 					table_id: 5525848455660196930L
+					type: "choice"
 				}
 			]
+			shape: "gear"
+			tasks: [{
+				id: "3B66FE756544A418"
+				title: "Ultimate Flower Enthusiast"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			x: 2.0d
-			y: 2.0d
-			shape: "octagon"
 			description: ["Breed 2 of each vanilla animal in order to obtain this reward!"]
 			id: "401E8078C11F8919"
-			tasks: [{
-				id: "4BF8DEAE7CD5ADB6"
-				type: "advancement"
-				advancement: "minecraft:husbandry/bred_all_animals"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "714631CAD91913B0"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "714631CAD91913B0"
 					table_id: 7049021818423122779L
+					type: "choice"
 				}
 				{
-					id: "2D9A605A8DF2FC96"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2D9A605A8DF2FC96"
 					table_id: 7049021818423122779L
+					type: "random"
 				}
 				{
 					id: "61EB5CFD1CCEDF2A"
-					type: "item"
 					item: "plushies:mooshroom"
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "4BF8DEAE7CD5ADB6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			title: "Flower Picking: Light Blue"
-			x: -1.0d
-			y: -1.5d
-			shape: "hexagon"
 			description: ["Collect one each of every flower in the game to earn rewards!"]
 			id: "5C9725DEED609E88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FD09028A87B535B"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "225CBA3ED518E8D8"
+					table_id: 987967038148964353L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6E8DFC017382CBDE"
-					type: "item"
 					item: "byg:snowdrops"
+					type: "item"
 				}
 				{
 					id: "7E435FF42D1B8906"
-					type: "item"
 					item: "environmental:blue_delphinium"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "7FD09028A87B535B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "225CBA3ED518E8D8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 987967038148964353L
-				}
-			]
+			title: "Flower Picking: Light Blue"
+			x: -1.0d
+			y: -1.5d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "3ADA19F1E7F84DD6"
 			invisible: true
 			secret: true
-			id: "3ADA19F1E7F84DD6"
 			tasks: [{
 				id: "4706D6442C3B1288"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Collections"
 }

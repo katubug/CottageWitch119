@@ -1,21 +1,21 @@
 {
 	id: "1CB56D532B985F2C"
-	order_index: 8
-	title: "T1 Choice"
 	loot_size: 1
+	order_index: 8
 	rewards: [
-		{ item: "minecraft:experience_bottle", count: 2 }
-		{ item: "minecraft:gunpowder", count: 3 }
-		{ item: "minecraft:prismarine_shard", count: 3 }
-		{ item: "minecraft:raw_iron", count: 4 }
-		{ item: "minecraft:raw_copper", count: 4 }
-		{ item: "minecraft:raw_gold", count: 4 }
-		{ item: "minecraft:feather", count: 5 }
-		{ item: "minecraft:ink_sac", count: 8 }
-		{ item: "minecraft:string", count: 10 }
+		{ count: 2, item: "minecraft:experience_bottle" }
+		{ count: 3, item: "minecraft:gunpowder" }
+		{ count: 3, item: "minecraft:prismarine_shard" }
+		{ count: 4, item: "minecraft:raw_iron" }
+		{ count: 4, item: "minecraft:raw_copper" }
+		{ count: 4, item: "minecraft:raw_gold" }
+		{ count: 5, item: "minecraft:feather" }
+		{ count: 8, item: "minecraft:ink_sac" }
+		{ count: 10, item: "minecraft:string" }
 		{ item: "alexsdelight:bison_burger" }
-		{ item: "ars_nouveau:source_berry", count: 5 }
-		{ item: "functionalstorage:copper_upgrade", count: 2 }
+		{ count: 5, item: "ars_nouveau:source_berry" }
+		{ count: 2, item: "functionalstorage:copper_upgrade" }
 		{ item: "pipez:basic_upgrade" }
 	]
+	title: "T1 Choice"
 }

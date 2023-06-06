@@ -1,13 +1,12 @@
 {
 	id: "254F89AC9735214C"
-	order_index: 24
-	title: "Twilight"
 	loot_size: 3
+	order_index: 24
 	rewards: [
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:twilight_scepter"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -15,8 +14,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:lifedrain_scepter"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -24,8 +23,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:zombie_scepter"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -33,19 +32,19 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:fortification_scepter"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
 		}
-		{ item: "twilightforest:liveroot", count: 5, weight: 5.0f }
-		{ item: "twilightforest:transformation_powder", count: 4, weight: 5.0f }
+		{ count: 5, item: "twilightforest:liveroot", weight: 5.0f }
+		{ count: 4, item: "twilightforest:transformation_powder", weight: 5.0f }
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:ore_magnet"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -53,8 +52,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "twilightforest:peacock_feather_fan"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -62,8 +61,8 @@
 		}
 		{
 			item: {
-				id: "twilightforest:moonworm_queen"
 				Count: 1b
+				id: "twilightforest:moonworm_queen"
 				tag: {
 					Damage: 0
 				}
@@ -71,7 +70,7 @@
 			weight: 3.0f
 		}
 		{ item: "twilightforest:magic_beans", weight: 3.0f }
-		{ item: "twilightforest:reappearing_block", count: 10, weight: 5.0f }
+		{ count: 10, item: "twilightforest:reappearing_block", weight: 5.0f }
 		{ item: "twilightforest:hollow_oak_sapling" }
 		{ item: "twilightforest:time_sapling" }
 		{ item: "twilightforest:transformation_sapling" }
@@ -79,4 +78,5 @@
 		{ item: "twilightforest:sorting_sapling" }
 		{ item: "twilightforest:rainbow_oak_sapling", weight: 5.0f }
 	]
+	title: "Twilight"
 }

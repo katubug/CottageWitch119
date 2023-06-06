@@ -1,13 +1,12 @@
 {
 	id: "6F849573995ACC78"
-	order_index: 18
-	title: "Ender Postcards"
 	loot_size: 1
+	order_index: 18
 	rewards: [
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:tea_sorcerer"
 				}
@@ -15,8 +14,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:water_source"
 				}
@@ -24,8 +23,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:spring_day"
 				}
@@ -33,8 +32,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:summer_night"
 				}
@@ -42,8 +41,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:klee_island"
 				}
@@ -51,8 +50,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:autumn_dusk"
 				}
@@ -60,8 +59,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:stripes"
 				}
@@ -69,8 +68,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:winter_day"
 				}
@@ -78,8 +77,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:crock_pot"
 				}
@@ -87,8 +86,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:icarus_wings"
 				}
@@ -96,8 +95,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:meikai"
 				}
@@ -105,8 +104,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:touhou_little_maid"
 				}
@@ -114,8 +113,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:creeper"
 				}
@@ -123,8 +122,8 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:moonlit_night"
 				}
@@ -132,12 +131,13 @@
 		}
 		{
 			item: {
-				id: "contact:ender_postcard"
 				Count: 1b
+				id: "contact:ender_postcard"
 				tag: {
 					CardID: "contact:iyoranotsu"
 				}
 			}
 		}
 	]
+	title: "Ender Postcards"
 }

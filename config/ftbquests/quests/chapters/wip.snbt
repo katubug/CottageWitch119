@@ -1,127 +1,127 @@
 {
-	id: "35FE7BAE212BD14E"
-	group: ""
-	order_index: 0
-	filename: "wip"
-	title: "WIP"
 	always_invisible: true
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: ""
+	id: "35FE7BAE212BD14E"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: -3.0d
-			y: -2.5d
 			id: "229C0177487B597A"
 			tasks: [{
 				id: "2D26CD8C2D10AE8F"
-				type: "stat"
 				stat: "minecraft:jump"
+				type: "stat"
 				value: 1
 			}]
+			x: -3.0d
+			y: -2.5d
 		}
 		{
-			x: -4.0d
-			y: -2.5d
 			id: "372CB971CFD2BFA7"
 			tasks: [{
 				id: "00EA2A87474CE403"
-				type: "stat"
 				stat: "minecraft:raid_trigger"
+				type: "stat"
 				value: 1
 			}]
+			x: -4.0d
+			y: -2.5d
 		}
 		{
-			x: -4.5d
-			y: -3.5d
 			id: "6EE5387EAD21E705"
 			tasks: [{
 				id: "25C6FAD95670D51F"
-				type: "stat"
 				stat: "waystones:waystone_activated"
+				type: "stat"
 				value: 1
 			}]
+			x: -4.5d
+			y: -3.5d
 		}
 		{
-			x: -2.5d
-			y: -3.5d
 			id: "7E961D086B3262E3"
 			tasks: [{
 				id: "5B8428FF14F8F075"
-				type: "stat"
 				stat: "minecraft:enchant_item"
+				type: "stat"
 				value: 1
 			}]
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			x: -5.5d
-			y: -3.5d
 			id: "4086571CAA144AE4"
 			tasks: [{
 				id: "36D029BDDD394442"
-				type: "stat"
 				stat: "twilightforest:bugs_squished"
+				type: "stat"
 				value: 1
 			}]
+			x: -5.5d
+			y: -3.5d
 		}
 		{
-			x: -5.0d
-			y: -2.5d
 			id: "66CDAE8FD3019598"
 			tasks: [{
 				id: "527268ABEC9E3616"
-				type: "stat"
 				stat: "minecraft:play_record"
+				type: "stat"
 				value: 1
 			}]
+			x: -5.0d
+			y: -2.5d
 		}
 		{
-			x: -1.0d
-			y: -5.5d
-			shape: "octagon"
 			id: "1E0DDF203C978A5D"
+			shape: "octagon"
 			tasks: [{
-				id: "3EB67C97EE9B44F5"
-				type: "advancement"
 				advancement: "idas:wizardtower"
 				criterion: ""
+				id: "3EB67C97EE9B44F5"
+				type: "advancement"
 			}]
+			x: -1.0d
+			y: -5.5d
 		}
 		{
-			x: 0.0d
-			y: -5.5d
-			shape: "octagon"
 			id: "0E72FC6794833836"
+			shape: "octagon"
 			tasks: [{
-				id: "241A5428562C7E13"
-				type: "advancement"
 				advancement: "idas:redhorn_guild"
 				criterion: ""
+				id: "241A5428562C7E13"
+				type: "advancement"
 			}]
+			x: 0.0d
+			y: -5.5d
 		}
 		{
-			x: -1.0d
-			y: -4.5d
-			shape: "octagon"
 			id: "2ADFD97B3FBCF3FE"
+			shape: "octagon"
 			tasks: [{
-				id: "4A6A32F97BB98183"
-				type: "advancement"
 				advancement: "create:stressometer_maxed"
 				criterion: ""
+				id: "4A6A32F97BB98183"
+				type: "advancement"
 			}]
+			x: -1.0d
+			y: -4.5d
 		}
 		{
-			x: 0.0d
-			y: -4.5d
-			shape: "octagon"
 			id: "35E10BE37EE7B4F3"
+			shape: "octagon"
 			tasks: [{
-				id: "17BF78A22E18C737"
-				type: "advancement"
 				advancement: "farmersdelight:main/harvest_ropelogged_tomato"
 				criterion: ""
+				id: "17BF78A22E18C737"
+				type: "advancement"
 			}]
+			x: 0.0d
+			y: -4.5d
 		}
 	]
-	quest_links: [ ]
+	title: "WIP"
 }

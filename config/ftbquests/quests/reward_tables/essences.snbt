@@ -1,8 +1,7 @@
 {
 	id: "25B24F54C8C0B046"
-	order_index: 16
-	title: "Essences"
 	loot_size: 3
+	order_index: 16
 	rewards: [
 		{ item: "ars_nouveau:conjuration_essence" }
 		{ item: "ars_nouveau:air_essence" }
@@ -11,4 +10,5 @@
 		{ item: "ars_nouveau:manipulation_essence" }
 		{ item: "ars_nouveau:water_essence" }
 	]
+	title: "Essences"
 }

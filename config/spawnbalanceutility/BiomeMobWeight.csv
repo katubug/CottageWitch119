@@ -1535,7 +1535,7 @@
 1535, none, minecraft:lush_caves, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1536, none, minecraft:lush_caves, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1537, none, minecraft:lush_caves, WATER_AMBIENT, minecraft:tropical_fish, 25, 8, 8
-1538, none, minecraft:lush_caves, glares, friendsandfoes:glare, 10, 1, 1
+1538, none, minecraft:lush_caves, CREATURE, friendsandfoes:glare, 10, 1, 1
 1539, none, minecraft:deep_dark, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1540, nether, minecraft:nether_wastes, MONSTER, alexsmobs:bone_serpent, 10, 1, 1
 1541, nether, minecraft:nether_wastes, MONSTER, alexsmobs:dropbear, 19, 1, 1

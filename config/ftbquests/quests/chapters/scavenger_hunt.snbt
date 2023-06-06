@@ -1,530 +1,521 @@
 {
-	id: "7401E53A08F6CC5E"
-	group: "7A9435459855DCCD"
-	order_index: 1
-	filename: "scavenger_hunt"
-	title: "Scavenger Hunt"
-	icon: "minecraft:spyglass"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scavenger_hunt"
+	group: "7A9435459855DCCD"
+	icon: "minecraft:spyglass"
+	id: "7401E53A08F6CC5E"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 20.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgscavengerhunt.png"
+		rotation: 0.0d
+		width: 20.0d
 		x: 0.0d
 		y: 0.0d
-		width: 20.0d
-		height: 20.0d
-		rotation: 0.0d
-		image: "cottagewitch:textures/bgscavengerhunt.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
+			id: "10F079B6E31FCF17"
+			shape: "hexagon"
+			tasks: [{
+				id: "240DB763A6B7326F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Clay Ball"
 			x: -3.0d
 			y: 2.0d
-			shape: "hexagon"
-			id: "10F079B6E31FCF17"
-			tasks: [{
-				id: "240DB763A6B7326F"
-				type: "item"
-				item: "minecraft:clay_ball"
-			}]
 		}
 		{
+			id: "4FDB48B5AE01AFB4"
+			shape: "hexagon"
+			tasks: [{
+				id: "5B1B295BEDB32573"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Mangrove Propagule"
 			x: -1.5d
 			y: 4.0d
-			shape: "hexagon"
-			id: "4FDB48B5AE01AFB4"
-			tasks: [{
-				id: "5B1B295BEDB32573"
-				type: "item"
-				item: "minecraft:mangrove_propagule"
-			}]
 		}
 		{
+			id: "52C4175797FFE14B"
+			shape: "hexagon"
+			tasks: [{
+				id: "0ED2BE6F9B9AD02C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Diamond"
 			x: 0.0d
 			y: 5.0d
-			shape: "hexagon"
-			id: "52C4175797FFE14B"
-			tasks: [{
-				id: "0ED2BE6F9B9AD02C"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
 		}
 		{
+			id: "4307E6EA2E01F82B"
+			shape: "hexagon"
+			tasks: [{
+				id: "25DA29E52479B9E1"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Soul Lantern"
 			x: -5.5d
 			y: 1.5d
-			shape: "hexagon"
-			id: "4307E6EA2E01F82B"
-			tasks: [{
-				id: "25DA29E52479B9E1"
-				type: "item"
-				item: "minecraft:soul_lantern"
-			}]
 		}
 		{
+			id: "4A8A373C89D91E51"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F0455D7592C49F7"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Sweet Berries"
 			x: -6.0d
 			y: -1.0d
-			shape: "hexagon"
-			id: "4A8A373C89D91E51"
-			tasks: [{
-				id: "7F0455D7592C49F7"
-				type: "item"
-				item: "minecraft:sweet_berries"
-			}]
 		}
 		{
+			id: "5C44B803FBB46C7F"
+			shape: "hexagon"
+			tasks: [{
+				id: "1BC0C90AC1B99108"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Raw Rabbit"
 			x: 3.5d
 			y: 4.0d
-			shape: "hexagon"
-			id: "5C44B803FBB46C7F"
-			tasks: [{
-				id: "1BC0C90AC1B99108"
-				type: "item"
-				item: "minecraft:rabbit"
-			}]
 		}
 		{
+			id: "795033CC78FE8CCE"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5C5782C7380CC8"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Poisonous Potato"
 			x: 6.0d
 			y: -1.0d
-			shape: "hexagon"
-			id: "795033CC78FE8CCE"
-			tasks: [{
-				id: "3D5C5782C7380CC8"
-				type: "item"
-				item: "minecraft:poisonous_potato"
-			}]
 		}
 		{
+			id: "78A818CEEFA49F95"
+			shape: "hexagon"
+			tasks: [{
+				id: "6173F49AEA558E97"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Chorus Fruit"
 			x: 3.5d
 			y: 2.0d
-			shape: "hexagon"
-			id: "78A818CEEFA49F95"
-			tasks: [{
-				id: "6173F49AEA558E97"
-				type: "item"
-				item: "minecraft:chorus_fruit"
-			}]
 		}
 		{
+			id: "34D4613E61AF3AEF"
+			shape: "hexagon"
+			tasks: [{
+				id: "14868FAA4FA2474E"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Pufferfish"
 			x: -1.5d
 			y: -1.5d
-			shape: "hexagon"
-			id: "34D4613E61AF3AEF"
-			tasks: [{
-				id: "14868FAA4FA2474E"
-				type: "item"
-				item: "minecraft:pufferfish"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Cookies"
-			x: 4.0d
-			y: 0.0d
-			shape: "hexagon"
 			id: "1E1E47B50314B64A"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2DFC59C847E039B6"
-					type: "item"
 					item: "minecraft:cookie"
+					type: "item"
 				}
 				{
 					id: "2D15C868FFF21769"
-					type: "item"
 					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
 				}
 				{
 					id: "2DDF51389EDA2568"
-					type: "item"
 					item: "farmersdelight:honey_cookie"
+					type: "item"
 				}
 				{
 					id: "32DD7FF8676CA282"
-					type: "item"
 					item: "farmersrespite:green_tea_cookie"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Cookies"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			id: "628D5F4ACDE2C665"
+			shape: "hexagon"
+			tasks: [{
+				id: "01BFDA7D24BAC328"
+				item: "minecraft:feather"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Feather"
 			x: 1.5d
 			y: -1.5d
-			shape: "hexagon"
-			id: "628D5F4ACDE2C665"
-			tasks: [{
-				id: "01BFDA7D24BAC328"
-				type: "item"
-				item: "minecraft:feather"
-			}]
 		}
 		{
+			id: "223792FEBB2154CA"
+			shape: "hexagon"
+			tasks: [{
+				id: "4AF8E444D324758D"
+				item: "minecraft:egg"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Egg"
 			x: -3.5d
 			y: 0.0d
-			shape: "hexagon"
-			id: "223792FEBB2154CA"
-			tasks: [{
-				id: "4AF8E444D324758D"
-				type: "item"
-				item: "minecraft:egg"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Ink Sacs"
-			x: 1.5d
-			y: 4.0d
-			shape: "hexagon"
 			id: "75A98C846E56A570"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7F10DEF25EDB06FF"
-					type: "item"
 					item: "minecraft:glow_ink_sac"
+					type: "item"
 				}
 				{
 					id: "700A04309629F283"
-					type: "item"
 					item: "minecraft:ink_sac"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Ink Sacs"
+			x: 1.5d
+			y: 4.0d
 		}
 		{
+			id: "78FB1E1156B8A23C"
+			shape: "hexagon"
+			tasks: [{
+				id: "463361D76A636956"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Magma Cream"
 			x: -3.5d
 			y: 4.0d
-			shape: "hexagon"
-			id: "78FB1E1156B8A23C"
-			tasks: [{
-				id: "463361D76A636956"
-				type: "item"
-				item: "minecraft:magma_cream"
-			}]
 		}
 		{
+			id: "36AC202292F23D2D"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DB5227198BC3EBD"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Shroomlight"
 			x: -5.5d
 			y: 3.5d
-			shape: "hexagon"
-			id: "36AC202292F23D2D"
-			tasks: [{
-				id: "0DB5227198BC3EBD"
-				type: "item"
-				item: "minecraft:shroomlight"
-			}]
 		}
 		{
+			id: "5D7D1F5AEDE61466"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E9BA533F516C40C"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Sugar"
 			x: 5.5d
 			y: 3.5d
-			shape: "hexagon"
-			id: "5D7D1F5AEDE61466"
-			tasks: [{
-				id: "5E9BA533F516C40C"
-				type: "item"
-				item: "minecraft:sugar"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Fungi"
-			x: 2.5d
-			y: -4.0d
-			shape: "hexagon"
 			id: "3EDAAAB87F7C1022"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "48A059F4B35A363F"
-					type: "item"
 					item: "minecraft:crimson_fungus"
+					type: "item"
 				}
 				{
 					id: "6B6CA39D612EBEAA"
-					type: "item"
 					item: "minecraft:warped_fungus"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Fungi"
+			x: 2.5d
+			y: -4.0d
 		}
 		{
+			id: "7AD80A3479D0B0A8"
+			shape: "hexagon"
+			tasks: [{
+				id: "26844384E2F80107"
+				item: "minecraft:dead_bush"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Dead Bush"
 			x: -2.5d
 			y: -4.0d
-			shape: "hexagon"
-			id: "7AD80A3479D0B0A8"
-			tasks: [{
-				id: "26844384E2F80107"
-				type: "item"
-				item: "minecraft:dead_bush"
-			}]
 		}
 		{
+			id: "4B1050C983FA2708"
+			shape: "hexagon"
+			tasks: [{
+				id: "715C5130A014CE5E"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Sea Pickle"
 			x: 0.0d
 			y: -3.5d
-			shape: "hexagon"
-			id: "4B1050C983FA2708"
-			tasks: [{
-				id: "715C5130A014CE5E"
-				type: "item"
-				item: "minecraft:sea_pickle"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Flowers"
-			x: -2.0d
-			y: 6.0d
-			shape: "hexagon"
 			id: "443F18D755145E26"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4761A3B14428EC0F"
-					type: "item"
 					item: "minecraft:sunflower"
+					type: "item"
 				}
 				{
 					id: "798F6C684AE78671"
-					type: "item"
 					item: "minecraft:blue_orchid"
+					type: "item"
 				}
 				{
 					id: "15C64D759EA12B3C"
-					type: "item"
 					item: "byg:pink_allium_flower_bush"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Flowers"
+			x: -2.0d
+			y: 6.0d
 		}
 		{
+			id: "217230971261385C"
+			shape: "hexagon"
+			tasks: [{
+				id: "6AFCB0A09B3856AF"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Crying Obsidian"
 			x: 2.0d
 			y: 6.0d
-			shape: "hexagon"
-			id: "217230971261385C"
-			tasks: [{
-				id: "6AFCB0A09B3856AF"
-				type: "item"
-				item: "minecraft:crying_obsidian"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Amethyst"
-			x: -4.0d
-			y: -2.0d
-			shape: "hexagon"
 			id: "0781A21B04D458DE"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "1A65B136D57D2913"
-					type: "item"
 					item: "minecraft:budding_amethyst"
+					type: "item"
 				}
 				{
 					id: "339DB9EB9FFA561F"
-					type: "item"
 					item: "minecraft:amethyst_shard"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Amethyst"
+			x: -4.0d
+			y: -2.0d
 		}
 		{
+			id: "56DBC16948476CBE"
+			shape: "hexagon"
+			tasks: [{
+				id: "5D96F8ACF9209598"
+				item: "minecraft:end_rod"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: End Rod"
 			x: 4.0d
 			y: -2.0d
-			shape: "hexagon"
-			id: "56DBC16948476CBE"
-			tasks: [{
-				id: "5D96F8ACF9209598"
-				type: "item"
-				item: "minecraft:end_rod"
-			}]
 		}
 		{
+			id: "74A5C07E1CC1BDCB"
+			shape: "hexagon"
+			tasks: [{
+				id: "0EFE98B67BC9DDF1"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Hay Bale"
 			x: -5.5d
 			y: -4.0d
-			shape: "hexagon"
-			id: "74A5C07E1CC1BDCB"
-			tasks: [{
-				id: "0EFE98B67BC9DDF1"
-				type: "item"
-				item: "minecraft:hay_block"
-			}]
 		}
 		{
+			id: "77F821E672D8FE6B"
+			shape: "hexagon"
+			tasks: [{
+				id: "75D8AD8E1737B2C2"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Sea Lantern"
 			x: 5.5d
 			y: -4.0d
-			shape: "hexagon"
-			id: "77F821E672D8FE6B"
-			tasks: [{
-				id: "75D8AD8E1737B2C2"
-				type: "item"
-				item: "minecraft:sea_lantern"
-			}]
 		}
 		{
+			id: "5D51C92D31F9974B"
+			shape: "hexagon"
+			tasks: [{
+				id: "13DDD192F62DEDA8"
+				item: "minecraft:horn_coral_block"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Horn Coral Block"
 			x: 0.0d
 			y: -5.5d
-			shape: "hexagon"
-			id: "5D51C92D31F9974B"
-			tasks: [{
-				id: "13DDD192F62DEDA8"
-				type: "item"
-				item: "minecraft:horn_coral_block"
-			}]
 		}
 		{
-			title: "Scavenger Hunt: Honey"
-			x: 6.5d
-			y: 5.0d
-			shape: "hexagon"
 			id: "74403CDD36E19E5B"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "5A5FFAC9D7C3B1F9"
-					type: "item"
 					item: "minecraft:honeycomb"
+					type: "item"
 				}
 				{
 					id: "2EE21C99821330B6"
-					type: "item"
 					item: "minecraft:honey_bottle"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Honey"
+			x: 6.5d
+			y: 5.0d
 		}
 		{
-			title: "Scavenger Hunt: Raw Blocks"
-			x: -6.5d
-			y: 5.0d
-			shape: "hexagon"
 			id: "60205D338359F03C"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2F85C19DE59C71CE"
-					type: "item"
 					item: "minecraft:raw_iron_block"
+					type: "item"
 				}
 				{
 					id: "578D4F0DB2D37B6B"
-					type: "item"
 					item: "minecraft:raw_copper_block"
+					type: "item"
 				}
 				{
 					id: "62D3EA9DCCE3D60D"
-					type: "item"
 					item: "minecraft:raw_gold_block"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Raw Blocks"
+			x: -6.5d
+			y: 5.0d
 		}
 		{
-			title: "Scavenger Hunt: Trio of Stews"
-			x: -4.5d
-			y: 5.5d
-			shape: "hexagon"
 			id: "04CB1359F805B396"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0DC6D23B0885C6B5"
-					type: "item"
 					item: "minecraft:mushroom_stew"
+					type: "item"
 				}
 				{
 					id: "3D6F3E0E16FD1134"
-					type: "item"
 					item: "farmersdelight:beef_stew"
+					type: "item"
 				}
 				{
 					id: "08F34ED39F9AD934"
-					type: "item"
 					item: "nethersdelight:strider_moss_stew"
+					type: "item"
 				}
 			]
+			title: "Scavenger Hunt: Trio of Stews"
+			x: -4.5d
+			y: 5.5d
 		}
 		{
+			id: "358EB6DB33F203FE"
+			shape: "hexagon"
+			tasks: [{
+				id: "1310A9BA89A52C7A"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Powder Snow Bucket"
 			x: 5.0d
 			y: 5.5d
-			shape: "hexagon"
-			id: "358EB6DB33F203FE"
-			tasks: [{
-				id: "1310A9BA89A52C7A"
-				type: "item"
-				item: "minecraft:powder_snow_bucket"
-			}]
 		}
 		{
+			id: "178EB94C72B16D88"
+			shape: "hexagon"
+			tasks: [{
+				id: "3DE9D8D8227BBB9F"
+				item: "minecraft:tadpole_bucket"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Bucket of Tadpole"
 			x: 6.0d
 			y: 1.5d
-			shape: "hexagon"
-			id: "178EB94C72B16D88"
-			tasks: [{
-				id: "3DE9D8D8227BBB9F"
-				type: "item"
-				item: "minecraft:tadpole_bucket"
-			}]
 		}
 		{
+			id: "5F1A07D19C09FFE6"
+			shape: "hexagon"
+			tasks: [{
+				id: "2FA6F4AC7FE40E02"
+				item: "minecraft:bell"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Bell"
 			x: -3.5d
 			y: -5.5d
-			shape: "hexagon"
-			id: "5F1A07D19C09FFE6"
-			tasks: [{
-				id: "2FA6F4AC7FE40E02"
-				type: "item"
-				item: "minecraft:bell"
-			}]
 		}
 		{
+			id: "0B947B43262CD036"
+			shape: "hexagon"
+			tasks: [{
+				id: "307E0C118A08D100"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: 5 Disc"
 			x: 4.0d
 			y: -5.5d
-			shape: "hexagon"
-			id: "0B947B43262CD036"
-			tasks: [{
-				id: "307E0C118A08D100"
-				type: "item"
-				item: "minecraft:music_disc_5"
-			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			shape: "rsquare"
-			subtitle: "Time to scavenge!"
 			description: [
 				"Looking for something to spend some time on? Why not &aa Scavenger Hunt?&r. Obtain these items for the ability to claim an incredible prize!"
 				"&6Click the checkbox in this quest to begin.&r. This can be done at any time."
 			]
-			size: 2.0d
-			optional: true
 			id: "505C0E55270CBFBC"
+			optional: true
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Time to scavenge!"
 			tasks: [{
 				id: "7C613D3D7DD3EF30"
-				type: "checkmark"
 				title: "Begin the Hunt"
+				type: "checkmark"
 			}]
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: 0.0d
-			y: 7.0d
-			shape: "gear"
-			subtitle: "It's finally done"
-			description: [
-				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
-				"The check mark above unlocks &6once all Scavenger Hunt Quests are done&r."
-			]
-			hide_dependency_lines: true
 			dependencies: [
 				"5F1A07D19C09FFE6"
 				"5D51C92D31F9974B"
@@ -561,49 +552,58 @@
 				"358EB6DB33F203FE"
 				"74403CDD36E19E5B"
 			]
-			size: 2.0d
+			description: [
+				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
+				"The check mark above unlocks &6once all Scavenger Hunt Quests are done&r."
+			]
+			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
-			tasks: [{
-				id: "7F57F37B68E139CC"
-				type: "checkmark"
-				title: "Finished!"
-			}]
 			rewards: [
 				{
 					id: "5D440F980372BD81"
-					type: "item"
 					item: "minecraft:nether_star"
+					type: "item"
 				}
 				{
 					id: "0D509C5733E1DD6B"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
 					id: "47C7324EF5B04041"
-					type: "loot"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 				{
 					id: "4E394BBF80A209A0"
-					type: "choice"
 					table_id: 1739670786502713488L
+					type: "choice"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "It's finally done"
+			tasks: [{
+				id: "7F57F37B68E139CC"
+				title: "Finished!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "5F7EBDA2EDC4F25B"
 			invisible: true
 			secret: true
-			id: "5F7EBDA2EDC4F25B"
 			tasks: [{
 				id: "2F59A64EF5D05CBF"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Scavenger Hunt"
 }

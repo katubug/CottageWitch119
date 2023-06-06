@@ -1,12 +1,12 @@
 {
 	id: "62041FD930838288"
-	order_index: 20
-	title: "Sculk"
 	loot_size: 3
+	order_index: 20
 	rewards: [
-		{ item: "minecraft:echo_shard", count: 4, weight: 10.0f }
-		{ item: "minecraft:sculk", count: 4, weight: 4.0f }
-		{ item: "minecraft:sculk_vein", count: 2, weight: 2.0f }
+		{ count: 4, item: "minecraft:echo_shard", weight: 10.0f }
+		{ count: 4, item: "minecraft:sculk", weight: 4.0f }
+		{ count: 2, item: "minecraft:sculk_vein", weight: 2.0f }
 		{ item: "minecraft:sculk_sensor" }
 	]
+	title: "Sculk"
 }

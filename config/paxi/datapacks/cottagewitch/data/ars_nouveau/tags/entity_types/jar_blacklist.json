@@ -2,6 +2,15 @@
     "values": [
       "#ars_nouveau:familiar",
       "#forge:bosses",
-      "alexsmobs:farseers"
+      "alexsmobs:farseers",
+      "twilightforest:naga",
+      "twilightforest:lich",
+      "twilightforest:minoshroom",
+      "twilightforest:hydra",
+      "twilightforest:knight_phantom",
+      "twilightforest:ur_ghast",
+      "twilightforest:alpha_yeti",
+      "twilightforest:snow_queen",
+      "twilightforest:plateau_boss"
     ]
   }

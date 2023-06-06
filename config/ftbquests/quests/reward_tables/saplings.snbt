@@ -1,8 +1,7 @@
 {
 	id: "610230EA400E1B17"
-	order_index: 6
-	title: "Saplings"
 	loot_size: 1
+	order_index: 6
 	rewards: [
 		{ item: "byg:orchard_sapling" }
 		{ item: "byg:red_birch_sapling" }
@@ -90,4 +89,5 @@
 		{ item: "environmental:white_wisteria_sapling" }
 		{ item: "hexerei:witch_hazel_sapling" }
 	]
+	title: "Saplings"
 }

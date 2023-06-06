@@ -102,6 +102,7 @@ switchToAutoOnDeath:true
 infoDisplayBackgroundOpacity:40
 caveModeToggleTimer:1000
 legibleCaveMaps:false
+biomeBlending:true
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true

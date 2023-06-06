@@ -165,6 +165,9 @@
 	paintings_tooltip = true
 	#Wearing mob heads will apply post processing
 	mob_head_shaders = true
+	#Placeable books random colors
+	#This is a list. Add more entries with syntax [[...]]
+	placeable_books_colors = ["brown", "orange", "yellow", "red", "green", "lime", "cyan", "blue", "purple"]
 
 [items]
 

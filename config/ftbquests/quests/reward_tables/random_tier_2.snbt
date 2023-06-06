@@ -1,8 +1,7 @@
 {
 	id: "7A3E0F5EB3354A41"
-	order_index: 3
-	title: "Random Tier 2"
 	loot_size: 5
+	order_index: 3
 	rewards: [
 		{ item: "byg:ametrine_cluster", weight: 30.0f }
 		{ item: "byg:raw_pendorite", weight: 30.0f }
@@ -14,33 +13,34 @@
 		{ item: "ars_nouveau:source_gem", weight: 20.0f }
 		{ item: "minecraft:phantom_membrane", weight: 30.0f }
 		{ item: "minecraft:ender_pearl", weight: 20.0f }
-		{ item: "minecraft:diamond", count: 3, weight: 20.0f }
-		{ item: "minecraft:emerald", count: 5, weight: 15.0f }
+		{ count: 3, item: "minecraft:diamond", weight: 20.0f }
+		{ count: 5, item: "minecraft:emerald", weight: 15.0f }
 		{ item: "minecraft:scute", weight: 30.0f }
 		{ item: "twilightforest:hollow_oak_sapling", weight: 19.0f }
 		{ item: "minecraft:golden_apple", weight: 10.0f }
 		{ item: "create:blaze_cake" }
 		{
 			item: {
-				id: "waystones:warp_stone"
 				Count: 1b
+				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0
 				}
 			}
 		}
 		{ item: "nethersdelight:nether_skewer", weight: 10.0f }
-		{ item: "glassential:glass_ethereal", count: 2, weight: 4.0f }
+		{ count: 2, item: "glassential:glass_ethereal", weight: 4.0f }
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "ars_nouveau:amethyst_golem_charm" }
 		{ item: "pipez:advanced_upgrade" }
 		{
 			item: {
-				id: "spelunkery:nephrite_charm"
 				Count: 1b
+				id: "spelunkery:nephrite_charm"
 				tag: { }
 			}
 		}
 		{ item: "alexsmobs:lost_tentacle" }
 	]
+	title: "Random Tier 2"
 }

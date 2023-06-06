@@ -1,446 +1,437 @@
 {
-	id: "41296202479D0531"
-	group: "5FB460EFA0A2567E"
-	order_index: 4
-	filename: "deeper_and_darker"
-	title: "Deep Dark"
-	icon: "deeperdarker:heart_of_the_deep"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "5FB460EFA0A2567E"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "41296202479D0531"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgdeeperdarker.png"
+		rotation: 0.0d
+		width: 20.0d
 		x: 0.0d
 		y: 0.0d
-		width: 20.0d
-		height: 10.0d
-		rotation: 0.0d
-		image: "cottagewitch:textures/bgdeeperdarker.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Go Deeper, Get Darker"
-			x: -6.5d
-			y: -0.5d
-			shape: "rsquare"
-			subtitle: "Break on through to the Otherside"
 			description: [
 				"Would you like to explore the &cOtherside&r? It's a dark and dangerous dimension accessible only through the &dportal in Ancient Cities&r. To access it, you'll only need to &6kill the Warden&r. Should be an easy job, right? Of course!"
 				"First, you'll need to find yourself the &cAncient City&r, often signified by the presence of &bSculk&r."
 			]
-			size: 2.0d
 			id: "4C2DDEC05C13A3FB"
-			tasks: [{
-				id: "0789C9B2C27437FD"
-				type: "observation"
-				icon: "minecraft:sculk"
-				timer: 0L
-				observe_type: 0
-				to_observe: "minecraft:sculk"
-			}]
 			rewards: [{
-				id: "0031AF7FD8F1D235"
-				type: "random"
 				exclude_from_claim_all: true
+				id: "0031AF7FD8F1D235"
 				table_id: 8808494820591225409L
+				type: "random"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Break on through to the Otherside"
+			tasks: [{
+				icon: "minecraft:sculk"
+				id: "0789C9B2C27437FD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:sculk"
+				type: "observation"
+			}]
+			title: "Go Deeper, Get Darker"
+			x: -6.5d
+			y: -0.5d
 		}
 		{
-			title: "Sculk Crafting"
-			x: -6.0d
-			y: 2.0d
+			dependencies: ["4C2DDEC05C13A3FB"]
 			description: [
 				"&bSculk&r is the signature block of the &cDeep Dark&r, a biome in which &cAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
 				"Where &bSculk&r comes from and what it does is not entirely known... but it is clear that it is &lalive&r."
 			]
-			dependencies: ["4C2DDEC05C13A3FB"]
 			id: "001E117581BE05D5"
+			rewards: [{
+				count: 4
+				id: "726C1FBD6907C3A9"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D6833DA8607A66A"
-				type: "item"
 				item: "minecraft:sculk"
-			}]
-			rewards: [{
-				id: "726C1FBD6907C3A9"
 				type: "item"
-				item: "minecraft:echo_shard"
-				count: 4
 			}]
+			title: "Sculk Crafting"
+			x: -6.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["001E117581BE05D5"]
+			description: ["Once you have obtained &bEcho Shards&r, you can produce your own &bSculk&r and &bSculk Veins&r by &6feeding exp to a &bSculk Catalyst&r, which will &atransform the surrounding blocks&r. The primary method of doing this is to &6slay monsters nearby&r."]
+			id: "767A4A04E0D72FBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4686C91C60D13FC4"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			subtitle: "a catalyst for greatness. or at least sculk."
+			tasks: [{
+				id: "0A1EDEAC75343862"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
 			title: "Making More Sculk"
 			x: -4.5d
 			y: 3.0d
-			subtitle: "a catalyst for greatness. or at least sculk."
-			description: ["Once you have obtained &bEcho Shards&r, you can produce your own &bSculk&r and &bSculk Veins&r by &6feeding exp to a &bSculk Catalyst&r, which will &atransform the surrounding blocks&r. The primary method of doing this is to &6slay monsters nearby&r."]
-			dependencies: ["001E117581BE05D5"]
-			id: "767A4A04E0D72FBE"
-			tasks: [{
-				id: "0A1EDEAC75343862"
-				type: "item"
-				item: "minecraft:sculk_catalyst"
-			}]
-			rewards: [{
-				id: "4686C91C60D13FC4"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5036677739913042344L
-			}]
 		}
 		{
-			title: "Making the Sculk Sensor"
-			x: -2.0d
-			y: 3.0d
-			subtitle: "potentially helpful for automation"
+			dependencies: ["767A4A04E0D72FBE"]
 			description: [
 				"&bSculk Sensors&r are cute - and mildly terrifying - beings which will &atransmit a redstone signal when alerted&r. They listen for nearby sounds, such as &afootsteps, blocks placing or breaking, or opening inventories&r."
 				"You can &6block their listening with wool&r, directionally, or &6surround them with wool&r to deactivate them."
 			]
-			dependencies: ["767A4A04E0D72FBE"]
 			id: "22929AEECAF3B467"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DC0CB0243A44FAE"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "potentially helpful for automation"
 			tasks: [{
 				id: "5490EAF572C61B6A"
-				type: "item"
 				item: "minecraft:sculk_sensor"
+				type: "item"
 			}]
-			rewards: [{
-				id: "7DC0CB0243A44FAE"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			title: "Making the Sculk Sensor"
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			title: "Defeat the Warden"
-			x: -1.0d
-			y: -0.5d
-			shape: "diamond"
+			dependencies: ["2384853DE131A8A7"]
 			description: [
 				"The &eWarden&r pulls no punches. It is easily capable of killing the unprepared witch in a single hit, and it is &aincredibly sturdy&r. However, with the right preparation one might be able to face it!"
 				"The &eWarden&r is blind, and will seek out players by &asmell and hearing&r. If it does not detect any players for one minute, it will &aburrow back underground&r."
 			]
-			dependencies: ["2384853DE131A8A7"]
 			id: "386BBE6DCF3DAB78"
-			tasks: [{
-				id: "710D37620D1E3299"
-				type: "kill"
-				entity: "minecraft:warden"
-				value: 1L
-			}]
 			rewards: [
 				{
-					id: "0CED9339CCA7D950"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "0CED9339CCA7D950"
 					table_id: 5525848455660196930L
+					type: "choice"
 				}
 				{
-					id: "51BF318F203675E3"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "51BF318F203675E3"
 					table_id: 8891211325592123080L
+					type: "choice"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "710D37620D1E3299"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Warden"
+			x: -1.0d
+			y: -0.5d
 		}
 		{
-			title: "An Impossible Task"
-			x: -1.0d
-			y: 1.5d
-			shape: "diamond"
-			subtitle: "or is it?"
+			dependencies: ["386BBE6DCF3DAB78"]
 			description: [
 				"With a &bWarden Spawn Egg&r, you should be able to &6insert it into a Spawner&r and &afight even more &eWardens&r."
 				"Defeat 100 of them to win a &aprestigious &bArmor set&r and &bunique Head&r."
 			]
-			dependencies: ["386BBE6DCF3DAB78"]
 			id: "450F3E6A4A93E2AA"
-			tasks: [{
-				id: "38248E59E664A922"
-				type: "kill"
-				entity: "minecraft:warden"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "257D53FD2FA431B8"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYWJkZGRlZDQ0ZDBmYTE2YTQ4NmRkNTQwODY5Nzc5ZWY0MmY5YzNkODgyMDA1MDllYTAwMmM5ZWYxZWQ0MCJ9fX0="
-									}]
-								}
 								Id: [I;
 									-647750768
 									466960818
 									-1894687672
 									-1823489811
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYWJkZGRlZDQ0ZDBmYTE2YTQ4NmRkNTQwODY5Nzc5ZWY0MmY5YzNkODgyMDA1MDllYTAwMmM5ZWYxZWQ0MCJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Warden\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3DB05FB0DA05A025"
-					type: "item"
 					item: {
-						id: "mcsa:gabriel_helmet"
 						Count: 1b
+						id: "mcsa:gabriel_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "276C18C55EC37054"
-					type: "item"
 					item: {
-						id: "mcsa:gabriel_chestplate"
 						Count: 1b
+						id: "mcsa:gabriel_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "168D9A02FFF3BE31"
-					type: "item"
 					item: {
-						id: "mcsa:gabriel_leggings"
 						Count: 1b
+						id: "mcsa:gabriel_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1B40707D5E412FC1"
-					type: "item"
 					item: {
-						id: "mcsa:gabriel_boots"
 						Count: 1b
+						id: "mcsa:gabriel_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "636194976A45108A"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "636194976A45108A"
 					table_id: 5525848455660196930L
+					type: "choice"
 				}
 				{
 					id: "36FA088D44048D78"
-					type: "item"
 					item: "plushies:warden"
+					type: "item"
 				}
 			]
+			shape: "diamond"
+			subtitle: "or is it?"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "38248E59E664A922"
+				type: "kill"
+				value: 100L
+			}]
+			title: "An Impossible Task"
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			title: "Explore the Otherside"
-			x: 5.0d
-			y: 0.5d
+			dependencies: ["6CB7050DA080301E"]
 			description: [
 				"The &cOtherside&r is a dark and dangerous place. It's likely you &awon't be able to see&r more than a few feet ahead of you."
 				"Thankfully, the &bWarden Helmet&r will alleviate this issue."
 				"Within the Otherside are &athree different biomes&r, each rather unwelcoming."
 			]
-			dependencies: ["6CB7050DA080301E"]
 			id: "5F0CA7A2F5C478F0"
 			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:heart_of_the_deep"
 				id: "2497633125368050"
 				type: "dimension"
-				icon: "deeperdarker:heart_of_the_deep"
-				dimension: "deeperdarker:otherside"
 			}]
+			title: "Explore the Otherside"
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			title: "Craft a Warden Helmet"
-			x: 3.0d
-			y: -1.5d
+			dependencies: ["77C585EDABB88B3E"]
 			description: [
 				"In order to brave the &cOtherside&r, you will want to be very geared up in general, but the piece of armor you'll need most is the &bWarden Helmet&r."
 				"Aside from its defense and armor toughness, it grants &bimmunity to Darkness&r, allowing you to see."
 			]
-			dependencies: ["77C585EDABB88B3E"]
 			id: "6CB7050DA080301E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "594005C455FC1DE9"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "67CE3D92E102FE5B"
-				type: "item"
 				item: {
-					id: "deeperdarker:warden_helmet"
 					Count: 1b
+					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "594005C455FC1DE9"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5161092699925703455L
-			}]
+			title: "Craft a Warden Helmet"
+			x: 3.0d
+			y: -1.5d
 		}
 		{
-			x: -4.0d
-			y: -0.5d
-			description: ["You've found your way into an &bAncient City&r. Good luck adventurer, for here lie many treasures and equally many dangers."]
 			dependencies: ["4C2DDEC05C13A3FB"]
+			description: ["You've found your way into an &bAncient City&r. Good luck adventurer, for here lie many treasures and equally many dangers."]
 			id: "2384853DE131A8A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB9B1725AEF032B"
+				table_id: 7062805133306069640L
+				type: "loot"
+			}]
 			tasks: [{
-				id: "47007A2CC7CD820F"
-				type: "advancement"
 				advancement: "deeperdarker:main/locate_ancient_city"
 				criterion: ""
+				id: "47007A2CC7CD820F"
+				type: "advancement"
 			}]
-			rewards: [{
-				id: "2EB9B1725AEF032B"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 7062805133306069640L
-			}]
+			x: -4.0d
+			y: -0.5d
 		}
 		{
-			x: -2.5d
-			y: -2.0d
+			dependencies: ["2384853DE131A8A7"]
 			description: [
 				"&bAncient Vases&r are loot containers which can contain &bWarden Carapaces&r in rare instances. This may help you to &acraft the Warden Helmet&r before killing the &eWarden&r."
 				"However, be wary, as &aeach time a Vase is broken&r, there is a chance to spawn &eThe Stalker&r, which is a relative of the &eWarden&r."
 			]
-			dependencies: ["2384853DE131A8A7"]
 			id: "352E14C80B863AF3"
-			tasks: [{
-				id: "72F3473498B917FB"
-				type: "questsadditions:break"
-				block_type: 0
-				block: "deeperdarker:ancient_vase"
-				value: 1L
-				checkItem: false
-			}]
 			rewards: [{
 				id: "19017034A85E9D4F"
-				type: "item"
 				item: "deeperdarker:warden_carapace"
+				type: "item"
 			}]
+			tasks: [{
+				block: "deeperdarker:ancient_vase"
+				block_type: 0
+				checkItem: false
+				id: "72F3473498B917FB"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			title: "Clear Away the Sculk"
-			x: 1.5d
-			y: 1.0d
+			dependencies: ["386BBE6DCF3DAB78"]
 			description: [
 				"In the &cheart of the Ancient City&r there is a &amassive portal&r. In order to use it, you must first &6clear away the &bSculk Veins&r."
 				"Once it's clear, you can &6right click it&r with the &bHeart of the Deep&r to activate it."
 			]
-			dependencies: ["386BBE6DCF3DAB78"]
 			id: "77C585EDABB88B3E"
 			tasks: [{
+				block: "minecraft:sculk_vein"
+				block_type: 0
+				checkItem: false
 				id: "25C516803865C303"
 				type: "questsadditions:break"
-				block_type: 0
-				block: "minecraft:sculk_vein"
 				value: 1L
-				checkItem: false
 			}]
+			title: "Clear Away the Sculk"
+			x: 1.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3BED9B52B38D87AC"]
+			description: ["Encounter a &bGeyser&r, a block which will &aboost you into the air&r and &agrant you Slow Falling&r for a time."]
+			id: "27223492884E5638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36928C0C797ED580"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			subtitle: "i'm gey ser"
+			tasks: [{
+				icon: "deeperdarker:geyser"
+				id: "70D76BE360099AF1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "deeperdarker:geyser"
+				type: "observation"
+			}]
 			title: "Observe the Geyser"
 			x: 7.0d
 			y: -2.0d
-			subtitle: "i'm gey ser"
-			description: ["Encounter a &bGeyser&r, a block which will &aboost you into the air&r and &agrant you Slow Falling&r for a time."]
-			dependencies: ["3BED9B52B38D87AC"]
-			id: "27223492884E5638"
-			tasks: [{
-				id: "70D76BE360099AF1"
-				type: "observation"
-				icon: "deeperdarker:geyser"
-				timer: 0L
-				observe_type: 0
-				to_observe: "deeperdarker:geyser"
-			}]
-			rewards: [{
-				id: "36928C0C797ED580"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5161092699925703455L
-			}]
 		}
 		{
-			x: 3.5d
-			y: 3.0d
+			dependencies: ["766AE03208AE8F4B"]
 			description: [
 				"Defeat the &eSculk Centipedes&r of the &cDeeplands&r to obtain &bSculk Bones&r."
 				"\"But wait,\" I hear you said. \"Centipedes don't have bones!\""
 				"To which I reply, \"&aThey do if they've eaten recently&r.\" Obtain these items from their bellies, as they are &aprecious indeed&r."
 			]
-			dependencies: ["766AE03208AE8F4B"]
 			id: "292410101F374A38"
-			tasks: [{
-				id: "6656F9B1F1635666"
-				type: "item"
-				item: "deeperdarker:sculk_bone"
-			}]
 			rewards: [{
 				id: "00045A739F0284CF"
-				type: "item"
 				item: "deeperdarker:sculk_bone"
+				type: "item"
 			}]
+			tasks: [{
+				id: "6656F9B1F1635666"
+				item: "deeperdarker:sculk_bone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			dependencies: ["292410101F374A38"]
 			description: [
 				"Obtain &bSoul Dust&d from the &eShattered&r in the &cEchoing Forest&r, a &bSoul Crystal&r from defeating &eStalkers&r, and &bSculk Bones&r from defeated &eSculk Centipedes&r."
 				"Once you have these ingredients, you can convert your &bElytra&r to a &bSoul Elytra&r, which grants boosts randomly when you are midair, &anegating the need for many fireworks&r."
 			]
-			dependencies: ["292410101F374A38"]
 			id: "5998F88F411634AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A81ECB1706412E0"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "78DCBDC7E04BA66A"
-				type: "item"
 				item: {
-					id: "deeperdarker:soul_elytra"
 					Count: 1b
+					id: "deeperdarker:soul_elytra"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "4A81ECB1706412E0"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5525848455660196930L
-			}]
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			title: "The Echoing Forest"
-			x: 6.5d
-			y: 0.5d
+			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
 				"This biome often generates in layers consisting of &bSculk, Sculk Stone, and Echo Soil&r. Echo trees populate the biome making The Otherside more vibrant with their purple leaves and &bSculk Gleam&r. The fog color in this biome is purple much like the leaves, and &athe only mobs that spawn here are &eShattered&r, which makes this biome a pleasant change from the many horrors of the Otherside Deeplands."
 				"However, this area is &anot safe from the &eWarden&r."
 			]
-			dependencies: ["5F0CA7A2F5C478F0"]
 			id: "3A279B0A5E1E6805"
-			tasks: [{
-				id: "017FE61F8E149DEA"
-				type: "biome"
-				icon: "deeperdarker:echo_soil"
-				biome: "deeperdarker:echoing_forest"
-			}]
 			rewards: [
 				{
 					id: "619BE759CBA940F3"
@@ -448,29 +439,29 @@
 					xp_levels: 5
 				}
 				{
-					id: "396A6CA8D1E70AD7"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "396A6CA8D1E70AD7"
 					table_id: 7062805133306069640L
+					type: "loot"
 				}
 			]
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_soil"
+				id: "017FE61F8E149DEA"
+				type: "biome"
+			}]
+			title: "The Echoing Forest"
+			x: 6.5d
+			y: 0.5d
 		}
 		{
-			title: "The Overcast Columns"
-			x: 5.0d
-			y: -2.0d
+			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
 				"The &cOvercast Columns&r are a vast, uninhabited wasteland. They are composed of multiple amber columns, which have a biome-exclusive &bCrystallized Amber&r block in each of them. Overcast Columns also have multiple &bGeysers&r scattered throughout the terrain, which is composed of &bGloomslate&r and &bGloom Sculk&r. Nothing is known to live here due to the &ahostile and barren nature&r of the environment."
 			]
-			dependencies: ["5F0CA7A2F5C478F0"]
 			id: "3BED9B52B38D87AC"
-			tasks: [{
-				id: "48CE45BC84A3B5C3"
-				type: "biome"
-				icon: "deeperdarker:crystallized_amber"
-				biome: "deeperdarker:overcast_columns"
-			}]
 			rewards: [
 				{
 					id: "551A0D1A2FDBB3EB"
@@ -478,36 +469,36 @@
 					xp_levels: 5
 				}
 				{
-					id: "59AD3B2CEC179D1F"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "59AD3B2CEC179D1F"
 					table_id: 7062805133306069640L
+					type: "loot"
 				}
 				{
-					id: "25E102D74077C7B9"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "25E102D74077C7B9"
 					table_id: 8035711958862449784L
+					type: "random"
 				}
 			]
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: "deeperdarker:crystallized_amber"
+				id: "48CE45BC84A3B5C3"
+				type: "biome"
+			}]
+			title: "The Overcast Columns"
+			x: 5.0d
+			y: -2.0d
 		}
 		{
-			title: "The Otherside Deeplands"
-			x: 3.5d
-			y: 1.5d
+			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
 				"The first biome is called &cOtherside Deeplands&r. The Deeplands are made up of mostly &bSculk&r and &bSculk Stone&r. Large groups of &ePhantoms&r can be seen flying around the caverns of this biome, along with hordes of &eSculk Snappers&r. &bSculk Jaws&r and &bInfested Sculk&r are very common in the Deeplands, making it more &adifficult to navigate&r. Beware of the &eShriekworms&r which lay beneath the &bInfested Sculk&r, waiting to strike."
 				"The &eWarden&r can be summoned here, as well."
 			]
-			dependencies: ["5F0CA7A2F5C478F0"]
 			id: "766AE03208AE8F4B"
-			tasks: [{
-				id: "5E1E3DC987B09351"
-				type: "biome"
-				icon: "minecraft:sculk"
-				biome: "deeperdarker:otherside_deeplands"
-			}]
 			rewards: [
 				{
 					id: "0EE9B187EC87288A"
@@ -515,29 +506,29 @@
 					xp_levels: 5
 				}
 				{
-					id: "74BD6B3D76A8195E"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "74BD6B3D76A8195E"
 					table_id: 7062805133306069640L
+					type: "loot"
 				}
 			]
+			tasks: [{
+				biome: "deeperdarker:otherside_deeplands"
+				icon: "minecraft:sculk"
+				id: "5E1E3DC987B09351"
+				type: "biome"
+			}]
+			title: "The Otherside Deeplands"
+			x: 3.5d
+			y: 1.5d
 		}
 		{
-			title: "Discover the Ancient Temple"
-			x: 5.5d
-			y: 3.0d
+			dependencies: ["766AE03208AE8F4B"]
 			description: [
 				"Within the &cOtherside Deeplands&r, one can find an &aAncient Temple&r. These structures are filled with the &aspoils of those who came before&r."
 				"In the &dcenter of the temple&r, there are some blocks which, when broken, allow you to &6descend further into the Temple&r."
 			]
-			dependencies: ["766AE03208AE8F4B"]
 			id: "010F9401493DDB2B"
-			tasks: [{
-				id: "4BF7396D5FA09AEF"
-				type: "structure"
-				icon: "deeperdarker:sculk_stone_bricks"
-				structure: "deeperdarker:ancient_temple"
-			}]
 			rewards: [
 				{
 					id: "2F2E2DC23CF31689"
@@ -545,55 +536,64 @@
 					xp_levels: 5
 				}
 				{
-					id: "18BDD7B8E334E2EE"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "18BDD7B8E334E2EE"
 					table_id: 5161092699925703455L
+					type: "loot"
 				}
 			]
+			tasks: [{
+				icon: "deeperdarker:sculk_stone_bricks"
+				id: "4BF7396D5FA09AEF"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "Discover the Ancient Temple"
+			x: 5.5d
+			y: 3.0d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "36715B16A3C5082F"
 			invisible: true
 			secret: true
-			id: "36715B16A3C5082F"
 			tasks: [{
 				id: "7B18F6197773ECE8"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			can_repeat: true
+			dependencies: ["386BBE6DCF3DAB78"]
+			description: ["Don't ask me why, but I &aneed a bunch of &bHearts of the Deep&r. Trade them to me using this &arepeatable quest&r and I will give you some sculk-tastic rewards."]
+			id: "5AA23C847AD13B06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30EB6B842A36C3F2"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321C8316CF3135E9"
+					table_id: 8844042123582301969L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "0D268135EB5A0C2B"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
 			title: "Hearts of Darkness"
 			x: 0.5d
 			y: -2.0d
-			shape: "pentagon"
-			description: ["Don't ask me why, but I &aneed a bunch of &bHearts of the Deep&r. Trade them to me using this &arepeatable quest&r and I will give you some sculk-tastic rewards."]
-			dependencies: ["386BBE6DCF3DAB78"]
-			can_repeat: true
-			id: "5AA23C847AD13B06"
-			tasks: [{
-				id: "0D268135EB5A0C2B"
-				type: "item"
-				item: "deeperdarker:heart_of_the_deep"
-			}]
-			rewards: [
-				{
-					id: "30EB6B842A36C3F2"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 7062805133306069640L
-				}
-				{
-					id: "321C8316CF3135E9"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8844042123582301969L
-				}
-			]
 		}
 	]
-	quest_links: [ ]
+	title: "Deep Dark"
 }

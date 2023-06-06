@@ -1,0 +1,17 @@
+
+["Common Configs"]
+	#If false, then Piglins don't trade Golden Cores. Default is true.
+	TradeWithPiglinsForGoldenCore = true
+	#If true, then thhe Golden Core spawns in Nether Bridge Chests. Default is false.
+	GoldenCoreInNetherBridgeChest = false
+	#If true, then thhe Golden Core spawns in Bastion Treasure Chests. Default is false.
+	GoldenCoreInBastionTreasureChest = false
+	#If true, then thhe Golden Core spawns in Bastion Other Chests. Default is false.
+	GoldenCoreInBastionOtherChest = false
+	#If true, then thhe Golden Core spawns in Bastion Hoglin Stable Chests. Default is false.
+	GoldenCoreInBastionHoglinStableChest = false
+	#If true, then thhe Golden Core spawns in Bastion Bridge Chests. Default is false.
+	GoldenCoreInBastionBridgeChest = false
+	#If true, then thhe Golden Core spawns in Runied Portal Chests. Default is true.
+	GoldenCoreInRuniedPortalChest = true
+

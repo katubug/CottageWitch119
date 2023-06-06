@@ -1,4 +1,4 @@
-#Adjust this value to define how much the matching spell cost gets discounted by the focus
+#Adjust this value to define how much the matching spell cost gets discounted by the greater focus
 #Range: 0.0 ~ 0.99
 "Elemental Focus discount" = 0.15
 

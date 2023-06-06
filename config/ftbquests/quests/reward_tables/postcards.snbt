@@ -1,13 +1,12 @@
 {
 	id: "607906C19492D41B"
-	order_index: 19
-	title: "Postcards"
 	loot_size: 2
+	order_index: 19
 	rewards: [
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:winter_day"
 				}
@@ -15,8 +14,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:crock_pot"
 				}
@@ -24,8 +23,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:touhou_little_maid"
 				}
@@ -33,8 +32,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:meikai"
 				}
@@ -42,8 +41,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:icarus_wings"
 				}
@@ -51,8 +50,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:summer_night"
 				}
@@ -60,8 +59,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:klee_island"
 				}
@@ -69,8 +68,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:autumn_dusk"
 				}
@@ -78,8 +77,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:tea_sorcerer"
 				}
@@ -87,8 +86,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:water_source"
 				}
@@ -96,8 +95,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:spring_day"
 				}
@@ -105,8 +104,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:iyoranotsu"
 				}
@@ -114,8 +113,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:stripes"
 				}
@@ -123,8 +122,8 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:creeper"
 				}
@@ -132,12 +131,13 @@
 		}
 		{
 			item: {
-				id: "contact:postcard"
 				Count: 1b
+				id: "contact:postcard"
 				tag: {
 					CardID: "contact:moonlit_night"
 				}
 			}
 		}
 	]
+	title: "Postcards"
 }

@@ -21,10 +21,10 @@
 ["Spawn Weight Values"]
 	#minimum Spawn Weight
 	#Range: 1 ~ 1000
-	minSpawnWeight = 5
+	minSpawnWeight = 1
 	#maximum Spawn Weight
 	#Range: 1 ~ 1000
-	maxSpawnWeight = 80
+	maxSpawnWeight = 30
 	#list of Mod:MobName,DefaultSpawnweight;
 	defaultSpawnWeightList = "minecraft:enderman,5;minecraft:witch,5;creeperoverhaul:ocean_creeper,1;"
 

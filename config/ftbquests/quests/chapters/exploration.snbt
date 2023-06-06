@@ -1,95 +1,88 @@
 {
-	id: "1226CF9B32B2E083"
-	group: "346046A71D537172"
-	order_index: 0
-	filename: "exploration"
-	title: "Beginnings"
-	icon: "minecraft:grass_block"
-	subtitle: ["a very good place to start"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "346046A71D537172"
+	icon: "minecraft:grass_block"
+	id: "1226CF9B32B2E083"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cottagewitch:textures/questsbanner.png"
+			rotation: 0.0d
+			width: 13.0d
 			x: 0.0d
 			y: -3.0d
-			width: 13.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/questsbanner.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.5d
+			hover: [ ]
+			image: "cottagewitch:textures/questkey.png"
+			rotation: 0.0d
+			width: 11.5d
 			x: -3.5d
 			y: 8.0d
-			width: 11.5d
-			height: 6.5d
-			rotation: 0.0d
-			image: "cottagewitch:textures/questkey.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdeath.png"
+			rotation: 0.0d
+			width: 6.0d
 			x: 3.5d
 			y: 2.0d
-			width: 6.0d
-			height: 6.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgdeath.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgfreebies.png"
+			rotation: 0.0d
+			width: 6.0d
 			x: -3.5d
 			y: 2.0d
-			width: 6.0d
-			height: 6.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgfreebies.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: "https://www.akliz.net/cottagewitch"
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "cottagewitch:textures/aklizbanner.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: -3.0d
 			y: 12.5d
-			width: 10.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "cottagewitch:textures/aklizbanner.png"
-			hover: [ ]
-			click: "https://www.akliz.net/cottagewitch"
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "cottagewitch:textures/tutorials.png"
+			rotation: 0.0d
+			width: 8.0d
 			x: 5.0d
 			y: 8.5d
-			width: 8.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/tutorials.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Begin your World"
-			icon: "minecraft:grass_block"
-			x: -3.0d
-			y: 2.0d
-			shape: "rsquare"
-			subtitle: "Welcome in!"
 			description: [
 				"Congratulations on entering the Overworld for the first time! It's good to have you here. You can &6use these quests as a sort of guide&r to help you through mods you might not be familiar with!"
 				"This quest grants you an &bAkashic Tome&r, which contains guidebooks to mods in the pack."
@@ -97,52 +90,32 @@
 				"&lIf you ever lose your Akashic Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
 				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
 			]
-			size: 2.0d
+			icon: "minecraft:grass_block"
 			id: "6C6635F6D9644BB7"
-			tasks: [{
-				id: "732E6FD9F7F8662E"
-				type: "dimension"
-				dimension: "minecraft:overworld"
-			}]
 			rewards: [
 				{
 					id: "3FC5AF6E67ED19A5"
-					type: "item"
 					item: "supplementaries:sack"
+					type: "item"
 				}
 				{
-					id: "4B2B69209045245C"
-					type: "command"
-					team_reward: false
 					auto: "enabled"
 					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					id: "4B2B69209045245C"
 					player_command: false
+					team_reward: false
+					type: "command"
 				}
 				{
 					id: "656D108CEC4CA101"
-					type: "item"
 					item: {
-						id: "akashictome:tome"
 						Count: 1b
+						id: "akashictome:tome"
 						tag: {
 							"akashictome:data": {
-								sculktransporting: {
+								alexsmobs: {
 									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "sculktransporting:guide"
-									}
-								}
-								byg: {
-									Count: 1b
-									id: "byg:biomepedia"
-								}
-								create_central_kitchen: {
-									ForgeCaps: {
-										Parent: { }
-									}
-									id: "create_central_kitchen:cooking_guide"
-									Count: 1b
+									id: "alexsmobs:animal_dictionary"
 								}
 								ars_nouveau: {
 									Count: 1b
@@ -155,24 +128,9 @@
 										"patchouli:book": "babyfat:the_book_of_baby_fat"
 									}
 								}
-								ftbquests: {
+								byg: {
 									Count: 1b
-									id: "ftbquests:book"
-								}
-								alexsmobs: {
-									Count: 1b
-									id: "alexsmobs:animal_dictionary"
-								}
-								solsweetpotato: {
-									Count: 1b
-									id: "solsweetpotato:food_book"
-								}
-								deeperdarker: {
-									id: "patchouli:guide_book"
-									Count: 1b
-									tag: {
-										"patchouli:book": "deeperdarker:wanderers_notebook"
-									}
+									id: "byg:biomepedia"
 								}
 								caupona: {
 									Count: 1b
@@ -181,212 +139,248 @@
 										"patchouli:book": "caupona:book"
 									}
 								}
-								lexicon: {
-									id: "patchouli:guide_book"
+								create_central_kitchen: {
 									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "create_central_kitchen:cooking_guide"
+								}
+								deeperdarker: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+								ftbquests: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+								lexicon: {
+									Count: 1b
+									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "lexicon:lexicon"
 									}
 								}
+								sculktransporting: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sculktransporting:guide"
+									}
+								}
+								solsweetpotato: {
+									Count: 1b
+									id: "solsweetpotato:food_book"
+								}
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Welcome in!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+			}]
+			title: "Begin your World"
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			title: "Baby's First Death"
-			x: 3.5d
-			y: 1.0d
-			subtitle: "Handbook for the recently deceased"
 			description: [
 				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
 				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
 				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
 			]
 			id: "47643C0C8D4BCBD9"
-			tasks: [{
-				id: "412E4F0BC4FEF92B"
-				type: "item"
-				item: "enigmaticgraves:grave_finder"
-			}]
 			rewards: [
 				{
 					id: "78AFDC62398091E8"
-					type: "item"
 					item: {
-						id: "minecraft:stone_sword"
 						Count: 1b
+						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "29BB4C4A6EF50D42"
-					type: "item"
 					item: {
-						id: "minecraft:shield"
 						Count: 1b
+						id: "minecraft:shield"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Handbook for the recently deceased"
+			tasks: [{
+				id: "412E4F0BC4FEF92B"
+				item: "enigmaticgraves:grave_finder"
+				type: "item"
+			}]
+			title: "Baby's First Death"
+			x: 3.5d
+			y: 1.0d
 		}
 		{
-			x: -4.5d
-			y: 1.0d
-			subtitle: "Cute house starter pack"
 			description: [
 				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
 				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
 			]
 			id: "21AD64E594528F4D"
-			tasks: [{
-				id: "76B325FD29C28A89"
-				type: "checkmark"
-				title: "Build Me a House"
-			}]
 			rewards: [{
 				id: "799218BAE959D719"
-				type: "item"
 				item: "prefab:item_house"
+				type: "item"
 			}]
+			subtitle: "Cute house starter pack"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				title: "Build Me a House"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			title: "Mushroom Hat"
-			x: -5.0d
-			y: 2.0d
+			can_repeat: true
 			description: [
 				"Would you like a Mushroom Hat? Cool! Click the box above."
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
 			]
-			can_repeat: true
 			id: "3DFB7EF14F053582"
-			tasks: [{
-				id: "5D42AEB901AE8033"
-				type: "checkmark"
-				title: "I want a mushroom hat!!"
-			}]
 			rewards: [{
-				id: "34D0D294831901C4"
-				type: "command"
+				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
 				icon: {
-					id: "minecraft:carved_pumpkin"
 					Count: 1b
+					id: "minecraft:carved_pumpkin"
 					tag: {
 						CustomModelData: 1
 					}
 				}
-				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				id: "34D0D294831901C4"
 				player_command: false
+				type: "command"
 			}]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				title: "I want a mushroom hat!!"
+				type: "checkmark"
+			}]
+			title: "Mushroom Hat"
+			x: -5.0d
+			y: 2.0d
 		}
 		{
-			x: 2.0d
-			y: 1.5d
-			shape: "octagon"
-			description: ["Congratulations on cheating death! Sorry about your totem, though."]
 			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congratulations on cheating death! Sorry about your totem, though."]
 			id: "76D5DB6E94816C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03B2AB64A80391"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
 			tasks: [{
-				id: "7E4BBEB34174442D"
-				type: "advancement"
 				advancement: "minecraft:adventure/totem_of_undying"
 				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
 			}]
-			rewards: [{
-				id: "4A03B2AB64A80391"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8808494820591225409L
-			}]
+			x: 2.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
+			id: "3FAE926346F1E576"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "YOU DIED"
+			tasks: [{
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
 			title: "Die 50 Times"
 			x: 2.5d
 			y: 3.0d
-			subtitle: "YOU DIED"
-			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
-			dependencies: ["47643C0C8D4BCBD9"]
-			id: "3FAE926346F1E576"
-			tasks: [{
-				id: "08BCF1C0F17EF916"
-				type: "stat"
-				stat: "minecraft:deaths"
-				value: 50
-			}]
-			rewards: [{
-				id: "7338219FAAA9587F"
-				type: "item"
-				item: "minecraft:totem_of_undying"
-			}]
 		}
 		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
+			id: "2508051D98B7CB06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528C9AFE009AD0F3"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F4314516CA5C0D4"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 999999
+			}]
 			title: "Survival Skills"
 			x: 4.5d
 			y: 3.0d
-			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
-			dependencies: ["47643C0C8D4BCBD9"]
-			id: "2508051D98B7CB06"
-			tasks: [{
-				id: "7F4314516CA5C0D4"
-				type: "stat"
-				stat: "minecraft:time_since_death"
-				value: 999999
-			}]
-			rewards: [{
-				id: "528C9AFE009AD0F3"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5161092699925703455L
-			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
-			subtitle: "slimy transport"
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
 			id: "7232C9D413054886"
-			tasks: [{
-				id: "474CE1AAC07815BD"
-				type: "checkmark"
-				title: "The Only Way to \"Fly\""
-			}]
 			rewards: [
 				{
 					id: "59138A1AE98F4A94"
-					type: "item"
 					item: "usefulslime:slime_boots"
+					type: "item"
 				}
 				{
 					id: "146D300604AF13CC"
-					type: "item"
 					item: "usefulslime:slime_sling"
+					type: "item"
 				}
 			]
+			subtitle: "slimy transport"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				title: "The Only Way to \"Fly\""
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "457F26BFBE27EC1C"
 			invisible: true
 			secret: true
-			id: "457F26BFBE27EC1C"
 			tasks: [{
 				id: "6574D787435FC4EA"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "Chunk Loading"
-			x: 3.75d
-			y: 7.5d
-			shape: "gear"
-			subtitle: "When you're away, your base will play"
 			description: [
 				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
 				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
@@ -395,24 +389,27 @@
 				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
 				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
 			]
-			size: 1.5d
-			min_width: 350
 			id: "26D8EAD9D892805E"
-			tasks: [{
-				id: "4FA4B92C6339251C"
-				type: "checkmark"
-				title: "Claim and Load Chunks"
-			}]
+			min_width: 350
 			rewards: [{
 				id: "5DF31CEACA7283A2"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "When you're away, your base will play"
+			tasks: [{
+				id: "4FA4B92C6339251C"
+				title: "Claim and Load Chunks"
+				type: "checkmark"
+			}]
+			title: "Chunk Loading"
+			x: 3.75d
+			y: 7.5d
 		}
 		{
-			x: 5.0d
-			y: 7.0d
-			shape: "gear"
+			dependencies: ["26D8EAD9D892805E"]
 			description: [
 				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
 				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
@@ -420,18 +417,12 @@
 				"{image:cottagewitch:textures/createaparty.png width:100 height:100 align:1 fit:true}"
 				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
 			]
-			dependencies: ["26D8EAD9D892805E"]
 			id: "20F9C02AF5CBE665"
-			tasks: [{
-				id: "5D2FC3F7E82A27A3"
-				type: "checkmark"
-				title: "Adding Allies"
-			}]
 			rewards: [
 				{
 					id: "193F56FAD5A4D08C"
-					type: "item"
 					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 				{
 					id: "3101E5B37D3A9BB3"
@@ -439,47 +430,52 @@
 					xp_levels: 5
 				}
 			]
+			shape: "gear"
+			tasks: [{
+				id: "5D2FC3F7E82A27A3"
+				title: "Adding Allies"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
 		}
 		{
-			title: "Extreme Sound Muffler"
-			x: 3.0d
-			y: 9.0d
-			shape: "gear"
-			subtitle: "Selective hearing. Literally."
 			description: [
 				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
 				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
 			]
 			id: "171D4EACF7B9F4D5"
+			shape: "gear"
+			subtitle: "Selective hearing. Literally."
 			tasks: [{
 				id: "4B25469609B1A60C"
-				type: "checkmark"
 				title: "Extreme Sound Muffler"
+				type: "checkmark"
 			}]
+			title: "Extreme Sound Muffler"
+			x: 3.0d
+			y: 9.0d
 		}
 		{
-			x: 3.75d
-			y: 10.5d
-			shape: "gear"
-			subtitle: "Take a little look-see"
 			description: [
 				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
 				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
 				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
 				"This will let you view how to make anything in the game!"
 			]
-			size: 1.5d
 			id: "226D1B09B2958EFC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Take a little look-see"
 			tasks: [{
 				id: "70ED8357EEA2ACA4"
-				type: "checkmark"
 				title: "Get to know the mods"
+				type: "checkmark"
 			}]
+			x: 3.75d
+			y: 10.5d
 		}
 		{
-			x: 6.0d
-			y: 8.0d
-			shape: "gear"
 			description: [
 				"You might be wondering where all the quests are, when your screen looks like this:"
 				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
@@ -487,47 +483,47 @@
 				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
 				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
 			]
-			size: 2.0d
-			min_width: 350
 			id: "51383D499E0DF0DA"
-			tasks: [{
-				id: "11A03582B84195D4"
-				type: "checkmark"
-				title: "Pin the Quest Categories"
-			}]
+			min_width: 350
 			rewards: [{
 				id: "087C803B19537A4C"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "11A03582B84195D4"
+				title: "Pin the Quest Categories"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 8.0d
 		}
 		{
-			title: "Pinning Other Things"
-			x: 7.5d
-			y: 9.0d
-			shape: "gear"
+			dependencies: ["51383D499E0DF0DA"]
 			description: [
 				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
 				"Just &dbe warned that this overlaps your pinned Notes&r."
 				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
 			]
-			dependencies: ["51383D499E0DF0DA"]
 			id: "1E43FCEBA416DCFF"
-			tasks: [{
-				id: "65C18F6415665884"
-				type: "checkmark"
-				title: "Pin a Quest or Note"
-			}]
 			rewards: [{
 				id: "5D9376B26A3CE85B"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "65C18F6415665884"
+				title: "Pin a Quest or Note"
+				type: "checkmark"
+			}]
+			title: "Pinning Other Things"
+			x: 7.5d
+			y: 9.0d
 		}
 		{
-			x: 4.5d
-			y: 9.0d
-			shape: "gear"
 			description: [
 				"{image:cottagewitch:textures/ftbdeathmarker.png width:100 height:70 align:1 fit:true}"
 				"Does this beam look familiar? Want to get rid of it? &6Follow these directions&r."
@@ -542,23 +538,23 @@
 				""
 				"{image:cottagewitch:textures/ftbchunksettings2.png width:100 height:10 align:1 fit:true}"
 			]
-			min_width: 300
 			id: "5FAC987075A81A8D"
-			tasks: [{
-				id: "66A2EE20A62B20BE"
-				type: "checkmark"
-				title: "Get rid of Death Marker Beams"
-			}]
+			min_width: 300
 			rewards: [{
 				id: "3221B07C2CE46656"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "66A2EE20A62B20BE"
+				title: "Get rid of Death Marker Beams"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 9.0d
 		}
 		{
-			x: 5.0d
-			y: 10.0d
-			shape: "gear"
 			description: [
 				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
 				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
@@ -566,17 +562,21 @@
 				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
 			]
 			id: "5B1C86C4A7C3351F"
-			tasks: [{
-				id: "0D6469F8CB52A79E"
-				type: "checkmark"
-				title: "Akashic Controls"
-			}]
 			rewards: [{
 				id: "39EB96715BA2FC9F"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0D6469F8CB52A79E"
+				title: "Akashic Controls"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 10.0d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["a very good place to start"]
+	title: "Beginnings"
 }

@@ -1,21 +1,21 @@
 {
 	id: "080797145F203F85"
-	order_index: 21
-	title: "Hexerei"
 	loot_size: 3
+	order_index: 21
 	rewards: [
-		{ item: "hexerei:seed_mixture", count: 5, weight: 8.0f }
-		{ item: "hexerei:tallow_impurity", count: 3, weight: 8.0f }
+		{ count: 5, item: "hexerei:seed_mixture", weight: 8.0f }
+		{ count: 3, item: "hexerei:tallow_impurity", weight: 8.0f }
 		{ item: "hexerei:blood_bottle", weight: 5.0f }
 		{ item: "hexerei:infused_fabric" }
 		{
 			item: {
-				id: "hexerei:broom_brush"
 				Count: 1b
+				id: "hexerei:broom_brush"
 				tag: {
 					Damage: 0
 				}
 			}
 		}
 	]
+	title: "Hexerei"
 }

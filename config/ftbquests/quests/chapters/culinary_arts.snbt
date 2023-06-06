@@ -1,830 +1,820 @@
 {
-	id: "305A3D4D3A205E4A"
-	group: "1E0017DE6773EF00"
-	order_index: 1
-	filename: "culinary_arts"
-	title: "Culinary Arts"
-	icon: "nethersdelight:stuffed_hoglin"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "culinary_arts"
+	group: "1E0017DE6773EF00"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "305A3D4D3A205E4A"
 	images: [
 		{
-			x: 10.0d
-			y: -5.0d
-			width: 10.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 10.0d
-			rotation: 0.0d
+			hover: [ ]
 			image: "cottagewitch:textures/bgnetherdelight.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
-			x: 0.5d
-			y: -5.0d
-			width: 10.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 10.0d
-			rotation: 0.0d
+			hover: [ ]
 			image: "cottagewitch:textures/bgteaandsundry.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgspiceoflife.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: -9.0d
 			y: -5.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgspiceoflife.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscfood.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: 0.5d
 			y: 4.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgmiscfood.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcookingpot.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: -9.0d
 			y: 4.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgcookingpot.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgbrewing.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: 10.0d
 			y: 4.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgbrewing.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgenddelight.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: 5.0d
 			y: 13.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgenddelight.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcaupona.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: -4.5d
 			y: 13.0d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "cottagewitch:textures/bgcaupona.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Have yourself a beachy delight with a &bTropical Stew&r. Authentic crab meat, savory onions, and rice inside a coconut shell - perfection!"]
+			id: "5A2B514B4EB8EF23"
+			rewards: [{
+				id: "44013D6975BFD304"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "If you like piña coladas"
+			tasks: [{
+				id: "166AA75156D284E6"
+				item: "ecologics:tropical_stew"
+				type: "item"
+			}]
 			title: "Cook some Tropical Stew"
 			x: -9.5d
 			y: -2.5d
-			shape: "hexagon"
-			subtitle: "If you like piña coladas"
-			description: ["Have yourself a beachy delight with a &bTropical Stew&r. Authentic crab meat, savory onions, and rice inside a coconut shell - perfection!"]
-			dependencies: ["6EFFB8ED37DC8A47"]
-			id: "5A2B514B4EB8EF23"
-			tasks: [{
-				id: "166AA75156D284E6"
-				type: "item"
-				item: "ecologics:tropical_stew"
-			}]
-			rewards: [{
-				id: "44013D6975BFD304"
-				type: "random"
-				table_id: 6941837675484043489L
-			}]
 		}
 		{
-			title: "The Spice of Life"
-			x: -7.0d
-			y: -2.5d
-			shape: "rsquare"
-			subtitle: "(psst, it's variety)"
 			description: [
 				"One feature of this modpack is that &aeating a variety of foods grants you extra hearts&r!"
 				"You can see which foods you've eaten by checking your &bFood Book&r, which is inside your &bAkashic Tome&r and can be accessed by &6right clicking the Tome and then selecting the Food Book&r."
 				"You can also find what you've yet to eat by searching \"yet\" in the right side of your inventory screen (&lJEI&r)."
 			]
-			size: 2.5d
-			optional: true
 			id: "6EFFB8ED37DC8A47"
-			tasks: [{
-				id: "257597C327C3C41E"
-				type: "item"
-				item: "solsweetpotato:food_book"
-			}]
+			optional: true
 			rewards: [
 				{
 					id: "675B825FA1C002F3"
-					type: "item"
 					item: "farmersdelight:fish_stew"
+					type: "item"
 				}
 				{
 					id: "756ACB295D3277F7"
-					type: "random"
 					table_id: 6941837675484043489L
+					type: "random"
 				}
 			]
+			shape: "rsquare"
+			size: 2.5d
+			subtitle: "(psst, it's variety)"
+			tasks: [{
+				id: "257597C327C3C41E"
+				item: "solsweetpotato:food_book"
+				type: "item"
+			}]
+			title: "The Spice of Life"
+			x: -7.0d
+			y: -2.5d
 		}
 		{
-			title: "Obtain Tea Seeds"
-			x: 0.5d
-			y: -5.0d
-			subtitle: "The beginning of a beautiful thing"
+			dependencies: ["644439D23D454629"]
 			description: [
 				"&bTea&r is a small bush which can be grown on farmland in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
 				"You'll need a &bkettle&r to brew it, which is made with some &bleather&r, a &bbucket&r, and &bcopper&r."
 			]
-			dependencies: ["644439D23D454629"]
 			id: "1266B799DAB9CCC7"
-			tasks: [{
-				id: "47CC68B6AFC0A820"
-				type: "item"
-				item: "farmersrespite:tea_seeds"
-			}]
 			rewards: [
 				{
 					id: "61583E166F84CB9B"
-					type: "item"
 					item: "minecraft:bucket"
+					type: "item"
 				}
 				{
 					id: "7A33DD93AECBC30C"
-					type: "item"
 					item: "minecraft:leather"
+					type: "item"
 				}
 			]
+			subtitle: "The beginning of a beautiful thing"
+			tasks: [{
+				id: "47CC68B6AFC0A820"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			title: "Obtain Tea Seeds"
+			x: 0.5d
+			y: -5.0d
 		}
 		{
-			title: "Obtain Coffee Beans"
-			x: -1.5d
-			y: -7.0d
-			shape: "hexagon"
-			subtitle: "coffeecoffeecoffeecoffee"
+			dependencies: ["1266B799DAB9CCC7"]
 			description: [
 				"&bCoffee Beans&r can be acquired from &aBasalt Deltas&r in the Nether."
 				"What, are you surprised coffee comes from the Nether? Why do you think it's so hellishly good?"
 			]
-			dependencies: ["1266B799DAB9CCC7"]
 			id: "057B67AD7B2265D2"
-			tasks: [{
-				id: "3F4D9EABFDAF7C4D"
-				type: "item"
-				item: "farmersrespite:coffee_beans"
-			}]
 			rewards: [
 				{
 					id: "206BB757EAFA30AB"
-					type: "item"
 					item: "farmersrespite:coffee"
+					type: "item"
 				}
 				{
-					id: "161C3C3226B4FBA4"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "161C3C3226B4FBA4"
 					table_id: 6951594928314176539L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "coffeecoffeecoffeecoffee"
+			tasks: [{
+				id: "3F4D9EABFDAF7C4D"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			title: "Obtain Coffee Beans"
+			x: -1.5d
+			y: -7.0d
 		}
 		{
-			x: -2.0d
-			y: -5.5d
-			shape: "hexagon"
-			subtitle: "These rose hips don't lie"
-			description: ["Rose hip tea will grant you a small amount of &aRegeneration&r!"]
 			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Rose hip tea will grant you a small amount of &aRegeneration&r!"]
 			id: "678A9A223F78E44A"
-			tasks: [{
-				id: "137E5F78BD0D4BD5"
-				type: "item"
-				item: "farmersrespite:rose_hip_tea"
-			}]
 			rewards: [
 				{
 					id: "254DF51819A8D6EC"
-					type: "item"
 					item: "byg:winter_rose"
+					type: "item"
 				}
 				{
 					id: "33246C70F6B27415"
-					type: "item"
 					item: "create:rose_quartz"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "These rose hips don't lie"
+			tasks: [{
+				id: "137E5F78BD0D4BD5"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 		{
-			title: "Obtain a Kettle"
-			x: -0.5d
-			y: -2.5d
-			shape: "rsquare"
-			subtitle: "Don't let it call your Cooking Pot black."
 			description: [
 				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
 				"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
 			]
-			size: 2.0d
 			id: "644439D23D454629"
+			rewards: [{
+				count: 5
+				id: "094D9A28C779AFF3"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Don't let it call your Cooking Pot black."
 			tasks: [{
 				id: "0AF70C91FA3DAF6E"
-				type: "item"
 				item: "farmersrespite:kettle"
-			}]
-			rewards: [{
-				id: "094D9A28C779AFF3"
 				type: "item"
-				item: "minecraft:glass_bottle"
-				count: 5
 			}]
+			title: "Obtain a Kettle"
+			x: -0.5d
+			y: -2.5d
 		}
 		{
-			x: 0.0d
-			y: -7.5d
-			shape: "hexagon"
-			subtitle: "Hello, little Darjeeling"
+			dependencies: ["1266B799DAB9CCC7"]
 			description: [
 				"Black tea is the leaf with the greatest amount of tannins, making it the most resistant to heat and also the most strongly-flavored."
 				"Oh, it's also the most &aCaffeinated&r, and will grant you that effect."
 			]
-			dependencies: ["1266B799DAB9CCC7"]
 			id: "016F0B2B8A127F3F"
+			rewards: [{
+				count: 3
+				id: "5E9F180F46F7F36D"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Hello, little Darjeeling"
 			tasks: [{
 				id: "6E1AD95B6C735FC3"
-				type: "item"
 				item: "farmersrespite:black_tea"
-			}]
-			rewards: [{
-				id: "5E9F180F46F7F36D"
 				type: "item"
-				item: "minecraft:cookie"
-				count: 3
 			}]
+			x: 0.0d
+			y: -7.5d
 		}
 		{
-			x: 1.5d
-			y: -7.5d
-			shape: "hexagon"
-			subtitle: "Oooh, long!"
-			description: ["Yellow tea, known to most as Oolong, is an earthier flavored tea with the &aability to grant resistance&r."]
 			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Yellow tea, known to most as Oolong, is an earthier flavored tea with the &aability to grant resistance&r."]
 			id: "65ADB03870DFBDAC"
-			tasks: [{
-				id: "3EC32AB3C0AB3AC9"
-				type: "item"
-				item: "farmersrespite:yellow_tea"
-			}]
 			rewards: [{
 				id: "12593935A24401B9"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "Oooh, long!"
+			tasks: [{
+				id: "3EC32AB3C0AB3AC9"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
 		}
 		{
-			x: 2.0d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "Green is for fresh, delicate, and delightful!"
-			description: ["This tea is bright, grassy, and delicious! It also grants you the &aHaste&r effect."]
 			dependencies: ["1266B799DAB9CCC7"]
+			description: ["This tea is bright, grassy, and delicious! It also grants you the &aHaste&r effect."]
 			id: "55D8EDF7F7770CB8"
-			tasks: [{
-				id: "433BC0AE1F0F4F4D"
-				type: "item"
-				item: "farmersrespite:green_tea"
-			}]
 			rewards: [{
 				id: "76C1553E722EE9A3"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "Green is for fresh, delicate, and delightful!"
+			tasks: [{
+				id: "433BC0AE1F0F4F4D"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
 		}
 		{
-			x: 3.0d
-			y: -5.0d
-			shape: "hexagon"
-			subtitle: "The dandiest of lions"
-			description: ["Brew some delightful Dandelion Tea for a sunny afternoon picnic. It will grant you the &dComforting&r effect, which &akeeps you healing regardless of hunger&r."]
 			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Brew some delightful Dandelion Tea for a sunny afternoon picnic. It will grant you the &dComforting&r effect, which &akeeps you healing regardless of hunger&r."]
 			id: "57AED567481E56A9"
-			tasks: [{
-				id: "493FEF3F3EEFFBB1"
-				type: "item"
-				item: "farmersrespite:dandelion_tea"
-			}]
 			rewards: [{
 				id: "638B885196196EB0"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "The dandiest of lions"
+			tasks: [{
+				id: "493FEF3F3EEFFBB1"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
 		}
 		{
-			x: 2.5d
-			y: -6.5d
-			shape: "hexagon"
-			subtitle: "Not very good for you"
-			description: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
 			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
 			id: "2FC8613FDF6B824F"
-			tasks: [{
-				id: "6BCF2EC47CE3F092"
-				type: "item"
-				item: "farmersrespite:purulent_tea"
-			}]
 			rewards: [
 				{
 					id: "3BA4C868D71F518D"
-					type: "random"
 					table_id: 6941837675484043489L
+					type: "random"
 				}
 				{
-					id: "422FD06857C62DDA"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "422FD06857C62DDA"
 					table_id: 6951594928314176539L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Not very good for you"
+			tasks: [{
+				id: "6BCF2EC47CE3F092"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
 		}
 		{
-			title: "Obtain a Nether Fungus Colony"
-			x: 7.5d
-			y: -6.5d
-			subtitle: "I bet you're a really fun Gus"
-			description: ["Much like Mushroom colonies, &bNether Fungus&r can be grown in &acomplete darkness&r using &bRich Soul Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 fungi. I've heard they're enjoyable to hang out with."]
 			dependencies: ["40C1DBE20E401EF9"]
+			description: ["Much like Mushroom colonies, &bNether Fungus&r can be grown in &acomplete darkness&r using &bRich Soul Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 fungi. I've heard they're enjoyable to hang out with."]
 			id: "57742DD8F99DBAF1"
+			rewards: [
+				{
+					count: 3
+					id: "3569C56E9635386B"
+					item: "nethersdelight:crimson_fungus_colony"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "188DDA735D8E26FD"
+					item: "nethersdelight:warped_fungus_colony"
+					type: "item"
+				}
+			]
+			subtitle: "I bet you're a really fun Gus"
 			tasks: [{
 				id: "398A0E64F8FA1A06"
-				type: "item"
-				title: "Any #crafttweaker:netmushcolony"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:netmushcolony"
 					}
 				}
+				title: "Any #crafttweaker:netmushcolony"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "3569C56E9635386B"
-					type: "item"
-					item: "nethersdelight:crimson_fungus_colony"
-					count: 3
-				}
-				{
-					id: "188DDA735D8E26FD"
-					type: "item"
-					item: "nethersdelight:warped_fungus_colony"
-					count: 3
-				}
-			]
+			title: "Obtain a Nether Fungus Colony"
+			x: 7.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["507ACD6D650DECA2"]
+			description: ["Are you a trophy hunter? Well, look no further than this tasteful and bold decoration - the &bHoglin Mount&r."]
+			id: "41CEA7DC3EEF0F49"
+			rewards: [{
+				id: "75DA4475B34FE0C4"
+				item: "advancementframes:advancement_frame"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "No one mounts like Gaston!"
+			tasks: [{
+				id: "01F081161A9DD7EC"
+				item: "nethersdelight:hoglin_mount"
+				type: "item"
+			}]
 			title: "Make a Hoglin Mount"
 			x: 11.0d
 			y: -7.0d
-			shape: "hexagon"
-			subtitle: "No one mounts like Gaston!"
-			description: ["Are you a trophy hunter? Well, look no further than this tasteful and bold decoration - the &bHoglin Mount&r."]
-			dependencies: ["507ACD6D650DECA2"]
-			id: "41CEA7DC3EEF0F49"
-			tasks: [{
-				id: "01F081161A9DD7EC"
-				type: "item"
-				item: "nethersdelight:hoglin_mount"
-			}]
-			rewards: [{
-				id: "75DA4475B34FE0C4"
-				type: "item"
-				item: "advancementframes:advancement_frame"
-			}]
 		}
 		{
-			x: 9.5d
-			y: -6.5d
-			subtitle: "Soul Compost? Boy that's a mood"
-			description: ["You can also use &bHoglin Hides&r to create Soul &bCompost&r, which will slowly convert into &bRich Soul Soil&r. Simply &6place the Compost near Lava&r."]
 			dependencies: ["507ACD6D650DECA2"]
+			description: ["You can also use &bHoglin Hides&r to create Soul &bCompost&r, which will slowly convert into &bRich Soul Soil&r. Simply &6place the Compost near Lava&r."]
 			id: "40C1DBE20E401EF9"
-			tasks: [{
-				id: "6C186627FBFF9BF6"
-				type: "item"
-				item: "nethersdelight:soul_compost"
-			}]
 			rewards: [{
 				id: "02B50B11ACF8B13D"
-				type: "item"
 				item: "nethersdelight:soul_compost"
+				type: "item"
 			}]
+			subtitle: "Soul Compost? Boy that's a mood"
+			tasks: [{
+				id: "6C186627FBFF9BF6"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
 		}
 		{
-			x: 9.5d
-			y: -5.0d
-			subtitle: "Hoglin, hide!"
-			description: ["&bHoglin Hide&r can be used in cooking recipes, or cleaned on a &bCutting Board&r to create &bLeather&r."]
 			dependencies: ["773834D44C436587"]
+			description: ["&bHoglin Hide&r can be used in cooking recipes, or cleaned on a &bCutting Board&r to create &bLeather&r."]
 			id: "507ACD6D650DECA2"
+			rewards: [{
+				count: 5
+				id: "01A7EF2C0A686D43"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Hoglin, hide!"
 			tasks: [{
 				id: "3469C9CCEC7F9270"
-				type: "item"
 				item: "nethersdelight:hoglin_hide"
-			}]
-			rewards: [{
-				id: "01A7EF2C0A686D43"
 				type: "item"
-				item: "minecraft:leather"
-				count: 5
 			}]
+			x: 9.5d
+			y: -5.0d
 		}
 		{
-			x: 12.0d
-			y: -2.5d
-			shape: "hexagon"
-			subtitle: "Why would you make this?"
-			description: ["This moldy meat is frankly pretty gross. But if you want to complete all your quests, you &6need to make it&r. Bwahahaha."]
 			dependencies: ["773834D44C436587"]
+			description: ["This moldy meat is frankly pretty gross. But if you want to complete all your quests, you &6need to make it&r. Bwahahaha."]
 			id: "21DDAC7010761BB0"
-			tasks: [{
-				id: "30C86F641D8F4E4E"
-				type: "item"
-				item: "nethersdelight:warped_moldy_meat"
-			}]
 			rewards: [{
 				id: "5569F980E496EAF8"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "Why would you make this?"
+			tasks: [{
+				id: "30C86F641D8F4E4E"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
 		}
 		{
-			x: 10.0d
-			y: -2.5d
-			shape: "rsquare"
-			subtitle: "Gird this"
 			description: ["By killing &eHoglins&r with your trusty &bKnife&r, you can gain &bHoglin Loin&r, &bHoglin Hide&r, and sometimes &bHam&r! These can be used in cooking recipes."]
-			size: 2.0d
-			optional: true
 			id: "773834D44C436587"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5A69AEA5171C7940"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Gird this"
 			tasks: [{
 				id: "695DBF55095C94CE"
-				type: "item"
 				item: "nethersdelight:hoglin_loin"
-			}]
-			rewards: [{
-				id: "5A69AEA5171C7940"
 				type: "item"
-				item: "farmersdelight:nether_salad"
-				count: 2
 			}]
+			x: 10.0d
+			y: -2.5d
 		}
 		{
-			x: 7.5d
-			y: -2.0d
+			dependencies: ["773834D44C436587"]
+			description: ["In order to obtain &bStrider Slices&r, you need to slay &eStriders&r with a &bKnife&r. It's quite tragic, really. But if you do so, you can &6cook them as they are&r, or place the Slices on the &bCutting Board&r to obtain &bGround Strider&r, which has further recipe uses."]
+			id: "21A12DEE3432EF7F"
+			rewards: [{
+				count: 5
+				id: "76FF3A3CF66E25AD"
+				item: "nethersdelight:ground_strider"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Heartless!"
-			description: ["In order to obtain &bStrider Slices&r, you need to slay &eStriders&r with a &bKnife&r. It's quite tragic, really. But if you do so, you can &6cook them as they are&r, or place the Slices on the &bCutting Board&r to obtain &bGround Strider&r, which has further recipe uses."]
-			dependencies: ["773834D44C436587"]
-			id: "21A12DEE3432EF7F"
 			tasks: [{
 				id: "402DC0AD3D35C05F"
-				type: "item"
 				item: "nethersdelight:strider_slice"
-			}]
-			rewards: [{
-				id: "76FF3A3CF66E25AD"
 				type: "item"
-				item: "nethersdelight:ground_strider"
-				count: 5
 			}]
+			x: 7.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["773834D44C436587"]
+			description: ["Make yourself a &bRaw Stuffed Hoglin&r and &6place it in a &bCooking Pot&r with 2 &bNether Salads&r to create a &bStuffed Hoglin&r, which can be placed down and eaten as the centerpiece of the most indulgent feast!"]
+			id: "236484A484723F55"
+			rewards: [{
+				id: "238817E1F80D8DF2"
+				item: "fantasyfurniture:decorations/nordic_mead_bottles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25DFEAB995A93CFF"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
 			title: "Stuff a Hoglin"
 			x: 7.5d
 			y: -3.5d
-			description: ["Make yourself a &bRaw Stuffed Hoglin&r and &6place it in a &bCooking Pot&r with 2 &bNether Salads&r to create a &bStuffed Hoglin&r, which can be placed down and eaten as the centerpiece of the most indulgent feast!"]
-			dependencies: ["773834D44C436587"]
-			id: "236484A484723F55"
-			tasks: [{
-				id: "25DFEAB995A93CFF"
-				type: "item"
-				item: "nethersdelight:stuffed_hoglin"
-			}]
-			rewards: [{
-				id: "238817E1F80D8DF2"
-				type: "item"
-				item: "fantasyfurniture:decorations/nordic_mead_bottles"
-			}]
 		}
 		{
+			description: ["&bPropelplants&r can be found in the Nether. They look similar to Bamboo, but are black in color, with glowing globules at the top. &dBe careful when harvesting them&r! You'll need &bShears&r to obtain the &bPropelpearls&r."]
+			id: "76BB908C21246B36"
+			rewards: [{
+				count: 5
+				id: "31CE1B6A8A1B36C7"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			subtitle: "Don't be too hasty"
+			tasks: [{
+				id: "6750441E49D21045"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
 			title: "Obtain Some Propelpearls"
 			x: 12.0d
 			y: -4.0d
-			subtitle: "Don't be too hasty"
-			description: ["&bPropelplants&r can be found in the Nether. They look similar to Bamboo, but are black in color, with glowing globules at the top. &dBe careful when harvesting them&r! You'll need &bShears&r to obtain the &bPropelpearls&r."]
-			id: "76BB908C21246B36"
-			tasks: [{
-				id: "6750441E49D21045"
-				type: "item"
-				item: "nethersdelight:propelpearl"
-			}]
-			rewards: [{
-				id: "31CE1B6A8A1B36C7"
-				type: "item"
-				item: "nethersdelight:propelpearl"
-				count: 5
-			}]
 		}
 		{
-			x: 11.0d
-			y: -5.5d
-			shape: "hexagon"
-			subtitle: "Hot stuff, comin' through!"
-			description: ["This meal is deeply nourishing, but it never cools down no matter how much you blow on it."]
 			dependencies: ["76BB908C21246B36"]
+			description: ["This meal is deeply nourishing, but it never cools down no matter how much you blow on it."]
 			id: "0B8ABF32A9C31887"
-			tasks: [{
-				id: "14E3F3C39D06D3BC"
-				type: "item"
-				item: "nethersdelight:magma_gelatin"
-			}]
 			rewards: [{
 				id: "4AC914984A9E3499"
-				type: "item"
 				item: {
-					id: "minecraft:potion"
 					Count: 1b
+					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:long_lava_vision"
 					}
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Hot stuff, comin' through!"
+			tasks: [{
+				id: "14E3F3C39D06D3BC"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
 		}
 		{
-			x: 13.0d
-			y: -5.5d
-			subtitle: "Are you Abel to get Cain?"
+			dependencies: ["76BB908C21246B36"]
 			description: [
 				"&bPropelcane&r is obtained from &bPropelplants&r, but must be &6harvested with a Knife&r. It can be chopped into &bGunpowder&r at a Cutting Board, or used to &acreate special &bPropelplant Torches&r."
 				"The &bCane&r can also be &aplanted on &bRich Soul Soil&r."
 			]
-			dependencies: ["76BB908C21246B36"]
 			id: "3975B8BC61249AF4"
-			tasks: [{
-				id: "19F2200461C2C9E8"
-				type: "item"
-				item: "nethersdelight:propelplant_cane"
-			}]
 			rewards: [{
 				id: "04563981AA1F1159"
-				type: "random"
 				table_id: 8808494820591225409L
+				type: "random"
 			}]
+			subtitle: "Are you Abel to get Cain?"
+			tasks: [{
+				id: "19F2200461C2C9E8"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
 		}
 		{
-			title: "Carve the Stuffed Hoglin"
-			x: 7.5d
-			y: -5.0d
-			subtitle: "He even carved the Roast Beast!"
+			dependencies: ["236484A484723F55"]
 			description: [
 				"Before you can chow down on your &bStuffed Hoglin&r, you must first &6carve off the finest delicacy&r - the &bears&r. Delicious!"
 				"Then, you can &aobtain dishes&r from the remainder of the meal by &6clicking on the Hoglin with a bowl&r. Don't waste any!"
 			]
-			dependencies: ["236484A484723F55"]
 			id: "4FEE0688A44D8421"
+			rewards: [{
+				id: "5D1ADE3B08FA95A9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "He even carved the Roast Beast!"
 			tasks: [
 				{
 					id: "5A8775E9AF7F69FD"
-					type: "item"
 					item: "nethersdelight:hoglin_ear"
+					type: "item"
 				}
 				{
 					id: "76E7EB8BEFBE6DFE"
-					type: "item"
 					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
 				}
 				{
 					id: "4329B164D057D28C"
-					type: "item"
 					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
 				}
 				{
 					id: "675DE303318A5C19"
-					type: "item"
 					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5D1ADE3B08FA95A9"
-				type: "random"
-				table_id: 8808494820591225409L
-			}]
+			title: "Carve the Stuffed Hoglin"
+			x: 7.5d
+			y: -5.0d
 		}
 		{
-			title: "Obtain a Knife"
-			x: -11.0d
-			y: 2.5d
-			subtitle: "Baby's First Stabber"
-			description: ["&bKnives&r from this mod will guarantee you &aadditional drops from animals&r, such as &bfeathers&r or &bleather&r, as well as &aadditional drops when breaking grass&r. This makes it much easier to get started on your agricultural journey."]
 			dependencies: ["2615CD06E32EC741"]
 			dependency_requirement: "one_completed"
+			description: ["&bKnives&r from this mod will guarantee you &aadditional drops from animals&r, such as &bfeathers&r or &bleather&r, as well as &aadditional drops when breaking grass&r. This makes it much easier to get started on your agricultural journey."]
 			id: "4F8BE51C9D3C16A2"
+			rewards: [
+				{
+					count: 5
+					id: "297E4B1871DB3C75"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25ECA617F549B5AF"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Baby's First Stabber"
 			tasks: [{
 				id: "1013400BF2BCA148"
-				type: "item"
-				title: "Any #farmersdelight:tools/knives"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "farmersdelight:tools/knives"
 					}
 				}
+				title: "Any #farmersdelight:tools/knives"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "297E4B1871DB3C75"
-					type: "item"
-					item: "farmersdelight:straw"
-					count: 5
-				}
-				{
-					id: "25ECA617F549B5AF"
-					type: "item"
-					item: "farmersrespite:tea_seeds"
-					count: 5
-				}
-			]
+			title: "Obtain a Knife"
+			x: -11.0d
+			y: 2.5d
 		}
 		{
-			title: "Obtain a Cooking Pot"
-			x: -9.0d
-			y: 2.0d
-			shape: "rsquare"
-			subtitle: "Despite the name, it's not for cooking pot."
 			description: [
 				"The &bCooking Pot&r will allow you to make uniquely filling and delicious dishes! The more different foods you try, the &amore hearts you'll gain&r, making this an important tool for the kitchen witch adventurer."
 				"Place the &bCooking Pot&r on top of a heat source such as &bfire&r, &bcampfire&r, &bmagma block&r, or &bstove&r, to heat it. Then, &6place your ingredients inside&r."
 				"You'll also need something to serve your dish in, such as a &bbowl&r, &bbottle&r, or a &bpumpkin&r!"
 				"When the &bCooking Pot&r is broken, it retains its contents."
 			]
-			size: 2.0d
 			id: "2615CD06E32EC741"
-			tasks: [{
-				id: "3745E18A47EF78E3"
-				type: "item"
-				item: "farmersdelight:cooking_pot"
-			}]
 			rewards: [
 				{
-					id: "3ABD251C45CEB3DB"
-					type: "item"
-					item: "minecraft:bowl"
 					count: 5
+					id: "3ABD251C45CEB3DB"
+					item: "minecraft:bowl"
+					type: "item"
 				}
 				{
-					id: "4E00071CF998F118"
-					type: "item"
-					item: "minecraft:pumpkin"
 					count: 5
+					id: "4E00071CF998F118"
+					item: "minecraft:pumpkin"
+					type: "item"
 				}
 				{
 					id: "5DC14F4D16E09573"
-					type: "item"
 					item: "minecraft:campfire"
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Despite the name, it's not for cooking pot."
+			tasks: [{
+				id: "3745E18A47EF78E3"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Obtain a Cooking Pot"
+			x: -9.0d
+			y: 2.0d
 		}
 		{
-			title: "Create a Stove"
-			x: -6.5d
-			y: 3.5d
-			subtitle: "Steve's Stove"
+			dependencies: ["2615CD06E32EC741"]
 			description: [
 				"A &bStove&r is an incredibly useful tool. Thanks to your inherent magic, it is fueled at all times! You can &6place up to 6 food items&r on the grill in order to cook them. They'll pop up into items when they're ready! You can &6place an upside-down &bBasket&r above it to collect them automatically."
 				"The &bStove&r can also be used as a heat source for the &bCooking Pot&r, but if you do it that way, you cannot place items on the grill."
 			]
-			dependencies: ["2615CD06E32EC741"]
 			id: "492DDC880E65C534"
+			rewards: [{
+				count: 6
+				id: "5598696BF6CA42B2"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			subtitle: "Steve's Stove"
 			tasks: [{
 				id: "4449EF43300452B9"
-				type: "item"
 				item: "farmersdelight:stove"
-			}]
-			rewards: [{
-				id: "5598696BF6CA42B2"
 				type: "item"
-				item: "farmersdelight:minced_beef"
-				count: 6
 			}]
+			title: "Create a Stove"
+			x: -6.5d
+			y: 3.5d
 		}
 		{
-			x: -12.0d
-			y: 6.0d
-			shape: "hexagon"
-			subtitle: "Yer barking up the wrong tree...heehee"
+			dependencies: ["7557E8749BF869DF"]
 			description: [
 				"&bBark&r is obtained by &6placing a log on a Cutting Board and right clicking with an Axe&r."
 				"It can be used when making &bCompost&r, &bPaper&r, or even &abrewing Ale&r."
 			]
-			dependencies: ["7557E8749BF869DF"]
 			id: "1984CA53390BA48B"
-			tasks: [{
-				id: "6D57AF047F1836C3"
-				type: "item"
-				item: "farmersdelight:tree_bark"
-			}]
 			rewards: [{
 				id: "0D0A7987CBA65F84"
-				type: "random"
 				table_id: 6941837675484043489L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "Yer barking up the wrong tree...heehee"
+			tasks: [{
+				id: "6D57AF047F1836C3"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
 		}
 		{
-			title: "Obtain a Cutting Board"
-			x: -12.0d
-			y: 4.5d
-			subtitle: "Back to the ol' Cutting Board"
+			dependencies: ["4F8BE51C9D3C16A2"]
 			description: [
 				"A &bcutting board&r will allow you to prepare advanced ingredients for your meals, such as &bbacon&r or &bfish filets&r. Simply &6place the item on the cutting board&r and &6right click it&r with your knife."
 				"This isn't the only use for the &bcutting board&r! Try experimenting with items like &bwooden logs&r (using an &baxe&r) or even unwanted &bleather armor&r (with &bshears&r)!"
 			]
-			dependencies: ["4F8BE51C9D3C16A2"]
 			id: "7557E8749BF869DF"
+			rewards: [{
+				count: 3
+				id: "0EA1D35A9F04C243"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			subtitle: "Back to the ol' Cutting Board"
 			tasks: [{
 				id: "4F456D411C163AA8"
-				type: "item"
 				item: "farmersdelight:cutting_board"
-			}]
-			rewards: [{
-				id: "0EA1D35A9F04C243"
 				type: "item"
-				item: "farmersdelight:ham"
-				count: 3
 			}]
+			title: "Obtain a Cutting Board"
+			x: -12.0d
+			y: 4.5d
 		}
 		{
-			x: -10.5d
-			y: 3.5d
-			shape: "hexagon"
-			subtitle: "Hmmm... Maybe YOU should try eating it... Go on..."
-			description: ["&bDog food&r, and its companion, &bHorse Food&r, will grant potion effects to their users such as &aspeed&r, &aresistance&r, or &ajump boost&r."]
 			dependencies: ["2615CD06E32EC741"]
+			description: ["&bDog food&r, and its companion, &bHorse Food&r, will grant potion effects to their users such as &aspeed&r, &aresistance&r, or &ajump boost&r."]
 			id: "3A6AAE50897DE597"
-			tasks: [{
-				id: "394855991D625C6F"
-				type: "item"
-				item: "farmersdelight:dog_food"
-			}]
 			rewards: [{
 				id: "126BF295D5636A39"
-				type: "item"
 				item: "minecraft:lead"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Hmmm... Maybe YOU should try eating it... Go on..."
+			tasks: [{
+				id: "394855991D625C6F"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
 		}
 		{
-			title: "Make Hearty Meals"
-			x: -10.0d
-			y: 5.5d
-			shape: "hexagon"
-			subtitle: "Touched by his noodly appendage."
-			description: ["You can make &bPasta with Meatballs&r in a &bCooking Pot&r. Eating Full-Course meals, such as this one, will grant you the &aNourishing&r effect, which &aprevents you from losing hunger and saturation&r for a time. Helpful if you'll be going somewhere dangerous, as it will keep your health regenerating!"]
 			dependencies: ["2615CD06E32EC741"]
+			description: ["You can make &bPasta with Meatballs&r in a &bCooking Pot&r. Eating Full-Course meals, such as this one, will grant you the &aNourishing&r effect, which &aprevents you from losing hunger and saturation&r for a time. Helpful if you'll be going somewhere dangerous, as it will keep your health regenerating!"]
 			id: "0E2749D8FEEF0D49"
-			tasks: [{
-				id: "172CAB10518E2360"
-				type: "item"
-				item: "farmersdelight:pasta_with_meatballs"
-			}]
 			rewards: [
 				{
 					id: "640367BC0F0D8742"
@@ -833,54 +823,54 @@
 				}
 				{
 					id: "43D7D0DF5EF78A79"
-					type: "loot"
 					table_id: 8808494820591225409L
+					type: "loot"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Touched by his noodly appendage."
+			tasks: [{
+				id: "172CAB10518E2360"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			title: "Make Hearty Meals"
+			x: -10.0d
+			y: 5.5d
 		}
 		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["&bHot Cocoa&r is made with &bBottled Milk&r. While &bBottled Milk&r will remove one effect from you, positive OR negative - &bHot Cocoa&r will &aonly remove negative effects&r! I always knew Swiss Miss knew what she was doing."]
+			id: "6A71E1C275F02732"
+			rewards: [{
+				count: 2
+				id: "221F119891D4666B"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Cures what ails ya"
+			tasks: [{
+				id: "65057C003DB715B6"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
 			title: "Make Some Hot Cocoa"
 			x: -10.5d
 			y: 4.5d
-			shape: "hexagon"
-			subtitle: "Cures what ails ya"
-			description: ["&bHot Cocoa&r is made with &bBottled Milk&r. While &bBottled Milk&r will remove one effect from you, positive OR negative - &bHot Cocoa&r will &aonly remove negative effects&r! I always knew Swiss Miss knew what she was doing."]
-			dependencies: ["2615CD06E32EC741"]
-			id: "6A71E1C275F02732"
-			tasks: [{
-				id: "65057C003DB715B6"
-				type: "item"
-				item: "farmersdelight:hot_cocoa"
-			}]
-			rewards: [{
-				id: "221F119891D4666B"
-				type: "item"
-				item: "farmersdelight:hot_cocoa"
-				count: 2
-			}]
 		}
 		{
-			title: "Make Placeable Meals"
-			x: -8.0d
-			y: 4.5d
-			shape: "hexagon"
-			subtitle: "Stuffed Pumpkin is the new cake"
+			dependencies: ["2615CD06E32EC741"]
 			description: [
 				"Some meals, like &bGlazed Ham&r or &bShepherd's Pie&r, need to be &6placed in world&r in order to eat them. They also make great decoration for your (visual) feasting pleasure!"
 				"You'll also need a &bbowl&r in order to eat them, so here, take this one."
 			]
-			dependencies: ["2615CD06E32EC741"]
 			id: "5F2C26D1C6302016"
-			tasks: [{
-				id: "3A9D9E271D952C74"
-				type: "item"
-				item: "farmersdelight:stuffed_pumpkin_block"
-			}]
 			rewards: [
 				{
 					id: "06A907B51E284D8A"
-					type: "item"
 					item: "minecraft:bowl"
+					type: "item"
 				}
 				{
 					id: "3E29B984F05E6A0B"
@@ -889,440 +879,385 @@
 				}
 				{
 					id: "6EC2D8A548A17C8B"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q3Njk2N2QyYWI3NGI3ZWJjZTVhODEzZWYwMDViMzZlNzY5NWM2Nzg3NzQ3ZDRlODBkYTJiMjRlM2RmMjlhNyJ9fX0="
-									}]
-								}
 								Id: [I;
 									1127684054
 									-722645539
 									-1341546007
 									1251447259
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q3Njk2N2QyYWI3NGI3ZWJjZTVhODEzZWYwMDViMzZlNzY5NWM2Nzg3NzQ3ZDRlODBkYTJiMjRlM2RmMjlhNyJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Jelly Pumpkins\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Stuffed Pumpkin is the new cake"
+			tasks: [{
+				id: "3A9D9E271D952C74"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Make Placeable Meals"
+			x: -8.0d
+			y: 4.5d
 		}
 		{
-			title: "PBJ Deliciousness"
-			x: -8.0d
-			y: -7.0d
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["With &bAcorns&r you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
+			id: "1F80DCFD23DD5592"
+			rewards: [{
+				id: "4C46D6CF204B11E6"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "A classic meal for both depression and joy"
-			description: ["With &bAcorns&r you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
-			dependencies: ["6EFFB8ED37DC8A47"]
-			id: "1F80DCFD23DD5592"
 			tasks: [
 				{
 					id: "51F7EE88D16F9C6F"
-					type: "item"
 					item: "delightful:nut_butter_bottle"
+					type: "item"
 				}
 				{
 					id: "1C26293084C4E414"
-					type: "item"
 					item: "delightful:jelly_bottle"
+					type: "item"
 				}
 				{
 					id: "54114F5631B5F895"
-					type: "item"
 					item: "delightful:nut_butter_and_jelly_sandwich"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4C46D6CF204B11E6"
-				type: "item"
-				item: "farmersdelight:milk_bottle"
-			}]
+			title: "PBJ Deliciousness"
+			x: -8.0d
+			y: -7.0d
 		}
 		{
-			x: -11.5d
-			y: -6.0d
-			shape: "hexagon"
-			description: ["Ahh, there we are! The ultimate meal. Veggies, protein, dairy, grains...a balanced meal to tempt the tums."]
 			dependencies: ["1556BE457F25FA9F"]
+			description: ["Ahh, there we are! The ultimate meal. Veggies, protein, dairy, grains...a balanced meal to tempt the tums."]
 			id: "0C69D56AA7884F5B"
-			tasks: [{
-				id: "7D79193E3DB22B8E"
-				type: "item"
-				item: "delightful:deluxe_cheeseburger"
-			}]
 			rewards: [
 				{
 					id: "3195D1AE38C213AB"
-					type: "loot"
 					table_id: 8808494820591225409L
+					type: "loot"
 				}
 				{
 					id: "4AE2DC7A33F8D33D"
-					type: "item"
 					item: "delightful:deluxe_cheeseburger"
+					type: "item"
 				}
 				{
 					id: "428C119B85669349"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYWQyYzJkNDgzNzQxYWUwYTdiNGE0YmY0MzQyMTI3MGIwZTVkZWI0NjRkNGY4NWZkNzY4OGIxYTYwYjRlOSJ9fX0="
-									}]
-								}
 								Id: [I;
 									-1938192516
 									1201750113
 									-1682175958
 									-1065810520
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYWQyYzJkNDgzNzQxYWUwYTdiNGE0YmY0MzQyMTI3MGIwZTVkZWI0NjRkNGY4NWZkNzY4OGIxYTYwYjRlOSJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Burger\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D79193E3DB22B8E"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
 		}
 		{
-			x: -9.5d
-			y: -6.0d
-			shape: "hexagon"
-			subtitle: "Toasty roasty goodness"
-			description: ["This quest exists purely so that when you make a &bS'more&r...you get some more!"]
 			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["This quest exists purely so that when you make a &bS'more&r...you get some more!"]
 			id: "63A2968E78D4A9A7"
-			tasks: [{
-				id: "18B430FC14DF3E99"
-				type: "item"
-				item: "delightful:smore"
-			}]
 			rewards: [{
 				id: "3E1EA7E6D9D6C3F7"
-				type: "item"
 				item: "delightful:smore"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Toasty roasty goodness"
+			tasks: [{
+				id: "18B430FC14DF3E99"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
 		}
 		{
-			x: -9.0d
-			y: -7.0d
-			shape: "hexagon"
-			subtitle: "Nectar of the...higher beings?"
-			description: ["I'm not sure who pioneered the idea of eating &bEnder Pearls&r, but hey...why not?"]
 			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["I'm not sure who pioneered the idea of eating &bEnder Pearls&r, but hey...why not?"]
 			id: "1A9E6F1B730A4F17"
-			tasks: [{
-				id: "1255A03F5F6FFD32"
-				type: "item"
-				item: "delightful:ender_nectar"
-			}]
 			rewards: [{
 				id: "2B2675CDE782F15B"
-				type: "random"
 				table_id: 8808494820591225409L
+				type: "random"
 			}]
+			shape: "hexagon"
+			subtitle: "Nectar of the...higher beings?"
+			tasks: [{
+				id: "1255A03F5F6FFD32"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
 		}
 		{
-			x: -8.5d
-			y: -6.0d
-			shape: "hexagon"
-			subtitle: "Matcha? Gotcha!"
+			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
 				"Is it wrong to take carefully prepared, ceremonial-grade &bMatcha&r and then fill it with sugar and make it into a latte?"
 				"Well, if it is, then I don't wanna be right."
 			]
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "118197B7B107DB7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "309D8CC70326452A"
+				table_id: 6951594928314176539L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Matcha? Gotcha!"
 			tasks: [{
 				id: "6850101F53C46A4F"
-				type: "item"
 				item: "delightful:berry_matcha_latte"
+				type: "item"
 			}]
-			rewards: [{
-				id: "309D8CC70326452A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6951594928314176539L
-			}]
+			x: -8.5d
+			y: -6.0d
 		}
 		{
-			x: -9.5d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "Don't think too hard about the reward"
+			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
 				"Step one on your journey to the ultimate burger is this: the humble &bHamburger&r."
 				"The humbleburger, if you will. Hambumble? I don't know."
 			]
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "717B733896BBB2AA"
-			tasks: [{
-				id: "462DF8DCBA008581"
-				type: "item"
-				item: "farmersdelight:hamburger"
-			}]
 			rewards: [{
 				id: "2B1743C30515E8AF"
-				type: "item"
 				item: "minecraft:cow_spawn_egg"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Don't think too hard about the reward"
+			tasks: [{
+				id: "462DF8DCBA008581"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
 		}
 		{
-			x: -11.5d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "chembubger"
-			description: ["Already twice as good by virtue of adding &bCheese&r, this burger could still be better..."]
 			dependencies: ["717B733896BBB2AA"]
+			description: ["Already twice as good by virtue of adding &bCheese&r, this burger could still be better..."]
 			id: "1556BE457F25FA9F"
-			tasks: [{
-				id: "093DC4B94272690F"
-				type: "item"
-				item: "delightful:cheeseburger"
-			}]
 			rewards: [{
 				id: "195EAE0E53DF5B7A"
-				type: "item"
 				item: "delightful:cheeseburger"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "chembubger"
+			tasks: [{
+				id: "093DC4B94272690F"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
 		}
 		{
-			icon: "minecraft:cake"
-			x: 1.5d
-			y: 2.5d
 			description: ["Eat a bunch of cake! It's a delicious treat and you deserve it."]
+			icon: "minecraft:cake"
 			id: "78A59A17FEDDE305"
-			tasks: [{
-				id: "23C5964D9AF61295"
-				type: "stat"
-				title: "Let Them Eat Cake"
-				stat: "minecraft:eat_cake_slice"
-				value: 70
-			}]
 			rewards: [
 				{
-					id: "1DEE4BA4AB4802DC"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1DEE4BA4AB4802DC"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 				{
 					id: "4349E09114B69DB5"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
-									}]
-								}
 								Id: [I;
 									843234447
 									-1704705483
 									-1304221926
 									751006699
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Cake\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "23C5964D9AF61295"
+				stat: "minecraft:eat_cake_slice"
+				title: "Let Them Eat Cake"
+				type: "stat"
+				value: 70
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			x: -10.0d
-			y: 7.0d
-			shape: "octagon"
-			description: ["Achieve this advancement by &6eating a course of every meal available&r! You can search for \"food\" in JEI or your storage, but &donly foods from the &lFarmer's Delight&r &dmod&r count."]
 			dependencies: ["0E2749D8FEEF0D49"]
+			description: ["Achieve this advancement by &6eating a course of every meal available&r! You can search for \"food\" in JEI or your storage, but &donly foods from the &lFarmer's Delight&r &dmod&r count."]
 			id: "706D91D3C11487E5"
-			tasks: [{
-				id: "0D13DAED0731D633"
-				type: "advancement"
-				advancement: "farmersdelight:main/master_chef"
-				criterion: ""
-			}]
 			rewards: [
 				{
-					id: "4550277EDDDDD722"
-					type: "choice"
 					exclude_from_claim_all: true
+					id: "4550277EDDDDD722"
 					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
 					id: "0864491DE278B8C2"
-					type: "item"
 					item: {
-						id: "mcsa:redstone_riot_helmet"
 						Count: 1b
+						id: "mcsa:redstone_riot_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4C8E8899B222530E"
-					type: "item"
 					item: {
-						id: "mcsa:redstone_riot_chestplate"
 						Count: 1b
+						id: "mcsa:redstone_riot_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4687F8F5B5504FA0"
-					type: "item"
 					item: {
-						id: "mcsa:redstone_riot_leggings"
 						Count: 1b
+						id: "mcsa:redstone_riot_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "25B4227970D29731"
-					type: "item"
 					item: {
-						id: "mcsa:redstone_riot_boots"
 						Count: 1b
+						id: "mcsa:redstone_riot_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "0D13DAED0731D633"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: 7.0d
 		}
 		{
-			x: -6.0d
-			y: 5.0d
-			shape: "octagon"
-			description: ["The &bSkillet&r allows you to cook on the go! Simply &6stand near a heat source&r and &6add your ingredients&r!"]
 			dependencies: ["2615CD06E32EC741"]
+			description: ["The &bSkillet&r allows you to cook on the go! Simply &6stand near a heat source&r and &6add your ingredients&r!"]
 			id: "7E532A89B21B20D1"
-			tasks: [{
-				id: "0E783661822CB045"
-				type: "advancement"
-				advancement: "farmersdelight:main/use_skillet"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "62A1E505361F41BF"
-				type: "item"
 				item: {
-					id: "minecraft:player_head"
 					Count: 1b
+					id: "minecraft:player_head"
 					tag: {
 						SkullOwner: {
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMyNTQ1YTk4OTdjNGYwODA5ZDdlOWQ3ZGU0YjQ5OWNhZmQ4ZDZhNDJhMGVhY2Y0Y2FhYmYzNDg4YWRjYTIxMSJ9fX0="
-								}]
-							}
 							Id: [I;
 								-228580091
 								-1028111819
 								-1318891776
 								1652123010
 							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMyNTQ1YTk4OTdjNGYwODA5ZDdlOWQ3ZGU0YjQ5OWNhZmQ4ZDZhNDJhMGVhY2Y0Y2FhYmYzNDg4YWRjYTIxMSJ9fX0="
+								}]
+							}
 						}
 						display: {
 							Name: "{\"text\":\"Bread\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+				id: "0E783661822CB045"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 5.0d
 		}
 		{
-			x: -11.5d
-			y: -2.5d
-			shape: "hexagon"
-			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
 			dependencies: ["717B733896BBB2AA"]
+			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
 			id: "181F5C00C8DE417B"
-			tasks: [
-				{
-					id: "5D3DF311714321D3"
-					type: "item"
-					item: "farmersdelight:vegetable_noodles"
-				}
-				{
-					id: "716132555178F121"
-					type: "item"
-					item: "farmersdelight:vegetable_soup"
-				}
-				{
-					id: "295B2142CC888888"
-					type: "item"
-					item: {
-						id: "caupona:vegetable_chowder"
-						Count: 1b
-						tag: {
-							type: "caupona:vegetable_chowder"
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-						}
-					}
-				}
-				{
-					id: "04FC7AA2C7AB0F74"
-					type: "item"
-					item: {
-						id: "caupona:vegetable_soup"
-						Count: 1b
-						tag: {
-							type: "caupona:vegetable_soup"
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-						}
-					}
-				}
-				{
-					id: "44A9688466EA1177"
-					type: "item"
-					item: {
-						id: "caupona:sauteed_vegetables"
-						Count: 1b
-						tag: {
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "00BB229E93D094FB"
@@ -1330,827 +1265,889 @@
 					xp_levels: 5
 				}
 				{
-					id: "5001AB54E4EC8D8C"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "5001AB54E4EC8D8C"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Placeable Meal Diversity"
-			x: -7.5d
-			y: 5.5d
 			shape: "hexagon"
-			description: ["There are many meals which can be &6placed down and eaten&r. Craft one of each and show your prowess as a kitchen witch."]
-			dependencies: ["5F2C26D1C6302016"]
-			id: "6C75BE906A574DAE"
 			tasks: [
 				{
-					id: "6076E0AA73CD466C"
+					id: "5D3DF311714321D3"
+					item: "farmersdelight:vegetable_noodles"
 					type: "item"
-					item: "farmersdelight:roast_chicken_block"
 				}
 				{
-					id: "0BE2678DD596C4AF"
+					id: "716132555178F121"
+					item: "farmersdelight:vegetable_soup"
 					type: "item"
-					item: "farmersdelight:rice_roll_medley_block"
 				}
 				{
-					id: "11A0BCBAB6A55DFD"
+					id: "295B2142CC888888"
+					item: {
+						Count: 1b
+						id: "caupona:vegetable_chowder"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+							type: "caupona:vegetable_chowder"
+						}
+					}
 					type: "item"
-					item: "farmersdelight:shepherds_pie_block"
 				}
 				{
-					id: "1F42924543742DA2"
+					id: "04FC7AA2C7AB0F74"
+					item: {
+						Count: 1b
+						id: "caupona:vegetable_soup"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+							type: "caupona:vegetable_soup"
+						}
+					}
 					type: "item"
-					item: "farmersdelight:honey_glazed_ham_block"
 				}
 				{
-					id: "53F113D4CC1C56AB"
+					id: "44A9688466EA1177"
+					item: {
+						Count: 1b
+						id: "caupona:sauteed_vegetables"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+						}
+					}
 					type: "item"
-					item: "farmersdelight:stuffed_pumpkin_block"
-				}
-				{
-					id: "01D7BC66C57C941E"
-					type: "item"
-					item: "nethersdelight:raw_stuffed_hoglin"
 				}
 			]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F2C26D1C6302016"]
+			description: ["There are many meals which can be &6placed down and eaten&r. Craft one of each and show your prowess as a kitchen witch."]
+			id: "6C75BE906A574DAE"
 			rewards: [
 				{
 					id: "1DD5D71DB7044A04"
-					type: "item"
 					item: {
-						id: "mcsa:tim_helmet"
 						Count: 1b
+						id: "mcsa:tim_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3B93FC65F55D5B73"
-					type: "item"
 					item: {
-						id: "mcsa:tim_chestplate"
 						Count: 1b
+						id: "mcsa:tim_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "05904B0D1549DCA6"
-					type: "item"
 					item: {
-						id: "mcsa:tim_leggings"
 						Count: 1b
+						id: "mcsa:tim_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "544302211811C6DB"
-					type: "item"
 					item: {
-						id: "mcsa:tim_boots"
 						Count: 1b
+						id: "mcsa:tim_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6076E0AA73CD466C"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "0BE2678DD596C4AF"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "11A0BCBAB6A55DFD"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "1F42924543742DA2"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "53F113D4CC1C56AB"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "01D7BC66C57C941E"
+					item: "nethersdelight:raw_stuffed_hoglin"
+					type: "item"
+				}
+			]
+			title: "Placeable Meal Diversity"
+			x: -7.5d
+			y: 5.5d
 		}
 		{
-			title: "Dessert-a-holic"
-			x: -9.0d
-			y: 6.5d
-			description: ["Who doesn't love pie? &6Make each type of pie and cake&r, and at the end you'll have a sumptuous feast!"]
 			dependencies: ["2615CD06E32EC741"]
+			description: ["Who doesn't love pie? &6Make each type of pie and cake&r, and at the end you'll have a sumptuous feast!"]
 			id: "42DD1CCF09065C51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "632C8E7969A30427"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC771B1971C882C"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "56FC6B60D7C50A4E"
-					type: "item"
 					item: "minecraft:pumpkin_pie"
+					type: "item"
 				}
 				{
 					id: "26B1289683AE4B78"
-					type: "item"
 					item: "byg:crimson_berry_pie"
+					type: "item"
 				}
 				{
 					id: "508C1043B7205894"
-					type: "item"
 					item: "byg:nightshade_berry_pie"
+					type: "item"
 				}
 				{
 					id: "3944DBB64CD839A9"
-					type: "item"
 					item: "byg:blueberry_pie"
+					type: "item"
 				}
 				{
 					id: "47E4DA730223CE7E"
-					type: "item"
 					item: "farmersrespite:rose_hip_pie"
+					type: "item"
 				}
 				{
 					id: "3222F024982DC1F9"
-					type: "item"
 					item: "farmersrespite:coffee_cake"
+					type: "item"
 				}
 				{
 					id: "1CEE381C0B1AD8E0"
-					type: "item"
 					item: "farmersdelight:apple_pie"
+					type: "item"
 				}
 				{
 					id: "489A81906FA3EF49"
-					type: "item"
 					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
 				}
 				{
 					id: "0D27FC7CA377C378"
-					type: "item"
 					item: "farmersdelight:chocolate_pie"
+					type: "item"
 				}
 				{
 					id: "13D668C071965F9F"
-					type: "item"
 					item: "byg:green_apple_pie"
+					type: "item"
 				}
 				{
 					id: "7AF9D90E01315010"
-					type: "item"
 					item: "minecraft:cake"
+					type: "item"
 				}
 				{
 					id: "09BF00E5034B1907"
-					type: "item"
 					item: "duckling:holiday_fruit_cake"
+					type: "item"
 				}
 				{
 					id: "72C71A8735FFB4FE"
-					type: "item"
 					item: "kiwiboi:kiwicake"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "632C8E7969A30427"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 8808494820591225409L
-				}
-				{
-					id: "1BC771B1971C882C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6951594928314176539L
-				}
-			]
+			title: "Dessert-a-holic"
+			x: -9.0d
+			y: 6.5d
 		}
 		{
-			x: -1.5d
-			y: -4.0d
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["&bAzalea Tea&r is a delicious way to enjoy the beauty of the Azalea!"]
+			id: "43936FB55988472C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0332EB9DA634009A"
+				table_id: 6951594928314176539L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "get your azalea in gear"
-			description: ["&bAzalea Tea&r is a delicious way to enjoy the beauty of the Azalea!"]
-			dependencies: ["1266B799DAB9CCC7"]
-			id: "43936FB55988472C"
 			tasks: [{
 				id: "2C0EC7F97028F2F7"
-				type: "item"
 				item: "delightful:azalea_tea"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0332EB9DA634009A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6951594928314176539L
-			}]
+			x: -1.5d
+			y: -4.0d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "1649B81C8A139731"
 			invisible: true
 			secret: true
-			id: "1649B81C8A139731"
 			tasks: [{
 				id: "0B274B316154EF4D"
-				type: "item"
 				item: "minecraft:calcite"
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "Cooking with Create"
-			x: -0.5d
-			y: 2.5d
-			shape: "gear"
 			description: [
 				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
 				"Right click the &bCooking Guide&r onto a &bBlaze Burner&r to &6create a Blaze Stove&r."
 				"Hold \"w\" to &6ponder&r the &bCooking Guide&r for more information."
 				"Be sure that the &bCooking Guide&r is outside of your &bAkashic Tome&r! &dThe book will be consumed&r by this process. Check the &atutorial quests&r for info on removing a book from the &bAkashic Tome&r."
 			]
-			size: 1.5d
 			id: "1C7D5C2C8C201E83"
+			rewards: [{
+				id: "6A0AE4E69D14B683"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "3A0EBB76C04A0C8A"
-				type: "item"
 				item: {
-					id: "create_central_kitchen:cooking_guide"
 					Count: 1b
 					ForgeCaps: {
 						Parent: { }
 					}
+					id: "create_central_kitchen:cooking_guide"
 				}
-			}]
-			rewards: [{
-				id: "6A0AE4E69D14B683"
 				type: "item"
-				item: "create:empty_blaze_burner"
 			}]
+			title: "Cooking with Create"
+			x: -0.5d
+			y: 2.5d
 		}
 		{
-			title: "Brew Some Booze"
-			x: 12.5d
-			y: 6.5d
-			subtitle: "party responsibly!"
+			dependencies: ["6347F33BF36A112E"]
 			description: [
 				"Time to put that Keg to use! &bMead&r grants the effect &dSweetheart&r, which increases all incoming healing."
 				"&bRice Wine&r gives &dSatisfaction&r, which causes Hunger to regen the same way Health does."
 			]
-			dependencies: ["6347F33BF36A112E"]
 			id: "6DF8D73EB3A4C0B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09F81A50FCC395DC"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EDC7CD5F0EB4938"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			subtitle: "party responsibly!"
 			tasks: [
 				{
 					id: "433D4EB8693BD179"
-					type: "item"
 					item: "brewinandchewin:mead"
+					type: "item"
 				}
 				{
 					id: "02E42A39C5F5F67B"
-					type: "item"
 					item: "brewinandchewin:rice_wine"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "09F81A50FCC395DC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6941837675484043489L
-				}
-				{
-					id: "0EDC7CD5F0EB4938"
-					type: "choice"
-					exclude_from_claim_all: true
-					table_id: 1739670786502713488L
-				}
-			]
+			title: "Brew Some Booze"
+			x: 12.5d
+			y: 6.5d
 		}
 		{
-			title: "Obtain a Keg"
-			x: 9.0d
-			y: 3.5d
-			shape: "rsquare"
 			description: [
 				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
 				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
 			]
-			size: 2.0d
 			id: "166F53EED3372358"
+			rewards: [
+				{
+					count: 5
+					id: "48ED13802D196F7B"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2202874F92B1BC7C"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "17094E829617176D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [
 				{
 					id: "29306B1442FA29F0"
-					type: "item"
 					item: "brewinandchewin:keg"
+					type: "item"
 				}
 				{
 					id: "2D17F5FF72E0E07E"
-					type: "item"
 					item: "brewinandchewin:tankard"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "48ED13802D196F7B"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 5
-				}
-				{
-					id: "2202874F92B1BC7C"
-					type: "item"
-					item: "minecraft:sugar"
-					count: 10
-				}
-				{
-					id: "17094E829617176D"
-					type: "item"
-					item: "minecraft:wheat"
-					count: 10
-				}
-			]
+			title: "Obtain a Keg"
+			x: 9.0d
+			y: 3.5d
 		}
 		{
-			title: "Heat and Cool Your Keg"
-			x: 11.5d
-			y: 4.0d
-			subtitle: "things are heating up"
+			dependencies: ["166F53EED3372358"]
 			description: [
 				"Place &bMagma Blocks&r around your &bKeg&r to raise the temperature and craft new brews! The more blocks you use, the higher the heat."
 				"With this method, you can even craft &bCheeses&r and &bFudge&r."
 				"You can also &acool down&r your &bKeg&r by placing &bIce Blocks&r around it instead! This will allow you to make things like &bPickles&r."
 			]
-			dependencies: ["166F53EED3372358"]
 			id: "6347F33BF36A112E"
-			tasks: [{
-				id: "77682E446D5BB282"
-				type: "item"
-				item: "minecraft:magma_block"
-				count: 4L
-			}]
 			rewards: [{
-				id: "6C100CB15AA30F6B"
-				type: "item"
-				item: "minecraft:packed_ice"
 				count: 4
+				id: "6C100CB15AA30F6B"
+				item: "minecraft:packed_ice"
+				type: "item"
 			}]
+			subtitle: "things are heating up"
+			tasks: [{
+				count: 4L
+				id: "77682E446D5BB282"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			title: "Heat and Cool Your Keg"
+			x: 11.5d
+			y: 4.0d
 		}
 		{
-			title: "Make Some Cheese"
-			x: 10.5d
-			y: 5.5d
-			subtitle: "not another cheesy pun..."
+			dependencies: ["6347F33BF36A112E"]
 			description: [
 				"Cheese can be created in the Keg, but must &abe aged before it can be eaten&r. Place the Cheese out to let it ripen."
 				"Once it's ripe, you can place it on a &bCutting Board&r to obtain &bCheese Wedges&r to cook with."
 				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
 				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
 			]
-			dependencies: ["6347F33BF36A112E"]
 			id: "0593C1D467DB38E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38348E2ABC89F5F0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			subtitle: "not another cheesy pun..."
 			tasks: [{
 				id: "026310FB86DCF6D3"
-				type: "item"
-				title: "Any #crafttweaker:cheeses"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:cheeses"
 					}
 				}
+				title: "Any #crafttweaker:cheeses"
+				type: "item"
 			}]
-			rewards: [{
-				id: "38348E2ABC89F5F0"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			title: "Make Some Cheese"
+			x: 10.5d
+			y: 5.5d
 		}
 		{
-			x: 7.5d
-			y: 6.5d
-			shape: "hexagon"
-			description: ["Have you ever had lasagna so good that it was frightening? Well, &awhat are you waiting for?&r"]
 			dependencies: ["0593C1D467DB38E3"]
+			description: ["Have you ever had lasagna so good that it was frightening? Well, &awhat are you waiting for?&r"]
 			id: "72DD11780E330689"
-			tasks: [{
-				id: "4E0ABBE6E62D68BF"
-				type: "item"
-				item: "brewinandchewin:horror_lasagna"
-			}]
 			rewards: [
 				{
 					id: "377852F9CF25023C"
-					type: "item"
 					item: "farmersdelight:mixed_salad"
+					type: "item"
 				}
 				{
-					id: "2D8A3C2726EF309D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2D8A3C2726EF309D"
 					table_id: 8808494820591225409L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E0ABBE6E62D68BF"
+				item: "brewinandchewin:horror_lasagna"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
 		}
 		{
-			x: 9.0d
-			y: 7.0d
-			shape: "hexagon"
-			subtitle: "tonight we dine in hell"
-			description: ["Served in a &bCauldron&r, this fanciful feast is &adevilishly good&r!"]
 			dependencies: ["0593C1D467DB38E3"]
+			description: ["Served in a &bCauldron&r, this fanciful feast is &adevilishly good&r!"]
 			id: "20AE2593886C2EE5"
-			tasks: [{
-				id: "219D5144E677F616"
-				type: "item"
-				item: "brewinandchewin:fiery_fondue_pot"
-			}]
 			rewards: [{
 				id: "693738686EF4421A"
-				type: "item"
 				item: "brewinandchewin:pale_jane"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "tonight we dine in hell"
+			tasks: [{
+				id: "219D5144E677F616"
+				item: "brewinandchewin:fiery_fondue_pot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["6347F33BF36A112E"]
+			description: ["In order to make &bFudge&r, your &bKeg&r will need to be at &amax heat&r."]
+			id: "263A248387E583B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "656AB04E0309D179"
+				table_id: 2068679807827730220L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "fudge it"
+			tasks: [{
+				id: "2F00523C9A20A8D1"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
 			title: "Make some Fudge"
 			x: 10.5d
 			y: 2.0d
-			shape: "hexagon"
-			subtitle: "fudge it"
-			description: ["In order to make &bFudge&r, your &bKeg&r will need to be at &amax heat&r."]
-			dependencies: ["6347F33BF36A112E"]
-			id: "263A248387E583B4"
-			tasks: [{
-				id: "2F00523C9A20A8D1"
-				type: "item"
-				item: "brewinandchewin:cocoa_fudge"
-			}]
-			rewards: [{
-				id: "656AB04E0309D179"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2068679807827730220L
-			}]
 		}
 		{
-			title: "Pickle some Pickles"
-			x: 12.5d
-			y: 2.5d
-			shape: "hexagon"
-			description: ["&bPickles&r need a &anice, cold&r Keg to marinate in."]
 			dependencies: ["6347F33BF36A112E"]
+			description: ["&bPickles&r need a &anice, cold&r Keg to marinate in."]
 			id: "0672E8DC36A5BFFA"
-			tasks: [{
-				id: "6972414BB445CA25"
-				type: "item"
-				item: "brewinandchewin:pickled_pickles"
-			}]
 			rewards: [
 				{
 					id: "5581E72718340703"
-					type: "item"
 					item: {
-						id: "caupona:vinegar_spice_jar"
 						Count: 1b
+						id: "caupona:vinegar_spice_jar"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "763C68AF6474D1B6"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyMjkyZDkxODNlMzhmM2JlOWYwNmY5NjYzOTRlMmRhZmYzNjJmNzBhZTQ1Y2RlNDEyYjg3YmNkYjg5YzE1OCJ9fX0="
-									}]
-								}
 								Id: [I;
 									674725540
 									512641857
 									-1355274027
 									1969636290
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyMjkyZDkxODNlMzhmM2JlOWYwNmY5NjYzOTRlMmRhZmYzNjJmNzBhZTQ1Y2RlNDEyYjg3YmNkYjg5YzE1OCJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Jar of Pickles\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6972414BB445CA25"
+				item: "brewinandchewin:pickled_pickles"
+				type: "item"
+			}]
+			title: "Pickle some Pickles"
+			x: 12.5d
+			y: 2.5d
 		}
 		{
-			title: "A Different Dragon Egg"
-			x: 5.5d
-			y: 11.25d
-			shape: "hexagon"
 			description: [
 				"Once you've obtained a &bDragon Egg&r, you can use them to craft a &bNourishing Dragon Egg&r."
 				"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
 			]
 			id: "4264920573ADC879"
+			rewards: [{
+				count: 3
+				id: "077F1BFE976B91C4"
+				item: "ends_delight:dragon_egg_shell"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "533CE3A0F90D92E6"
-				type: "item"
 				item: "ends_delight:non_hatchable_dragon_egg"
-			}]
-			rewards: [{
-				id: "077F1BFE976B91C4"
 				type: "item"
-				item: "ends_delight:dragon_egg_shell"
-				count: 3
 			}]
+			title: "A Different Dragon Egg"
+			x: 5.5d
+			y: 11.25d
 		}
 		{
-			title: "An Eggshellent Bowl"
-			x: 5.5d
-			y: 12.75d
-			shape: "hexagon"
+			dependencies: ["4264920573ADC879"]
 			description: [
 				"To serve the unbridled taste sensation that is &adragon protein&r, you'll need an appropriate vessel."
 				"Craft the &bHalf Dragon Egg Shell&r."
 			]
-			dependencies: ["4264920573ADC879"]
 			id: "16ECF08D421359AC"
-			tasks: [{
-				id: "1EDE66F2AA094083"
-				type: "item"
-				item: "ends_delight:half_dragon_egg_shell"
-			}]
 			rewards: [
 				{
-					id: "73BDB58110F0E9A8"
-					type: "item"
-					item: "ends_delight:chorus_succulent"
 					count: 3
+					id: "73BDB58110F0E9A8"
+					item: "ends_delight:chorus_succulent"
+					type: "item"
 				}
 				{
-					id: "50A025BAEC58D43F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "50A025BAEC58D43F"
 					table_id: 5161092699925703455L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EDE66F2AA094083"
+				item: "ends_delight:half_dragon_egg_shell"
+				type: "item"
+			}]
+			title: "An Eggshellent Bowl"
+			x: 5.5d
+			y: 12.75d
 		}
 		{
-			x: 8.0d
-			y: 12.75d
-			shape: "hexagon"
+			dependencies: ["16ECF08D421359AC"]
 			description: [
 				"&bDragon Meat Stew&r... what could be a greater show of power than &cconsuming your fallen enemies&r?"
 				""
 				"Was that too much? That was too much, wasn't it?"
 			]
-			dependencies: ["16ECF08D421359AC"]
 			id: "10BD344DE9BF9D75"
-			tasks: [{
-				id: "344338EB1EF089CD"
-				type: "item"
-				item: "ends_delight:dragon_meat_stew_block"
-			}]
 			rewards: [{
 				id: "7C9B1229AA7B77AB"
-				type: "item"
 				item: "ends_delight:dragon_meat_stew"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "344338EB1EF089CD"
+				item: "ends_delight:dragon_meat_stew_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.75d
 		}
 		{
-			x: 7.0d
-			y: 14.25d
-			shape: "hexagon"
-			description: ["This dreamy steamed dish will &afulfill your wildest dreams&r... or, at least, it'll &agive you some great buffs&r!"]
 			dependencies: ["16ECF08D421359AC"]
+			description: ["This dreamy steamed dish will &afulfill your wildest dreams&r... or, at least, it'll &agive you some great buffs&r!"]
 			id: "43110B76D590F312"
-			tasks: [{
-				id: "5A19395E94557321"
-				type: "item"
-				item: "ends_delight:steamed_dragon_egg_block"
-			}]
 			rewards: [{
 				id: "10AA0AA0B0C4005F"
-				type: "item"
 				item: "ends_delight:steamed_dragon_egg"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A19395E94557321"
+				item: "ends_delight:steamed_dragon_egg_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.25d
 		}
 		{
-			x: 3.5d
-			y: 12.75d
-			shape: "octagon"
-			description: ["Make this advancement by crafting the &bAssorted Salad&r."]
 			dependencies: ["16ECF08D421359AC"]
+			description: ["Make this advancement by crafting the &bAssorted Salad&r."]
 			id: "25C3A6BEFE246C3A"
-			tasks: [{
-				id: "5A3136C711223B37"
-				type: "advancement"
-				advancement: "ends_delight:get_assorted_salad"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "39B5615A2FD2DC12"
-					type: "item"
 					item: "ends_delight:assorted_salad"
+					type: "item"
 				}
 				{
 					id: "6A8F38155FA4D447"
-					type: "item"
 					item: {
-						id: "minecraft:player_head"
 						Count: 1b
+						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2MmEzMTdmMmU4ZjM0OWEyN2UyOTZjZTIyNWI5ZThiMTI3ZDg4YmU2MWFhZWJmMTY2MDRiZmEyYWQ4MTMwOCJ9fX0="
-									}]
-								}
 								Id: [I;
 									2032202894
 									-1286453322
 									-1382874841
 									1386387422
 								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2MmEzMTdmMmU4ZjM0OWEyN2UyOTZjZTIyNWI5ZThiMTI3ZDg4YmU2MWFhZWJmMTY2MDRiZmEyYWQ4MTMwOCJ9fX0="
+									}]
+								}
 							}
 							display: {
 								Name: "{\"text\":\"Eye of Ender\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ends_delight:get_assorted_salad"
+				criterion: ""
+				id: "5A3136C711223B37"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 12.75d
 		}
 		{
-			x: 8.5d
-			y: 14.25d
-			shape: "octagon"
-			description: ["Congratulations, you've cooked some of the &amost magically imbued food&r in the game! Truly a kitchen witch of supreme renown!"]
 			dependencies: [
 				"43110B76D590F312"
 				"10BD344DE9BF9D75"
 			]
+			description: ["Congratulations, you've cooked some of the &amost magically imbued food&r in the game! Truly a kitchen witch of supreme renown!"]
 			id: "224C1B2D30B8E7DF"
-			tasks: [{
-				id: "05A7CA3D3CBCBE10"
-				type: "advancement"
-				advancement: "ends_delight:dragon_egg_shell_feast"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "093972A8B8FC8B91"
-				type: "item"
 				item: "minecraft:nether_star"
+				type: "item"
 			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ends_delight:dragon_egg_shell_feast"
+				criterion: ""
+				id: "05A7CA3D3CBCBE10"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 14.25d
 		}
 		{
-			x: 4.5d
-			y: 16.0d
-			shape: "hexagon"
-			subtitle: "keep your feet on the ground"
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
 			id: "7CDFDA310DE2A4E4"
-			tasks: [{
-				id: "6A0AFA1484FD16DD"
-				type: "item"
-				item: "ends_delight:chorus_flower_tea"
-			}]
 			rewards: [{
 				id: "0165EAD200F02FA0"
-				type: "item"
 				item: "ends_delight:chorus_flower_tea"
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "keep your feet on the ground"
+			tasks: [{
+				id: "6A0AFA1484FD16DD"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
 		}
 		{
-			x: 3.0d
-			y: 15.0d
-			shape: "hexagon"
 			description: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
 			id: "456D45D35A596109"
-			tasks: [{
-				id: "407BDB60875F34F5"
-				type: "item"
-				item: "ends_delight:stuffed_rice_cake"
-			}]
 			rewards: [{
 				id: "291FE13121613BC8"
-				type: "item"
 				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "407BDB60875F34F5"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
 		}
 		{
-			x: 2.5d
-			y: 16.0d
-			shape: "hexagon"
 			description: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
 			id: "6CA036FC470C17EA"
-			tasks: [{
-				id: "63995D2F0B5FC3F1"
-				type: "item"
-				item: "ends_delight:grilled_shulker_block"
-			}]
 			rewards: [{
 				id: "4754115A15498F8C"
-				type: "item"
 				item: "ends_delight:grilled_shulker_block"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63995D2F0B5FC3F1"
+				item: "ends_delight:grilled_shulker_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
 		}
 		{
-			x: 4.0d
-			y: 15.0d
-			shape: "hexagon"
 			description: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
 			id: "482A2BB52514C35B"
-			tasks: [{
-				id: "6F26534C78596D5F"
-				type: "item"
-				item: "ends_delight:dragon_breath_and_chorus_soup"
-			}]
 			rewards: [{
 				id: "7CD023621DC3250A"
-				type: "item"
 				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F26534C78596D5F"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
 		}
 		{
-			x: 3.5d
-			y: 16.0d
-			shape: "hexagon"
 			description: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
 			id: "28D201EE3AA699C2"
-			tasks: [{
-				id: "30E139E7631FCE09"
-				type: "item"
-				item: "ends_delight:liquid_dragon_egg"
-			}]
 			rewards: [{
 				id: "1B8581D84149BDFB"
-				type: "item"
 				item: "ends_delight:fried_dragon_egg"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30E139E7631FCE09"
+				item: "ends_delight:liquid_dragon_egg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
 		}
 		{
-			x: -7.5d
-			y: 13.0d
+			dependencies: ["0AB07DA9AF0FB294"]
 			description: [
 				"You can also &aadd Spices to your food&r! One such spice is &bVinegar&r, which is created by leaving &bSweet Berries&r to &arest in the Dolium&r with a &bFlower Pot&r."
 				"Adding spices to your food &agives it greater saturation&r."
 			]
-			dependencies: ["0AB07DA9AF0FB294"]
 			id: "6FB77462CDE121E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6482B9A414C2F51D"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "77CED17C872CD141"
-				type: "item"
 				item: {
-					id: "caupona:vinegar_spice_jar"
 					Count: 1b
+					id: "caupona:vinegar_spice_jar"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "6482B9A414C2F51D"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6941837675484043489L
-			}]
+			x: -7.5d
+			y: 13.0d
 		}
 		{
-			title: "Obtain a Dolium"
-			x: -5.5d
-			y: 13.0d
-			subtitle: "the doldrums"
+			dependencies: ["1C80130EFE5C2FFC"]
 			description: [
 				"The &bDolium&r is used for &aResting Conversion&r, which consists of placing your &aingredients and other items&r inside and &6letting them rest&r, for up to an &ain-game day&r."
 				"Each recipe needs all ingredients, as well as a container to hold the result, and sometimes an additional item (such as &aAnvils for Gravy Boats&r). &dThe resting process will not begin without all components&r."
 				"This can be sped up using the &bTime in a Bottle&r."
 			]
-			dependencies: ["1C80130EFE5C2FFC"]
 			id: "0AB07DA9AF0FB294"
+			rewards: [
+				{
+					id: "185280CA37E4EE83"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EC15D91B0841254"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			subtitle: "the doldrums"
 			tasks: [{
 				id: "0D8863BF5312178C"
-				type: "item"
-				title: "Any #crafttweaker:dolium"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:dolium"
 					}
 				}
+				title: "Any #crafttweaker:dolium"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "185280CA37E4EE83"
-					type: "item"
-					item: "minecraft:flower_pot"
-				}
-				{
-					id: "0EC15D91B0841254"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 4
-				}
-			]
+			title: "Obtain a Dolium"
+			x: -5.5d
+			y: 13.0d
 		}
 		{
-			x: -6.0d
-			y: 11.0d
-			shape: "rsquare"
 			description: [
 				"&lCaupona&r is a cooking mod that employs a freeform style of recipe."
 				"With most recipes, you will &amaintain a ratio&r of ingredients, such as ensuring that you have &a\"mostly beef\"&r and &a\"some vegetables\"&r, with &a\"no fish\"&r, and so on."
@@ -2167,103 +2164,105 @@
 				""
 				"Now that you know how to read the recipes, let's make some!"
 			]
-			size: 2.0d
 			id: "1C80130EFE5C2FFC"
+			rewards: [
+				{
+					count: 5
+					id: "0F977FCE0DC2C342"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "218BF142EC10208A"
+					item: "minecraft:brick"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "62F668FBB95DA821"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "caupona:book"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0F977FCE0DC2C342"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 5
-				}
-				{
-					id: "218BF142EC10208A"
-					type: "item"
-					item: "minecraft:brick"
-					count: 20
-				}
-			]
+			x: -6.0d
+			y: 11.0d
 		}
 		{
-			title: "Obtain a Stove"
-			x: -4.0d
-			y: 11.0d
+			dependencies: ["1C80130EFE5C2FFC"]
 			description: [
 				"The &bStove&r is a helpful and aesthetically-pleasing &aheat source&r, which can be used to heat &bStew Pots, Stir Fry Pans, and Hypocausts&r."
 				"Strictly speaking, a &bStove&r is not the only &aheat source usable by the mod&r. However, it's very pretty."
 			]
-			dependencies: ["1C80130EFE5C2FFC"]
 			id: "50C95EB7CBDC346C"
+			rewards: [
+				{
+					count: 15
+					id: "20C950EB18CF3B54"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68C4DADB681A65A3"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "222DF6FB2BDBE753"
-				type: "item"
-				title: "Any #caupona:stoves"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "caupona:stoves"
 					}
 				}
+				title: "Any #caupona:stoves"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "20C950EB18CF3B54"
-					type: "item"
-					item: "minecraft:coal"
-					count: 15
-				}
-				{
-					id: "68C4DADB681A65A3"
-					type: "item"
-					item: "minecraft:bowl"
-					count: 4
-				}
-			]
+			title: "Obtain a Stove"
+			x: -4.0d
+			y: 11.0d
 		}
 		{
-			title: "Obtain a Stir-Fry Pan"
-			x: -3.5d
-			y: 13.0d
+			dependencies: ["50C95EB7CBDC346C"]
 			description: [
 				"To stir-fry things, you'll need two things: a &bpan or stone&r, and a &bGravy Boat&r."
 				"The Pan must be &6placed atop a heat source&r. The &bGravy Boat&r must be placed &adirectly next to the pan&r. You can place it with &6shift right click&r."
 			]
-			dependencies: ["50C95EB7CBDC346C"]
 			id: "71C8716D1914B882"
+			rewards: [{
+				count: 8
+				id: "6B7C1D25705EEE00"
+				item: "caupona:walnut"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E6DB140B6C0DA58"
-				type: "item"
-				title: "Any #crafttweaker:cookingpans"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "crafttweaker:cookingpans"
 					}
 				}
-			}]
-			rewards: [{
-				id: "6B7C1D25705EEE00"
+				title: "Any #crafttweaker:cookingpans"
 				type: "item"
-				item: "caupona:walnut"
-				count: 8
 			}]
+			title: "Obtain a Stir-Fry Pan"
+			x: -3.5d
+			y: 13.0d
 		}
 		{
-			x: -4.5d
-			y: 14.5d
+			dependencies: ["71C8716D1914B882"]
 			description: [
 				"A &bGravy Boat&r is crucial to making &aStir Fried dishes&r. It's crafted by &aresting&r, which is a unique mechanic involving &6putting things in a &bDolium&r and then &6leaving it the heck alone&r."
 				""
@@ -2271,64 +2270,62 @@
 				"In this image, you can see there are &aat least 8 &bWalnuts&r, one &bAnvil&r, and one &bGlass Bottle&r (you can also use an empty Gravy Boat) in the &bDolium&r. All of these must be present in order for the &aresting process&r to begin. Be aware that this &dtakes a very long time&r. Most resting takes &dan in-game day&r to complete."
 				"You can speed it up by using &bTime in a Bottle&r."
 			]
-			dependencies: ["71C8716D1914B882"]
 			id: "2DFE677856208F14"
-			tasks: [{
-				id: "3013E83825BE3012"
-				type: "item"
-				item: {
-					id: "caupona:gravy_boat"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "1FE4DD30ABD1C102"
-				type: "item"
 				item: {
-					id: "caupona:gravy_boat"
 					Count: 1b
+					id: "caupona:gravy_boat"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3013E83825BE3012"
+				item: {
+					Count: 1b
+					id: "caupona:gravy_boat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
 		}
 		{
-			title: "Obtain a Stew Pot"
-			x: -2.0d
-			y: 13.0d
+			dependencies: ["50C95EB7CBDC346C"]
 			description: [
 				"To begin with, you'll need a &bClay Pot&r, which you'll need to &6fire in a furnace&r. A &bStew Pot&r is used to make &aSoups, Stews, and Aspics&r."
 				"Once placed, you can &afill the Stew Pot&r by &6right clicking it&r with a &bBucket of Milk or Water&r, or &bBowls&r of whichever ingredient."
 			]
-			dependencies: ["50C95EB7CBDC346C"]
 			id: "3502E25C90113657"
+			rewards: [{
+				id: "6A32F2E793A1F940"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4D056C50983F3A3A"
-					type: "item"
 					item: "caupona:clay_cistern"
+					type: "item"
 				}
 				{
 					id: "533DE80660D97571"
-					type: "item"
 					item: "caupona:stew_pot"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6A32F2E793A1F940"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			title: "Obtain a Stew Pot"
+			x: -2.0d
+			y: 13.0d
 		}
 		{
-			title: "Make a Stew"
-			x: -2.0d
-			y: 15.0d
-			shape: "hexagon"
+			dependencies: ["3502E25C90113657"]
 			description: [
 				"Now that you're ready to cook, let's try making some &bBorscht&r. Just like babshka used to make."
 				""
@@ -2340,127 +2337,110 @@
 				"Stews can also &abe placed down with &6shift + right click&r!"
 				"Additionally, you can &aadd &bPotions&a to your food&r by including them in the 9 ingredients."
 			]
-			dependencies: ["3502E25C90113657"]
 			id: "1A24E1B112A913B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A03646F4272C219"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1CFFFD5A572CE2"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "3FDAECE6DCA50478"
-				type: "item"
 				item: {
-					id: "caupona:borscht"
 					Count: 1b
+					id: "caupona:borscht"
 					tag: {
-						type: "caupona:borscht"
 						display: {
 							Lore: [
 								"{\"translate\":\"tooltip.caupona.display_only\"}"
 								"{\"translate\":\"tooltip.caupona.cook_required\"}"
 							]
 						}
+						type: "caupona:borscht"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0A03646F4272C219"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8808494820591225409L
-				}
-				{
-					id: "0A1CFFFD5A572CE2"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6951594928314176539L
-				}
-			]
+			title: "Make a Stew"
+			x: -2.0d
+			y: 15.0d
 		}
 		{
-			x: -4.0d
-			y: 16.0d
-			shape: "hexagon"
-			description: ["Soups will &aconvert to Aspic&r if left to sit in a &bStew Pot&r or &bDolium&r for long periods of time. This can be a good way of &astacking your stews&r, as &bBowls&r do not stack."]
 			dependencies: ["1A24E1B112A913B5"]
+			description: ["Soups will &aconvert to Aspic&r if left to sit in a &bStew Pot&r or &bDolium&r for long periods of time. This can be a good way of &astacking your stews&r, as &bBowls&r do not stack."]
 			id: "2B95A3784844A835"
-			tasks: [{
-				id: "390D095EFFB0452D"
-				type: "item"
-				item: "caupona:borscht_aspic"
-			}]
 			rewards: [{
 				id: "685A465100AE8BF1"
-				type: "item"
 				item: "caupona:mushroom_soup_aspic"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "390D095EFFB0452D"
+				item: "caupona:borscht_aspic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
 		}
 		{
-			x: -6.0d
-			y: 16.0d
-			shape: "hexagon"
+			dependencies: ["2B95A3784844A835"]
 			description: [
 				"In order to &athaw an &bAspic&r, you can either &6place it in a &bStew Pot&r and let it convert, or you can use a &bPortable Brazier&r."
 				"The &bBrazier&r can be done while traveling, but it will require a &bBowl of Water&r and some &bVivid Charcoal&r in order to work."
 			]
-			dependencies: ["2B95A3784844A835"]
 			id: "17005FF934CF893E"
-			tasks: [{
-				id: "7FAB652F6F66B8B2"
-				type: "item"
-				item: "caupona:portable_brazier"
-			}]
 			rewards: [
 				{
 					id: "063721E083CD0092"
-					type: "item"
 					item: "caupona:vivid_charcoal"
+					type: "item"
 				}
 				{
 					id: "5EE98E840E0DA2F8"
-					type: "item"
 					item: {
-						id: "caupona:water"
 						Count: 1b
+						id: "caupona:water"
 						tag: {
-							type: "minecraft:water"
 							display: {
 								Lore: [
 									"{\"translate\":\"tooltip.caupona.display_only\"}"
 									"{\"translate\":\"tooltip.caupona.cook_required\"}"
 								]
 							}
+							type: "minecraft:water"
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FAB652F6F66B8B2"
+				item: "caupona:portable_brazier"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.0d
 		}
 		{
-			x: -6.5d
-			y: 14.5d
-			shape: "hexagon"
-			description: ["To test your Stir-Fry Skills, why not make some &bSauteed Roots&r? This dish is made with &aroot vegetables such as &bCarrots&r or &bPotatoes&r."]
 			dependencies: ["2DFE677856208F14"]
+			description: ["To test your Stir-Fry Skills, why not make some &bSauteed Roots&r? This dish is made with &aroot vegetables such as &bCarrots&r or &bPotatoes&r."]
 			id: "07EB926AC767EEEE"
-			tasks: [{
-				id: "4EB57E2010CEE329"
-				type: "item"
-				item: {
-					id: "caupona:sauteed_roots"
-					Count: 1b
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "6DB1CA10880F4886"
-				type: "item"
 				item: {
-					id: "caupona:sauteed_roots"
 					Count: 1b
+					id: "caupona:sauteed_roots"
 					tag: {
 						display: {
 							Lore: [
@@ -2470,25 +2450,45 @@
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EB57E2010CEE329"
+				item: {
+					Count: 1b
+					id: "caupona:sauteed_roots"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
 		}
 		{
-			x: 5.0d
-			y: 15.0d
-			shape: "hexagon"
 			description: ["To obtain a &bDragon Tooth&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
 			id: "7E256574E63296C9"
-			tasks: [{
-				id: "11717C3E575F3C33"
-				type: "item"
-				item: "ends_delight:dragon_tooth"
-			}]
 			rewards: [{
 				id: "73BA3E043B4ADCF4"
-				type: "item"
 				item: "ends_delight:dragon_tooth"
+				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11717C3E575F3C33"
+				item: "ends_delight:dragon_tooth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Culinary Arts"
 }
