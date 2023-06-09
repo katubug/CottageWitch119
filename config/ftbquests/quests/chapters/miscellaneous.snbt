@@ -483,47 +483,6 @@
 		}
 		{
 			description: [
-				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
-				"Giving a friend a linked &bHeartstone&r allows you to locate them by &6holding the stone and right clicking&r. It will send a particle effect towards its mate. When you get closer to your friend, &athey will glow pink&r."
-			]
-			id: "5A071E27CF114D29"
-			rewards: [
-				{
-					id: "1E5935EC39987275"
-					item: {
-						Count: 1b
-						id: "cnb:flower_crown"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3BEA77BE37B3E3C8"
-					table_id: 6951594928314176539L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1C8A7DC747C04C76"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "1C20D9FDDAEC04A8"
-				item: "heartstone:heartstone"
-				type: "item"
-			}]
-			title: "Stay Connected"
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			description: [
 				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
 				"Right click the &bBiome Jar&r on the ground of the biome you want to take. Wait just long enough to go - \"Is this worki -\""
 				"&l&dBANG!&r Yes, it's working! Once it completes its capture, you can &6right click it&r to pick it back up."

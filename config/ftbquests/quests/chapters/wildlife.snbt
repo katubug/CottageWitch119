@@ -1324,28 +1324,6 @@
 			y: -4.5d
 		}
 		{
-			description: ["The lil &eKiwi Bois&r love to &adance to music&r, and can be bred with &bKiwicake!&r"]
-			id: "1B2AEA187AB3D0C9"
-			rewards: [{
-				count: 2
-				id: "6136E9C32B70A641"
-				item: "kiwiboi:kiwicake"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "kiwiboi:kiwicake"
-				id: "3BE5E89A1E467365"
-				observe_type: 5
-				timer: 0L
-				to_observe: "kiwiboi:kiwi"
-				type: "observation"
-			}]
-			title: "Meet the Kiwi"
-			x: 11.0d
-			y: -7.5d
-		}
-		{
 			id: "61F03A15727266F2"
 			invisible: true
 			secret: true
@@ -1573,7 +1551,7 @@
 		{
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
-			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bInfinite Dirt Block&r and a &bCreeper Spawn Egg&r. &dDo not craft with the Infinite Dirt block or it will be consumed&r."]
+			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bCreeper Spawn Egg&r."]
 			icon: {
 				Count: 1b
 				id: "twilightforest:creeper_skull_candle"

@@ -362,7 +362,8 @@
     },
     "dynamicIcons": {
       "default": "NaN",
-      "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6"
+      "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6",
+      "Emmulah": "https://crafatar.com/avatars/7e0a18022a6a403da487d3a60cb2d037"
     },
     "dynamicVariables": {
       "default": "Example Text",

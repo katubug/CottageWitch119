@@ -238,7 +238,8 @@ var removeNope = [
     <item:functionalstorage:armory_cabinet>,
     <item:caupona:stock_aspic>,
     <item:caupona:stock>,
-    <item:quark:feeding_trough>
+    <item:quark:feeding_trough>,
+    <item:toms_storage:ts.polymorphic_item_filter>
 ] as IItemStack[];
 
 for item in removeNope {

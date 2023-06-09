@@ -62,37 +62,6 @@
 		}
 		{
 			description: [
-				"You can craft a &bDisplay Case&r to, well, display an item!"
-				"After placing the Display Case down, &6right click on it&r to store an item, and &6right click with empty hand&r to remove the item."
-			]
-			id: "39C476A7C4682009"
-			rewards: [{
-				count: 2
-				id: "05B4F0C595E236BD"
-				item: {
-					Count: 1b
-					id: "display_case:display_case"
-					tag: { }
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "I got a bad case of display-sia"
-			tasks: [{
-				id: "66ED05321269AF6A"
-				item: {
-					Count: 1b
-					id: "display_case:display_case"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Obtain a Display Case"
-			x: -6.5d
-			y: 2.0d
-		}
-		{
-			description: [
 				"The mod &lFantasy's Furniture&r adds beautiful and intricate furniture for you to decorate with."
 				"The crafting system is a little different from usual, however. Each recipe costs only 1 each of &bClay, Cobbled Stone, and Planks&r, and must be created in a &bFurniture Station&b, which can be &acrafted in a Smithing Table&a using a &bCrafting Table&r and &bLeather&r."
 			]
