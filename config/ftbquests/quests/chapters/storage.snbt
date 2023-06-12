@@ -1030,9 +1030,8 @@
 			invisible: true
 			secret: true
 			tasks: [{
-				id: "5BB86EBDC553027E"
-				item: "minecraft:calcite"
-				only_from_crafting: false
+				id: "052CF2A30ED68875"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1066,6 +1065,39 @@
 			}]
 			x: 8.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"&eEnder Luggages&r are a tight knit group- unlike regular &eLuggages&r, every&e Ender Luggage&r you own will share the same storage space!"
+				""
+				"it's just like an &bEnder Chest&r- with feet!"
+			]
+			id: "6E8FC5FFD17FF281"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4074776ACC485743"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7DBDE13635F86F"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A safer way to store"
+			tasks: [{
+				id: "5FD4184741B4D6F3"
+				item: "luggage:ender_luggage"
+				type: "item"
+			}]
+			title: "Not Quite A Chest"
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 	title: "Storage"

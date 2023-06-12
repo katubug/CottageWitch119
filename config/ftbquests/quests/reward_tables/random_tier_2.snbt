@@ -5,7 +5,7 @@
 	rewards: [
 		{ item: "byg:ametrine_cluster", weight: 30.0f }
 		{ item: "byg:raw_pendorite", weight: 30.0f }
-		{ item: "nethersdelight:stuffed_hoglin", weight: 50.0f }
+		{ item: "nethersdelight:stuffed_hoglin", weight: 10.0f }
 		{ item: "ars_nouveau:greater_experience_gem", weight: 50.0f }
 		{ item: "byg:emeraldite_shards", weight: 30.0f }
 		{ item: "minecraft:heart_of_the_sea", weight: 10.0f }
@@ -18,7 +18,7 @@
 		{ item: "minecraft:scute", weight: 30.0f }
 		{ item: "twilightforest:hollow_oak_sapling", weight: 19.0f }
 		{ item: "minecraft:golden_apple", weight: 10.0f }
-		{ item: "create:blaze_cake" }
+		{ count: 3, item: "create:blaze_cake", weight: 10.0f }
 		{
 			item: {
 				Count: 1b
@@ -30,8 +30,8 @@
 		}
 		{ item: "nethersdelight:nether_skewer", weight: 10.0f }
 		{ count: 2, item: "glassential:glass_ethereal", weight: 4.0f }
-		{ item: "crittersandcompanions:pearl" }
-		{ item: "ars_nouveau:amethyst_golem_charm" }
+		{ count: 4, item: "crittersandcompanions:pearl", weight: 10.0f }
+		{ item: "ars_nouveau:amethyst_golem_charm", weight: 5.0f }
 		{ item: "pipez:advanced_upgrade" }
 		{
 			item: {
@@ -39,8 +39,12 @@
 				id: "spelunkery:nephrite_charm"
 				tag: { }
 			}
+			weight: 5.0f
 		}
-		{ item: "alexsmobs:lost_tentacle" }
+		{ item: "alexsmobs:lost_tentacle", weight: 20.0f }
+		{ count: 4, item: "sophisticatedstorage:basic_to_gold_tier_upgrade", weight: 20.0f }
+		{ count: 4, item: "sophisticatedstorage:basic_to_diamond_tier_upgrade", weight: 20.0f }
+		{ item: "moblassos:golden_lasso", weight: 15.0f }
 	]
 	title: "Random Tier 2"
 }

@@ -3,16 +3,18 @@
 	loot_size: 3
 	order_index: 5
 	rewards: [
-		{ item: "quark:golden_apple_crate", weight: 40.0f }
+		{ item: "quark:golden_apple_crate", weight: 15.0f }
 		{ item: "minecraft:nether_star", only_one: true, weight: 5.0f }
 		{ count: 5, item: "minecraft:dragon_breath", weight: 10.0f }
 		{ item: "minecraft:totem_of_undying", only_one: true, weight: 10.0f }
-		{ item: "minecraft:shulker_shell", weight: 20.0f }
+		{ count: 4, item: "minecraft:shulker_shell", weight: 20.0f }
 		{ count: 9, item: "minecraft:blaze_rod", weight: 40.0f }
 		{ item: "minecraft:ghast_tear", weight: 30.0f }
-		{ item: "quark:dragon_scale", only_one: true, weight: 25.0f }
 		{ item: "twilightforest:time_sapling", weight: 30.0f }
 		{ item: "twilightforest:mining_sapling", weight: 30.0f }
+		{ count: 4, item: "sophisticatedstorage:basic_to_netherite_tier_upgrade", weight: 20.0f }
+		{ item: "ends_delight:dragon_tooth", weight: 10.0f }
+		{ item: "biomesinjars:empty_biome_jar", weight: 40.0f }
 	]
 	title: "Random Tier 3"
 }

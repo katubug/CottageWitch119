@@ -2,4 +2,6 @@
 ["Client Configs"]
 	#If false, then the Golden Core has no Tooltip. Default is true.
 	GoldenCoreToolTip = true
+	#If false, all tooltips are disabled. Default is true.
+	ItemTooltips = true
 

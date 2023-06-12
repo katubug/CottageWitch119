@@ -226,7 +226,7 @@
 	"Enable Onboarding" = true
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
-	#Set to false to disable Quark's item info when viweing recipe/uses for an item in JEI
+	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
 	"Enable Jei Item Info" = true
 	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
 	"Suppressed Info" = []
@@ -1696,7 +1696,7 @@
 		"Allow Books" = true
 		#Set this to true to allow treasure enchantments to be rolled as pieces
 		"Allow Treasures" = false
-		#Add specific enchantments to matrix enchanter. Meant for treasure ones
+		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
 		"Treasure Whitelist" = []
 		#Set to false to disable the tooltip for items with pending enchantments
 		"Show Tooltip" = true

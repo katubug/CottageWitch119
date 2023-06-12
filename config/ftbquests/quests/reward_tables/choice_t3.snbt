@@ -7,6 +7,7 @@
 		{ item: "quark:dragon_scale" }
 		{ item: "minecraft:dragon_egg" }
 		{ item: "minecraft:netherite_block" }
+		{ count: 4, item: "ends_delight:dragon_tooth" }
 	]
 	title: "T3 Choice"
 }

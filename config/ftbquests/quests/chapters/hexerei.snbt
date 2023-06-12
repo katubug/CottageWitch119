@@ -620,7 +620,7 @@
 				"13B72F5C0CF9E9FB"
 			]
 			description: [
-				"There are two types of &bBrooms&r, &aWillow&r and &aMahogany&r. Of these, the Mahogany Broom is faster and fire-resistance. The Willow Broom, on the other hand, is susceptible to fire, and is a little harder to control, but is much cheaper to make."
+				"There are three types of &bBrooms&r, &aWillow&r, &aWitch Hazel&r, and &aMahogany&r. The Witch Hazel and Willow brooms are affordable to make, but slower to control and flammable. The Mahogany broom is faster and fire resistant- a worthy upgrade!"
 				"You can &6crouch and right click&r your &bBroom&r in order to access its customization options, as well as switch it from &aFloat Mode&r to &aRest Mode&r, which determines what the Broom will do when you dismount."
 				"You will also need a &bBroom Whistle&r."
 				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
@@ -639,7 +639,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Either kind works!"
+			subtitle: "Any kind works!"
 			tasks: [
 				{
 					id: "610AC7B9B4F8D1E0"
@@ -1172,9 +1172,8 @@
 			invisible: true
 			secret: true
 			tasks: [{
-				id: "5B273C7F23C370E2"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "6D04AF94DDA1F2BE"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d

@@ -2,16 +2,43 @@
 ["Common Configs"]
 	#If false, then Piglins don't trade Golden Cores. Default is true.
 	TradeWithPiglinsForGoldenCore = true
-	#If true, then thhe Golden Core spawns in Nether Bridge Chests. Default is false.
-	GoldenCoreInNetherBridgeChest = false
-	#If true, then thhe Golden Core spawns in Bastion Treasure Chests. Default is false.
-	GoldenCoreInBastionTreasureChest = false
-	#If true, then thhe Golden Core spawns in Bastion Other Chests. Default is false.
-	GoldenCoreInBastionOtherChest = false
-	#If true, then thhe Golden Core spawns in Bastion Hoglin Stable Chests. Default is false.
-	GoldenCoreInBastionHoglinStableChest = false
-	#If true, then thhe Golden Core spawns in Bastion Bridge Chests. Default is false.
-	GoldenCoreInBastionBridgeChest = false
-	#If true, then thhe Golden Core spawns in Runied Portal Chests. Default is true.
-	GoldenCoreInRuniedPortalChest = true
+	#If false, then all Chest Loot Tables from this mod, can not spawn. Default is true
+	EnableChestLoot = true
+
+	["Common Configs"."Chest Loot Tables"]
+		#If true, then thhe Golden Core spawns in Nether Bridge Chests. Default is false.
+		GoldenCoreInNetherBridgeChest = false
+		#If true, then thhe Golden Core spawns in Bastion Treasure Chests. Default is false.
+		GoldenCoreInBastionTreasureChest = false
+		#If true, then thhe Golden Core spawns in Bastion Other Chests. Default is false.
+		GoldenCoreInBastionOtherChest = false
+		#If true, then thhe Golden Core spawns in Bastion Hoglin Stable Chests. Default is false.
+		GoldenCoreInBastionHoglinStableChest = false
+		#If true, then thhe Golden Core spawns in Bastion Bridge Chests. Default is false.
+		GoldenCoreInBastionBridgeChest = false
+		#If true, then thhe Golden Core spawns in Runied Portal Chests. Default is true.
+		GoldenCoreInRuinedPortalChest = true
+
+	["Common Configs"."Item Chances"]
+		#Chance to trade a Golden Core. Default is 0.075
+		#Range: 0.0 ~ 1.0
+		GoldenCoreFromPiglinsChances = 0.075
+		#Chance to get a Golden Core in Bastion Treasure chest. Default is 0.5
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInBastionTreasureChances = 0.5
+		#Chance to get a Golden Core in Bastion Other chest. Default is 0.15
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInBastionOtherChances = 0.15
+		#Chance to get a Golden Core in Bastion Bridge chest. Default is 0.15
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInBastionBridgeChances = 0.25
+		#Chance to get a Golden Core in Bastion Hoglin Stable chest. Default is 0.2
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInBastionHoglinStableChances = 0.2
+		#Chance to get a Golden Core in Nether Bridge chest. Default is 0.25
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInNetherBridgeChances = 0.2
+		#Chance to get a Golden Core in Ruined Portal chest. Default is 0.001
+		#Range: 0.0 ~ 1.0
+		GoldenCoreInRuinedPortalChances = 0.001
 

@@ -20,8 +20,7 @@ var air = <item:minecraft:air>;
 craftingTable.addShapeless("mimicarnacream", <item:alexsmobs:mimicream>, [<item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>, <item:nethersdelight:mimicarnation>]);
 
 // Adds tags to Brooms
-<tag:items:crafttweaker:brooms>.add(<item:hexerei:mahogany_broom>);
-<tag:items:crafttweaker:brooms>.add(<item:hexerei:willow_broom>);
+<tag:items:crafttweaker:brooms>.add(<item:hexerei:mahogany_broom>, <item:hexerei:witch_hazel_broom>, <item:hexerei:willow_broom>);
 
 // Adds compostable tag to make things able to be made into Compost
 
@@ -1967,4 +1966,11 @@ craftingTable.addShaped("blackstoneblastfurnace", <item:nethersdelight:blackston
     [<item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>]
 ]);
 
-craftingTable.removeByName("byg:brown_dye");
+
+
+//portable jukebox recipe
+craftingTable.addShapeless("portable_jukebox", <item:portablejukebox:portable_jukebox>,
+[<item:minecraft:jukebox>, <item:portablejukebox:portable_note_block>]);
+
+
+

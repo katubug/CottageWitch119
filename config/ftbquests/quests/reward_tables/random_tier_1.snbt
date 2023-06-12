@@ -21,17 +21,20 @@
 		}
 		{ item: "delightful:cheeseburger", weight: 15.0f }
 		{ item: "quark:diamond_heart", only_one: true, weight: 5.0f }
-		{ item: "advancementframes:advancement_frame", weight: 10.0f }
+		{ item: "advancementframes:advancement_frame", weight: 4.0f }
 		{ item: "minecraft:quartz", weight: 15.0f }
 		{ item: "minecraft:amethyst_shard", weight: 8.0f }
 		{ item: "minecraft:nautilus_shell", weight: 5.0f }
-		{ count: 4, item: "create:rose_quartz" }
+		{ count: 4, item: "create:rose_quartz", weight: 5.0f }
 		{ item: "quark:crab_shell" }
 		{ count: 16, item: "quark:moss_paste" }
-		{ item: "crittersandcompanions:pearl" }
+		{ item: "crittersandcompanions:pearl", weight: 10.0f }
 		{ item: "pipez:basic_upgrade" }
 		{ item: "functionalstorage:copper_upgrade" }
 		{ item: "snailmail:stamp" }
+		{ count: 4, item: "sophisticatedstorage:upgrade_base", weight: 15.0f }
+		{ count: 4, item: "sophisticatedstorage:basic_tier_upgrade", weight: 5.0f }
+		{ count: 4, item: "sophisticatedstorage:basic_to_iron_tier_upgrade", weight: 5.0f }
 	]
 	title: "Random Tier 1"
 }

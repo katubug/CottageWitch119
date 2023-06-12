@@ -733,10 +733,8 @@
 			id: "3B14FB98F6CA73AA"
 			secret: true
 			tasks: [{
-				id: "06BFB561ED8FC8F5"
-				item: "minecraft:calcite"
-				only_from_crafting: true
-				secret: true
+				id: "0294DC32DD5E2333"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
