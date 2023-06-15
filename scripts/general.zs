@@ -238,7 +238,100 @@ var removeNope = [
     <item:caupona:stock_aspic>,
     <item:caupona:stock>,
     <item:quark:feeding_trough>,
-    <item:toms_storage:ts.polymorphic_item_filter>
+    <item:toms_storage:ts.polymorphic_item_filter>,
+     <item:sophisticatedstorage:shulker_box>,
+    <item:sophisticatedstorage:iron_shulker_box>,
+    <item:sophisticatedstorage:gold_shulker_box>,
+    <item:sophisticatedstorage:diamond_shulker_box>,
+    <item:sophisticatedstorage:netherite_shulker_box>,
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:crittersandcompanions:diamond_dragonfly_armor>,
+    <item:crittersandcompanions:gold_dragonfly_armor>,
+    <item:crittersandcompanions:iron_dragonfly_armor>
 ] as IItemStack[];
 
 for item in removeNope {
@@ -1206,11 +1299,11 @@ craftingTable.addShapeless("coalfromblock", <item:minecraft:coal> * 9, [<item:mi
 
 // BYG Sandstone
 
-<tag:items:c:purple_sand>.add(<item:byg:purple_sand>);
-<tag:items:c:pink_sand>.add(<item:byg:pink_sand>);
-<tag:items:c:blue_sand>.add(<item:byg:blue_sand>);
-<tag:items:c:white_sand>.add(<item:byg:white_sand>);
-<tag:items:c:black_sand>.add(<item:byg:black_sand>);
+<tag:items:c:sand/purple>.add(<item:byg:purple_sand>);
+<tag:items:c:sand/pink>.add(<item:byg:pink_sand>);
+<tag:items:c:sand/blue>.add(<item:byg:blue_sand>);
+<tag:items:c:sand/white>.add(<item:byg:white_sand>);
+<tag:items:c:sand/black>.add(<item:byg:black_sand>);
 
 // Plushie Cloning
 
@@ -1850,7 +1943,7 @@ craftingTable.addShaped("wraith_gate", <item:gateways:gate_pearl>.withTag({gatew
 
 craftingTable.addShaped("murmur_gate", <item:gateways:gate_pearl>.withTag({gateway: "gateways:murmur_gate"}),
 [
-    [<item:minecraft:note_block>, <item:alexsmobs:elastic_tendon>, <item:minecraft:note_block>],
+    [<item:minecraft:note_block>, <item:quark:paper_lantern_sakura>, <item:minecraft:note_block>],
     [<item:hexerei:cloth>, <item:minecraft:ender_eye>, <item:hexerei:cloth>],
     [<item:minecraft:note_block>, <item:hexerei:cloth>, <item:minecraft:note_block>]
 ]);

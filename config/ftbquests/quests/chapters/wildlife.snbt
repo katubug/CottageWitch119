@@ -914,34 +914,6 @@
 			y: -2.5d
 		}
 		{
-			description: ["The &bFeeding Trough&r will automatically feed/breed your livestock for you. Place it in near your animals and &6fill it with the appropriate food&r, and it will work automatically! But be careful that you don't fill it too much, or you may end up with a Cowpocalypse."]
-			id: "030F3DD35DB6D9BC"
-			rewards: [
-				{
-					count: 10
-					id: "3C270D0BFD61D699"
-					item: "minecraft:carrot"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "66A63256B0FF7C97"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "That's trough, buddy"
-			tasks: [{
-				id: "7160D0D97F7AE601"
-				item: "quark:feeding_trough"
-				type: "item"
-			}]
-			title: "Obtain a Feeding Trough"
-			x: -2.5d
-			y: -6.5d
-		}
-		{
 			description: [
 				"&eHummingbirds&r are tiny birds which pollinate nearby plants."
 				"You can attract them using a &bHummingbird Feeder&r filled with &bWater&r and &bSugar&r,"

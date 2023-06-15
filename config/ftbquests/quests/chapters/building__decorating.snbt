@@ -593,22 +593,6 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"One of the mods added is called &lEffortless Building&r. This allows you to build similarly to the way &bBuilding Gadgets&r do, but with a different set of functions."
-				"To access its building types, &6You'll need to bind the hotkey&r in your options, and then you can choose a mode from the radial menu once you press the hotkey. Have fun!"
-			]
-			id: "10844100547C60EE"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "65B3CCAA0D9F175F"
-				title: "Effortless Building"
-				type: "checkmark"
-			}]
-			x: 3.25d
-			y: 0.75d
-		}
-		{
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
 				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"

@@ -1503,11 +1503,6 @@
 					item: "duckling:holiday_fruit_cake"
 					type: "item"
 				}
-				{
-					id: "72C71A8735FFB4FE"
-					item: "kiwiboi:kiwicake"
-					type: "item"
-				}
 			]
 			title: "Dessert-a-holic"
 			x: -9.0d

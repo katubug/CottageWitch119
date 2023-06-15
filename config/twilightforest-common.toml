@@ -50,7 +50,7 @@ skull_candles = false
 	#Here, you can disable all items from certain mods from being uncrafted.
 	#Input a valid mod id to disable all uncrafting recipes from that mod.
 	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
-	blacklistedUncraftingModIds = []
+	blacklistedUncraftingModIds = ["plushies"]
 	#If true, this will invert the above option from a blacklist to a whitelist.
 	flipIdList = false
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
