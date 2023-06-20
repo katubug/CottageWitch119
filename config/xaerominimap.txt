@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:352
+ignoreUpdate:357
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -62,7 +62,7 @@ zoomOnEnlarged:0
 minimapTextAlign:0
 waypointsMutualEdit:true
 compassLocation:1
-compassScale:1
+compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false

@@ -10,13 +10,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 9.0d
+			height: 15.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgstoragenetwork.png"
 			rotation: 0.0d
-			width: 9.0d
+			width: 15.0d
 			x: 0.0d
-			y: -4.5d
+			y: -10.0d
 		}
 		{
 			click: ""
@@ -27,8 +27,8 @@
 			image: "cottagewitch:textures/bgitemstransport.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: 8.0d
-			y: -2.5d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			click: ""
@@ -39,8 +39,8 @@
 			image: "cottagewitch:textures/bgdrawers.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -8.0d
-			y: -2.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			click: ""
@@ -52,7 +52,7 @@
 			rotation: 0.0d
 			width: 9.0d
 			x: 0.0d
-			y: 4.0d
+			y: 3.5d
 		}
 	]
 	order_index: 4
@@ -95,8 +95,8 @@
 				type: "item"
 			}]
 			title: "Craft a Functional Storage Drawer"
-			x: -8.0d
-			y: -3.5d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40EDCF93A4E5B1AA"]
@@ -119,8 +119,8 @@
 				type: "item"
 			}]
 			title: "Obtain your first Storage Upgrade"
-			x: -10.0d
-			y: -2.0d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["643038A9E2CA7D59"]
@@ -144,8 +144,8 @@
 				item: "functionalstorage:void_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -0.5d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1838DE5E92C9C03F"]
@@ -186,8 +186,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -3.0d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1838DE5E92C9C03F"]
@@ -214,8 +214,8 @@
 				item: "functionalstorage:storage_controller"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -3.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1838DE5E92C9C03F"]
@@ -244,8 +244,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			description: ["Oh I know, it's such a bother... your storage is just &olousy&r with &bGolden Apples&r - well worry no more, you can &acompress them&r into crates. These &bGolden Apple Crates&r can even be used to power a &bBeacon&r!"]
@@ -367,7 +367,7 @@
 			]
 			title: "Tom's Simple Storage"
 			x: 0.0d
-			y: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -384,8 +384,8 @@
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -403,8 +403,8 @@
 				item: "toms_storage:ts.trim"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -448,7 +448,7 @@
 			]
 			title: "Connected at a Distance"
 			x: -2.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["21A2E4CA683BD232"]
@@ -489,8 +489,8 @@
 				}
 			]
 			title: "Framed Blocks"
-			x: -2.5d
-			y: -4.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -509,7 +509,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["50D94EFE04154F83"]
@@ -531,8 +531,8 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -553,8 +553,8 @@
 				item: "toms_storage:ts.inventory_proxy"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -577,7 +577,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -599,7 +599,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -641,7 +641,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -675,8 +675,8 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: -10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A76B3D9CF688878"]
@@ -692,8 +692,8 @@
 				item: "pipez:basic_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: -11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["327660E1DFE7C9A0"]
@@ -709,8 +709,8 @@
 				item: "pipez:improved_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["125AC0EEF7096532"]
@@ -729,8 +729,8 @@
 				item: "pipez:advanced_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5E0E4D3BFE9A205F"]
@@ -749,8 +749,8 @@
 				item: "pipez:ultimate_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: -9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1838DE5E92C9C03F"]
@@ -768,8 +768,8 @@
 				item: "functionalstorage:ender_drawer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40EDCF93A4E5B1AA"]
@@ -821,8 +821,8 @@
 				}
 			]
 			title: "Lateral Upgrades"
-			x: -8.5d
-			y: -1.5d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -918,8 +918,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 9.5d
-			y: -3.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C75E1320C84AD2E"]
@@ -952,8 +952,8 @@
 				}
 			]
 			title: "The Sculk Network Basics"
-			x: 10.0d
-			y: -2.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
@@ -981,8 +981,8 @@
 				type: "item"
 			}]
 			title: "Extending the Range"
-			x: 10.0d
-			y: -0.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
@@ -1003,8 +1003,8 @@
 				type: "item"
 			}]
 			title: "Quantity Modifiers"
-			x: 8.5d
-			y: -0.5d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
@@ -1022,8 +1022,8 @@
 				type: "item"
 			}]
 			title: "Speed Modifiers"
-			x: 8.5d
-			y: -2.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			id: "1836D76FCA8240F3"
@@ -1063,8 +1063,8 @@
 				item: "pipez:filter_destination_tool"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
@@ -1098,6 +1098,238 @@
 			title: "Not Quite A Chest"
 			x: 0.0d
 			y: 3.5d
+		}
+		{
+			description: [
+				"Basic chests and barrels are fine for a while, but the canny witch knows that &athe rules of inventory space&r are meant to be broken. With a little magic, you can easily make your storage bigger - &aand smarter&r!"
+				""
+				"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
+				""
+				"Now, once you enter the inventory, you'll see some new additions."
+				""
+				"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
+				""
+				"The &acog wheel&r on the right gives you access to your &astorage settings&r."
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "2AC77B6EF8DA00EA"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Let's get sophisticated"
+			tasks: [
+				{
+					id: "05E47966FD087BED"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0BDEEDCF35454286"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Storage"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"Within your storage settings, you have the ability to change the way your storage behaves."
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"Select the &aBarrel icon&r to choose whether your settings apply to &aPlayer&r - ie, &oall&r your storages  - or &aStorage&r - ie, this container only."
+				""
+				"Select the &aA/Z icon&r you can select (with &6left click&r) or deselect (with &6right click&r) slots to be auto-sorted."
+				""
+				"Select the &aBrain icon&r to &6choose slots to be locked to the item currently in them&r."
+				""
+				"Select the &aSword icon&r to choose a slot whose &aitem will be displayed&r on the front of your storage."
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "027E158B22DE20CF"
+			rewards: [{
+				id: "7BF6C158342F0CD0"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "4D83884D8C097AC2"
+				title: "Customise Your Storage"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"There are two ways you can upgrade your storage, &alevel by level&r, or &abasic on upwards&r."
+				""
+				"Assuming you used the reward from the last quest, you'll now have an &bIron Barrel&r. You can upgrade this to &aGold tier&r with an &bIron to Gold Upgrade&r. This is taking it up &alevel by level&r."
+				""
+				"To upgrade from &aBasic upwards&r, you'll need the &bBasic to Gold&r (or other level) Upgrade. This will, as you could guess, take a &bBasic Storage&r and bring it directly to &aGold tier&r."
+				""
+				"With each tier of upgrades, &ayour storage improves&r. At Gold tier it has &amore slots and an additional upgrade slot&r on the left."
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "7DD199B329192C67"
+			rewards: [{
+				id: "331D07BB2D1BA4BF"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "beyond basic"
+			tasks: [
+				{
+					id: "24049AE6D6301809"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "561152B3AA7139CF"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "More Storage, More Upgrade"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7DD199B329192C67"
+				"2AC77B6EF8DA00EA"
+			]
+			description: [
+				"Your Sophisticated &bBarrels&r and &bChests are capable of &aholding more than a stack per slot&r, if you use the &bStack Upgrades&r on them. The higher the tier, the more stacks each slot can hold."
+				""
+				"You can also &ause more than one Stack Upgrade&r, and they will add &amultiplicatively&r!"
+				""
+				"So if you use a &bTier 1&r and a &bTier 2&r, you will hold 2 stacks by 4 stacks, meaning 8 stacks, or &d512 items per slot&r."
+			]
+			id: "5795F032CB47389E"
+			subtitle: "higher and higher"
+			tasks: [{
+				id: "19424B20004EB2DA"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Stack Higher"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"&bPacking Tape&r is an incredibly helpful item which can be used to &apackage up a storage block&r for transport. Although &dit can only be used on Sophisticated Storage&r."
+				""
+				"You need to &6right click the &bTape&r onto the desired item. Then you can &6break the block&r and it will retain its inventory."
+			]
+			id: "04580014FE5705F2"
+			subtitle: "Pack it up, Pack it in"
+			tasks: [{
+				id: "5D16A56E7E0AB5DE"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"The &bVoid Upgrade&r is an item which will &aremove unwanted items from your storage&r. It will, quite simply, delete them, ensuring that your storage is both well-organized and your server un-crashed. &dIt is especially important to use this upgrade for farms&r!"
+				""
+				"You can configure it to &adelete only overflow items&r or, if you prefer, &adelete all items of specific type&r."
+				""
+				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
+				""
+				"The &bAdvanced Void Upgrade&r is capable of sorting by NBT and Damage levels."
+			]
+			id: "58E3A0A274BAB9B9"
+			subtitle: "A Very Important Upgrade"
+			tasks: [{
+				id: "3799A96F56496C61"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["These upgrades will help you &aprocess items in your storage&r, by smelting, blasting, or smoking. The &aautomatic versions&r will do so without the player needing to manually input the items."]
+			id: "25777083FCF81F3C"
+			subtitle: "your storage has a right to due process"
+			tasks: [{
+				id: "42D27C96AC638A6A"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Process Your Inventory"
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"The &bFilter Upgrade&r is meant to be used in conjunction with &bPipez&r or other item transport system."
+				""
+				"It will &ahelp control what items get placed&r in the storage you use it on."
+			]
+			id: "51774D15356C5ADC"
+			tasks: [{
+				id: "49F07E0B8DFDA184"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["The &bCrafting&r and &bStonecutter&r upgrades provide those &acrafting interfaces&r in the storage you place them in."]
+			id: "3801FF70470C2994"
+			tasks: [
+				{
+					id: "0D54F10EE3D90E47"
+					item: "sophisticatedstorage:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F171EA1AA534811"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Crafting Upgrades"
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"To &aremotely link Sophisticated Storages&r which are not touching the main network, you need to &6place a &bStorage Link&6 on them&r, and then &6right click the &bStorage Tool&r on the &bLink&r and the &bStorage Controller&r."
+				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "204A015685DB4726"
+			tasks: [{
+				id: "774785B108908F07"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
 		}
 	]
 	title: "Storage"

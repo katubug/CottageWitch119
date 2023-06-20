@@ -248,15 +248,15 @@
 			shape: "hexagon"
 			subtitle: "I tome you so"
 			tasks: [{
-				id: "647CA26F664F82B7"
+				id: "64FA279BD75A7C9B"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:tomes"
+						value: "forge:tomes"
 					}
 				}
-				title: "Any #crafttweaker:tomes"
+				title: "Any #forge:tomes"
 				type: "item"
 			}]
 			title: "Obtain an Ancient Tome"
@@ -1251,15 +1251,15 @@
 				}
 			]
 			tasks: [{
-				id: "29D09AD08884A9A7"
+				id: "24F4540C208FD4E3"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:crates"
+						value: "forge:apple_crates"
 					}
 				}
-				title: "Any #crafttweaker:crates"
+				title: "Any #forge:apple_crates"
 				type: "item"
 			}]
 			title: "Apple Crates for Commerce and Deco!"
@@ -1915,15 +1915,15 @@
 			shape: "hexagon"
 			subtitle: "an alternative to sage"
 			tasks: [{
-				id: "5D582D2A264F8D84"
+				id: "37923B7F68C4E19F"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:magnumtorches"
+						value: "forge:magnum_torches"
 					}
 				}
-				title: "Any #crafttweaker:magnumtorches"
+				title: "Any #forge:magnum_torches"
 				type: "item"
 			}]
 			title: "Preventing Mob Spawning"

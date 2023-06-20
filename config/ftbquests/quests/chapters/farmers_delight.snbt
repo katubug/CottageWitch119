@@ -397,18 +397,32 @@
 				}
 			]
 			subtitle: "Everyone loves a chubby carrot"
-			tasks: [{
-				id: "705498616DE28A9B"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:overcrops"
+			tasks: [
+				{
+					id: "705498616DE28A9B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "crafttweaker:overcrops"
+						}
 					}
+					title: "Any #crafttweaker:overcrops"
+					type: "item"
 				}
-				title: "Any #crafttweaker:overcrops"
-				type: "item"
-			}]
+				{
+					id: "1F0CA54801833BEB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:overweightcrops"
+						}
+					}
+					title: "Any #forge:overweightcrops"
+					type: "item"
+				}
+			]
 			title: "Overweight Crops"
 			x: 2.0d
 			y: -0.5d
@@ -947,15 +961,15 @@
 			shape: "hexagon"
 			subtitle: "don't fear the reaper...seriously"
 			tasks: [{
-				id: "0F91D658F8373DD2"
+				id: "006BA9F88102C536"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:scythe"
+						value: "forge:scythe"
 					}
 				}
-				title: "Any #crafttweaker:scythe"
+				title: "Any #forge:scythe"
 				type: "item"
 			}]
 			title: "Obtain a Reaping Tool"

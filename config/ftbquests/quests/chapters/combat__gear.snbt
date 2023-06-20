@@ -766,15 +766,14 @@
 					type: "item"
 				}
 				{
-					id: "7E64A2B8734B6083"
+					id: "20917D3F293CB70A"
 					item: {
 						Count: 1b
-						id: "itemfilters:tag"
+						id: "farmersdelight:diamond_knife"
 						tag: {
-							value: "crafttweaker:diaknife"
+							Damage: 0
 						}
 					}
-					title: "Any #crafttweaker:diaknife"
 					type: "item"
 				}
 			]
@@ -1861,15 +1860,15 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0EE77DD9D1FEA3A8"
+				id: "2B04B7027E05E05A"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:umbrellas"
+						value: "forge:umbrellas"
 					}
 				}
-				title: "Any #crafttweaker:umbrellas"
+				title: "Any #forge:umbrellas"
 				type: "item"
 			}]
 			title: "Protect Yourself from Potions"

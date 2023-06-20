@@ -1160,9 +1160,9 @@
 			}]
 			subtitle: "Take a look, it's in a book"
 			tasks: [{
-				id: "243F528BBA3502B9"
-				title: "Make a Bookwyrm Charm"
-				type: "checkmark"
+				id: "01072264E0E01AF4"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -2.5d

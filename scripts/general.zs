@@ -930,7 +930,7 @@ craftingTable.addShapeless("sandywaystonetosharestone", <item:waystones:sharesto
 
 
 //Sleeping Bags not Overlap Sheets
-
+/*
 var sleepingbags = [
     <item:comforts:sleeping_bag_purple>,
     <item:comforts:sleeping_bag_blue>,
@@ -953,6 +953,7 @@ var sleepingbags = [
 for bag in sleepingbags {
     craftingTable.remove(bag);
 }
+*/
 
 var leather = <item:minecraft:leather>;
 
@@ -2067,3 +2068,11 @@ craftingTable.addShapeless("portable_jukebox", <item:portablejukebox:portable_ju
 
 
 
+ <item:usefulslime:slippery_slime_block>.maxStackSize = 64;
+
+ 
+ <tag:items:crafttweaker:stackupgrades>.add(
+ <item:sophisticatedstorage:stack_upgrade_tier_1>,
+<item:sophisticatedstorage:stack_upgrade_tier_2>,
+<item:sophisticatedstorage:stack_upgrade_tier_3>,
+<item:sophisticatedstorage:stack_upgrade_tier_4>);
