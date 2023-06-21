@@ -71,15 +71,15 @@
 			shape: "hexagon"
 			subtitle: "So happy together"
 			tasks: [{
-				id: "358424B23A630422"
+				id: "2A31AF7FF7ED741F"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:mushcolony"
+						value: "forge:mushcolony"
 					}
 				}
-				title: "Any #crafttweaker:mushcolony"
+				title: "Any #forge:mushcolony"
 				type: "item"
 			}]
 			title: "Obtain a Mushroom Colony"
@@ -397,32 +397,18 @@
 				}
 			]
 			subtitle: "Everyone loves a chubby carrot"
-			tasks: [
-				{
-					id: "705498616DE28A9B"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "crafttweaker:overcrops"
-						}
+			tasks: [{
+				id: "1F0CA54801833BEB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:overweightcrops"
 					}
-					title: "Any #crafttweaker:overcrops"
-					type: "item"
 				}
-				{
-					id: "1F0CA54801833BEB"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:overweightcrops"
-						}
-					}
-					title: "Any #forge:overweightcrops"
-					type: "item"
-				}
-			]
+				title: "Any #forge:overweightcrops"
+				type: "item"
+			}]
 			title: "Overweight Crops"
 			x: 2.0d
 			y: -0.5d
@@ -843,33 +829,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["435BD760D0F2E010"]
-			description: ["Similar to their overworld counterparts, &bNether Fungi&r can also be grown in colonies in the same way, except using &bRich Soul Soil&r."]
-			id: "1E45E829FB9AB50E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D91FD2631D4022C"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4308C515AAC6F0EE"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:netmushcolony"
-					}
-				}
-				title: "Any #crafttweaker:netmushcolony"
-				type: "item"
-			}]
-			title: "Obtain a Nether Fungus Colony"
-			x: 6.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
@@ -1023,15 +982,15 @@
 			shape: "hexagon"
 			subtitle: "item and animal transport"
 			tasks: [{
-				id: "57567AFD23A55AC8"
+				id: "099CE793A38F980E"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:carts"
+						value: "forge:carts"
 					}
 				}
-				title: "Any #crafttweaker:carts"
+				title: "Any #forge:carts"
 				type: "item"
 			}]
 			title: "Craft a Cart"

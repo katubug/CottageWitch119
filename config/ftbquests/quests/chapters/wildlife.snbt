@@ -1169,15 +1169,15 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "683E528EEA16C187"
+				id: "41F34358A296FA34"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:petbeds"
+						value: "forge:petbeds"
 					}
 				}
-				title: "Any #crafttweaker:petbeds"
+				title: "Any #forge:petbeds"
 				type: "item"
 			}]
 			title: "Get your Pet a Bed"

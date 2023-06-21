@@ -5,32 +5,18 @@
 	group: "2757402A47D6A081"
 	icon: "create:brass_hand"
 	id: "19DEED79E2FA960E"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 15.0d
-			hover: [ ]
-			image: "cottagewitch:textures/bgcreate.png"
-			rotation: 0.0d
-			width: 25.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.0d
-			hover: [ ]
-			image: "cottagewitch:textures/underconstructionwip.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 7.0d
-			y: 5.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgcreate.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -494,8 +480,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5859015DE7AD5512"]
-			description: ["These quests are currently being worked on. Expect more in the near future!"]
+			dependencies: ["720F0BC4F45BA69B"]
+			description: ["This is just the basics of what you can do with the magic of engineering. Explore on your own and see what kind of &amystical machines&r you can craft."]
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -504,14 +490,19 @@
 				}
 			}
 			id: "4DC3913C41E20B81"
+			rewards: [{
+				id: "119C95BA0EA7F4A9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "1F02BA66A19E80A8"
 				type: "checkmark"
 			}]
-			title: "To be Continued"
-			x: 6.0d
+			title: "Continue On"
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -762,7 +753,17 @@
 		}
 		{
 			dependencies: ["777BD51D55A705BC"]
+			description: [
+				"The &bElectron Tube&r is a source of magical intelligence, allowing machines to &aperform actions like players&r, for example: The &bDeployer&r is capable of using many tools: shears, buckets, swords, and more."
+				""
+				"&bElectron Tubes&r also provide the basis for most of &lCreate's&r sorting mechanisms, or anything else which requires &aintelligent function&r."
+			]
 			id: "21D3406A746CF116"
+			rewards: [{
+				id: "600FF4B3FC8EAEB4"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "091B7D2A7E613348"
 				item: "create:electron_tube"
@@ -930,15 +931,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1DF0C9F7BABD0B91"
+				id: "0073D190BBD9EC8C"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:glasscasings"
+						value: "forge:glass_casings"
 					}
 				}
-				title: "Any #crafttweaker:glasscasings"
+				title: "Any #forge:glass_casings"
 				type: "item"
 			}]
 			title: "Glass Casings as Deco"
@@ -956,6 +957,178 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["21D3406A746CF116"]
+			description: [
+				"Interested in &aauto-crafting, but don't have any &eWixies&r yet? Try &bMechanical Crafters&r."
+				""
+				"Set them up in the correct shape and provide them with &aRotational Force&r to get them going. You can feed items into them using many options - &bMechanical Arms, Hoppers, Pipez&r, or others!"
+				""
+				"You need to be sure to &6align their arrows correctly using the &bWrench&r, so that they all &aoutput to a single slot&r. This is required for them to work."
+				"{image:cottagewitch:textures/mechanicalcrafter.png width:100 height:100 align:1 fit:true}"
+				"This image is only &aone example&r of a shape you can place them in. You can do a simple 3x3 for most recipes, but &dyou'll need the above setup for the next quest&r."
+			]
+			id: "65974046CAFDD536"
+			rewards: [
+				{
+					id: "0454954C4BFADDB9"
+					item: "ars_creo:starbuncle_wheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09014AF3279229D2"
+					table_id: 1032206960599939459L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 21L
+				id: "5386190E9CDDE78C"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Crafting Beyond The Table"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65974046CAFDD536"]
+			description: [
+				"One of the recipes that you can craft with your &bMechanical Crafters&r is the &bCrushing Wheel&r. A pair of these wheels will &aprocess raw ores and many other items&r, giving you access to &abonus items&r when compared with preparing them manually."
+				""
+				"You'll also need them in your quest to &amake &bBlaze Cakes&r. Take this &bNetherrack&r and put it through the &bCrushers&r!"
+			]
+			id: "7F65DC32D9AC4B73"
+			rewards: [{
+				count: 10
+				id: "7E9F368ACDC512AC"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1EF21DCFCFA0BE78"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Power"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F65DC32D9AC4B73"]
+			description: [
+				"&bBlaze Cakes&r begin with a crust, or &bBase&r. This is made by &acompacting &bCinder Flour&r with &bSugar&r and &ban Egg&r."
+				""
+				"Use the &bCompactor&r setup you created earlier!"
+			]
+			id: "6AD27F2A2490D29D"
+			rewards: [{
+				id: "0AE4FF17BE8CFF54"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F96BD8D645315D7"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+				{
+					id: "39F70D15B45D4989"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+			]
+			title: "Making The Crust"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AD3F51BD3B16B9F"]
+			description: [
+				"Now that you have a &bPump and Pipes&r, what do you do with the fluid?"
+				""
+				"Well, you have a few options. You could &acompact the fluid&r into solids using a &bMechanical Press&r (see the other quests for this!), or you could use a &bSpout&r to &adispense fluid onto or into items&r on a Depot."
+				""
+				"Spouts can be used in making &bChocolate-Covered Berries&r, &bHoneyed Apples&r, &bSweet Rolls&r, and eventually also &bBlaze Cakes&r!"
+			]
+			id: "7410C775CE6FE615"
+			rewards: [
+				{
+					id: "0C05F73464C12040"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "42B0E0E844D16AF2"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "51CCEF9EC62B3976"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C2D1E1E3068795D"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Dispensing Fluids"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7410C775CE6FE615"
+				"6AD27F2A2490D29D"
+			]
+			description: ["Using your &bSpout&r setup from earlier, you can &apipe lava into your &bBlaze Cake Base&r! The resulting &bBlaze Cake&r can be used to power &bBlaze Burners&r very significantly."]
+			id: "335926C3AE4F314C"
+			rewards: [{
+				id: "66748E0749D0186C"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "its a piece of cake to bake a pretty cake"
+			tasks: [{
+				id: "00D512A074CEE081"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Baking a Cake"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["335926C3AE4F314C"]
+			description: [
+				"Did you know there is an &ainfinite &bBlaze Cake&r? Normally it's only available in Creative, but you can &6earn one by trading in&r 100 regular &bBlaze Cakes&r."
+				""
+				"This quest is repeatable."
+			]
+			icon: "create:creative_blaze_cake"
+			id: "720F0BC4F45BA69B"
+			rewards: [{
+				id: "5E0D5F47F6815CBA"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			subtitle: "blaze it lol"
+			tasks: [{
+				count: 100L
+				id: "4D08E4AAADFA123B"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "A Creative Way To Cook"
+			x: 5.0d
+			y: 4.0d
 		}
 	]
 	title: "Create"

@@ -330,33 +330,54 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"&lTom's Simple Storage&r is a mod which allows you to &aaccess all your chests and drawers from a single interface&r. Who Tom was has been lost to legend, but his storage systems remain."
-				"To begin with, you'll need the &bInventory Connector&r and a &bStorage Terminal&r."
-				"The &bInventory Connector&r is a block which acts as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r."
-				"The &bStorage Terminal&r is the block which lets you see, deposit and withdraw from, your inventory. It can later be upgraded to a &bCrafting Grid&r, which also allows you to craft from your inventory network."
-				"&dIt is recommended to use Barrels and Drawers&r instead of Chests with this mod, as they don't always register properly."
+				"&lTom's Simple Storage&r is a mod which allows you to &aaccess all your inventory from a single interface&r. Who Tom was has been lost to legend, but his storage systems remain. &lSophisticated Storage&r is a storage solution with a focus on &aproviding lots of space in a small footprint&r. The two systems can work together!"
+				""
+				"To begin with, you'll need a &bStorage Terminal&r from &lTom's&r."
+				""
+				"Then, you need to make a choice between the &bInventory Connector&r from &lTom's&r, or a &bStorage Controller&r from &lSophisticated&r. Inventory Connectors work with both vanilla and Sophisticated containers, whereas &bStorage Controllers&r connect only to Sophisticated's containers. However, the remote capabilities of the &bStorage Controller&r are superior to those of the &bInventory Connector&r."
+				""
+				"This quest has multiple pages, &6please go to the next page&r."
+				""
+				"{@pagebreak}"
+				"The &bInventory Connector&r and &bStorage Controller&r are blocks which act as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r."
+				""
+				"With the &bStorage Controller&r you can link distant storages using a &bStorage Link&r. You can do this with the &bInventory Connector&r as well, by utilizing the &bInventory Trim, or Inventory Cables and Cable Connectors&r."
+				""
+				"The &bStorage Terminal&r is the block which lets you see, deposit, and withdraw from your network. It can later be upgraded to a &bCrafting Terminal&r, which also allows you to craft from your inventory network."
+				"{@pagebreak}"
+				"Here is an example of a &ahybrid Tom's and Sophisticated setup&r. As you can see, it &duses only inventory containers from&r &lSophisticated Storage&r, with the &bTom's Storage Terminal&r attached to the &bSophisticated's Storage Controller&r."
+				""
+				"The remote storages are connected via a &bStorage Link&r."
+				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"This is an example of a &aTom's only&r setup, with vanilla containers (though it also supports containers from Sophisticated)."
+				""
+				"The remote containers are hooked into the &bInventory Connector&r via &bCables&r and &bCable Connectors&r."
+				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "1B3C37BD61939C76"
-			rewards: [
-				{
-					id: "4F0820A607503EB4"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-				{
-					id: "3FACEBD6DA635158"
-					item: "minecraft:barrel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4F0820A607503EB4"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "A searchable storage solution"
+			subtitle: "networking is important"
 			tasks: [
 				{
 					id: "65E8A2B80E50F100"
-					item: "toms_storage:ts.inventory_connector"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "Any #forge:inventory_controllers"
 					type: "item"
 				}
 				{
@@ -365,7 +386,7 @@
 					type: "item"
 				}
 			]
-			title: "Tom's Simple Storage"
+			title: "Network Interface"
 			x: 0.0d
 			y: -8.0d
 		}
@@ -396,6 +417,7 @@
 				table_id: 2068679807827730220L
 				type: "choice"
 			}]
+			shape: "hexagon"
 			subtitle: "Trim and tidy"
 			tasks: [{
 				count: 4L
@@ -422,27 +444,27 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "01427841634CD881"
+					id: "507AD7D665822346"
 					item: {
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "crafttweaker:connector"
+							value: "forge:inventory_controllers"
 						}
 					}
-					title: "Any #crafttweaker:connector"
+					title: "Any #forge:inventory_controllers"
 					type: "item"
 				}
 				{
-					id: "417BA48B393B8423"
+					id: "266DB9CE515A1C80"
 					item: {
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "crafttweaker:invcable"
+							value: "forge:connector"
 						}
 					}
-					title: "Any #crafttweaker:invcable"
+					title: "Any #forge:connector"
 					type: "item"
 				}
 			]
@@ -1113,6 +1135,18 @@
 				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "2AC77B6EF8DA00EA"
+			rewards: [
+				{
+					id: "0322C82302C0368C"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FAFB31A3273E794"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Let's get sophisticated"
@@ -1212,6 +1246,12 @@
 				"So if you use a &bTier 1&r and a &bTier 2&r, you will hold 2 stacks by 4 stacks, meaning 8 stacks, or &d512 items per slot&r."
 			]
 			id: "5795F032CB47389E"
+			rewards: [{
+				id: "4E0256A4F24F2BF0"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			shape: "hexagon"
 			subtitle: "higher and higher"
 			tasks: [{
 				id: "19424B20004EB2DA"
@@ -1230,6 +1270,18 @@
 				"You need to &6right click the &bTape&r onto the desired item. Then you can &6break the block&r and it will retain its inventory."
 			]
 			id: "04580014FE5705F2"
+			rewards: [{
+				id: "579B95EBBCA65FAC"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
 			subtitle: "Pack it up, Pack it in"
 			tasks: [{
 				id: "5D16A56E7E0AB5DE"
@@ -1257,6 +1309,12 @@
 				"The &bAdvanced Void Upgrade&r is capable of sorting by NBT and Damage levels."
 			]
 			id: "58E3A0A274BAB9B9"
+			rewards: [{
+				id: "20A569CCAD8BC4AF"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
 			subtitle: "A Very Important Upgrade"
 			tasks: [{
 				id: "3799A96F56496C61"
@@ -1270,6 +1328,12 @@
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: ["These upgrades will help you &aprocess items in your storage&r, by smelting, blasting, or smoking. The &aautomatic versions&r will do so without the player needing to manually input the items."]
 			id: "25777083FCF81F3C"
+			rewards: [{
+				id: "22ED4C90306B89EC"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
 			subtitle: "your storage has a right to due process"
 			tasks: [{
 				id: "42D27C96AC638A6A"
@@ -1288,6 +1352,13 @@
 				"It will &ahelp control what items get placed&r in the storage you use it on."
 			]
 			id: "51774D15356C5ADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659F470CF780B9A5"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "49F07E0B8DFDA184"
 				item: "sophisticatedstorage:filter_upgrade"
@@ -1300,6 +1371,13 @@
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: ["The &bCrafting&r and &bStonecutter&r upgrades provide those &acrafting interfaces&r in the storage you place them in."]
 			id: "3801FF70470C2994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44FCB8025F89352A"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0D54F10EE3D90E47"
@@ -1323,6 +1401,13 @@
 				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "204A015685DB4726"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B231070E8BC75D1"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "774785B108908F07"
 				item: "sophisticatedstorage:storage_tool"

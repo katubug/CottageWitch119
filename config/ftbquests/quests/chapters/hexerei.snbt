@@ -642,18 +642,6 @@
 			subtitle: "Any kind works!"
 			tasks: [
 				{
-					id: "610AC7B9B4F8D1E0"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "crafttweaker:brooms"
-						}
-					}
-					title: "Any #crafttweaker:brooms"
-					type: "item"
-				}
-				{
 					id: "7DCEB8A6B4301FD3"
 					item: {
 						Count: 1b
@@ -662,6 +650,18 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "5E53FCCAB6F56A53"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:brooms"
+						}
+					}
+					title: "Any #forge:brooms"
 					type: "item"
 				}
 			]

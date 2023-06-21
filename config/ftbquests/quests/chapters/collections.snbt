@@ -673,18 +673,6 @@
 					type: "item"
 				}
 				{
-					id: "16BEAB150ECF2C2D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "crafttweaker:lilies"
-						}
-					}
-					title: "Any #crafttweaker:lilies"
-					type: "item"
-				}
-				{
 					id: "17AA907FBDF0B888"
 					item: "byg:silver_vase_flower"
 					type: "item"
@@ -697,6 +685,11 @@
 				{
 					id: "4C42B6E5BB9590CC"
 					item: "environmental:pink_hibiscus"
+					type: "item"
+				}
+				{
+					id: "02F1701851490F09"
+					item: "sprout:pink_lily_of_the_valley"
 					type: "item"
 				}
 			]

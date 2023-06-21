@@ -1002,15 +1002,15 @@
 			}]
 			subtitle: "You know I wanna get ritual, ritual"
 			tasks: [{
-				id: "070595E29282D6D3"
+				id: "1BD9267C815BB9A3"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:ritualtablets"
+						value: "forge:ritual_tablets"
 					}
 				}
-				title: "Any Ritual Tablet"
+				title: "Any #forge:ritual_tablets"
 				type: "item"
 			}]
 			title: "Craft a Ritual Tablet"
@@ -1729,6 +1729,24 @@
 			}]
 			x: 0.5d
 			y: 2.5d
+		}
+		{
+			description: ["&bSkyweave&r is an item which &amimics the look of the sky&r, so you can see sunlight even when underground!"]
+			id: "3C9D1C2652667535"
+			rewards: [{
+				count: 5
+				id: "2CE973A6BEC0A601"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B0DC09EB80A513D"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
 		}
 	]
 	title: "Ars Nouveau"

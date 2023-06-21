@@ -395,15 +395,15 @@
 			]
 			subtitle: "I bet you're a really fun Gus"
 			tasks: [{
-				id: "398A0E64F8FA1A06"
+				id: "1CEF4F2B55F8948D"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:netmushcolony"
+						value: "forge:funguscolony"
 					}
 				}
-				title: "Any #crafttweaker:netmushcolony"
+				title: "Any #forge:funguscolony"
 				type: "item"
 			}]
 			title: "Obtain a Nether Fungus Colony"
@@ -1685,6 +1685,7 @@
 				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
 				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
 			]
+			icon: "brewinandchewin:scarlet_cheese_wheel"
 			id: "0593C1D467DB38E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1693,18 +1694,18 @@
 				type: "loot"
 			}]
 			subtitle: "not another cheesy pun..."
-			tasks: [{
-				id: "026310FB86DCF6D3"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:cheeses"
-					}
+			tasks: [
+				{
+					id: "03C6E2D0B6499D1B"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
 				}
-				title: "Any #crafttweaker:cheeses"
-				type: "item"
-			}]
+				{
+					id: "2F262CD8014DDB26"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+			]
 			title: "Make Some Cheese"
 			x: 10.5d
 			y: 5.5d
@@ -2126,15 +2127,15 @@
 			]
 			subtitle: "the doldrums"
 			tasks: [{
-				id: "0D8863BF5312178C"
+				id: "125177A658995C81"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:dolium"
+						value: "forge:dolium"
 					}
 				}
-				title: "Any #crafttweaker:dolium"
+				title: "Any #forge:dolium"
 				type: "item"
 			}]
 			title: "Obtain a Dolium"
@@ -2240,15 +2241,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2E6DB140B6C0DA58"
+				id: "27B0D9BDF67BB815"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:cookingpans"
+						value: "forge:cookingpans"
 					}
 				}
-				title: "Any #crafttweaker:cookingpans"
+				title: "Any #forge:cookingpans"
 				type: "item"
 			}]
 			title: "Obtain a Stir-Fry Pan"

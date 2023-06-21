@@ -381,15 +381,12 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
-				""
-				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r."
-				""
-				"{image:cottagewitch:textures/openparties.png width:180 height:200 align:1}"
-				""
-				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
-				""
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
+				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
+				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -413,13 +410,11 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
-				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
-				""
-				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
-				""
-				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
-				""
-				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
+				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
+				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/createaparty.png width:100 height:80 align:1 fit:true}"
+				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [
