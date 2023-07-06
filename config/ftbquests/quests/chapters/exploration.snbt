@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "exploration"
 	group: "346046A71D537172"
@@ -381,12 +382,11 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
-				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
-				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
-				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
+				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
+				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r."
+				"{image:cottagewitch:textures/openparties.png width:180 height:200 align:1}"
+				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -410,11 +410,19 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
-				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
-				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
-				"{image:cottagewitch:textures/createaparty.png width:100 height:80 align:1 fit:true}"
-				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
+				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
+				""
+				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
+				""
+				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
+				""
+				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
+				""
+				"There are TWO Parties mods in this modpack, due to reasons beyond the packmaker's control. :( I apologize for the confusion."
+				""
+				"&lFTB Teams&r parties allow you to &ashare quest progress&r but do not affect claims."
+				""
+				"&lOpen Parties&r parties allow you to &agrant acces to share claims&r, but do not affect quest progress."
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [
@@ -520,37 +528,6 @@
 			}]
 			title: "Pinning Other Things"
 			x: 7.5d
-			y: 9.0d
-		}
-		{
-			description: [
-				"{image:cottagewitch:textures/ftbdeathmarker.png width:100 height:70 align:1 fit:true}"
-				"Does this beam look familiar? Want to get rid of it? &6Follow these directions&r."
-				"In your inventory, look at the top left. You should see this map icon, pictured below. Click on that."
-				""
-				"{image:cottagewitch:textures/ftbmenu.png width:150 height:100 align:1}"
-				""
-				"Locate the &aSettings&r gear in the lower left, then click that."
-				"{image:cottagewitch:textures/ftbchunksettings.png width:150 height:75 align:1}"
-				""
-				"From here &6disable&r the options &d\"Create Waypoints on Death\"&r and &d\"Show Waypoints in World\"&r."
-				""
-				"{image:cottagewitch:textures/ftbchunksettings2.png width:100 height:10 align:1 fit:true}"
-			]
-			id: "5FAC987075A81A8D"
-			min_width: 300
-			rewards: [{
-				id: "3221B07C2CE46656"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "66A2EE20A62B20BE"
-				title: "Get rid of Death Marker Beams"
-				type: "checkmark"
-			}]
-			x: 4.5d
 			y: 9.0d
 		}
 		{

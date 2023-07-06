@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
 	group: "5FB460EFA0A2567E"
@@ -585,6 +586,7 @@
 			]
 			shape: "pentagon"
 			tasks: [{
+				consume_items: true
 				id: "0D268135EB5A0C2B"
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"

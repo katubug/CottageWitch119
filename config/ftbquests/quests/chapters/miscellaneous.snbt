@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "miscellaneous"
 	group: "346046A71D537172"

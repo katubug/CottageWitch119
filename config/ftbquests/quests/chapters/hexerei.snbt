@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "hexerei"
 	group: "2757402A47D6A081"

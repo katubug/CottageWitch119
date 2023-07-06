@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "create"
 	group: "2757402A47D6A081"
@@ -179,9 +180,14 @@
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"{image:cottagewitch:textures/waterwheel.png width:230 height:200 align:1}"
-				"One of the primary methods of creating rotational force is the &bWater Wheel&r. It requires &aflowing water&r to function. The most optimal way of doing this is to &6place it vertically&r, ensuring that it is not clipping into any blocks, and then placing a block of &bSoul Sand&r to one side of the bottom. Then, &6place two water source blocks&r on top of the &bSoul Sand&r, creating a &awater elevator&r. This will give you a generation of &d320 su&r, which is the maximum a Water Wheel&r can provide."
-				"You then place &bShafts&r or &bCogs&r at the center of the wheel, which transfers the power to the machines."
+				"An early game method of generating rotational force is with water wheels. They require &aat least one flowing water block&r to function. Any additional flowing water blocks &awill not generate more stress units or rotational speed&r. The two types of water wheels are the standard &bWater Wheel&r and the &bLarge Water Wheel&r. The standard &bWater Wheel&r generates &a256 su&r at a speed of &a8 rpm&r, while the &bLarge Water Wheel&r generates &a512 su&r at a speed of &a4 rpm&r."
+				""
+				""
+				"{image:cottagewitch:textures/lgwaterwheel.png width:100 height:100 align:1}"
+				""
+				"You can connect items such as &bShafts&r, &bCogs&r, or &bGearboxes&r to the center of the wheel, allowing you to distribute rotational force to your machines."
+				""
+				"You can also &6right-click&r the water wheel with a &bwooden plank&r to change the texture of the water wheel to the corresponding plank texture. Keep in mind that modded planks &dmay cause odd textures&r."
 			]
 			id: "2DC641E0D0A72439"
 			rewards: [{
@@ -196,17 +202,23 @@
 				type: "item"
 			}]
 			title: "Rotational Force: Water"
-			x: -5.0d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"A very powerful method of generating force is the &bWindmill&r. One can be made relatively simply, and then improved later on to create even more su."
-				"A Windmill requires a &bWindmill Bearing&r, to begin with. This can be &aplaced either horizontally or vertically&r, and the shafts must connect to the back of it. The front of the Bearing is sticky, so you can &6place blocks on it&r and they will become part of the machine."
-				"&dNow you have two choices&r, using &bSails&r or &bWool&r as the “sail-like” blocks."
-				"Once you have attached 8 or more sail-like blocks, &6right click the &bWindmill Bearing&r to activate the structure&r. If there is an issue, you can read about it by &6hovering over the block&r."
-				"Over time, you can expand a windmill by adding more sail-like blocks to it. The more there are, the &amore su it will generate&r. However, be aware that the &bRadial Chassis&r only has a radial range of 8 blocks."
+				"A mid-game method of generating rotational force is with a windmill. A small windmill can be made relatively easily, and can be expanded later on to generate more stress units."
+				""
+				"A windmill requires a &bWindmill Bearing&r, which can be &aplaced facing any direction&r. The front face of the Bearing is sticky, and &6a block placed on it&r will become part of the windmill. The back of the bearing is where shafts can be connected to distribute the windmill’s rotational force."
+				""
+				"&dNow you have two choices&r, using &bSails&r or &bWools&r as the “sail-like” blocks."
+				""
+				"Once you have attached 8 or more &bSails&r or sail-like blocks, &6right click the &bWindmill Bearing&r to activate the structure&r. &6Hold right-click while looking at the side of bearing&r to configure the rotational direction of the windmill. If &bWools&r are used, you have to &6apply glue to attach the blocks together&r as they do not automatically connect like sails do."
+				""
+				"You can expand a windmill up to 128 sail/sail-like blocks to generate a maximum of &a8192 su&r at a speed of &a16 rpm&r. Any additional &bSails&r or &bWools&r &adoes not generate more stress units or rotational speed&r."
+				""
+				"Other non-&bSails&r or &bWools&r blocks can also be attached to the windmill structure. These additional blocks &awill not affect the efficiency of the windmill&r so feel free to decorate the windmill as you please!"
 			]
 			id: "7653B8A3BFBA6E2C"
 			rewards: [
@@ -422,42 +434,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7653B8A3BFBA6E2C"]
-			description: ["You can use &bSails&r, which will &aautomatically become part of the structure&r, even if the block they are attached to is not a &bRadial Chassis&r. This method also does not require a &bSlime Ball&r."]
-			id: "7086AF668F510A2C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D91D14636EFD211"
-				table_id: 1032206960599939459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4D1ADB86F100E08F"
-				item: "create:white_sail"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7653B8A3BFBA6E2C"]
-			description: ["You may wish to use a &bRadial Chassis&r, which will attach to plain blocks such as &bWool&r. You must &6stick the wool to each side&r by first making it sticky. You can do this by right clicking the &bChassis&r with a &bSlime Block&r, and then &6placing the wool&r on the sticky side."]
-			id: "72519F917B007C84"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0BF35074E42F785E"
-				table_id: 1032206960599939459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "28A2A5CF8000F8A8"
-				item: "create:radial_chassis"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["21D14DACAA03665A"]
 			description: [
 				"&aRotational force&r is measured in &dStress Units, or su&r. The more force you generate, the more su you have access to. Machines require a certain amount of su to run, and if you try to place too many operations on a single network, your system can become &dOverstressed&r. You can view this in individual parts by &6wearing Goggles&r, but it is also recommended to craft a &bStressometer&r to attach to your network."
@@ -506,7 +482,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["576AE3823B89AE8E"]
+			dependencies: ["2DC641E0D0A72439"]
 			description: [
 				"The &bSteam Engine&r is another method of creating power, but it is &asignificantly more difficult&r and not recommended for beginners."
 				"To find out how to power a &bSteam Engine&r, as well as how to &dupgrade the output&r, please &6search &lJEI&r for \"steam engine\" and &6hold \"W\" to ponder&r."
@@ -523,7 +499,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -1121,6 +1097,7 @@
 			}]
 			subtitle: "blaze it lol"
 			tasks: [{
+				consume_items: true
 				count: 100L
 				id: "4D08E4AAADFA123B"
 				item: "create:blaze_cake"

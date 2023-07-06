@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "wildlife"
 	group: "5FB460EFA0A2567E"
@@ -304,7 +305,7 @@
 		{
 			description: [
 				"The &bFroststalker&r helmet is worn to convince &eFroststalkers&r that the player is one of them."
-				"It must be crafted from one of their horns. Once it is worn, you can &6breed them with beef&r - but be warned, taking off the helmet will &dmake the babies hostile as well&r."
+				"It must be crafted from one of their horns. Once it is worn, you can &6breed them with pork&r - but be warned, taking off the helmet will &dmake the babies hostile as well&r."
 			]
 			id: "3B900109B67CF812"
 			rewards: [{

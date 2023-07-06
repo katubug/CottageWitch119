@@ -17,4 +17,12 @@ Appearing on sloped terrain, near mountainous terrain, & BELOW weirdness 0, here
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-"slope_biomes/slope_biomes_1"
+{
+	"value": [
+		[ "byg:shattered_glacier", "byg:howling_peaks", "byg:canadian_shield", "byg:twilight_meadow", "byg:borealis_grove" ],
+		[ "byg:shattered_glacier", "byg:howling_peaks", "byg:canadian_shield", "byg:twilight_meadow", "byg:borealis_grove" ],
+		[ "byg:shattered_glacier", "byg:howling_peaks", "byg:canadian_shield", "byg:twilight_meadow", "byg:borealis_grove" ],
+		[ "byg:red_rock_valley", "byg:red_rock_valley", "byg:redwood_thicket", "byg:redwood_thicket", "byg:guiana_shield" ],
+		[ "byg:red_rock_valley", "byg:red_rock_valley", "byg:sierra_badlands", "byg:sierra_badlands", "byg:sierra_badlands" ]
+	]
+}

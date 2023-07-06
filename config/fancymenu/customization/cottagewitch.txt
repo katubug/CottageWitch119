@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/witchstump.png
+  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekat.png
   action = texturizebackground
 }
 
@@ -60,20 +60,9 @@ customization {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/folkcornersdown.png
-  orientation = bottom-left
-  x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = 964ea5a5-efee-4e94-8ca4-b9522ca04fde1681666712306
-  y = -100
-  height = 100
-}
-
-customization {
-  orientation = mid-centered
-  background_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
-  bar_texture = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
+  orientation = bottom-centered
+  background_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
+  bar_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
   progress_for_element_orientation = true
   background_color = #30372C
   x = -132
@@ -81,53 +70,30 @@ customization {
   bar_color = #545D51
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  y = 111
+  y = -111
   direction = right
   height = 34
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/folkcornersup.png
-  orientation = top-left
-  x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = dc0df729-c040-4ed1-b1d2-b54fb6387c491681666139240
-  y = 0
-  height = 100
-}
-
-customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
-  orientation = mid-left
-  x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = 8d5a92a2-5962-404a-bfcc-400343f6e6871681666205780
-  y = -105
-  height = 208
-}
-
-customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
-  orientation = mid-centered
+  path = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
+  orientation = bottom-centered
   x = -132
   width = 265
   action = addtexture
-  actionid = e7f98ea0-928b-40cb-b734-12bb31f862e01681936512389
-  y = 111
+  actionid = efc8cc75-8378-4a65-b97c-40538defbe831687133936505
+  y = -111
   height = 34
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bunny.png
-  orientation = element
-  orientation_element = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  x = -23
-  width = 50
+  path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
+  orientation = mid-centered
+  x = -350
+  width = 700
   action = addtexture
-  actionid = 32b9d7e3-3a0c-45e9-b624-304281b1754e1680826690082
-  y = -36
-  height = 50
+  actionid = ce580ae3-5e91-4202-929f-dd8a6d7658241687134015577
+  y = -97
+  height = 207
 }
 

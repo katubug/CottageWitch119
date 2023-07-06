@@ -3,14 +3,14 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
   randomgroup = 1
-  renderorder = background
+  renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
 }
 
 customization {
-  name = rowankitchen
-  action = setbackgroundpanorama
+  path = kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
+  action = texturizebackground
 }
 
 customization {
@@ -24,88 +24,26 @@ customization {
 }
 
 customization {
-  identifier = %id=658972%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minibuttonblankpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minibuttonblank.png
-}
-
-customization {
   identifier = %id=658948%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=658948%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minibuttonblankpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/minibuttonblank.png
-}
-
-customization {
-  identifier = %id=346948%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1.png
-}
-
-customization {
-  identifier = %id=450948%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1.png
-}
-
-customization {
-  identifier = %id=580972%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roserightpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseright.png
-}
-
-customization {
-  identifier = %id=346972%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseleftpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/roseleft.png
-}
-
-customization {
-  identifier = %id=426972%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bluerightpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/blueleft.png
-}
-
-customization {
-  identifier = %id=504972%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bluerightpressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/blueright.png
-}
-
-customization {
-  identifier = %id=554948%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
-  backgroundnormal = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/menubutton1.png
+  orientation = mid-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = background by forthwist
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -128
+  width = 128
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0917bfd6-684d-4603-9778-2e24216fa76b1687199048937
+  y = 143
+  alignment = left
+  height = 40
 }
 

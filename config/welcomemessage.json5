@@ -1,0 +1,37 @@
+{
+	// If the mod should only run on dedicated servers. When enabled it's not sent when in a singleplayer world.
+	"onlyRunOnDedicatedServers": true,
+	// Whether an empty line should be send before to first message to separate the welcome from other chat messages that might be sent.
+	"sendEmptyLineBeforeFirstMessage": true,
+	// The first message a player will receive when joining the world. Can be left empty.
+	"messageOneText": "Welcome to Hexhaven! Here are the relevant updates!",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageOneColourIndex": 6,
+	// If a link is entered here, the complete message will be clickable.
+	"messageOneOptionalURL": "",
+	// The second message a player will receive when joining the world. Can be left empty.
+	"messageTwoText": "-FTB Chunks has been replaced with Open Parties and Claims. All existing claims and force-loaded chunks are removed. Check your questbook for instructions on how to re-claim your chunks and spend some time adjusting your claim settings.
+
+-We are now using a resource pack from our very own StormCountTwo! Pocket Money coins will now appear as Copper = Lunar, Silver = Solar, Gold = Arcane.
+
+-Thanks to Astrofush for the updated resource model for Experience Obelisks!",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageTwoColourIndex": 11,
+	// If a link is entered here, the complete message will be clickable.
+	"messageTwoOptionalURL": "",
+	// The third message a player will receive when joining the world. Can be left empty.
+	"messageThreeText": "Local News:
+
+-Don't forget to check out the second Shopping District, available by train or Green Sharestone Network. 
+
+-Head Hunters has begun- find lootr chests around spawn and the public build area to collect Emmu Heads and trade them in at the Beastro for any decorative custom head you want!
+
+-Reduce server lag by optimising your inventory! Please DO NOT have your farms feed directly into a Tom's Storage. Please limit Drygmy farms to using 10 or fewer Drygmies. If you believe your storage system may be causing lag, or would like to have the moderator team help optimise your network, please write a -ticket in the discord including your coords.",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageThreeColourIndex": 13,
+	// If a link is entered here, the complete message will be clickable.
+	"messageThreeOptionalURL": ""
+}

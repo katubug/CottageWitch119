@@ -17,4 +17,12 @@ Appearing on elevated flat terrain BELOW weirdness 0 or in unfilled("NULL(nothin
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-"plateau_biomes/plateau_biomes_3"
+{
+	"value": [
+		[ "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:coniferous_forest" ],
+		[ "byg:coconino_meadow", "byg:coconino_meadow", "byg:cika_woods", "byg:cika_woods", "byg:autumnal_taiga" ],
+		[ "byg:temperate_grove", "byg:temperate_grove", "byg:temperate_grove", "byg:rose_fields", "byg:weeping_witch_forest" ],
+		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:redwood_thicket", "byg:ebony_woods", "byg:forgotten_forest" ],
+		[ "byg:red_rock_valley", "byg:red_rock_valley", "byg:red_rock_valley", "byg:sierra_badlands", "byg:sierra_badlands" ]
+	]
+}
