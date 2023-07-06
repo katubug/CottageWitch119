@@ -9,6 +9,7 @@
 		"Hide JEI Until Searching" = true
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "WINDOWED"
+		"Enable Extended Server View Distance" = true
 
 	[Settings."FPS Counter"]
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
