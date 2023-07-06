@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Shulker boxes preview their contents when hovered over. Right click an item on a Shulker box in your inventory to place the item easily inside."
+    }
+  }

@@ -1,0 +1,73 @@
+{
+    "size": "small",
+    "color": "#808080",
+    "waves": [{
+            "entities": [{
+                    "entity": "alexsmobs:farseer"
+                }
+            ],
+            "modifiers": [{
+                "attribute": "generic.max_health",
+                "operation": "MULTIPLY_TOTAL",
+                "value": 1
+            },
+            {
+                "attribute": "generic.armor",
+                "operation": "ADDITION",
+                "value": 2.5
+            }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "alexsmobs:farseer",
+                "rolls": 1
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "alexsmobs:farseer"
+                },
+                {
+                    "entity": "alexsmobs:farseer"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "alexsmobs:farseer",
+                "rolls": 2
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "alexsmobs:farseer",
+        "rolls": 1
+    }],
+    "completion_xp": 500,
+	"spawn_range": 7
+}

@@ -1,0 +1,58 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 20, 2023, 11:34:07 AM
+
+#idas:small_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_uncommon (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:underground_rare_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:common_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_mines (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_desert_rare (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_ocean (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_rare (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_small (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_uncommon (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground_rare (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:uncommon_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:nether_avoid
+- minecraft:nether_complexes (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_small_nether (from idas_forge-1.7.4+1.19.2.jar)
+
+#betterfortresses:fortress_avoid
+- minecraft:nether_complexes (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#idas:rare_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_small (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_uncommon (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground_rare (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:ancient_mines_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:ocean_avoid
+
+#idas:underground_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground_rare (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:desert_rare_avoid
+- minecraft:villages (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_mines (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_ocean (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_rare (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_small (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_uncommon (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground (from idas_forge-1.7.4+1.19.2.jar)
+- idas:idas_underground_rare (from idas_forge-1.7.4+1.19.2.jar)
+
+#idas:small_nether_avoid
+- minecraft:nether_complexes (from idas_forge-1.7.4+1.19.2.jar)

@@ -1,0 +1,18 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": "caupona:cereals/baked",
+      "cond": "mainly"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.75,
+  "output": "caupona:acquacotta",
+  "priority": 128,
+  "time": 200
+}

@@ -1,0 +1,12 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+        {
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "You can reroll enchantments on a specific item by lifting it out of the Enchanting Table and placing it back in."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "In multiplayer: Chest and Barrel loot is PER PERSON, meaning that if you leave a looted chest intact, another user can get their own stuff from it. Looted chests and barrels will change their textures from gold to silver."
+    }
+  }

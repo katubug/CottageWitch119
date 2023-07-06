@@ -1,0 +1,21 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": "caupona:eggs",
+      "cond": "mainly"
+    },
+    {
+      "type": "caupona:vegetables",
+      "cond": "contains"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.5,
+  "output": "caupona:stracciatella",
+  "time": 200
+}

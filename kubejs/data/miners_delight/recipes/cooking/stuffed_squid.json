@@ -1,0 +1,59 @@
+{
+  "replace":true,
+  
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    [
+      {
+        "tag": "crafttweaker:squid"
+      },
+      {
+        "item": "miners_delight:squid"
+      },
+      {
+        "item": "miners_delight:baked_squid"
+      },
+      {
+        "item": "miners_delight:glow_squid"
+      },
+      {
+        "item": "culturaldelights:glow_squid"
+      },
+      {
+        "item": "culturaldelights:cooked_squid"
+      },
+      {
+        "item": "culturaldelights:squid"
+      }
+    ],
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    [
+      {
+        "item": "miners_delight:cave_carrot"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "miners_delight:stuffed_squid"
+  }
+}

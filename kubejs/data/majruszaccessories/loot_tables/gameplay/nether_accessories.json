@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:gift",
+  "replace": true,
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:dice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:owl_feather"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 75
+        }
+      ]
+    }
+  ]
+}

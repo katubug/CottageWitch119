@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "This modpack supports shaders by default, without using OptiFine! This is thanks to the Oculus mod. I recommend Complementary Shaders, by EminGTR."
+    }
+  }

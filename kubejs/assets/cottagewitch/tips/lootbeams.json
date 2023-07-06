@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Dropped items will be highlighted with a colored beam of light, to help you find them."
+    }
+  }

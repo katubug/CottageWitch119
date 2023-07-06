@@ -1,0 +1,38 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:allium"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:blue_orchid"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:lily_of_the_valley"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:lilac"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:peony"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:rose_bush"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:peony"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:sunflower"
+			}
+		]
+	}]
+}

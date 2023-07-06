@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:red_sand",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}, {
+					"function": "minecraft:set_count",
+					"count": 4
+				}],
+				"weight": 7
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:sand",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}, {
+					"function": "minecraft:set_count",
+					"count": 8
+				}],
+				"weight": 3
+			}
+		]
+	}]
+}

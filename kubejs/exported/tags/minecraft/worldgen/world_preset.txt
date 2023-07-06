@@ -1,0 +1,16 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 20, 2023, 11:34:07 AM
+
+#minecraft:extended
+- #minecraft:normal (from Default)
+- minecraft:debug_all_block_states (from Default)
+- #byg:extended (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.3.jar)
+
+#byg:extended
+- byg:debug_biomes (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.3.jar)
+
+#minecraft:normal
+- minecraft:normal (from Default)
+- minecraft:flat (from Default)
+- minecraft:large_biomes (from Default)
+- minecraft:amplified (from Default)
+- minecraft:single_biome_surface (from Default)

@@ -1,0 +1,170 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 20, 2023, 11:34:07 AM
+
+#forge:experience
+- experienceobelisk:raw_experience (from experienceobelisk-v1.4.3-1.19.2.jar)
+- experienceobelisk:cognitium (from experienceobelisk-v1.4.3-1.19.2.jar)
+- mob_grinding_utils:fluid_xp? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- cofh_core:experience? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- industrialforegoing:essence? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.71.319.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- sliceanddice:flowing_fertilizer (from sliceanddice-forge-2.2.0.jar)
+- sliceanddice:fertilizer (from sliceanddice-forge-2.2.0.jar)
+- hexerei:blood_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:blood_fluid (from hexerei-0.3.2.2.jar)
+- hexerei:tallow_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:tallow_fluid (from hexerei-0.3.2.2.jar)
+- create_central_kitchen:flowing_sap? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- create_central_kitchen:sap? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- create_central_kitchen:flowing_syrup? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- create_central_kitchen:syrup? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- create_central_kitchen:flowing_tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- create_central_kitchen:tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.c.jar)
+- spelunkery:portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+- spelunkery:flowing_portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.8-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.8-universal.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.1.b.jar)
+- create:tea (from create-1.19.2-0.5.1.b.jar)
+
+#caupona:boilable
+- caupona:egg_tongsui (from caupona-1.19.2-0.2.7.jar)
+- caupona:bone_gelatin (from caupona-1.19.2-0.2.7.jar)
+- caupona:fish_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:pumpkin_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:bisque (from caupona-1.19.2-0.2.7.jar)
+- caupona:fricassee (from caupona-1.19.2-0.2.7.jar)
+- caupona:stracciatella (from caupona-1.19.2-0.2.7.jar)
+- caupona:nettle_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:goji_tongsui (from caupona-1.19.2-0.2.7.jar)
+- caupona:mushroom_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:walnut_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:egg_drop_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:custard (from caupona-1.19.2-0.2.7.jar)
+- caupona:poultry_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:scalded_milk (from caupona-1.19.2-0.2.7.jar)
+- caupona:stock (from caupona-1.19.2-0.2.7.jar)
+- caupona:vegetable_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:nail_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:rice_pudding (from caupona-1.19.2-0.2.7.jar)
+- caupona:borscht (from caupona-1.19.2-0.2.7.jar)
+- caupona:borscht_cream (from caupona-1.19.2-0.2.7.jar)
+- caupona:acquacotta (from caupona-1.19.2-0.2.7.jar)
+- caupona:cream_of_meat_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:dilute_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:porridge (from caupona-1.19.2-0.2.7.jar)
+- caupona:gruel (from caupona-1.19.2-0.2.7.jar)
+- caupona:meat_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:okroshka (from caupona-1.19.2-0.2.7.jar)
+- caupona:pumpkin_soup_cream (from caupona-1.19.2-0.2.7.jar)
+- caupona:seaweed_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:goulash (from caupona-1.19.2-0.2.7.jar)
+- caupona:cream_of_mushroom_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:fish_chowder (from caupona-1.19.2-0.2.7.jar)
+- caupona:hodgepodge (from caupona-1.19.2-0.2.7.jar)
+- caupona:ukha (from caupona-1.19.2-0.2.7.jar)
+- caupona:congee (from caupona-1.19.2-0.2.7.jar)
+- caupona:vegetable_chowder (from caupona-1.19.2-0.2.7.jar)
+- minecraft:water (from caupona-1.19.2-0.2.7.jar)
+- minecraft:milk (from caupona-1.19.2-0.2.7.jar)
+
+#caupona:pumice_bloom_grow_on
+- minecraft:water (from caupona-1.19.2-0.2.7.jar)
+
+#sliceanddice:moisturizing
+- minecraft:water (from sliceanddice-forge-2.2.0.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#spelunkery:portal_fluid
+- spelunkery:portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+- spelunkery:flowing_portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- hexerei:quicksilver_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:quicksilver_fluid (from hexerei-0.3.2.2.jar)
+
+#sliceanddice:fertilizer
+- sliceanddice:flowing_fertilizer (from sliceanddice-forge-2.2.0.jar)
+- sliceanddice:fertilizer (from sliceanddice-forge-2.2.0.jar)
+
+#create:bottomless/deny
+
+#caupona:stews
+- caupona:egg_tongsui (from caupona-1.19.2-0.2.7.jar)
+- caupona:bone_gelatin (from caupona-1.19.2-0.2.7.jar)
+- caupona:fish_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:pumpkin_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:bisque (from caupona-1.19.2-0.2.7.jar)
+- caupona:fricassee (from caupona-1.19.2-0.2.7.jar)
+- caupona:stracciatella (from caupona-1.19.2-0.2.7.jar)
+- caupona:nettle_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:goji_tongsui (from caupona-1.19.2-0.2.7.jar)
+- caupona:mushroom_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:walnut_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:egg_drop_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:custard (from caupona-1.19.2-0.2.7.jar)
+- caupona:poultry_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:scalded_milk (from caupona-1.19.2-0.2.7.jar)
+- caupona:stock (from caupona-1.19.2-0.2.7.jar)
+- caupona:vegetable_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:nail_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:rice_pudding (from caupona-1.19.2-0.2.7.jar)
+- caupona:borscht (from caupona-1.19.2-0.2.7.jar)
+- caupona:borscht_cream (from caupona-1.19.2-0.2.7.jar)
+- caupona:acquacotta (from caupona-1.19.2-0.2.7.jar)
+- caupona:cream_of_meat_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:dilute_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:porridge (from caupona-1.19.2-0.2.7.jar)
+- caupona:gruel (from caupona-1.19.2-0.2.7.jar)
+- caupona:meat_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:okroshka (from caupona-1.19.2-0.2.7.jar)
+- caupona:pumpkin_soup_cream (from caupona-1.19.2-0.2.7.jar)
+- caupona:seaweed_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:goulash (from caupona-1.19.2-0.2.7.jar)
+- caupona:cream_of_mushroom_soup (from caupona-1.19.2-0.2.7.jar)
+- caupona:fish_chowder (from caupona-1.19.2-0.2.7.jar)
+- caupona:hodgepodge (from caupona-1.19.2-0.2.7.jar)
+- caupona:ukha (from caupona-1.19.2-0.2.7.jar)
+- caupona:congee (from caupona-1.19.2-0.2.7.jar)
+- caupona:vegetable_chowder (from caupona-1.19.2-0.2.7.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.1.b.jar)
+- create:chocolate (from create-1.19.2-0.5.1.b.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.1.b.jar)
+- minecraft:lava (from create-1.19.2-0.5.1.b.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.1.b.jar)
+- create:honey (from create-1.19.2-0.5.1.b.jar)
+
+#sliceanddice:burning
+- minecraft:lava (from sliceanddice-forge-2.2.0.jar)
+
+#forge:potion
+- create:potion? (from starbunclemania-1.19.2-1.0.6.jar)
+- hexerei:potion? (from starbunclemania-1.19.2-1.0.6.jar)
+
+#watersource:drink
+- caupona:nail_soup (from caupona-1.19.2-0.2.7.jar)
+
+#caupona:water
+- caupona:stock (from caupona-1.19.2-0.2.7.jar)
+- caupona:nail_soup (from caupona-1.19.2-0.2.7.jar)

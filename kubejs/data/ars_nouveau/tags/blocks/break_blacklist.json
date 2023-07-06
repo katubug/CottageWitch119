@@ -1,0 +1,15 @@
+{
+
+  "replace":true,
+  
+  "values": [
+    "applecrates:oak_crate",
+    "applecrates:spruce_crate",
+    "applecrates:birch_crate",
+    "applecrates:acacia_crate",
+    "applecrates:jungle_crate",
+    "applecrates:dark_oak_crate",
+    "applecrates:crimson_crate",
+    "applecrates:warped_crate"
+  ]
+}

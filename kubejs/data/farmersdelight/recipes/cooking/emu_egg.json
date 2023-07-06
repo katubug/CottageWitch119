@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "alexsmobs:emu_egg"
+    },
+    {
+      "item": "spelunkery:salt"
+    }
+  ],
+  "result": {
+    "item": "alexsmobs:boiled_emu_egg"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

@@ -1,0 +1,537 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 20, 2023, 11:34:07 AM
+
+#ctov:village_savanna
+- ctov:large/village_savanna (from ctov-3.2.3.jar)
+- ctov:medium/village_savanna (from ctov-3.2.3.jar)
+- ctov:small/village_savanna (from ctov-3.2.3.jar)
+
+#better_traders:jungle_pyramid
+- minecraft:jungle_pyramid (from cottagewitch)
+
+#environmental:has_healer_pouch
+- #minecraft:mineshaft (from environmental-1.19.2-3.0.0.jar)
+- minecraft:stronghold (from environmental-1.19.2-3.0.0.jar)
+
+#minecraft:desert_pyramid
+- minecraft:desert_pyramid (from supplementaries-1.19.2-2.3.18.jar)
+
+#ctov:village_snowy
+- ctov:large/village_snowy (from ctov-3.2.3.jar)
+- ctov:medium/village_snowy (from ctov-3.2.3.jar)
+- ctov:small/village_snowy (from ctov-3.2.3.jar)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- betterwitchhuts:witch_circle (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#dungeons_plus:on_snowy_temple_maps
+- dungeons_plus:snowy_temple (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#quark:soul_bead_target
+- minecraft:fortress (from Quark-3.4-405.jar)
+- betterfortresses:fortress? (from Quark-3.4-405.jar)
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#ctov:village
+- #ctov:large_village (from ctov-3.2.3.jar)
+- #ctov:medium_village (from ctov-3.2.3.jar)
+- #ctov:small_village (from ctov-3.2.3.jar)
+
+#betterfortresses:better_fortresses
+- betterfortresses:fortress (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#ctov:village_swamp
+- ctov:large/village_swamp (from ctov-3.2.3.jar)
+- ctov:medium/village_swamp (from ctov-3.2.3.jar)
+- ctov:small/village_swamp (from ctov-3.2.3.jar)
+
+#ctov:village_dark_forest
+- ctov:large/village_dark_forest (from ctov-3.2.3.jar)
+- ctov:medium/village_dark_forest (from ctov-3.2.3.jar)
+- ctov:small/village_dark_forest (from ctov-3.2.3.jar)
+
+#idas:underground
+- idas:ancient_portal/ancient_portal (from idas_forge-1.7.4+1.19.2.jar)
+- idas:nexus (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp_deep (from idas_forge-1.7.4+1.19.2.jar)
+
+#ctov:village_underground
+- ctov:large/village_underground (from ctov-3.2.3.jar)
+- ctov:medium/village_underground (from ctov-3.2.3.jar)
+- ctov:small/village_underground (from ctov-3.2.3.jar)
+
+#ctov:village_beach
+- ctov:large/village_beach (from ctov-3.2.3.jar)
+- ctov:medium/village_beach (from ctov-3.2.3.jar)
+- ctov:small/village_beach (from ctov-3.2.3.jar)
+
+#idas:adventure_map_destinations
+- #idas:rare (from idas_forge-1.7.4+1.19.2.jar)
+- #idas:uncommon (from idas_forge-1.7.4+1.19.2.jar)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#ctov:pillager_outpost
+- ctov:pillager_outpost_beach (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_dark_forest (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_desert (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_jungle (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_badlands (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_mountain (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_plains (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_savanna (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_snowy (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_swamp (from ctov-3.2.3.jar)
+- ctov:pillager_outpost_taiga (from ctov-3.2.3.jar)
+- minecraft:pillager_outpost (from ctov-3.2.3.jar)
+
+#morevillagers:on_swamp_hut_explorer_maps
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#idas:rare
+- idas:labyrinth (from idas_forge-1.7.4+1.19.2.jar)
+- idas:pillager_fortress (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_mines (from idas_forge-1.7.4+1.19.2.jar)
+- idas:bazaar (from idas_forge-1.7.4+1.19.2.jar)
+- idas:tinkers_workshop (from idas_forge-1.7.4+1.19.2.jar)
+- idas:nexus (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ruins_of_the_deep (from idas_forge-1.7.4+1.19.2.jar)
+
+#ctov:village_jungle
+- ctov:large/village_jungle (from ctov-3.2.3.jar)
+- ctov:medium/village_jungle (from ctov-3.2.3.jar)
+- ctov:small/village_jungle (from ctov-3.2.3.jar)
+
+#ctov:village_mountain
+- ctov:large/village_mountain (from ctov-3.2.3.jar)
+- ctov:medium/village_mountain (from ctov-3.2.3.jar)
+- ctov:small/village_mountain (from ctov-3.2.3.jar)
+
+#minecraft:igloo
+- minecraft:igloo (from supplementaries-1.19.2-2.3.18.jar)
+
+#ctov:village_plains
+- ctov:large/village_plains (from ctov-3.2.3.jar)
+- ctov:medium/village_plains (from ctov-3.2.3.jar)
+- ctov:small/village_plains (from ctov-3.2.3.jar)
+
+#ctov:large_village
+- ctov:large/village_beach (from ctov-3.2.3.jar)
+- ctov:large/village_dark_forest (from ctov-3.2.3.jar)
+- ctov:large/village_jungle (from ctov-3.2.3.jar)
+- ctov:large/village_mesa (from ctov-3.2.3.jar)
+- ctov:large/village_mountain (from ctov-3.2.3.jar)
+- ctov:large/village_mushroom (from ctov-3.2.3.jar)
+- ctov:large/village_swamp (from ctov-3.2.3.jar)
+- ctov:large/village_desert (from ctov-3.2.3.jar)
+- ctov:large/village_plains (from ctov-3.2.3.jar)
+- ctov:large/village_savanna (from ctov-3.2.3.jar)
+- ctov:large/village_snowy (from ctov-3.2.3.jar)
+- ctov:large/village_taiga (from ctov-3.2.3.jar)
+- ctov:large/village_underground (from ctov-3.2.3.jar)
+
+#dungeons_plus:on_warped_garden_maps
+- dungeons_plus:warped_garden (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#better_traders:igloo
+- minecraft:igloo (from cottagewitch)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)
+
+#integrated_api:larger_locate_search
+- idas:labyrinth (from idas_forge-1.7.4+1.19.2.jar)
+- idas:pillager_fortress (from idas_forge-1.7.4+1.19.2.jar)
+- idas:wizard_tower (from idas_forge-1.7.4+1.19.2.jar)
+- idas:enchantingtower (from idas_forge-1.7.4+1.19.2.jar)
+- idas:castle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:cottage (from idas_forge-1.7.4+1.19.2.jar)
+- idas:brickhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:abandonedhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_mines (from idas_forge-1.7.4+1.19.2.jar)
+- idas:bearclaw_inn (from idas_forge-1.7.4+1.19.2.jar)
+- idas:sunken_ship/sunken_ship (from idas_forge-1.7.4+1.19.2.jar)
+- idas:sunken_ship/sunken_ship_ruins (from idas_forge-1.7.4+1.19.2.jar)
+- idas:hunters_cabin (from idas_forge-1.7.4+1.19.2.jar)
+- idas:farmhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:witches_treestump (from idas_forge-1.7.4+1.19.2.jar)
+- idas:hermits_hollow (from idas_forge-1.7.4+1.19.2.jar)
+- idas:apothecary_abode (from idas_forge-1.7.4+1.19.2.jar)
+- idas:fishermans_lodge (from idas_forge-1.7.4+1.19.2.jar)
+- idas:redhorn_guild (from idas_forge-1.7.4+1.19.2.jar)
+- idas:beekeepers_house (from idas_forge-1.7.4+1.19.2.jar)
+- idas:treetop_tavern (from idas_forge-1.7.4+1.19.2.jar)
+- idas:tinkers_workshop (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_portal/ancient_portal (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_portal/nether_ancient_portal (from idas_forge-1.7.4+1.19.2.jar)
+- idas:bazaar (from idas_forge-1.7.4+1.19.2.jar)
+- idas:haunted_manor (from idas_forge-1.7.4+1.19.2.jar)
+- idas:winter_wagon (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_spruce (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_dark_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_jungle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_acacia (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_birch (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_plains (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_desert (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_jungle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/forest_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/polar_bear_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/foxhound_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_red (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_orange (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_bygwindswept (from idas_forge-1.7.4+1.19.2.jar)
+- idas:washing_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market_red (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market_orange (from idas_forge-1.7.4+1.19.2.jar)
+- idas:pillager_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp_deep (from idas_forge-1.7.4+1.19.2.jar)
+- idas:nexus (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ruins_of_the_deep (from idas_forge-1.7.4+1.19.2.jar)
+
+#ctov:village_mushroom
+- ctov:large/village_mushroom (from ctov-3.2.3.jar)
+- ctov:medium/village_mushroom (from ctov-3.2.3.jar)
+- ctov:small/village_mushroom (from ctov-3.2.3.jar)
+
+#minecraft:all_structures
+- #minecraft:village (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:ruined_portal (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:shipwreck (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:mansion (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:end_city (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:fortress (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:bastion_remnant (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:desert_pyramid (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:buried_treasure (from deeperdarker-forge-1.1.6-forge.jar)
+
+#idas:common
+- idas:wizard_tower (from idas_forge-1.7.4+1.19.2.jar)
+- idas:enchantingtower (from idas_forge-1.7.4+1.19.2.jar)
+- idas:castle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:brickhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:abandonedhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:bearclaw_inn (from idas_forge-1.7.4+1.19.2.jar)
+- idas:hunters_cabin (from idas_forge-1.7.4+1.19.2.jar)
+- idas:farmhouse (from idas_forge-1.7.4+1.19.2.jar)
+- idas:witches_treestump (from idas_forge-1.7.4+1.19.2.jar)
+- idas:hermits_hollow (from idas_forge-1.7.4+1.19.2.jar)
+- idas:fishermans_lodge (from idas_forge-1.7.4+1.19.2.jar)
+- idas:redhorn_guild (from idas_forge-1.7.4+1.19.2.jar)
+- idas:beekeepers_house (from idas_forge-1.7.4+1.19.2.jar)
+
+#betterdungeons:better_dungeons
+- betterdungeons:small_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:spider_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:skeleton_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:zombie_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:small_nether_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#minecraft:bastion_remnant
+- minecraft:bastion_remnant (from supplementaries-1.19.2-2.3.18.jar)
+
+#ars_nouveau:wilden_den
+- ars_nouveau:hunter_wilden_den (from ars_nouveau-1.19.2-3.16.2.jar)
+- ars_nouveau:stalker_wilden_den (from ars_nouveau-1.19.2-3.16.2.jar)
+- ars_nouveau:guardian_wilden_den (from ars_nouveau-1.19.2-3.16.2.jar)
+
+#minecraft:pillager_outpost
+- minecraft:pillager_outpost (from supplementaries-1.19.2-2.3.18.jar)
+
+#idas:ocean
+- idas:sunken_ship/sunken_ship (from idas_forge-1.7.4+1.19.2.jar)
+- idas:sunken_ship/sunken_ship_ruins (from idas_forge-1.7.4+1.19.2.jar)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#better_traders:desert_pyramid
+- minecraft:desert_pyramid (from cottagewitch)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#minecraft:jungle_pyramid
+- minecraft:jungle_pyramid (from supplementaries-1.19.2-2.3.18.jar)
+
+#minecraft:swamp_hut
+- minecraft:swamp_hut (from supplementaries-1.19.2-2.3.18.jar)
+
+#idas:campsites
+- idas:lumber_camp/lumber_camp_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_spruce (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_dark_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_jungle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_acacia (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_birch (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_red (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_orange (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_bygwindswept (from idas_forge-1.7.4+1.19.2.jar)
+- idas:washing_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:pillager_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp_deep (from idas_forge-1.7.4+1.19.2.jar)
+
+#supplementaries:way_sign_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.3.18.jar)
+- hauntedharvest:abandoned_farm? (from supplementaries-1.19.2-2.3.18.jar)
+- harvestseason:abandoned_farm? (from supplementaries-1.19.2-2.3.18.jar)
+- pokecube_legends:village? (from supplementaries-1.19.2-2.3.18.jar)
+- pokecube_legends:village/ocean? (from supplementaries-1.19.2-2.3.18.jar)
+- valhelsia_structures:castle? (from supplementaries-1.19.2-2.3.18.jar)
+- valhelsia_structures:castle_ruin? (from supplementaries-1.19.2-2.3.18.jar)
+- valhelsia_structures:small_castle? (from supplementaries-1.19.2-2.3.18.jar)
+- valhelsia_structures:tower_ruin? (from supplementaries-1.19.2-2.3.18.jar)
+- stoneholm:underground_village? (from supplementaries-1.19.2-2.3.18.jar)
+- blue_skies:gatekeeper_house? (from supplementaries-1.19.2-2.3.18.jar)
+- feywild:library? (from supplementaries-1.19.2-2.3.18.jar)
+- feywild:blacksmith? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:bazaar? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:castle? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:bearclaw_inn? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:treetop_tavern? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:wizardtower? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:fishermans_lodge? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:beekeepers_house? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:desert_market/desert_market? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:desert_market/desert_market_red? (from supplementaries-1.19.2-2.3.18.jar)
+- idas:desert_market/desert_market_orange? (from supplementaries-1.19.2-2.3.18.jar)
+
+#morevillagers:on_fortress_explorer_maps
+- #betterfortresses:better_fortresses (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#integrated_stronghold:integrated_stronghold
+- integrated_stronghold:stronghold (from integrated_stronghold_forge-1.0.2+1.19.2.jar)
+
+#idas:uncommon
+- idas:apothecary_abode (from idas_forge-1.7.4+1.19.2.jar)
+- idas:treetop_tavern (from idas_forge-1.7.4+1.19.2.jar)
+- idas:haunted_manor (from idas_forge-1.7.4+1.19.2.jar)
+- idas:winter_wagon (from idas_forge-1.7.4+1.19.2.jar)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+- #ctov:large_village (from ctov-3.2.3.jar)
+- #ctov:medium_village (from ctov-3.2.3.jar)
+- #ctov:small_village (from ctov-3.2.3.jar)
+
+#dungeons_plus:on_reanimated_ruins_maps
+- dungeons_plus:reanimated_ruins_mossy (from dungeons_plus-1.19.2-1.3.1.jar)
+- dungeons_plus:reanimated_ruins_mesa (from dungeons_plus-1.19.2-1.3.1.jar)
+- dungeons_plus:reanimated_ruins_frozen (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#ctov:village_taiga
+- ctov:large/village_taiga (from ctov-3.2.3.jar)
+- ctov:medium/village_taiga (from ctov-3.2.3.jar)
+- ctov:small/village_taiga (from ctov-3.2.3.jar)
+
+#minecraft:end_city
+- minecraft:end_city (from supplementaries-1.19.2-2.3.18.jar)
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.3.18.jar)
+- #minecraft:shipwreck (from supplementaries-1.19.2-2.3.18.jar)
+- #minecraft:mineshaft (from supplementaries-1.19.2-2.3.18.jar)
+- #minecraft:ocean_ruin (from supplementaries-1.19.2-2.3.18.jar)
+- #minecraft:ruined_portal (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:swamp_hut (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:bastion_remnant (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:jungle_pyramid (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:desert_pyramid (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:pillager_outpost (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:igloo (from supplementaries-1.19.2-2.3.18.jar)
+- minecraft:end_city (from supplementaries-1.19.2-2.3.18.jar)
+
+#idas:small
+- idas:cottage (from idas_forge-1.7.4+1.19.2.jar)
+- idas:sunken_ship/sunken_ship_ruins (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_spruce (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_dark_oak (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_jungle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_acacia (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_birch (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygredwood (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bopmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:lumber_camp/lumber_camp_bygmahogany (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_plains (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_desert (from idas_forge-1.7.4+1.19.2.jar)
+- idas:ancient_statue/ancient_statue_jungle (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/forest_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/polar_bear_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:animal_den/foxhound_den (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_red (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_orange (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_camp/desert_camp_bygwindswept (from idas_forge-1.7.4+1.19.2.jar)
+- idas:washing_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market_red (from idas_forge-1.7.4+1.19.2.jar)
+- idas:desert_market/desert_market_orange (from idas_forge-1.7.4+1.19.2.jar)
+- idas:pillager_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp (from idas_forge-1.7.4+1.19.2.jar)
+- idas:underground_camp/underground_camp_deep (from idas_forge-1.7.4+1.19.2.jar)
+
+#byg:on_ancient_sequoia_explorer_maps
+- byg:ancient_sequoia (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.3.jar)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#better_traders:swamp_hut
+- minecraft:swamp_hut (from cottagewitch)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- betterwitchhuts:witch_circle (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#ctov:village_desert
+- ctov:large/village_desert (from ctov-3.2.3.jar)
+- ctov:medium/village_desert (from ctov-3.2.3.jar)
+- ctov:small/village_desert (from ctov-3.2.3.jar)
+
+#minecraft:fortress
+- minecraft:fortress (from supplementaries-1.19.2-2.3.18.jar)
+
+#dungeons_plus:on_leviathan_maps
+- dungeons_plus:leviathan (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#ctov:village_mesa
+- ctov:large/village_mesa (from ctov-3.2.3.jar)
+- ctov:medium/village_mesa (from ctov-3.2.3.jar)
+- ctov:small/village_mesa (from ctov-3.2.3.jar)
+
+#structory_towers:any_tower
+- structory_towers:ancient_temple (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:engineer_tower (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:farmer_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:foraging_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:great_toadstool (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:lighthouse (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:mirage_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:nomad_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:ocean_pillar (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:overgrown_mangrove (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:pillager_lookout (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:quarter_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:sacred_relic_temple (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:small_firetower (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:taiga_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:warped_greatsword (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:wizard_tower (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:nether/strange_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:nether/warped_outpost (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:nether/fortress_tower (from Structory_Towers_1.19.3_v1.0.2.jar)
+- structory_towers:end/end_tower (from Structory_Towers_1.19.3_v1.0.2.jar)
+
+#ctov:small_village
+- ctov:small/village_beach (from ctov-3.2.3.jar)
+- ctov:small/village_dark_forest (from ctov-3.2.3.jar)
+- ctov:small/village_jungle (from ctov-3.2.3.jar)
+- ctov:small/village_mesa (from ctov-3.2.3.jar)
+- ctov:small/village_mountain (from ctov-3.2.3.jar)
+- ctov:small/village_mushroom (from ctov-3.2.3.jar)
+- ctov:small/village_swamp (from ctov-3.2.3.jar)
+- ctov:small/village_desert (from ctov-3.2.3.jar)
+- ctov:small/village_plains (from ctov-3.2.3.jar)
+- ctov:small/village_savanna (from ctov-3.2.3.jar)
+- ctov:small/village_snowy (from ctov-3.2.3.jar)
+- ctov:small/village_taiga (from ctov-3.2.3.jar)
+- ctov:small/village_underground (from ctov-3.2.3.jar)
+
+#minecraft:ancient_city
+- minecraft:ancient_city (from supplementaries-1.19.2-2.3.18.jar)
+
+#ctov:medium_village
+- ctov:medium/village_beach (from ctov-3.2.3.jar)
+- ctov:medium/village_dark_forest (from ctov-3.2.3.jar)
+- ctov:medium/village_jungle (from ctov-3.2.3.jar)
+- ctov:medium/village_mesa (from ctov-3.2.3.jar)
+- ctov:medium/village_mountain (from ctov-3.2.3.jar)
+- ctov:medium/village_mushroom (from ctov-3.2.3.jar)
+- ctov:medium/village_swamp (from ctov-3.2.3.jar)
+- ctov:medium/village_desert (from ctov-3.2.3.jar)
+- ctov:medium/village_plains (from ctov-3.2.3.jar)
+- ctov:medium/village_savanna (from ctov-3.2.3.jar)
+- ctov:medium/village_snowy (from ctov-3.2.3.jar)
+- ctov:medium/village_taiga (from ctov-3.2.3.jar)
+- ctov:medium/village_underground (from ctov-3.2.3.jar)
+
+#minecraft:eye_of_ender_located
+- integrated_stronghold:stronghold (from integrated_stronghold_forge-1.0.2+1.19.2.jar)
+
+#alexsmobs:spawns_underminers
+- #minecraft:mineshaft (from alexsmobs-1.21.1.jar)

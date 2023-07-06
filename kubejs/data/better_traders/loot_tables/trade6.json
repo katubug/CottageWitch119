@@ -1,0 +1,80 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:mob_buckets",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:4b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:goat_horn",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:4b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_instrument",
+						"options": "#minecraft:regular_goat_horns"
+					}
+				],
+				"weight": 2
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:goat_horn",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:6b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_instrument",
+						"options": "#minecraft:screaming_goat_horns"
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:bundle",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:5,buy:{id:\"minecraft:emerald\",Count:5b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:scute",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:5,buy:{id:\"minecraft:emerald\",Count:5b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:blue_ice",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:6b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:wet_sponge",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:6,buy:{id:\"minecraft:emerald\",Count:12b},TradeOffer:1b}"
+				}],
+				"weight": 2
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:map",
+				"weight": 6
+			}
+		]
+	}]
+}

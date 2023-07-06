@@ -1,0 +1,286 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:pumpkins"
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:mushrooms",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:flowers",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:dyes",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:sands"
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:coral_blocks",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:fern",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:vine",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:melon_seeds",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:lily_pad",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:sugar_cane",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:cocoa_beans",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:snowball",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 8
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:honeycomb",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 2
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:small_dripleaf",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 2
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:spore_blossom",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 2
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:amethyst_shard",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:gunpowder",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:sea_pickle",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:cactus",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:bamboo",
+				"functions": [{
+						"function": "minecraft:set_nbt",
+						"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b},TradeOffer:1b}"
+					},
+					{
+						"function": "minecraft:set_count",
+						"count": 3
+					}
+				]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:glowstone",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:slime_ball",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:packed_ice",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:loot_table",
+				"name": "better_traders:saplings_tag"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:nautilus_shell",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:4b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:rabbit_foot",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:8,buy:{id:\"minecraft:emerald\",Count:4b},TradeOffer:1b}"
+				}]
+			}
+		]
+	}]
+}

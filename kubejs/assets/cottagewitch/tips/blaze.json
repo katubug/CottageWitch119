@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Modded Tips",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Blaze Rods are now placeable, just like End Rods!"
+  }
+}

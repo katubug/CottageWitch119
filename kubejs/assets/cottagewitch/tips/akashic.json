@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "The Akashic Tome has confusing controls. Right click it to select a book from the menu. Left click it in the air to reset it from a selected book. Crouch and throw the Tome when a book is selected to remove that book from it. Craft the Tome with a book to hold the book inside it."
+    }
+  }

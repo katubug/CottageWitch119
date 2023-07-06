@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#forge:vegetables/asparagus",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:allium",
+    {
+      "id": "farmersdelight:cabbage",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cabbage_leaf",
+      "required": false
+    },
+    {
+      "id": "netherdepthsupgrade:warped_kelp",
+      "required": false
+    }
+  ]
+}

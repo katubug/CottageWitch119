@@ -1,0 +1,27 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 20, 2023, 11:34:07 AM
+
+#neapolitan:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.3.18.jar)
+
+#artifacts:antidote_vessel_cancellable
+- minecraft:blindness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:nausea (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:mining_fatigue (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:hunger (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:levitation (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:slowness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:poison (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:weakness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:wither (from artifacts-1.19.2-5.0.2.jar)
+
+#ars_nouveau:unstable_gifts
+- minecraft:slow_falling (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:night_vision (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:conduit_power (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:absorption (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:strength (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:fire_resistance (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:haste (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:speed (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:regeneration (from ars_nouveau-1.19.2-3.16.2.jar)
+- minecraft:resistance (from ars_nouveau-1.19.2-3.16.2.jar)

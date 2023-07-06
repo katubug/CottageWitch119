@@ -1,0 +1,20 @@
+{
+  "type": "caupona:cooking",
+  "allow": [
+    {
+      "type": {
+        "item": "minecraft:kelp"
+      },
+      "cond": "mainly"
+    }
+  ],
+  "base": [
+    {
+      "fluid": "caupona:nail_soup"
+    }
+  ],
+  "density": 0.75,
+  "output": "caupona:seaweed_soup",
+  "priority": 64,
+  "time": 200
+}
