@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekat.png
-  action = texturizebackground
+  name = mainmenu_slideshow
+  action = setbackgroundslideshow
 }
 
 customization {
@@ -340,11 +340,11 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 143
+  width = 122
   action = deep_customization_element:title_screen_branding
   actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
-  y = 388
-  height = 60
+  y = 332
+  height = 50
 }
 
 customization {
@@ -419,7 +419,7 @@ customization {
   scale = 60
   headrotationy = 0.0
   headrotationx = 0.0
-  skinurl = http://textures.minecraft.net/texture/b7060aec492b583d0b930f5356a263e60ac572859c351ce025afdd94818727de
+  skinurl = http://textures.minecraft.net/texture/74d10c58f4f5ca11bb156b025a7d98857e71c838c3862df8c817e5759b9a9727
   showname = false
   crouching = false
   follow_mouse = true
@@ -429,7 +429,7 @@ customization {
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = a011a95f-7603-4841-aa82-8236f87900731680030674211
   y = -198
-  playername = Katubug
+  playername = Emmulah
   bodyrotationx = 0.0
   parrot = false
   bodyrotationy = 0.0
@@ -448,24 +448,5 @@ customization {
   actionid = a9ba6664-613d-4454-a96f-9ef77d87579c1687134737831
   y = -105
   height = 100
-}
-
-customization {
-  orientation = bottom-left
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = background by xx_alliekat_xx
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 1
-  width = 165
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 71bb9fe7-1df9-4540-96e4-20e942f8fced1687199227764
-  y = -73
-  alignment = left
-  height = 14
 }
 

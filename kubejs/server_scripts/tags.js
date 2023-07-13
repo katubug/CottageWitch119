@@ -1,8 +1,22 @@
 ServerEvents.tags('item', event => {
 
     // Dirt for Compost Recipe
-    event.add('forge:dirt', 'minecraft:dirt', 'minecraft:coarse_dirt',
-    'minecraft:rooted_dirt','minecraft:podzol', 'byg:lush_dirt', 'twilightforest:uberous_soil')
+    event.add('forge:dirt',
+     'minecraft:dirt', 
+     'minecraft:coarse_dirt',
+    'minecraft:rooted_dirt',
+    'minecraft:podzol', 
+    'byg:lush_dirt', 
+    'twilightforest:uberous_soil')
+
+    // Dirt for Compost Recipe
+ event.add('forge:compressable_dirt', 
+ 'minecraft:dirt', 
+ 'minecraft:coarse_dirt',
+ 'minecraft:rooted_dirt',
+ 'minecraft:podzol', 
+ 'byg:lush_dirt', 
+ 'twilightforest:uberous_soil')
 
     // Organic materials for Compost Recipe
     event.add('forge:compost',

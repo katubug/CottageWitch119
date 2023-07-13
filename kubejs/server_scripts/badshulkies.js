@@ -1,3 +1,5 @@
+
+
 BlockEvents.rightClicked('minecraft:shulker_box', e => {
     if(e.item.id == 'sophisticatedstorage:basic_tier_upgrade' 
     || e.item.id == 'sophisticatedstorage:basic_to_iron_tier_upgrade'
@@ -6,4 +8,3 @@ BlockEvents.rightClicked('minecraft:shulker_box', e => {
     || e.item.id == 'sophisticatedstorage:basic_to_netherite_tier_upgrade'
     ) e.cancel()
 })
-

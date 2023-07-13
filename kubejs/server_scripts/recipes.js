@@ -1104,6 +1104,14 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
+    //Compressed Dirt
+    event.replaceInput(
+        { input: 'minecraft:dirt' }, // Arg 1: the filter
+        'minecraft:dirt',            // Arg 2: the item to replace
+        '#forge:compressable_dirt'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+      )
+
     // BG Charging Gadget
     event.shaped(
         Item.of('charginggadgets:charging_station'),
@@ -1882,6 +1890,13 @@ ServerEvents.recipes(event => {
             'minecraft:egg',
             'minecraft:egg',
             'minecraft:egg'
+        ]
+      )
+
+      event.shapeless(
+        Item.of('minecraft:egg', 9), 
+        [ 
+            'prefab:item_carton_of_eggs'
         ]
       )
 

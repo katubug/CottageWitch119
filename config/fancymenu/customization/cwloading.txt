@@ -10,7 +10,7 @@ customization-meta {
 }
 
 customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekatredo2.png
+  path = kubejs/assets/cottagewitch/textures/mainmenu/bg_librarytower.png
   action = texturizebackground
 }
 
@@ -22,11 +22,11 @@ customization {
 customization {
   path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
   orientation = bottom-centered
-  x = -325
+  x = -334
   width = 646
   action = addtexture
   actionid = 6d791f37-757f-48be-a073-9afc268517b91687193396772
-  y = -192
+  y = -204
   height = 192
 }
 
