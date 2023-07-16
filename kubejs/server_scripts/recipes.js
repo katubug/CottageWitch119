@@ -1958,8 +1958,65 @@ event.shaped(
         D:'minecraft:gold_ingot'
     })
 
+// Coin Conversion recipes
+    // Lunar to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin'),
+        [ 
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin'
+        ]
+    )
+
+    // Solar to Arcane
+    event.shapeless(
+        Item.of('kubejs:arcane_coin'),
+        [ 
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin'
+        ]
+    )
+
+    // Arcane to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin', 9),
+        [ 
+            'kubejs:arcane_coin'
+        ]
+    )
+
+    // Solar to Lunar
+    event.shapeless(
+        Item.of('kubejs:lunar_coin', 9),
+        [ 
+            'kubejs:solar_coin'
+        ]
+    )
 
 
+    // pocket money to kubejs conversions
+
+// Lunar to Lunar
+event.shapeless(
+    Item.of('kubejs:lunar_coin'),
+    [ 
+        'pocket_money:copper_coin'
+    ]
+)
 
   })
 

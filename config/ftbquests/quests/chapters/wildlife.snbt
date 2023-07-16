@@ -329,7 +329,7 @@
 		}
 		{
 			dependencies: ["76AE2C92FF896611"]
-			description: ["These can be obtained by &abartering with Piglin&r, and are used to &afully tame a &eTusklin&r."]
+			description: ["These can be obtained by &acrafting&r, and are used to &afully tame a &eTusklin&r."]
 			id: "1278F8ABB539E261"
 			rewards: [{
 				id: "4F976B6DE5EA26A4"
