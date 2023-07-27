@@ -77,4 +77,10 @@
 		wheel_of_fortune_luckbonus = 1.5
 		#Stops upgrading enchantment books when they are at max level
 		the_highpriestess_capenchants = true
+		#Percentage of fall damage negated (0.5 = 50%)
+		#Range: 0.0 ~ 1.0
+		the_tower_damagenegation = 1.0
+		#Percentage of damage returned to the attacker (1.0 = 100%)
+		#Range: 0.0 ~ 100.0
+		justice_damagemultiplier = 1.0
 

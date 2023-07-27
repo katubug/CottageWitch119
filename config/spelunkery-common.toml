@@ -6,6 +6,9 @@
 	enable_rough_gems = true
 	enable_raw_nuggets = true
 	stonecutter_damage = true
+	disable_diamond_grindstone_depletion = false
+	#Range: 0 ~ 128
+	parachute_delay = 10
 
 [nether_portals]
 	flint_and_steel_portal_lighting = true
@@ -15,6 +18,7 @@
 	piglins_give_crying_obsidian = true
 	portal_creation_sound = true
 	portal_destruction_sound = true
+	portal_fluid_drinking = true
 
 [worldgen]
 	stone_stripe_features = false

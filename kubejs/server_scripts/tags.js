@@ -719,6 +719,11 @@ ServerEvents.tags('item', event => {
     'miners_delight:baked_squid'
     )
 
+      // Reinforced Deepslate
+      event.add('forge:relocation_not_supported',
+      'minecraft:reinforced_deepslate'
+      )
+
 })
 
 
@@ -787,6 +792,11 @@ ServerEvents.tags('block', event => {
     'caupona:opus_latericium_kitchen_stove',
     'caupona:stone_brick_kitchen_stove'
     )
+
+      // Reinforced Deepslate
+      event.add('forge:relocation_not_supported',
+      'minecraft:reinforced_deepslate'
+      )
 
 })
 

@@ -1,5 +1,6 @@
 {
 	"values": [
-		"better_traders:constant"
+		"better_traders:constant",
+	"no_old_combat:tick"
 	]
 }
