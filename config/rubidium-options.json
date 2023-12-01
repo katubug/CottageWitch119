@@ -14,6 +14,7 @@
   "performance": {
     "chunk_builder_threads": 0,
     "always_defer_chunk_updates": false,
+    "use_no_error_g_l_context": true,
     "animate_only_visible_textures": true,
     "use_entity_culling": true,
     "use_particle_culling": true,

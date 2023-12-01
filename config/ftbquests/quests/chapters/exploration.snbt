@@ -103,7 +103,6 @@
 					auto: "enabled"
 					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
 					id: "4B2B69209045245C"
-					player_command: false
 					team_reward: false
 					type: "command"
 				}
@@ -272,7 +271,6 @@
 					}
 				}
 				id: "34D0D294831901C4"
-				player_command: false
 				type: "command"
 			}]
 			tasks: [{

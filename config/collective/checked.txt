@@ -1,0 +1,2 @@
+# Please check out https://stopmodreposts.org/ for more information on why this feature exists.
+checked=true

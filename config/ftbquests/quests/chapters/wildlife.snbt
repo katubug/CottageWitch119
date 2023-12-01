@@ -40,7 +40,7 @@
 			image: "cottagewitch:textures/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 6.0d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -64,7 +64,19 @@
 			image: "cottagewitch:textures/bgmonsters.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -6.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmythicmounts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
 			y: 4.5d
 		}
 	]
@@ -199,8 +211,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Mimicube"
-			x: 4.5d
-			y: 4.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: ["The &eSnuffle&r is a passive creature with a permanent blep. It can be found in snowy biomes, and &atamed with potatoes&r."]
@@ -280,7 +292,7 @@
 				item: "alexsmobs:guster_eye"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -299,7 +311,7 @@
 				id: "52C91B46CDFEC1C4"
 				type: "advancement"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 6.0d
 		}
 		{
@@ -324,7 +336,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -398,7 +410,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Straddler"
-			x: 7.0d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -428,7 +440,7 @@
 				type: "item"
 			}]
 			title: "Summon the Void Worm"
-			x: 3.5d
+			x: 6.5d
 			y: 7.5d
 		}
 		{
@@ -454,7 +466,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Rocky Roller"
-			x: 7.0d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
@@ -487,7 +499,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -526,7 +538,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Skelewag"
-			x: 4.5d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -592,7 +604,7 @@
 				item: "alexsmobs:straddle_saddle"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -885,7 +897,7 @@
 				id: "7AAC55D83C5EDC7A"
 				type: "advancement"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 4.5d
 		}
 		{
@@ -1325,7 +1337,7 @@
 				id: "016BADEBDA25900E"
 				type: "advancement"
 			}]
-			x: -9.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -1359,7 +1371,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -9.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -1487,7 +1499,7 @@
 				}
 			]
 			title: "Creeper Collector"
-			x: -9.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -1517,7 +1529,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -8.0d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -1555,7 +1567,7 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -8.0d
+			x: -2.0d
 			y: 7.5d
 		}
 		{
@@ -1589,7 +1601,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -7.0d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -1608,7 +1620,7 @@
 				id: "1BBF8996270374EB"
 				type: "advancement"
 			}]
-			x: -6.0d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -1679,7 +1691,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -1717,7 +1729,7 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -4.0d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -1746,7 +1758,7 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: -4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -1774,7 +1786,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -1813,7 +1825,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -1839,7 +1851,7 @@
 				id: "39A1B59A1F5CD337"
 				type: "advancement"
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1871,7 +1883,7 @@
 				}
 			]
 			title: "First Swings of a Sword"
-			x: -6.0d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -1906,7 +1918,7 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -1972,7 +1984,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -6.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -2123,8 +2135,8 @@
 				type: "item"
 			}]
 			title: "Gateways to Eternity"
-			x: 4.5d
-			y: 3.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -2174,7 +2186,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -9.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -2206,7 +2218,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.0d
 			y: 7.5d
 		}
 		{
@@ -2250,7 +2262,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
@@ -2278,7 +2290,7 @@
 				item: "alexsmobs:transmutation_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 7.5d
 		}
 		{
@@ -2307,7 +2319,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.0d
 			y: 7.5d
 		}
 		{
@@ -2353,8 +2365,349 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: 6.0d
+		}
+		{
+			description: ["This elusive big cat can be found in &cGroves&r and &cSnowy Taigas&r. &6Tame this mount&r with &bmutton&r or &bsalmon&r for a lifelong friend!"]
+			id: "30C49F5FE020A827"
+			rewards: [{
+				count: 5
+				id: "5F8A105776D892FE"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "not to be confused with acacia"
+			tasks: [{
+				icon: "mythicmounts:acencia_spawn_egg"
+				id: "0D9F73EE13D43265"
+				observe_type: 5
+				timer: 0L
+				title: "Acencia"
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			title: "Meet the Acencia"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["&eArchelon&r is ancient turtle from a prehistoric age, found in &cdeep lukewarm ocean&r habitats. &6Tame one&r with &bcod&r or &bsalmon&r. What this mount lacks in land speed it more than makes up for in the water!"]
+			id: "648A50640E91D24A"
+			rewards: [{
+				count: 5
+				id: "3F2735924C6B4597"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "turtle power"
+			tasks: [{
+				icon: "mythicmounts:archelon_spawn_egg"
+				id: "576F2F84251A382C"
+				observe_type: 5
+				timer: 0L
+				title: "Archelon"
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			title: "Meet the Archelon"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			description: ["Found only in &cmushroom fields&r, they can &6be tamed&r with &bsugar&r, &bmushrooms&r, and all Vanilla &bflowers&r."]
+			id: "21528845876CE157"
+			rewards: [{
+				count: 5
+				id: "2EAEC5D9849DAB02"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "its a cool elytra"
+			tasks: [{
+				icon: "mythicmounts:colelytra_spawn_egg"
+				id: "5901AACDFB867A81"
+				observe_type: 5
+				timer: 0L
+				title: "Colelytra"
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			title: "Meet the Colelytra"
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r or &bmelon slices&r to win them over."]
+			icon: "mythicmounts:courierbird_spawn_egg"
+			id: "65AA3625C4BFB209"
+			rewards: [{
+				count: 5
+				id: "2F0C69D6DD0DECE8"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a mount Cid would be proud of"
+			tasks: [{
+				id: "2FBAAA40959B40D1"
+				observe_type: 5
+				timer: 0L
+				title: "Courier Bird"
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			title: "Meet the Courier Bird"
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			description: ["They aren't man's best friend... yet. &6Try offering one&r a &bbone&r. Find them in any type of &ctaiga biome&r."]
+			id: "768B4047531DA253"
+			rewards: [{
+				count: 4
+				id: "6D47486CAAF6185A"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "good boy"
+			tasks: [{
+				icon: "mythicmounts:direwolf_spawn_egg"
+				id: "002A96C2150A0675"
+				observe_type: 5
+				timer: 0L
+				title: "Dire Wolf"
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			title: "Meet the Dire Wolf"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			description: ["Though rare, these beasts can sometimes be found in &cdeep caves&r. To befriend them, &6offer up your valuables&r... &bgold&r, &bdiamond&r, or &bemerald&r will do. But be careful... they can be quite &ddangerous&r."]
+			id: "14615CB8F1735FA2"
+			rewards: [{
+				count: 5
+				id: "59A9AE2071F8FA76"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "imagine... dragons!"
+			tasks: [{
+				icon: "mythicmounts:dragon_spawn_egg"
+				id: "4BDA628CE3E21F64"
+				observe_type: 5
+				timer: 0L
+				title: "Dragon"
+				to_observe: "mythicmounts:dragon"
+				type: "observation"
+			}]
+			title: "Meet the Dragon"
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			description: ["Craft a &bSummoning Staff&r to bind to your mount (&6right click them with the staff!&r). This will allow you to command them to sit, follow, or wander... and summon them to your side from anywhere! Be warned though: &aonly one mount can be bound to a staff&r."]
+			id: "7F47F7D233DC95D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "009A2E1D70451ADB"
+				table_id: 7049021818423122779L
+				type: "loot"
+			}]
+			subtitle: "better than carbuncle"
+			tasks: [{
+				id: "5ACC8B4D92DD6D6C"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "Yip Yip!"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."]
+			id: "1782885E17C84F8F"
+			shape: "heart"
+			subtitle: "save 15% or more"
+			tasks: [{
+				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				id: "2A1BA8484B88A5D9"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Geckotoa"
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			description: ["Fragile, beautiful, and capable of carrying a rider in flight. These moths haunt the &cdark forest&r regions. &6Give them&r &bsugar&r or Vanilla &bflowers&r to earn their trust."]
+			id: "493D39C87927E8B8"
+			rewards: [{
+				count: 5
+				id: "401D625E720E717A"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "it's a moth, man!"
+			tasks: [{
+				icon: "mythicmounts:moth_spawn_egg"
+				id: "314834CD0700647F"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Giant Moth"
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			description: ["These uncommon bird... mammal... things... are sometimes seen flying over &cmountaintops&r, feeding on &brabbit&r and &bmutton&r. They are a loyal partner when &6tamed&r, and will &adefend their owner&r. "]
+			id: "50AA90B7E60328CC"
+			rewards: [{
+				count: 5
+				id: "15B6C08D5D313DC4"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "30 under 30 media luminary"
+			tasks: [{
+				icon: "mythicmounts:griffon_spawn_egg"
+				id: "232C61F0A33F9FA5"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Griffon"
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, from &bmushrooms&r to &beggs&r to &bspider eyes&r... &amake sure you've come with treats&r, as they are &dhostile to players&r!"]
+			id: "04BBB86977655EB7"
+			rewards: [{
+				count: 5
+				id: "0D0AA2FDF5D3901B"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "my logic is erratic"
+			tasks: [{
+				icon: "mythicmounts:netherbat_spawn_egg"
+				id: "5E0758AD28FDB506"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Nether Bat"
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. &6Befriend one&r with &bbones&r or &bcoal&r."]
+			id: "19B9CB7C3611E68B"
+			rewards: [{
+				count: 5
+				id: "692DA6420326EE5D"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "the steed of your dreams"
+			tasks: [{
+				icon: "mythicmounts:nightmare_spawn_egg"
+				id: "288A190F078EF8E3"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Nightmare"
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			description: ["These friendly &ccoral reef&r dwellers are capable swimmers, and com e in many patterns and colours! &6Tame one&r with &bkelp&r for an aquatic mount!"]
+			id: "4820853CA82E0A49"
+			rewards: [{
+				count: 5
+				id: "2CC01EBAD9775DED"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "i herd u liek mudkip"
+			tasks: [{
+				icon: "mythicmounts:nudibranch_spawn_egg"
+				id: "3EF59979EAD2AC24"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Nudibranch"
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			description: ["This reptilian mount hunts &erabbits&r and &echickens&r in their native enviroment of the &cdesert&r and &cbadlands&r. Though &dhostile to players&r, &6offering some of their&r &bfavourite meat&r will make them a loyal friend."]
+			id: "4AECEC9D64050806"
+			rewards: [{
+				count: 5
+				id: "05B24D63F1A63703"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "clever girl"
+			tasks: [{
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "4FC0543C69D3E13F"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Riding Lizard"
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			description: ["An incredibly rare sight, the &eŻar-ptak&r can sometimes be seen flying near &cinhabited villages&r. They are said to have expensive tastes. &6Try offering them&r &bgolden apples&r for friendship."]
+			id: "594C827670019E11"
+			rewards: [{
+				count: 4
+				id: "42D643AAA3801BD7"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a harbinger of luck"
+			tasks: [{
+				icon: "mythicmounts:firebird_spawn_egg"
+				id: "2B3163010EA02133"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Żar-ptak"
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 5.5d
 		}
 	]
 	title: "Wildlife"

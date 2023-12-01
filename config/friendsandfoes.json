@@ -38,6 +38,8 @@
   "generateIllusionerShackStructure": true,
   "generateIllusionerTrainingGroundsStructure": true,
   "enableZombieHorseTrap": true,
+  "enableRascal": true,
+  "enableRascalSpawn": true,
   "enableTuffGolem": true,
   "generateTuffGolemInStronghold": true,
   "enableWildfire": true,

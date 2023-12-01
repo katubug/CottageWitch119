@@ -122,6 +122,18 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			id: "578D3691304E90F1"
+			tasks: [{
+				id: "2F71CEB02F06B92B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
 	]
 	title: "WIP"
 }

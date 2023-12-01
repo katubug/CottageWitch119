@@ -692,7 +692,6 @@
 				{
 					command: "/weather thunder"
 					id: "5B03626476475840"
-					player_command: false
 					type: "command"
 				}
 				{
