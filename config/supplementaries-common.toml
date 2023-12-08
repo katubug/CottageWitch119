@@ -102,6 +102,8 @@
 		#Increases any search done with a quoll to be at least this radius. Vanilla locate is 100 while buried treasure is 50 chunks for reference
 		#Range: 0 ~ 500
 		minimum_search_radius = 100
+		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
+		random_adventurer_maps_select_random_structure = true
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings

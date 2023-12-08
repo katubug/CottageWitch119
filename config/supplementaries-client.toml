@@ -145,6 +145,7 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
+	no_optifine_warn_screen = false
 
 #Game tweaks
 [tweaks]

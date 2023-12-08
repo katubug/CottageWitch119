@@ -8,7 +8,7 @@
         "enableFlyingGravity": true,
         "mountFriendlyFireProtection": false,
         "disableUiOverlay": false,
-        "mobCap": 16,
+        "mobCap": 48,
         "mobCapRange": 192
     },
     "itemGroups": {

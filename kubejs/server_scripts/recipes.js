@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
 
     //Akashic Tome
     event.shapeless(
-        Item.of('akashictome:tome', '{"akashictome:data":{alexsmobs:{Count:1b,id:"alexsmobs:animal_dictionary"},ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},babyfat:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"babyfat:the_book_of_baby_fat"}},byg:{Count:1b,id:"byg:biomepedia"},caupona:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"caupona:book"}},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},deeperdarker:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"deeperdarker:wanderers_notebook"}},ftbquests:{Count:1b,id:"ftbquests:book"},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},sculktransporting:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"sculktransporting:guide"}},solsweetpotato:{Count:1b,id:"solsweetpotato:food_book"}}}'),
+        Item.of('akashictome:tome', '{"akashictome:data":{alexsmobs:{Count:1b,id:"alexsmobs:animal_dictionary"},ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},babyfat:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"babyfat:the_book_of_baby_fat"}},byg:{Count:1b,id:"byg:biomepedia"},caupona:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"caupona:book"}},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},deeperdarker:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"deeperdarker:wanderers_notebook"}},ftbquests:{Count:1b,id:"ftbquests:book"},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},mythicmounts:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"mythicmounts:mythical_mounts"}},sculktransporting:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"sculktransporting:guide"}},solsweetpotato:{Count:1b,id:"solsweetpotato:food_book"}}}'),
             [ 
                 'minecraft:book',
                 'minecraft:stick'
@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('delightful:deluxe_cheeseburger'),
         [ 
-            'delightful:deluxe_cheeseburger',
+            'delightful:cheeseburger',
             '#forge:cheese',
             '#forge:cooked_beef',
             'farmersdelight:cooked_bacon'
@@ -749,220 +749,7 @@ ServerEvents.recipes(event => {
     )
 
 
-    // Immersive Aircraft Recipes
 
-    //Improved Landing Gear
-    event.shaped(
-        Item.of('immersive_aircraft:improved_landing_gear'),
-        [
-            ' A ',
-            'B B',
-            'C C'
-        ],
-        {
-            A: 'create:gearbox',
-            B: 'create:shaft',
-            C: 'create:large_cogwheel'
-        }
-    )
-
-    //Industrial Gears
-    event.shaped(
-        Item.of('immersive_aircraft:industrial_gears'),
-        [
-            'ABA',
-            '   ',
-            'CBC'
-        ],
-        {
-            A: 'create:copper_sheet',
-            B: 'create:cogwheel',
-            C: 'create:iron_sheet'
-        }
-    )
-
-    // Hull Reinforcement
-    event.shaped(
-        Item.of('immersive_aircraft:hull_reinforcement'),
-        [
-            'AAA',
-            'BBB',
-            'AAA'
-        ],
-        {
-            A: 'create:iron_sheet',
-            B: 'immersive_aircraft:hull'
-        }
-    )
-
-    // Boiler
-    event.shaped(
-        Item.of('immersive_aircraft:boiler'),
-        [
-            ' A ',
-            'BCB',
-            ' D '
-        ],
-        {
-            A: 'create:copper_valve_handle',
-            B: 'create:fluid_pipe',
-            C: 'create:steam_engine',
-            D: 'minecraft:blaze_powder'
-        }
-    )
-
-    // Hull
-    event.shaped(
-        Item.of('immersive_aircraft:hull'),
-        [
-            'ABA',
-            'ABA'
-        ],
-        {
-            A: 'create:andesite_casing',
-            B: 'minecraft:iron_ingot'
-        }
-    )
-
-    // Engine
-    event.shaped(
-        Item.of('immersive_aircraft:engine'),
-        [
-            'ABA',
-            'CDC',
-            'EEE'
-        ],
-        {
-            A: 'create:hand_crank',
-            B: 'create:encased_chain_drive',
-            C: 'create:mechanical_piston',
-            D: 'immersive_aircraft:boiler',
-            E: 'minecraft:cobbled_deepslate'
-        }
-    )
-
-    // Steel Boiler
-    event.shaped(
-        Item.of('immersive_aircraft:steel_boiler'),
-        [
-            'ABA',
-            'CDC',
-            'EFE'
-        ],
-        {
-            A: 'create:iron_sheet',
-            B: 'create:propeller',
-            C: 'create:precision_mechanism',
-            D: 'immersive_aircraft:boiler',
-            E: 'minecraft:coal_block',
-            F: 'create:blaze_burner'
-        }
-    )
-
-    // Propeller
-    event.shaped(
-        Item.of('immersive_aircraft:propeller'),
-        [
-            ' A ',
-            ' B ',
-            ' A '
-        ],
-        {
-            A: 'create:propeller',
-            B: 'create:shaft'
-        }
-    )
-
-    // Enhanced Propeller
-    event.shaped(
-        Item.of('immersive_aircraft:enhanced_propeller'),
-        [
-            ' A ',
-            'ABA',
-            ' A '
-        ],
-        {
-            A: 'minecraft:copper_ingot',
-            B: 'immersive_aircraft:propeller'
-        }
-    )
-
-    // Sail
-    event.shaped(
-        Item.of('immersive_aircraft:sail', 4),
-        [
-            '   ',
-            'AAA',
-            'AAA'
-        ],
-        {
-            A: 'create:white_sail'
-        }
-    )
-
-    // Sturdy Pipes
-    event.shaped(
-        Item.of('immersive_aircraft:sturdy_pipes'),
-        [
-            ' AB',
-            'ABA',
-            'BA '
-        ],
-        {
-            A: 'create:iron_sheet',
-            B: 'create:fluid_pipe'
-        }
-    )
-
-    // Airship
-    event.shaped(
-        Item.of('immersive_aircraft:airship'),
-        [
-            'AAA',
-            'ABC',
-            'DED'
-        ],
-        {
-            A: 'immersive_aircraft:sail',
-            B: 'create:red_seat',
-            C: 'immersive_aircraft:propeller',
-            D: 'immersive_aircraft:hull',
-            E: 'immersive_aircraft:engine'
-        }
-    )
-
-    // Biplane
-    event.shaped(
-        Item.of('immersive_aircraft:biplane'),
-        [
-            ' A ',
-            'BCB',
-            'EDE'
-        ],
-        {
-            A: 'immersive_aircraft:propeller',
-            B: 'immersive_aircraft:sail',
-            C: 'immersive_aircraft:engine',
-            D: 'create:red_seat',
-            E: 'immersive_aircraft:hull'
-        }
-    )
-
-    // Gyrodyne
-    event.shaped(
-        Item.of('immersive_aircraft:gyrodyne'),
-        [
-            'A A',
-            'BCB',
-            'ADA'
-        ],
-        {
-            A: 'immersive_aircraft:propeller',
-            B: 'immersive_aircraft:hull',
-            C: 'create:precision_mechanism',
-            D: 'create:red_seat'
-        }
-    )
 
     // Nourishing Egg Recipe
     event.shaped(
@@ -2007,17 +1794,29 @@ event.shaped(
         ]
     )
 
+//Mythic Mounts Book
 
-    // pocket money to kubejs conversions
-
-// Lunar to Lunar
 event.shapeless(
-    Item.of('kubejs:lunar_coin'),
+    Item.of('patchouli:guide_book', '{"patchouli:book":"mythicmounts:mythical_mounts"}'),
     [ 
-        'pocket_money:copper_coin'
+        'minecraft:book',
+        'minecraft:saddle'
     ]
 )
+ 
 
+ //Saddle
+event.shaped(
+    Item.of('minecraft:saddle', 1),
+    [
+        'AAA',
+        ' B '
+    ],
+    {
+        A: 'minecraft:leather',
+        B: '#forge:rope' 
+    }
+  )
   })
 
   

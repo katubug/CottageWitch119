@@ -107,7 +107,7 @@
 					type: "command"
 				}
 				{
-					id: "656D108CEC4CA101"
+					id: "6EAB9BDBE6FFD03E"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -162,6 +162,13 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "lexicon:lexicon"
+									}
+								}
+								mythicmounts: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mythicmounts:mythical_mounts"
 									}
 								}
 								sculktransporting: {

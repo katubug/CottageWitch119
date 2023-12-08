@@ -39,7 +39,7 @@ ServerEvents.tags('item', event => {
     'minecraft:rotten_flesh')
 
     // Rope Tags
-    event.add('supplementaries:ropes', 'farmersdelight:rope')
+    event.add('supplementaries:ropes', 'farmersdelight:rope', 'beautify:rope')
 
     // Eyes tags
     event.add('forge:eyes', 
