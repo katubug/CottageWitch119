@@ -2,7 +2,9 @@
   "checkForNewUpdates": true,
   "enableCopperGolem": true,
   "generateCopperGolemAreaStructure": true,
+  "copperGolemAreaStructureWeight": 1,
   "generateCopperGolemInAncientCity": true,
+  "copperGolemAncientCityCenterWeight": 10,
   "enableGlare": true,
   "enableGlareSpawn": true,
   "enableGlareGriefing": false,
@@ -42,5 +44,6 @@
   "enableWildfire": true,
   "generateCitadelStructure": true,
   "enableBeekeeperVillagerProfession": true,
-  "generateBeekeeperAreaStructure": true
+  "generateBeekeeperAreaStructure": true,
+  "beekeeperAreaStructureWeight": 2
 }

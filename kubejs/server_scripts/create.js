@@ -7,4 +7,6 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.haunting('brewinandchewin:scarlet_cheese_wheel', 'brewinandchewin:unripe_scarlet_cheese_wheel')
 
+    e.recipes.create.haunting('domesticationinnovation:sinister_carrot', 'miners_delight:cave_carrot')
+
   })

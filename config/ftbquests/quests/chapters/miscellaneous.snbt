@@ -1503,6 +1503,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Peace, Love, Unity, Glowstick"
 			tasks: [{
 				id: "59BDD56EDDDACA8F"
 				item: {

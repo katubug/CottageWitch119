@@ -304,8 +304,9 @@
 				type: "loot"
 			}]
 			tasks: [{
-				advancement: "deeperdarker:main/locate_ancient_city"
+				advancement: "deeperdarker:main/find_ancient_city"
 				criterion: ""
+				icon: "minecraft:reinforced_deepslate"
 				id: "47007A2CC7CD820F"
 				type: "advancement"
 			}]
@@ -366,11 +367,11 @@
 			}]
 			subtitle: "i'm gey ser"
 			tasks: [{
-				icon: "deeperdarker:geyser"
+				icon: "deeperdarker:gloomy_geyser"
 				id: "70D76BE360099AF1"
 				observe_type: 0
 				timer: 0L
-				to_observe: "deeperdarker:geyser"
+				to_observe: "deeperdarker:gloomy_geyser"
 				type: "observation"
 			}]
 			title: "Observe the Geyser"
@@ -552,18 +553,6 @@
 			title: "Discover the Ancient Temple"
 			x: 5.5d
 			y: 3.0d
-		}
-		{
-			id: "36715B16A3C5082F"
-			invisible: true
-			secret: true
-			tasks: [{
-				id: "4A7AB028C52DFE66"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			can_repeat: true

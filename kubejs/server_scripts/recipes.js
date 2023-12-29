@@ -1817,6 +1817,18 @@ event.shaped(
         B: '#forge:rope' 
     }
   )
+
+      // Palette
+      event.shaped(
+        Item.of('xercapaint:item_palette'),
+        [
+            'AA ',
+            'AA '
+        ],
+        {
+            A: '#minecraft:wooden_slabs'
+        }
+    )
   })
 
   

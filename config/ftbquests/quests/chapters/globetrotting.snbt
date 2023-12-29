@@ -1192,38 +1192,6 @@
 			y: 4.0d
 		}
 		{
-			description: ["&bGlow sticks&r are a light source that can be &6placed on any surface&r, or thrown like a &6snowball&r (sticking to wherever it lands). Try them out in caves, dungeons, and even under water! Comes in 16 delicious flav- I mean colours. "]
-			id: "6D1210B36D6927EA"
-			rewards: [{
-				id: "5A2C69238CD59379"
-				item: {
-					Count: 1b
-					id: "cnb:glowing_flower_crown"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Peace, Love, Unity, Respect, Glowstick"
-			tasks: [{
-				id: "22ED47290FE7FD37"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spelunkery:glowsticks"
-					}
-				}
-				title: "Any #spelunkery:glowsticks"
-				type: "item"
-			}]
-			title: "Obtain a Glowstick"
-			x: -10.0d
-			y: -6.0d
-		}
-		{
 			description: ["Craft yourself some &bRope Ladders&r and &bWooden Rails&r to carefully traverse difficult terrain - easy to make, easy to place, and able to &achain across air gaps&r without support blocks below them. Vertical and Horizontal travel has never been so handy! Both can be placed similarly to &bScaffolding&r- &6right click one onto another&r and they’ll build in the direction you face. You can even &apull your rope ladder up&r behind you by right clicking the top piece! "]
 			id: "764EC9973027FFD1"
 			rewards: [{
