@@ -1793,6 +1793,54 @@ event.shaped(
             'kubejs:solar_coin'
         ]
     )
+ /// Hexhaven Specific Coins
+        // Lunar to Solar
+        event.shapeless(
+            Item.of('kubejs:solarcoin'),
+            [ 
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin',
+                'kubejs:lunarcoin'
+            ]
+        )
+    
+        // Solar to Arcane
+        event.shapeless(
+            Item.of('kubejs:arcanecoin'),
+            [ 
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin',
+                'kubejs:solarcoin'
+            ]
+        )
+    
+        // Arcane to Solar
+        event.shapeless(
+            Item.of('kubejs:solarcoin', 9),
+            [ 
+                'kubejs:arcanecoin'
+            ]
+        )
+    
+        // Solar to Lunar
+        event.shapeless(
+            Item.of('kubejs:lunarcoin', 9),
+            [ 
+                'kubejs:solarcoin'
+            ]
+        )
 
 //Mythic Mounts Book
 

@@ -2,6 +2,9 @@ StartupEvents.registry('item', event => {
 event.create('lunar_coin').maxStackSize(64).displayName("Lunar Coin")
 event.create('solar_coin').maxStackSize(64).displayName("Solar Coin")
 event.create('arcane_coin').maxStackSize(64).displayName("Arcane Coin")
+event.create('lunarcoin').texture('kubejs:item/lunar_coin').maxStackSize(64).displayName("Lunar Coin")
+event.create('solarcoin').texture('kubejs:item/solar_coin').maxStackSize(64).displayName("Solar Coin")
+event.create('arcanecoin').texture('kubejs:item/arcane_coin').maxStackSize(64).displayName("Arcane Coin")
 event.create('ticket')
 })
 

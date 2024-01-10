@@ -12,6 +12,8 @@ Wind = true
 #How much effect wind has on the smoke. Default: 0.05
 #Range: 0.0 ~ 1.0
 WindStrengthMultiplier = 0.05
+#Loot Tables will be used for soot_scraping loot instead of recipes. Like in the good old times...
+UseLootTablesForScraping = false
 
 [JEI]
 	#Soot Covering category will be added to JEI.
