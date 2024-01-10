@@ -1120,7 +1120,7 @@
 1120, river, minecraft:river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1121, river, minecraft:river, WATER_CREATURE, babyfat:ranchu, 10, 2, 4
 1122, river, minecraft:river, WATER_CREATURE, crittersandcompanions:otter, 10, 3, 5
-1123, river, minecraft:river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1123, river, minecraft:river, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1124, river, minecraft:river, WATER_CREATURE, alexsmobs:catfish, 10, 1, 3
 1125, river, minecraft:river, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1126, river, minecraft:river, WATER_AMBIENT, alexsmobs:terrapin, 10, 1, 2
@@ -1151,7 +1151,7 @@
 1151, river, minecraft:frozen_river, AMBIENT, minecraft:bat, 10, 8, 8
 1152, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1153, river, minecraft:frozen_river, WATER_CREATURE, babyfat:ranchu, 10, 2, 4
-1154, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1154, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1155, river, minecraft:frozen_river, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1156, river, minecraft:frozen_river, WATER_AMBIENT, minecraft:salmon, 10, 1, 5
 1157, beach, minecraft:beach, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
@@ -1256,7 +1256,7 @@
 1256, ocean, minecraft:warm_ocean, WATER_CREATURE, alexsmobs:mimic_octopus, 30, 1, 2
 1257, ocean, minecraft:warm_ocean, WATER_CREATURE, ars_elemental:siren_entity, 30, 1, 3
 1258, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:dolphin, 20, 1, 2
-1259, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 10, 4, 4
+1259, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 15, 4, 4
 1260, ocean, minecraft:warm_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1261, ocean, minecraft:warm_ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
 1262, ocean, minecraft:warm_ocean, WATER_AMBIENT, crittersandcompanions:sea_bunny, 30, 1, 4
@@ -1285,7 +1285,7 @@
 1285, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:dolphin, 20, 1, 2
 1286, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 2
 1287, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
-1288, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, alexsmobs:flying_fish, 10, 3, 6
+1288, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, alexsmobs:flying_fish, 5, 3, 6
 1289, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
 1290, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, crittersandcompanions:sea_bunny, 30, 1, 3
 1291, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
@@ -1343,9 +1343,9 @@
 1343, ocean, minecraft:ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1344, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1345, ocean, minecraft:ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
-1346, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1346, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1347, ocean, minecraft:ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
-1348, ocean, minecraft:ocean, WATER_AMBIENT, alexsmobs:flying_fish, 10, 3, 6
+1348, ocean, minecraft:ocean, WATER_AMBIENT, alexsmobs:flying_fish, 5, 3, 6
 1349, ocean, minecraft:ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
 1350, ocean, minecraft:ocean, WATER_AMBIENT, crittersandcompanions:sea_bunny, 30, 1, 2
 1351, ocean, minecraft:ocean, WATER_AMBIENT, minecraft:cod, 10, 3, 6
@@ -1372,7 +1372,7 @@
 1372, ocean, minecraft:deep_ocean, WATER_CREATURE, alexsmobs:frilled_shark, 11, 1, 1
 1373, ocean, minecraft:deep_ocean, WATER_CREATURE, alexsmobs:giant_squid, 20, 1, 2
 1374, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
-1375, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1375, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1376, ocean, minecraft:deep_ocean, WATER_AMBIENT, alexsmobs:blobfish, 30, 2, 2
 1377, ocean, minecraft:deep_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1378, ocean, minecraft:deep_ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
@@ -1401,7 +1401,7 @@
 1401, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1402, ocean, minecraft:cold_ocean, WATER_CREATURE, alexsmobs:cachalot_whale, 20, 1, 2
 1403, ocean, minecraft:cold_ocean, WATER_CREATURE, alexsmobs:orca, 10, 3, 4
-1404, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1404, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1405, ocean, minecraft:cold_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1406, ocean, minecraft:cold_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
 1407, ocean, minecraft:cold_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
@@ -1430,7 +1430,7 @@
 1430, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, alexsmobs:frilled_shark, 25, 1, 1
 1431, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, alexsmobs:giant_squid, 30, 1, 2
 1432, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, alexsmobs:orca, 10, 3, 4
-1433, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1433, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1434, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, alexsmobs:blobfish, 30, 2, 2
 1435, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1436, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
@@ -1462,7 +1462,7 @@
 1462, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1463, ocean, minecraft:frozen_ocean, WATER_CREATURE, alexsmobs:cachalot_whale, 30, 1, 3
 1464, ocean, minecraft:frozen_ocean, WATER_CREATURE, alexsmobs:orca, 30, 3, 4
-1465, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1465, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1466, ocean, minecraft:frozen_ocean, WATER_AMBIENT, alexsmobs:comb_jelly, 30, 2, 3
 1467, ocean, minecraft:frozen_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 1468, ocean, minecraft:frozen_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
@@ -1492,7 +1492,7 @@
 1492, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, alexsmobs:frilled_shark, 25, 1, 1
 1493, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, alexsmobs:giant_squid, 30, 1, 2
 1494, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, alexsmobs:orca, 30, 3, 4
-1495, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1495, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 15, 1, 4
 1496, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, alexsmobs:blobfish, 30, 2, 2
 1497, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, alexsmobs:comb_jelly, 30, 2, 3
 1498, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2154,9 +2154,9 @@
 2154, ocean, byg:lush_stacks, AMBIENT, minecraft:bat, 10, 8, 8
 2155, ocean, byg:lush_stacks, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2156, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
-2157, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:squid, 10, 4, 4
+2157, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:squid, 15, 4, 4
 2158, ocean, byg:lush_stacks, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
-2159, ocean, byg:lush_stacks, WATER_AMBIENT, alexsmobs:flying_fish, 10, 3, 6
+2159, ocean, byg:lush_stacks, WATER_AMBIENT, alexsmobs:flying_fish, 5, 3, 6
 2160, ocean, byg:lush_stacks, WATER_AMBIENT, minecraft:tropical_fish, 25, 8, 8
 2161, ocean, byg:dead_sea, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 2162, ocean, byg:dead_sea, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
@@ -2177,7 +2177,7 @@
 2177, ocean, byg:dead_sea, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 2178, ocean, byg:dead_sea, AMBIENT, minecraft:bat, 10, 8, 8
 2179, ocean, byg:dead_sea, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
-2180, ocean, byg:dead_sea, WATER_AMBIENT, alexsmobs:flying_fish, 10, 3, 6
+2180, ocean, byg:dead_sea, WATER_AMBIENT, alexsmobs:flying_fish, 5, 3, 6
 2181, extreme_hills, byg:dacite_ridges, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 2182, extreme_hills, byg:dacite_ridges, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
 2183, extreme_hills, byg:dacite_ridges, MONSTER, minecraft:creeper, 30, 4, 4

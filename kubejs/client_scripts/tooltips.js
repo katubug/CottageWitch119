@@ -59,6 +59,9 @@ ItemEvents.tooltip(e => {
     ],
     'Drinks!')
 
+    e.add('minecraft:carved_pumpkin',
+    'Placing this down will result in a carved pumpkin.') 
+    
     // Raw Foods
     e.add([
         'minecraft:beef',
