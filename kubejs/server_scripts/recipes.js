@@ -1879,6 +1879,18 @@ event.shaped(
             A: '#minecraft:wooden_slabs'
         }
     )
+
+        //Cluttered's Shelves
+        event.shaped(
+            Item.of('luphieclutteredmod:small_shelf'),
+            [
+                'AAA',
+                'A A'
+            ],
+            {
+                A: 'minecraft:oak_slab'
+            }
+        )
   })
 
   

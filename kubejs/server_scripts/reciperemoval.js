@@ -205,7 +205,8 @@ ServerEvents.recipes(event => {
         {output: 'alexsmobs:transmutation_table'},
         {output: 'sophisticatedstorage:filter_upgrade'},
         {output: 'sophisticatedstorage:advanced_filter_upgrade'},
-        {output: 'minecraft:lodestone'}
+        {output: 'minecraft:lodestone'},
+        {output: 'luphieclutteredmod:small_shelf'}
     ];
     
       for (const remove of toRemove) {
