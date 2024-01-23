@@ -2,7 +2,7 @@
 #Common configuration settings
 [common]
 	#Determines whether or not the backpack should be dropped on death
-	keepBackpackOnDeath = true
+	keepBackpackOnDeath = false
 	#The amount of slot columns in the backpack inventory.
 	#Range: 1 ~ 13
 	backpackInventorySizeColumns = 9
