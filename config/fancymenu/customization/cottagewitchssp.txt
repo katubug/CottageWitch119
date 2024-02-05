@@ -1,24 +1,36 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
-  randomgroup = 1
-  renderorder = background
+layout-meta {
+  identifier = select_world_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1707167929412
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:d7c2ac7b-4d03-4570-8e10-96611b170fc6-1707167929412] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
+  slide = false
+  background_type = image
 }
 
 customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
   orientation = mid-right
   enable_scrolling = true
   shadow = true
@@ -35,5 +47,6 @@ customization {
   y = 143
   alignment = left
   height = 40
+  element_type = fancymenu_customization_item_text
 }
 

@@ -1,0 +1,72 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = generic_dirt_message_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929234
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:37e3ea8d-4ba2-409b-8754-72ebc19bd614-1707167929234] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/alliekat2.png
+  slide = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 3.0
+  source = %n%Loading...%n%While you wait, hydrate!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -259
+  width = 525
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 18f6feab-6eb8-44b2-a8a3-a1c00c129a2c1681336154883
+  y = -111
+  alignment = centered
+  height = 127
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  source = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
+  element_type = image
+  instance_identifier = 9d821550-4468-4019-8797-089bd10877a01687134413360
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -350
+  y = 0
+  width = 701
+  height = 180
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3e015c20-5e1f-4333-8c49-a76d5f4748ab-1707167929235
+  [loading_requirement_container_meta:3e015c20-5e1f-4333-8c49-a76d5f4748ab-1707167929235] = [groups:][instances:]
+}
+

@@ -1,20 +1,19 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = %fancymenu:universal_layout%
+  identifier = progress_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1707167929427
-  is_enabled = true
+  last_edited_time = 1707167929186
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  universal_layout_blacklist = title_screen;select_world_screen;join_multiplayer_screen;
-  [loading_requirement_container_meta:9bb01863-8f9d-4419-8b83-8251ecb13921-1707167929427] = [groups:][instances:]
+  [loading_requirement_container_meta:4d82f12a-86d4-4f01-ae66-591e79a4aed3-1707167929186] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/bg_librarytower.png
+  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/alliekat2.png
   slide = false
   background_type = image
 }
@@ -34,20 +33,20 @@ scroll_list_customization {
 element {
   source = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
   element_type = image
-  instance_identifier = 6d791f37-757f-48be-a073-9afc268517b91687193396772
+  instance_identifier = 0c09ed7e-bd7d-4103-ab0b-1336d7f090131687134522260
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -334
-  y = -204
-  width = 646
-  height = 192
+  anchor_point = top-centered
+  x = -350
+  y = 0
+  width = 700
+  height = 185
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
-  element_loading_requirement_container_identifier = 30e82146-e97b-4af8-8bda-79c6d49212b7-1707167929427
-  [loading_requirement_container_meta:30e82146-e97b-4af8-8bda-79c6d49212b7-1707167929427] = [groups:][instances:]
+  element_loading_requirement_container_identifier = dbac7670-74ac-4e16-b511-f72158a5bb18-1707167929208
+  [loading_requirement_container_meta:dbac7670-74ac-4e16-b511-f72158a5bb18-1707167929208] = [groups:][instances:]
 }
 

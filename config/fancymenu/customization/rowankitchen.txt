@@ -1,31 +1,52 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.ReceivingLevelScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = receiving_level_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929432
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:5c5fdbb6-4c0c-48aa-aa4c-b130f9716503-1707167929432] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  slide = false
+  background_type = image
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
-  orientation = top-left
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  source = [source:local]config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
+  element_type = image
+  instance_identifier = 2d04efd7-24dc-438e-ae02-005ed416f0671681421838744
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
   x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = 2d04efd7-24dc-438e-ae02-005ed416f0671681421838744
   y = 0
-  height = %guiheight%
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c377e1eb-3e94-47e5-8e68-f8e767480893-1707167929432
+  [loading_requirement_container_meta:c377e1eb-3e94-47e5-8e68-f8e767480893-1707167929432] = [groups:][instances:]
 }
 

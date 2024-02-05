@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Having trouble placing directional blocks like stairs or pistons? You can ensure they all point in your desired direction with Rotation Lock! Simply hold shift and press K while hovering over the desired face of the block. Pressing K by itself will toggle this rotation lock. It can also be used to choose whether the block is placed in the upper or lower half of the space, for easy slabs or upside-down stairs."
+    }
+  }

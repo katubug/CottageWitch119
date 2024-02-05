@@ -889,7 +889,6 @@
 			description: [
 				"&bBelladonna&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
 				"Beware, though! The &aBerries are poisonous&r."
-				"You can also use it to &abrew Mystical Concoctions&r with the &bCrucible&r! See the &dMystic Alchemy&r section for more info."
 			]
 			id: "41B2EB805FCD2C60"
 			rewards: [

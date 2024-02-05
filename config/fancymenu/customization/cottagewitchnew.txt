@@ -1,417 +1,64 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.TitleScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929373
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3c46da1b-6529-49bc-b0c8-5e665e24716e-1707167929373] = [groups:][instances:]
+}
+
+menu_background {
+  slideshow_name = mainmenu_slideshow
+  background_type = slideshow
 }
 
 customization {
-  name = mainmenu_slideshow
-  action = setbackgroundslideshow
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
 }
 
-customization {
-  identifier = %id=604346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604346%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 3
-  action = movebutton
-  y = 149
-}
-
-customization {
-  identifier = %id=604346%
-  width = 33
-  action = resizebutton
-  height = 30
-}
-
-customization {
-  identifier = %id=604346%
-  action = setbuttonlabel
-  value = &3s
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 200
-  action = resizebutton
-  height = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+element {
+  button_element_executable_block_identifier = 5434708d-4764-457a-9bc6-ff473017be80-1707167929379
+  [executable_action_instance:6ef6fbb0-1877-44ee-a363-7b9cfa21dcac-1707167929379][action_type:openlink] = https://www.akliz.net/cottagewitch
+  [executable_block:5434708d-4764-457a-9bc6-ff473017be80-1707167929379][type:generic] = [executables:6ef6fbb0-1877-44ee-a363-7b9cfa21dcac-1707167929379;]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/blueright.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/bluerightpressed.png
+  restartbackgroundanimations = true
   loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/menubutton2pressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/menubutton2.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 123
-  action = movebutton
-  y = 154
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  width = 25
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/miniaccesspressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/miniaccess.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = sethoverlabel
-  label = Accessibility
-}
-
-customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376322%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 83
-  action = movebutton
-  y = 149
-}
-
-customization {
-  identifier = %id=376322%
-  width = 35
-  action = resizebutton
-  height = 30
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
-  action = movebutton
-  y = 112
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 100
-  action = resizebutton
-  height = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/roseleftpressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/roseleft.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 99
-  action = movebutton
-  y = 112
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 100
-  action = resizebutton
-  height = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/roserightpressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/roseright.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 87
-  action = movebutton
-  y = 154
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  width = 25
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/minilanguagepressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/minilanguage.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = sethoverlabel
-  label = Language
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-right
-  x = -236
-  action = movebutton
-  y = -51
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 200
-  action = resizebutton
-  height = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/menubutton1.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
-  action = movebutton
-  y = 74
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 100
-  action = resizebutton
-  height = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/blueleftpressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/blueleft.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  orientation = top-centered
-  x = 3
-  action = movebutton
-  y = 221
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = setbuttonlabel
-  value = Host a Server
-}
-
-customization {
-  identifier = %id=376346%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 51
-  action = movebutton
-  y = 154
-}
-
-customization {
-  identifier = %id=376346%
-  width = 25
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=376346%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376346%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/miniquarkpressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/miniquark.png
-}
-
-customization {
-  identifier = %id=376346%
-  action = sethoverlabel
-  label = Quark Settings
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  x = 242
-  width = 268
-  action = deep_customization_element:title_screen_forge_top
-  actionid = fbde6926-01f2-440f-bc1d-6d3c6070360b1669925873478
-  y = 4
-  height = 19
-}
-
-customization {
-  orientation = top-left
-  hidden = false
-  x = 2
-  width = 122
-  action = deep_customization_element:title_screen_branding
-  actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
-  y = 332
-  height = 50
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  x = 238
-  width = 228
-  action = deep_customization_element:title_screen_forge_copyright
-  actionid = 69673f7c-ac7a-4f80-bf8d-ef6607b68f9e1669925873483
-  y = 280
-  height = 9
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  x = 479
-  width = 13
-  action = deep_customization_element:title_screen_realms_notification
-  actionid = c2767795-7188-44ed-9682-b6b4bfa6e2d21669925873483
-  y = 209
-  height = 13
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  x = 239
-  width = 274
-  action = deep_customization_element:title_screen_logo
-  actionid = 5314b433-92fc-43b1-97dc-2d90ddc3dc721669925873483
-  y = 30
-  height = 52
-}
-
-customization {
-  orientation = mid-centered
-  splash_color = #449470
-  hidden = true
-  x = 66
-  width = 60
-  splash_rotation = -20
-  action = deep_customization_element:title_screen_splash
-  actionid = 43d5186a-e09a-4c5c-8034-99a1993de5571669925873483
-  y = -68
-  height = 30
-}
-
-customization {
-  orientation = element
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://www.akliz.net/cottagewitch%btnaction_splitter_fm%
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/bluerightpressed.png
   description = Host a server with Akliz and support the modpack!
   label = Host a Server
-  loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  element_type = custom_button
+  instance_identifier = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 100
-  width = 100
-  action = addbutton
-  actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   y = 74
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/blueright.png
+  width = 100
   height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3774d00f-8999-4896-b64d-1139b2760bf7-1707167929380
+  [loading_requirement_container_meta:3774d00f-8999-4896-b64d-1139b2760bf7-1707167929380] = [groups:][instances:]
 }
 
-customization {
+element {
   orientation = bottom-left
   copy_client_player = true
   slim = false
@@ -436,17 +83,434 @@ customization {
   auto_cape = false
   is_baby = false
   height = 108
+  element_type = fancymenu_customization_player_entity
 }
 
-customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchicontransparent.png
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+element {
+  source = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchicontransparent.png
+  element_type = image
+  instance_identifier = a9ba6664-613d-4454-a96f-9ef77d87579c1687134737831
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 54
-  width = 100
-  action = addtexture
-  actionid = a9ba6664-613d-4454-a96f-9ef77d87579c1687134737831
   y = -105
+  width = 100
   height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 782a573a-516f-4278-93a3-4e2370b9eb2e-1707167929380
+  [loading_requirement_container_meta:782a573a-516f-4278-93a3-4e2370b9eb2e-1707167929380] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c0610a64-ff7c-407c-8725-ce05fae1f340-1707167929373
+  [executable_block:c0610a64-ff7c-407c-8725-ce05fae1f340-1707167929373][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_copyright_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 32241c3e-1a28-4e65-bfca-f8c64df5acad-1707167929373
+  [loading_requirement_container_meta:32241c3e-1a28-4e65-bfca-f8c64df5acad-1707167929373] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = acde7e57-e615-4005-a1dd-1f63e8753eaa-1707167929374
+  [executable_block:acde7e57-e615-4005-a1dd-1f63e8753eaa-1707167929374][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton2.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton2pressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  y = 37
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3ac5c624-48ed-48c0-91c0-fb023310e575-1707167929374
+  [loading_requirement_container_meta:3ac5c624-48ed-48c0-91c0-fb023310e575-1707167929374] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 1e3e6026-8a95-4090-aeee-8897b907e8f0-1707167929374
+  [executable_block:1e3e6026-8a95-4090-aeee-8897b907e8f0-1707167929374][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/roseleft.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/roseleftpressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  y = 112
+  width = 100
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5e37897a-4ce2-414e-b395-192f778d2a77-1707167929374
+  [loading_requirement_container_meta:5e37897a-4ce2-414e-b395-192f778d2a77-1707167929374] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 7ee529f3-cc7d-49f6-8f33-0173fbf9caa4-1707167929377
+  [executable_block:7ee529f3-cc7d-49f6-8f33-0173fbf9caa4-1707167929377][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/miniquark.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/miniquarkpressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  hoverlabel = Quark Settings
+  label = 
+  element_type = vanilla_button
+  instance_identifier = 376346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 51
+  y = 154
+  width = 25
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c5a02d52-83a5-4cd5-9bf6-4643a2388c04-1707167929377
+  [loading_requirement_container_meta:c5a02d52-83a5-4cd5-9bf6-4643a2388c04-1707167929377] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c1eaca1f-4593-4c40-ae82-e608753b2a3e-1707167929374
+  [executable_block:c1eaca1f-4593-4c40-ae82-e608753b2a3e-1707167929374][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 376322
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 83
+  y = 149
+  width = 35
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 2c7daf98-a60e-42f1-b894-ead349784722-1707167929374
+  [loading_requirement_container_meta:2c7daf98-a60e-42f1-b894-ead349784722-1707167929374] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = db979840-64e1-48cb-b91e-5d6cf847ebf2-1707167929375
+  [executable_block:db979840-64e1-48cb-b91e-5d6cf847ebf2-1707167929375][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/minilanguage.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/minilanguagepressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  hoverlabel = Language
+  label = 
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 87
+  y = 154
+  width = 25
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e56b79fc-73ff-449c-8c7b-76a32d5b27d9-1707167929375
+  [loading_requirement_container_meta:e56b79fc-73ff-449c-8c7b-76a32d5b27d9-1707167929375] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 35458801-57df-4071-96f8-893b23840881-1707167929375
+  [executable_block:35458801-57df-4071-96f8-893b23840881-1707167929375][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/blueleft.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/blueleftpressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  y = 74
+  width = 100
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 40889e05-01bd-4012-ae98-01cbc504dc88-1707167929375
+  [loading_requirement_container_meta:40889e05-01bd-4012-ae98-01cbc504dc88-1707167929375] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 0b2f79a4-067f-4b50-a5db-90574e50b8a1-1707167929375
+  [executable_block:0b2f79a4-067f-4b50-a5db-90574e50b8a1-1707167929375][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton1.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-right
+  x = -236
+  y = -51
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 59b7a436-834d-4411-9f84-583c55b308c9-1707167929375
+  [loading_requirement_container_meta:59b7a436-834d-4411-9f84-583c55b308c9-1707167929375] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = df3c7a09-2877-45df-8f78-25ed21c56d4c-1707167929373
+  [executable_block:df3c7a09-2877-45df-8f78-25ed21c56d4c-1707167929373][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = &3s
+  element_type = vanilla_button
+  instance_identifier = 604346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 3
+  y = 149
+  width = 33
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 9cb2609a-d9a0-4509-8d1d-10699156c995-1707167929373
+  [loading_requirement_container_meta:9cb2609a-d9a0-4509-8d1d-10699156c995-1707167929373] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 616db638-058e-44e4-ae98-399f9e44072d-1707167929374
+  [executable_block:616db638-058e-44e4-ae98-399f9e44072d-1707167929374][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/roseright.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/roserightpressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 99
+  y = 112
+  width = 100
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6c96abf3-8a8f-40ba-99c3-0c48cc459f9b-1707167929374
+  [loading_requirement_container_meta:6c96abf3-8a8f-40ba-99c3-0c48cc459f9b-1707167929374] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 367c379f-6613-42d4-b85c-647e0c47ddc2-1707167929374
+  [executable_block:367c379f-6613-42d4-b85c-647e0c47ddc2-1707167929374][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/miniaccess.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/miniaccesspressed.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  hoverlabel = Accessibility
+  label = 
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 123
+  y = 154
+  width = 25
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f82fe8a-9e5c-41cf-9786-39b46a5abac6-1707167929374
+  [loading_requirement_container_meta:5f82fe8a-9e5c-41cf-9786-39b46a5abac6-1707167929374] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = cd368552-8ad1-4550-a2ad-5db84813c0ac-1707167929376
+  [executable_block:cd368552-8ad1-4550-a2ad-5db84813c0ac-1707167929376][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = Host a Server
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = 3
+  y = 221
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 0327f95b-3b98-49e2-ac84-e52d2783f0c5-1707167929376
+  [loading_requirement_container_meta:0327f95b-3b98-49e2-ac84-e52d2783f0c5-1707167929376] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+deep_element {
+  orientation = top-left
+  hidden = true
+  x = 242
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = fbde6926-01f2-440f-bc1d-6d3c6070360b1669925873478
+  y = 4
+  height = 19
+  element_type = title_screen_forge_top
+}
+
+deep_element {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 122
+  action = deep_customization_element:title_screen_branding
+  actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
+  y = 332
+  height = 50
+  element_type = title_screen_branding
+}
+
+deep_element {
+  orientation = top-left
+  hidden = true
+  x = 238
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 69673f7c-ac7a-4f80-bf8d-ef6607b68f9e1669925873483
+  y = 280
+  height = 9
+  element_type = title_screen_forge_copyright
+}
+
+deep_element {
+  orientation = top-left
+  hidden = true
+  x = 479
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c2767795-7188-44ed-9682-b6b4bfa6e2d21669925873483
+  y = 209
+  height = 13
+  element_type = title_screen_realms_notification
+}
+
+deep_element {
+  orientation = top-left
+  hidden = true
+  x = 239
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5314b433-92fc-43b1-97dc-2d90ddc3dc721669925873483
+  y = 30
+  height = 52
+  element_type = title_screen_logo
+}
+
+deep_element {
+  orientation = mid-centered
+  splash_color = #449470
+  hidden = true
+  x = 66
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 43d5186a-e09a-4c5c-8034-99a1993de5571669925873483
+  y = -68
+  height = 30
+  element_type = title_screen_splash
 }
 

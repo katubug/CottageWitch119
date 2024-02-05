@@ -1,99 +1,181 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929345
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
-}
-
-customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
-  action = texturizebackground
+  layout_index = 0
+  [loading_requirement_container_meta:d9b02505-857e-464e-9c6c-427df1bba37b-1707167929345] = [groups:][instances:]
 }
 
 customization {
   action = setscale
-  scale = 2
+  scale = 2.0
+}
+
+menu_background {
+  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  slide = false
+  background_type = image
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  original_pos_size_calculation = true
-  x = 125
-  width = 450
-  action = deep_customization_element:drippy_overlay_logo
-  actionid = 372bc6c8-7577-4a40-bd22-aa6e94345c8c1680825643432
-  y = 169
-  height = 112
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
 }
 
-customization {
-  custom_color_hex = #57664E
-  orientation = top-left
-  hidden = false
-  x = -1000000
-  width = 0
-  action = deep_customization_element:drippy_overlay_background
-  actionid = d65dd062-b02c-480a-b15b-5ea0bddc59141680825643441
-  y = -1000000
-  height = 0
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  original_pos_size_calculation = true
-  x = 125
-  width = 450
-  action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = d266d54f-c9e9-4ea2-af93-c63e0cba1b311680825643441
-  y = 369
-  height = 10
-}
-
-customization {
-  orientation = bottom-centered
-  background_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
-  bar_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
-  progress_for_element_orientation = true
-  background_color = #30372C
-  x = -132
-  width = 265
+element {
   bar_color = #545D51
-  action = custom_layout_element:drippy_custom_loading_bar
-  actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  y = -111
+  bar_texture = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
+  background_color = #30372C
+  background_texture = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
   direction = right
-  height = 34
-}
-
-customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
-  orientation = bottom-centered
+  progress_for_element_anchor = true
+  progress_source = {"placeholder":"game_loading_progress"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
   x = -132
-  width = 265
-  action = addtexture
-  actionid = efc8cc75-8378-4a65-b97c-40538defbe831687133936505
   y = -111
+  width = 265
   height = 34
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4ac7dfa7-4471-40d7-b151-ae22a227957c-1707167929356
+  [loading_requirement_container_meta:4ac7dfa7-4471-40d7-b151-ae22a227957c-1707167929356] = [groups:][instances:]
 }
 
-customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
-  orientation = mid-centered
+element {
+  source = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
+  element_type = image
+  instance_identifier = efc8cc75-8378-4a65-b97c-40538defbe831687133936505
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = -132
+  y = -111
+  width = 265
+  height = 34
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = f67068d8-63cd-4192-ac7c-ece224615997-1707167929347
+  [loading_requirement_container_meta:f67068d8-63cd-4192-ac7c-ece224615997-1707167929347] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
+  element_type = image
+  instance_identifier = ce580ae3-5e91-4202-929f-dd8a6d7658241687134015577
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -350
-  width = 700
-  action = addtexture
-  actionid = ce580ae3-5e91-4202-929f-dd8a6d7658241687134015577
   y = -97
+  width = 700
   height = 207
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 7b2755e0-2e4f-4140-9493-711670719dfc-1707167929347
+  [loading_requirement_container_meta:7b2755e0-2e4f-4140-9493-711670719dfc-1707167929347] = [groups:][instances:]
+}
+
+element {
+  bar_color = #545D51
+  bar_texture = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
+  background_color = #30372C
+  background_texture = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
+  direction = right
+  progress_for_element_anchor = true
+  progress_source = {"placeholder":"game_loading_progress"}
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = -132
+  y = -111
+  width = 265
+  height = 34
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4ac7dfa7-4471-40d7-b151-ae22a227957c-1707167929356
+  [loading_requirement_container_meta:4ac7dfa7-4471-40d7-b151-ae22a227957c-1707167929356] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = d8932e7b-60fc-4be3-847d-ddb96adcd0bf-1707167929346
+  [executable_block:d8932e7b-60fc-4be3-847d-ddb96adcd0bf-1707167929346][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 72993011-4e3f-454e-8e79-a9f63f77cde2-1707167929346
+  [loading_requirement_container_meta:72993011-4e3f-454e-8e79-a9f63f77cde2-1707167929346] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = f6aec2fa-901d-416c-818f-0c8836bdf982-1707167929346
+  [executable_block:f6aec2fa-901d-416c-818f-0c8836bdf982-1707167929346][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 26eb9db5-1fc7-45e4-9160-f7720dfc0c03-1707167929346
+  [loading_requirement_container_meta:26eb9db5-1fc7-45e4-9160-f7720dfc0c03-1707167929346] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 

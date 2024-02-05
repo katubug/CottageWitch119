@@ -1,34 +1,36 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = join_multiplayer_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929367
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:7a6adf13-b793-4c6b-8cb3-34e7082fd1fd-1707167929367] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
+  slide = false
+  background_type = image
 }
 
 customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=658972%
-  action = hidebutton
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
 }
 
-customization {
-  identifier = %id=658948%
-  action = hidebutton
-}
-
-customization {
+element {
   orientation = mid-right
   enable_scrolling = true
   shadow = true
@@ -45,5 +47,56 @@ customization {
   y = 143
   alignment = left
   height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 5ab70d0a-d77a-49f9-ae9d-1c678b889903-1707167929367
+  [executable_block:5ab70d0a-d77a-49f9-ae9d-1c678b889903-1707167929367][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 658972
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1d47fde0-d04b-4a4d-9aec-5d67cbb35b82-1707167929367
+  [loading_requirement_container_meta:1d47fde0-d04b-4a4d-9aec-5d67cbb35b82-1707167929367] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 85f8f9c7-cc25-4cce-b4fa-ee80ae78f3bc-1707167929367
+  [executable_block:85f8f9c7-cc25-4cce-b4fa-ee80ae78f3bc-1707167929367][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 658948
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8bdd689c-db9f-4d06-ba28-11efed2f3ac9-1707167929367
+  [loading_requirement_container_meta:8bdd689c-db9f-4d06-ba28-11efed2f3ac9-1707167929367] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 

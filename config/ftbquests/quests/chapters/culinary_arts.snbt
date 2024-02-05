@@ -1610,10 +1610,7 @@
 			y: 6.5d
 		}
 		{
-			description: [
-				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
-				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
-			]
+			description: ["To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."]
 			id: "166F53EED3372358"
 			rewards: [
 				{

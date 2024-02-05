@@ -4,9 +4,9 @@
 	order_index: 27
 	rewards: [
 		{ item: "alexsmobs:sculk_boomer", weight: 0.1f }
-		{ count: 4, item: "deeperdarker:gloom_sculk" }
 		{ item: "minecraft:sculk_catalyst", weight: 0.5f }
 		{ item: "minecraft:sculk_shrieker", weight: 0.5f }
+		{ count: 5, item: "deeperdarker:gloomy_sculk" }
 	]
 	title: "Fancy Sculk"
 }
