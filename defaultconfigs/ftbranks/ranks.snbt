@@ -1,0 +1,66 @@
+{
+	member: {
+		name: "Witch"
+		power: 1
+		condition: "always_active"
+		command.paintexport: true
+		command.paintexport.name: true
+		command.paintimport: true
+		command.paintimport.name: true
+	}
+	red: {
+		name: "red"
+		power: 2
+		ftbranks.name_format: "&c{name}"
+	}
+	darkgreen: {
+		name: "dark green"
+		power: 2
+		ftbranks.name_format: "&2{name}"
+	}
+	darkaqua: {
+		name: "dark aqua"
+		power: 2
+		ftbranks.name_format: "&3{name}"
+	}
+	darkred: {
+		name: "dark red"
+		power: 2
+		ftbranks.name_format: "&4{name}"
+	}
+	darkpurple: {
+		name: "dark purple"
+		power: 2
+		ftbranks.name_format: "&5{name}"
+	}
+	blue: {
+		name: "blue"
+		power: 2
+		ftbranks.name_format: "&9{name}"
+	}
+	green: {
+		name: "green"
+		power: 2
+		ftbranks.name_format: "&a{name}"
+	}
+	aqua: {
+		name: "aqua"
+		power: 2
+		ftbranks.name_format: "&b{name}"
+	}
+	lightpurple: {
+		name: "light purple"
+		power: 2
+		ftbranks.name_format: "&d{name}"
+	}
+	gold: {
+		name: "gold"
+		power: 2
+		ftbranks.name_format: "&6{name}"
+	}
+	yellow: {
+		name: "yellow"
+		power: 2
+		ftbranks.name_format: "&e{name}"
+	}
+}

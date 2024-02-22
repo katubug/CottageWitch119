@@ -207,7 +207,10 @@ ServerEvents.recipes(event => {
         {output: 'sophisticatedstorage:advanced_filter_upgrade'},
         {output: 'minecraft:lodestone'},
         {output: 'luphieclutteredmod:small_shelf'},
-        {output: 'miners_delight:sticky_basket'}
+        {output: 'miners_delight:sticky_basket'},
+        {id: 'netherdepthsupgrade:eyeball'},
+        {id: 'netherdepthsupgrade:fortress_grouper_plate'}
+
     ];
     
       for (const remove of toRemove) {

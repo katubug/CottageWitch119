@@ -724,6 +724,12 @@ ServerEvents.tags('item', event => {
       'minecraft:reinforced_deepslate'
       )
 
+      //string
+
+event.add('forge:string',
+'crittersandcompanions:silk'
+)
+
 })
 
 
@@ -798,6 +804,9 @@ ServerEvents.tags('block', event => {
       'minecraft:reinforced_deepslate'
       )
 
+
+
+    
 })
 
 

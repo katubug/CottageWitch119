@@ -1,0 +1,566 @@
+{
+  "accessories": {
+    "adventurer_kit": {
+      "chest_size_bonus": {
+        "multiplier": 1.2,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "any_chest_spawn_chance": 0.025
+    },
+    "adventurer_rune": {
+      "chest_size_bonus": {
+        "multiplier": 1.5,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "swim_speed": {
+        "multiplier": 0.25,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      }
+    },
+    "angler_rune": {
+      "fishing_luck": {
+        "bonus": 3,
+        "bonus_range": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "fishing_time": {
+        "multiplier": 0.25,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "extra_fishing_item": {
+        "chance": 0.25,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "count": 3,
+        "count_range": {
+          "min": 2,
+          "max": 10
+        }
+      }
+    },
+    "angler_trophy": {
+      "fishing_luck": {
+        "bonus": 3,
+        "bonus_range": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "fishing_drop_chance": 0.01
+    },
+    "certificate_of_taming": {
+      "animal_bonus": {
+        "bonus": 0.2,
+        "bonus_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "taming_drop_chance": 0.1
+    },
+    "discount_voucher": {
+      "trading_discount": {
+        "multiplier": 0.12,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "trading_drop_chance": 0.01
+    },
+    "dream_catcher": {
+      "sleep_bonuses": {
+        "count": 1,
+        "count_range": {
+          "min": 1,
+          "max": 10
+        },
+        "duration": 300,
+        "duration_range": {
+          "min": 1,
+          "max": 10000
+        },
+        "effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 1
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:haste",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0
+          }
+        ]
+      },
+      "sleeping_drop_chance": 0.1
+    },
+    "household_rune": {
+      "trading_discount": {
+        "multiplier": 0.15,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "sleep_bonuses": {
+        "count": 1,
+        "count_range": {
+          "min": 1,
+          "max": 10
+        },
+        "duration": 360,
+        "duration_range": {
+          "min": 1,
+          "max": 10000
+        },
+        "effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 1
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:haste",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0
+          }
+        ]
+      },
+      "stronger_potion": {
+        "duration_penalty": 0.5,
+        "duration_penalty_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "amplifier": 1,
+        "amplifier_range": {
+          "min": 1,
+          "max": 10
+        }
+      }
+    },
+    "idol_of_fertility": {
+      "breeding_twins": {
+        "chance": 0.25,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "breeding_drop_chance": 0.01
+    },
+    "lucky_rock": {
+      "extra_mining_item": {
+        "chance": 0.03,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "loot_ids": {
+          "__default": "majruszsaccessories:gameplay/lucky_rock_default",
+          "minecraft:the_end": "majruszsaccessories:gameplay/lucky_rock_end",
+          "minecraft:the_nether": "majruszsaccessories:gameplay/lucky_rock_nether"
+        }
+      },
+      "mining_drop_chance": 7.5E-4
+    },
+    "metal_lure": {
+      "extra_fishing_item": {
+        "chance": 0.2,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "count": 2,
+        "count_range": {
+          "min": 2,
+          "max": 10
+        }
+      },
+      "fish_drop_chance": 0.01,
+      "fish_ids": [
+        "minecraft:cod",
+        "minecraft:pufferfish",
+        "minecraft:salmon",
+        "minecraft:tropical_fish"
+      ]
+    },
+    "miner_guide": {
+      "mining_speed_bonus": {
+        "multiplier": 0.1,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "underground_chest_spawn_chance": 0.05
+    },
+    "miner_rune": {
+      "extra_mining_item": {
+        "chance": 0.04,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "loot_ids": {
+          "__default": "majruszsaccessories:gameplay/lucky_rock_default",
+          "minecraft:the_end": "majruszsaccessories:gameplay/lucky_rock_end",
+          "minecraft:the_nether": "majruszsaccessories:gameplay/lucky_rock_nether"
+        }
+      },
+      "mining_speed_bonus": {
+        "multiplier": 0.12,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "mining_free_durability_use": {
+        "chance": 0.12,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "nature_rune": {
+      "animal_bonus": {
+        "bonus": 0.25,
+        "bonus_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "breeding_twins": {
+        "chance": 0.3,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "double_crops": {
+        "chance": 0.3,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "secret_ingredient": {
+      "stronger_potion": {
+        "duration_penalty": 0.6,
+        "duration_penalty_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "amplifier": 1,
+        "amplifier_range": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "brewing_drop_chance": 0.02
+    },
+    "soul_of_minecraft": {
+      "chest_size_bonus": {
+        "multiplier": 1.8,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "swim_speed": {
+        "multiplier": 0.3,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "fishing_luck": {
+        "bonus": 4,
+        "bonus_range": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "fishing_time": {
+        "multiplier": 0.3,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "extra_fishing_item": {
+        "chance": 0.3,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "count": 4,
+        "count_range": {
+          "min": 2,
+          "max": 10
+        }
+      },
+      "trading_discount": {
+        "multiplier": 0.18,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "sleep_bonuses": {
+        "count": 2,
+        "count_range": {
+          "min": 1,
+          "max": 10
+        },
+        "duration": 420,
+        "duration_range": {
+          "min": 1,
+          "max": 10000
+        },
+        "effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 1
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:haste",
+            "amplifier": 0
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0
+          }
+        ]
+      },
+      "stronger_potion": {
+        "duration_penalty": 0.4,
+        "duration_penalty_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "amplifier": 1,
+        "amplifier_range": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "extra_mining_item": {
+        "chance": 0.05,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "loot_ids": {
+          "__default": "majruszsaccessories:gameplay/lucky_rock_default",
+          "minecraft:the_end": "majruszsaccessories:gameplay/lucky_rock_end",
+          "minecraft:the_nether": "majruszsaccessories:gameplay/lucky_rock_nether"
+        }
+      },
+      "mining_speed_bonus": {
+        "multiplier": 0.15,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "mining_free_durability_use": {
+        "chance": 0.15,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "animal_bonus": {
+        "bonus": 0.3,
+        "bonus_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "breeding_twins": {
+        "chance": 0.36,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "double_crops": {
+        "chance": 0.36,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "swimmer_guide": {
+      "swim_speed": {
+        "multiplier": 0.2,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "underwater_chest_spawn_chance": 0.05,
+      "buried_treasure_spawn_chance": 0.25
+    },
+    "tamed_potato_beetle": {
+      "double_crops": {
+        "chance": 0.25,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "harvesting_drop": {
+        "harvesting_chance": 0.0025,
+        "potato_multiplier": 2.0
+      }
+    },
+    "tool_scraps": {
+      "mining_free_durability_use": {
+        "chance": 0.1,
+        "chance_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "durability_drop_chance_multiplier": 3.0E-4
+    },
+    "unbreakable_fishing_line": {
+      "fishing_time": {
+        "multiplier": 0.2,
+        "multiplier_range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "fishing_drop_chance": 0.005,
+      "fish_drop_chance": 0.005,
+      "fish_ids": [
+        "minecraft:cod",
+        "minecraft:pufferfish",
+        "minecraft:salmon",
+        "minecraft:tropical_fish"
+      ]
+    }
+  },
+  "boosters": {
+    "dice": {
+      "accessory_drop_chance_multiplier": 0.2,
+      "guardian_drop_chance": 0.05
+    },
+    "golden_dice": {
+      "accessory_drop_chance_multiplier": 0.4
+    },
+    "golden_horseshoe": {
+      "luck_bonus": 2
+    },
+    "horseshoe": {
+      "luck_bonus": 1,
+      "skeleton_horseman_drop_chance": 0.334
+    },
+    "onyx": {
+      "efficiency_bonus": 0.09,
+      "warden_drop_chance": 1.0
+    },
+    "owl_feather": {
+      "experience_bonus": 0.15,
+      "vex_drop_chance": 0.1
+    },
+    "loot_table": "majruszsaccessories:gameplay/nether_accessories",
+    "nether_chest_chance": 0.1,
+    "nether_mob_chance": 0.005
+  },
+  "efficiency": {
+    "range": {
+      "min": -0.6,
+      "max": 0.6
+    },
+    "average": 0.0,
+    "standard_deviation": 0.2
+  }
+}

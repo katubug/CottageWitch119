@@ -1,0 +1,21 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "netherdepthsupgrade:fortress_grouper"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "netherdepthsupgrade:fortress_grouper_plate",
+        "count": 4
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "count": 1
+      }
+    ]
+  }

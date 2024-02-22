@@ -90,7 +90,7 @@
 90, icy, minecraft:snowy_plains, CREATURE, minecraft:rabbit, 10, 2, 3
 91, icy, minecraft:snowy_plains, CREATURE, snuffles:snuffle, 15, 4, 4
 92, icy, minecraft:snowy_plains, CREATURE, mythicmounts:acencia, 15, 2, 3
-93, icy, minecraft:snowy_plains, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+93, icy, minecraft:snowy_plains, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 94, icy, minecraft:snowy_plains, AMBIENT, alexsmobs:fly, 10, 2, 3
 95, icy, minecraft:snowy_plains, AMBIENT, minecraft:bat, 10, 8, 8
 96, icy, minecraft:snowy_plains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -254,7 +254,7 @@
 254, forest, minecraft:forest, CREATURE, minecraft:pig, 10, 4, 4
 255, forest, minecraft:forest, CREATURE, minecraft:sheep, 12, 4, 4
 256, forest, minecraft:forest, CREATURE, minecraft:wolf, 10, 4, 4
-257, forest, minecraft:forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+257, forest, minecraft:forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 258, forest, minecraft:forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 259, forest, minecraft:forest, AMBIENT, minecraft:bat, 10, 8, 8
 260, forest, minecraft:forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -291,7 +291,7 @@
 291, forest, minecraft:flower_forest, CREATURE, minecraft:rabbit, 10, 2, 3
 292, forest, minecraft:flower_forest, CREATURE, minecraft:sheep, 12, 4, 4
 293, forest, minecraft:flower_forest, CREATURE, mythicmounts:colelytra, 10, 2, 3
-294, forest, minecraft:flower_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+294, forest, minecraft:flower_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 295, forest, minecraft:flower_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 296, forest, minecraft:flower_forest, AMBIENT, minecraft:bat, 10, 8, 8
 297, forest, minecraft:flower_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -325,7 +325,7 @@
 325, forest, minecraft:birch_forest, CREATURE, minecraft:cow, 10, 4, 4
 326, forest, minecraft:birch_forest, CREATURE, minecraft:pig, 10, 4, 4
 327, forest, minecraft:birch_forest, CREATURE, minecraft:sheep, 12, 4, 4
-328, forest, minecraft:birch_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+328, forest, minecraft:birch_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 329, forest, minecraft:birch_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 330, forest, minecraft:birch_forest, AMBIENT, minecraft:bat, 10, 8, 8
 331, forest, minecraft:birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -362,7 +362,7 @@
 362, forest, minecraft:dark_forest, CREATURE, minecraft:pig, 10, 4, 4
 363, forest, minecraft:dark_forest, CREATURE, minecraft:sheep, 12, 4, 4
 364, forest, minecraft:dark_forest, CREATURE, mythicmounts:moth, 20, 1, 2
-365, forest, minecraft:dark_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+365, forest, minecraft:dark_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 366, forest, minecraft:dark_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 367, forest, minecraft:dark_forest, AMBIENT, minecraft:bat, 10, 8, 8
 368, forest, minecraft:dark_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -397,7 +397,7 @@
 397, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:pig, 10, 4, 4
 398, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:sheep, 12, 4, 4
 399, forest, minecraft:old_growth_birch_forest, CREATURE, mythicmounts:direwolf, 20, 2, 4
-400, forest, minecraft:old_growth_birch_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+400, forest, minecraft:old_growth_birch_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 401, forest, minecraft:old_growth_birch_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 402, forest, minecraft:old_growth_birch_forest, AMBIENT, minecraft:bat, 10, 8, 8
 403, forest, minecraft:old_growth_birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -533,7 +533,7 @@
 533, taiga, minecraft:snowy_taiga, CREATURE, minecraft:rabbit, 10, 2, 3
 534, taiga, minecraft:snowy_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 535, taiga, minecraft:snowy_taiga, CREATURE, minecraft:wolf, 10, 4, 4
-536, taiga, minecraft:snowy_taiga, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+536, taiga, minecraft:snowy_taiga, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 537, taiga, minecraft:snowy_taiga, AMBIENT, alexsmobs:fly, 10, 2, 3
 538, taiga, minecraft:snowy_taiga, AMBIENT, minecraft:bat, 10, 8, 8
 539, taiga, minecraft:snowy_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -686,7 +686,7 @@
 686, none, minecraft:windswept_forest, CREATURE, minecraft:pig, 10, 4, 4
 687, none, minecraft:windswept_forest, CREATURE, minecraft:sheep, 12, 4, 4
 688, none, minecraft:windswept_forest, CREATURE, mythicmounts:griffon, 10, 1, 1
-689, none, minecraft:windswept_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+689, none, minecraft:windswept_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 690, none, minecraft:windswept_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 691, none, minecraft:windswept_forest, AMBIENT, minecraft:bat, 10, 8, 8
 692, none, minecraft:windswept_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -760,7 +760,7 @@
 760, jungle, minecraft:jungle, CREATURE, minecraft:pig, 10, 4, 4
 761, jungle, minecraft:jungle, CREATURE, minecraft:sheep, 12, 4, 4
 762, jungle, minecraft:jungle, CREATURE, mythicmounts:courierbird, 20, 2, 4
-763, jungle, minecraft:jungle, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+763, jungle, minecraft:jungle, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 764, jungle, minecraft:jungle, AMBIENT, alexsmobs:fly, 10, 2, 3
 765, jungle, minecraft:jungle, AMBIENT, minecraft:bat, 10, 8, 8
 766, jungle, minecraft:jungle, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -797,7 +797,7 @@
 797, jungle, minecraft:sparse_jungle, CREATURE, minecraft:pig, 10, 4, 4
 798, jungle, minecraft:sparse_jungle, CREATURE, minecraft:sheep, 12, 4, 4
 799, jungle, minecraft:sparse_jungle, CREATURE, mythicmounts:courierbird, 20, 2, 4
-800, jungle, minecraft:sparse_jungle, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+800, jungle, minecraft:sparse_jungle, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 801, jungle, minecraft:sparse_jungle, AMBIENT, alexsmobs:fly, 10, 2, 3
 802, jungle, minecraft:sparse_jungle, AMBIENT, minecraft:bat, 10, 8, 8
 803, jungle, minecraft:sparse_jungle, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -833,7 +833,7 @@
 833, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:parrot, 30, 1, 2
 834, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:pig, 10, 4, 4
 835, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:sheep, 12, 4, 4
-836, jungle, minecraft:bamboo_jungle, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+836, jungle, minecraft:bamboo_jungle, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 837, jungle, minecraft:bamboo_jungle, AMBIENT, alexsmobs:fly, 10, 2, 3
 838, jungle, minecraft:bamboo_jungle, AMBIENT, minecraft:bat, 10, 8, 8
 839, jungle, minecraft:bamboo_jungle, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -992,7 +992,7 @@
 992, forest, minecraft:grove, CREATURE, minecraft:sheep, 12, 4, 4
 993, forest, minecraft:grove, CREATURE, minecraft:wolf, 10, 4, 4
 994, forest, minecraft:grove, CREATURE, mythicmounts:acencia, 15, 2, 3
-995, forest, minecraft:grove, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+995, forest, minecraft:grove, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 996, forest, minecraft:grove, AMBIENT, alexsmobs:fly, 10, 2, 3
 997, forest, minecraft:grove, AMBIENT, minecraft:bat, 10, 8, 8
 998, forest, minecraft:grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -1023,7 +1023,7 @@
 1023, extreme_hills, minecraft:snowy_slopes, CREATURE, quark:shiba, 30, 1, 3
 1024, extreme_hills, minecraft:snowy_slopes, CREATURE, mythicmounts:acencia, 15, 2, 3
 1025, extreme_hills, minecraft:snowy_slopes, CREATURE, mythicmounts:griffon, 10, 1, 1
-1026, extreme_hills, minecraft:snowy_slopes, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+1026, extreme_hills, minecraft:snowy_slopes, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 1027, extreme_hills, minecraft:snowy_slopes, AMBIENT, alexsmobs:fly, 10, 2, 3
 1028, extreme_hills, minecraft:snowy_slopes, AMBIENT, minecraft:bat, 10, 8, 8
 1029, extreme_hills, minecraft:snowy_slopes, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -1572,7 +1572,7 @@
 1572, none, minecraft:lush_caves, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 1573, none, minecraft:lush_caves, CREATURE, cnb:sporeling, 30, 3, 5
 1574, none, minecraft:lush_caves, CREATURE, friendsandfoes:glare, 10, 1, 1
-1575, none, minecraft:lush_caves, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+1575, none, minecraft:lush_caves, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 1576, none, minecraft:lush_caves, AMBIENT, alexsmobs:flutter, 13, 2, 4
 1577, none, minecraft:lush_caves, AMBIENT, alexsmobs:fly, 10, 2, 3
 1578, none, minecraft:lush_caves, AMBIENT, minecraft:bat, 10, 8, 8
@@ -1799,7 +1799,7 @@
 1799, forest, byg:aspen_forest, CREATURE, minecraft:pig, 10, 4, 4
 1800, forest, byg:aspen_forest, CREATURE, minecraft:sheep, 12, 4, 4
 1801, forest, byg:aspen_forest, CREATURE, minecraft:wolf, 10, 4, 4
-1802, forest, byg:aspen_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+1802, forest, byg:aspen_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 1803, forest, byg:aspen_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 1804, forest, byg:aspen_forest, AMBIENT, minecraft:bat, 10, 8, 8
 1805, forest, byg:aspen_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2046,7 +2046,7 @@
 2046, forest, byg:cika_woods, CREATURE, minecraft:cow, 10, 4, 4
 2047, forest, byg:cika_woods, CREATURE, minecraft:pig, 10, 4, 4
 2048, forest, byg:cika_woods, CREATURE, minecraft:sheep, 12, 4, 4
-2049, forest, byg:cika_woods, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2049, forest, byg:cika_woods, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2050, forest, byg:cika_woods, AMBIENT, alexsmobs:fly, 10, 2, 3
 2051, forest, byg:cika_woods, AMBIENT, minecraft:bat, 10, 8, 8
 2052, forest, byg:cika_woods, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2116,7 +2116,7 @@
 2116, jungle, byg:crag_gardens, CREATURE, minecraft:pig, 10, 4, 4
 2117, jungle, byg:crag_gardens, CREATURE, minecraft:sheep, 12, 4, 4
 2118, jungle, byg:crag_gardens, CREATURE, quark:shiba, 30, 1, 3
-2119, jungle, byg:crag_gardens, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2119, jungle, byg:crag_gardens, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2120, jungle, byg:crag_gardens, AMBIENT, alexsmobs:fly, 10, 2, 3
 2121, jungle, byg:crag_gardens, AMBIENT, minecraft:bat, 10, 8, 8
 2122, jungle, byg:crag_gardens, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -2168,7 +2168,7 @@
 2168, ocean, byg:lush_stacks, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
 2169, ocean, byg:lush_stacks, CREATURE, ars_nouveau:starbuncle, 10, 1, 2
 2170, ocean, byg:lush_stacks, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
-2171, ocean, byg:lush_stacks, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2171, ocean, byg:lush_stacks, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2172, ocean, byg:lush_stacks, AMBIENT, minecraft:bat, 10, 8, 8
 2173, ocean, byg:lush_stacks, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2174, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
@@ -2263,7 +2263,7 @@
 2263, forest, byg:ebony_woods, CREATURE, minecraft:rabbit, 10, 2, 3
 2264, forest, byg:ebony_woods, CREATURE, minecraft:sheep, 12, 4, 4
 2265, forest, byg:ebony_woods, CREATURE, minecraft:wolf, 10, 4, 4
-2266, forest, byg:ebony_woods, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2266, forest, byg:ebony_woods, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2267, forest, byg:ebony_woods, AMBIENT, alexsmobs:fly, 10, 2, 3
 2268, forest, byg:ebony_woods, AMBIENT, minecraft:bat, 10, 8, 8
 2269, forest, byg:ebony_woods, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2288,7 +2288,7 @@
 2288, forest, byg:forgotten_forest, CREATURE, minecraft:cow, 10, 4, 4
 2289, forest, byg:forgotten_forest, CREATURE, minecraft:pig, 10, 4, 4
 2290, forest, byg:forgotten_forest, CREATURE, minecraft:sheep, 12, 4, 4
-2291, forest, byg:forgotten_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2291, forest, byg:forgotten_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2292, forest, byg:forgotten_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2293, forest, byg:forgotten_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2294, forest, byg:forgotten_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2322,8 +2322,8 @@
 2322, forest, byg:temperate_grove, CREATURE, minecraft:pig, 10, 4, 4
 2323, forest, byg:temperate_grove, CREATURE, minecraft:sheep, 12, 4, 4
 2324, forest, byg:temperate_grove, CREATURE, mythicmounts:acencia, 15, 2, 3
-2325, forest, byg:temperate_grove, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
-2326, forest, byg:temperate_grove, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2325, forest, byg:temperate_grove, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
+2326, forest, byg:temperate_grove, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2327, forest, byg:temperate_grove, AMBIENT, alexsmobs:fly, 10, 2, 3
 2328, forest, byg:temperate_grove, AMBIENT, minecraft:bat, 10, 8, 8
 2329, forest, byg:temperate_grove, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2360,7 +2360,7 @@
 2360, jungle, byg:guiana_shield, CREATURE, minecraft:parrot, 30, 1, 2
 2361, jungle, byg:guiana_shield, CREATURE, minecraft:pig, 10, 4, 4
 2362, jungle, byg:guiana_shield, CREATURE, minecraft:sheep, 12, 4, 4
-2363, jungle, byg:guiana_shield, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2363, jungle, byg:guiana_shield, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2364, jungle, byg:guiana_shield, AMBIENT, alexsmobs:fly, 10, 2, 3
 2365, jungle, byg:guiana_shield, AMBIENT, minecraft:bat, 10, 8, 8
 2366, jungle, byg:guiana_shield, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2419,7 +2419,7 @@
 2419, forest, byg:jacaranda_forest, CREATURE, minecraft:pig, 10, 4, 4
 2420, forest, byg:jacaranda_forest, CREATURE, minecraft:sheep, 12, 4, 4
 2421, forest, byg:jacaranda_forest, CREATURE, minecraft:wolf, 10, 4, 4
-2422, forest, byg:jacaranda_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2422, forest, byg:jacaranda_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2423, forest, byg:jacaranda_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2424, forest, byg:jacaranda_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2425, forest, byg:jacaranda_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2550,7 +2550,7 @@
 2550, forest, byg:orchard, CREATURE, minecraft:cow, 10, 4, 4
 2551, forest, byg:orchard, CREATURE, minecraft:pig, 10, 4, 4
 2552, forest, byg:orchard, CREATURE, minecraft:sheep, 12, 4, 4
-2553, forest, byg:orchard, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2553, forest, byg:orchard, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2554, forest, byg:orchard, AMBIENT, alexsmobs:fly, 10, 2, 3
 2555, forest, byg:orchard, AMBIENT, minecraft:bat, 10, 8, 8
 2556, forest, byg:orchard, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2610,7 +2610,7 @@
 2610, forest, byg:red_oak_forest, CREATURE, minecraft:pig, 10, 4, 4
 2611, forest, byg:red_oak_forest, CREATURE, minecraft:sheep, 12, 4, 4
 2612, forest, byg:red_oak_forest, CREATURE, minecraft:wolf, 10, 4, 4
-2613, forest, byg:red_oak_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2613, forest, byg:red_oak_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2614, forest, byg:red_oak_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2615, forest, byg:red_oak_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2616, forest, byg:red_oak_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2699,7 +2699,7 @@
 2699, forest, byg:autumnal_forest, CREATURE, minecraft:pig, 10, 4, 4
 2700, forest, byg:autumnal_forest, CREATURE, minecraft:sheep, 12, 4, 4
 2701, forest, byg:autumnal_forest, CREATURE, minecraft:wolf, 10, 4, 4
-2702, forest, byg:autumnal_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2702, forest, byg:autumnal_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2703, forest, byg:autumnal_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2704, forest, byg:autumnal_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2705, forest, byg:autumnal_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2756,7 +2756,7 @@
 2756, icy, byg:shattered_glacier, CREATURE, minecraft:pig, 10, 1, 2
 2757, icy, byg:shattered_glacier, CREATURE, minecraft:polar_bear, 10, 1, 2
 2758, icy, byg:shattered_glacier, CREATURE, minecraft:rabbit, 10, 2, 3
-2759, icy, byg:shattered_glacier, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+2759, icy, byg:shattered_glacier, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 2760, icy, byg:shattered_glacier, AMBIENT, alexsmobs:fly, 10, 2, 3
 2761, icy, byg:shattered_glacier, AMBIENT, minecraft:bat, 10, 8, 8
 2762, icy, byg:shattered_glacier, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2866,7 +2866,7 @@
 2866, forest, byg:redwood_thicket, CREATURE, minecraft:pig, 10, 4, 4
 2867, forest, byg:redwood_thicket, CREATURE, minecraft:sheep, 12, 4, 4
 2868, forest, byg:redwood_thicket, CREATURE, minecraft:wolf, 10, 4, 4
-2869, forest, byg:redwood_thicket, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2869, forest, byg:redwood_thicket, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2870, forest, byg:redwood_thicket, AMBIENT, alexsmobs:fly, 10, 2, 3
 2871, forest, byg:redwood_thicket, AMBIENT, minecraft:bat, 10, 8, 8
 2872, forest, byg:redwood_thicket, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2896,7 +2896,7 @@
 2896, icy, byg:frosted_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 2897, icy, byg:frosted_taiga, CREATURE, minecraft:wolf, 10, 4, 4
 2898, icy, byg:frosted_taiga, CREATURE, mythicmounts:acencia, 15, 2, 3
-2899, icy, byg:frosted_taiga, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+2899, icy, byg:frosted_taiga, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 2900, icy, byg:frosted_taiga, AMBIENT, alexsmobs:fly, 10, 2, 3
 2901, icy, byg:frosted_taiga, AMBIENT, minecraft:bat, 10, 8, 8
 2902, icy, byg:frosted_taiga, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2931,7 +2931,7 @@
 2931, icy, byg:frosted_coniferous_forest, CREATURE, minecraft:sheep, 12, 4, 4
 2932, icy, byg:frosted_coniferous_forest, CREATURE, minecraft:wolf, 10, 4, 4
 2933, icy, byg:frosted_coniferous_forest, CREATURE, mythicmounts:direwolf, 20, 2, 4
-2934, icy, byg:frosted_coniferous_forest, CREATURE, crittersandcompanions:shima_enaga, 10, 2, 3
+2934, icy, byg:frosted_coniferous_forest, CREATURE, crittersandcompanions:shima_enaga, 25, 2, 3
 2935, icy, byg:frosted_coniferous_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2936, icy, byg:frosted_coniferous_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2937, icy, byg:frosted_coniferous_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2966,7 +2966,7 @@
 2966, forest, byg:fragment_forest, CREATURE, minecraft:parrot, 30, 1, 2
 2967, forest, byg:fragment_forest, CREATURE, minecraft:pig, 10, 4, 4
 2968, forest, byg:fragment_forest, CREATURE, minecraft:sheep, 12, 4, 4
-2969, forest, byg:fragment_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+2969, forest, byg:fragment_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 2970, forest, byg:fragment_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 2971, forest, byg:fragment_forest, AMBIENT, minecraft:bat, 10, 8, 8
 2972, forest, byg:fragment_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -3098,7 +3098,7 @@
 3098, forest, byg:temperate_rainforest, CREATURE, minecraft:pig, 10, 4, 4
 3099, forest, byg:temperate_rainforest, CREATURE, minecraft:sheep, 12, 4, 4
 3100, forest, byg:temperate_rainforest, CREATURE, mythicmounts:courierbird, 20, 2, 4
-3101, forest, byg:temperate_rainforest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+3101, forest, byg:temperate_rainforest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 3102, forest, byg:temperate_rainforest, AMBIENT, alexsmobs:fly, 10, 2, 3
 3103, forest, byg:temperate_rainforest, AMBIENT, minecraft:bat, 10, 8, 8
 3104, forest, byg:temperate_rainforest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -3131,7 +3131,7 @@
 3131, forest, byg:zelkova_forest, CREATURE, minecraft:pig, 10, 4, 4
 3132, forest, byg:zelkova_forest, CREATURE, minecraft:sheep, 12, 4, 4
 3133, forest, byg:zelkova_forest, CREATURE, minecraft:wolf, 10, 4, 4
-3134, forest, byg:zelkova_forest, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+3134, forest, byg:zelkova_forest, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 3135, forest, byg:zelkova_forest, AMBIENT, alexsmobs:fly, 10, 2, 3
 3136, forest, byg:zelkova_forest, AMBIENT, minecraft:bat, 10, 8, 8
 3137, forest, byg:zelkova_forest, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -3717,7 +3717,7 @@
 3717, forest, environmental:blossom_woods, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 3718, forest, environmental:blossom_woods, CREATURE, hexerei:crow, 20, 2, 5
 3719, forest, environmental:blossom_woods, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
-3720, forest, environmental:blossom_woods, CREATURE, crittersandcompanions:jumping_spider, 10, 1, 2
+3720, forest, environmental:blossom_woods, CREATURE, crittersandcompanions:jumping_spider, 20, 1, 2
 3721, forest, environmental:blossom_woods, AMBIENT, minecraft:bat, 10, 8, 8
 3722, forest, environmental:blossom_woods, AMBIENT, alexsmobs:fly, 10, 2, 3
 3723, forest, environmental:blossom_woods, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
