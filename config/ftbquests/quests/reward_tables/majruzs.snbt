@@ -1,0 +1,17 @@
+{
+	id: "7732376EC3F7FB9D"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "majruszsaccessories:removal_card" }
+		{ item: "majruszsaccessories:reverse_card" }
+		{ item: "majruszsaccessories:removal_card" }
+		{ item: "majruszsaccessories:dice" }
+		{ item: "majruszsaccessories:owl_feather" }
+		{ item: "majruszsaccessories:golden_dice" }
+		{ item: "majruszsaccessories:golden_horseshoe" }
+		{ item: "majruszsaccessories:horseshoe" }
+		{ item: "majruszsaccessories:onyx" }
+	]
+	title: "Majruzs "
+}

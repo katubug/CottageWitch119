@@ -1,15 +1,52 @@
 
 [mobs]
-	#Make biome variants of mobs like Husks always spawn in place of their original in their biomes
-	"Biome variants always spawn" = true
 
 	[mobs.koi]
 		#Make Koi only block natural spawns
 		"Block only natural spawns" = true
 		#Horizontal radius of Serenity effect in blocks
+		#Range: > 0
 		"Horizontal serenity range (radius)" = 32
 		#Vertical radius of Serenity effect in blocks
+		#Range: > 0
 		"Vertical serenity range (radius)" = 8
 		#If Koi exude Serenity as a potion effect
 		"Serenity potion effect" = true
+
+	[mobs.deer]
+		#If Deer can reproduce and spread flowers by feeding them an Apple followed by a flower
+		"Deer flower reproducing" = true
+
+	[mobs.pig]
+		#If Pigs hunt for Truffles when given a Golden Carrot
+		"Pigs hunt Truffles" = true
+		#If Pigs should spawn more Piglets upon breeding
+		"Larger Pig litters" = true
+		#If Pigs can be made muddy by walking in Mud or being hit with Mud Balls
+		"Muddy Pigs" = true
+
+		[mobs.pig.larger_litters]
+			#The minimum amount of piglets that can spawn in addition to the original child
+			#Range: > 0
+			"Minimum additional piglets" = 1
+			#The maximum amount of piglets that can spawn in addition to the original child
+			#Range: > 0
+			"Maximum additional piglets" = 3
+
+		[mobs.pig.muddy_pigs]
+			#If Pigs naturally spawn muddy in swampy biomes
+			"Natural Muddy Pigs" = true
+			#The chance that a Muddy Pig has to spawn with a decoration, such as a flower
+			#Range: 0.0 ~ 1.0
+			"Muddy Pig decoration chance" = 0.2
+			#If Muddy Pigs can be decorated with various flowers, saplings, and plants
+			"Decoratable Muddy Pigs" = true
+			#If Muddy Pigs become dry naturally over time
+			"Muddy Pigs dry over time" = true
+			#If Muddy Pigs only naturally dry when in the Nether
+			"Muddy Pigs only dry in the Nether" = true
+
+[blocks]
+	#Cacti generate with a Cactus Bobble on top to prevent natural growth
+	"Cactus bobble" = true
 

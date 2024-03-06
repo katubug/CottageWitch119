@@ -730,6 +730,50 @@ event.add('forge:string',
 'crittersandcompanions:silk'
 )
 
+// Majruzs's Accessories
+
+event.add('forge:maj_acs',
+'majruszsaccessories:certificate_of_taming',
+'majruszsaccessories:idol_of_fertility',
+'majruszsaccessories:lucky_rock',
+'majruszsaccessories:tamed_potato_beetle',
+'majruszsaccessories:angler_trophy',
+'majruszsaccessories:discount_voucher',
+'majruszsaccessories:dream_catcher',
+'majruszsaccessories:metal_lure',
+'majruszsaccessories:miner_guide',
+'majruszsaccessories:adventurer_kit',
+'majruszsaccessories:tool_scraps',
+'majruszsaccessories:unbreakable_fishing_line',
+'majruszsaccessories:adventurer_rune',
+'majruszsaccessories:angler_rune',
+'majruszsaccessories:household_rune',
+'majruszsaccessories:miner_rune',
+'majruszsaccessories:nature_rune',
+'majruszsaccessories:soul_of_minecraft',
+'majruszsaccessories:secret_ingredient',
+'majruszsaccessories:swimmer_guide'
+)
+
+// Majruzs's Boosters
+event.add('forge:maj_boosters',
+'majruszsaccessories:onyx',
+'majruszsaccessories:dice',
+'majruszsaccessories:owl_feather',
+'majruszsaccessories:golden_dice',
+'majruszsaccessories:golden_horseshoe',
+'majruszsaccessories:horseshoe'
+)
+
+// Majruzs's Cards
+event.add('forge:maj_cards',
+'majruszsaccessories:gambling_card',
+'majruszsaccessories:removal_card',
+'majruszsaccessories:reverse_card'
+)
+
+
+
 })
 
 
