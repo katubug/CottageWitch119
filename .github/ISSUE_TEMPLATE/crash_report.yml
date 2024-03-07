@@ -1,7 +1,7 @@
 name: Crash Report
 description: File a crash report
 title: "[Crash]: Your Title Here"
-labels: ["bug"]
+labels: ["Crash"]
 body:
   - type: input
     id: mpversion
