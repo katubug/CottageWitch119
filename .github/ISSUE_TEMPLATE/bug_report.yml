@@ -1,0 +1,45 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: Your Title Here"
+labels: ["bug"]
+body:
+  - type: input
+    id: mpversion
+    attributes:
+      label: Modpack Version Used
+      description: Which numerical version of the modpack are you using? Ex - 1.4.3
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (if applicable)
+      description: Upload or send links to screenshots of the issue.
+  - type: markdown
+    attributes:
+      value: |
+        ## How To Find Logs/Crash Reports
+        Your logs folder is located in your base Minecraft directory.
+        Assuming you're using the Curseforge Launcher - In the Cottage Witch modpack page, find the 3 dots next to the Play button, and click "Open Folder."
+        Logs are located in the /logs/ folder, and will be called latest.log or debug.log. Crash reports are located in /crash-reports/ and will be named with the time and date they occurred.
+        You can select the text in the files with ctrl+a and then copy it. You can paste this into gist.github.com and send the link here.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant latest.log
+      description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
+    id: crash
+    attributes:
+      label: Relevant crash report
+      description: Please copy and paste your relevant crash report, or a gist.github.com link to the report contents. This will be automatically formatted into code, so no need for backticks.
+      render: shell
