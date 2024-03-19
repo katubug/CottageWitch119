@@ -16,8 +16,8 @@
 			image: "cottagewitch:textures/bgstoragenetwork.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 0.0d
-			y: -10.0d
+			x: -0.5d
+			y: -16.0d
 		}
 		{
 			click: ""
@@ -54,6 +54,18 @@
 			width: 9.0d
 			x: 0.0d
 			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/backpacksbg.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -0.5d
+			y: -5.0d
 		}
 	]
 	order_index: 4
@@ -388,8 +400,8 @@
 				}
 			]
 			title: "Network Interface"
-			x: 0.0d
-			y: -8.0d
+			x: -0.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -406,8 +418,8 @@
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 2.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -426,8 +438,8 @@
 				item: "toms_storage:ts.trim"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -470,8 +482,8 @@
 				}
 			]
 			title: "Connected at a Distance"
-			x: -2.5d
-			y: -8.0d
+			x: -3.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["21A2E4CA683BD232"]
@@ -512,8 +524,8 @@
 				}
 			]
 			title: "Framed Blocks"
-			x: -4.0d
-			y: -8.0d
+			x: -4.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -531,8 +543,8 @@
 				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: 2.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["50D94EFE04154F83"]
@@ -554,8 +566,8 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			x: 3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -576,8 +588,8 @@
 				item: "toms_storage:ts.inventory_proxy"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: -4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -599,8 +611,8 @@
 				item: "toms_storage:ts.inventory_hopper_basic"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -2.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
@@ -621,8 +633,8 @@
 				item: "toms_storage:ts.level_emitter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -0.5d
+			y: -12.0d
 		}
 		{
 			description: [
@@ -1057,8 +1069,8 @@
 				item: "ftbquests:barrier"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0A76B3D9CF688878"]
@@ -1164,8 +1176,8 @@
 				}
 			]
 			title: "Upgrading Your Storage"
-			x: 0.0d
-			y: -10.5d
+			x: -0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1196,8 +1208,8 @@
 				title: "Customise Your Storage"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -12.0d
+			x: -4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1231,8 +1243,8 @@
 				}
 			]
 			title: "More Storage, More Upgrade"
-			x: -2.5d
-			y: -10.5d
+			x: -3.0d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -1260,8 +1272,8 @@
 				type: "item"
 			}]
 			title: "Stack Higher"
-			x: -4.0d
-			y: -10.5d
+			x: -4.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1295,8 +1307,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.5d
+			x: 3.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1322,8 +1334,8 @@
 				item: "sophisticatedstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -12.0d
+			x: 3.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1342,8 +1354,8 @@
 				type: "item"
 			}]
 			title: "Process Your Inventory"
-			x: 2.0d
-			y: -12.5d
+			x: 1.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1365,8 +1377,8 @@
 				item: "sophisticatedstorage:filter_upgrade"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -13.5d
+			x: -1.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1392,8 +1404,8 @@
 				}
 			]
 			title: "Crafting Upgrades"
-			x: -2.0d
-			y: -12.5d
+			x: -2.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1414,8 +1426,245 @@
 				item: "sophisticatedstorage:storage_tool"
 				type: "item"
 			}]
+			x: 0.5d
+			y: -19.5d
+		}
+		{
+			description: [
+				"This backpack is no kid's toy- this thing is multipurpose and heavy duty! With access to a &aplethora of unique upgrades to equip&r and the ability to improve the backpack's storage by &6crafting it with increasingly expensive ingots&r, this is truly an endgame storage solution for on-the-go witches."
+				""
+				"You can place this backpack down/pick it up by &6shifting with it in your hand&r. To secure your backpack, we recommend switching the settings of the backpack to disable other players being able to open it on your back."
+				""
+				"Backpacks can be found only in &cEnd City&r loot, making them an extremely valuable late game find. "
+				""
+				"Note: &dYou can dye or upgrade your backpack without removing the contents&r!"
+			]
+			id: "09D1FD5320857872"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "finally!"
+			tasks: [{
+				id: "599CD822D620424A"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-492794381
+							-947040337
+							-1137181004
+							-976664855
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A More Sophisticated Backpack"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"Collecting lots of water or lava but don't want to carry all those buckets? The &bTank Upgrade&r allows you to &6add and remove buckets of fluid from the tank&r, storing far more while only sacrificing a few slots of the backpack. &bStack Upgrades&r also increase your tank size."
+				""
+				"Going on a deep mining trip with your mending tools? Consider equipping the tank alongside an &bExperience Pump&r to store exp and dish it out as needed. Keep in mind, you will need to &dfully empty the previous fluid&r before using the pump."
+			]
+			id: "68CA96592DA978BC"
+			shape: "hexagon"
+			subtitle: "baby got camelback"
+			tasks: [{
+				id: "69ADA8A42F3B1210"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_fluid"
+					}
+				}
+				title: "Any #forge:sophb_fluid"
+				type: "item"
+			}]
+			title: "Fluid On The Go"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "19F9AEAC413F6379"
+			tasks: [{
+				id: "7FE4410258635953"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"As you improve your backpack, you will unlock upgrade slots. Just like with &lSophisticated Storage&r, you can use those slots to &aincrease stack size&r with the &bStack Upgrades&r or &aautomatically compact items&r with the &bCompacting Upgrade&r to maximize storage space."
+				""
+				"Caution: these upgrades will give your backpack a lot more storage space, &cwhich makes them potentially very heartbreaking to misplace or lose.&r Please keep this in mind!"
+			]
+			id: "53CE2F944DFC7725"
+			shape: "hexagon"
+			subtitle: "mary poppins got nothin' on this"
+			tasks: [{
+				id: "17561BF6F61D5C41"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_inventory"
+					}
+				}
+				title: "Any #forge:sophb_inventory"
+				type: "item"
+			}]
+			title: "Inventory Management"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"These upgrades will help you take your workshop with you. Each one does what it says on the tin... &bcrafting tables&r, &banvils&r, &bsmelters&r... who needs a base? You can live the life of a true adventurer."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "5449147F0A9D80C9"
+			shape: "hexagon"
+			subtitle: "live out of your backpack"
+			tasks: [{
+				id: "5B47695F4C669BC7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_utility"
+					}
+				}
+				title: "Any #forge:sophb_utility"
+				type: "item"
+			}]
+			title: "Utility Upgrades"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"Don't you get tired of having to &aopen your backpack to get things&r? Isn't it annoying to have to &aput food in your mouth&r every time you're hungry? Who has time to &aswitch between their axe and pickaxe&r when harvesting materials?"
+				""
+				"Get yourself a backpack that does it all with these upgrades. No more wasted time &agrabbing the next stack of blocks&r or even &aopening your backpack to refill it.&r You're busy and have more important matters to attend to."
+				""
+				"Backpack? More like Butler... pack."
+			]
+			id: "4BA960F4630EFF4C"
+			shape: "hexagon"
+			subtitle: "\"i don't like to do anything\" - Docm77"
+			tasks: [{
+				id: "0C0AC49F5C800257"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_quick"
+					}
+				}
+				title: "Any #forge:sophb_quick"
+				type: "item"
+			}]
+			title: "Shortcut Upgrades"
 			x: 1.0d
-			y: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"You did it. You made the Perfect Backpack. a lever of infinite size could not pry this backpack from reality. "
+				""
+				"&dJust don't lose it somewhere.&r"
+			]
+			id: "3C6CA784B036DD53"
+			shape: "hexagon"
+			subtitle: "this backpack is now a canon event"
+			tasks: [{
+				id: "2188019138E0AB5B"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"These upgrades allow your backpack to operate outside the confines of its leather!"
+				""
+				"&6Pickup Upgrade&r will reroute any items you pick up to enter your backpack instead of your inventory. "
+				""
+				"&6Magnet Upgrade&r will draw items to your backpack from a distance! "
+				""
+				"&6Jukebox Upgrade&r will allow you to be that one hiker who always brings their bluetooth speaker with them to bless the entire trail with the soothing tunes of Nicki Minaj."
+			]
+			id: "2363831930C80C6A"
+			subtitle: "let 'em know you're coming"
+			tasks: [{
+				id: "3AF886787A580E00"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_environmental"
+					}
+				}
+				title: "Any #forge:sophb_environmental"
+				type: "item"
+			}]
+			title: "Environmental Upgrades"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
+				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
+				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
+				"Hover over each option to &asee what challenge unlocks that look&r."
+				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
+				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
+			]
+			id: "7B72E2C06B316F5A"
+			rewards: [
+				{
+					count: 15
+					id: "6FE42AC5E90113D8"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB0AAAB64B8D5B7"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "just what you've always wanted!"
+			tasks: [{
+				id: "62D500A4711B3B3C"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			title: "Oh my GOD a BACKPACK"
+			x: -0.5d
+			y: -7.0d
 		}
 	]
 	title: "Storage"

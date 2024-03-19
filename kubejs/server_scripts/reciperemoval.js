@@ -209,8 +209,28 @@ ServerEvents.recipes(event => {
         {output: 'luphieclutteredmod:small_shelf'},
         {output: 'miners_delight:sticky_basket'},
         {id: 'netherdepthsupgrade:eyeball'},
-        {id: 'netherdepthsupgrade:fortress_grouper_plate'}
-
+        {id: 'netherdepthsupgrade:fortress_grouper_plate'},
+         {output: 'sophisticatedbackpacks:inception_upgrade'}, 
+         {output: 'sophisticatedbackpacks:void_upgrade'}, 
+         {output: 'sophisticatedbackpacks:filter_upgrade'}, 
+         {output: 'sophisticatedbackpacks:deposit_upgrade'},
+         {output: 'aquaculture:dark_oak_fish_mount'}, 
+         {output: 'aquaculture:oak_fish_mount'}, 
+         {output: 'aquaculture:spruce_fish_mount'}, 
+         {output: 'aquaculture:birch_fish_mount'}, 
+         {output: 'aquaculture:jungle_fish_mount'}, 
+         {output: 'sophisticatedbackpacks:pump_upgrade'}, 
+         {output: 'sophisticatedbackpacks:advanced_pump_upgrade'}, 
+         {output: 'aquaculture:acacia_fish_mount'},
+         {output: 'sophisticatedbackpacks:advanced_void_upgrade'}, 
+         {output: 'sophisticatedbackpacks:advanced_filter_upgrade'}, 
+         {output: 'sophisticatedbackpacks:advanced_deposit_upgrade'},
+         {output: 'sophisticatedbackpacks:xp_pump_upgrade'},
+         {output: 'sophisticatedbackpacks:battery_upgrade'},
+         {output: 'sophisticatedbackpacks:stack_upgrade_tier_4'},
+         {output: 'sophisticatedbackpacks:stack_upgrade_tier_3'},
+         {output: 'sophisticatedbackpacks:stack_upgrade_tier_2'},
+         {output: 'backpacked:backpack'}
     ];
     
       for (const remove of toRemove) {

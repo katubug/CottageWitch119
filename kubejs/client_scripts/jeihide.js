@@ -144,7 +144,26 @@ JEIEvents.hideItems(event => {
         'caupona:stock_aspic',
         'caupona:stock',
         'sophisticatedstorage:filter_upgrade',
-        'sophisticatedstorage:advanced_filter_upgrade'
+        'sophisticatedstorage:advanced_filter_upgrade',
+        'sophisticatedbackpacks:inception_upgrade', 
+        'sophisticatedbackpacks:void_upgrade', 
+        'sophisticatedbackpacks:filter_upgrade', 
+        'sophisticatedbackpacks:deposit_upgrade',
+        'aquaculture:dark_oak_fish_mount', 
+        'aquaculture:oak_fish_mount', 
+        'aquaculture:spruce_fish_mount', 
+        'aquaculture:birch_fish_mount', 
+        'aquaculture:jungle_fish_mount', 
+        'sophisticatedbackpacks:pump_upgrade', 
+        'sophisticatedbackpacks:advanced_pump_upgrade', 
+        'aquaculture:acacia_fish_mount',
+        'sophisticatedbackpacks:advanced_void_upgrade', 
+        'sophisticatedbackpacks:advanced_filter_upgrade', 
+        'sophisticatedbackpacks:advanced_deposit_upgrade',
+        'sophisticatedbackpacks:battery_upgrade',
+        'sophisticatedbackpacks:stack_upgrade_tier_4',
+        'sophisticatedbackpacks:stack_upgrade_tier_3',
+        'sophisticatedbackpacks:stack_upgrade_tier_2'
     ];
     
       for (const hide of toHide) {

@@ -15,7 +15,7 @@
 		image: "cottagewitch:textures/bgcollections.png"
 		rotation: 0.0d
 		width: 11.0d
-		x: 0.0d
+		x: -0.5d
 		y: 0.0d
 	}]
 	order_index: 0
@@ -112,7 +112,7 @@
 				}
 			]
 			title: "Flower Picking: Red"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -163,7 +163,7 @@
 				}
 			]
 			title: "Flower Picking: Orange"
-			x: -3.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -256,7 +256,7 @@
 				}
 			]
 			title: "Music Lover"
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -319,7 +319,7 @@
 				}
 			]
 			title: "Flower Picking: Yellow"
-			x: -2.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -388,7 +388,7 @@
 				}
 			]
 			title: "Flower Picking: Green and Cyan"
-			x: -2.0d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -436,7 +436,7 @@
 				}
 			]
 			title: "Flower Picking: Blue"
-			x: -1.5d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -499,7 +499,7 @@
 				}
 			]
 			title: "Flower Picking: Periwinkle"
-			x: -1.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -597,7 +597,7 @@
 				}
 			]
 			title: "Flower Picking: Purple"
-			x: -0.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -695,7 +695,7 @@
 				}
 			]
 			title: "Flower Picking: Pink"
-			x: 0.0d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -768,7 +768,7 @@
 				}
 			]
 			title: "Flower Picking: Magenta"
-			x: 0.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -861,7 +861,7 @@
 				}
 			]
 			title: "Flower Picking: Black and White"
-			x: -1.5d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -969,7 +969,7 @@
 				}
 			]
 			title: "Cool Mushrooms"
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -1135,7 +1135,7 @@
 				}
 			]
 			title: "Obtain the Rainbow"
-			x: 2.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -1167,7 +1167,7 @@
 				id: "1FA9C71585BE62EF"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -1230,7 +1230,7 @@
 				title: "Ultimate Flower Enthusiast"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1262,7 +1262,7 @@
 				id: "4BF8DEAE7CD5ADB6"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -1296,7 +1296,7 @@
 				}
 			]
 			title: "Flower Picking: Light Blue"
-			x: -1.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -1308,7 +1308,7 @@
 				item: "ftbquests:barrier"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 	]

@@ -27,6 +27,9 @@
 		{ item: "netherdepthsupgrade:searing_cod_bucket" }
 		{ item: "netherdepthsupgrade:obsidianfish_bucket" }
 		{ item: "netherdepthsupgrade:lava_pufferfish_bucket" }
+		{ item: "netherdepthsupgrade:eyeball_fish_bucket" }
+		{ item: "netherdepthsupgrade:fortress_grouper_bucket" }
+		{ item: "quark:crab_bucket" }
 	]
 	title: "Buckets"
 }

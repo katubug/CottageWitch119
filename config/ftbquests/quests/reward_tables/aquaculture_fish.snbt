@@ -1,0 +1,37 @@
+{
+	id: "4EA746CB2D1974F1"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "aquaculture:atlantic_cod_bucket" }
+		{ item: "aquaculture:blackfish_bucket" }
+		{ item: "aquaculture:pacific_halibut_bucket" }
+		{ item: "aquaculture:atlantic_halibut_bucket" }
+		{ item: "aquaculture:atlantic_herring_bucket" }
+		{ item: "aquaculture:pink_salmon_bucket" }
+		{ item: "aquaculture:pollock_bucket" }
+		{ item: "aquaculture:rainbow_trout_bucket" }
+		{ item: "aquaculture:bayad_bucket" }
+		{ item: "aquaculture:synodontis_bucket" }
+		{ item: "aquaculture:bluegill_bucket" }
+		{ item: "aquaculture:muskellunge_bucket" }
+		{ item: "aquaculture:boulti_bucket" }
+		{ item: "aquaculture:capitaine_bucket" }
+		{ item: "aquaculture:smallmouth_bass_bucket" }
+		{ item: "aquaculture:brown_trout_bucket" }
+		{ item: "aquaculture:carp_bucket" }
+		{ item: "aquaculture:catfish_bucket" }
+		{ item: "aquaculture:gar_bucket" }
+		{ item: "aquaculture:minnow_bucket" }
+		{ item: "aquaculture:perch_bucket" }
+		{ item: "aquaculture:brown_shrooma_bucket" }
+		{ item: "aquaculture:red_grouper_bucket" }
+		{ item: "aquaculture:tambaqui_bucket" }
+		{ item: "aquaculture:piranha_bucket" }
+		{ item: "aquaculture:arapaima_bucket" }
+		{ item: "aquaculture:red_shrooma_bucket" }
+		{ item: "aquaculture:jellyfish_bucket" }
+		{ item: "aquaculture:tuna_bucket" }
+	]
+	title: "Aquaculture Fish"
+}

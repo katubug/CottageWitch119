@@ -730,7 +730,7 @@ event.add('forge:string',
 'crittersandcompanions:silk'
 )
 
-// Majruzs's Accessories
+// Majrusz's Accessories
 
 event.add('forge:maj_acs',
 'majruszsaccessories:certificate_of_taming',
@@ -772,8 +772,115 @@ event.add('forge:maj_cards',
 'majruszsaccessories:reverse_card'
 )
 
+   //Aquaculture tags
+    //Fishing Rods
+    event.add('forge:fishing_rods',
+    'aquaculture:iron_fishing_rod',
+    'aquaculture:gold_fishing_rod',
+    'aquaculture:diamond_fishing_rod'
+    )
 
+    //Upgraded Hooks
+    event.add('forge:upgraded_hooks',
+    'aquaculture:nether_star_hook',
+    'aquaculture:double_hook',
+    'aquaculture:diamond_hook',
+    'aquaculture:gold_hook'
+    )
 
+    //Niche Hooks
+    event.add('forge:niche_hooks',
+    'aquaculture:note_hook',
+    'aquaculture:redstone_hook',
+    'aquaculture:heavy_hook',
+    'aquaculture:light_hook'
+    )
+
+    // Sophisticated Backpack Tags
+// Utility Upgrades
+
+event.add('forge:sophb_utility',
+    'sophisticatedbackpacks:auto_blasting_upgrade', 
+    'sophisticatedbackpacks:auto_smelting_upgrade', 
+    'sophisticatedbackpacks:auto_smoking_upgrade', 
+    'sophisticatedbackpacks:smoking_upgrade', 
+    'sophisticatedbackpacks:smelting_upgrade', 
+    'sophisticatedbackpacks:blasting_upgrade', 
+    'sophisticatedbackpacks:crafting_upgrade', 
+    'sophisticatedbackpacks:anvil_upgrade'
+)
+
+// Inventory Management Upgrades
+
+event.add('forge:sophb_inventory',
+    'sophisticatedbackpacks:advanced_compacting_upgrade', 
+    'sophisticatedbackpacks:compacting_upgrade', 
+    'sophisticatedbackpacks:stack_upgrade_tier_1', 
+    'sophisticatedbackpacks:stack_upgrade_starter_tier'
+)
+
+// Quick Access Upgrades
+
+event.add('forge:sophb_quick',
+    'sophisticatedbackpacks:advanced_feeding_upgrade', 
+    'sophisticatedbackpacks:advanced_restock_upgrade', 
+    'sophisticatedbackpacks:advanced_refill_upgrade', 
+    'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 
+    'sophisticatedbackpacks:tool_swapper_upgrade', 
+    'sophisticatedbackpacks:refill_upgrade', 
+    'sophisticatedbackpacks:restock_upgrade', 
+    'sophisticatedbackpacks:feeding_upgrade'
+)
+
+// Environmental Upgrade
+
+event.add('forge:sophb_environmental',
+    'sophisticatedbackpacks:jukebox_upgrade', 
+    'sophisticatedbackpacks:magnet_upgrade', 
+    'sophisticatedbackpacks:pickup_upgrade', 
+    'sophisticatedbackpacks:advanced_pickup_upgrade', 
+    'sophisticatedbackpacks:advanced_magnet_upgrade'
+)
+
+// Exp Fluid Upgrades
+
+event.add('forge:sophb_fluid',
+    'sophisticatedbackpacks:tank_upgrade',
+    'sophisticatedbackpacks:xp_pump_upgrade'
+)
+
+// aquaculture fish
+event.add('forge:aquafish',
+        'aquaculture:arapaima', 
+        'aquaculture:atlantic_cod', 
+        'aquaculture:atlantic_halibut', 
+        'aquaculture:atlantic_herring', 
+        'aquaculture:bayad', 
+        'aquaculture:blackfish', 
+        'aquaculture:bluegill', 
+        'aquaculture:boulti', 
+        'aquaculture:brown_shrooma',
+        'aquaculture:brown_trout', 
+        'aquaculture:capitaine', 
+        'aquaculture:carp', 
+        'aquaculture:catfish', 
+        'aquaculture:gar', 
+        'aquaculture:jellyfish', 
+        'aquaculture:minnow', 
+        'aquaculture:muskellunge', 
+        'aquaculture:pacific_halibut', 
+        'aquaculture:perch', 
+        'aquaculture:pink_salmon', 
+        'aquaculture:piranha', 
+        'aquaculture:pollock', 
+        'aquaculture:rainbow_trout', 
+        'aquaculture:red_grouper', 
+        'aquaculture:red_shrooma', 
+        'aquaculture:smallmouth_bass', 
+        'aquaculture:synodontis', 
+        'aquaculture:tambaqui', 
+        'aquaculture:tuna'
+)
 })
 
 

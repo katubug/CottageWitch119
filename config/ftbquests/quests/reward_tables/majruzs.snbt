@@ -1,7 +1,7 @@
 {
 	id: "7732376EC3F7FB9D"
 	loot_size: 1
-	order_index: 29
+	order_index: 28
 	rewards: [
 		{ item: "majruszsaccessories:removal_card" }
 		{ item: "majruszsaccessories:reverse_card" }

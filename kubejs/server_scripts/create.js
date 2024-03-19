@@ -9,4 +9,5 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.haunting('domesticationinnovation:sinister_carrot', 'miners_delight:cave_carrot')
 
+    e.recipes.create.haunting('byg:crimson_berries', 'byg:blueberries')
   })

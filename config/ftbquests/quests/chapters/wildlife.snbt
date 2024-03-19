@@ -106,7 +106,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Cosmaw"
-			x: -8.5d
+			x: -8.0d
 			y: -7.0d
 		}
 		{
@@ -560,7 +560,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -586,7 +586,7 @@
 			}]
 			title: "Meet the Capuchin Monkey"
 			x: -11.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0CED4D17E7F90678"]
@@ -771,7 +771,7 @@
 			}]
 			title: "The Rarest Fish in the World"
 			x: -6.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -804,8 +804,8 @@
 				to_observe: "alexsmobs:catfish"
 				type: "observation"
 			}]
-			x: -9.5d
-			y: -4.0d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -923,7 +923,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Elephant"
-			x: -8.5d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -1087,9 +1087,11 @@
 		}
 		{
 			description: [
-				"Would you like some help harvesting your crops? Well, you're in luck, as your magic is capable of creating life! Tiny &eStraw Golems&r will help you harvest your crops."
+				"Would you like some help harvesting your crops? Well, you're in luck, as your magic is capable of creating life! Tiny &eStraw Golems&r will help you harvest your crops. "
 				"Despite the name, Straw Golems are made with Hay, not Straw. So obtain a &bBale of Hay&r and a &bCarved Pumpkin&r to create your new friends! &6Place down the Hay, and then the Pumpkin on top&r, and watch it spring to life."
 				"The hat accentuates the cuteness of the golem."
+				""
+				"Note: &ddue to the difficult in keeping golems alive, we have opted to disable the mechanic that causes them to degrade/need repairing&r. "
 			]
 			id: "79630C442EB1C589"
 			rewards: [{
@@ -1127,31 +1129,7 @@
 			}]
 			title: "Get your Straw Golem a Hat"
 			x: 2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["79630C442EB1C589"]
-			description: [
-				"&eStraw Golems&r are fragile little things and require both healing and feeding."
-				"They will degrade over time, and will also take damage from other sources such as &ahungry livestock&r and &arain&r. &6Right click on them with wheat&r to heal them."
-				"By default, the Straw Golem will live only 7 (ingame) days. You can &aextend their lifespan with wheat&r."
-			]
-			id: "6AB1FDC1FF5E81BA"
-			rewards: [{
-				count: 5
-				id: "2731BA89A6C3451B"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "Care and Feeding of your Golem"
-			tasks: [{
-				id: "22B3AE4B3D416FC2"
-				item: "minecraft:wheat"
-				type: "item"
-			}]
-			title: "Get some Wheat to Heal your Straw Golem"
-			x: 2.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
@@ -1376,25 +1354,22 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"]
+			description: [
+				"Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"
+				""
+				"As a reward, here's a &eparticularly rare creeper&r that doesn't spawn in the world... maybe keep it in an aquarium as a trophy?"
+			]
 			icon: "handcrafted:creeper_trophy"
 			id: "5F03012DC9E38D8D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "402204927BD6B243"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D9F58F6BCEF3611"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
-				{
 					id: "23C411FB6E5B7932"
 					item: "handcrafted:creeper_trophy"
+					type: "item"
+				}
+				{
+					id: "2726C99582901BCA"
+					item: "creeperoverhaul:ocean_creeper_spawn_egg"
 					type: "item"
 				}
 			]
@@ -1952,8 +1927,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snow Golem"
-			x: -11.0d
-			y: -3.0d
+			x: -11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -2011,7 +1986,7 @@
 			}]
 			title: "Meet the Raccoon"
 			x: -10.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -2708,6 +2683,29 @@
 			}]
 			x: -8.0d
 			y: 5.5d
+		}
+		{
+			description: ["Oh wow, a &eJumping Spider&r! Tame it with &bdragonfly wings&r and it will protect you. They also drop &bspider silk&r, which can be used to craft the &bsilk leash&r and &bsilk grappling hook&r."]
+			id: "3C1AC5730A574F29"
+			rewards: [{
+				count: 5
+				id: "14733F4457AA3686"
+				item: "crittersandcompanions:dragonfly_wing"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "you aren't so scary, are ya?"
+			tasks: [{
+				icon: "crittersandcompanions:silk_cocoon"
+				id: "237BF2170AFAE280"
+				observe_type: 0
+				timer: 0L
+				to_observe: "crittersandcompanions:jumping_spider"
+				type: "observation"
+			}]
+			title: "Meet the Jumping Spider!"
+			x: -6.0d
+			y: -2.5d
 		}
 	]
 	title: "Wildlife"

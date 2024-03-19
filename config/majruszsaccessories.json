@@ -28,10 +28,10 @@
     },
     "angler_rune": {
       "fishing_luck": {
-        "bonus": 3,
+        "bonus": 3.0,
         "bonus_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       },
       "fishing_time": {
@@ -41,25 +41,20 @@
           "max": 1.0
         }
       },
-      "extra_fishing_item": {
-        "chance": 0.25,
+      "extra_fishing_treasure": {
+        "chance": 0.06,
         "chance_range": {
           "min": 0.0,
           "max": 1.0
-        },
-        "count": 3,
-        "count_range": {
-          "min": 2,
-          "max": 10
         }
       }
     },
     "angler_trophy": {
       "fishing_luck": {
-        "bonus": 3,
+        "bonus": 3.0,
         "bonus_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       },
       "fishing_drop_chance": 0.01
@@ -86,10 +81,10 @@
     },
     "dream_catcher": {
       "sleep_bonuses": {
-        "count": 1,
+        "count": 1.0,
         "count_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         },
         "duration": 300,
         "duration_range": {
@@ -142,10 +137,10 @@
         }
       },
       "sleep_bonuses": {
-        "count": 1,
+        "count": 1.0,
         "count_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         },
         "duration": 360,
         "duration_range": {
@@ -193,10 +188,10 @@
           "min": 0.0,
           "max": 1.0
         },
-        "amplifier": 1,
+        "amplifier": 1.0,
         "amplifier_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       }
     },
@@ -226,16 +221,11 @@
       "mining_drop_chance": 7.5E-4
     },
     "metal_lure": {
-      "extra_fishing_item": {
-        "chance": 0.2,
+      "extra_fishing_treasure": {
+        "chance": 0.05,
         "chance_range": {
           "min": 0.0,
           "max": 1.0
-        },
-        "count": 2,
-        "count_range": {
-          "min": 2,
-          "max": 10
         }
       },
       "fish_drop_chance": 0.01,
@@ -314,10 +304,10 @@
           "min": 0.0,
           "max": 1.0
         },
-        "amplifier": 1,
+        "amplifier": 1.0,
         "amplifier_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       },
       "brewing_drop_chance": 0.02
@@ -338,10 +328,10 @@
         }
       },
       "fishing_luck": {
-        "bonus": 4,
+        "bonus": 4.0,
         "bonus_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       },
       "fishing_time": {
@@ -351,16 +341,11 @@
           "max": 1.0
         }
       },
-      "extra_fishing_item": {
-        "chance": 0.3,
+      "extra_fishing_treasure": {
+        "chance": 0.07,
         "chance_range": {
           "min": 0.0,
           "max": 1.0
-        },
-        "count": 4,
-        "count_range": {
-          "min": 2,
-          "max": 10
         }
       },
       "trading_discount": {
@@ -371,10 +356,10 @@
         }
       },
       "sleep_bonuses": {
-        "count": 2,
+        "count": 2.0,
         "count_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         },
         "duration": 420,
         "duration_range": {
@@ -422,10 +407,10 @@
           "min": 0.0,
           "max": 1.0
         },
-        "amplifier": 1,
+        "amplifier": 1.0,
         "amplifier_range": {
-          "min": 1,
-          "max": 10
+          "min": 1.0,
+          "max": 10.0
         }
       },
       "extra_mining_item": {
@@ -537,10 +522,10 @@
       "accessory_drop_chance_multiplier": 0.4
     },
     "golden_horseshoe": {
-      "luck_bonus": 2
+      "luck_bonus": 2.0
     },
     "horseshoe": {
-      "luck_bonus": 1,
+      "luck_bonus": 1.0,
       "skeleton_horseman_drop_chance": 0.334
     },
     "onyx": {

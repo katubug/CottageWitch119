@@ -17,12 +17,12 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 8.0d
+			height: 14.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgfishing.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: 4.5d
+			width: 14.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -34,7 +34,7 @@
 			image: "cottagewitch:textures/bggathering.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -4.5d
+			x: -5.5d
 			y: 0.0d
 		}
 	]
@@ -42,87 +42,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["104D0C28773A1DD4"]
-			description: [
-				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
-				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
-			]
-			id: "0F5E5A0B0C05ACD2"
-			rewards: [
-				{
-					count: 3
-					id: "1814749C8605B014"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "36A27638B101E7BE"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					id: "798C459CD61F966A"
-					item: "netherdepthsupgrade:blazefish"
-					type: "item"
-				}
-				{
-					id: "6C782B0CFA8D3DEE"
-					item: "netherdepthsupgrade:magmacubefish"
-					type: "item"
-				}
-				{
-					id: "5F2C45F299657EFB"
-					item: "netherdepthsupgrade:glowdine"
-					type: "item"
-				}
-				{
-					id: "2F6245F84764D7B2"
-					item: "netherdepthsupgrade:soulsucker"
-					type: "item"
-				}
-				{
-					id: "5D30B99EE265108E"
-					item: "netherdepthsupgrade:lava_pufferfish"
-					type: "item"
-				}
-				{
-					id: "261478743CC10159"
-					item: "netherdepthsupgrade:searing_cod"
-					type: "item"
-				}
-				{
-					id: "5D981D87542D1FD9"
-					item: "netherdepthsupgrade:obsidianfish"
-					type: "item"
-				}
-				{
-					id: "143742BA7EEEE35E"
-					item: "netherdepthsupgrade:wither_bonefish"
-					type: "item"
-				}
-				{
-					id: "0606924590758073"
-					item: "netherdepthsupgrade:bonefish"
-					type: "item"
-				}
-			]
-			title: "Nether Fishing"
-			x: 2.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
 			id: "104D0C28773A1DD4"
 			rewards: [{
-				id: "4CD84099301CB676"
-				item: "netherdepthsupgrade:glowdine_bucket"
+				id: "74ED4837B530E7B0"
+				item: "netherdepthsupgrade:lava_sponge"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "a hellish rod"
 			tasks: [{
 				id: "4B09404FC3251283"
@@ -136,15 +64,16 @@
 				type: "item"
 			}]
 			title: "I've Nether Fished So Well"
-			x: 2.5d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
 			description: [
-				"To get started with &aFishing&r, every good witch needs a decent &brod&r. You can't go wrong with the traditional &bFishing Rod&r, but there are &amultiple options&r for you to choose from, now!"
-				"&6Hovering over each item&r will tell you more about what they do, and &lJEI&r can show you how to craft them!"
-				"These rods will &alevel up as you use them&r, and can even &abecome dynamically enchanted&r!"
-				"In addition, there are new treasures to be fished up, and new types of fish. So what are you waiting for? Get reelin'!"
+				"While you can still fish with a plain old &bFishing Rod&r, you can get much better results by crafting an advanced version, such as an &bIron&r, &bGold&r, or &bDiamond Fishing Rod&r. "
+				""
+				"At first glance, they don't seem all that different, but &dobtain a Tackle Box&r and you'll get more perspective on how much better these &bFishing Rods&r can be."
+				""
+				"Why use a rod when you can just dive in to hit 'em with your sword? Well, some fish &ado not spawn in the world and can only be caught on a line&r."
 			]
 			id: "2E4D1699E2A7876B"
 			rewards: [
@@ -156,14 +85,14 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5733FE4FC03C948A"
-					table_id: 7707783220386620668L
-					type: "random"
+					id: "18A2E48F0E5B1B1B"
+					table_id: 5667576494518007025L
+					type: "choice"
 				}
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "a fisher's life for me"
+			subtitle: "it all starts here"
 			tasks: [{
 				id: "48F4CD59425BC257"
 				item: {
@@ -177,77 +106,8 @@
 				type: "item"
 			}]
 			title: "Get a Fishing Rod"
-			x: 4.0d
+			x: 5.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["2E4D1699E2A7876B"]
-			description: ["The &bLucky Pad&r is an item which can be &6applied to your Rod via the &bSmithing Table&r. Each time you do so, it grants you &aanother level of Luck&r on your rod, which increases your Rod's bonuses."]
-			id: "100842B78CAFB393"
-			rewards: [{
-				count: 2
-				id: "1CF283F6DD3428B3"
-				item: "better_fishing_rods:lucky_pad_fragment"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "20A04B6B1E5922B8"
-					item: "better_fishing_rods:lucky_pad"
-					type: "item"
-				}
-				{
-					id: "5BBC56B508901D6B"
-					item: "better_fishing_rods:lucky_pad_fragment"
-					type: "item"
-				}
-			]
-			title: "Get Lucky"
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2E4D1699E2A7876B"]
-			description: ["Catch one each of the &abasic fish in vanilla&r!"]
-			id: "7A31753911D1CCFC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6933C2EABDC4F6E6"
-					table_id: 1279979498352596350L
-					type: "random"
-				}
-				{
-					id: "0974F835394F997D"
-					item: "better_fishing_rods:lucky_pad"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7B3E2CE57F6AE720"
-					item: "minecraft:cod"
-					type: "item"
-				}
-				{
-					id: "34E02D42248303DC"
-					item: "minecraft:salmon"
-					type: "item"
-				}
-				{
-					id: "6D78D10E94FF6422"
-					item: "minecraft:tropical_fish"
-					type: "item"
-				}
-				{
-					id: "29B930E5EE5F787D"
-					item: "minecraft:pufferfish"
-					type: "item"
-				}
-			]
-			title: "Basic Fish"
-			x: 3.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
@@ -262,12 +122,13 @@
 				item: "collectorsreap:pomegranate"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "7972CB0F2E61BE94"
 				item: "collectorsreap:pomegranate"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -280,12 +141,13 @@
 				item: "caupona:fig"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "2ED2CB812D6410F0"
 				item: "caupona:fig"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -298,12 +160,13 @@
 				item: "collectorsreap:lime"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "7F37A8C84BE53B25"
 				item: "collectorsreap:lime"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -1.0d
 		}
 		{
@@ -316,20 +179,18 @@
 				item: "collectorsreap:portobello"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "7E9558C833E4342B"
 				item: "collectorsreap:portobello"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: [
-				"Historically, witches danced beneath the boughs of the walnut tree."
-				"Historically, witches danced beneath the boughs of the walnut tree. It is also said that giving someone a bag of walnuts will make all their dreams come true. This works especially well if their dream was to own a bag of walnuts."
-			]
+			description: ["Historically, witches danced beneath the boughs of the walnut tree. It is also said that giving someone a bag of walnuts will make all their dreams come true. This works especially well if their dream was to own a bag of walnuts."]
 			id: "5C5DF640A2605954"
 			rewards: [{
 				count: 5
@@ -337,12 +198,13 @@
 				item: "caupona:walnut"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "1F753784516464C0"
 				item: "caupona:walnut"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -355,12 +217,13 @@
 				item: "caupona:wolfberries"
 				type: "item"
 			}]
+			subtitle: "real world lore"
 			tasks: [{
 				id: "746220A32EE8AA8E"
 				item: "caupona:wolfberries"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -456,13 +319,16 @@
 					value: 1L
 				}
 				{
-					id: "358D90173537D7C8"
-					item: "farmersdelight:wild_tomatoes"
-					type: "item"
+					block: "farmersdelight:wild_tomatoes"
+					block_type: 0
+					checkItem: false
+					id: "2C5F1B4B6FC9842D"
+					type: "questsadditions:break"
+					value: 1L
 				}
 			]
 			title: "Forage Wild Crops"
-			x: -4.5d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -474,19 +340,180 @@
 				item: "ftbquests:barrier"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["If you truly wish to dedicate yourself to fishing, you may be rewarded. &6Catch 500 fish&r in order to complete this quest."]
-			id: "5DA91B3B409332E9"
+			description: ["Lucky you, you found a &bMessage in a Bottle&r! What does it say?"]
+			id: "2CB6A1B10F4A6FAD"
 			rewards: [
 				{
-					id: "1D8CDCAA76D97CDB"
+					id: "5D186EA1176A65E7"
 					item: {
 						Count: 1b
-						id: "better_fishing_rods:golden_fishing_rod"
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 28
+							}
+						}
+						id: "snailmail:envelope_open"
+					}
+					type: "item"
+				}
+				{
+					id: "2174642661992281"
+					item: "snailmail:stamp"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I hope that someone gets my"
+			tasks: [{
+				id: "0A5D1053C0B55403"
+				item: "aquaculture:message_in_a_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["104D0C28773A1DD4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
+				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
+			]
+			id: "0F5E5A0B0C05ACD2"
+			rewards: [
+				{
+					count: 3
+					id: "1814749C8605B014"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36A27638B101E7BE"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "798C459CD61F966A"
+					item: "netherdepthsupgrade:blazefish"
+					type: "item"
+				}
+				{
+					id: "6C782B0CFA8D3DEE"
+					item: "netherdepthsupgrade:magmacubefish"
+					type: "item"
+				}
+				{
+					id: "5F2C45F299657EFB"
+					item: "netherdepthsupgrade:glowdine"
+					type: "item"
+				}
+				{
+					id: "2F6245F84764D7B2"
+					item: "netherdepthsupgrade:soulsucker"
+					type: "item"
+				}
+				{
+					id: "5D30B99EE265108E"
+					item: "netherdepthsupgrade:lava_pufferfish"
+					type: "item"
+				}
+				{
+					id: "261478743CC10159"
+					item: "netherdepthsupgrade:searing_cod"
+					type: "item"
+				}
+				{
+					id: "5D981D87542D1FD9"
+					item: "netherdepthsupgrade:obsidianfish"
+					type: "item"
+				}
+				{
+					id: "143742BA7EEEE35E"
+					item: "netherdepthsupgrade:wither_bonefish"
+					type: "item"
+				}
+				{
+					id: "0606924590758073"
+					item: "netherdepthsupgrade:bonefish"
+					type: "item"
+				}
+				{
+					id: "1E320AD1AA089E88"
+					item: "netherdepthsupgrade:fortress_grouper"
+					type: "item"
+				}
+				{
+					id: "2A137736FB18DEF6"
+					item: "netherdepthsupgrade:eyeball_fish"
+					type: "item"
+				}
+			]
+			title: "Nether Fishing"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["These fish live in &cFreshwater-containing biomes&r such as rivers, forests, and so on!"]
+			id: "587057082557AAFB"
+			rewards: [{
+				id: "7D78657C032650A7"
+				item: "aquaculturedelight:catfish_barbecue"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "fresh perch of bel-air"
+			tasks: [
+				{
+					id: "1B3AA6BFD29D0F74"
+					item: "aquaculture:smallmouth_bass"
+					type: "item"
+				}
+				{
+					id: "212CD172982070D7"
+					item: "aquaculture:bluegill"
+					type: "item"
+				}
+				{
+					id: "3187145D22D589F8"
+					item: "aquaculture:brown_trout"
+					type: "item"
+				}
+				{
+					id: "62D4CADD76E8E86F"
+					item: "aquaculture:carp"
+					type: "item"
+				}
+				{
+					id: "30321270901C782A"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					id: "5B8274EEABB354C4"
+					item: "aquaculture:muskellunge"
+					type: "item"
+				}
+				{
+					id: "592B4EBC181B507A"
+					item: "aquaculture:gar"
+					type: "item"
+				}
+				{
+					id: "0300F75689D43207"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
 						}
@@ -494,52 +521,617 @@
 					type: "item"
 				}
 				{
-					id: "04A537E4A83156B5"
-					item: "plushies:dolphin"
+					id: "3C0DA5F1FB8E0F86"
+					item: "aquaculture:perch"
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: "minecraft:cod"
-				id: "4EE24F4380B9BDD6"
-				stat: "minecraft:fish_caught"
-				type: "stat"
-				value: 500
-			}]
-			title: "Catch 500 Fish"
-			x: 4.5d
-			y: 2.0d
+			title: "Catch Freshwater Fish"
+			x: 4.0d
+			y: -2.5d
 		}
 		{
-			can_repeat: true
 			dependencies: ["2E4D1699E2A7876B"]
-			description: [
-				"&bLucky Pads&r allow you to upgrade the luck on your &bFishing Rod&r. You can &aobtain more&r by trading in &bthe fish you've caught&r."
-				"&dThis quest is repeatable&r."
-			]
-			id: "2CAAC737A4D4FF60"
+			description: ["These fish can be found in &cCold or Icy&r biomes such as Taigas, Ice Spikes, or Cold Oceans."]
+			id: "4F417203FC109BEA"
 			rewards: [{
-				id: "5B6E74114EE8418E"
-				item: "better_fishing_rods:lucky_pad"
+				id: "58AF0D0DC042F49F"
+				item: "aquaculturedelight:baked_pollock_with_carrots"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
+			subtitle: "particularly arctic-ulate"
+			tasks: [
+				{
+					id: "0351C799674E1C39"
+					item: "aquaculture:atlantic_cod"
+					type: "item"
+				}
+				{
+					id: "3F7735FA4E7DC510"
+					item: "aquaculture:blackfish"
+					type: "item"
+				}
+				{
+					id: "41A59ADB39848C32"
+					item: "aquaculture:atlantic_halibut"
+					type: "item"
+				}
+				{
+					id: "090BEB6D898DFBB2"
+					item: "aquaculture:pacific_halibut"
+					type: "item"
+				}
+				{
+					id: "4C51C874CA5CCB8D"
+					item: "aquaculture:atlantic_herring"
+					type: "item"
+				}
+				{
+					id: "453EB138267DE1C7"
+					item: "aquaculture:pink_salmon"
+					type: "item"
+				}
+				{
+					id: "0BE94B5BE75EDADE"
+					item: "aquaculture:pollock"
+					type: "item"
+				}
+				{
+					id: "733F2EFF01C0A221"
+					item: "aquaculture:rainbow_trout"
+					type: "item"
+				}
+			]
+			title: "Catch Arctic Fish"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["These fish live in &cSaltwater biomes&r such as Lukewarm or Warm Oceans."]
+			id: "035D2CEA29C1E96C"
+			rewards: [{
+				id: "3202A3B7896B48E1"
+				item: "aquaculturedelight:jellyfish_jelly"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "don't get salty with me"
+			tasks: [
+				{
+					id: "4C696880905B5BC1"
+					item: "aquaculture:jellyfish"
+					type: "item"
+				}
+				{
+					id: "45F254A032ECD276"
+					item: "aquaculture:red_grouper"
+					type: "item"
+				}
+				{
+					id: "77A4735C40A1C967"
+					item: "aquaculture:tuna"
+					type: "item"
+				}
+			]
+			title: "Catch Saltwater Fish"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["Although you cannot &afillet&r the &bGoldfish&r, you can extract gold from it! Although, honestly, I'd probably just hang it on the wall with an &bitem frame&r."]
+			id: "444410F7447B1317"
+			rewards: [{
+				id: "74EAFC576474FDCB"
+				item: "minecraft:glow_item_frame"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "you won the gold!"
 			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "68C6E45464091E53"
+				id: "0BAD6FAF3881FFB1"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"The &bShrooma&r can both be caught in &cMushroom Islands&r."
+				""
+				"The &bStarshell Turtle&r can be found anywhere in the &cTwilight Forest&r."
+				""
+				"The &bBox Turtle&r and &bLeech&r are found exclusively in &cSwamp biomes&r. "
+			]
+			id: "21DC6690C774EAAA"
+			rewards: [{
+				id: "64BB8A896641B932"
+				item: "aquaculturedelight:unusual_fish_soup"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0849276B51790376"
+					item: "aquaculture:red_shrooma"
+					type: "item"
+				}
+				{
+					id: "3D94BB8DEAAB5A5F"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					id: "2D7CB13B2C191072"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					id: "1AE626543E4F6D3C"
+					item: "aquaculture:starshell_turtle"
+					type: "item"
+				}
+				{
+					id: "4BB55FF96F9CDB8B"
+					item: {
+						Count: 1b
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Odd Ones Out"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["These fish can be found near &cArid biomes&r such as Deserts or Plateaus."]
+			id: "59ADDCF245D059EF"
+			rewards: [{
+				id: "4820D86718C59FDB"
+				item: "aquaculturedelight:poor_fisher_chowder"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "always arid on the side of caution"
+			tasks: [
+				{
+					id: "19F21E9E3F78886D"
+					item: "aquaculture:bayad"
+					type: "item"
+				}
+				{
+					id: "1E47B9D7F01AB872"
+					item: "aquaculture:boulti"
+					type: "item"
+				}
+				{
+					id: "47B44A10545E34A5"
+					item: "aquaculture:capitaine"
+					type: "item"
+				}
+				{
+					id: "0B4DA76EA49CDDDD"
+					item: "aquaculture:synodontis"
+					type: "item"
+				}
+			]
+			title: "Catch Fish in Arid Biomes"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["These fish can be found in &cJungle-type&r biomes such as Rainforests or, well, Jungles!"]
+			id: "314A3108FC061BC1"
+			rewards: [{
+				id: "199A265D9B6CA527"
+				item: "aquaculturedelight:turtle_meat_dish"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "welcome to the jungle"
+			tasks: [
+				{
+					id: "223B3A8F68BE53FF"
+					item: "aquaculture:arapaima"
+					type: "item"
+				}
+				{
+					id: "6AB102343C02CAE5"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+				{
+					id: "7019AB2A8C5AEEE7"
+					item: "aquaculture:piranha"
+					type: "item"
+				}
+				{
+					id: "195D533C8968A6C9"
+					item: "aquaculture:tambaqui"
+					type: "item"
+				}
+			]
+			title: "Catch Jungle Fish"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"The &bTackle Box&r allows you to modify your new &bFishing Rod&r. Simply &6place the rod in the upper right slot&r, and you can now add a &bHook&r, some &bBait&r, a &bBobber&r, and &bFishing Line&r. These items will determine the performance of your Fishing Rod."
+				""
+				"The &bBobbers&r and &bFishing Line&r can be colored, and are &acosmetic changes only&r."
+				""
+				"&bBait&r can either be caught (Minnows, Leeches) or made (Worms). Bait will draw more fish to your line! It has durability, but can be &aEnchanted&r to make it sturdier."
+			]
+			id: "482A73F6470C9F3D"
+			rewards: [
+				{
+					id: "5E7FB841FB3924F0"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32088996B59152F2"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "better than a tickle box"
+			tasks: [{
+				id: "459DF0E74535B7A5"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"The &bWorm Farm&r gives you easy access to the most basic fishing bait. It works almost identically to a &bCompost Bin&r (because it is). &6Fill it with organic material&r to create compost for your &bWorms&r to live in."
+				""
+				"Once you have enough compost, &6right click with an empty hand&r to dig out some &bWorms&r!"
+				""
+				"Also, in a delightful twist, you &acan Enchant your Worms&r to give them extra durability, and even &aMending&r."
+			]
+			id: "5D90F92A9A2E5061"
+			rewards: [
+				{
+					count: 5
+					id: "24B46AD2FFBD893A"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					id: "5E224A4154C2B7DC"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									252518891
+									-439532983
+									-1228136753
+									1868595290
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyNTczOTZmODlhM2YyM2RjNzA1OTUxZWJiMzM5ZmQ3YzY2OTA1OTJkZjc1NWVmYzQ4YjBkODEyMjllMDg0ZSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Bucket Of Worms\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "form warm"
+			tasks: [{
+				id: "7FD4882318FF3EC4"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"You can craft a &bBobber&r and &bFishing Line&r to customize your &bFishing Rod&r! These can be dyed any color, and are a cosmetic only change."
+				""
+				"note: the &bFishing Line&r and &bUnbreakable Fishing Line&r are unrelated items. The latter is a meant to be &6equipped in your Curios&r."
+			]
+			id: "59237CB30CC6F4E3"
+			rewards: [{
+				count: 3
+				id: "4610A7699F5DF859"
+				item: {
+					Count: 1b
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "tools of the trade"
+			tasks: [
+				{
+					id: "13511C33620DF9FA"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "10355F5390AAFDD9"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			title: "Bobber and Line"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: ["To fish properly, you'll need a &bHook&r. The Iron Hook grants &aDurability&r to your rod. By default, there is a 20% chance not to use durability."]
+			id: "64BD120520A00D3D"
+			rewards: [{
+				id: "17185BEE2B0390A3"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "fits on your rod, not on your hand!"
+			tasks: [{
+				id: "7E7555C4B40A5BD2"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: [
+				"Iron Hook not cutting it anymore? &aUpgrade your hook&r to one of these!"
+				""
+				"&bGold Hook&r: Increases luck when fishing."
+				""
+				"&bDouble Hook&r: Gives a chance to catch 2 things!"
+				""
+				"&bDiamond Hook&r: Increased chance to not use durability when fishing."
+			]
+			id: "72AF06325F252A3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5802B3DFE88F09"
+				table_id: 1279979498352596350L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "556F09A01C652CBC"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "minecraft:fishes"
+						value: "forge:upgraded_hooks"
 					}
 				}
-				title: "Any #minecraft:fishes"
+				title: "Any #forge:upgraded_hooks"
 				type: "item"
 			}]
-			title: "Deliver Fish"
+			title: "Upgrade Your Hook!"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: [
+				"Different &bHooks&r give different effects. Some are pure upgrades, but these will &agrant other effects&r!"
+				""
+				"&bHeavy Hook&r: Has a shorter cast range than other hooks."
+				""
+				"&bRedstone Hook&r: Gives you longer to reel in a fish, helpful if you have difficulty reacting quickly."
+				""
+				"&bNote Hook&r: Plays a note when a fish is approaching. Useful if you're not paying full attention, or have particles disabled."
+				""
+				"&bLight Hook&r: Allows you to cast farther."
+			]
+			id: "5D6CB31C1C98CFD5"
+			rewards: [{
+				id: "476718BEFFDDC9A3"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D0CC3025DE5972F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:niche_hooks"
+					}
+				}
+				title: "Any #forge:niche_hooks"
+				type: "item"
+			}]
+			title: "Niche Hooks for Niche Jobs"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: ["Are you drowning in &bNether Stars&r? Sure, we all are. Make this hook and get a bonus to durability and luck!"]
+			id: "4FFFF3951DA04102"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EAEE2CF22AED240"
+					table_id: 5525848455660196930L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B41161F41D904B2"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51FA04462213DA60"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
 			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"You can reel in more than just aquatic creatures. Sometimes, you'll catch &bitems&r - these can be fun, like &bMessages in a Bottle&r, or disappointing, like &bDriftwood&r."
+				""
+				"Three of these are loot containers. The &bBox&r is likely to contain &alittle of value&r - rocks, gravel, and so on."
+				""
+				"The &bLockbox&r may contain ores or nuggets or other &aslightly valuable things&r."
+				""
+				"The &bTreasure Chest&r can contain things like &agreater ores or gems&r."
+				""
+				"There may be even greater, rarer treasures to be found..."
+			]
+			id: "67815A6259CBD8E0"
+			rewards: [
+				{
+					id: "048CC42BAB9D61BB"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64BB1ED09A9722FD"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "loot boxes"
+			tasks: [
+				{
+					id: "62564168D9B33E6B"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "75FE208AC8D0AF83"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "48D926392506F25B"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			title: "What's Better Than Fish?"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67815A6259CBD8E0"]
+			description: ["The ultimate rod! The &bNeptunium Rod&r has more durability and is more enchantable than any other rod. It's also inherently more attractive to fish somehow."]
+			id: "463B179F5C15F929"
+			rewards: [
+				{
+					id: "6BE469F291953D98"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FEA2DDA228CF08C"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "the rod of ol' neptune himself"
+			tasks: [{
+				id: "5D527D3F5A2CD037"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"Where are all the fish...? &lAquaculture&r fish &ado not spawn in the world&r, you can only &6fish them up&r. "
+				""
+				"Don't worry though, they aren't dead- only sleeping! &6Combine that fish with a water bucket&r to wake them right up."
+			]
+			id: "4C992CD3177839C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26671245DE4930C5"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+				{
+					id: "71C0306E1FC1B1F5"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "wake them up inside"
+			tasks: [{
+				id: "78AAD73436389F71"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:aquafish"
+					}
+				}
+				title: "Any #forge:aquafish"
+				type: "item"
+			}]
+			title: "Bring Them To Life"
+			x: 0.5d
 			y: 0.5d
 		}
 	]

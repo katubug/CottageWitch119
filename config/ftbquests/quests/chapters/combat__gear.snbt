@@ -2099,42 +2099,6 @@
 		}
 		{
 			description: [
-				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
-				"It can hold a small amount of extra items and &aremains equipped when you die&r."
-				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
-				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				"Hover over each option to &asee what challenge unlocks that look&r."
-				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
-				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
-			]
-			id: "7B72E2C06B316F5A"
-			rewards: [
-				{
-					count: 15
-					id: "6FE42AC5E90113D8"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0FB0AAAB64B8D5B7"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "just what you've always wanted!"
-			tasks: [{
-				id: "62D500A4711B3B3C"
-				item: "backpacked:backpack"
-				type: "item"
-			}]
-			title: "Oh my GOD a BACKPACK"
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			description: [
 				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
 				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
 				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
@@ -2337,6 +2301,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "adventure is out there"
 			tasks: [
 				{
@@ -2401,6 +2366,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "reel big bonuses"
 			tasks: [
 				{
@@ -2479,6 +2445,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "home is where the rune is"
 			tasks: [
 				{
@@ -2557,6 +2524,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "it's no miner feat"
 			tasks: [
 				{
@@ -2635,6 +2603,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "lets get super natural"
 			tasks: [
 				{
@@ -2680,6 +2649,7 @@
 					type: "item"
 				}
 			]
+			title: "Nature Rune"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -2706,6 +2676,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "PHENOMENAL COSMIC POWER"
 			tasks: [
 				{
@@ -2802,6 +2773,7 @@
 				table_id: 8588988388222696349L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			subtitle: "like uno but there's 3 of them"
 			tasks: [{
 				id: "184E4042B07AE565"
@@ -2834,6 +2806,7 @@
 				table_id: 8588988388222696349L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			subtitle: "boosty collins"
 			tasks: [{
 				id: "027324005F8E7649"
@@ -2866,17 +2839,18 @@
 				table_id: 8588988388222696349L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			subtitle: "madge-rooz"
 			tasks: [{
-				id: "600079041BB2419B"
+				id: "4497F3FE4630687E"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:maj_accessories"
+						value: "forge:maj_acs"
 					}
 				}
-				title: "Any #forge:maj_accessories"
+				title: "Any #forge:maj_acs"
 				type: "item"
 			}]
 			title: "Majrusz's Accessories"

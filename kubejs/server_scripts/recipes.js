@@ -1279,7 +1279,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Mixed Ore Chunk Uses Tags
+   /* // Mixed Ore Chunk Uses Tags
     event.shapeless(
         Item.of('better_fishing_rods:mixed_ore_chunk'),
         [ 
@@ -1291,7 +1291,7 @@ ServerEvents.recipes(event => {
             '#forge:ores/diamond',
             '#forge:ores/emerald'
         ]
-    )
+    )*/
 
     // Glowstick Recipe Uses Tags
     event.shaped(
@@ -1891,6 +1891,93 @@ event.shaped(
                 A: 'minecraft:oak_slab'
             }
         )
+
+    // Aquaculture Fishies
+    let aquaFish = [
+        'aquaculture:arapaima', 
+        'aquaculture:atlantic_cod', 
+        'aquaculture:atlantic_halibut', 
+        'aquaculture:atlantic_herring', 
+        'aquaculture:bayad', 
+        'aquaculture:blackfish', 
+        'aquaculture:bluegill', 
+        'aquaculture:boulti', 
+        'aquaculture:brown_shrooma',
+        'aquaculture:brown_trout', 
+        'aquaculture:capitaine', 
+        'aquaculture:carp', 
+        'aquaculture:catfish', 
+        'aquaculture:gar', 
+        'aquaculture:jellyfish', 
+        'aquaculture:minnow', 
+        'aquaculture:muskellunge', 
+        'aquaculture:pacific_halibut', 
+        'aquaculture:perch', 
+        'aquaculture:pink_salmon', 
+        'aquaculture:piranha', 
+        'aquaculture:pollock', 
+        'aquaculture:rainbow_trout', 
+        'aquaculture:red_grouper', 
+        'aquaculture:red_shrooma', 
+        'aquaculture:smallmouth_bass', 
+        'aquaculture:synodontis', 
+        'aquaculture:tambaqui', 
+        'aquaculture:tuna'
+    ];
+
+    for (const fish of aquaFish) {
+        event.shapeless(
+            Item.of(fish+'_bucket'),
+            [
+                fish, 'minecraft:water_bucket'
+            ]
+        ).replaceIngredient('minecraft:water_bucket', Item.empty)
+    }
+
+// backpacked
+
+event.shaped(
+    Item.of('backpacked:backpack'),
+    [
+        'AAA',
+        'BCB',
+        'AAA'
+    ], {
+        A: '#forge:leather',
+        B: '#forge:string',
+        C: 'minecraft:iron_ingot',
+        
+    }
+)
+
+
+// New EXP Pump Upgrade 
+event.shaped(
+    Item.of('sophisticatedbackpacks:xp_pump_upgrade'),
+    [
+        'BCB',
+        'DAD',
+        'BCB'
+    ], {
+        A: 'sophisticatedbackpacks:upgrade_base',
+        B: 'minecraft:redstone',
+        C: 'minecraft:ender_eye',
+        D: 'minecraft:experience_bottle'
+    }
+
+    
+)
+
+//Stonecutter recipes for Handcrafted Boards
+event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')
+event.stonecutting('4x handcrafted:birch_board', 'minecraft:birch_planks')
+event.stonecutting('4x handcrafted:dark_oak_board', 'minecraft:dark_oak_planks')
+event.stonecutting('4x handcrafted:jungle_board', 'minecraft:jungle_planks')
+event.stonecutting('4x handcrafted:mangrove_board', 'minecraft:mangrove_planks')
+event.stonecutting('4x handcrafted:oak_board', 'minecraft:oak_planks')
+event.stonecutting('4x handcrafted:spruce_board', 'minecraft:spruce_planks')
+event.stonecutting('4x handcrafted:crimson_board', 'minecraft:crimson_planks')
+event.stonecutting('4x handcrafted:warped_board', 'minecraft:warped_planks')
   })
 
   
