@@ -1433,13 +1433,18 @@
 			description: [
 				"This backpack is no kid's toy- this thing is multipurpose and heavy duty! With access to a &aplethora of unique upgrades to equip&r and the ability to improve the backpack's storage by &6crafting it with increasingly expensive ingots&r, this is truly an endgame storage solution for on-the-go witches."
 				""
-				"You can place this backpack down/pick it up by &6shifting with it in your hand&r. To secure your backpack, we recommend switching the settings of the backpack to disable other players being able to open it on your back."
+				"You can place this backpack down/pick it up by &6shift right clicking&r it. You can &aopen it with &6b&r and &aequip it in your &bBack curio slot&r to free up inventory space."
 				""
 				"Backpacks can be found only in &cEnd City&r loot, making them an extremely valuable late game find. "
 				""
-				"Note: &dYou can dye or upgrade your backpack without removing the contents&r!"
+				"Caution: although you can block other players from opening your backpack while you wear it, &dthere is no way to protect against this backpack being stolen if you set it down or put it in a chest.&r "
 			]
 			id: "09D1FD5320857872"
+			rewards: [{
+				id: "47B5D155DB0F6B64"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "finally!"
@@ -1471,8 +1476,17 @@
 				"Collecting lots of water or lava but don't want to carry all those buckets? The &bTank Upgrade&r allows you to &6add and remove buckets of fluid from the tank&r, storing far more while only sacrificing a few slots of the backpack. &bStack Upgrades&r also increase your tank size."
 				""
 				"Going on a deep mining trip with your mending tools? Consider equipping the tank alongside an &bExperience Pump&r to store exp and dish it out as needed. Keep in mind, you will need to &dfully empty the previous fluid&r before using the pump."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
 			]
 			id: "68CA96592DA978BC"
+			rewards: [{
+				id: "0ED4A3D875FC9F75"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "baby got camelback"
 			tasks: [{
@@ -1504,12 +1518,13 @@
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
-			description: [
-				"As you improve your backpack, you will unlock upgrade slots. Just like with &lSophisticated Storage&r, you can use those slots to &aincrease stack size&r with the &bStack Upgrades&r or &aautomatically compact items&r with the &bCompacting Upgrade&r to maximize storage space."
-				""
-				"Caution: these upgrades will give your backpack a lot more storage space, &cwhich makes them potentially very heartbreaking to misplace or lose.&r Please keep this in mind!"
-			]
+			description: ["As you improve your backpack, you will unlock upgrade slots. Just like with &lSophisticated Storage&r, you can use those slots to &aincrease stack size&r with the &bStack Upgrades&r or &aautomatically compact items&r with the &bCompacting Upgrade&r to maximize storage space."]
 			id: "53CE2F944DFC7725"
+			rewards: [{
+				id: "2DC0F623F7B249B5"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "mary poppins got nothin' on this"
 			tasks: [{
@@ -1538,6 +1553,11 @@
 				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
 			]
 			id: "5449147F0A9D80C9"
+			rewards: [{
+				id: "13F15B460C5564B8"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "live out of your backpack"
 			tasks: [{
@@ -1563,9 +1583,16 @@
 				""
 				"Get yourself a backpack that does it all with these upgrades. No more wasted time &agrabbing the next stack of blocks&r or even &aopening your backpack to refill it.&r You're busy and have more important matters to attend to."
 				""
-				"Backpack? More like Butler... pack."
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
 			]
 			id: "4BA960F4630EFF4C"
+			rewards: [{
+				id: "20D7B8069A0060D2"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "\"i don't like to do anything\" - Docm77"
 			tasks: [{
@@ -1608,12 +1635,20 @@
 				"These upgrades allow your backpack to operate outside the confines of its leather!"
 				""
 				"&6Pickup Upgrade&r will reroute any items you pick up to enter your backpack instead of your inventory. "
-				""
 				"&6Magnet Upgrade&r will draw items to your backpack from a distance! "
-				""
 				"&6Jukebox Upgrade&r will allow you to be that one hiker who always brings their bluetooth speaker with them to bless the entire trail with the soothing tunes of Nicki Minaj."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
 			]
 			id: "2363831930C80C6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43245BE1D97FF650"
+				table_id: 1739670786502713488L
+				type: "choice"
+			}]
 			subtitle: "let 'em know you're coming"
 			tasks: [{
 				id: "3AF886787A580E00"
@@ -1643,16 +1678,15 @@
 			id: "7B72E2C06B316F5A"
 			rewards: [
 				{
-					count: 15
-					id: "6FE42AC5E90113D8"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0FB0AAAB64B8D5B7"
 					table_id: 6941837675484043489L
 					type: "random"
+				}
+				{
+					id: "3C305AF895DC9804"
+					item: "backpacked:oak_backpack_shelf"
+					type: "item"
 				}
 			]
 			shape: "hexagon"

@@ -145,8 +145,8 @@
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
-			# Default: ["minecraft:the_end"]
-			dimension_blacklist: ["minecraft:the_end"]
+			# Default: [""]
+			dimension_blacklist: [""]
 			
 			# Whitelisted dimension ID's for /rtp (if non-empty, player *must* be in one of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
