@@ -54,6 +54,7 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
+renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
 lookingAtAngle:10

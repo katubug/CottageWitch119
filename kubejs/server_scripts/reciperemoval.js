@@ -230,7 +230,8 @@ ServerEvents.recipes(event => {
          {output: 'sophisticatedbackpacks:stack_upgrade_tier_4'},
          {output: 'sophisticatedbackpacks:stack_upgrade_tier_3'},
          {output: 'sophisticatedbackpacks:stack_upgrade_tier_2'},
-         {output: 'backpacked:backpack'}
+         {output: 'backpacked:backpack'},
+         {output: 'sophisticatedbackpacks:backpack'}
     ];
     
       for (const remove of toRemove) {

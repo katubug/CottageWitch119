@@ -64,7 +64,7 @@
 				type: "item"
 			}]
 			title: "I've Nether Fished So Well"
-			x: 7.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -459,7 +459,7 @@
 				}
 			]
 			title: "Nether Fishing"
-			x: 9.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -1102,21 +1102,16 @@
 				"Where are all the fish...? &lAquaculture&r fish &ado not spawn in the world&r, you can only &6fish them up&r. "
 				""
 				"Don't worry though, they aren't dead- only sleeping! &6Combine that fish with a water bucket&r to wake them right up."
+				""
+				"If you'd like something with a bit more pizazz, you can &6strike a dead fish with lightning&r to get its heart pumping. Make sure you have a bucket ready though- or you &dmay end up with a cooked fish&r!"
 			]
 			id: "4C992CD3177839C9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "26671245DE4930C5"
-					table_id: 5667576494518007025L
-					type: "choice"
-				}
-				{
-					id: "71C0306E1FC1B1F5"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26671245DE4930C5"
+				table_id: 5667576494518007025L
+				type: "choice"
+			}]
 			subtitle: "wake them up inside"
 			tasks: [{
 				id: "78AAD73436389F71"
@@ -1133,6 +1128,23 @@
 			title: "Bring Them To Life"
 			x: 0.5d
 			y: 0.5d
+		}
+		{
+			description: [
+				"To begin your &acrabby journey&r, you will need a &bCrab Trap&r. Place it in the water and &afill it with bait&r to lure in creatures."
+				""
+				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
+			]
+			id: "602AECDEE9755175"
+			subtitle: "it's a trap!"
+			tasks: [{
+				id: "2205B9EDEE5F7A89"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Beginner Crabbing"
+			x: 14.5d
+			y: -1.0d
 		}
 	]
 	title: "Fishing \\& Gathering"

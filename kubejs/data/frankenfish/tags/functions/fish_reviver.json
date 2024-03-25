@@ -1,0 +1,124 @@
+{
+    "values": [
+        "frankenfish:revive_salmon",
+        "frankenfish:revive_cod",
+        "frankenfish:revive_pufferfish",
+        "frankenfish:revive_tropical_fish",
+        {
+            "id": "frankenfish:aquaculture/revive_atlantic_cod",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_blackfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_pacific_halibut",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_atlantic_halibut",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_atlantic_herring",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_pink_salmon",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_pollock",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_rainbow_trout",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_bayad",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_boulti",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_capitaine",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_synodontis",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_smallmouth_bass",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_bluegill",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_brown_trout",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_carp",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_catfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_gar",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_minnow",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_muskellunge",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_perch",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_arapaima",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_piranha",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_tambaqui",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_brown_shrooma",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_red_shrooma",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_jellyfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_red_grouper",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/revive_tuna",
+            "required": false
+        }
+    ]
+}

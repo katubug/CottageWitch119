@@ -1,6 +1,7 @@
-{
-	"values": [
-		"better_traders:constant",
-	"no_old_combat:tick"
-	]
-}
+
+    {
+        "values": [
+            "frankenfish:tick"
+        ]
+    }
+    
