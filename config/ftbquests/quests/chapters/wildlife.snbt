@@ -1358,6 +1358,8 @@
 				"Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"
 				""
 				"As a reward, here's a &eparticularly rare creeper&r that doesn't spawn in the world... maybe keep it in an aquarium as a trophy?"
+				""
+				"Note: As some creepers may be harder to find than others, you may choose to &atackle them all at once&r using a &bCreeper Gate Pearl&r. But be warned- &dif a single creeper blows up&r, the gate will collapse. Reach the final wave to meet and defeat every creeper!"
 			]
 			icon: "handcrafted:creeper_trophy"
 			id: "5F03012DC9E38D8D"
@@ -2685,7 +2687,11 @@
 			y: 5.5d
 		}
 		{
-			description: ["Oh wow, a &eJumping Spider&r! Tame it with &bdragonfly wings&r and it will protect you. They also drop &bspider silk&r, which can be used to craft the &bsilk leash&r and &bsilk grappling hook&r."]
+			description: [
+				"Oh wow, a &eJumping Spider&r! Tame it with &bdragonfly wings&r and it will protect you. They also drop &bspider silk&r, which can be used to craft the &bsilk leash&r and &bsilk grappling hook&r."
+				""
+				"Note: dragonflies from this mod do not spawn in the world, due to their laggy AI. However, you can find them- and many other creepy crawlies- in the &bInsectoid Gatepearl&r."
+			]
 			id: "3C1AC5730A574F29"
 			rewards: [{
 				count: 5

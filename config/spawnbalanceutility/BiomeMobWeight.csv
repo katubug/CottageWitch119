@@ -3936,12 +3936,6 @@
 2887, icy, byg:frosted_coniferous_forest, CREATURE, crittersandcompanions:shima_enaga, 30, 2, 3
 2731, icy, byg:shattered_glacier, CREATURE, crittersandcompanions:shima_enaga, 30, 2, 3
 2869, icy, byg:frosted_taiga, CREATURE, crittersandcompanions:shima_enaga, 30, 2, 3
-1100, river, minecraft:river, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
-2107, none, byg:cypress_swamplands, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
-160, swamp, minecraft:swamp, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
-197, swamp, minecraft:mangrove_swamp, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
-3363, swamp, hexerei:willow_swamp, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
-3638, none, environmental:marsh, AMBIENT, crittersandcompanions:dragonfly, 10, 1, 3
 1, jungle, minecraft:jungle, CREATURE, environmental:tapir, 15, 1, 2
 1, jungle, minecraft:sparse_jungle, CREATURE, environmental:tapir, 15, 1, 2
 2282, jungle, byg:guiana_shield, CREATURE, environmental:tapir, 15, 1, 2

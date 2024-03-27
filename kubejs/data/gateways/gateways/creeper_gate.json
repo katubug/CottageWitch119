@@ -6,10 +6,10 @@
                     "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:bamboo_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:snowy_creeper"
                 }
             ],
             "rewards": [{
@@ -22,13 +22,13 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:badlands_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:desert_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:savannah_creeper"
                 }
             ],
             "modifiers": [{
@@ -70,16 +70,16 @@
                     "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:jungle_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dark_oak_creeper"
                 },
 				{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:spruce_creeper"
                 }
             ],
             "modifiers": [{
@@ -121,19 +121,19 @@
                     "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:cave_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dripstone_creeper"
                 },
 				{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:hills_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:savannah_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:desert_creeper"
                 }
             ],
             "modifiers": [{
@@ -178,19 +178,19 @@
                     "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:badlands_creeper"
                 },
 				{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dark_oak_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:mushroom_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:ocean_creeper"
                 }
             ],
             "modifiers": [{
