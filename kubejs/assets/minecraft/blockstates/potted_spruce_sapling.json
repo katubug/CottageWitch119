@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/bonsai", "weight": 60 },
+            { "model": "block/potted_saplings/bonsai1", "weight": 60 },
+            { "model": "block/potted_saplings/bonsai2", "weight": 60 }
+        ]
+    }
+}

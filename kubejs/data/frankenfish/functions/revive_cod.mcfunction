@@ -1,2 +1,5 @@
 
-execute as @e[type=item,distance=..2,nbt={Item: {id: "minecraft:cod"}}] at @s run summon minecraft:cod ~ ~ ~ { ActiveEffects: [{Id: 11, Duration: 300, Amplifier: 5, ShowParticles: 1b}] }
+# give the fish resistance 5 so it doesn't die to lightning
+# also give it a loot table that only drops the fish, to prevent duping fish drops
+summon minecraft:cod ~ ~ ~ { ActiveEffects: [{Id: 11, Duration: 300, Amplifier: 5, ShowParticles: 1b}], DeathLootTable: "frankenfish:revived_fish/cod" }
+kill @s

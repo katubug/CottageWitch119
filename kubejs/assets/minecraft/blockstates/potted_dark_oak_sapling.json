@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/boxwood", "weight": 60 },
+            { "model": "block/potted_saplings/boxwood1", "weight": 60 },
+            { "model": "block/potted_saplings/boxwood2", "weight": 60 }
+        ]
+    }
+}

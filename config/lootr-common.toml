@@ -1,7 +1,5 @@
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = true
-#skip unloaded block entities that are eligible for conversion, set to false to potentially resolve issues with containers that aren't being converted [default: true]
-skip_unloaded = true
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
 convert_mineshafts = true
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
@@ -24,8 +22,6 @@ dimension_blacklist = []
 loot_table_blacklist = []
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 loot_modid_blacklist = ["balloonbox"]
-#list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
-loot_structure_blacklist = []
 #prevent the destruction of Lootr chests except while sneaking in creative mode
 disable_break = false
 #when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
@@ -71,9 +67,9 @@ enable_break = false
 check_world_border = false
 #allows fake players to destroy Lootr chests without having to sneak, overrides the `disable_break` option for fake players
 enable_fake_player_break = false
-#the maximum age for containers; entries above this age will be discarded [default: 180 * 20, 3 minutes]
+#the maximum age for containers; entries above this age will be discarded [default: 60 * 20 * 15, fifteen minutes] [note: the value 6000 will be corrected to 18000. if you wish to use 6000, please use 6001 or 5999.]
 #Range: > 0
-max_age = 6000
+max_age = 18000
 #if true, no chests will be converted
 disable = false
 #list of dimensions by modid that loot chests should not be replaced in (default: blank, allowing all modids, format e.g., ["minecraft

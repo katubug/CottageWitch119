@@ -134,6 +134,299 @@
 			x: -0.5d
 			y: -2.5d
 		}
+		{
+			description: [
+				"&lTom's Simple Storage&r is a mod which allows you to &aaccess all your inventory from a single interface&r. Who Tom was has been lost to legend, but his storage systems remain. &lSophisticated Storage&r is a storage solution with a focus on &aproviding lots of space in a small footprint&r. The two systems can work together!"
+				""
+				"To begin with, you'll need a &bStorage Terminal&r from &lTom's&r."
+				""
+				"Then, you need to make a choice between the &bInventory Connector&r from &lTom's&r, or a &bStorage Controller&r from &lSophisticated&r. Inventory Connectors work with both vanilla and Sophisticated containers, whereas &bStorage Controllers&r connect only to Sophisticated's containers. However, the remote capabilities of the &bStorage Controller&r are superior to those of the &bInventory Connector&r."
+				""
+				"This quest has multiple pages, &6please go to the next page&r."
+				""
+				"{@pagebreak}"
+				"The &bInventory Connector&r and &bStorage Controller&r are blocks which act as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r."
+				""
+				"With the &bStorage Controller&r you can link distant storages using a &bStorage Link&r. You can do this with the &bInventory Connector&r as well, by utilizing the &bInventory Trim, or Inventory Cables and Cable Connectors&r."
+				""
+				"The &bStorage Terminal&r is the block which lets you see, deposit, and withdraw from your network. It can later be upgraded to a &bCrafting Terminal&r, which also allows you to craft from your inventory network."
+				"{@pagebreak}"
+				"Here is an example of a &ahybrid Tom's and Sophisticated setup&r. As you can see, it &duses only inventory containers from&r &lSophisticated Storage&r, with the &bTom's Storage Terminal&r attached to the &bSophisticated's Storage Controller&r."
+				""
+				"The remote storages are connected via a &bStorage Link&r."
+				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"This is an example of a &aTom's only&r setup, with vanilla containers (though it also supports containers from Sophisticated)."
+				""
+				"The remote containers are hooked into the &bInventory Connector&r via &bCables&r and &bCable Connectors&r."
+				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1B3C37BD61939C76"
+			rewards: [{
+				id: "4F0820A607503EB4"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "networking is important"
+			tasks: [
+				{
+					id: "65E8A2B80E50F100"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "Any #forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "2268FB94B2D4789E"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "Network Interface"
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["The &bCrafting Grid&r, although more expensive, is a worthy upgrade because it allows you to &acraft from JEI or the Recipe Book&r using anything in your storage network."]
+			id: "681253D70C026027"
+			rewards: [{
+				id: "240243DEB27A110F"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			subtitle: "It's not just serious - it's terminal"
+			tasks: [{
+				id: "2B45691AED9BE323"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["&bInventory Trim&r is an item which helps to fill in the gaps between connected inventories. As long as the Trim is touching both a valid inventory block, and a block in your system, it will connect all it touches to your network."]
+			id: "7A9A86BAA9E4A06E"
+			rewards: [{
+				id: "1E928BE5FBB5FD95"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "Trim and tidy"
+			tasks: [{
+				count: 4L
+				id: "38E41AF45EF1C29A"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"While &bInventory Trim&r is what the majority of people will use to connect their network, you can also do it with &bInventory Connectors&r and &bInventory Cables&r."
+				"&6Place the Connectors on the blocks you wish&r, and then &6place the cabling between them&r."
+			]
+			id: "21A2E4CA683BD232"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738482AB5370FCF4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "507AD7D665822346"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "Any #forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "266DB9CE515A1C80"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:connector"
+						}
+					}
+					title: "Any #forge:connector"
+					type: "item"
+				}
+			]
+			title: "Connected at a Distance"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["The &bWireless Terminal&r is an incredibly useful item, as it allows you to access your inventory network remotely, at a &arange of 16 blocks&r."]
+			id: "50D94EFE04154F83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "586FDFDB6BDAD89C"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "We're going wireless"
+			tasks: [{
+				id: "12EE65D5450F2B69"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50D94EFE04154F83"]
+			description: [
+				"The &bAdvanced Wireless Terminal&r not only extends the range of its previous version (64 blocks instead of 16), but can be made to have &ainfinite range&r if one &6places a level 1 beacon nearby&r."
+				"If you should &6place a level 4 beacon nearby&r, then the signal can transmit &aacross dimensions&r as well!"
+				"Can be &6worn as a Belt&r and &aaccessed via a hotkey&r."
+			]
+			id: "5E4411D5B4EFA45B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "349BEC406970C530"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			subtitle: "A beacon of hope"
+			tasks: [{
+				id: "55AE94FBC169D6F8"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bInventory Proxy&r is a niche item which extends access to inventory blocks it's placed adjacent to. It specifically extends &athe face it's touching&r, "
+				"This is useful in case your inventories are hard to access due to being inside an automation system, etc."
+			]
+			id: "30027D97CE91BAF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C3159EAC07BBAA"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B155EBB095D85A1"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bInventory Hopper&r imports and exports items from your network."
+				"&6Right click it with an item&r to set the filter. This is optional when importing, but required if exporting."
+				"&6Shift right click with an empty hand&r to clear the filter."
+			]
+			id: "15F2A54EBE6EEC56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9719DC75DBE9F9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65D436A4BFB4E9C0"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bLevel Emitter&r transmits a redstone signal based on the contents of an inventory."
+				"The signal is based on whether the inventory contains &amore or less than the set amount&r."
+			]
+			id: "41933F01B397F9F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA0046E741F21B4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65AB7B90E505E5FB"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21A2E4CA683BD232"]
+			description: [
+				"&bFramed blocks&r are ones which can &atake on the appearance of another block&r."
+				"Place your &bFramed Blocks&r in the world, then &6hold the Paint Kit and shift right click&r the block you want them to look like. Then &6right click the framed block&r with the paint kit, and voila!"
+			]
+			id: "383A9396EDCA0ED1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257EB530D055D451"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Don't be suspicious, don't be suspicious"
+			tasks: [
+				{
+					id: "39246456F6D4B955"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+				{
+					id: "4138B74E75AC4B9D"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "74B9AFE8924F9CCF"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Framed Blocks"
+			x: -5.0d
+			y: -10.5d
+		}
 	]
 	title: "WIP"
 }

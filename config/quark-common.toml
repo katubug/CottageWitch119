@@ -640,15 +640,15 @@
 		#minecraft:ice_mountains,2,8,14,7FE4FF
 		Customs = []
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
-		"Apply Default Trades" = true
+		"Apply Default Trades" = false
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
 		"Pathfinders Quill Speed" = 32
 		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
 		"Multi Threaded" = true
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
-		"Add To Cartographer" = true
-		"Add To Wandering Trader Forced" = true
+		"Add To Cartographer" = false
+		"Add To Wandering Trader Forced" = false
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false
 		"Draw Hud" = true

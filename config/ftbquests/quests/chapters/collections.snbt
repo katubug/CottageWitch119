@@ -171,14 +171,18 @@
 			id: "1FD157BDA5AF3BE9"
 			rewards: [
 				{
-					id: "43F9EA89E7A7A7CA"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "211B9906B5553F7D"
+					item: {
+						Count: 1b
+						id: "portablejukebox:portable_jukebox"
+						tag: { }
+					}
+					type: "item"
 				}
 				{
-					id: "7DCECB41814CB556"
-					table_id: 1739670786502713488L
-					type: "choice"
+					id: "1234717FF1A25D0F"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+					type: "item"
 				}
 			]
 			shape: "hexagon"

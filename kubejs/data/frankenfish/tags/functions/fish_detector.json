@@ -1,0 +1,168 @@
+{
+    "values": [
+        "frankenfish:detect_salmon",
+        "frankenfish:detect_cod",
+        "frankenfish:detect_pufferfish",
+        "frankenfish:detect_tropical_fish",
+        {
+            "id": "frankenfish:aquaculture/detect_atlantic_cod",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_blackfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_pacific_halibut",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_atlantic_halibut",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_atlantic_herring",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_pink_salmon",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_pollock",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_rainbow_trout",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_bayad",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_boulti",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_capitaine",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_synodontis",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_smallmouth_bass",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_bluegill",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_brown_trout",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_carp",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_catfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_gar",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_minnow",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_muskellunge",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_perch",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_arapaima",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_piranha",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_tambaqui",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_brown_shrooma",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_red_shrooma",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_jellyfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_red_grouper",
+            "required": false
+        },
+        {
+            "id": "frankenfish:aquaculture/detect_tuna",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_lava_pufferfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_obsidianfish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_searing_cod",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_bonefish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_wither_bonefish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_blazefish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_magmacubefish",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_glowdine",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_soulsucker",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_fortress_grouper",
+            "required": false
+        },
+        {
+            "id": "frankenfish:netherdepthsupgrade/detect_eyeball_fish",
+            "required": false
+        }
+    ]
+}

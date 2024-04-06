@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "axis=x": [
+      {"model": "minecraft:block/quartz_pillar_horizontal_1","x": 90,"y": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_2","x": 90,"y": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_3","x": 90,"y": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_4","x": 90,"y": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_5","x": 90,"y": 90}
+    ],
+    "axis=y": [
+      {"model": "minecraft:block/quartz_pillar_1"},
+      {"model": "minecraft:block/quartz_pillar_2"},
+      {"model": "minecraft:block/quartz_pillar_3"},
+      {"model": "minecraft:block/quartz_pillar_4"},
+      {"model": "minecraft:block/quartz_pillar_5"}
+    ],
+    "axis=z": [
+      {"model": "minecraft:block/quartz_pillar_horizontal_1","x": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_2","x": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_3","x": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_4","x": 90},
+      {"model": "minecraft:block/quartz_pillar_horizontal_5","x": 90}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+
+    {
+        "values": [
+            "lightning_bolt",
+            {
+                "id": "ars_nouveau:an_lightning",
+                "required": false
+            },
+            {
+                "id": "ars_elemental:flash_lightning",
+                "required": false
+            }
+        ]
+    }
+    

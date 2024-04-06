@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/thuja", "weight": 60 },
+            { "model": "block/potted_saplings/thuja1", "weight": 60 }        ]
+    }
+}

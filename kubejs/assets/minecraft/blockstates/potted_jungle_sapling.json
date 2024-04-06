@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/monstera", "weight": 60 },
+            { "model": "block/potted_saplings/monstera1", "weight": 60 }
+        ]
+    }
+}

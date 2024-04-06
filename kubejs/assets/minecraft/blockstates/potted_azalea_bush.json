@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/rhododendron1", "weight": 60 },
+            { "model": "block/potted_saplings/rhododendron1", "weight": 60 }
+        ]
+    }
+}

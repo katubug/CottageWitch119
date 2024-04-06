@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_saplings/maple_tree", "weight": 60 },
+            { "model": "block/potted_saplings/maple_tree1", "weight": 60 },
+            { "model": "block/potted_saplings/maple_tree2", "weight": 60 }
+        ]
+    }
+}

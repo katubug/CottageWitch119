@@ -1173,12 +1173,26 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('comforts:sleeping_bag_magenta'),
+        [
+            '   ',
+            'A A',
+            'BBB'
+
+        ],
+        {
+            A: 'minecraft:leather',
+            B: 'minecraft:magenta_wool'
+        }
+    )
+
     // Dyeing Sleeping Bags
     event.shapeless(
         Item.of('comforts:sleeping_bag_white'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:white_dye'
+            '#forge:dyes/white'
         ]
     )
 
@@ -1186,7 +1200,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_orange'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:orange_dye'
+            '#forge:dyes/orange'
         ]
     )
 
@@ -1194,7 +1208,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_magenta'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:magenta_dye'
+            '#forge:dyes/magenta'
         ]
     )
 
@@ -1202,7 +1216,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_light_blue'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:light_blue_dye'
+            '#forge:dyes/light_blue'
         ]
     )
 
@@ -1210,7 +1224,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_yellow'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:yellow_dye'
+            '#forge:dyes/yellow'
         ]
     )
 
@@ -1218,7 +1232,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_lime'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:lime_dye'
+            '#forge:dyes/lime'
         ]
     )
 
@@ -1226,7 +1240,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_pink'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:pink_dye'
+            '#forge:dyes/pink'
         ]
     )
 
@@ -1234,7 +1248,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_gray'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:gray_dye'
+            '#forge:dyes/gray'
         ]
     )
 
@@ -1242,7 +1256,7 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_light_gray'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:light_gray_dye'
+            '#forge:dyes/light_gray'
         ]
     )
 
@@ -1250,7 +1264,55 @@ ServerEvents.recipes(event => {
         Item.of('comforts:sleeping_bag_cyan'),
         [ 
             '#comforts:sleeping_bags',
-            'minecraft:cyan_dye'
+            '#forge:dyes/cyan'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_purple'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/purple'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_blue'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/blue'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_brown'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/brown'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_green'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/green'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_red'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/red'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('comforts:sleeping_bag_black'),
+        [ 
+            '#comforts:sleeping_bags',
+            '#forge:dyes/black'
         ]
     )
     
@@ -1967,6 +2029,493 @@ event.shaped(
 
     
 )
+
+/// Refined Storage Recipes
+
+//Controller
+event.shaped(
+    Item.of('refinedstorage:creative_controller'),
+    [
+        'ABA',
+        'CEC',
+        'ADA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'minecraft:lodestone',
+        C: 'refinedstorage:silicon',
+        D: 'refinedstorage:machine_casing',
+        E: 'ars_creo:starbuncle_wheel'
+    }
+
+)
+
+//Cable
+event.shaped(
+    Item.of('refinedstorage:cable'),
+    [
+        'AAA',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'minecraft:glowstone_dust'
+    
+    }
+
+)
+
+// Aetheric Receptor
+event.shaped(
+    Item.of('refinedstorage:network_receiver'),
+    [
+        'AFA',
+        'BED',
+        'CCC'
+    ], {
+        A: 'refinedstorage:advanced_processor',
+        B: 'refinedstorage:construction_core',
+        C: 'minecraft:ender_pearl',
+        D: 'refinedstorage:destruction_core',
+        E: 'refinedstorage:machine_casing',
+        F: 'ars_nouveau:glyph_redstone_signal'
+    
+    }
+
+)
+
+// Aetheric Messenger
+event.shaped(
+    Item.of('refinedstorage:network_transmitter'),
+    [
+        'CCC',
+        'BED',
+        'AFA'
+    ], {
+        A: 'refinedstorage:advanced_processor',
+        B: 'refinedstorage:construction_core',
+        C: 'minecraft:ender_pearl',
+        D: 'refinedstorage:destruction_core',
+        E: 'refinedstorage:machine_casing',
+        F: 'ars_nouveau:glyph_redstone_signal'
+    
+    }
+
+)
+
+/// Stone Casing/Storage Housing
+event.shaped(
+    Item.of('refinedstorage:storage_housing'),
+    [
+        'CCC',
+        'CAC',
+        'BBB'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: '#forge:stone'
+    
+    }
+
+)
+
+/// Upgrade
+event.shaped(
+    Item.of('refinedstorage:upgrade'),
+    [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:improved_processor'
+    
+    }
+
+)
+
+/// 1k Storage Glyph / Storage Part
+event.shaped(
+    Item.of('refinedstorage:1k_storage_part'),
+    [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:improved_processor'
+    
+    }
+
+)
+
+/// 1k Glyphstone / 1k Storage Disk
+event.shaped(
+    Item.of('refinedstorage:1k_storage_disk'),
+    [
+        'DBD',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:1k_storage_part',
+        D: '#forge:stone'
+    
+    }
+
+)
+/// 4k Glyphstone / 4k Storage Disk
+event.shaped(
+    Item.of('refinedstorage:4k_storage_disk'),
+    [
+        'DBD',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:4k_storage_part',
+        D: '#forge:stone'
+    
+    }
+
+)
+
+/// 16k Glyphstone / 16k Storage Disk
+event.shaped(
+    Item.of('refinedstorage:16k_storage_disk'),
+    [
+        'DBD',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:16k_storage_part',
+        D: '#forge:stone'
+    
+    }
+
+)
+
+/// 64k Glyphstone / 64k Storage Disk
+event.shaped(
+    Item.of('refinedstorage:64k_storage_disk'),
+    [
+        'DBD',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'glassential:glass_redstone',
+        C: 'refinedstorage:64k_storage_part',
+        D: '#forge:stone'
+    
+    }
+
+)
+
+
+// Aetheric Console / Creative Wireless Grid
+event.shaped(
+    Item.of('refinedstorage:creative_wireless_grid'),
+    [
+        'ABA',
+        'ACA',
+        'ADA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'minecraft:ender_pearl',
+        C: '#refinedstorage:grid',
+        D: 'refinedstorage:advanced_processor'
+    }
+)
+
+    // Aetheric Crafting Console/Creative Wireless Crafting Grid
+event.shaped(
+    Item.of('refinedstorageaddons:creative_wireless_crafting_grid'),
+    [
+        'ABA',
+        'ACA',
+        'ADA'
+    ], {
+        A: 'refinedstorage:quartz_enriched_iron',
+        B: 'minecraft:ender_pearl',
+        C: '#refinedstorage:crafting_grid',
+        D: 'refinedstorage:advanced_processor'
+    }  
+)
+
+
+
+    // Infinity Range Booster
+    event.shaped(
+        Item.of('rsinfinitybooster:infinity_card'),
+        [
+            ' B ',
+            'BCB',
+            ' B '
+        ], {
+        
+            B: 'refinedstorage:range_upgrade',
+            C: 'minecraft:nether_star',
+    
+        }
+    )
+
+        // Dimension Card
+event.shaped(
+    Item.of('rsinfinitybooster:dimension_card'),
+    [
+        ' B ',
+        'ACD',
+        ' E '
+    ], {
+        A: 'twilightforest:charm_of_keeping_3',
+        B: 'deeperdarker:heart_of_the_deep',
+        C: 'rsinfinitybooster:infinity_card',
+        D: 'minecraft:dragon_egg',
+        E: 'minecraft:netherite_ingot'
+    }  
+)
+
+    // Illuminite (quartz-enriched iron)
+    event.shaped(
+        Item.of('refinedstorage:quartz_enriched_iron'),
+        [
+            'AA ',
+            'AB ',
+            '   '
+        ], {
+        
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:glowstone_dust',
+    
+        }
+    )
+// Aetheric Messenger
+event.shapeless(
+    Item.of('refinedstorage:network_transmitter'),
+    [
+     
+        '#refinedstorage:network_transmitter',
+        '#forge:dyes/light_blue'
+    ]
+)
+
+// Aetheric Receptor
+event.shapeless(
+    Item.of('refinedstorage:network_receiver'),
+    [
+     
+        '#refinedstorage:network_receiver',
+        '#forge:dyes/light_blue'
+    ]
+)
+
+
+// Aetheric Crafting Console / creative wireless crafting grid
+    event.shapeless(
+        Item.of('refinedstorageaddons:creative_wireless_crafting_grid'),
+        [
+         
+            'refinedstorageaddons:creative_wireless_grid',
+            'minecraft:crafting_table',
+            'refinedstorage:advanced_processor'
+        ]
+    )
+    
+    // 1k Storage disk from storage housing
+    event.shapeless(
+        Item.of('refinedstorage:1k_storage_disk'),
+        [ 
+              'refinedstorage:1k_storage_part',
+              'refinedstorage:storage_housing'
+           
+        ]
+    )
+    // 4k Storage disk from storage housing
+    event.shapeless(
+        Item.of('refinedstorage:4k_storage_disk'),
+        [ 
+              'refinedstorage:4k_storage_part',
+              'refinedstorage:storage_housing'
+           
+        ]
+    )
+
+    // 16k Storage disk from storage housing
+    event.shapeless(
+        Item.of('refinedstorage:16k_storage_disk'),
+        [ 
+              'refinedstorage:16k_storage_part',
+              'refinedstorage:storage_housing'
+           
+        ]
+    )
+    // 64k Storage disk from storage housing
+    event.shapeless(
+        Item.of('refinedstorage:64k_storage_disk'),
+        [ 
+              'refinedstorage:64k_storage_part',
+              'refinedstorage:storage_housing'
+           
+        ]
+    )
+    
+
+
+
+
+    // White Controller
+    event.shapeless(
+        Item.of('refinedstorage:white_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/white'
+        ]
+    )
+
+        // Black Controller
+        event.shapeless(
+            Item.of('refinedstorage:black_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/black'
+            ]
+        )
+
+            // Light Gray Controller
+    event.shapeless(
+        Item.of('refinedstorage:light_gray_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/light_gray'
+        ]
+    )
+
+        // Gray Controller
+        event.shapeless(
+            Item.of('refinedstorage:gray_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/gray'
+            ]
+        )
+
+            // Brown Controller
+    event.shapeless(
+        Item.of('refinedstorage:brown_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/brown'
+        ]
+    )
+
+        // Red Controller
+        event.shapeless(
+            Item.of('refinedstorage:red_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/red'
+            ]
+        )
+
+            // Orange Controller
+    event.shapeless(
+        Item.of('refinedstorage:orange_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/orange'
+        ]
+    )
+
+        // Yellow Controller
+        event.shapeless(
+            Item.of('refinedstorage:yellow_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/yellow'
+            ]
+        )
+
+            // Lime Controller
+    event.shapeless(
+        Item.of('refinedstorage:lime_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/lime'
+        ]
+    )
+
+        // Green Controller
+        event.shapeless(
+            Item.of('refinedstorage:green_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/green'
+            ]
+        )
+
+            // Cyan Controller
+    event.shapeless(
+        Item.of('refinedstorage:cyan_creative_controller'),
+        [ 
+            '#forge:creative_controller',
+            '#forge:dyes/cyan'
+        ]
+    )
+
+        // Light Blue Controller
+        event.shapeless(
+            Item.of('refinedstorage:creative_controller'),
+            [ 
+                '#forge:creative_controller',
+                '#forge:dyes/light_blue'
+            ]
+        )
+
+            // Blue Controller
+    event.shapeless(
+        Item.of('refinedstorage:blue_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/blue'
+        ]
+    )
+
+        // Purple Controller
+        event.shapeless(
+            Item.of('refinedstorage:purple_creative_controller'),
+            [ 
+                  '#forge:creative_controller',
+                '#forge:dyes/purple'
+            ]
+        )
+
+            // Magenta Controller
+    event.shapeless(
+        Item.of('refinedstorage:magenta_creative_controller'),
+        [ 
+              '#forge:creative_controller',
+            '#forge:dyes/magenta'
+        ]
+    )
+
+   // Pink Controller
+             event.shapeless(
+        Item.of('refinedstorage:pink_creative_controller'),
+          [ 
+                     '#forge:creative_controller',
+                  '#forge:dyes/pink'
+                    ]
+                )
+
+    
+
 
 //Stonecutter recipes for Handcrafted Boards
 event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')

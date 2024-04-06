@@ -343,300 +343,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2AC77B6EF8DA00EA"]
-			description: [
-				"&lTom's Simple Storage&r is a mod which allows you to &aaccess all your inventory from a single interface&r. Who Tom was has been lost to legend, but his storage systems remain. &lSophisticated Storage&r is a storage solution with a focus on &aproviding lots of space in a small footprint&r. The two systems can work together!"
-				""
-				"To begin with, you'll need a &bStorage Terminal&r from &lTom's&r."
-				""
-				"Then, you need to make a choice between the &bInventory Connector&r from &lTom's&r, or a &bStorage Controller&r from &lSophisticated&r. Inventory Connectors work with both vanilla and Sophisticated containers, whereas &bStorage Controllers&r connect only to Sophisticated's containers. However, the remote capabilities of the &bStorage Controller&r are superior to those of the &bInventory Connector&r."
-				""
-				"This quest has multiple pages, &6please go to the next page&r."
-				""
-				"{@pagebreak}"
-				"The &bInventory Connector&r and &bStorage Controller&r are blocks which act as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r."
-				""
-				"With the &bStorage Controller&r you can link distant storages using a &bStorage Link&r. You can do this with the &bInventory Connector&r as well, by utilizing the &bInventory Trim, or Inventory Cables and Cable Connectors&r."
-				""
-				"The &bStorage Terminal&r is the block which lets you see, deposit, and withdraw from your network. It can later be upgraded to a &bCrafting Terminal&r, which also allows you to craft from your inventory network."
-				"{@pagebreak}"
-				"Here is an example of a &ahybrid Tom's and Sophisticated setup&r. As you can see, it &duses only inventory containers from&r &lSophisticated Storage&r, with the &bTom's Storage Terminal&r attached to the &bSophisticated's Storage Controller&r."
-				""
-				"The remote storages are connected via a &bStorage Link&r."
-				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
-				""
-				"{@pagebreak}"
-				"This is an example of a &aTom's only&r setup, with vanilla containers (though it also supports containers from Sophisticated)."
-				""
-				"The remote containers are hooked into the &bInventory Connector&r via &bCables&r and &bCable Connectors&r."
-				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
-			]
-			id: "1B3C37BD61939C76"
-			rewards: [{
-				id: "4F0820A607503EB4"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "networking is important"
-			tasks: [
-				{
-					id: "65E8A2B80E50F100"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:inventory_controllers"
-						}
-					}
-					title: "Any #forge:inventory_controllers"
-					type: "item"
-				}
-				{
-					id: "2268FB94B2D4789E"
-					item: "toms_storage:ts.storage_terminal"
-					type: "item"
-				}
-			]
-			title: "Network Interface"
-			x: -0.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: ["The &bCrafting Grid&r, although more expensive, is a worthy upgrade because it allows you to &acraft from JEI or the Recipe Book&r using anything in your storage network."]
-			id: "681253D70C026027"
-			rewards: [{
-				id: "240243DEB27A110F"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
-			subtitle: "It's not just serious - it's terminal"
-			tasks: [{
-				id: "2B45691AED9BE323"
-				item: "toms_storage:ts.crafting_terminal"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -13.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: ["&bInventory Trim&r is an item which helps to fill in the gaps between connected inventories. As long as the Trim is touching both a valid inventory block, and a block in your system, it will connect all it touches to your network."]
-			id: "7A9A86BAA9E4A06E"
-			rewards: [{
-				id: "1E928BE5FBB5FD95"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			subtitle: "Trim and tidy"
-			tasks: [{
-				count: 4L
-				id: "38E41AF45EF1C29A"
-				item: "toms_storage:ts.trim"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: [
-				"While &bInventory Trim&r is what the majority of people will use to connect their network, you can also do it with &bInventory Connectors&r and &bInventory Cables&r."
-				"&6Place the Connectors on the blocks you wish&r, and then &6place the cabling between them&r."
-			]
-			id: "21A2E4CA683BD232"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "738482AB5370FCF4"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "507AD7D665822346"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:inventory_controllers"
-						}
-					}
-					title: "Any #forge:inventory_controllers"
-					type: "item"
-				}
-				{
-					id: "266DB9CE515A1C80"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:connector"
-						}
-					}
-					title: "Any #forge:connector"
-					type: "item"
-				}
-			]
-			title: "Connected at a Distance"
-			x: -3.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["21A2E4CA683BD232"]
-			description: [
-				"&bFramed blocks&r are ones which can &atake on the appearance of another block&r."
-				"Place your &bFramed Blocks&r in the world, then &6hold the Paint Kit and shift right click&r the block you want them to look like. Then &6right click the framed block&r with the paint kit, and voila!"
-			]
-			id: "383A9396EDCA0ED1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "257EB530D055D451"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Don't be suspicious, don't be suspicious"
-			tasks: [
-				{
-					id: "39246456F6D4B955"
-					item: "toms_storage:ts.inventory_cable_connector_framed"
-					type: "item"
-				}
-				{
-					id: "4138B74E75AC4B9D"
-					item: "toms_storage:ts.inventory_cable_framed"
-					type: "item"
-				}
-				{
-					id: "74B9AFE8924F9CCF"
-					item: {
-						Count: 1b
-						id: "toms_storage:ts.paint_kit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Framed Blocks"
-			x: -4.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: ["The &bWireless Terminal&r is an incredibly useful item, as it allows you to access your inventory network remotely, at a &arange of 16 blocks&r."]
-			id: "50D94EFE04154F83"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "586FDFDB6BDAD89C"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			subtitle: "We're going wireless"
-			tasks: [{
-				id: "12EE65D5450F2B69"
-				item: "toms_storage:ts.wireless_terminal"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["50D94EFE04154F83"]
-			description: [
-				"The &bAdvanced Wireless Terminal&r not only extends the range of its previous version (64 blocks instead of 16), but can be made to have &ainfinite range&r if one &6places a level 1 beacon nearby&r."
-				"If you should &6place a level 4 beacon nearby&r, then the signal can transmit &aacross dimensions&r as well!"
-				"Can be &6worn as a Belt&r and &aaccessed via a hotkey&r."
-			]
-			id: "5E4411D5B4EFA45B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "349BEC406970C530"
-				table_id: 5161092699925703455L
-				type: "random"
-			}]
-			subtitle: "A beacon of hope"
-			tasks: [{
-				id: "55AE94FBC169D6F8"
-				item: "toms_storage:ts.adv_wireless_terminal"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: [
-				"The &bInventory Proxy&r is a niche item which extends access to inventory blocks it's placed adjacent to. It specifically extends &athe face it's touching&r, "
-				"This is useful in case your inventories are hard to access due to being inside an automation system, etc."
-			]
-			id: "30027D97CE91BAF0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33C3159EAC07BBAA"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3B155EBB095D85A1"
-				item: "toms_storage:ts.inventory_proxy"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: [
-				"The &bInventory Hopper&r imports and exports items from your network."
-				"&6Right click it with an item&r to set the filter. This is optional when importing, but required if exporting."
-				"&6Shift right click with an empty hand&r to clear the filter."
-			]
-			id: "15F2A54EBE6EEC56"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D9719DC75DBE9F9"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "65D436A4BFB4E9C0"
-				item: "toms_storage:ts.inventory_hopper_basic"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["1B3C37BD61939C76"]
-			description: [
-				"The &bLevel Emitter&r transmits a redstone signal based on the contents of an inventory."
-				"The signal is based on whether the inventory contains &amore or less than the set amount&r."
-			]
-			id: "41933F01B397F9F0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4BA0046E741F21B4"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "65AB7B90E505E5FB"
-				item: "toms_storage:ts.level_emitter"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -12.0d
-		}
-		{
 			description: [
 				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
 				"It's not a bad idea to fill it with emergency items. You can &again more storage space&r by &6filling it with Shulker Boxes&r."
@@ -1506,17 +1212,6 @@
 			y: -2.5d
 		}
 		{
-			id: "19F9AEAC413F6379"
-			tasks: [{
-				id: "7FE4410258635953"
-				stat: "minecraft:mob_kills"
-				type: "stat"
-				value: 1
-			}]
-			x: 7.5d
-			y: -12.0d
-		}
-		{
 			dependencies: ["09D1FD5320857872"]
 			description: ["As you improve your backpack, you will unlock upgrade slots. Just like with &lSophisticated Storage&r, you can use those slots to &aincrease stack size&r with the &bStack Upgrades&r or &aautomatically compact items&r with the &bCompacting Upgrade&r to maximize storage space."]
 			id: "53CE2F944DFC7725"
@@ -1699,6 +1394,522 @@
 			title: "Oh my GOD a BACKPACK"
 			x: -0.5d
 			y: -7.0d
+		}
+		{
+			description: [
+				"For an elegant and low-impact storage option, you need more than just magic- introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticted Storage&r with &lRefined Storage&r as it &dcan cause lag&r. "
+				""
+				"To begin, familiarise yourself with the basic crafting ingredients of &lRefined Storage&r: &brunic binding&r, &bsmokey quartz&r, and &billuminite&r. You will also be crafting a lot of &bRaw Runic Processors&r- &6heat them in a furnace&r to fuse their Magitech."
+				""
+				"Oh, and take this &bsquirrel&r- &oit's a secret tool that will help us later!&r (It's not that secret, you need it for the next step.)"
+			]
+			id: "06B08459F024F1CA"
+			rewards: [
+				{
+					id: "75B8D1684667422C"
+					item: "ars_creo:starbuncle_wheel"
+					type: "item"
+				}
+				{
+					id: "5855B8DC9C6B6A7D"
+					item: "spelunkery:magnetite_chunk"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "the ultimate storage solution"
+			tasks: [
+				{
+					id: "1BF8CA7C4BAFF890"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+				{
+					id: "09EED1B079116AFE"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					id: "6311F62EFB2872BB"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					id: "487BF96B27F7A254"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "4134E377D3D5BC85"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "08AA319BD071A61C"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Magitech Refined Storage"
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["06B08459F024F1CA"]
+			description: [
+				"The &bLodestone Core&r is the source from which your entire storage system &awill draw its power&r. &6Craft one&r using the &bStarbuncle Wheel&r you were given. Don't worry- they'll be fine in there!"
+				""
+				"Every other block in your storage system will &6have to be connected to this block&r, or &6connected to another storage block&r that is connected to this block (we'll get into &awireless access&r later!). "
+			]
+			id: "08DD294D94AB2400"
+			rewards: [{
+				count: 5
+				id: "2AE63AF68B970AFF"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "infinite power... itty bitty living space"
+			tasks: [{
+				id: "5F1D8CA8C3A7E613"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:creative_controller"
+					}
+				}
+				title: "Any #forge:creative_controller"
+				type: "item"
+			}]
+			title: "The Lodestone Core"
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["08DD294D94AB2400"]
+			description: [
+				"Now that you have the power, you'll need a repository for holding your things! The &bGlyphic Repository&r is a block that allows you to store up to 8 Glyphstones, each capable of holding anywhere between &a1,000 and 64,000 items&r. You can connect multiple Glyphic Repositories to the system, but let's start with the &bPrimal Glyphstone&r."
+				""
+				"To start storing things, you will first need to &6craft&r a &bPrimal Storage Glyph&r and a protective &bStone Casing&r to house it. You can craft these two items together to create a &bGlyphstone&r. Empty &bGlyphstones&r (ones that are &anot currently storing items&r) can be disassembled into their separate parts by &6shift-clicking with it in your hand&r."
+				""
+				"Note: &dFluid storage is disabled&r for this mod. Please ignore any references to fluid management that you see in the GUI."
+			]
+			id: "1173185929969892"
+			rewards: [
+				{
+					count: 5
+					id: "0DDB6983A48D850F"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					id: "0034A790927C0618"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "a place to keep your stuff"
+			tasks: [
+				{
+					id: "007F95EE9B7B66CA"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "2FDC6DF9139CB644"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					id: "5AC8E4B647167EA8"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1173185929969892"]
+			description: [
+				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bRunic Console&r to be able to add and remove items from your &bRepository&r. Make sure it is directly connected to the storage. Remember- &aeverything must have direct contact&r with another part of your system. "
+				""
+				"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with an &badvanced runic processor&r and &bcrafting table&r."
+				""
+				"That's it- that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
+			]
+			id: "26C7C5E4D45A47F3"
+			rewards: [
+				{
+					id: "24315A1495216A03"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "252CF69C3E0FB0C7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "portal to the storage dimension"
+			tasks: [{
+				id: "6105AA2250535DDE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "refinedstorage:grid"
+					}
+				}
+				title: "Any #refinedstorage:grid"
+				type: "item"
+			}]
+			title: "Runic Console"
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"Having every block directly connected to another can become a bit bulky. Here are some local options for spreading it out a bit."
+				""
+				"The &bcable&r is extremely simple- use it to &aconnect various &lRefined Storage&r &ablocks across a distance&r. We strongly recommend you use &bcables&r with your system instead of &lPipez&r as it is &dmuch more performant&r."
+				""
+				"The &brelay&r works exactly like the &bcable&r, except it can be &apowered on and off with redstone&r."
+				""
+				"To learn about &awireless options&r, move to the next quests!"
+			]
+			id: "039A7E71CCE149F3"
+			rewards: [{
+				count: 6
+				id: "5E4994F6A579845B"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3750393F893A39D9"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+				{
+					id: "37ACA7BF21CF5382"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:relay"
+						}
+					}
+					title: "Any #refinedstorage:relay"
+					type: "item"
+				}
+			]
+			title: "Extending the System"
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"Maybe cables are too limited for what you want. You've got a farm or a second base... whether it's 1000 blocks away or &cin another dimension&r, an attuned messaging system will &aunite your storages&r and allow them to be accessed from the &bConsole&r."
+				""
+				"To set it up could not be simpler. The &bAetheric Messenger&r &amust be connected in some way&r to the system where your &bLodestone Core&r is placed. The &bAetheric Receptor&r can be placed &awherever you want to wirelessly connect&r. "
+				""
+				"Use an &bAetheric Attuner&r to &aattune these blocks together&r across space and dimension. Simply &6right click the&r &bAttuner&r &6onto the&r &bReceptor&r to lock in its coordinates, and then &6place that&r &bAttuner&r &6inside the&r &bMessenger&r. These items always come paired one-on-one; &dif you want to connect more storages,&r you will need a &aset of these items for each connection&r."
+				""
+				"Lastly, go into your &cFTB Chunks claim manager&r and &6force-load both&r the location of your &bLodestone Core&r and the location of your &bAetheric Receptor&r."
+			]
+			id: "4642744C3458C86F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ABE5630D024182A"
+				table_id: 8035711958862449784L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4255A1F2B4D524EF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:network_receiver"
+						}
+					}
+					title: "Any #refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "6B294E5B71558B46"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:network_transmitter"
+						}
+					}
+					title: "Any #refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "4B05D002884C600E"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+			]
+			title: "A Wireless Connection"
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"A crafty witch knows that being able to &astore things in a convenient pocket dimension&r is a must."
+				""
+				"Placing an &bAetheric Beacon&r anywhere on your storage system will &atransmit access to your storage&r from within 16 blocks of the &bBeacon&r placement. You can use &bmultiple Beacons&r for a &awider range of coverage&r. You can also attach &bRange Upgrades&r to improve the coverage from 16 blocks up to 48! "
+				""
+				"To make use of the &bBeacon&r, you will need to &6craft an &r&bAetheric Console&r. Simply &6shift+right click&r &6the&r &bConsole&r &6to your&r &bLodestone Core&r to connect them."
+				""
+				"Note: try upgrading to the &bAetheric Crafting Console&r for an even more seamless experience!"
+			]
+			id: "0299C27E048FE548"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08BC2F276C645810"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "it's like a Bag of Holding"
+			tasks: [
+				{
+					id: "1C0763C4C0E64847"
+					item: "refinedstorage:wireless_transmitter"
+					type: "item"
+				}
+				{
+					id: "3CEB4FC0B425E7C4"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+				{
+					id: "750314C1DAAE252B"
+					item: "refinedstorage:creative_wireless_grid"
+					type: "item"
+				}
+			]
+			title: "Storage in Your Pocket"
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0299C27E048FE548"]
+			description: [
+				"Though pricey, the&b ultimate upgrade&r is the cherry on top for the most discerning witch's all-terrain, interdimensional, on-the-go, fully-loaded &bAetheric Beacon&r. "
+				""
+				"If you live in &ajust one dimension&r, may we recommend the &bInfinity Range Upgrade&r? This upgrade allows your &bAetheric Console&r to &aaccess your storage from any distance&r."
+				""
+				"If you're a bit of a dimension hopper, it's worth shelling out for the &bDimension Card&r, which allows access &aanywhere, any time.&r To obtain the &bDimension Card&r, you'll need &aa little something from every dimension&r... combined into your &bInfinity Range Upgrade&r!"
+			]
+			id: "68FA93DDD026C0B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F0C2377A87A370D"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "to infinity and beyond"
+			tasks: [{
+				id: "067FEBFBE5A90C6E"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			title: "The Cadillac of Upgrades"
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"Nearly every part of your &lRefined Storage &rsystem can be coloured simply by &6applying a dye to the block&r! You can also &6craft them together&r in a crafting table. "
+				""
+				"To hide unsightly cables, you can &6craft any block with a single iron nugget&r to make 6 &bCovers&r. &bCovers&r can be &6applied to any side&r of a&b cable&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
+				""
+				"You can place any &bcover&r &aback into a crafting grid&r to create a &bhollow cover&r- if you'd like an exposed &bcable&r to come through, just &6place the&r &bhollow cover&r &6against&r one &bcable&r and then &6place another&r &bcable&r &6on that face&r to have it &apoke through&r."
+				""
+				"Covers &dcannot be recovered&r once they have been placed in a &bcable block&r. Lucky they are so cheap to craft!"
+			]
+			id: "1B2752134115FDF8"
+			rewards: [
+				{
+					id: "62483CA563B0296B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14F7A4247B94FF19"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			subtitle: "obviously you want everything to match"
+			tasks: [{
+				id: "2C4675291844D154"
+				title: "Aesthetic"
+				type: "checkmark"
+			}]
+			title: "Aesthetics"
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"You can easily connect external storage to your system using... the &bExternal Storage&r! "
+				""
+				"{image:cottagewitch:textures/externalstorage.png width:130 height:70 align:1}"
+				""
+				"Simply &6shift and place the&r &bExternal Storage&r against a storage block to connect it. Then &6connect up the the&r &bExternal Storage&r &6block with a&r &bcable&r, &6an&r &bAetheric Receptor&r, &6or&r &bany other &lRefined Storage&r block&r connected to your &bLodestone Core&r setup."
+				""
+				"You can &6right click on this block&r to access its GUI, where you can choose to &alimit how items flow into and out of your external storage&r via the &aBlacklist&r, &aWhitelist&r and &aAccess Type&r functions on the lefthand side."
+				""
+				""
+				"Note: once you start connecting multiple storages, you will want to start Prioritising them. &aSetting the Priority&r of your storage blocks tells your &bConsole&r &awhere to store items&r that you add into the system, as well as &awhere to extract them first&r when removing something from the system. &6Click to the next page&r to learn about &aPriority&r."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Priority can be adjusted for each &bGlyph Repository&r and &bExternal Storage&r. You'll find Priority especially helpful for &akeeping your storage tidy.&r"
+				""
+				"{image:cottagewitch:textures/priority.png width:200 height:100 align:1}"
+				""
+				""
+				"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority to the &bExternal Storage&r block connected to these drawers, any time you &aadd or remove gold from your console&r, the system will &acheck the priority list&r and choose this location first. "
+				""
+				"You can use the &awhitelist/blacklist functions&r to tell your Priority system to skip over a high priority storage for specific items. You can also &aset a negative priority&r to any storages that you want to be the last option."
+			]
+			id: "0FB0FB0F4148E6BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43449FD447A20BCB"
+				table_id: 8035711958862449784L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "all under one umbrella"
+			tasks: [{
+				id: "5AEB1E958ED0B53D"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Connecting Your Storage"
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"The &bImporter&r and &bExporter&r are a must for a busy witch. Consider them to be &aupgradeable, filterable hoppers&r that can feed &adirectly into and out of your system&r. This is particularly helpful for unloading or loading &bShulkers&r and &bBackpacks&r."
+				""
+				"The &bStone Manipulator&r is similar, but instead of interacting with external storage, it allows you to &atransfer items into and out of&r &bGlyphstones&r. &6Switch the IO to&r &aExtracting&r &6or&r &aInserting&r and &6place your&r &bGlyphstone&r&6 in the \"In\" slot&r. When the transfer is complete your &bGlyphstone&r will be automatically &amoved to the \"Out\" slot&r. "
+				""
+				"{image:cottagewitch:textures/stonemanipulator.png width:195 height:115 align:1}"
+				""
+				"Turn to the next page to learn about &aupgrading your experience&r."
+				""
+				"{@pagebreak}"
+				""
+				"Consider &aadding uprades&r for a smoother experience- the &bSpeed Upgrade&r will &aincrease the overall speed&r, while the &bStack Upgrade&r will cause the system to pull &aentire stacks at a time&r instead of individual items. "
+				""
+				"Unique to the &bExporter&r, a &bRegulator Upgrade&r will let you &aselect specific items to keep stocked&r in the &bconnected inventory&r. The &bRegulator&r will attempt to &apull from your storage to feed that inventory&r with those specified items."
+			]
+			id: "7AC5319955CAF138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "309274F7C126EC29"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "the ins and outs"
+			tasks: [
+				{
+					id: "1B1BE1584ADF40BB"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "30155F49D2454496"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "52A36699BE0C2107"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:disk_manipulator"
+						}
+					}
+					title: "Any #refinedstorage:disk_manipulator"
+					type: "item"
+				}
+			]
+			title: "Moving Stuff Around"
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["26C7C5E4D45A47F3"]
+			description: [
+				"Worried about your possessions being siphoned through the aether? Or maybe you want to be able to let your friend look at your vast supplies but not take anything. Regardless of what you're doing, the &bGuardian Ward&r is your go to hub for &aprotecting&r and providing &acontrolled access&r to your &lRefined Storage&r."
+				""
+				"To set up permissions, start by &6right clicking the&r &bWard Bypass&r in order to &abind it to yourself&r. "
+				""
+				"Now &6open the GUI&r of the &bGuardian Ward&r and &6place your &r&bWard Bypass&r &6into the centered slot&r above the checkboxes. You can &atick the boxes you'd like to allow&r for that &bWard Bypass&r. It is &ostrongly recommended&r to give yourself &dall permissions for your own system&r. You can give other players &acontrolled access&r in this same way- just have them &6bind a separate&r &bWard Pass&r &6and hand it to you&r."
+				""
+				"Once the &bWard Bypass&r is &abound to a player and configured&r, placing it in the upper slots of a &bGuardian Ward&r will apply those permissions to every &lRefined Storage&r block connected to your system. &dThese permissions do not extend to external storages.&r"
+			]
+			id: "4A29CDF7BE066EDD"
+			rewards: [
+				{
+					count: 5
+					id: "201770CC3647A606"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "344DDF03DEAFFA50"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "magical security"
+			tasks: [
+				{
+					id: "555CDF25E70014F6"
+					item: "refinedstorage:security_manager"
+					type: "item"
+				}
+				{
+					id: "0FE726E8AE351744"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -14.0d
 		}
 	]
 	title: "Storage"
