@@ -2279,28 +2279,12 @@
 				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bAdventurer Rune&r. Runes can also be &acombined with each other&r to increase their power."
 			]
 			id: "1F590EDF058BB8A8"
-			rewards: [
-				{
-					id: "3EE5B84BA839D659"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:adventurer_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "47C857002217D229"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47C857002217D229"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "adventure is out there"
 			tasks: [
@@ -2344,28 +2328,12 @@
 				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bAngler Rune&r. Runes can also be &acombined with each other&r to increase their power."
 			]
 			id: "5B075D9C9BE8F2AE"
-			rewards: [
-				{
-					id: "6240E89CABA84E2B"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:angler_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "707DAB33BE9A46E5"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "707DAB33BE9A46E5"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "reel big bonuses"
 			tasks: [
@@ -2423,28 +2391,12 @@
 				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bHousehold Rune&r. Runes can also be &acombined with each other&r to increase their power."
 			]
 			id: "67655D11D7908671"
-			rewards: [
-				{
-					id: "37CBD619998F1D6D"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:household_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "598E4FEA003A138D"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "598E4FEA003A138D"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "home is where the rune is"
 			tasks: [
@@ -2502,28 +2454,12 @@
 				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bMiner Rune&r. Runes can also be &acombined with each other&r to increase their power."
 			]
 			id: "6F7BC76D2BAC0926"
-			rewards: [
-				{
-					id: "1426A82F42227C92"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:miner_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6511CE8FFABF441E"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6511CE8FFABF441E"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "it's no miner feat"
 			tasks: [
@@ -2581,28 +2517,12 @@
 				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bNature Rune&r. Runes can also be &acombined with each other&r to increase their power."
 			]
 			id: "68279BFDA33B6996"
-			rewards: [
-				{
-					id: "7A990DD56C2FAC21"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:nature_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0993290DEEA66068"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0993290DEEA66068"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "lets get super natural"
 			tasks: [

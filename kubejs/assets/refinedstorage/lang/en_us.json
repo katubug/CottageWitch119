@@ -266,7 +266,7 @@
   "advancements.refinedstorage.connecting.description": "You can place all the devices next to each other to connect them up, or, use Cable",
   "advancements.refinedstorage.conditional_connecting": "Conditional connecting",
   "advancements.refinedstorage.conditional_connecting.description": "Craft a Relay to control if a network signal can pass with redstone",
-  "advancements.refinedstorage.drives": "Drives",
+  "advancements.refinedstorage.drives": "Glyphstones",
   "advancements.refinedstorage.drives.description": "Craft a Glyphic Repository to be able to store your stones",
   "advancements.refinedstorage.manipulating_disks": "Manipulating stones",
   "advancements.refinedstorage.manipulating_disks.description": "Use a Stone Manipulator to easily modify contents of stones",

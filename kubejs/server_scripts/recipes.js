@@ -2051,7 +2051,7 @@ event.shaped(
 
 //Cable
 event.shaped(
-    Item.of('refinedstorage:cable'),
+    Item.of('refinedstorage:cable', 12),
     [
         'AAA',
         'BCB',
@@ -2139,13 +2139,12 @@ event.shaped(
 event.shaped(
     Item.of('refinedstorage:1k_storage_part'),
     [
-        'ABA',
-        'ACA',
-        'ABA'
+        ' C ',
+        'CAC',
+        ' C '
     ], {
         A: 'refinedstorage:quartz_enriched_iron',
-        B: 'glassential:glass_redstone',
-        C: 'refinedstorage:improved_processor'
+        C: 'refinedstorage:basic_processor'
     
     }
 
@@ -2270,11 +2269,11 @@ event.shaped(
 event.shaped(
     Item.of('rsinfinitybooster:dimension_card'),
     [
-        ' B ',
-        'ACD',
+        ' A ',
+        'BCD',
         ' E '
     ], {
-        A: 'twilightforest:charm_of_keeping_3',
+        A: 'twilightforest:maze_map_focus',
         B: 'deeperdarker:heart_of_the_deep',
         C: 'rsinfinitybooster:infinity_card',
         D: 'minecraft:dragon_egg',
@@ -2284,7 +2283,7 @@ event.shaped(
 
     // Illuminite (quartz-enriched iron)
     event.shaped(
-        Item.of('refinedstorage:quartz_enriched_iron'),
+        Item.of('refinedstorage:quartz_enriched_iron', 4),
         [
             'AA ',
             'AB ',
@@ -2296,6 +2295,18 @@ event.shaped(
     
         }
     )
+
+     // Illuminite Block uncrafting
+     event.shapeless(
+        Item.of('refinedstorage:quartz_enriched_iron', 9),
+        [
+        
+        
+            'refinedstorage:quartz_enriched_iron_block'
+
+        ]
+    )  
+
 // Aetheric Messenger
 event.shapeless(
     Item.of('refinedstorage:network_transmitter'),

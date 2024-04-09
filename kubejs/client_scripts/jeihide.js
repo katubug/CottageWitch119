@@ -335,7 +335,9 @@ JEIEvents.hideItems(event => {
 'refinedstorage:destructor',
 'refinedstorage:crafter',
 'refinedstorage:crafter_manager',
-'refinedstorage:crafting_upgrade'
+'refinedstorage:crafting_upgrade',
+'refinedstorage:creative_storage_disk'
+
     ];
     
       for (const hide of toHide) {
