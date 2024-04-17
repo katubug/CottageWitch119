@@ -2224,12 +2224,11 @@ event.shaped(
     [
         'ABA',
         'ACA',
-        'ADA'
+        'ABA'
     ], {
         A: 'refinedstorage:quartz_enriched_iron',
         B: 'minecraft:ender_pearl',
-        C: '#refinedstorage:grid',
-        D: 'refinedstorage:advanced_processor'
+        C: '#refinedstorage:grid'
     }
 )
 
@@ -2239,12 +2238,11 @@ event.shaped(
     [
         'ABA',
         'ACA',
-        'ADA'
+        'ABA'
     ], {
         A: 'refinedstorage:quartz_enriched_iron',
         B: 'minecraft:ender_pearl',
-        C: '#refinedstorage:crafting_grid',
-        D: 'refinedstorage:advanced_processor'
+        C: '#refinedstorage:crafting_grid'
     }  
 )
 
@@ -2333,9 +2331,8 @@ event.shapeless(
         Item.of('refinedstorageaddons:creative_wireless_crafting_grid'),
         [
          
-            'refinedstorageaddons:creative_wireless_grid',
-            'minecraft:crafting_table',
-            'refinedstorage:advanced_processor'
+            'refinedstorage:creative_wireless_grid',
+            'minecraft:crafting_table'
         ]
     )
     

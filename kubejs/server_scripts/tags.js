@@ -903,6 +903,13 @@ event.add('forge:aquafish',
       "refinedstorage:black_creative_controller"
     
     )
+/// coal ores 
+event.add('forge:ores/coal',
+"spelunkery:granite_coal_ore", 
+"spelunkery:andesite_coal_ore", 
+"spelunkery:diorite_coal_ore", 
+"spelunkery:tuff_coal_ore"
+)
 
 })
 

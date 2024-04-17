@@ -13,3 +13,11 @@
 	#Range: 1.0 ~ 32.0
 	Range = 8.0
 
+["Enable Name Formatting Anvil Recipes"]
+	#Whether custom recipes that allow for the changing of item name color & formatting are enabled
+	Formatting = true
+
+["Enable Anvil Repair Recipes"]
+	#Whether custom recipes that allow for the repairing of anvils with iron ingots are allowed
+	AnvilRepair = true
+

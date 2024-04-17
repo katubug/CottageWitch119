@@ -11,7 +11,11 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.haunting('byg:crimson_berries', 'byg:blueberries')
 
-    e.recipes.create.crushing('minecraft:prismarine_shard', 'minecraft:prismarine')
+    e.recipes.create.crushing('2x minecraft:prismarine_shard', 'minecraft:prismarine')
+
+    e.recipes.create.crushing(['2x minecraft:coal', Item.of('minecraft:coal').withChance(0.5)], '#forge:ores/coal')
 
   
+
+
 })

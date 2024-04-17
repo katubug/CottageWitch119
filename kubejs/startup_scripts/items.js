@@ -6,6 +6,7 @@ event.create('lunarcoin').texture('kubejs:item/lunar_coin').maxStackSize(64).dis
 event.create('solarcoin').texture('kubejs:item/solar_coin').maxStackSize(64).displayName("Solar Coin")
 event.create('arcanecoin').texture('kubejs:item/arcane_coin').maxStackSize(64).displayName("Arcane Coin")
 event.create('ticket')
+event.create('pink_moon').texture('kubejs:item/pink_moon').displayName("Pink Moon")
 })
 
 StartupEvents.registry('block', event => {

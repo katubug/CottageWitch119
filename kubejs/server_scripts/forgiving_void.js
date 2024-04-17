@@ -1,20 +1,6 @@
-EntityEvents.hurt(event => {
-    const {entity, source,level} = event
-    if(!entity.isPlayer()) return
-    let player = entity
-
-    if(player.persistentData.voidForgiven == true && source == 'DamageSource (fall)'){
-        player.persistentData.voidForgiven = false
-
-        if(player.health > 8) {
-            player.attack(player.health-4)
-            event.cancel()
-        }
-    }
-
-    if(source == 'DamageSource (outOfWorld)' && player.y < -64){
-        player.persistentData.voidForgiven = true
-
+PlayerEvents.tick(event => {
+    const {player,level} = event
+    if(player.y < -69){
         if(!player.stages.has('inVoid')){
 
             let x = Math.floor(player.x)
@@ -29,7 +15,7 @@ EntityEvents.hurt(event => {
             player.stages.add('inVoid')
 
         }
-        event.cancel()
+        //event.cancel()
 
         event.server.scheduleInTicks(100, _=>{
             player.stages.remove('inVoid')
