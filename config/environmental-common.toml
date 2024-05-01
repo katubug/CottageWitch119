@@ -46,6 +46,18 @@
 			#If Muddy Pigs only naturally dry when in the Nether
 			"Muddy Pigs only dry in the Nether" = true
 
+	[mobs.hoglin]
+		#If Hoglins should spawn more babies upon breeding
+		"Larger Hoglin litters" = true
+
+		[mobs.hoglin.larger_litters]
+			#The minimum amount of baby hoglins that can spawn in addition to the original child
+			#Range: > 0
+			"Minimum additional babies" = 1
+			#The maximum amount of baby hoglins that can spawn in addition to the original child
+			#Range: > 0
+			"Maximum additional babies" = 2
+
 [blocks]
 	#Cacti generate with a Cactus Bobble on top to prevent natural growth
 	"Cactus bobble" = true

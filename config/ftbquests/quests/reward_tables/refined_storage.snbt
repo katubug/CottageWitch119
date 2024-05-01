@@ -1,0 +1,18 @@
+{
+	id: "6E1A615FB463E8E2"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{ count: 10, item: "refinedstorage:processor_binding", weight: 15.0f }
+		{ count: 5, item: "refinedstorage:basic_processor", weight: 6.0f }
+		{ count: 5, item: "refinedstorage:improved_processor", weight: 3.0f }
+		{ count: 5, item: "refinedstorage:advanced_processor", weight: 3.0f }
+		{ count: 10, item: "refinedstorage:silicon", weight: 10.0f }
+		{ item: "refinedstorage:1k_storage_part", weight: 2.0f }
+		{ item: "refinedstorage:4k_storage_part" }
+		{ item: "refinedstorage:16k_storage_part", weight: 0.5f }
+		{ count: 9, item: "refinedstorage:quartz_enriched_iron", weight: 15.0f }
+		{ count: 5, item: "glassential:glass_redstone", weight: 8.0f }
+	]
+	title: "Refined Storage"
+}

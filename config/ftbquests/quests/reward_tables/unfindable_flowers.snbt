@@ -1,0 +1,19 @@
+{
+	icon: "byg:delphinium"
+	id: "1804CC6DA830BA1D"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "byg:delphinium" }
+		{ item: "byg:winter_cyclamen" }
+		{ item: "byg:snowdrops" }
+		{ item: "byg:protea_flower" }
+		{ item: "byg:daffodil" }
+		{ item: "byg:pink_daffodil" }
+		{ item: "byg:california_poppy" }
+		{ item: "byg:silver_vase_flower" }
+		{ item: "byg:winter_rose" }
+		{ item: "byg:winter_scilla" }
+	]
+	title: "Unfindable Flowers"
+}

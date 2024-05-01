@@ -1026,7 +1026,8 @@ ServerEvents.tags("entity_type", event => {
     "alexsmobs:mimicube",
     "twilightforest:armored_giant",
     "twilightforest:giant_miner",
-    "alexsmobs:warped_mosco"
+    "alexsmobs:warped_mosco",
+    "minecraft:iron_golem"
 
 
 

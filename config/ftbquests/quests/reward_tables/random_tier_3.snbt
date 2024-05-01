@@ -15,6 +15,7 @@
 		{ count: 4, item: "sophisticatedstorage:basic_to_netherite_tier_upgrade", weight: 20.0f }
 		{ item: "ends_delight:dragon_tooth", weight: 10.0f }
 		{ item: "biomesinjars:empty_biome_jar", weight: 40.0f }
+		{ item: "refinedstorage:64k_storage_part" }
 	]
 	title: "Random Tier 3"
 }

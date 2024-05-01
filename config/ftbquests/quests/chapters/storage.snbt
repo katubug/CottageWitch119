@@ -1463,12 +1463,20 @@
 				"Every other block in your storage system will &6have to be connected to this block&r, or &6connected to another storage block&r that is connected to this block (we'll get into &awireless access&r later!). "
 			]
 			id: "08DD294D94AB2400"
-			rewards: [{
-				count: 5
-				id: "2AE63AF68B970AFF"
-				item: "refinedstorage:quartz_enriched_iron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "2AE63AF68B970AFF"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3770C33104AE764B"
+					table_id: 7933760757242783970L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "infinite power... itty bitty living space"
 			tasks: [{
@@ -1505,9 +1513,10 @@
 					type: "item"
 				}
 				{
-					id: "0034A790927C0618"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "60EE3E28AC272F30"
+					table_id: 7933760757242783970L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1537,7 +1546,7 @@
 			description: [
 				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bRunic Console&r to be able to add and remove items from your &bRepository&r. Make sure it is directly connected to the storage. Remember- &aeverything must have direct contact&r with another part of your system. "
 				""
-				"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with an &badvanced runic processor&r and &bcrafting table&r."
+				"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with an &barcane runic processor&r and &bcrafting table&r."
 				""
 				"That's it- that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
 			]
@@ -1549,9 +1558,10 @@
 					type: "item"
 				}
 				{
-					id: "252CF69C3E0FB0C7"
-					item: "minecraft:diamond"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "49BF27A59B7AA9EE"
+					table_id: 7933760757242783970L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1626,12 +1636,20 @@
 				"Lastly, go into your &cFTB Chunks claim manager&r and &6force-load both&r the location of your &bLodestone Core&r and the location of your &bAetheric Receptor&r."
 			]
 			id: "4642744C3458C86F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0ABE5630D024182A"
-				table_id: 8035711958862449784L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0ABE5630D024182A"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "298915B36F0F5E91"
+					table_id: 7933760757242783970L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1682,9 +1700,9 @@
 			id: "0299C27E048FE548"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "08BC2F276C645810"
-				table_id: 6941837675484043489L
-				type: "random"
+				id: "68C8C5341E44FABB"
+				table_id: 7933760757242783970L
+				type: "loot"
 			}]
 			shape: "hexagon"
 			subtitle: "it's like a Bag of Holding"
@@ -1719,12 +1737,20 @@
 				"If you're a bit of a dimension hopper, it's worth shelling out for the &bDimension Card&r, which allows access &aanywhere, any time.&r To obtain the &bDimension Card&r, you'll need &aa little something from every dimension&r... combined into your &bInfinity Range Upgrade&r!"
 			]
 			id: "68FA93DDD026C0B8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F0C2377A87A370D"
-				table_id: 5525848455660196930L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F0C2377A87A370D"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "489B13C5BE9838E4"
+					table_id: 7933760757242783970L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "to infinity and beyond"
 			tasks: [{
@@ -1797,12 +1823,20 @@
 				"You can use the &awhitelist/blacklist functions&r to tell your Priority system to skip over a high priority storage for specific items. You can also &aset a negative priority&r to any storages that you want to be the last option."
 			]
 			id: "0FB0FB0F4148E6BC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "43449FD447A20BCB"
-				table_id: 8035711958862449784L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43449FD447A20BCB"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "5212D36339E16A3F"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "all under one umbrella"
 			tasks: [{
@@ -1832,12 +1866,19 @@
 				"Unique to the &bExporter&r, a &bRegulator Upgrade&r will let you &aselect specific items to keep stocked&r in the &bconnected inventory&r. The &bRegulator&r will attempt to &apull from your storage to feed that inventory&r with those specified items."
 			]
 			id: "7AC5319955CAF138"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "309274F7C126EC29"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6FDBB074206F90CF"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4847DAB7B715CAB1"
+					table_id: 7933760757242783970L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "the ins and outs"
 			tasks: [
@@ -1882,16 +1923,15 @@
 			id: "4A29CDF7BE066EDD"
 			rewards: [
 				{
-					count: 5
-					id: "201770CC3647A606"
-					item: "refinedstorage:quartz_enriched_iron"
+					id: "0F222B67E26EE002"
+					item: "refinedstorage:security_card"
 					type: "item"
 				}
 				{
-					count: 3
-					id: "344DDF03DEAFFA50"
-					item: "refinedstorage:silicon"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6D312C58DB9090EA"
+					table_id: 7933760757242783970L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"

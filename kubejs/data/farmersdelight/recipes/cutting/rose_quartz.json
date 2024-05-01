@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:rose_quartz"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:quartz"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

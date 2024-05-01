@@ -2281,7 +2281,7 @@ event.shaped(
 
     // Illuminite (quartz-enriched iron)
     event.shaped(
-        Item.of('refinedstorage:quartz_enriched_iron', 4),
+        Item.of('refinedstorage:quartz_enriched_iron', 8),
         [
             'AA ',
             'AB ',
@@ -2522,6 +2522,15 @@ event.shapeless(
                     ]
                 )
 
+   // clean ward bypass
+   event.shapeless(
+    Item.of('refinedstorage:security_card'),
+      [ 
+                 'refinedstorage:security_card',
+              'supplementaries:soap'
+                ]
+            )
+                'refinedstorage:security_card'
     
 
 
