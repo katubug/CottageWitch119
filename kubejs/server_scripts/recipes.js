@@ -2533,6 +2533,54 @@ event.shapeless(
                 'refinedstorage:security_card'
     
 
+   // sculk bones 
+   event.shapeless(
+    Item.of('minecraft:bone_meal'),
+      [ 
+                
+              'deeperdarker:sculk_bone'
+                ]
+            )
+              
+     // Wool Dye Attempt
+     let woolColors = [
+        "red",
+        "yellow",
+        "black",
+        "white",
+        "orange",
+        "magenta",
+        "light_blue",
+        "lime",
+        "pink",
+        "gray",
+        "light_gray",
+        "cyan",
+        "purple",
+        "blue",
+        "brown",
+        "green"
+    
+
+    ];
+
+    for (const dye of woolColors){
+
+        event.remove ({output: 'minecraft:'+ dye + '_wool'})
+    }
+
+    for (const color of woolColors) {
+      event.shaped(
+        Item.of('minecraft:'+color+'_wool', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: '#minecraft:wool',
+            B: 'minecraft:'+color+'_dye'
+        }
+    )}
 
 //Stonecutter recipes for Handcrafted Boards
 event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')
@@ -2547,3 +2595,5 @@ event.stonecutting('4x handcrafted:warped_board', 'minecraft:warped_planks')
   })
 
   
+
+

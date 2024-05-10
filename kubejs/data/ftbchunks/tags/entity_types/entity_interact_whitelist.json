@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "corpse:corpse",
+      "required": false
+    },
+    {
+      "id": "lootr:lootr_minecart",
+      "required": false
+    },
+    {
+      "id": "enigmaticgraves:grave",
+      "required": false
+    }
+  ]
+}

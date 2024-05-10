@@ -1129,23 +1129,6 @@
 			x: 0.5d
 			y: 0.5d
 		}
-		{
-			description: [
-				"To begin your &acrabby journey&r, you will need a &bCrab Trap&r. Place it in the water and &afill it with bait&r to lure in creatures."
-				""
-				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
-			]
-			id: "602AECDEE9755175"
-			subtitle: "it's a trap!"
-			tasks: [{
-				id: "2205B9EDEE5F7A89"
-				item: "crabbersdelight:crab_trap"
-				type: "item"
-			}]
-			title: "Beginner Crabbing"
-			x: 14.5d
-			y: -1.0d
-		}
 	]
 	title: "Fishing \\& Gathering"
 }

@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:crafting_table",
+        "minecraft:bell",
+        "#minecraft:doors",
+        "#minecraft:trapdoors",
+        {
+            "id": "#tombstone:graves",
+            "required": false
+        },
+        {
+            "id": "#waystones:waystone",
+            "required": false
+        },
+        {
+            "id": "#waystones:sharestone",
+            "required": false
+        },
+        {
+            "id": "lootr:lootr_chest",
+            "required": false
+        },
+        {
+            "id": "lootr:lootr_barrel",
+            "required": false
+        },
+		{
+			"id": "#lootr:containers",
+            "required": false
+		}
+    ]
+}

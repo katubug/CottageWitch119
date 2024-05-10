@@ -766,7 +766,7 @@
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
-		"Dye Any Wool" = true
+		"Dye Any Wool" = false
 		#Can other stone-like materials be used for crafting stone tools?
 		"Better Stone Tool Crafting" = true
 		#Can a dispenser be crafted by adding a bow to a dropper?

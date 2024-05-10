@@ -387,10 +387,11 @@
 			]
 			id: "292410101F374A38"
 			rewards: [{
-				id: "00045A739F0284CF"
-				item: "deeperdarker:sculk_bone"
+				id: "4A5E1F1A7CF8F332"
+				item: "fantasyfurniture:decorations/bone_skeleton_pile"
 				type: "item"
 			}]
+			subtitle: "them bones them bones"
 			tasks: [{
 				id: "6656F9B1F1635666"
 				item: "deeperdarker:sculk_bone"
