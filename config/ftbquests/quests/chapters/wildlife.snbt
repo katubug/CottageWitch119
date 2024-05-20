@@ -2418,13 +2418,13 @@
 			y: 7.5d
 		}
 		{
-			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r or &bmelon slices&r to win them over."]
+			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r to win them over."]
 			icon: "mythicmounts:courierbird_spawn_egg"
 			id: "65AA3625C4BFB209"
 			rewards: [{
 				count: 5
-				id: "2F0C69D6DD0DECE8"
-				item: "minecraft:melon_slice"
+				id: "4766B845E11CA27C"
+				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
 			shape: "heart"
@@ -2511,6 +2511,12 @@
 		{
 			description: ["These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."]
 			id: "1782885E17C84F8F"
+			rewards: [{
+				count: 5
+				id: "680E7489BFFFB8CC"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
 			shape: "heart"
 			subtitle: "save 15% or more"
 			tasks: [{
@@ -2572,12 +2578,12 @@
 			y: 6.5d
 		}
 		{
-			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, from &bmushrooms&r to &beggs&r to &bspider eyes&r... &amake sure you've come with treats&r, as they are &dhostile to players&r!"]
+			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, but to tame them you'll need &braw porkchops&r! &amake sure you come bearing treats&r, as they are &dhostile to players&r!"]
 			id: "04BBB86977655EB7"
 			rewards: [{
 				count: 5
-				id: "0D0AA2FDF5D3901B"
-				item: "minecraft:spider_eye"
+				id: "33F378C57D020AEC"
+				item: "minecraft:porkchop"
 				type: "item"
 			}]
 			shape: "heart"
@@ -2595,7 +2601,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. &6Befriend one&r with &bbones&r or &bcoal&r."]
+			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. &6Befriend one&r with &bbones&r, &bcoal&r, or &bcharcoal&r."]
 			id: "19B9CB7C3611E68B"
 			rewards: [{
 				count: 5
@@ -2618,12 +2624,12 @@
 			y: 3.0d
 		}
 		{
-			description: ["These friendly &ccoral reef&r dwellers are capable swimmers, and com e in many patterns and colours! &6Tame one&r with &bkelp&r for an aquatic mount!"]
+			description: ["These friendly &ccoral reef&r dwellers are capable swimmers, and come in many patterns and colours! &6Tame one&r with &bseagrass&r for an aquatic mount!"]
 			id: "4820853CA82E0A49"
 			rewards: [{
 				count: 5
-				id: "2CC01EBAD9775DED"
-				item: "minecraft:kelp"
+				id: "0A041EAA6116B291"
+				item: "minecraft:seagrass"
 				type: "item"
 			}]
 			shape: "heart"

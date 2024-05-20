@@ -854,18 +854,11 @@
 				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "2AC77B6EF8DA00EA"
-			rewards: [
-				{
-					id: "0322C82302C0368C"
-					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
-					type: "item"
-				}
-				{
-					id: "3FAFB31A3273E794"
-					item: "toms_storage:ts.storage_terminal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0322C82302C0368C"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Let's get sophisticated"
@@ -1546,7 +1539,7 @@
 			description: [
 				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bRunic Console&r to be able to add and remove items from your &bRepository&r. Make sure it is directly connected to the storage. Remember- &aeverything must have direct contact&r with another part of your system. "
 				""
-				"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with an &barcane runic processor&r and &bcrafting table&r."
+				"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with a &bdivine runic processor&r and &bcrafting table&r."
 				""
 				"That's it- that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
 			]

@@ -198,15 +198,7 @@ ServerEvents.tags('item', event => {
     // Brooms
     event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom')
 
-    //Tom's Storage Tags
-    event.add('forge:invcable', 'toms_storage:ts.inventory_cable','toms_storage:ts.inventory_cable_framed')
 
-    event.add('forge:connector', 
-    'toms_storage:ts.inventory_cable_connector_filtered',
-    'toms_storage:ts.inventory_cable_connector',
-    'toms_storage:ts.inventory_cable_connector_framed',
-    'sophisticatedstorage:storage_link',
-    'toms_storage:ts.trim')
 
     //Pet Beds
     event.add('forge:petbeds',
@@ -331,8 +323,7 @@ ServerEvents.tags('item', event => {
 
     // Inventory Managers
     event.add('forge:inventory_controllers',
-    'sophisticatedstorage:controller',
-    'toms_storage:ts.inventory_connector'
+    'sophisticatedstorage:controller'
     )
 
     // Inventory Upgrades

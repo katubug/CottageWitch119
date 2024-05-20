@@ -62,7 +62,7 @@
 	#Set to true if players should be able to teleport between waystones by simply right-clicking a waystone.
 	allowWaystoneToWaystoneTeleport = true
 	#Set to false to allow non-creative players to make waystones globally activated for all players.
-	globalWaystoneSetupRequiresCreativeMode = false
+	globalWaystoneSetupRequiresCreativeMode = true
 
 [cooldowns]
 	#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.

@@ -79,8 +79,11 @@
 		the_highpriestess_capenchants = true
 		#Percentage of fall damage negated (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		the_tower_damagenegation = 1.0
+		the_tower_damagenegation = 0.75
 		#Percentage of damage returned to the attacker (1.0 = 100%)
 		#Range: 0.0 ~ 100.0
 		justice_damagemultiplier = 1.0
+		#Max amount of experience that can be obtained from an instance of damage
+		#Range: > 0
+		the_hanged_man_xpcap = 25
 

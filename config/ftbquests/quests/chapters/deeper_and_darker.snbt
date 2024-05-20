@@ -516,7 +516,7 @@
 				}
 			]
 			tasks: [{
-				biome: "deeperdarker:otherside_deeplands"
+				biome: "deeperdarker:deeplands"
 				icon: "minecraft:sculk"
 				id: "5E1E3DC987B09351"
 				type: "biome"
