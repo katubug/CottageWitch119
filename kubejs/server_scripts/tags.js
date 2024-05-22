@@ -1018,7 +1018,10 @@ ServerEvents.tags("entity_type", event => {
     "twilightforest:armored_giant",
     "twilightforest:giant_miner",
     "alexsmobs:warped_mosco",
-    "minecraft:iron_golem"
+    "minecraft:iron_golem",
+    "twilightforest:carminite_golem",
+    "friendsandfoes:tuff_golem",
+    "friendsandfoes:copper_golem"
 
 
 

@@ -1242,6 +1242,7 @@
 		}
 		{
 			can_repeat: true
+			description: ["These flowers &ano longer spawn naturally in the world&r... but it would be a shame to miss out on them! This repeatable quest allows to you &6trade in any type of seeds&r for a random flower from this table. "]
 			id: "3AEC890246D64B36"
 			rewards: [{
 				icon: "byg:delphinium"
@@ -1251,6 +1252,7 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				consume_items: true
 				id: "58A7676CE6FC0B2B"
 				item: {
 					Count: 1b

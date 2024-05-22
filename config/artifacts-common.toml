@@ -10,7 +10,7 @@ artifact_rarity = 1.0
 [campsite]
 	#Probability that a campsite has a mimic instead of a chest
 	#Range: 0.0 ~ 1.0
-	mimic_chance = 0.3
+	mimic_chance = 0.1
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
 	use_modded_chests = true
@@ -19,7 +19,7 @@ artifact_rarity = 1.0
 	#The actual amount of campsites per chunk is lower than this value, since not every attempt at generating a campsite is successful
 	#Set this to 0 to prevent campsites from generating entirely
 	#Range: > 0
-	count = 4
+	count = 3
 	#Rarity of campsites generating in the world
 	#You don't need this unless you want to make campsites rarer than 1 attempt per chunk
 	#Each attempt to generate a campsite will succeed with a chance of 1/rarity

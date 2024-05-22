@@ -16,4 +16,7 @@
 	mushroomButtonPressurePlatePlaySound = false
 	#Whether or not mushroom cap pressure plates should play a sound when stepped on or off.
 	mushroomCapPressurePlatePlaySound = false
+	#Chance of mushroom caps are dropping an effect cloud on the ground at random tick. (0.05 - chance of 5% at random tick [default], 0 - never, 1 - every random tick)
+	#Range: 0.0 ~ 1.0
+	mushroomCapEffectCloudChance = 0.0
 

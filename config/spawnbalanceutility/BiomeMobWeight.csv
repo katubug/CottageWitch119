@@ -288,7 +288,7 @@
 288, nether, byg:arisian_undergrowth, MONSTER, minecraft:piglin, 15, 4, 4
 289, nether, byg:arisian_undergrowth, CREATURE, minecraft:strider, 30, 1, 2
 290, nether, byg:arisian_undergrowth, MONSTER, minecraft:zombified_piglin, 30, 4, 4
-291, nether, byg:arisian_undergrowth, AMBIENT, mythicmounts:netherbat, 30, 2, 4
+291, nether, byg:arisian_undergrowth, AMBIENT, mythicmounts:netherbat, 15, 1, 1
 292, nether, byg:arisian_undergrowth, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 293, nether, byg:arisian_undergrowth, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
 294, forest, byg:aspen_forest, CREATURE, alexsmobs:blue_jay, 16, 2, 4
@@ -332,7 +332,7 @@
 332, desert, byg:atacama_desert, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 333, desert, byg:atacama_desert, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 334, desert, byg:atacama_desert, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
-335, desert, byg:atacama_desert, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+335, desert, byg:atacama_desert, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 336, desert, byg:atacama_desert, MONSTER, quark:stoneling, 10, 1, 1
 337, desert, byg:atacama_desert, MONSTER, quark:toretoise, 10, 2, 4
 338, forest, byg:autumnal_forest, CREATURE, alexsmobs:blue_jay, 16, 2, 4
@@ -564,7 +564,7 @@
 564, nether, byg:brimstone_caverns, MONSTER, minecraft:piglin, 15, 4, 4
 565, nether, byg:brimstone_caverns, CREATURE, minecraft:strider, 30, 1, 2
 566, nether, byg:brimstone_caverns, MONSTER, minecraft:zombified_piglin, 30, 4, 4
-567, nether, byg:brimstone_caverns, AMBIENT, mythicmounts:netherbat, 30, 2, 4
+567, nether, byg:brimstone_caverns, AMBIENT, mythicmounts:netherbat, 15, 1, 1
 568, nether, byg:brimstone_caverns, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 569, nether, byg:brimstone_caverns, WATER_AMBIENT, netherdepthsupgrade:obsidianfish, 15, 1, 5
 570, nether, byg:brimstone_caverns, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
@@ -1033,7 +1033,7 @@
 1033, forest, byg:fragment_forest, CREATURE, minecraft:cow, 10, 4, 4
 1034, forest, byg:fragment_forest, MONSTER, minecraft:creeper, 30, 4, 4
 1035, forest, byg:fragment_forest, MONSTER, minecraft:enderman, 5, 1, 4
-1036, forest, byg:fragment_forest, MONSTER, minecraft:ocelot, 10, 1, 1
+1036, forest, byg:fragment_forest, CREATURE, minecraft:ocelot, 10, 1, 1
 1037, forest, byg:fragment_forest, CREATURE, minecraft:parrot, 30, 1, 2
 1038, forest, byg:fragment_forest, CREATURE, minecraft:pig, 10, 4, 4
 1039, forest, byg:fragment_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1148,7 +1148,7 @@
 1148, jungle, byg:guiana_shield, CREATURE, minecraft:chicken, 10, 4, 4
 1149, jungle, byg:guiana_shield, CREATURE, minecraft:cow, 10, 4, 4
 1150, jungle, byg:guiana_shield, MONSTER, minecraft:enderman, 5, 1, 4
-1151, jungle, byg:guiana_shield, MONSTER, minecraft:ocelot, 10, 1, 1
+1151, jungle, byg:guiana_shield, CREATURE, minecraft:ocelot, 10, 1, 1
 1152, jungle, byg:guiana_shield, CREATURE, minecraft:parrot, 30, 1, 2
 1153, jungle, byg:guiana_shield, CREATURE, minecraft:pig, 10, 4, 4
 1154, jungle, byg:guiana_shield, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1158,7 +1158,7 @@
 1158, jungle, byg:guiana_shield, MONSTER, minecraft:witch, 5, 1, 1
 1159, jungle, byg:guiana_shield, MONSTER, minecraft:zombie, 30, 4, 4
 1160, jungle, byg:guiana_shield, MONSTER, minecraft:zombie_villager, 10, 1, 1
-1161, jungle, byg:guiana_shield, CREATURE, mythicmounts:geckotoalizard, 13, 1, 1
+1161, jungle, byg:guiana_shield, AMBIENT, mythicmounts:geckotoalizard, 13, 1, 1
 1162, jungle, byg:guiana_shield, MONSTER, quark:stoneling, 10, 1, 1
 1163, jungle, byg:guiana_shield, MONSTER, quark:toretoise, 10, 2, 4
 1164, extreme_hills, byg:howling_peaks, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -1319,8 +1319,8 @@
 1319, desert, byg:mojave_desert, MONSTER, minecraft:witch, 5, 1, 1
 1320, desert, byg:mojave_desert, MONSTER, minecraft:zombie, 19, 4, 4
 1321, desert, byg:mojave_desert, MONSTER, minecraft:zombie_villager, 10, 1, 1
-1322, desert, byg:mojave_desert, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
-1323, desert, byg:mojave_desert, CREATURE, mythicmounts:geckotoalizard, 12, 1, 1
+1322, desert, byg:mojave_desert, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
+1323, desert, byg:mojave_desert, AMBIENT, mythicmounts:geckotoalizard, 12, 1, 1
 1324, desert, byg:mojave_desert, MONSTER, quark:stoneling, 10, 1, 1
 1325, desert, byg:mojave_desert, MONSTER, quark:toretoise, 10, 2, 4
 1326, none, byg:nightshade_forest, CREATURE, alexsmobs:cosmaw, 10, 1, 2
@@ -1478,7 +1478,7 @@
 1478, badlands, byg:red_rock_valley, MONSTER, minecraft:witch, 5, 1, 1
 1479, badlands, byg:red_rock_valley, MONSTER, minecraft:zombie_villager, 10, 1, 1
 1480, badlands, byg:red_rock_valley, AMBIENT, mythicmounts:geckotoalizard, 17, 1, 1
-1481, badlands, byg:red_rock_valley, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+1481, badlands, byg:red_rock_valley, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 1482, badlands, byg:red_rock_valley, MONSTER, quark:stoneling, 10, 1, 1
 1483, badlands, byg:red_rock_valley, MONSTER, quark:toretoise, 10, 2, 4
 1484, forest, byg:redwood_thicket, CREATURE, alexsmobs:blue_jay, 16, 2, 4
@@ -1602,7 +1602,7 @@
 1602, badlands, byg:sierra_badlands, MONSTER, minecraft:witch, 5, 1, 1
 1603, badlands, byg:sierra_badlands, MONSTER, minecraft:zombie_villager, 10, 1, 1
 1604, badlands, byg:sierra_badlands, AMBIENT, mythicmounts:geckotoalizard, 15, 1, 1
-1605, badlands, byg:sierra_badlands, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+1605, badlands, byg:sierra_badlands, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 1606, badlands, byg:sierra_badlands, MONSTER, quark:stoneling, 10, 1, 1
 1607, badlands, byg:sierra_badlands, MONSTER, quark:toretoise, 10, 2, 4
 1608, none, byg:skyris_vale, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -1730,7 +1730,7 @@
 1730, none, byg:tropical_rainforest, CREATURE, minecraft:cow, 10, 4, 4
 1731, none, byg:tropical_rainforest, MONSTER, minecraft:creeper, 30, 4, 4
 1732, none, byg:tropical_rainforest, MONSTER, minecraft:enderman, 5, 1, 4
-1733, none, byg:tropical_rainforest, MONSTER, minecraft:ocelot, 10, 1, 1
+1733, none, byg:tropical_rainforest, CREATURE, minecraft:ocelot, 10, 1, 1
 1734, none, byg:tropical_rainforest, CREATURE, minecraft:parrot, 30, 1, 2
 1735, none, byg:tropical_rainforest, CREATURE, minecraft:pig, 10, 4, 4
 1736, none, byg:tropical_rainforest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1785,7 +1785,7 @@
 1785, nether, byg:wailing_garth, MONSTER, minecraft:piglin, 15, 4, 4
 1786, nether, byg:wailing_garth, CREATURE, minecraft:strider, 30, 1, 2
 1787, nether, byg:wailing_garth, MONSTER, minecraft:zombified_piglin, 30, 4, 4
-1788, nether, byg:wailing_garth, AMBIENT, mythicmounts:netherbat, 30, 2, 4
+1788, nether, byg:wailing_garth, AMBIENT, mythicmounts:netherbat, 15, 1, 1
 1789, nether, byg:wailing_garth, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 1790, nether, byg:wailing_garth, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
 1791, nether, byg:wailing_garth, WATER_AMBIENT, netherdepthsupgrade:soulsucker, 10, 1, 2
@@ -1867,7 +1867,7 @@
 1867, desert, byg:windswept_desert, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 1868, desert, byg:windswept_desert, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 1869, desert, byg:windswept_desert, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
-1870, desert, byg:windswept_desert, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+1870, desert, byg:windswept_desert, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 1871, desert, byg:windswept_desert, MONSTER, quark:stoneling, 10, 1, 1
 1872, desert, byg:windswept_desert, MONSTER, quark:toretoise, 10, 2, 4
 1873, forest, byg:zelkova_forest, CREATURE, alexsmobs:blue_jay, 16, 2, 4
@@ -2064,7 +2064,7 @@
 2064, badlands, minecraft:badlands, MONSTER, minecraft:zombie, 30, 4, 4
 2065, badlands, minecraft:badlands, MONSTER, minecraft:zombie_villager, 10, 1, 1
 2066, badlands, minecraft:badlands, AMBIENT, mythicmounts:geckotoalizard, 16, 1, 1
-2067, badlands, minecraft:badlands, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+2067, badlands, minecraft:badlands, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 2068, badlands, minecraft:badlands, MONSTER, quark:stoneling, 10, 1, 1
 2069, badlands, minecraft:badlands, MONSTER, quark:toretoise, 10, 2, 4
 2070, jungle, minecraft:bamboo_jungle, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2091,7 +2091,7 @@
 2091, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:cow, 10, 4, 4
 2092, jungle, minecraft:bamboo_jungle, MONSTER, minecraft:enderman, 5, 1, 4
 2093, jungle, minecraft:bamboo_jungle, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2094, jungle, minecraft:bamboo_jungle, MONSTER, minecraft:ocelot, 10, 1, 1
+2094, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:ocelot, 10, 1, 1
 2095, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:panda, 30, 1, 2
 2096, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:parrot, 30, 1, 2
 2097, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -2112,7 +2112,7 @@
 2112, nether, minecraft:basalt_deltas, MONSTER, minecraft:magma_cube, 30, 2, 5
 2113, nether, minecraft:basalt_deltas, CREATURE, minecraft:strider, 30, 1, 2
 2114, nether, minecraft:basalt_deltas, MONSTER, minecraft:zombified_piglin, 10, 1, 4
-2115, nether, minecraft:basalt_deltas, AMBIENT, mythicmounts:nightmare, 30, 2, 3
+2115, nether, minecraft:basalt_deltas, AMBIENT, mythicmounts:nightmare, 15, 1, 2
 2116, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 2117, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:eyeball_fish, 3, 2, 4
 2118, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:fortressgrouper, 3, 1, 2
@@ -2209,7 +2209,7 @@
 2209, nether, minecraft:crimson_forest, MONSTER, minecraft:piglin, 10, 3, 4
 2210, nether, minecraft:crimson_forest, CREATURE, minecraft:strider, 30, 1, 2
 2211, nether, minecraft:crimson_forest, MONSTER, minecraft:zombified_piglin, 10, 2, 4
-2212, nether, minecraft:crimson_forest, AMBIENT, mythicmounts:netherbat, 30, 2, 4
+2212, nether, minecraft:crimson_forest, AMBIENT, mythicmounts:netherbat, 15, 1, 1
 2213, nether, minecraft:crimson_forest, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 2214, nether, minecraft:crimson_forest, WATER_AMBIENT, netherdepthsupgrade:eyeball_fish, 3, 2, 4
 2215, nether, minecraft:crimson_forest, WATER_AMBIENT, netherdepthsupgrade:fortressgrouper, 3, 1, 2
@@ -2326,7 +2326,7 @@
 2326, ocean, minecraft:deep_lukewarm_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2327, ocean, minecraft:deep_lukewarm_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2328, ocean, minecraft:deep_lukewarm_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
-2329, ocean, minecraft:deep_lukewarm_ocean, CREATURE, mythicmounts:archelon, 25, 1, 2
+2329, ocean, minecraft:deep_lukewarm_ocean, CREATURE, mythicmounts:archelon, 15, 1, 2
 2330, ocean, minecraft:deep_lukewarm_ocean, MONSTER, quark:stoneling, 10, 1, 1
 2331, ocean, minecraft:deep_lukewarm_ocean, MONSTER, quark:toretoise, 10, 2, 4
 2332, ocean, minecraft:deep_ocean, WATER_AMBIENT, alexsmobs:blobfish, 30, 2, 2
@@ -2383,7 +2383,7 @@
 2383, desert, minecraft:desert, MONSTER, minecraft:witch, 5, 1, 1
 2384, desert, minecraft:desert, MONSTER, minecraft:zombie, 19, 4, 4
 2385, desert, minecraft:desert, MONSTER, minecraft:zombie_villager, 10, 1, 1
-2386, desert, minecraft:desert, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+2386, desert, minecraft:desert, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 2387, desert, minecraft:desert, MONSTER, quark:stoneling, 10, 1, 1
 2388, desert, minecraft:desert, MONSTER, quark:toretoise, 10, 2, 4
 2389, none, minecraft:dripstone_caves, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2453,7 +2453,7 @@
 2453, badlands, minecraft:eroded_badlands, MONSTER, minecraft:zombie, 30, 4, 4
 2454, badlands, minecraft:eroded_badlands, MONSTER, minecraft:zombie_villager, 10, 1, 1
 2455, badlands, minecraft:eroded_badlands, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2456, badlands, minecraft:eroded_badlands, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+2456, badlands, minecraft:eroded_badlands, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 2457, badlands, minecraft:eroded_badlands, MONSTER, quark:stoneling, 10, 1, 1
 2458, badlands, minecraft:eroded_badlands, MONSTER, quark:toretoise, 10, 2, 4
 2459, forest, minecraft:flower_forest, CREATURE, alexsmobs:blue_jay, 16, 2, 4
@@ -2725,7 +2725,7 @@
 2725, jungle, minecraft:jungle, CREATURE, minecraft:cow, 10, 4, 4
 2726, jungle, minecraft:jungle, MONSTER, minecraft:enderman, 5, 1, 4
 2727, jungle, minecraft:jungle, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2728, jungle, minecraft:jungle, MONSTER, minecraft:ocelot, 10, 1, 3
+2728, jungle, minecraft:jungle, CREATURE, minecraft:ocelot, 10, 1, 1
 2729, jungle, minecraft:jungle, CREATURE, minecraft:panda, 10, 1, 2
 2730, jungle, minecraft:jungle, CREATURE, minecraft:parrot, 30, 1, 2
 2731, jungle, minecraft:jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -2882,7 +2882,7 @@
 2882, nether, minecraft:nether_wastes, MONSTER, minecraft:piglin, 15, 4, 4
 2883, nether, minecraft:nether_wastes, CREATURE, minecraft:strider, 30, 1, 2
 2884, nether, minecraft:nether_wastes, MONSTER, minecraft:zombified_piglin, 30, 4, 4
-2885, nether, minecraft:nether_wastes, AMBIENT, mythicmounts:nightmare, 30, 2, 3
+2885, nether, minecraft:nether_wastes, AMBIENT, mythicmounts:nightmare, 15, 1, 2
 2886, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 2887, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:eyeball_fish, 3, 2, 4
 2888, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:fortressgrouper, 3, 1, 2
@@ -3049,7 +3049,7 @@
 3049, river, minecraft:river, WATER_CREATURE, babyfat:ranchu, 10, 2, 4
 3050, river, minecraft:river, CREATURE, cnb:little_grebe, 30, 2, 3
 3051, river, minecraft:river, WATER_AMBIENT, crittersandcompanions:koi_fish, 10, 2, 5
-3052, river, minecraft:river, WATER_CREATURE, crittersandcompanions:otter, 7, 3, 5
+3052, river, minecraft:river, WATER_CREATURE, crittersandcompanions:otter, 7, 1, 3
 3053, river, minecraft:river, MONSTER, minecraft:creeper, 30, 4, 4
 3054, river, minecraft:river, MONSTER, minecraft:drowned, 30, 1, 1
 3055, river, minecraft:river, MONSTER, minecraft:enderman, 5, 1, 4
@@ -3278,7 +3278,7 @@
 3278, nether, minecraft:soul_sand_valley, MONSTER, minecraft:skeleton, 20, 5, 5
 3279, nether, minecraft:soul_sand_valley, CREATURE, minecraft:strider, 30, 1, 2
 3280, nether, minecraft:soul_sand_valley, MONSTER, minecraft:zombified_piglin, 10, 1, 4
-3281, nether, minecraft:soul_sand_valley, AMBIENT, mythicmounts:nightmare, 30, 2, 3
+3281, nether, minecraft:soul_sand_valley, AMBIENT, mythicmounts:nightmare, 15, 1, 2
 3282, nether, minecraft:soul_sand_valley, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 3283, nether, minecraft:soul_sand_valley, WATER_AMBIENT, netherdepthsupgrade:glowdine, 10, 4, 6
 3284, nether, minecraft:soul_sand_valley, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
@@ -3498,7 +3498,7 @@
 3498, ocean, minecraft:warm_ocean, MONSTER, minecraft:witch, 5, 1, 1
 3499, ocean, minecraft:warm_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 3500, ocean, minecraft:warm_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
-3501, ocean, minecraft:warm_ocean, CREATURE, mythicmounts:nudibranch, 18, 3, 5
+3501, ocean, minecraft:warm_ocean, CREATURE, mythicmounts:nudibranch, 18, 1, 1
 3502, ocean, minecraft:warm_ocean, MONSTER, quark:stoneling, 10, 1, 1
 3503, ocean, minecraft:warm_ocean, MONSTER, quark:toretoise, 10, 2, 4
 3504, nether, minecraft:warped_forest, MONSTER, alexsmobs:bone_serpent, 10, 1, 1
@@ -3509,7 +3509,7 @@
 3509, nether, minecraft:warped_forest, MONSTER, minecraft:ghast, 10, 4, 4
 3510, nether, minecraft:warped_forest, CREATURE, minecraft:strider, 30, 1, 2
 3511, nether, minecraft:warped_forest, MONSTER, minecraft:zombified_piglin, 10, 1, 4
-3512, nether, minecraft:warped_forest, AMBIENT, mythicmounts:netherbat, 30, 2, 4
+3512, nether, minecraft:warped_forest, AMBIENT, mythicmounts:netherbat, 15, 1, 1
 3513, nether, minecraft:warped_forest, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
 3514, nether, minecraft:warped_forest, WATER_AMBIENT, netherdepthsupgrade:lava_pufferfish, 15, 1, 5
 3515, nether, minecraft:warped_forest, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
@@ -3660,7 +3660,7 @@
 3660, badlands, minecraft:wooded_badlands, MONSTER, minecraft:witch, 5, 1, 1
 3661, badlands, minecraft:wooded_badlands, MONSTER, minecraft:zombie, 30, 4, 4
 3662, badlands, minecraft:wooded_badlands, MONSTER, minecraft:zombie_villager, 10, 1, 1
-3663, badlands, minecraft:wooded_badlands, CREATURE, mythicmounts:ridinglizard, 15, 2, 3
+3663, badlands, minecraft:wooded_badlands, CREATURE, mythicmounts:ridinglizard, 10, 2, 3
 3664, badlands, minecraft:wooded_badlands, MONSTER, quark:stoneling, 10, 1, 1
 3665, badlands, minecraft:wooded_badlands, MONSTER, quark:toretoise, 10, 2, 4
 3666, none, quark:glimmering_weald, CREATURE, alexsmobs:bunfungus, 10, 1, 1

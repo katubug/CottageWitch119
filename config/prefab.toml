@@ -156,11 +156,11 @@
 		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
 		"Wooden Crate" = true
 		#Determines if the recipe(s) associated with the Farm are enabled.
-		Farm = true
+		Farm = false
 		#Determines if the recipe(s) associated with the Improved Farm are enabled.
-		"Improved Farm" = true
+		"Improved Farm" = false
 		#Determines if the recipe(s) associated with the Advanced Farm are enabled.
-		"Advanced Farm" = true
+		"Advanced Farm" = false
 		#Determines if the recipe(s) associated with the Quartz-Crete are enabled.
 		Quartz-Crete = true
 		#Determines if the recipe(s) associated with the Advanced House are enabled.
@@ -190,7 +190,7 @@
 		item_prefab_item_farm_improved_prefab_gui_farm_advanced_barn = true
 		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_automated = true
-		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = true
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = false
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_chicken = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_fish = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_sugar_cane = true
