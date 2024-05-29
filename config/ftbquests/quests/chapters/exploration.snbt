@@ -387,7 +387,7 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r. The mod &lDoesPotatoTick&r &daffects the way these farms work when chunks are unclaimed&r."
 				""
 				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 				""
@@ -401,8 +401,6 @@
 				""
 				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
 				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
-				""
-				"&dNote: this modpack currently has both FTB Chunks and OPEN PAC. We recommend using the FTB Chunks claims, as OPEN PAC is currently being phased out."
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350

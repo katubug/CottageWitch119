@@ -1578,7 +1578,11 @@
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
-			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
+			description: [
+				"Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."
+				""
+				"&dCaution: entering Creative Mode with the Tarot Deck in your inventory will empty the deck. This error does not occur when equipped to a curio slot.&r"
+			]
 			id: "5107C3DE453627D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2683,8 +2687,6 @@
 				"the &bGambling Card&r is a Card that redraws efficiency bonus of any accessory based on the last efficiency range. "
 				""
 				"the &bRemoval Card&r is a Card that returns all &bBoosters&r applied to any accessory. "
-				""
-				"&dThere is currently a bug that breaks the texture of this tag, but it still works normally.&r"
 			]
 			id: "46B5DAA070A0675F"
 			rewards: [{
@@ -2716,8 +2718,6 @@
 				"&bBoosters&r allow you to add additional bonuses to your &1Majrusz's Accessories&r! Standard accessories will only allow you to attach a single booster- but &bRunes&r and the &bSoul Of Minecraft&r will allow to you to attach 2 or even 3! The effects of multiple boosters can stack."
 				""
 				"To attach a booster, simply &6combine the accessory and booster together in a crafting table&r. To remove the booster, you will need a &bRemoval Card&r."
-				""
-				"&dThere is currently a bug that breaks the texture of this tag, but it still works normally.&r"
 			]
 			id: "24E903048FE8AC10"
 			rewards: [{
@@ -2749,8 +2749,6 @@
 				"Welcome to the world of &1Majruzs's Accessories&r. Although at first glance, they may seem inconsequential or unhelpful, their true power lies in their &aability to be combined&r. "
 				""
 				"&6Combine two or more accessories of the same type in a crafting table&r to increase its power. You can further improve or modify them by adding &bboosters&r or &bcards&r."
-				""
-				"&dThere is currently a bug that breaks the texture of this tag, but it still works normally.&r"
 			]
 			id: "40070F7DE43BA4FF"
 			rewards: [{

@@ -2482,6 +2482,39 @@
 			x: 5.0d
 			y: 15.0d
 		}
+		{
+			description: [
+				"A &blunchbag&r, upgradeable to an iron or gold lunchbox, is a handy-dandy way to carry a variety of foods with you wherever you go. You can &aeat the lunchbox directly&r for a randomised snack from its interior- an excellent way to easily &aincrease your food variety score&r, which increases your hearts!"
+				""
+				"A word of warning... don't trust seagulls. They'll swoop down and &asteal food right out of your inventory&r; even your whole lunchbox! "
+				""
+				"&dCaution: entering Creative Mode with the lunchbox in your inventory will cause its contents to be wiped.&r"
+			]
+			id: "6525629D7A4C5CB7"
+			rewards: [{
+				id: "2FD851E12DBD8E32"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "bring lunch with you!"
+			tasks: [{
+				id: "53F66B4C628290B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solsweetpotato:lunchbag"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
 	]
 	title: "Culinary Arts"
 }
