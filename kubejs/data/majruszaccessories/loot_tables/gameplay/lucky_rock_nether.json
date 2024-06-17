@@ -1,19 +1,19 @@
 {
-  "mlib": "majruszsaccessories:gameplay/lucky_rock_nether",
-  "replace": true,
   "type": "minecraft:gift",
+  "replace": true,
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 75
+          "weight": 40
         },
         {
           "type": "minecraft:item",
-          "weight": 60,
           "name": "minecraft:gold_nugget",
+          "weight": 40,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,13 +27,15 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 35,
-          "name": "minecraft:quartz"
+          "name": "minecraft:quartz",
+          "weight": 36,
+          "quality": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_scrap"
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "quality": 2
         }
       ]
     }

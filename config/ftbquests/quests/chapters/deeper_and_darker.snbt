@@ -147,10 +147,7 @@
 		}
 		{
 			dependencies: ["386BBE6DCF3DAB78"]
-			description: [
-				"With a &bWarden Spawn Egg&r, you should be able to &6insert it into a Spawner&r and &afight even more &eWardens&r."
-				"Defeat 100 of them to win a &aprestigious &bArmor set&r and &bunique Head&r."
-			]
+			description: ["Wanna show off that you're made of tough stuff? Defeat 100 Wardens to win a &aprestigious &bArmor set&r and &bunique Head&r."]
 			id: "450F3E6A4A93E2AA"
 			rewards: [
 				{

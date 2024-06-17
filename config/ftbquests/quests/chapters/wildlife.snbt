@@ -2710,7 +2710,7 @@
 			tasks: [{
 				icon: "crittersandcompanions:silk_cocoon"
 				id: "237BF2170AFAE280"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				to_observe: "crittersandcompanions:jumping_spider"
 				type: "observation"

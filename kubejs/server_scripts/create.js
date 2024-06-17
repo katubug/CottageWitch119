@@ -18,4 +18,5 @@ ServerEvents.recipes(e => {
     e.recipes.create.crushing(['minecraft:quartz', Item.of('minecraft:quartz').withChance(0.5)], 'byg:raw_quartz_block')
 
 
+
 })

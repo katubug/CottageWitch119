@@ -1,25 +1,31 @@
 {
-  "mlib": "majruszsaccessories:gameplay/lucky_rock_end",
-  "replace": true,
   "type": "minecraft:gift",
+  "replace":true,
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 65,
-          "name": "minecraft:ender_pearl"
+          "type": "minecraft:empty",
+          "weight": 40
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
           "weight": 30,
-          "name": "minecraft:ender_eye"
+          "quality": 0
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "name": "minecraft:ender_eye",
+          "weight": 10,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
+          "weight": 5,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",

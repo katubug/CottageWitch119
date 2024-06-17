@@ -779,7 +779,7 @@ event.add('forge:maj_cards',
     'aquaculture:gold_hook'
     )
 
-    //Niche Hooks
+    //Niche 
     event.add('forge:niche_hooks',
     'aquaculture:note_hook',
     'aquaculture:redstone_hook',
@@ -976,7 +976,19 @@ ServerEvents.tags('block', event => {
       'minecraft:reinforced_deepslate'
       )
 
-
+// Hexerei Crow Harvestables
+event.add('hexerei:crow_harvestable',
+    'minecraft:cave_vines_plant',
+    'minecraft:sweet_berry_bush',
+    'culturaldelights:cucumbers',
+    'culturaldelights:corn_upper',
+    'culturaldelights:eggplants',
+    'ars_nouveau:sourceberry_bush',
+    'byg:crimson_berry_bush',
+    'byg:blueberry_bush',
+    'sprout:peanut_plant',
+    'minecraft:nether_wart'
+    )
 
     
 })
@@ -1029,6 +1041,8 @@ ServerEvents.tags("entity_type", event => {
 
     ])
 })
+
+
 
 
 ServerEvents.tags("entity_type", event => {

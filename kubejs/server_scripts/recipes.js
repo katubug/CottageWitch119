@@ -2596,6 +2596,10 @@ event.shapeless(
         }
     )
 
+
+    /// smelting
+
+    
 //Stonecutter recipes for Handcrafted Boards
 event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')
 event.stonecutting('4x handcrafted:birch_board', 'minecraft:birch_planks')

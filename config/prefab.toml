@@ -156,11 +156,11 @@
 		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
 		"Wooden Crate" = true
 		#Determines if the recipe(s) associated with the Farm are enabled.
-		Farm = false
+		Farm = true
 		#Determines if the recipe(s) associated with the Improved Farm are enabled.
-		"Improved Farm" = false
+		"Improved Farm" = true
 		#Determines if the recipe(s) associated with the Advanced Farm are enabled.
-		"Advanced Farm" = false
+		"Advanced Farm" = true
 		#Determines if the recipe(s) associated with the Quartz-Crete are enabled.
 		Quartz-Crete = true
 		#Determines if the recipe(s) associated with the Advanced House are enabled.
@@ -181,14 +181,14 @@
 		item_prefab_item_farm_prefab_gui_farm_rabbit = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_bamboo = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_barn = true
-		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_green_house = true
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_green_house = false
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_horse = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_melon = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_monster = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_produce = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_tree = true
 		item_prefab_item_farm_improved_prefab_gui_farm_advanced_barn = true
-		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = true
+		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = false
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_automated = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = false
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_chicken = true

@@ -8,6 +8,7 @@ event.create('arcanecoin').texture('kubejs:item/arcane_coin').maxStackSize(64).d
 event.create('ticket')
 event.create('pink_moon').texture('kubejs:item/pink_moon').displayName("Pink Moon")
 event.create('flower_moon').texture('kubejs:item/flower_moon').displayName("Flower Moon")
+event.create('strawberry_moon').texture('kubejs:item/strawberry_moon').displayName("Strawberry Moon")
 })
 
 StartupEvents.registry('block', event => {

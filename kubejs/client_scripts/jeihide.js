@@ -110,6 +110,7 @@ JEIEvents.hideItems(event => {
         'environmental:cherries',
         'sophisticatedstorage:shulker_box',
         'sophisticatedstorage:iron_shulker_box',
+        'sophisticatedstorage:copper_shulker_box',
         'sophisticatedstorage:gold_shulker_box',
         'sophisticatedstorage:diamond_shulker_box',
         'sophisticatedstorage:netherite_shulker_box',
