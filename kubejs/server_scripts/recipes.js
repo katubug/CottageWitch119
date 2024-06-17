@@ -2598,6 +2598,7 @@ event.shapeless(
 
 
     /// smelting
+    event.smelting('create:zinc_block', 'create:raw_zinc_block')
 
     
 //Stonecutter recipes for Handcrafted Boards
