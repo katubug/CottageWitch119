@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "idas:labyrinth",
+      "weight": 1
+    },
+    {
+      "structure": "idas:bazaar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480676,
+    "spacing": 50,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:desert_rare_avoid"
+    }
+  }
+}

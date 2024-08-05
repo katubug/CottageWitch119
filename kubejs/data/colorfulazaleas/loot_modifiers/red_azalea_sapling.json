@@ -1,0 +1,14 @@
+{
+  "type": "colorfulazaleas:colorful_azalea",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/azalea_leaves"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.00
+    }
+  ],
+  "item": "colorfulazaleas:red_azalea_sapling"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villages",
+    "idas:ancient_mines",
+    "idas:idas_desert_rare",
+    "idas:idas_ocean",
+    "idas:idas_rare",
+    "idas:idas_small",
+    "idas:idas_uncommon",
+    "idas:idas_underground",
+    "idas:idas_underground_rare"
+  ]
+}

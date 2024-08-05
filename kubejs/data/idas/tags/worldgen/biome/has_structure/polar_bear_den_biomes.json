@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#idas:collections/idassnowy_forests",
+    "#idas:collections/idassnowy_plains",
+    "#idas:collections/idasicy",
+    "#idas:collections/idassnowy_mountains"
+  ]
+}

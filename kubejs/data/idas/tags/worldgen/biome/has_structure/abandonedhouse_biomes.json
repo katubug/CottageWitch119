@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#idas:collections/idasregular_forests",
+    "#idas:collections/idasbirch_forests",
+    "#idas:collections/idasplains",
+    "#idas:collections/idasmeadows"
+  ]
+}

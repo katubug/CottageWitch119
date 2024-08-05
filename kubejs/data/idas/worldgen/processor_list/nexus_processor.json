@@ -1,0 +1,43 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:waterlogging_fix_processor"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:barrel"
+          },
+          "output_nbt": {
+            "LootTable": "idas:chests/nexus/nexus"
+          },
+          "input_predicate": {
+            "block": "minecraft:barrel",
+            "probability": 1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:nexus",
+      "valid_block_light_level": {
+        "min_inclusive": 0,
+        "max_inclusive": 7
+      },
+      "delay": 20,
+      "max_nearby_entities": 6,
+      "max_spawn_delay": 800,
+      "min_spawn_delay": 200,
+      "required_player_range": 16,
+      "spawn_count": 4,
+      "spawn_range": 4
+    }
+  ]
+}

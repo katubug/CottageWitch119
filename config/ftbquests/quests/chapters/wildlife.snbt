@@ -788,9 +788,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6DB58B10B5C458B0"
+					id: "7264FB03BD9820A1"
 					table_id: 1279979498352596350L
-					type: "random"
+					type: "choice"
 				}
 			]
 			shape: "heart"
@@ -946,9 +946,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["52BC8196E858B238"]
 			description: [
 				"This delightful item not only &aplays a lovely tune&r when you &6hold right click while holding it&r, but it also &asummons all non-sitting pets nearby&r to your location."
 				"You can optionally bind your flute to a specific pet by &6shift right clicking&r on the animal with the flute."
@@ -981,14 +982,15 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: -7.5d
 		}
 		{
 			description: [
 				"Gain this advancement by taming and befriending an animal!"
-				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Cage on the animal, and then right click it on a block&r to place the animal down again."
-				"You can also &6shift right click&r to place it&r! It's totally normal to put your best friends in cages."
+				""
+				"Now that you have a best friend forever, you'll want to keep them safe. The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r. It's a must have!"
+				"The following quests will explore some other options for empowering your buddy. "
 			]
 			id: "52BC8196E858B238"
 			rewards: [
@@ -1019,26 +1021,28 @@
 					type: "item"
 				}
 				{
-					id: "4932557C828D26FE"
-					item: "plushies:cow"
+					id: "7A26CDD43FBBFF01"
+					item: "domesticationinnovation:pet_bed_white"
 					type: "item"
 				}
 				{
-					id: "65E313A1D617E96C"
-					item: "supplementaries:cage"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5EFB09E2B895A622"
+					table_id: 7049021818423122779L
+					type: "choice"
 				}
 			]
-			shape: "octagon"
-			subtitle: "IDK, my BFF Cow?"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "til death do us part?"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				id: "650E23F990D62E75"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			description: ["Find two animals and breed them in order to get this advancement and begin these quests!"]
@@ -1063,8 +1067,8 @@
 				id: "24EAA163CD45072E"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79630C442EB1C589"]
@@ -1082,7 +1086,7 @@
 				type: "item"
 			}]
 			title: "Get an Apple for your Straw Golem"
-			x: 2.0d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -1108,7 +1112,7 @@
 				type: "item"
 			}]
 			title: "Straw Golems: Rebaled"
-			x: 0.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -1128,17 +1132,17 @@
 				type: "item"
 			}]
 			title: "Get your Straw Golem a Hat"
-			x: 2.0d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
+			dependencies: ["52BC8196E858B238"]
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
 			id: "1661059D340835FC"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "592BB1DBA9CED058"
-				table_id: 223398162038636868L
-				type: "random"
+				id: "0C0564C622535F90"
+				item: "plushies:panda"
+				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -1146,46 +1150,21 @@
 				item: "domesticationinnovation:drum"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -7.5d
 		}
 		{
-			description: ["The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r."]
-			id: "6B0E280BDBD4ACF5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B08F0B25F6A4FBF"
-				table_id: 7049021818423122779L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "41F34358A296FA34"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:petbeds"
-					}
-				}
-				title: "Any #forge:petbeds"
-				type: "item"
-			}]
-			title: "Get your Pet a Bed"
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
+			dependencies: ["52BC8196E858B238"]
+			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities. Simply &6right click a collar onto your tamed creature&r to equip it. You can swap collars by applying a second one!"]
 			id: "09827E9E92823643"
 			rewards: [{
-				id: "6802714240042850"
+				id: "1800903FEE579AE0"
 				item: {
 					Count: 1b
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							id: "domesticationinnovation:herding"
+							id: "domesticationinnovation:healing_aura"
 							lvl: 2s
 						}]
 					}
@@ -1198,43 +1177,52 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["52BC8196E858B238"]
 			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
 			id: "1C37EDEA99A890EF"
-			rewards: [{
-				id: "7D8FC845A86B5AF0"
-				item: "moblassos:golden_lasso"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D8FC845A86B5AF0"
+					item: "moblassos:golden_lasso"
+					type: "item"
+				}
+				{
+					id: "03D5BBB38D40B5FC"
+					item: "plushies:cow"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "47B6BA7F65A9904A"
 				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["52BC8196E858B238"]
 			description: [
 				"The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."
 				"If you &alose your pet in another dimension&r, you will need to &6place a Lantern in that dimension&r to get them back."
+				""
 				"In &dMultiplayer&r, your pets will respawn at the &aclosest Lantern&r, so be careful in other people's areas."
 			]
 			id: "5DB08A394A7B8122"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "214FDE6AD449E7A4"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
 					id: "378CD636A77C1440"
 					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "06BB95383B80DB74"
+					item: "plushies:red_fox"
 					type: "item"
 				}
 			]
@@ -1244,8 +1232,8 @@
 				item: "domesticationinnovation:wayward_lantern"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -1532,9 +1520,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2F85A96668CE761D"
-					table_id: 5161092699925703455L
-					type: "loot"
+					id: "2678031D8DC68007"
+					table_id: 8808494820591225409L
+					type: "choice"
 				}
 			]
 			shape: "square"
@@ -1558,12 +1546,6 @@
 					id: "6E063F9F8ACEC220"
 					item: "minecraft:zombie_head"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1DF4D16D3FBA0AAD"
-					table_id: 8808494820591225409L
-					type: "loot"
 				}
 				{
 					id: "46F7C59C3BD0BCBA"
@@ -1934,6 +1916,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
+			description: ["Just an easier way to get some of them harder to find insect items..."]
 			id: "22628C8DC1BB807F"
 			repeatable: true
 			rewards: [
@@ -1954,6 +1937,7 @@
 				}
 			]
 			shape: "square"
+			subtitle: "Repeatable Quest"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
@@ -1961,6 +1945,7 @@
 				type: "kill"
 				value: 100L
 			}]
+			title: "Kill 100x Spiders"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -1978,6 +1963,7 @@
 				type: "item"
 			}]
 			shape: "heart"
+			subtitle: "thievin lil buggers"
 			tasks: [{
 				icon: "alexsmobs:raccoon_tail"
 				id: "58E7C57CA3A8E8DC"
@@ -2013,8 +1999,8 @@
 				id: "5A01D74D65A58962"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -2022,11 +2008,19 @@
 				"They'll also sometimes &agive you Regeneration&r, and once they do so, you'll know that you are &dbest friends 5ever&r."
 			]
 			id: "232A8F9F6388C377"
-			rewards: [{
-				id: "3D06E592368CB47A"
-				item: "plushies:axolotl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3D06E592368CB47A"
+					item: "plushies:axolotl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148921F8896ACA61"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:husbandry/kill_axolotl_target"
@@ -2034,8 +2028,8 @@
 				id: "66A0BD4051C658F5"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: -7.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -2055,8 +2049,8 @@
 				id: "7A90C9C915A28458"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -2065,6 +2059,9 @@
 				"You can also &adye the chest backpack&r by placing a dye in that slot."
 				"&eSlabfish&r will toggle sitting or standing if you &6shift right click&r them."
 				"However, they will &donly follow you when you're holding &bTropical Fish&r."
+				""
+				""
+				"Try &6breeding them together in different biomes&r! There's &omany types&r of slabfish."
 			]
 			id: "7A028A2ABDD3D304"
 			rewards: [{
@@ -2091,6 +2088,8 @@
 				"A &bGate Pearl&r allows you to summon a &eGateway&r by using it on a block.There will need to be &asufficient space&r available, and &aanother Gateway cannot already be open&r."
 				"An open Gateway will &dfail in a burst of lightning&r if it &acannot spawn a mob&r, any active &amob gets too far away&r, or the &awave timer&r elapses. Rewards will spawn from the Gateway as they are obtained."
 				"These &eGateway&r provide a challenge for powerful players, and are a great source of &bMob Drops&r."
+				""
+				"Additionally, some mobs which have been &dremoved for phobia reasons&r can be found only in Gatepearls. If you wish to encounter snakes or insects, the Gatepearl is the only way to find them!"
 			]
 			id: "538D45E5FE8591D6"
 			rewards: [{
@@ -2321,7 +2320,7 @@
 			}]
 			title: "Hatching the Duck"
 			x: -1.0d
-			y: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]

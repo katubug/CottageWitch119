@@ -1,0 +1,15 @@
+{
+  "name": "idas:necromancers_spire/necromancers_spire1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:necromancers_spire/necromancers_spire1",
+        "processors": "idas:waterlogging_fix_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

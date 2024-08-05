@@ -1,0 +1,15 @@
+{
+  "type": "integrated_api:generic_structure",
+  "start_pool": "idas:enchantingtower",
+  "size": 1,
+  "valid_biome_radius_check": 1,
+  "biomes": "#idas:has_structure/wizardtower_biomes",
+  "step": "surface_structures",
+  "search_for_highest_land": true,
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {}
+}

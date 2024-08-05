@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:husk",
+      "weight": 15
+    },
+    {
+      "name": "minecraft:stray",
+      "weight": 10
+    }
+  ]
+}

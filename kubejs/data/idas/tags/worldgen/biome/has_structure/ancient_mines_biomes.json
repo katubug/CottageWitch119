@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#idas:collections/idashills",
+    "#idas:collections/idasrocky_mountains",
+    "#idas:collections/idasmountains"
+  ]
+}

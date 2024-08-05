@@ -129,7 +129,7 @@
 		}
 		{
 			description: [
-				"One feature of this modpack is that &aeating a variety of foods grants you extra hearts&r!"
+				"One feature of this modpack is that &aeating a variety of foods grants you extra hearts&r! Make sure to &6maintain a wide diet&r, as these bonus hearts will diminish if you find yourself living off a stack of egg sandwiches or Everlasting Beef."
 				"You can see which foods you've eaten by checking your &bFood Book&r, which is inside your &bAkashic Tome&r and can be accessed by &6right clicking the Tome and then selecting the Food Book&r."
 				"You can also find what you've yet to eat by searching \"yet\" in the right side of your inventory screen (&lJEI&r)."
 			]
@@ -2514,6 +2514,26 @@
 			}]
 			x: -6.5d
 			y: -5.5d
+		}
+		{
+			id: "3B625D38653B4C28"
+			tasks: [{
+				id: "246D392F625EFA8D"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "789B498682DFF7A4"
+			tasks: [{
+				id: "44CA87DFB512B9EE"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
 		}
 	]
 	title: "Culinary Arts"

@@ -8,5 +8,6 @@
     "gateways.sculk_gate": "Sculk Dimension Gate",
     "gateways.nether_gate": "Nether Gate",
     "gateways.insectoid_gate": "Insectoid Gate",
-    "gateways.elder_guardian_gate": "Guardian Gate"
+    "gateways.elder_guardian_gate": "Guardian Gate",
+    "gateways.reptile_gate": "Reptile Gate"
 }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#idas:collections/idasregular_forests",
+    "#idas:collections/idasspooky_forests"
+  ]
+}

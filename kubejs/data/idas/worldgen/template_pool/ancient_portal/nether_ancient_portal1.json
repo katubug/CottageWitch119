@@ -1,0 +1,15 @@
+{
+  "name": "idas:ancient_portal/nether_ancient_portal1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:ancient_portal/nether_ancient_portal1",
+        "processors": "idas:waterlogging_fix_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

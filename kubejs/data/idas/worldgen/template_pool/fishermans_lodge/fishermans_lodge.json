@@ -1,0 +1,15 @@
+{
+  "name": "idas:fishermans_lodge/fishermans_lodge",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:fishermans_lodge/fishermans_lodge",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

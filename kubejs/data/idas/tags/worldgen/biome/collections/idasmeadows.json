@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:field",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:highland",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:highland_moor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:clover_patch",
+      "required": false
+    }
+  ]
+}

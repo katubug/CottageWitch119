@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "idas:ancient_portal/nether_ancient_portal",
+      "weight": 1
+    },
+    {
+      "structure": "idas:necromancers_spire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481692,
+    "spacing": 35,
+    "separation": 20,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:nether_avoid"
+    }
+  }
+}

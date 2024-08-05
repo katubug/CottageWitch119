@@ -470,8 +470,7 @@
 470, none, byg:basalt_barrera, MONSTER, quark:stoneling, 10, 1, 1
 471, none, byg:basalt_barrera, MONSTER, quark:toretoise, 10, 2, 4
 472, none, byg:bayou, CREATURE, alexsmobs:alligator_snapping_turtle, 20, 1, 2
-473, none, byg:bayou, CREATURE, alexsmobs:anaconda, 20, 1, 1
-474, none, byg:bayou, WATER_AMBIENT, alexsmobs:catfish, 10, 1, 3
+474, none, byg:bayou, WATER_AMBIENT, alexsmobs:catfish, 5, 1, 3
 475, none, byg:bayou, CREATURE, alexsmobs:crocodile, 20, 1, 2
 476, none, byg:bayou, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 477, none, byg:bayou, AMBIENT, alexsmobs:fly, 10, 2, 3
@@ -812,8 +811,7 @@
 812, none, byg:cryptic_wastes, CREATURE, cnb:end_whale, 10, 1, 1
 813, none, byg:cryptic_wastes, MONSTER, minecraft:enderman, 5, 1, 3
 814, none, byg:cypress_swamplands, CREATURE, alexsmobs:alligator_snapping_turtle, 20, 1, 2
-815, none, byg:cypress_swamplands, CREATURE, alexsmobs:anaconda, 20, 1, 1
-816, none, byg:cypress_swamplands, WATER_AMBIENT, alexsmobs:catfish, 10, 1, 3
+816, none, byg:cypress_swamplands, WATER_AMBIENT, alexsmobs:catfish, 5, 1, 3
 817, none, byg:cypress_swamplands, CREATURE, alexsmobs:crocodile, 20, 1, 2
 818, none, byg:cypress_swamplands, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 819, none, byg:cypress_swamplands, AMBIENT, alexsmobs:fly, 10, 2, 3
@@ -1254,7 +1252,7 @@
 1254, ocean, byg:lush_stacks, MONSTER, minecraft:skeleton, 30, 4, 4
 1255, ocean, byg:lush_stacks, MONSTER, minecraft:slime, 30, 4, 4
 1256, ocean, byg:lush_stacks, MONSTER, minecraft:spider, 30, 4, 4
-1257, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:squid, 25, 4, 4
+1257, ocean, byg:lush_stacks, WATER_CREATURE, minecraft:squid, 30, 4, 4
 1258, ocean, byg:lush_stacks, WATER_AMBIENT, minecraft:tropical_fish, 10, 3, 7
 1259, ocean, byg:lush_stacks, MONSTER, minecraft:witch, 5, 1, 1
 1260, ocean, byg:lush_stacks, MONSTER, minecraft:zombie, 30, 4, 4
@@ -1457,7 +1455,6 @@
 1457, badlands, byg:red_rock_valley, CREATURE, alexsmobs:emu, 20, 2, 5
 1458, badlands, byg:red_rock_valley, AMBIENT, alexsmobs:fly, 10, 2, 3
 1459, badlands, byg:red_rock_valley, CREATURE, alexsmobs:kangaroo, 25, 3, 5
-1460, badlands, byg:red_rock_valley, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 1461, badlands, byg:red_rock_valley, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 1462, badlands, byg:red_rock_valley, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 1463, badlands, byg:red_rock_valley, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -1581,7 +1578,6 @@
 1581, badlands, byg:sierra_badlands, CREATURE, alexsmobs:emu, 20, 2, 5
 1582, badlands, byg:sierra_badlands, AMBIENT, alexsmobs:fly, 10, 2, 3
 1583, badlands, byg:sierra_badlands, CREATURE, alexsmobs:kangaroo, 25, 3, 5
-1584, badlands, byg:sierra_badlands, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 1585, badlands, byg:sierra_badlands, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 1586, badlands, byg:sierra_badlands, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 1587, badlands, byg:sierra_badlands, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -2041,7 +2037,6 @@
 2041, badlands, minecraft:badlands, CREATURE, alexsmobs:emu, 20, 2, 5
 2042, badlands, minecraft:badlands, AMBIENT, alexsmobs:fly, 10, 2, 3
 2043, badlands, minecraft:badlands, CREATURE, alexsmobs:kangaroo, 25, 3, 5
-2044, badlands, minecraft:badlands, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 2045, badlands, minecraft:badlands, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 2046, badlands, minecraft:badlands, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 2047, badlands, minecraft:badlands, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -2120,7 +2115,7 @@
 2120, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:magmacubefish, 10, 2, 4
 2121, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:obsidianfish, 15, 1, 5
 2122, nether, minecraft:basalt_deltas, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
-2123, nether, minecraft:basalt_deltas, MONSTER, quark:foxhound, 30, 1, 2
+2123, nether, minecraft:basalt_deltas, MONSTER, quark:foxhound, 10, 1, 2
 2124, beach, minecraft:beach, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 2125, beach, minecraft:beach, AMBIENT, alexsmobs:fly, 10, 2, 3
 2126, beach, minecraft:beach, WATER_AMBIENT, alexsmobs:lobster, 20, 3, 5
@@ -2195,7 +2190,7 @@
 2195, ocean, minecraft:cold_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2196, ocean, minecraft:cold_ocean, MONSTER, minecraft:slime, 30, 4, 4
 2197, ocean, minecraft:cold_ocean, MONSTER, minecraft:spider, 30, 4, 4
-2198, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2198, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2199, ocean, minecraft:cold_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2200, ocean, minecraft:cold_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2201, ocean, minecraft:cold_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2271,7 +2266,7 @@
 2271, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2272, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:slime, 30, 4, 4
 2273, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:spider, 30, 4, 4
-2274, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2274, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2275, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2276, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2277, ocean, minecraft:deep_cold_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2296,7 +2291,7 @@
 2296, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2297, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:slime, 30, 4, 4
 2298, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:spider, 30, 4, 4
-2299, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2299, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2300, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2301, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2302, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2347,7 +2342,7 @@
 2347, ocean, minecraft:deep_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2348, ocean, minecraft:deep_ocean, MONSTER, minecraft:slime, 30, 4, 4
 2349, ocean, minecraft:deep_ocean, MONSTER, minecraft:spider, 30, 4, 4
-2350, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2350, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2351, ocean, minecraft:deep_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2352, ocean, minecraft:deep_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2353, ocean, minecraft:deep_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2358,7 +2353,6 @@
 2358, desert, minecraft:desert, MONSTER, alexsmobs:guster, 20, 1, 2
 2359, desert, minecraft:desert, AMBIENT, alexsmobs:jerboa, 12, 1, 3
 2360, desert, minecraft:desert, AMBIENT, alexsmobs:rain_frog, 10, 1, 3
-2361, desert, minecraft:desert, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 2362, desert, minecraft:desert, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 2363, desert, minecraft:desert, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 2364, desert, minecraft:desert, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -2430,7 +2424,6 @@
 2430, badlands, minecraft:eroded_badlands, CREATURE, alexsmobs:emu, 20, 2, 5
 2431, badlands, minecraft:eroded_badlands, AMBIENT, alexsmobs:fly, 10, 2, 3
 2432, badlands, minecraft:eroded_badlands, CREATURE, alexsmobs:kangaroo, 25, 3, 5
-2433, badlands, minecraft:eroded_badlands, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 2434, badlands, minecraft:eroded_badlands, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 2435, badlands, minecraft:eroded_badlands, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 2436, badlands, minecraft:eroded_badlands, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -2545,7 +2538,7 @@
 2545, ocean, minecraft:frozen_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2546, ocean, minecraft:frozen_ocean, MONSTER, minecraft:slime, 30, 4, 4
 2547, ocean, minecraft:frozen_ocean, MONSTER, minecraft:spider, 30, 4, 4
-2548, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2548, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2549, ocean, minecraft:frozen_ocean, MONSTER, minecraft:witch, 5, 1, 1
 2550, ocean, minecraft:frozen_ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2551, ocean, minecraft:frozen_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2596,7 +2589,7 @@
 2596, river, minecraft:frozen_river, MONSTER, minecraft:skeleton, 30, 4, 4
 2597, river, minecraft:frozen_river, MONSTER, minecraft:slime, 30, 4, 4
 2598, river, minecraft:frozen_river, MONSTER, minecraft:spider, 30, 4, 4
-2599, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2599, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2600, river, minecraft:frozen_river, MONSTER, minecraft:witch, 5, 1, 1
 2601, river, minecraft:frozen_river, MONSTER, minecraft:zombie, 30, 4, 4
 2602, river, minecraft:frozen_river, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2790,7 +2783,6 @@
 2790, none, minecraft:lush_caves, AMBIENT, mythicmounts:dragon, 1, 1, 1
 2791, none, minecraft:lush_caves, MONSTER, quark:stoneling, 10, 1, 1
 2792, none, minecraft:lush_caves, MONSTER, quark:toretoise, 10, 2, 4
-2793, swamp, minecraft:mangrove_swamp, CREATURE, alexsmobs:anaconda, 20, 1, 1
 2794, swamp, minecraft:mangrove_swamp, CREATURE, alexsmobs:capuchin_monkey, 28, 9, 12
 2795, swamp, minecraft:mangrove_swamp, CREATURE, alexsmobs:crocodile, 20, 1, 2
 2796, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
@@ -2888,7 +2880,7 @@
 2888, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:fortressgrouper, 3, 1, 2
 2889, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:glowdine, 10, 4, 6
 2890, nether, minecraft:nether_wastes, WATER_AMBIENT, netherdepthsupgrade:searing_cod, 10, 3, 6
-2891, nether, minecraft:nether_wastes, MONSTER, quark:foxhound, 30, 1, 2
+2891, nether, minecraft:nether_wastes, MONSTER, quark:foxhound, 10, 1, 2
 2892, ocean, minecraft:ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 2893, ocean, minecraft:ocean, WATER_AMBIENT, alexsmobs:flying_fish, 5, 3, 6
 2894, ocean, minecraft:ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
@@ -2903,7 +2895,7 @@
 2903, ocean, minecraft:ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 2904, ocean, minecraft:ocean, MONSTER, minecraft:slime, 30, 4, 4
 2905, ocean, minecraft:ocean, MONSTER, minecraft:spider, 30, 4, 4
-2906, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 25, 1, 4
+2906, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 2907, ocean, minecraft:ocean, MONSTER, minecraft:witch, 5, 1, 1
 2908, ocean, minecraft:ocean, MONSTER, minecraft:zombie, 30, 4, 4
 2909, ocean, minecraft:ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -3041,7 +3033,7 @@
 3041, plains, minecraft:plains, MONSTER, minecraft:zombie_villager, 10, 1, 1
 3042, plains, minecraft:plains, MONSTER, quark:stoneling, 10, 1, 1
 3043, plains, minecraft:plains, MONSTER, quark:toretoise, 10, 2, 4
-3044, river, minecraft:river, WATER_CREATURE, alexsmobs:catfish, 10, 1, 3
+3044, river, minecraft:river, WATER_CREATURE, alexsmobs:catfish, 5, 1, 3
 3045, river, minecraft:river, CREATURE, alexsmobs:crocodile, 20, 1, 2
 3046, river, minecraft:river, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 3047, river, minecraft:river, CREATURE, alexsmobs:platypus, 20, 1, 2
@@ -3058,7 +3050,7 @@
 3058, river, minecraft:river, MONSTER, minecraft:skeleton, 30, 4, 4
 3059, river, minecraft:river, MONSTER, minecraft:slime, 30, 4, 4
 3060, river, minecraft:river, MONSTER, minecraft:spider, 30, 4, 4
-3061, river, minecraft:river, WATER_CREATURE, minecraft:squid, 25, 1, 4
+3061, river, minecraft:river, WATER_CREATURE, minecraft:squid, 30, 1, 4
 3062, river, minecraft:river, MONSTER, minecraft:witch, 5, 1, 1
 3063, river, minecraft:river, MONSTER, minecraft:zombie, 30, 4, 4
 3064, river, minecraft:river, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -3405,8 +3397,7 @@
 3405, none, minecraft:sunflower_plains, MONSTER, quark:stoneling, 10, 1, 1
 3406, none, minecraft:sunflower_plains, MONSTER, quark:toretoise, 10, 2, 4
 3407, swamp, minecraft:swamp, CREATURE, alexsmobs:alligator_snapping_turtle, 20, 1, 2
-3408, swamp, minecraft:swamp, CREATURE, alexsmobs:anaconda, 20, 1, 1
-3409, swamp, minecraft:swamp, WATER_AMBIENT, alexsmobs:catfish, 10, 1, 3
+3409, swamp, minecraft:swamp, WATER_AMBIENT, alexsmobs:catfish, 5, 1, 3
 3410, swamp, minecraft:swamp, CREATURE, alexsmobs:crocodile, 20, 1, 2
 3411, swamp, minecraft:swamp, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 3412, swamp, minecraft:swamp, AMBIENT, alexsmobs:fly, 10, 2, 3
@@ -3493,7 +3484,7 @@
 3493, ocean, minecraft:warm_ocean, MONSTER, minecraft:skeleton, 30, 4, 4
 3494, ocean, minecraft:warm_ocean, MONSTER, minecraft:slime, 30, 4, 4
 3495, ocean, minecraft:warm_ocean, MONSTER, minecraft:spider, 30, 4, 4
-3496, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 25, 4, 4
+3496, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 30, 4, 4
 3497, ocean, minecraft:warm_ocean, WATER_AMBIENT, minecraft:tropical_fish, 10, 3, 7
 3498, ocean, minecraft:warm_ocean, MONSTER, minecraft:witch, 5, 1, 1
 3499, ocean, minecraft:warm_ocean, MONSTER, minecraft:zombie, 30, 4, 4
@@ -3638,7 +3629,6 @@
 3638, badlands, minecraft:wooded_badlands, CREATURE, alexsmobs:emu, 20, 2, 5
 3639, badlands, minecraft:wooded_badlands, AMBIENT, alexsmobs:fly, 10, 2, 3
 3640, badlands, minecraft:wooded_badlands, CREATURE, alexsmobs:kangaroo, 25, 3, 5
-3641, badlands, minecraft:wooded_badlands, CREATURE, alexsmobs:rattlesnake, 10, 1, 2
 3642, badlands, minecraft:wooded_badlands, CREATURE, alexsmobs:roadrunner, 10, 2, 2
 3643, badlands, minecraft:wooded_badlands, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 3644, badlands, minecraft:wooded_badlands, CREATURE, ars_nouveau:gift_starby, 10, 1, 1

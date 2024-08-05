@@ -9,7 +9,16 @@ event.create('ticket')
 event.create('pink_moon').texture('kubejs:item/pink_moon').displayName("Pink Moon")
 event.create('flower_moon').texture('kubejs:item/flower_moon').displayName("Flower Moon")
 event.create('strawberry_moon').texture('kubejs:item/strawberry_moon').displayName("Strawberry Moon")
+event.create('antler_moon').texture('kubejs:item/antler_moon').displayName("Antler Moon")
+
 })
+ItemEvents.modification(event => {
+event.modify('alexsmobs:emu_egg', item => {
+    item.maxStackSize = 16
+  })
+})
+
+
 
 StartupEvents.registry('block', event => {
 

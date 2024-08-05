@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 1
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 1
+    },
+    {
+      "structure": "idas:iceandfire/dread_citadel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480678,
+    "spacing": 50,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:rare_avoid"
+    }
+  }
+}

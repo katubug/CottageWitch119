@@ -654,7 +654,7 @@
 		"Draw Hud" = true
 		"Hud On Top" = false
 		#Allows retrying after a pathfinder quill fails to find a biome nearby. Turn off if you think its op
-		"Allow Retrying" = true
+		"Allow Retrying" = false
 
 	[tools.parrot_eggs]
 		#The chance feeding a parrot will produce an egg

@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:zombie",
+      "weight": 15
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 10
+    },
+    {
+      "name": "quark:wraith",
+      "weight": 5
+    }
+  ]
+}

@@ -175,7 +175,7 @@
                     "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:beach_creeper"
                 },
                 {
                     "entity": "creeperoverhaul:badlands_creeper"

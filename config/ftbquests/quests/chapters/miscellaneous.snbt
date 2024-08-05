@@ -80,7 +80,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1998,6 +1998,40 @@
 			title: "Raid Master"
 			x: -9.0d
 			y: 6.5d
+		}
+		{
+			description: [" &bWind Chimes&r are not only a delightful visual and audible decoration, they are also useful! They have a &ePhantom&r &arepelling effect&r for up to 25 blocks!"]
+			id: "4DA91132F5C788A3"
+			rewards: [
+				{
+					count: 2
+					id: "15D99223283F8E96"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "326E237C5CDC09FC"
+					item: "plushies:slime"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "cute chimes for night crimes"
+			tasks: [{
+				id: "61F6D144103A824B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wind_chimes"
+					}
+				}
+				title: "Any #forge:wind_chimes"
+				type: "item"
+			}]
+			title: "Phantoms? No Thanks."
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 	title: "Miscellaneous"

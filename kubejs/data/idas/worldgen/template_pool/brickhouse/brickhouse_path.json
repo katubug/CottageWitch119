@@ -1,0 +1,15 @@
+{
+  "name": "idas:brickhouse/brickhouse_path",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:brickhouse/brickhouse_path",
+        "processors": "idas:generic_processor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

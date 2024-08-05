@@ -112,37 +112,6 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"&bSelenite&r can only be found in Geodes, located in &aJungle&r or &aSwamp&r Biomes. Selenite is a crystal with powerful purification properties."
-				"Selenite can be used to craft the &bNetherite Broom Tip&r, to brew into purifying &bMilk Bottles&r, or to &aclean stained glass&r."
-			]
-			id: "07C5DED85B5B7B31"
-			rewards: [
-				{
-					count: 10
-					id: "588F070F9FCA7472"
-					item: "hexerei:selenite_shard"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1F447E7860AD67CB"
-					item: "hexerei:selenite_cluster"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "The power of positivity"
-			tasks: [{
-				id: "39690311AC307209"
-				item: "hexerei:selenite_shard"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["082D264993F18EDB"]
-			description: [
 				"A cauldron is fine and dandy, but you'll want something a little more magical for your endeavors. Enhance a regular &bCauldron&r with &biron&r and &btorches&r in order to create this advanced crafting tool."
 				"&dBeware! Do not use your Infinity water bucket with this cauldron!&r. It will consume the water and the enchantment."
 			]

@@ -1,0 +1,9 @@
+#Range for hostile effects, such as fire/frost/poison
+#Range: 0 ~ 128
+effectRange = 6
+#Range for aurora range
+#Range: 0 ~ 128
+auroraRange = 24
+#Generate food effect tooltip for all modded food
+genAllModFoodValues = true
+

@@ -512,11 +512,18 @@
 			dependencies: ["2499CAE3934539A8"]
 			description: ["You killed the Dragon twice? Well, my goodness."]
 			id: "73EAABCF703B9DC9"
-			rewards: [{
-				id: "531F56AEE724EECA"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "531F56AEE724EECA"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "1FE95FD86BB52DD5"
+					item: "plushies:dragon"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Well that's just excessive"
 			tasks: [{

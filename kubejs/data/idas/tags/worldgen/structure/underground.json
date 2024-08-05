@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "idas:ancient_portal/ancient_portal",
+    "idas:nexus",
+    "idas:underground_camp/underground_camp",
+    "idas:underground_camp/underground_camp_deep"
+  ]
+}

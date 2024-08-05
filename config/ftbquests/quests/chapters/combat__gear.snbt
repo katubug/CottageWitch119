@@ -62,7 +62,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -359,7 +359,7 @@
 		}
 		{
 			dependencies: ["6F81FCE0DCB18FA5"]
-			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
+			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bGlowing Pearl&r."]
 			id: "1220403FE4E19BC8"
 			rewards: [{
 				id: "7D50796B6756DF97"
@@ -375,8 +375,8 @@
 					type: "item"
 				}
 				{
-					id: "55A4F873279A1ADE"
-					item: "minecraft:heart_of_the_sea"
+					id: "107F7DEC7A4C5BB0"
+					item: "mermod:glowing_pearl_modifier"
 					type: "item"
 				}
 			]

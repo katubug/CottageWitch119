@@ -1,0 +1,355 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #1: The Meeting\n\\\"},
+                {\\\"text\\\":\\\"I just met an amazing woman! She’s beautiful, in her bright red obi.\\\"},
+                {\\\"text\\\":\\\"Plus, hearing about the wonderful scenes she’s seen has inspired me to learn the skills I need to explore. I’d love to visit her home someday.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #2: Remodeling\n\\\"},
+                {\\\"text\\\":\\\"It’s been a few weeks now, and things are going swimmingly. Can’t be happier! She gets along well with all of my servants.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"My cat’s still a little bit scared of her, but he’s always been timid. My love has even asked for a room to remodel! I can’t wait to see what she does with it.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #3: The Screaming\n\\\"},
+                {\\\"text\\\":\\\"It's been a few days now, but the screaming won’t stop.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I don’t want to go down and see what’s happening. I don’t want to know. She says everything is alright. I’ll trust her.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #3",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #4: I'm Sorry\n\\\"},
+                {\\\"text\\\":\\\"I’m sorry, I’m sorry, I’m sorry. I let a monster into our house. Delivered my own men to it on a silver platter.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"It gave me a gift the other day. Dennis’s head, wrapped in a present. I had to swallow my own vomit.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #4",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #5: Trapped\n\\\"},
+                {\\\"text\\\":\\\"I told it to follow me to the basement. That more of my servants were there. I don’t know why it listened. I don’t know why it followed me. But I caught it. I trapped it.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #5",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #6: The End\n\\\"},
+                {\\\"text\\\":\\\"I’ve had to dig so many graves over the past week. With each one, I feel like there is one more soul dragging at my back.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I can’t sleep these days. And sometimes, I swear I can see her face, it’s beautiful and monstrous face through my window. I’m sure she’s cursing me, from her own hell. Don’t worry. I’ll join soon.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Mysterious Journal #6",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 10
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:blank_rune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crafting_blueprint",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:abacus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

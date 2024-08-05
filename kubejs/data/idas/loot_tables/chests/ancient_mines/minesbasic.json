@@ -1,0 +1,642 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§osmudged writing, wear and tear lines the edges of the paper\n\\\"},
+                {\\\"text\\\":\\\" ... considering how that last human fellow turned out, I could be worse for wear. Then again, my expeditions could bear a bit more fruit with less risk.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Could also do with one less raid, but then we might as well be asking for daily miracles. Anyway, I'm taking up too much ink letting my own thoughts babble, and my crew wants me to keep up...\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lEntry #3: Carvings from the Inside Out\n\\\"},
+                {\\\"text\\\":\\\"The beams along the walls seem to be made from a form of stone masonry. The material suggests dripstone, an underground stalactite.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"A rather unusual type of rock, but the work done for these etchings is rather impeccable.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Sturdy too! This could be considered less of a hypothesis and more of a guess, because the evidence isn't fully put together, but I have a feeling the builders of this mineshaft actually come from below ground!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"If not below, then at the very least familiar and prefer their home beneath the strata. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Considering these caves rely more on natural lighting from the local flora, then these must be seasoned cavers that had spent a very long time down here.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Where the shafts are being dug from, my best guess is to follow where the beams were installed and see where they lead...\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"If we can get past the cold chills and groaning, that is.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Ancient Mines\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Writings From a Curious Researcher #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #4: A Very Deep Pit\n\\\"},
+                {\\\"text\\\":\\\"The entry title is rather self-explanatory, but I think it also gives more credence to the underground dwellers theory.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"We just found a second pit similar to the one seen near the entrance, but this one doesn't smell like bubbling rotten eggs caressing bits of cobble.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"It's really dark down this pit, and a self-funded expedition with backup doesn't give any room for medical care or injuries. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"When did that ever stop me, though? I want to see what else lies below, especially if it gives credence to some of the stories my parents told me about! If they are what I think they are, then I can't wait to see what lies below!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Just need to be brave, and ignore the pit forming in my stomach...\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Ancient Mines\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Writings From a Curious Researcher #2",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lEntry #5: THEY WERE RIGHT\n\\\"},
+                {\\\"text\\\":\\\"My Mom and Dad, they were right! Their theories, their findings, everything in between, it was all right! I can't believe THEY exist, even if the proof is right in front of me.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Unfortunately, the cartographer and leader of this excursion ain't sharing the same bit of excitement. His eyes would light when I mentioned jewels, but they would dim down after I tried to explain the differences in culture and clan for the species.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lSTAY AWAY\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"got bit, help left, poison now coursing; don't have long, everyone MUST stay out!! skittering legs, beasts, hundreds of them, hiding under the rubble. TRIED TO WARN, BUT THEY WOULDNT LISTEN. NOT SAFE, STAY AWAY, TELL FAMILY IM SORRY, STAY AWAY FROM THE PIT\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lTHEY ARE HEr e\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Ancient Mines\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Writings From a Curious Researcher #3",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lWritings from a lost cartographer...\n\\\"},
+                {\\\"text\\\":\\\"We managed to flee from the critters of these halls, and they aren't too keen on us being here. Unfortunately we lost the professor, but they weren't a great deal of help anyways.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Perhaps naming the site after their family could give a bit of honor to their name, but that's a side note before the main prize.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Nobody else could've picked a better spot to scour than this! Machinery, ore, sturdy tools, armor and enchantments? This ain't just any old mine! It's a Dwarven hall, belonging to one of the great clans!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I'm not much of a history buff, and the professor was yammering my ear off so I can't recall much. Planewalkers they said, dwarves that would travel between dimensions? Also heard they bickered about the way they traveled too. The specifics are lost on me.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Anyway, what matters here most is the treasure! Gold, emeralds, iron ore and more, this could make us a fortune if we invest in it right!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"The red and black stones that make up the forge and throne are some fine bits of work. Could strip the walls clean with how much value we get out of them!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Once we clean this place out, we could sell this to a couple of excavators and ask for a share of the profits.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Ancient Mines\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Writings From a Lost Cartographer #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lWritings from a lost adventurer...\n\\\"},
+                {\\\"text\\\":\\\"If anyone is reading this, I don't think I have much else to survive off of.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"This may be a bit of a shoddy obituary, but if anyone else is unfortunate enough to fall here, then maybe you won't be alone.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"My name is Jones, or Indy if you want to be buddies. At the time of writing, it's been three days since I've fallen down this god forsaken hole. \\\"},
+                {\\\"text\\\":\\\"It was a blunder I made after trying to find shelter from the night, when I was returning from a local village.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"It wasn't a lot of goods, but you can go a long way with just a bit of bread. That unfortunately got soggy from the fall into this water pit, yet the fates found it funny to make it deep enough to cushion the fall. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Not sure if that was an act of mercy, because the sounds that had startled me at the foot of the hole now seem to echo throughout the... Mineshafts?\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I think they're mineshafts... Anyway, I pray the fates also have some kind of salvation for me, because there's none I could see beyond the dim lit caverns. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"If you can find your way back up to the surface, and if for whatever reason you decide not to send for help (I wouldn't blame you), then plead for others to stay far away from here. This would be a nasty way to go, having your tomb be a place like this.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"P.S. If you are scared of insects, I think you won't have much luck here either. I heard a lot of skittering beyond the caverns from where I'm at, a bit of hissing too. Maybe bones? Be careful if you're a bit more liberal with your wellbeing.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unkown,
+            display:{Lore:[\"Found in the Ancient Mines\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Writings From a Lost Adventurer",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "create:honeyed_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:trowel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:builders_tea"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:glass_bottle"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:rail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:powered_rail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:detector_rail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:controller_rail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:activator_rail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 16
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

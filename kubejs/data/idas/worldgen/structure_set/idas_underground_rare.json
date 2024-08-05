@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "idas:ancient_portal/ancient_portal",
+      "weight": 1
+    },
+    {
+      "structure": "idas:nexus",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481691,
+    "spacing": 60,
+    "separation": 35,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:underground_rare_avoid"
+    }
+  }
+}

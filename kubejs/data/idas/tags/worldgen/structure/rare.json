@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "idas:labyrinth",
+    "idas:pillager_fortress",
+    "idas:ancient_mines",
+    "idas:bazaar",
+    "idas:tinkers_workshop",
+    "idas:nexus",
+    "idas:ruins_of_the_deep",
+    "idas:iceandfire/dread_citadel"
+  ]
+}

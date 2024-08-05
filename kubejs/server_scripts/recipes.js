@@ -442,6 +442,9 @@ ServerEvents.recipes(event => {
 
     // Fried Egg uses all Eggs
     event.smelting('farmersdelight:fried_egg', '#forge:eggs')
+
+    event.smelting('supplementaries:ash', 'minecraft:cooked_beef')
+    
     
     // Plushie Cloning
     //Snow Golem
@@ -2596,10 +2599,45 @@ event.shapeless(
         }
     )
 
+    // sack with canvas
+
+    event.shaped(
+        Item.of('supplementaries:sack'),
+        [
+            ' B ',
+            'A A',
+            ' A '
+        ], {
+        
+            A: 'farmersdelight:canvas',
+            B: 'minecraft:string'
+    
+        }
+    )
+
+    //Venison exchange
+    //Env to TF Raw
+    event.shapeless(
+        Item.of('twilightforest:raw_venison'),
+        [ 
+            'environmental:venison'
+        ]
+    )
+
+    //Env to TF Cooked
+    event.shapeless(
+        Item.of('twilightforest:cooked_venison'),
+        [ 
+            'environmental:cooked_venison'
+        ]
+    )
 
     /// smelting
     event.smelting('create:zinc_block', 'create:raw_zinc_block')
 
+
+    //smithing
+event.smithing('experienceobelisk:precision_dispeller', 'minecraft:grindstone', 'experienceobelisk:cognitive_crystal_block')
     
 //Stonecutter recipes for Handcrafted Boards
 event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')

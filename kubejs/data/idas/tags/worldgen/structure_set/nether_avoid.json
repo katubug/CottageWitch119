@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_complexes",
+    "idas:idas_small_nether"
+  ]
+}

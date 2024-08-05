@@ -1,0 +1,168 @@
+{
+    "size": "medium",
+    "color": "#FFFF84",
+    "waves": [{
+            "entities": [{
+                    "entity": "alexsmobs:rattlesnake"
+                },
+                {
+                    "entity": "alexsmobs:rattlesnake"
+                },
+                {
+                    "entity": "alexsmobs:komodo_dragon"
+                },
+                {
+                    "entity": "alexsmobs:alligator_snapping_turtle"
+                },
+                {
+                    "entity": "alexsmobs:anaconda"
+                }
+            ],
+            "rewards": [{
+                "type": "stack",
+                "stack":{
+                
+                "item": "alexsmobs:spiked_scute",
+                "count": 4
+                }
+            }],
+
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "alexsmobs:rattlesnake"
+                },
+                {
+                    "entity": "alexsmobs:rattlesnake"
+                },
+                {
+                    "entity": "alexsmobs:alligator_snapping_turtle"
+                },
+                {
+                    "entity": "alexsmobs:alligator_snapping_turtle"
+                },
+                {
+                    "entity": "alexsmobs:anaconda"
+                },
+                {
+                    "entity": "alexsmobs:komodo_dragon"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "stack",
+                "stack":{
+                
+                "item": "alexsmobs:shed_snake_skin",
+                "count": 4
+                }
+             
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+
+
+
+        {
+            "entities": [{
+                    "entity": "alexsmobs:crocodile"
+                },
+                {
+                    "entity": "alexsmobs:crocodile"
+                },
+                {
+                    "entity": "alexsmobs:komodo_dragon"
+                },
+				{
+                    "entity": "alexsmobs:alligator_snapping_turtle"
+                },
+                {
+                    "entity": "alexsmobs:alligator_snapping_turtle"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "stack",
+                "stack":{
+                
+                "item": "alexsmobs:crocodile_scute",
+                "count": 3
+                }
+             
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+       
+        
+    ],
+    "rewards": [{
+        "type": "stack_list",
+        "stacks": [
+            {"item":"alexsmobs:crocodile_scute",
+            "count":4},
+            {"item":"alexsmobs:shed_snake_skin",
+            "count":3},
+            {"item":"alexsmobs:komodo_spit",
+            "count":6},
+            {"item":"alexsmobs:spiked_scute",
+            "count": 5}
+        ]
+    }],
+    "completion_xp": 500,
+	"spawn_range": 7
+}
+

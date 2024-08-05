@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "IDAS Config resources",
+        "pack_format": 9,
+        "_comment": "Config the Integrated Dungeons and Structures Mod!"
+    }
+}

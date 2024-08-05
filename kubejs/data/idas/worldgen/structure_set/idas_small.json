@@ -1,0 +1,118 @@
+{
+  "structures": [
+    {
+      "structure": "idas:cottage",
+      "weight": 1
+    },
+    {
+      "structure": "idas:animal_den/forest_den",
+      "weight": 1
+    },
+    {
+      "structure": "idas:animal_den/polar_bear_den",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_spruce",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_birch",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_acacia",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bygredwood",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bopredwood",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_orange",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_bygwindswept",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_plains",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_desert",
+      "weight": 1
+    },
+    {
+      "structure": "idas:washing_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_market/desert_market",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_market/desert_market_red",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_market/desert_market_orange",
+      "weight": 1
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480673,
+    "spacing": 18,
+    "separation": 12,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#idas:small_avoid"
+    }
+  }
+}

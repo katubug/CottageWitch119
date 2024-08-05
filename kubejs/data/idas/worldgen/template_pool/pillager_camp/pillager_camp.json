@@ -1,0 +1,15 @@
+{
+  "name": "idas:pillager_camp/pillager_camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:pillager_camp/pillager_camp2",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

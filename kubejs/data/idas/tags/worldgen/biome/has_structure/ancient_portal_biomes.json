@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#idas:collections/idasany_forests",
+    "#idas:collections/idasbadlands",
+    "#idas:collections/idascaves",
+    "#idas:collections/idasdeserts",
+    "#idas:collections/idasgiant_taigas",
+    "#idas:collections/idashills",
+    "#idas:collections/idasicy",
+    "#idas:collections/idasjungles",
+    "#idas:collections/idasmeadows",
+    "#idas:collections/idasmountains",
+    "#idas:collections/idasmushrooms",
+    "#idas:collections/idasplains",
+    "#idas:collections/idassavannas",
+    "#idas:collections/idassnowy_forests",
+    "#idas:collections/idassnowy_plains",
+    "#idas:collections/idassnowy_mountains",
+    "#idas:collections/idasswamps",
+    "#idas:collections/idastaigas",
+    "#idas:collections/idasmeadows"
+  ]
+}

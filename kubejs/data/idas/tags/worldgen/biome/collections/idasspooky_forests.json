@@ -1,0 +1,70 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    {
+      "id": "terralith:ice_marsh",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:mirage_isles",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:siberian_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:siberian_taiga",
+      "required": false
+    },
+    {
+      "id": "byg:ancient_forest",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_woods",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:ominous_woods",
+      "required": false
+    },
+    {
+      "id": "vampirism:vampire_forest",
+      "required": false
+    },
+    {
+      "id": "forge:spooky",
+      "required": false
+    },
+    {
+      "id": "c:spooky",
+      "required": false
+    },
+    {
+      "id": "forge:dead",
+      "required": false
+    },
+    {
+      "id": "c:dead",
+      "required": false
+    }
+  ]
+}

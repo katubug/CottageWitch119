@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "346046A71D537172"
+	icon: {
+		Count: 1b
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "525A3F37A27EBC86"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/modpacklogo.png"
+			rotation: 0.0d
+			width: 17.066666666666666d
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			click: "https://www.akliz.net/cottagewitch"
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: ["support the modpack and play with friends!"]
+			image: "cottagewitch:textures/aklizbanner.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.187759336099585d
+			hover: [ ]
+			image: "cottagewitch:textures/questkey.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.25d
+			hover: [ ]
+			image: "cottagewitch:textures/welcomebanner.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			click: "https://discord.gg/Y9yCbhC4e2"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Click here to join our Discord!"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			order: 99
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			click: "https://github.com/katubug/CottageWitchRecast/wiki"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Click here to visit our Github Wiki!"]
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			order: 99
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
+				""
+				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
+				""
+				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+				""
+				"This will let you view how to make anything in the game!"
+			]
+			id: "6C22B7717BABD4EC"
+			rewards: [{
+				id: "2F283F7FB47A65D3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "Take a little look-see"
+			tasks: [{
+				id: "094E438FC988764A"
+				title: "Get to know the mods"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+				""
+				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
+			]
+			id: "7803AE9CE5929FC1"
+			shape: "gear"
+			subtitle: "Selective hearing. Literally."
+			tasks: [{
+				id: "18B69346662B918E"
+				title: "Extreme Sound Muffler"
+				type: "checkmark"
+			}]
+			title: "Extreme Sound Muffler"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r. The mod &lDoesPotatoTick&r &daffects the way these farms work when chunks are unclaimed&r."
+				""
+				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
+				""
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				""
+				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
+				""
+				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				""
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
+			]
+			id: "33176499C3C54D9C"
+			min_width: 350
+			rewards: [{
+				id: "4E08ED465F61CD36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			subtitle: "When you're away, your base will play"
+			tasks: [{
+				id: "581760A3119D8A40"
+				title: "Claim and Load Chunks"
+				type: "checkmark"
+			}]
+			title: "Chunk Loading"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33176499C3C54D9C"]
+			description: [
+				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
+				""
+				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
+				""
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				""
+				"{image:cottagewitch:textures/createaparty.png width:100 height:75 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1}"
+				""
+				"Note that &din order for Deployers and such to work in claimed chunks&r, you have to &6allow Fake Player access&r via FTB Teams. Press E and click on \"My Team\" in the top left. Then click the gear in the top right, and you'll see this menu:"
+				""
+				"{image:cottagewitch:textures/fakeplayers.png width:871 height:342 align:1 fit:true}"
+				""
+				"Set \"Allow All Fake Players\" to true."
+			]
+			id: "09A30D11730DA3E8"
+			rewards: [{
+				id: "3E7FB8C50D1FD713"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "197377634DD67EB7"
+				title: "Adding Allies"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"You might be wondering where all the quests are, when your screen looks like this:"
+				""
+				"{image:cottagewitch:textures/questmenu.png width:300 height:200 align:1}"
+				""
+				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
+				""
+				"{image:cottagewitch:textures/questmenu2.png width:300 height:200 align:1}"
+				""
+				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
+			]
+			id: "45AAAB127DE386A4"
+			min_width: 350
+			rewards: [{
+				id: "7537C1A214D18796"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "71213A4C883E0709"
+				title: "Pin the Quest Categories"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45AAAB127DE386A4"]
+			description: [
+				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
+				""
+				"Just &dbe warned that this overlaps your pinned Notes&r."
+				""
+				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
+			]
+			id: "68364C5AB4BA1E96"
+			rewards: [{
+				id: "6B1BD943F575A4CB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "581B4431894BEC6F"
+				title: "Pin a Quest or Note"
+				type: "checkmark"
+			}]
+			title: "Pinning Other Things"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
+				""
+				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
+				""
+				"To &aremove a book from the tome&r, you need to &6crouch and throw&r the item (default keybind is Q)."
+				""
+				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
+			]
+			id: "3034730B996C61FA"
+			rewards: [{
+				id: "6F5B391B0B42DB89"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3BAE247B98A4AE67"
+				title: "Akashic Controls"
+				type: "checkmark"
+			}]
+			title: "Akashic Controls"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "504E46F5A1DCF256"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "3155708C4E3D8956"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Looking for a particular item in a nearby inventory?"
+				""
+				"Hover over the item in JEI or your inventory and &6press the keybind&r. This &dneeds to be bound by the user&r, so find a key you like and change it in your &akeybindings menu&r."
+				"{image:cottagewitch:textures/findme1.png width:220 height:150 align:1}"
+				""
+				"Then, inventories containing that item will be highlighted with these little particle effects:"
+				""
+				"{image:cottagewitch:textures/findme2.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "5763626E3E3E440B"
+			rewards: [{
+				id: "2CF6D804BF74D6B0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4D969F11A701F8AA"
+				title: "I know how to find things now"
+				type: "checkmark"
+			}]
+			title: "Finding Items In Containers"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This modpack comes with &aa lot of resourcepacks&r for you to use! Most of them should be enabled by default thanks to &lResource Pack Overrides&r, but they don't always work perfectly. If you find yourself needing to do something manually - "
+				""
+				"We recommend enabling all of them, except for the following:"
+				"- Black Icons"
+				"- Twilight Classic"
+				"- Classic Icons"
+				"- Create Legacy Copper"
+				"- Quark Programmer Art"
+				"- Programmer Art"
+				"- Darker Ropes"
+				"- White Icons"
+				""
+				"The order in which you enable the resourcepacks &ashould not matter&a, as they are &dedited to be compatible with one another&r."
+			]
+			id: "4B09C2508E25AD2B"
+			rewards: [{
+				id: "1A85B933DFDA69B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2E65F74FAED6B7CD"
+				title: "Resource Pack Application"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Have you found that your &lSophisticated Storage&r or &lChipped&r textures seem messed up?"
+				""
+				"This is a known bug which is currently unfixed by the mod developers. It occurs most often when &aresourcepacks are changed with the game running&r. It can be fixed by &6restarting Minecraft&r."
+			]
+			id: "32E10222527B1BB1"
+			rewards: [{
+				id: "1F60258D023536A7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2F817755D430EEC8"
+				title: "Screwy Textures?"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "Welcome"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "integrated_api:mod_adaptive_structure",
+  "start_pool": "idas:labyrinth/labyrinth_entrance",
+  "change_pool_mods": "iceandfire",
+  "new_pool": "idas:labyrinth/if_labyrinth_entrance",
+  "size": 5,
+  "rotation_fixed": true,
+  "terrain_height_radius_check": 1,
+  "allowed_terrain_height_range": 10,
+  "valid_biome_radius_check": 1,
+  "biomes": "#idas:has_structure/desert_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {}
+}

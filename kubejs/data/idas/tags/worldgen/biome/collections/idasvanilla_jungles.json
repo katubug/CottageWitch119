@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    }
+  ]
+}

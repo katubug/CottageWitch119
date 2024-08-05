@@ -389,18 +389,11 @@
 		{
 			description: ["The Globe is a decorative item which is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
 			id: "3E509A27A92746F4"
-			rewards: [
-				{
-					id: "4B4F32018B536A56"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "2ACFC13D9A34245B"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "4B4F32018B536A56"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "Time to get a globe-up (that was bad, i'm sorry)"
 			tasks: [{

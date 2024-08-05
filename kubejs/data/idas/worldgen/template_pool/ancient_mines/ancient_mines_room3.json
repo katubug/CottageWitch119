@@ -1,0 +1,15 @@
+{
+  "name": "idas:ancient_mines/ancient_mines_room3",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:ancient_mines/ancient_mines_room3",
+        "processors": "idas:ancient_mines/ancient_mines_top_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

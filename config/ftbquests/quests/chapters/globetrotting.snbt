@@ -679,9 +679,9 @@
 			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "059A7C466D698995"
-				table_id: 8808494820591225409L
-				type: "loot"
+				id: "0CD092D45B46C924"
+				table_id: 6941837675484043489L
+				type: "choice"
 			}]
 			shape: "heart"
 			subtitle: "not always that wise tbh"
@@ -698,13 +698,16 @@
 			y: -6.5d
 		}
 		{
-			description: ["What an odd statue. Who made these, and for what purpose?"]
+			description: [
+				"What an odd statue. Who made these, and for what purpose?"
+				""
+				"Place it under a noteblock to get a Vine Boom, or set a few near each other so they can chat. Moyai love company!"
+			]
 			id: "38460BA08907533F"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "44CF601FF41AC953"
-				table_id: 6941837675484043489L
-				type: "random"
+				id: "14E0EED942C2271A"
+				item: "plushies:slime"
+				type: "item"
 			}]
 			secret: true
 			shape: "gear"
@@ -895,7 +898,7 @@
 		}
 		{
 			dependencies: ["4609AFE9E0472C33"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
+			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
 			hide: true
 			id: "0531D54C99BEF0A9"
 			rewards: [{
@@ -1243,14 +1246,13 @@
 			id: "40FFFF9DE0AA9305"
 			rewards: [
 				{
-					count: 4
-					id: "22490890E8407133"
-					item: "alexsmobs:bear_fur"
+					id: "6CB25745B99F35B1"
+					item: "cnb:heal_spell_book_1"
 					type: "item"
 				}
 				{
-					id: "6CB25745B99F35B1"
-					item: "cnb:heal_spell_book_1"
+					id: "0D1BBA4FC61A4879"
+					item: "handcrafted:bear_trophy"
 					type: "item"
 				}
 			]

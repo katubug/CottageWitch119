@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "idas:haunted_manor",
+      "weight": 1
+    },
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 1
+    },
+    {
+      "structure": "idas:apothecary_abode",
+      "weight": 1
+    },
+    {
+      "structure": "idas:treetop_tavern",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 169481686,
+    "spacing": 35,
+    "separation": 25,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:uncommon_avoid"
+    }
+  }
+}

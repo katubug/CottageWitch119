@@ -1,0 +1,24 @@
+{
+  "name": "idas:abandonedhouse",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "idas:abandonedhouse/abandonedhouse",
+        "processors": "idas:generic_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:abandonedhouse/abandonedhouse2",
+        "processors": "idas:generic_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

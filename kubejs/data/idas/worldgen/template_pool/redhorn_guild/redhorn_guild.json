@@ -1,0 +1,15 @@
+{
+  "name": "idas:redhorn_guild/redhorn_guild",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:redhorn_guild/redhorn_guild",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

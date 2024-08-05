@@ -187,15 +187,12 @@ ServerEvents.recipes(event => {
         {output: 'spelunkery:coal_lump'},
         {output: 'minecraft:coal'},
         {output: 'alexsmobs:transmutation_table'},
-        {output: 'sophisticatedstorage:filter_upgrade'},
-        {output: 'sophisticatedstorage:advanced_filter_upgrade'},
         {output: 'minecraft:lodestone'},
         {output: 'luphieclutteredmod:small_shelf'},
         {output: 'miners_delight:sticky_basket'},
         {id: 'netherdepthsupgrade:eyeball'},
         {id: 'netherdepthsupgrade:fortress_grouper_plate'},
          {output: 'sophisticatedbackpacks:inception_upgrade'}, 
-         {output: 'sophisticatedbackpacks:filter_upgrade'}, 
          {output: 'sophisticatedbackpacks:deposit_upgrade'},
          {output: 'aquaculture:dark_oak_fish_mount'}, 
          {output: 'aquaculture:oak_fish_mount'}, 
@@ -205,7 +202,6 @@ ServerEvents.recipes(event => {
          {output: 'sophisticatedbackpacks:pump_upgrade'}, 
          {output: 'sophisticatedbackpacks:advanced_pump_upgrade'}, 
          {output: 'aquaculture:acacia_fish_mount'},
-         {output: 'sophisticatedbackpacks:advanced_filter_upgrade'}, 
          {output: 'sophisticatedbackpacks:advanced_deposit_upgrade'},
          {output: 'sophisticatedbackpacks:xp_pump_upgrade'},
          {output: 'sophisticatedbackpacks:battery_upgrade'},
@@ -382,7 +378,8 @@ ServerEvents.recipes(event => {
 {output: 'refinedstorage:64k_storage_disk'},
 {output: 'refinedstorage:crafting_upgrade'},
 {output: 'refinedstorage:network_receiver'},
-{output: 'refinedstorage:network_transmitter'}
+{output: 'refinedstorage:network_transmitter'},
+{output:'brewinandchewin:jerky'}
 
     ];
     

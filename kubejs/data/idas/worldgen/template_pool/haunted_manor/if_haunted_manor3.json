@@ -1,0 +1,15 @@
+{
+  "name": "idas:haunted_manor/if_haunted_manor3",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:haunted_manor/if_haunted_manor3",
+        "processors": "idas:waterlogging_fix_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

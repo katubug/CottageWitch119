@@ -1,0 +1,15 @@
+{
+  "name": "idas:labyrinth/if_labyrinth_entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:labyrinth/if_labyrinth_entrance",
+        "processors": "idas:labyrinth_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

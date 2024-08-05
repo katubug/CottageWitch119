@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "idas:wizard_tower",
+    "idas:enchantingtower",
+    "idas:castle",
+    "idas:brickhouse",
+    "idas:abandonedhouse",
+    "idas:bearclaw_inn",
+    "idas:hunters_cabin",
+    "idas:farmhouse",
+    "idas:witches_treestump",
+    "idas:hermits_hollow",
+    "idas:fishermans_lodge",
+    "idas:redhorn_guild",
+    "idas:beekeepers_house"
+  ]
+}

@@ -765,25 +765,18 @@
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
 			description: [
-				"In the heart of the &cThorns&r lies a castle which holds the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r."
-				"However, whether or not to defeat this being is up to you. &aThere is no reward for doing so&r. No accolades. This quest grants you the only thanks you will get."
-				"With that in mind, will you still challenge them?"
+				"In the heart of the &cThorns&r lies a castle which used to hold the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r. Who knows where it's gone?"
+				""
+				"Some day, the Twilight Forest may rise again... but hey- good job! You did it! Here's a reward."
 			]
 			id: "2B8E1553C1487EBA"
-			rewards: [
-				{
-					id: "7A839112E01549EF"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "40E93A2B2452F75B"
-					table_id: 5525848455660196930L
-					type: "choice"
-				}
-			]
-			subtitle: "A thankless task"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40E93A2B2452F75B"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			subtitle: "your kobold is in another castle"
 			tasks: [{
 				icon: {
 					Count: 1b

@@ -1,0 +1,12 @@
+{
+  "type": "integrated_api:generic_structure",
+  "start_pool": "idas:underground_camp/underground_camp",
+  "size": 1,
+  "biomes": "#idas:has_structure/ancient_portal_biomes",
+  "step": "underground_structures",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "absolute": 20
+  },
+  "spawn_overrides": {}
+}

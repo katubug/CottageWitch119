@@ -1,0 +1,33 @@
+{
+  "name": "idas:wizardtower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:wizard_tower/redwizardtower1",
+        "processors": "idas:wizard_tower_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:wizard_tower/yellowwizardtower1",
+        "processors": "idas:wizard_tower_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:wizard_tower/purplewizardtower1",
+        "processors": "idas:wizard_tower_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

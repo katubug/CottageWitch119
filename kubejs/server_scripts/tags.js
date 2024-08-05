@@ -840,6 +840,27 @@ event.add('forge:sophb_fluid',
     'sophisticatedbackpacks:xp_pump_upgrade'
 )
 
+//Azalea Saplings
+event.add('forge:saplings',
+    'colorfulazaleas:orange_azalea_sapling',
+    'colorfulazaleas:yellow_azalea_sapling',
+    'colorfulazaleas:red_azalea_sapling',
+    'colorfulazaleas:blue_azalea_sapling',
+    'colorfulazaleas:pink_azalea_sapling',
+    'colorfulazaleas:purple_azalea_sapling',
+    'colorfulazaleas:white_azalea_sapling'
+)
+
+//Wind Chimes
+event.add('forge:wind_chimes',
+    'chimes:bamboo_chimes',
+    'chimes:iron_chimes', 
+    'chimes:carved_bamboo_chimes', 
+    'chimes:copper_chimes', 
+    'chimes:amethyst_chimes'
+)
+
+
 // aquaculture fish
 event.add('forge:aquafish',
         'aquaculture:arapaima', 
@@ -872,6 +893,9 @@ event.add('forge:aquafish',
         'aquaculture:tambaqui', 
         'aquaculture:tuna'
 )
+
+    //raw fish moment
+   // event.add('forge:raw_fishes', 'aquaculture:fish_fillet_raw')
 
 /// Refined Storage Controllers/Lodestones
 

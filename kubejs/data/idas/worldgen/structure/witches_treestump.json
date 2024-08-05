@@ -1,0 +1,39 @@
+{
+  "type": "integrated_api:generic_structure",
+  "start_pool": "idas:witches_treestump/witches_treestump",
+  "size": 1,
+  "valid_biome_radius_check": 1,
+  "terrain_height_radius_check": 1,
+  "allowed_terrain_height_range": 10,
+  "biomes": "#idas:has_structure/witches_treestump_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  }
+}

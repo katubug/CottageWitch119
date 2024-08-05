@@ -1,0 +1,24 @@
+{
+  "mobs": [
+    {
+      "name": "iceandfire:dread_ghoul",
+      "weight": 15
+    },
+    {
+      "name": "iceandfire:dread_scuttler",
+      "weight": 10
+    },
+    {
+      "name": "iceandfire:dread_thrall",
+      "weight": 15
+    },
+    {
+      "name": "iceandfire:dread_beast",
+      "weight": 10
+    },
+    {
+      "name": "iceandfire:dread_lich",
+      "weight": 5
+    }
+  ]
+}

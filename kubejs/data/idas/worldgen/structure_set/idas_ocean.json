@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "idas:sunken_ship/sunken_ship",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_coral",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480681,
+    "spacing": 25,
+    "separation": 20,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:ocean_avoid"
+    }
+  }
+}

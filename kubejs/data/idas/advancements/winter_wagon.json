@@ -1,0 +1,43 @@
+{
+  "parent": "idas:idas_root",
+  "display": {
+    "icon": {
+      "item": "supplementaries:present_red"
+    },
+    "title": {
+      "translate": "Winter Wagon"
+    },
+    "description": {
+      "translate": "A Festive Travelling Wagon"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "in_winter_wagon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "idas:winter_wagon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_winter_wagon"
+    ]
+  ]
+}
