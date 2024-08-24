@@ -684,6 +684,35 @@
 			x: 3.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: [
+				"Some eyes have a pretty low chance of being found, but not this eye! Killing the&e Wither&r give you two 90% rolls on getting a &bWither Eye&r. You might even get two!"
+				""
+				"And all you need to do is &6defeat a Wither&r,"
+			]
+			id: "6167F02311D1B848"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B94199CC5BB9F6D"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D68E1F8B3ADF236"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
 	]
 	title: "The End"
 }

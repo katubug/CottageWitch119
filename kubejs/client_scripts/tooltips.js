@@ -1531,4 +1531,10 @@ ItemEvents.tooltip(e => {
     e.add('alexsmobs:hemolymph_sac', 'Obtain this item from the Nether Dimension Gate.'
     )
 
+    e.add('sophisticatedbackpacks:backpack', 'These are not craftable in this modpack. Find them in End City loot!'
+    )
+
+    e.add('domesticationinnovation:wayward_lantern', 'Use with care! Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.'
+    )
+
 })

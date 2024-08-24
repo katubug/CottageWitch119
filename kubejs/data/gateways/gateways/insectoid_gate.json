@@ -46,13 +46,13 @@
                     "entity": "alexsmobs:cockroach"
                 },
                 {
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "alexsmobs:leafcutter_ant"
                 },
                 {
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "alexsmobs:leafcutter_ant"
                 },
                 {
-                    "entity": "alexsmobs:cockroach"
+                    "entity": "alexsmobs:leafcutter_ant"
                 }
             ],
             "modifiers": [{
@@ -91,19 +91,19 @@
         },
         {
             "entities": [{
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "alexsmobs:crimson_mosquito"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "alexsmobs:crimson_mosquito"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "alexsmobs:crimson_mosquito"
                 },
 				{
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "alexsmobs:crimson_mosquito"
                 },
                 {
-                    "entity": "alexsmobs:leafcutter_ant"
+                    "entity": "alexsmobs:crimson_mosquito"
                 }
             ],
             "modifiers": [{
@@ -134,7 +134,7 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "alexsmobs:leafcutter_ant",
+                "entity": "alexsmobs:crimson_mosquito",
                 "rolls": 8
             }],
             "max_wave_time": 750,
