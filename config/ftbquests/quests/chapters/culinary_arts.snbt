@@ -1835,8 +1835,8 @@
 			id: "4264920573ADC879"
 			rewards: [{
 				count: 3
-				id: "077F1BFE976B91C4"
-				item: "ends_delight:dragon_egg_shell"
+				id: "6F1E8B8693D366E2"
+				item: "ends_delight:half_dragon_egg_shell"
 				type: "item"
 			}]
 			shape: "hexagon"

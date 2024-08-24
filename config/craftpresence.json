@@ -358,7 +358,8 @@
       "default": "NaN",
       "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6",
       "Emmulah": "https://crafatar.com/avatars/7e0a18022a6a403da487d3a60cb2d037",
-      "cottagewitchofficial.g.akliz.net": "https://api.mcsrvstat.us/icon/cottagewitchofficial.g.akliz.net"
+      "cottagewitchofficial.g.akliz.net": "https://api.mcsrvstat.us/icon/cottagewitchofficial.g.akliz.net",
+      "cw-playground.g.akliz.net": "https://api.mcsrvstat.us/icon/cw-playground.g.akliz.net"
     },
     "dynamicVariables": {
       "default": "Example Text",

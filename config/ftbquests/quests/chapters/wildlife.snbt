@@ -990,6 +990,7 @@
 				"Gain this advancement by taming and befriending an animal!"
 				""
 				"Now that you have a best friend forever, you'll want to keep them safe. The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r. It's a must have!"
+				""
 				"The following quests will explore some other options for empowering your buddy. "
 			]
 			id: "52BC8196E858B238"
@@ -2717,6 +2718,21 @@
 			title: "Meet the Jumping Spider!"
 			x: -6.0d
 			y: -2.5d
+		}
+		{
+			id: "717D0FA0C7836CEE"
+			shape: "heart"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_warped_toad"
+				id: "10AF6A6FFB803DDF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			title: "Meet the Warped Toad"
+			x: -15.0d
+			y: -6.5d
 		}
 	]
 	title: "Wildlife"

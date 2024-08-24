@@ -441,7 +441,15 @@ ServerEvents.tags('item', event => {
     event.add('forge:fruits', 'caupona:fig')
 
     // Green Apples
-    event.add('forge:fruits/sweet', 'byg:green_apple')
+    event.add('forge:fruits/sweet', 
+        'byg:green_apple', 
+        'caupona:fig',
+        'caupona:wolfberries',
+        'twilightforest:torchberries',
+        'ars_nouveau:source_berry'
+
+
+    )
 
     // Glowstick Ingredients
     event.add('forge:glowstickingredients',
@@ -453,6 +461,7 @@ ServerEvents.tags('item', event => {
     'twilightforest:torchberries'
     )
 
+    
     // BYG Sand Tags
     event.add('c:sand/purple', 'byg:purple_sand')
     event.add('c:sand/pink', 'byg:pink_sand')
@@ -475,6 +484,7 @@ ServerEvents.tags('item', event => {
 
     // Dolium Tagging
     event.add('forge:dolium',
+        'caupona:brick_counter_with_dolium',
     'caupona:opus_incertum_counter_with_dolium',
     'caupona:opus_latericium_counter_with_dolium',
     'caupona:mud_counter_with_dolium',
@@ -497,6 +507,11 @@ ServerEvents.tags('item', event => {
     'byg:cooked_white_puffball_cap',
     'environmental:truffle'
     )
+
+    event.add('caupona:stoves',
+        'nethersdelight:blackstone_stove',
+        'ends_delight:end_stove',
+        'twilightdelight:maze_stove')
 
     event.add('forge:mushroom',
     'spelunkery:button_mushroom',
@@ -952,6 +967,8 @@ ServerEvents.tags('block', event => {
     'caupona:opus_latericium_kitchen_stove',
     'caupona:stone_brick_kitchen_stove'
     )
+ // Bell Blossom tag
+    event.add('minecraft:small_flowers', 'byg:wailing_bell_blossom')
 
     //Brewin and Chewin
     event.add('brewinandchewin:hot_blocks', 
