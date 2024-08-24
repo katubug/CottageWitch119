@@ -2787,7 +2787,7 @@
 2795, swamp, minecraft:mangrove_swamp, CREATURE, alexsmobs:crocodile, 20, 1, 2
 2796, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 2797, swamp, minecraft:mangrove_swamp, AMBIENT, alexsmobs:fly, 10, 2, 3
-2798, swamp, minecraft:mangrove_swamp, WATER_CREATURE, alexsmobs:mantis_shrimp, 10, 1, 4
+2798, swamp, minecraft:mangrove_swamp, WATER_CREATURE, alexsmobs:mantis_shrimp, 15, 1, 4
 2799, swamp, minecraft:mangrove_swamp, CREATURE, alexsmobs:mudskipper, 28, 2, 4
 2800, swamp, minecraft:mangrove_swamp, CREATURE, ars_nouveau:drygmy, 10, 1, 2
 2801, swamp, minecraft:mangrove_swamp, CREATURE, ars_nouveau:gift_starby, 10, 1, 1
@@ -3469,12 +3469,12 @@
 3478, none, minecraft:the_void, AMBIENT, alexsmobs:fly, 10, 2, 3
 3479, ocean, minecraft:warm_ocean, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 3480, ocean, minecraft:warm_ocean, WATER_CREATURE, alexsmobs:hammerhead_shark, 20, 2, 3
-3481, ocean, minecraft:warm_ocean, WATER_CREATURE, alexsmobs:mantis_shrimp, 15, 1, 4
+3481, ocean, minecraft:warm_ocean, WATER_CREATURE, alexsmobs:mantis_shrimp, 25, 1, 4
 3482, ocean, minecraft:warm_ocean, WATER_CREATURE, alexsmobs:mimic_octopus, 30, 1, 2
 3483, ocean, minecraft:warm_ocean, WATER_CREATURE, ars_elemental:siren_entity, 30, 1, 3
 3484, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
 3485, ocean, minecraft:warm_ocean, WATER_AMBIENT, crittersandcompanions:dumbo_octopus, 10, 1, 1
-3486, ocean, minecraft:warm_ocean, WATER_AMBIENT, crittersandcompanions:sea_bunny, 30, 1, 4
+3486, ocean, minecraft:warm_ocean, WATER_AMBIENT, crittersandcompanions:sea_bunny, 25, 1, 4
 3487, ocean, minecraft:warm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 3488, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:dolphin, 20, 1, 2
 3489, ocean, minecraft:warm_ocean, MONSTER, minecraft:drowned, 10, 1, 1

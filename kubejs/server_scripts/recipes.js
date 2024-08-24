@@ -830,6 +830,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+     // Reptile Gate
+     event.shaped(
+        Item.of('gateways:gate_pearl', '{gateway:"gateways:reptile_gate"}'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'alexsmobs:crocodile_scute',
+            B: 'minecraft:ender_eye'
+        }
+    )
+
     // Cluttered Sewing Table Clutter Recipe
     event.shaped(
         Item.of('luphieclutteredmod:luphie_sewing_table_clutter'),
@@ -2614,6 +2628,16 @@ event.shapeless(
     
         }
     )
+
+    event.custom({
+
+        type: 'farmersdelight:cutting',
+        ingredients: [{item:'minecraft:dripstone_block'}],
+        tool:{tag:'forge:tools/pickaxes'},
+        result:[{item:'minecraft:pointed_dripstone',count:4}]
+
+    })
+
 
     //Venison exchange
     //Env to TF Raw

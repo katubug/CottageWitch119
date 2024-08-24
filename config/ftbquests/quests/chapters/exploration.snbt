@@ -266,6 +266,8 @@
 			description: [
 				"Would you like a Mushroom Hat? Cool! Click the box above."
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
+				""
+				"This quest is &dRepeatable!&r"
 			]
 			id: "3DFB7EF14F053582"
 			rewards: [{
