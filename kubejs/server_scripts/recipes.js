@@ -2635,6 +2635,24 @@ event.shapeless(
     /// smelting
     event.smelting('create:zinc_block', 'create:raw_zinc_block')
 
+    // smelting live coral to dead coral
+    event.smelting('minecraft:tube_coral_block', 'minecraft:dead_tube_coral_block')
+    event.smelting('minecraft:brain_coral_block', 'minecraft:dead_brain_coral_block')
+    event.smelting('minecraft:bubble_coral_block', 'minecraft:dead_bubble_coral_block')
+    event.smelting('minecraft:fire_coral_block', 'minecraft:dead_fire_coral_block')
+    event.smelting('minecraft:horn_coral_block', 'minecraft:dead_horn_coral_block')
+    event.smelting('minecraft:tube_coral', 'minecraft:dead_tube_coral')
+    event.smelting('minecraft:brain_coral', 'minecraft:dead_brain_coral')
+    event.smelting('minecraft:bubble_coral', 'minecraft:dead_bubble_coral')
+    event.smelting('minecraft:fire_coral', 'minecraft:dead_fire_coral')
+    event.smelting('minecraft:horn_coral', 'minecraft:dead_horn_coral')
+    event.smelting('minecraft:tube_coral_fan', 'minecraft:dead_tube_coral_fan')
+    event.smelting('minecraft:brain_coral_fan', 'minecraft:dead_brain_coral_fan')
+    event.smelting('minecraft:bubble_coral_fan', 'minecraft:dead_bubble_coral_fan')
+    event.smelting('minecraft:fire_coral_fan', 'minecraft:dead_fire_coral_fan')
+    event.smelting('minecraft:horn_coral_fan', 'minecraft:dead_horn_coral_fan')
+
+
 
     //smithing
 event.smithing('experienceobelisk:precision_dispeller', 'minecraft:grindstone', 'experienceobelisk:cognitive_crystal_block')
