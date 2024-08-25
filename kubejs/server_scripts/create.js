@@ -17,6 +17,8 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.crushing(['minecraft:quartz', Item.of('minecraft:quartz').withChance(0.5)], 'byg:raw_quartz_block')
 
+    e.recipes.create.mixing('culturaldelights:corn_dough', [Fluid.water(1000), '3x culturaldelights:corn_cob'])
+
     let stripWood = (output, input) => {
         e.recipes.create.cutting(
             Item.of(output), input

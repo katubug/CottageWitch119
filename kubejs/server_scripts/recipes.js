@@ -2656,6 +2656,26 @@ event.shapeless(
         ]
     )
 
+    //flower crown conversions
+
+    event.shapeless(
+        Item.of('cnb:glowing_flower_crown'),
+        [ 
+            'cnb:flower_crown',
+            'minecraft:glow_ink_sac'
+
+        ]
+    )
+    event.shapeless(
+        Item.of('cnb:flower_crown'),
+        [ 
+            'cnb:glowing_flower_crown',
+            'supplementaries:soap'
+
+        ]
+    )
+
+   
     /// smelting
     event.smelting('create:zinc_block', 'create:raw_zinc_block')
 
