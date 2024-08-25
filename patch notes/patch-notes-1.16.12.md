@@ -1,3 +1,44 @@
+
+# **Config and Script Changes**
+
+- Removed reference to Void Totem from loading screen tips.
+- Live Coral can now be smelted to produce dead coral (you monster)
+- added crimson mosquitos to insectoid gatepearl
+- added tooltip to sophisticated backpacks explaining they are not craftable and can be found in the End
+- added tooltip to Wayward Lantern warning that all tamed mobs will teleport to any player who comes near it
+- clarified mushroom hat quest to show it is repeatable
+- nether star hook is no longer uncraftable
+- nether star and dragon egg are now blacklisted from uncrafting recovery
+- fixed dragon egg shell quest reward
+- blacklisted sculk transmitter from lootbeams
+- increased spawning for mantis shrimp
+- moved antler moon to correct folder
+- added findme pngs to welcome quests
+- sophisticated filer upgrades are no longer hidden from JEI
+- create can now strip all woods and logs
+- added script to allow alexsmobs to drop spawn eggs
+- Reptile Gatepearl now has a recipe
+- dripstone block can be broken on a cutting board with a pickaxe to receive pointed dripstone
+- Wailing Bell Blossoms can now be bonemealed
+- all stoves have been added to the caupona stoves tag
+- brick counter doliums have been added to the dolium tag
+- added figs, wolfberries, torchberries and source berries to forge:fruits/sweet tag for jam making
+- 4 corundum clusters can now be crafted into 1 corundum block
+- Contact Mail blocks can now be crafted (useful for servers)
+- fixed "working..." error in treasure maps
+- added spawns for Pumpkin Wardens in autumnal biomes
+- added spawns for Man O War in Lush Stacks
+- all mob eggs now stack to 64, emu eggs stack to 16
+- created tags for create variant blocks, updated quests to accept any
+- updated discord link in welcome quest page
+- changed quest reward for secret create advancement quest
+- added ellegaard story armor to rotational speed controller quest reward
+- recipes added to glow or unglow your flower crown!
+- corn dough can now be made in a create mixer
+- added ducks and terrapins to swamps to help balance catfish spawns
+
+
+
 # **New Mods**
 ## UniLib
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/unilib)
