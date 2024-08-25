@@ -3875,7 +3875,7 @@
 3885, none, twilightforest:underground, MONSTER, quark:stoneling, 10, 1, 1
 3886, none, twilightforest:underground, MONSTER, quark:toretoise, 10, 2, 4
 3887, none, twilightforest:underground, MONSTER, twilightforest:kobold, 10, 1, 3
-814, none, byg:cypress_swamplands, duckling:duck, WATER_AMBIEN,T 15, 2, 1
+814, none, byg:cypress_swamplands, duckling:duck, WATER_AMBIENT, 15, 2, 1
 2017, swamp, hexerei:willow_swamp, duckling:duck, WATER_AMBIENT, 15, 2, 1
 2822, swamp, minecraft:mangrove_swamp, duckling:duck, WATER_AMBIENT, 15, 2, 1
 3442, swamp, minecraft:swamp, duckling:duck, WATER_AMBIENT, 15, 2, 1

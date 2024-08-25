@@ -2691,7 +2691,108 @@ event.shapeless(
         ]
     )
 
-   
+       // Corundum Clusters to Blocks
+
+       event.shapeless(
+        Item.of('quark:black_corundum'),
+        [ 
+                 'quark:black_corundum_cluster',
+                 'quark:black_corundum_cluster',
+                 'quark:black_corundum_cluster',
+                 'quark:black_corundum_cluster'
+
+         
+        ]
+    )
+    event.shapeless(
+        Item.of('quark:white_corundum'),
+        [ 
+                 'quark:white_corundum_cluster',
+                 'quark:white_corundum_cluster',
+                 'quark:white_corundum_cluster',
+                 'quark:white_corundum_cluster'
+
+         
+        ]
+    )
+event.shapeless(
+    Item.of('quark:red_corundum'),
+    [ 
+             'quark:red_corundum_cluster',
+             'quark:red_corundum_cluster',
+             'quark:red_corundum_cluster',
+             'quark:red_corundum_cluster'
+
+     
+    ]
+)
+event.shapeless(
+    Item.of('quark:orange_corundum'),
+    [ 
+             'quark:orange_corundum_cluster',
+             'quark:orange_corundum_cluster',
+             'quark:orange_corundum_cluster',
+             'quark:orange_corundum_cluster'
+
+     
+    ]
+) 
+event.shapeless(
+    Item.of('quark:yellow_corundum'),
+    [ 
+             'quark:yellow_corundum_cluster',
+             'quark:yellow_corundum_cluster',
+             'quark:yellow_corundum_cluster',
+             'quark:yellow_corundum_cluster'
+
+     
+    ]
+) 
+event.shapeless(
+    Item.of('quark:green_corundum'),
+    [ 
+             'quark:green_corundum_cluster',
+             'quark:green_corundum_cluster',
+             'quark:green_corundum_cluster',
+             'quark:green_corundum_cluster'
+
+     
+    ]
+) 
+event.shapeless(
+    Item.of('quark:blue_corundum'),
+    [ 
+             'quark:blue_corundum_cluster',
+             'quark:blue_corundum_cluster',
+             'quark:blue_corundum_cluster',
+             'quark:blue_corundum_cluster'
+
+     
+    ]
+) 
+event.shapeless(
+    Item.of('quark:indigo_corundum'),
+    [ 
+             'quark:indigo_corundum_cluster',
+             'quark:indigo_corundum_cluster',
+             'quark:indigo_corundum_cluster',
+             'quark:indigo_corundum_cluster'
+
+     
+    ]
+) 
+event.shapeless(
+    Item.of('quark:violet_corundum'),
+    [ 
+             'quark:violet_corundum_cluster',
+             'quark:violet_corundum_cluster',
+             'quark:violet_corundum_cluster',
+             'quark:violet_corundum_cluster'
+
+     
+    ]
+) 
+
     /// smelting
     event.smelting('create:zinc_block', 'create:raw_zinc_block')
 
