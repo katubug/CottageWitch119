@@ -2391,9 +2391,25 @@ event.shapeless(
         ]
     )
     
-
-
-
+    // unglow a glowing flower crown
+    event.shapeless(
+        Item.of('cnb:flower_crown'),
+        [ 
+              'cnb:glowing_flower_crown',
+              'supplementaries:soap'
+           
+        ]
+    )
+    
+    // reglow a flower crown
+    event.shapeless(
+        Item.of('cnb:glowing_flower_crown'),
+        [ 
+              'cnb:flower_crown',
+              'minecraft:glow_ink_sac'
+           
+        ]
+    )
 
     // White Controller
     event.shapeless(

@@ -74,4 +74,16 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:cogwheels','create:cogwheel','createcasing:oak_cogwheel','createcasing:birch_cogwheel','createcasing:jungle_cogwheel','createcasing:acacia_cogwheel','createcasing:dark_oak_cogwheel','createcasing:mangrove_cogwheel','createcasing:crimson_cogwheel', 'createcasing:warped_cogwheel')
 
+    event.add('forge:gearbox', 'create:gearbox', 'createcasing:brass_gearbox', 'createcasing:copper_gearbox', 'createcasing:railway_gearbox', 'createcasing:creative_gearbox', 'createcasing:industrial_iron_gearbox')
+
+    event.add('forge:mixers', 'create:mechanical_mixer', 'createcasing:brass_mixer', 'createcasing:copper_mixer','createcasing:railway_mixer', 'createcasing:creative_mixer', 'createcasing:industrial_iron_mixer')
+
+    event.add('forge:presses', 'create:mechanical_press', 'createcasing:brass_presses', 'createcasing:copper_press', 'createcasing:railway_press', 'createcasing:creative_press', 'createcasing:industrial_iron_mixer')
+
+    event.add('forge:depots', 'create:depot', 'createcasing:brass_depot', 'createcasing:copper_depot', 'createcasing:railway_depot', 'createcasing:creative_depot','createcasing:industrial_iron_depot')
+
+    event.add('forge:encased_chain_drives', 'create:encased_chain_drive', 'createcasing:brass_encased_chain_drive', 'createcasing:copper_encased_chain_drive', 'createcasing:railway_encased_chain_drive', 'createcasing:creative_encased_chain_drive', 'createcasing:industrial_iron_encased_chain_drive')
+
+    event.add('forge:adjustable_chain_gearshifts', 'create:adjustable_chain_gearshift', 'createcasing:brass_adjustable_chain_gearshift', 'createcasing:copper_adjustable_chain_gearshift', 'createcasing:railway_adjustable_chain_gearshift', 'createcasing:creative_adjustable_chain_gearshift', 'createcasing:industrial_iron_adjustable_chain_gearshift')
+
 })

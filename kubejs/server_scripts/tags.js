@@ -193,6 +193,8 @@ ServerEvents.tags('item', event => {
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg', 'aquaculture:nether_star_hook')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes', 'minecraft:nether_star', 'minecraft:dragon_egg')
 
+
+    
     //===Tags for FTB Quests=== TODO : Change all these quests over
 
     // Brooms

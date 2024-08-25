@@ -882,12 +882,52 @@
 				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
 			]
 			id: "0EBD468481C32221"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0E55F428F0549713"
-				table_id: 1032206960599939459L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "4FB408C88B471760"
+					item: {
+						Count: 1b
+						id: "mcsa:ellegaard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169C0D3FFBA10EB0"
+					item: {
+						Count: 1b
+						id: "mcsa:ellegaard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E73A7F1A705113B"
+					item: {
+						Count: 1b
+						id: "mcsa:ellegaard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "572B266B3BC0810D"
+					item: {
+						Count: 1b
+						id: "mcsa:ellegaard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00539E7A71CF9CF8"
 				item: "create:rotation_speed_controller"

@@ -3033,7 +3033,7 @@
 3041, plains, minecraft:plains, MONSTER, minecraft:zombie_villager, 10, 1, 1
 3042, plains, minecraft:plains, MONSTER, quark:stoneling, 10, 1, 1
 3043, plains, minecraft:plains, MONSTER, quark:toretoise, 10, 2, 4
-3044, river, minecraft:river, WATER_CREATURE, alexsmobs:catfish, 5, 1, 3
+3044, river, minecraft:river, WATER_AMBIENT, alexsmobs:catfish, 5, 1, 3
 3045, river, minecraft:river, CREATURE, alexsmobs:crocodile, 20, 1, 2
 3046, river, minecraft:river, WATER_AMBIENT, alexsmobs:devils_hole_pupfish, 23, 5, 12
 3047, river, minecraft:river, CREATURE, alexsmobs:platypus, 20, 1, 2

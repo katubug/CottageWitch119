@@ -13,9 +13,31 @@ event.create('antler_moon').texture('kubejs:item/antler_moon').displayName("Antl
 
 })
 ItemEvents.modification(event => {
-event.modify('alexsmobs:emu_egg', item => {
-    item.maxStackSize = 16
+    event.modify('alexsmobs:emu_egg', item => {
+      item.maxStackSize = 16
   })
+    event.modify('minecraft:egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('minecraft:turtle_egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('alexsmobs:crocodile_egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('alexsmobs:terrapin_egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('duckling:duck_egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('alexsmobs:crocodile_egg', item => {
+      item.maxStackSize = 64
+    })
+    event.modify('enviornmental:duck_egg', item => {
+      item.maxStackSize = 64
+    })
+
 })
 
 
