@@ -1,5 +1,7 @@
 {
 	"values": [
-		"better_traders:scoreboard_setup"
+		"wandering_trades:load",
+		"wandering_trades:math/load",
+		"wandering_trades:tick"
 	]
 }

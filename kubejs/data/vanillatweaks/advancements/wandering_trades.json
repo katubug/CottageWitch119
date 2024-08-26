@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Wandering Trades         ",
+		"description": ["",
+			{"text":"Adds new block trades to the wandering trader.\n","color":"gold"},
+			{"text":"Blocks Only Edition","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -7,7 +7,6 @@
 // we use the head part for the drop here wherever possible.
 const EGG_DROPS = {
     "alexsmobs:bunfungus": "alexsmobs:spawn_egg_bunfungus",
-    "alexsmobs:cachalot_whale": "alexsmobs:spawn_egg_cachalot_whale",
     "alexsmobs:capuchin_monkey": "alexsmobs:spawn_egg_capuchin_monkey",
     "alexsmobs:catfish": "alexsmobs:spawn_egg_catfish",
     "alexsmobs:centipede_head": "alexsmobs:spawn_egg_centitpede",
@@ -33,7 +32,6 @@ const EGG_DROPS = {
     "alexsmobs:blobfish": "alexsmobs:spawn_egg_blobfish",
     "alexsmobs:bone_serpent": "alexsmobs:spawn_egg_bone_serpent",
     "alexsmobs:blue_jay": "alexsmobs:spawn_egg_blue_jay",
-    "alexsmobs:farseer": "alexsmobs:spawn_egg_farseer",
     "alexsmobs:giant_squid": "alexsmobs:spawn_egg_giant_squid",
     "alexsmobs:gorilla": "alexsmobs:spawn_egg_gorilla",
     "alexsmobs:grizzly_bear": "alexsmobs:spawn_egg_grizzly_bear",
@@ -49,7 +47,6 @@ const EGG_DROPS = {
     "alexsmobs:maned_wolf": "alexsmobs:spawn_egg_maned_wolf",
     "alexsmobs:mantis_shrimp": "alexsmobs:spawn_egg_mantis_shrimp",
     "alexsmobs:mimic_octopus": "alexsmobs:spawn_egg_mimic_octopus",
-    "alexsmobs:mimicube": "alexsmobs:spawn_egg_mimicube",
     "alexsmobs:moose": "alexsmobs:spawn_egg_moose",
     "alexsmobs:mudskipper": "alexsmobs:spawn_egg_mudskipper",
     "alexsmobs:mungus": "alexsmobs:spawn_egg_mungus",
@@ -84,8 +81,6 @@ const EGG_DROPS = {
     "alexsmobs:toucan": "alexsmobs:spawn_egg_toucan",
     "alexsmobs:tusklin": "alexsmobs:spawn_egg_tusklin",
     "alexsmobs:underminer": "alexsmobs:spawn_egg_underminer",
-    "alexsmobs:void_worm": "alexsmobs:spawn_egg_void_worm",
-    "alexsmobs:warped_mosco": "alexsmobs:spawn_egg_warped_mosco",
     "alexsmobs:warped_toad": "alexsmobs:spawn_egg_warped_toad",
     "alexsmobs:orca": "alexsmobs:spawn_egg_orca",
     "alexsmobs:platypus": "alexsmobs:spawn_egg_platypus",
