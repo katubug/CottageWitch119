@@ -893,7 +893,7 @@
 				}
 			]
 			title: "Bobber and Line"
-			x: 1.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -1128,6 +1128,75 @@
 			title: "Bring Them To Life"
 			x: 0.5d
 			y: 0.5d
+		}
+		{
+			description: [
+				"Hats! Who doesn't live the simple pleasure of a Nice Hat? &lSimple Hats&r is just that: hats, nothing else. These are exclusively equipped in your Head curio slot, and currently can be found only in &cshipwreck treasure loot&r and &bNeptune's Bounty&r chests."
+				""
+				"Each regular hatbag contains one hat of corresponding rarity: Common, &eUncommon&r, &bRare&r, and &dEpic&r! "
+				""
+				"You also have a chance to find &bseasonal exclusives&r: Spring, Summer, Fall and Winter. These are only available for a 2-week period each (northern hemisphere) season!"
+				""
+				""
+				"{image:cottagewitch:textures/variant_cycling.png width:160 height:65 align:1}"
+				""
+				"Some hats may allow further customizations, such as &adyeing&r or &avariant-cycling&r. Both of these tasks can be accomplished &6in a crafting grid&r!"
+			]
+			id: "76558842585D9982"
+			rewards: [{
+				id: "269D7C201F5AD38A"
+				item: "simplehats:special"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "it came from the sea"
+			tasks: [{
+				id: "2A94356800981538"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hatbags"
+					}
+				}
+				title: "Any #forge:hatbags"
+				type: "item"
+			}]
+			title: "A Hat In A Bag?"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Maybe you're feeling overencumbered with hats... or perhaps you just have a hat you &oreally hate&r. Time to clean up your storage space and &aupcycle those lids&r!"
+				""
+				"&6Place the&r &bhat&r &6and&r &ba pair of shears&r &6into a crafting grid&r. This will give you a &bHat Scrap&r. You can do two things with that hat scrap: "
+				""
+				"&6combine 4 of them&r in a crafting menu to get a &bnew hatbag&r of that type:"
+				"{image:cottagewitch:textures/hatscrap_bag.png width:160 height:65 align:1}"
+				""
+				"or &6combine 2 of them&r to get 1 &oupgraded&r &bhat scrap&r."
+				"{image:cottagewitch:textures/hatscrap_upgrade.png width:160 height:65 align:1}"
+				""
+				"Unfortunately, &dEpic Hats&r are not able to be broken down as they are too epic."
+			]
+			id: "489B01AE0FB9AA80"
+			rewards: [{
+				count: 3
+				id: "552851E85AC7C093"
+				item: "simplehats:hatscraps_common"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "I'm down to my ankles in hats"
+			tasks: [{
+				id: "69F8B57D5A21CC0A"
+				item: "simplehats:hatscraps_common"
+				type: "item"
+			}]
+			title: "Too Many Hats!"
+			x: 9.5d
+			y: -1.0d
 		}
 	]
 	title: "Fishing \\& Gathering"

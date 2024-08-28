@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "aquaculture:box/neptunes_bounty"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "aquaculture:box/treasure_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_treasure"
+        }
+      ]
+    }
+  ],
+  "type": "simplehats:hat_lootinject_chest"
+}

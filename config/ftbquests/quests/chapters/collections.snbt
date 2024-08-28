@@ -10,11 +10,11 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 7.0d
+		height: 9.0d
 		hover: [ ]
 		image: "cottagewitch:textures/bgcollections.png"
 		rotation: 0.0d
-		width: 11.0d
+		width: 13.0d
 		x: -0.5d
 		y: 0.0d
 	}]
@@ -112,8 +112,8 @@
 				}
 			]
 			title: "Flower Picking: Red"
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -158,7 +158,7 @@
 				}
 			]
 			title: "Flower Picking: Orange"
-			x: -3.5d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -255,8 +255,8 @@
 				}
 			]
 			title: "Music Lover"
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -319,7 +319,7 @@
 			]
 			title: "Flower Picking: Yellow"
 			x: -3.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -387,7 +387,7 @@
 				}
 			]
 			title: "Flower Picking: Green and Cyan"
-			x: -2.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -435,8 +435,8 @@
 				}
 			]
 			title: "Flower Picking: Blue"
-			x: -2.0d
-			y: -0.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -493,8 +493,8 @@
 				}
 			]
 			title: "Flower Picking: Periwinkle"
-			x: -1.5d
-			y: 0.5d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -591,8 +591,8 @@
 				}
 			]
 			title: "Flower Picking: Purple"
-			x: -1.0d
-			y: -0.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -679,8 +679,8 @@
 				}
 			]
 			title: "Flower Picking: Pink"
-			x: -0.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -742,8 +742,8 @@
 				}
 			]
 			title: "Flower Picking: Magenta"
-			x: 0.0d
-			y: -0.5d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -826,7 +826,7 @@
 			]
 			title: "Flower Picking: Black and White"
 			x: -2.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
@@ -933,7 +933,7 @@
 				}
 			]
 			title: "Cool Mushrooms"
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -1099,8 +1099,8 @@
 				}
 			]
 			title: "Obtain the Rainbow"
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
@@ -1132,7 +1132,7 @@
 				type: "advancement"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1225,8 +1225,8 @@
 				id: "4BF8DEAE7CD5ADB6"
 				type: "advancement"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			id: "3ADA19F1E7F84DD6"
@@ -1237,7 +1237,7 @@
 				item: "ftbquests:barrier"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -1265,8 +1265,1035 @@
 				type: "item"
 			}]
 			title: "Extra Flowers"
-			x: 2.5d
-			y: -1.5d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: ["The most common of headwear."]
+			id: "0D97F4D6F058E7ED"
+			rewards: [{
+				count: 20
+				id: "72D4CD9C809802FC"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4DD9BD39B5991ADE"
+					item: "simplehats:acornhat"
+					type: "item"
+				}
+				{
+					id: "1566EDD201725CCC"
+					item: "simplehats:alien_antennae"
+					type: "item"
+				}
+				{
+					id: "2F9D330C80D25574"
+					item: "simplehats:bandana"
+					type: "item"
+				}
+				{
+					id: "1FA80F8D7BA48861"
+					item: "simplehats:beanie"
+					type: "item"
+				}
+				{
+					id: "1C6F7E271995DC03"
+					item: "simplehats:bicorne"
+					type: "item"
+				}
+				{
+					id: "655B41CB40375D5B"
+					item: "simplehats:bigbrain"
+					type: "item"
+				}
+				{
+					id: "796A05CE17A8ACFA"
+					item: "simplehats:bigeyes"
+					type: "item"
+				}
+				{
+					id: "2906BA0EC8D3F49B"
+					item: "simplehats:bowler"
+					type: "item"
+				}
+				{
+					id: "5566FDF0C96F2E7D"
+					item: "simplehats:brownbrick"
+					type: "item"
+				}
+				{
+					id: "76FC07EB239A09CE"
+					item: "simplehats:caddycap"
+					type: "item"
+				}
+				{
+					id: "2062EA28E410017F"
+					item: "simplehats:chalk_stick"
+					type: "item"
+				}
+				{
+					id: "5AC7CFEF03FB9864"
+					item: "simplehats:cheeseslice"
+					type: "item"
+				}
+				{
+					id: "6C00D5D27D611549"
+					item: "simplehats:chefshat"
+					type: "item"
+				}
+				{
+					id: "67A99D0554211F90"
+					item: "simplehats:chickenhead"
+					type: "item"
+				}
+				{
+					id: "25F73A56DD076D2C"
+					item: "simplehats:circular_glasses"
+					type: "item"
+				}
+				{
+					id: "180CAE4E5395D1DA"
+					item: "simplehats:cowboy"
+					type: "item"
+				}
+				{
+					id: "0C52999D4FEE5C09"
+					item: "simplehats:crown"
+					type: "item"
+				}
+				{
+					id: "5E3C737B91FEB410"
+					item: "simplehats:cucumbereyemask"
+					type: "item"
+				}
+				{
+					id: "06595DF587D9D0A6"
+					item: "simplehats:cyclopseye"
+					type: "item"
+				}
+				{
+					id: "3AD3BA819E0E72B3"
+					item: "simplehats:elfhat"
+					type: "item"
+				}
+				{
+					id: "427A7509310A62DE"
+					item: "simplehats:explorerhat"
+					type: "item"
+				}
+				{
+					id: "2B2FD683247CDFF1"
+					item: "simplehats:eyepatch"
+					type: "item"
+				}
+				{
+					id: "67148D5156A22E14"
+					item: "simplehats:fez"
+					type: "item"
+				}
+				{
+					id: "3C48F2D1D9F93F8C"
+					item: "simplehats:fro"
+					type: "item"
+				}
+				{
+					id: "6C2E09C60F710A11"
+					item: "simplehats:gnome"
+					type: "item"
+				}
+				{
+					id: "2865D86C976C4DBC"
+					item: "simplehats:goggles"
+					type: "item"
+				}
+				{
+					id: "5C084C25AA5D58D5"
+					item: "simplehats:halo"
+					type: "item"
+				}
+				{
+					id: "159CBDE116D24399"
+					item: "simplehats:headshot"
+					type: "item"
+				}
+				{
+					id: "3309ECD7F7BD8189"
+					item: "simplehats:horsemask"
+					type: "item"
+				}
+				{
+					id: "4D1F6B86FECCFEA6"
+					item: "simplehats:largehorns"
+					type: "item"
+				}
+				{
+					id: "7A00628D84CD6150"
+					item: "simplehats:lilbow"
+					type: "item"
+				}
+				{
+					id: "2276DF9A2F758A0C"
+					item: "simplehats:mohawk"
+					type: "item"
+				}
+				{
+					id: "1D0CF8F3434D93FA"
+					item: "simplehats:nekoears"
+					type: "item"
+				}
+				{
+					id: "58A4D55C7372A170"
+					item: "simplehats:pighead"
+					type: "item"
+				}
+				{
+					id: "70E0A409EF016B9C"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "387385A67C75CA63"
+					item: "simplehats:pom_moog"
+					type: "item"
+				}
+				{
+					id: "2664727B871B926E"
+					item: "simplehats:right_hand_hat"
+					type: "item"
+				}
+				{
+					id: "7B5E3B52AF6983AB"
+					item: "simplehats:round_purple_wig"
+					type: "item"
+				}
+				{
+					id: "13D500FB083EF194"
+					item: "simplehats:round_red_wig"
+					type: "item"
+				}
+				{
+					id: "7A64831AFED4FF6C"
+					item: "simplehats:sausage"
+					type: "item"
+				}
+			]
+			title: "Common Hats"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"\"Uncommon\" as in \"less common,\" not \"weird.\""
+				""
+				"Although a lot of them could be said to be both."
+			]
+			id: "196FA6275BF3B5E8"
+			rewards: [{
+				count: 20
+				id: "16B8ABB06EDD9659"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "648864188E045CB2"
+					item: "simplehats:antlers"
+					type: "item"
+				}
+				{
+					id: "1C4D410D4755F02C"
+					item: "simplehats:apple"
+					type: "item"
+				}
+				{
+					id: "10C4FA09C290F001"
+					item: "simplehats:beaniespooky"
+					type: "item"
+				}
+				{
+					id: "0B1582BD11DFB6D7"
+					item: "simplehats:beetle_on_head"
+					type: "item"
+				}
+				{
+					id: "4F241550BE1A2396"
+					item: "simplehats:beret_ribbon"
+					type: "item"
+				}
+				{
+					id: "31295E816C3C8265"
+					item: "simplehats:bigcrown"
+					type: "item"
+				}
+				{
+					id: "640F9E4982F5DBC6"
+					item: "simplehats:bigribbon"
+					type: "item"
+				}
+				{
+					id: "5479FA0250F9437F"
+					item: "simplehats:bigstevehead"
+					type: "item"
+				}
+				{
+					id: "67EB56B917C24B92"
+					item: "simplehats:breadhat"
+					type: "item"
+				}
+				{
+					id: "3DBC706331843984"
+					item: "simplehats:carrotonstick"
+					type: "item"
+				}
+				{
+					id: "17E732EE7426105B"
+					item: "simplehats:chi_ears"
+					type: "item"
+				}
+				{
+					id: "180870472EAEE0BA"
+					item: "simplehats:chickenonhead"
+					type: "item"
+				}
+				{
+					id: "6B8179D64063CA19"
+					item: "simplehats:dipper"
+					type: "item"
+				}
+				{
+					id: "7A7444ADEBA85259"
+					item: "simplehats:dragonhead"
+					type: "item"
+				}
+				{
+					id: "6F3A8F00ADD5786E"
+					item: "simplehats:dragonskull"
+					type: "item"
+				}
+				{
+					id: "4ABE959F432609D8"
+					item: "simplehats:druid_antlers"
+					type: "item"
+				}
+				{
+					id: "6630AB8F79073AC2"
+					item: "simplehats:dwarfminerbeard"
+					type: "item"
+				}
+				{
+					id: "5ADC6C734CC30FB2"
+					item: "simplehats:easterhead"
+					type: "item"
+				}
+				{
+					id: "5E233CBE4EDB45C1"
+					item: "simplehats:eevee_ears"
+					type: "item"
+				}
+				{
+					id: "1FAA3E15C5CF29DC"
+					item: "simplehats:eyeholder_dark"
+					type: "item"
+				}
+				{
+					id: "2606C15DB1C0BD2C"
+					item: "simplehats:eyeholder_evil"
+					type: "item"
+				}
+				{
+					id: "2B4C90285B4D334A"
+					item: "simplehats:finnhood"
+					type: "item"
+				}
+				{
+					id: "287EF44FB42F2DC9"
+					item: "simplehats:flies"
+					type: "item"
+				}
+				{
+					id: "7D67687485641FCA"
+					item: "simplehats:frozenhead"
+					type: "item"
+				}
+				{
+					id: "0F6374C2E2B28556"
+					item: "simplehats:fullironhelm"
+					type: "item"
+				}
+				{
+					id: "5AF06952DB181641"
+					item: "simplehats:gnome_clover_wig"
+					type: "item"
+				}
+				{
+					id: "01D13721DEA20030"
+					item: "simplehats:greaser"
+					type: "item"
+				}
+				{
+					id: "0E98E90DD765FA3C"
+					item: "simplehats:grinchhat"
+					type: "item"
+				}
+				{
+					id: "130179601322EDBD"
+					item: "simplehats:icedragonskull"
+					type: "item"
+				}
+				{
+					id: "3EA32A5B40BA68A5"
+					item: "simplehats:longfoxears"
+					type: "item"
+				}
+				{
+					id: "1433FCAAE27CD9DD"
+					item: "simplehats:mimic_head"
+					type: "item"
+				}
+				{
+					id: "2D406BBAA2D241E6"
+					item: "simplehats:monkeyking"
+					type: "item"
+				}
+				{
+					id: "4ACF21C0F2422452"
+					item: "simplehats:monocle"
+					type: "item"
+				}
+				{
+					id: "42C70D40370E7474"
+					item: "simplehats:moreeyes"
+					type: "item"
+				}
+				{
+					id: "2A63DF23B7148AA6"
+					item: "simplehats:orange_hat"
+					type: "item"
+				}
+				{
+					id: "352C8EF06D157DAC"
+					item: "simplehats:penguinhat"
+					type: "item"
+				}
+				{
+					id: "13B82B765D5BA80D"
+					item: "simplehats:questbook"
+					type: "item"
+				}
+				{
+					id: "3A4FED3C067ED120"
+					item: "simplehats:shrekears"
+					type: "item"
+				}
+				{
+					id: "7F9DD6749B6295EA"
+					item: "simplehats:shroomcap"
+					type: "item"
+				}
+				{
+					id: "4B9BD9B645E28D67"
+					item: "simplehats:strawberry_hat"
+					type: "item"
+				}
+				{
+					id: "14070D69A466336C"
+					item: "simplehats:tanuki_leaf"
+					type: "item"
+				}
+				{
+					id: "4B3EF7C59E6B2CAD"
+					item: "simplehats:tinkerhat"
+					type: "item"
+				}
+				{
+					id: "4E7ACD48BA538D36"
+					item: "simplehats:toptophathat"
+					type: "item"
+				}
+				{
+					id: "4080B5A1F451493F"
+					item: "simplehats:unicornhorn"
+					type: "item"
+				}
+			]
+			title: "Uncommon Hats"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["You call this a rare hat? This hat is medium &oat best!&r "]
+			id: "00BC75A883207EF8"
+			rewards: [{
+				count: 20
+				id: "4EAAA58369EDA3BD"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "76E5B51C8537AF73"
+					item: "simplehats:baby_crewmate"
+					type: "item"
+				}
+				{
+					id: "717AF82E0C1009ED"
+					item: "simplehats:bluefireeye"
+					type: "item"
+				}
+				{
+					id: "3AAA9E051A117674"
+					item: "simplehats:candleonhead"
+					type: "item"
+				}
+				{
+					id: "64F7B8C4069C504E"
+					item: "simplehats:cat_on_head"
+					type: "item"
+				}
+				{
+					id: "7BDE499850D2A4F7"
+					item: "simplehats:clockface"
+					type: "item"
+				}
+				{
+					id: "23BFA28EFE1AA8FE"
+					item: "simplehats:demoneyes"
+					type: "item"
+				}
+				{
+					id: "0BE2A3BF64F45F0C"
+					item: "simplehats:demonhorns"
+					type: "item"
+				}
+				{
+					id: "3C12C38319302FA1"
+					item: "simplehats:eyeholder_warm"
+					type: "item"
+				}
+				{
+					id: "41EB690E429C8CC1"
+					item: "simplehats:fakefire"
+					type: "item"
+				}
+				{
+					id: "634166FDE59AECD9"
+					item: "simplehats:fishonhead"
+					type: "item"
+				}
+				{
+					id: "56C2FC897F50EDD6"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+				{
+					id: "6F25EE30377A38A6"
+					item: "simplehats:flowercrown"
+					type: "item"
+				}
+				{
+					id: "1B9897327D685887"
+					item: "simplehats:floweronhead"
+					type: "item"
+				}
+				{
+					id: "5D8C956439061407"
+					item: "simplehats:foxhat"
+					type: "item"
+				}
+				{
+					id: "4ACB2501753064B4"
+					item: "simplehats:lightning_eyes"
+					type: "item"
+				}
+				{
+					id: "455E95203C3B554B"
+					item: "simplehats:lil_bows"
+					type: "item"
+				}
+				{
+					id: "6657D78095571672"
+					item: "simplehats:medusa"
+					type: "item"
+				}
+				{
+					id: "3F30E2E96792CA1F"
+					item: "simplehats:mimic_head_dark"
+					type: "item"
+				}
+				{
+					id: "730E879B2577B214"
+					item: "simplehats:mindflayer"
+					type: "item"
+				}
+				{
+					id: "3B83156A2060A87E"
+					item: "simplehats:paypay"
+					type: "item"
+				}
+				{
+					id: "2D3D3F969FD65492"
+					item: "simplehats:redeyes"
+					type: "item"
+				}
+				{
+					id: "6573F2A0656E0BB3"
+					item: "simplehats:slime_head"
+					type: "item"
+				}
+				{
+					id: "13BE8F44E09034F0"
+					item: "simplehats:smokingpipe"
+					type: "item"
+				}
+				{
+					id: "0754836FEA2651AB"
+					item: "simplehats:stress"
+					type: "item"
+				}
+				{
+					id: "0C469D8E40E36957"
+					item: "simplehats:topcathat"
+					type: "item"
+				}
+				{
+					id: "56762F1D9F30E059"
+					item: "simplehats:vikinghatbeard"
+					type: "item"
+				}
+				{
+					id: "08F93A625CEEB675"
+					item: "simplehats:winghat"
+					type: "item"
+				}
+				{
+					id: "6B75FE14256052D1"
+					item: "simplehats:zigzagwitchhat"
+					type: "item"
+				}
+			]
+			title: "Rare Hats"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"If you manage to collect every &bEpic Hat&r, you will unlock the ultimate hat... proclaiming you the &dultimate fisherman&r."
+				""
+				"You did it. &oYou won fishing&r."
+			]
+			id: "6CB0EF96E52ECA79"
+			rewards: [{
+				id: "36795135F484070D"
+				item: "simplehats:fishing_hat"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7429025749879FD9"
+					item: "simplehats:angel_and_devil"
+					type: "item"
+				}
+				{
+					id: "6234E51756405709"
+					item: "simplehats:artsy"
+					type: "item"
+				}
+				{
+					id: "26CAE5100A2CC07D"
+					item: "simplehats:artsy_doll"
+					type: "item"
+				}
+				{
+					id: "6BE6970BE675F33E"
+					item: "simplehats:axolotl_on_head"
+					type: "item"
+				}
+				{
+					id: "2B348F9866908639"
+					item: "simplehats:babydolphin"
+					type: "item"
+				}
+				{
+					id: "0D51A1153DADDBB0"
+					item: "simplehats:babyturtle"
+					type: "item"
+				}
+				{
+					id: "17C73D489ED7B43B"
+					item: "simplehats:beehat"
+					type: "item"
+				}
+				{
+					id: "3A6D8A172EA32275"
+					item: "simplehats:dragonskullender"
+					type: "item"
+				}
+				{
+					id: "5C0B00538B585D6C"
+					item: "simplehats:druid_antlers_rare"
+					type: "item"
+				}
+				{
+					id: "29515EC7732BB0F4"
+					item: "simplehats:eyeholder_beeholder"
+					type: "item"
+				}
+				{
+					id: "7DF5C68C80A77F3B"
+					item: "simplehats:eyeholder_xanath"
+					type: "item"
+				}
+				{
+					id: "39022F9A2B87D5A5"
+					item: "simplehats:fakeblight"
+					type: "item"
+				}
+				{
+					id: "36919B06B2E3BCD4"
+					item: "simplehats:greenbirb"
+					type: "item"
+				}
+				{
+					id: "38067825635DC2E8"
+					item: "simplehats:kirbymouthful"
+					type: "item"
+				}
+				{
+					id: "59B8CEC19A2144A0"
+					item: "simplehats:mimic_head_gold"
+					type: "item"
+				}
+				{
+					id: "497594C5C6151DE6"
+					item: "simplehats:mindflayer_alhoon"
+					type: "item"
+				}
+				{
+					id: "194A380839FF9C99"
+					item: "simplehats:pohatoe"
+					type: "item"
+				}
+				{
+					id: "6085286E9AB9B300"
+					item: "simplehats:potionhead"
+					type: "item"
+				}
+				{
+					id: "033102F133B99EF4"
+					item: "simplehats:rainboworbiters"
+					type: "item"
+				}
+				{
+					id: "6088F681FE10721E"
+					item: "simplehats:raincloud"
+					type: "item"
+				}
+				{
+					id: "5C0DFB6B050E5A71"
+					item: "simplehats:rgbpartyhat"
+					type: "item"
+				}
+				{
+					id: "3994CB53CF944C1B"
+					item: "simplehats:slime_cube_dnd"
+					type: "item"
+				}
+				{
+					id: "2E98E7A1566D5F42"
+					item: "simplehats:tomato_splats"
+					type: "item"
+				}
+			]
+			title: "Epic Hats"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "7028F056F5C91E03"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "062C35F7C2194425"
+					item: "simplehats:bucket"
+					type: "item"
+				}
+				{
+					id: "3EBA3C65E63D0B6B"
+					item: "simplehats:palmtree"
+					type: "item"
+				}
+				{
+					id: "46908C14DD4D9D4A"
+					item: "simplehats:sandcastle"
+					type: "item"
+				}
+				{
+					id: "5417911D9B1EE5D1"
+					item: "simplehats:seaweedhat"
+					type: "item"
+				}
+				{
+					id: "6A54A594A762F656"
+					item: "simplehats:summerhat"
+					type: "item"
+				}
+				{
+					id: "42CF772D0A5F7020"
+					item: "simplehats:worm_hat"
+					type: "item"
+				}
+				{
+					id: "73F04C7923CB6ED8"
+					item: "simplehats:crabonhead"
+					type: "item"
+				}
+			]
+			title: "Summer Exclusives!"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "10B9012A7955C02F"
+			rewards: [{
+				id: "07773E46438C6ED1"
+				item: "simplehats:flowercrown"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1EF802349CD8D4E5"
+					item: "simplehats:bee_on_head"
+					type: "item"
+				}
+				{
+					id: "13E45B3E98E39951"
+					item: "simplehats:bunnyhat"
+					type: "item"
+				}
+				{
+					id: "2D9E8FD54ABF6A70"
+					item: "simplehats:cartoonegg"
+					type: "item"
+				}
+				{
+					id: "2EABE77907BE8E12"
+					item: "simplehats:caterpillar_on_head"
+					type: "item"
+				}
+				{
+					id: "3D15072479C8A9F7"
+					item: "simplehats:egghead"
+					type: "item"
+				}
+				{
+					id: "79A83B96DA5DDD66"
+					item: "simplehats:eggonhead"
+					type: "item"
+				}
+				{
+					id: "239151487F8D5EBA"
+					item: "simplehats:farmerbrim"
+					type: "item"
+				}
+				{
+					id: "31000B69416724A6"
+					item: "simplehats:ladybug_on_head"
+					type: "item"
+				}
+				{
+					id: "6562DED294C45FB0"
+					item: "simplehats:rabbitears"
+					type: "item"
+				}
+				{
+					id: "3984246AB28CBB25"
+					item: "simplehats:rabbitonhead"
+					type: "item"
+				}
+			]
+			title: "Spring Exclusives!"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "714804EF7557BFD8"
+			rewards: [{
+				id: "763835DE16295098"
+				item: "simplehats:octodad"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "63897745B5419F2F"
+					item: "simplehats:batwinghat"
+					type: "item"
+				}
+				{
+					id: "332FE88C653BE88A"
+					item: "simplehats:eevee_ears"
+					type: "item"
+				}
+				{
+					id: "2FCDBE0C7C330AE3"
+					item: "simplehats:ghostmask"
+					type: "item"
+				}
+				{
+					id: "236DD5B0804F706C"
+					item: "simplehats:grandmadisguise"
+					type: "item"
+				}
+				{
+					id: "64545083566587D6"
+					item: "simplehats:hosthat"
+					type: "item"
+				}
+				{
+					id: "2B4DC1BD7F362C9C"
+					item: "simplehats:jackohat"
+					type: "item"
+				}
+				{
+					id: "18EE62711A3D4143"
+					item: "simplehats:jesterhat"
+					type: "item"
+				}
+				{
+					id: "31519B5F61551B87"
+					item: "simplehats:murdered"
+					type: "item"
+				}
+				{
+					id: "51EB70E7D527D65A"
+					item: "simplehats:paperbag"
+					type: "item"
+				}
+				{
+					id: "46561E9FF1FEDAB1"
+					item: "simplehats:pika_ears"
+					type: "item"
+				}
+				{
+					id: "60371FB69E5CB661"
+					item: "simplehats:plaguedoctor"
+					type: "item"
+				}
+				{
+					id: "045612E668CCA899"
+					item: "simplehats:rock"
+					type: "item"
+				}
+				{
+					id: "0D2223A7714A1A1D"
+					item: "simplehats:spadesoldier"
+					type: "item"
+				}
+				{
+					id: "60C47B4D07DAC416"
+					item: "simplehats:spiderweb"
+					type: "item"
+				}
+				{
+					id: "5E69D928B16754C9"
+					item: "simplehats:spyzombie"
+					type: "item"
+				}
+				{
+					id: "7F8689FBFF6879FC"
+					item: "simplehats:vikinghatbeard"
+					type: "item"
+				}
+				{
+					id: "15D9E1104E187FDA"
+					item: "simplehats:beaniespooky"
+					type: "item"
+				}
+			]
+			title: "Fall Exclusives!"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "1B702614A924016B"
+			rewards: [{
+				id: "1C22A00CB7FDCE3F"
+				item: "simplehats:teddy_bear"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40BCC075F5BF9735"
+					item: "simplehats:bigribbon"
+					type: "item"
+				}
+				{
+					id: "0CD2112EFE2BD881"
+					item: "simplehats:chocolate_sauced"
+					type: "item"
+				}
+				{
+					id: "7F688FD85FED25E8"
+					item: "simplehats:crystal_horns"
+					type: "item"
+				}
+				{
+					id: "073356F9BC1A9F96"
+					item: "simplehats:festiveribbon"
+					type: "item"
+				}
+				{
+					id: "765069AA078E0DD6"
+					item: "simplehats:floatingstar"
+					type: "item"
+				}
+				{
+					id: "44E515B442C3E1D2"
+					item: "simplehats:frozenhead"
+					type: "item"
+				}
+				{
+					id: "137987BB572FEA26"
+					item: "simplehats:grinchhat"
+					type: "item"
+				}
+				{
+					id: "51D4FFC2976B2D57"
+					item: "simplehats:partyhat"
+					type: "item"
+				}
+				{
+					id: "50BD2E1362CEA1DC"
+					item: "simplehats:penguinbaby"
+					type: "item"
+				}
+				{
+					id: "51E15A44A2F9012C"
+					item: "simplehats:penguinhat"
+					type: "item"
+				}
+				{
+					id: "231EA8B9D3799C02"
+					item: "simplehats:snowmanbaby"
+					type: "item"
+				}
+				{
+					id: "2F294EE6EF98B9A8"
+					item: "simplehats:presentsstack"
+					type: "item"
+				}
+			]
+			title: "Winter Exclusives!"
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "Collections"

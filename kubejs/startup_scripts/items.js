@@ -10,6 +10,7 @@ event.create('pink_moon').texture('kubejs:item/pink_moon').displayName("Pink Moo
 event.create('flower_moon').texture('kubejs:item/flower_moon').displayName("Flower Moon")
 event.create('strawberry_moon').texture('kubejs:item/strawberry_moon').displayName("Strawberry Moon")
 event.create('antler_moon').texture('kubejs:item/antler_moon').displayName("Antler Moon")
+event.create('harvest_moon').texture('kubejs:item/harvest_moon').displayName("Harvest Moon")
 
 })
 ItemEvents.modification(event => {

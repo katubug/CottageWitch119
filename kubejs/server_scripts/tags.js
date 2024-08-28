@@ -928,6 +928,13 @@ event.add('forge:ores/coal',
 "spelunkery:tuff_coal_ore"
 )
 
+/// Simple Hat Bags
+event.add('forge:hatbags',
+    'simplehats:hatbag_common', 'simplehats:hatbag_uncommon', 'simplehats:hatbag_rare', 'simplehats:hatbag_epic','simplehats:hatbag_easter', 'simplehats:hatbag_summer', 'simplehats:hatbag_halloween', 'simplehats:hatbag_festive'
+)
+event.add('forge:hatscraps',
+    'simplehats:hatscraps_common', 'simplehats:hatscraps_uncommon', 'simplehats:hatscraps_rare','simplehats:hatscraps_easter', 'simplehats:hatscraps_summer', 'simplehats:hatscraps_halloween', 'simplehats:hatscraps_festive'
+ )
 })
 
 

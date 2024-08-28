@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

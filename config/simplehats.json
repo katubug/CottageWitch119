@@ -33,108 +33,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "bandanargb": {
-    "name": "bandanargb",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "baseballeaster": {
-    "name": "baseballeaster",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "EASTER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "baseballhat": {
-    "name": "baseballhat",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 1,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "baseballhatfestive": {
-    "name": "baseballhatfestive",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "baseballhatjuly": {
-    "name": "baseballhatjuly",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "baseballhatrgb": {
-    "name": "baseballhatrgb",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "batwinghat": {
     "name": "batwinghat",
     "rarity": "EPIC",
@@ -161,74 +59,6 @@
     "Dye Settings": {
       "enabled": true,
       "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "beanieeaster": {
-    "name": "beanieeaster",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "EASTER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "beaniefestive": {
-    "name": "beaniefestive",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "beaniejuly": {
-    "name": "beaniejuly",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "beaniergb": {
-    "name": "beaniergb",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
     },
     "Particle Settings": {
       "enabled": false,
@@ -344,7 +174,7 @@
     "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 1,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": true,
       "decimal color": 16383998
@@ -458,23 +288,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "burgerhat": {
-    "name": "burgerhat",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "caddycap": {
     "name": "caddycap",
     "rarity": "COMMON",
@@ -492,40 +305,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "camera": {
-    "name": "camera",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:flash",
-      "frequency": 0.002,
-      "movement": "TRAILING_HEAD"
-    }
-  },
-  "camerabeard": {
-    "name": "camerabeard",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:flash",
-      "frequency": 0.002,
-      "movement": "TRAILING_HEAD"
-    }
-  },
   "candleonhead": {
     "name": "candleonhead",
     "rarity": "RARE",
@@ -541,23 +320,6 @@
       "name": "minecraft:small_flame",
       "frequency": 0.03,
       "movement": "TRAILING_HEAD"
-    }
-  },
-  "candycane": {
-    "name": "candycane",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
     }
   },
   "carrotonstick": {
@@ -582,7 +344,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "EASTER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -662,40 +424,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "christmascakehat": {
-    "name": "christmascakehat",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "christmastree": {
-    "name": "christmastree",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:snowflake",
-      "frequency": 0.1,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "clockface": {
     "name": "clockface",
     "rarity": "RARE",
@@ -730,29 +458,12 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "cowboyrgb": {
-    "name": "cowboyrgb",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "crabonhead": {
     "name": "crabonhead",
     "rarity": "EPIC",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "SUMMER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -767,23 +478,6 @@
   "crown": {
     "name": "crown",
     "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "cuphead": {
-    "name": "cuphead",
-    "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -832,40 +526,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "dangereqsue": {
-    "name": "dangereqsue",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "dangeresquejuly": {
-    "name": "dangeresquejuly",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "demoneyes": {
     "name": "demoneyes",
     "rarity": "RARE",
@@ -898,125 +558,6 @@
       "name": "minecraft:lava",
       "frequency": 0.03,
       "movement": "TRAILING_FEET"
-    }
-  },
-  "digger": {
-    "name": "digger",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "dimmahat": {
-    "name": "dimmahat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "discoball": {
-    "name": "discoball",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "disguise": {
-    "name": "disguise",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "doctorhat": {
-    "name": "doctorhat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "dorkglassesandteeth": {
-    "name": "dorkglassesandteeth",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "doubletake": {
-    "name": "doubletake",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
     }
   },
   "dragonhead": {
@@ -1067,40 +608,6 @@
       "enabled": true,
       "name": "minecraft:dragon_breath",
       "frequency": 0.05,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "drinkinhat": {
-    "name": "drinkinhat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "dumhat": {
-    "name": "dumhat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
       "movement": "TRAILING_FULL"
     }
   },
@@ -1274,23 +781,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "festiveantlers": {
-    "name": "festiveantlers",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "festiveribbon": {
     "name": "festiveribbon",
     "rarity": "RARE",
@@ -1325,23 +815,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "fireworks": {
-    "name": "fireworks",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:firework",
-      "frequency": 0.02,
-      "movement": "TRAILING_HEAD"
-    }
-  },
   "fishonhead": {
     "name": "fishonhead",
     "rarity": "RARE",
@@ -1357,23 +830,6 @@
       "name": "minecraft:splash",
       "frequency": 0.1,
       "movement": "TRAILING_HEAD"
-    }
-  },
-  "flagjuly": {
-    "name": "flagjuly",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
     }
   },
   "flies": {
@@ -1415,7 +871,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -1429,7 +885,7 @@
   },
   "flowercrown": {
     "name": "flowercrown",
-    "rarity": "RARE",
+    "rarity": "",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -1500,7 +956,7 @@
     "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -1568,7 +1024,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "HALLOWEEN",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -1631,40 +1087,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "headbolts": {
-    "name": "headbolts",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "HALLOWEEN",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:electric_spark",
-      "frequency": 0.03,
-      "movement": "TRAILING_HEAD"
-    }
-  },
-  "headphonesblue": {
-    "name": "headphonesblue",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 3,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:note",
-      "frequency": 0.01,
-      "movement": "TRAILING_HEAD"
-    }
-  },
+
   "headshot": {
     "name": "headshot",
     "rarity": "COMMON",
@@ -1680,40 +1103,6 @@
       "name": "minecraft:heart",
       "frequency": 0.0,
       "movement": "TRAILING_FULL"
-    }
-  },
-  "hockeymask": {
-    "name": "hockeymask",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "HALLOWEEN",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "holyhead": {
-    "name": "holyhead",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:glow",
-      "frequency": 0.02,
-      "movement": "TRAILING_HEAD"
     }
   },
   "horsemask": {
@@ -1801,23 +1190,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "julydouble": {
-    "name": "julydouble",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 2,
-    "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "kirbymouthful": {
     "name": "kirbymouthful",
     "rarity": "EPIC",
@@ -1869,74 +1241,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "madscientist": {
-    "name": "madscientist",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "magikarp": {
-    "name": "magikarp",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 1,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "megamanhat": {
-    "name": "megamanhat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "mistletoe": {
-    "name": "mistletoe",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "mohawk": {
     "name": "mohawk",
     "rarity": "COMMON",
@@ -2078,7 +1383,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": true,
       "decimal color": 16383998
@@ -2112,7 +1417,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -2126,7 +1431,7 @@
   },
   "penguinhat": {
     "name": "penguinhat",
-    "rarity": "UNCOMMON",
+    "rarity": "FESTIVE",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -2147,23 +1452,6 @@
     "weight": 5,
     "variants": 0,
     "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "pinhead": {
-    "name": "pinhead",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "HALLOWEEN",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -2226,91 +1514,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "policebucket": {
-    "name": "policebucket",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "policesiren": {
-    "name": "policesiren",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "poofballhat": {
-    "name": "poofballhat",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "poofballrgb": {
-    "name": "poofballrgb",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "popehat": {
-    "name": "popehat",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "potionhead": {
     "name": "potionhead",
     "rarity": "EPIC",
@@ -2325,40 +1528,6 @@
       "enabled": true,
       "name": "minecraft:entity_effect",
       "frequency": 0.05,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "presentsstack": {
-    "name": "presentsstack",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "propelhat": {
-    "name": "propelhat",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
       "movement": "TRAILING_FULL"
     }
   },
@@ -2430,162 +1599,9 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "ranahat": {
-    "name": "ranahat",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "redeyes": {
     "name": "redeyes",
     "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rednose": {
-    "name": "rednose",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "redstache": {
-    "name": "redstache",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 1,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbbigribbon": {
-    "name": "rgbbigribbon",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbbowler": {
-    "name": "rgbbowler",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbdragonskull": {
-    "name": "rgbdragonskull",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbdrinkinhat": {
-    "name": "rgbdrinkinhat",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16383998
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbeasterhead": {
-    "name": "rgbeasterhead",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbfullhelm": {
-    "name": "rgbfullhelm",
-    "rarity": "EPIC",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -2617,97 +1633,12 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "rgbsmallbowler": {
-    "name": "rgbsmallbowler",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbsunglasses": {
-    "name": "rgbsunglasses",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbtoptophathat": {
-    "name": "rgbtoptophathat",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rgbushanka": {
-    "name": "rgbushanka",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "rock": {
     "name": "rock",
     "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rubbernipple": {
-    "name": "rubbernipple",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
+    "season": "HALLOWEEN",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -2721,7 +1652,7 @@
   },
   "sandcastle": {
     "name": "sandcastle",
-    "rarity": "EPIC",
+    "rarity": "uncommon",
     "weight": 5,
     "variants": 0,
     "season": "SUMMER",
@@ -2736,23 +1667,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "santaclaus": {
-    "name": "santaclaus",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 1,
-    "season": "FESTIVE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "sausage": {
     "name": "sausage",
     "rarity": "COMMON",
@@ -2776,23 +1691,6 @@
     "weight": 5,
     "variants": 0,
     "season": "SUMMER",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "shakehat": {
-    "name": "shakehat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -2855,23 +1753,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "simsgem": {
-    "name": "simsgem",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "smokingpipe": {
     "name": "smokingpipe",
     "rarity": "RARE",
@@ -2894,7 +1775,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -2923,23 +1804,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "sonichood": {
-    "name": "sonichood",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:electric_spark",
-      "frequency": 0.1,
-      "movement": "TRAILING_FEET"
-    }
-  },
+ 
   "spadesoldier": {
     "name": "spadesoldier",
     "rarity": "RARE",
@@ -2974,29 +1839,13 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "springer": {
-    "name": "springer",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "sprout": {
     "name": "sprout",
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "EASTER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -3013,7 +1862,7 @@
     "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "HALLOWEEN",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -3064,7 +1913,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "SUMMER",
     "Dye Settings": {
       "enabled": true,
       "decimal color": 11330558
@@ -3076,74 +1925,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "sunglasses": {
-    "name": "sunglasses",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "sunglassesbig": {
-    "name": "sunglassesbig",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 1,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "supersandhat": {
-    "name": "supersandhat",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:electric_spark",
-      "frequency": 0.1,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "swimmer": {
-    "name": "swimmer",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "tinkerhat": {
     "name": "tinkerhat",
     "rarity": "UNCOMMON",
@@ -3212,23 +1994,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "triangleshades": {
-    "name": "triangleshades",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "tricorne": {
     "name": "tricorne",
     "rarity": "COMMON",
@@ -3246,23 +2011,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "tvhead": {
-    "name": "tvhead",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 2,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "unicornhorn": {
     "name": "unicornhorn",
     "rarity": "UNCOMMON",
@@ -3302,7 +2051,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 2,
-    "season": "NONE",
+    "season": "HALLOWEEN",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -3353,7 +2102,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "HALLOWEEN",
+    "season": "NONE",
     "Dye Settings": {
       "enabled": true,
       "decimal color": 16383998
@@ -3368,74 +2117,6 @@
   "acornhat": {
     "name": "acornhat",
     "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "aegishat": {
-    "name": "aegishat",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "alienphil": {
-    "name": "alienphil",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "amalgalichhat": {
-    "name": "amalgalichhat",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:portal",
-      "frequency": 0.1,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "angrymask": {
-    "name": "angrymask",
-    "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -3535,23 +2216,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "azumanga_hat": {
-    "name": "azumanga_hat",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "beret_ribbon": {
     "name": "beret_ribbon",
     "rarity": "UNCOMMON",
@@ -3574,7 +2238,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "SUMMER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -3584,23 +2248,6 @@
       "name": "minecraft:falling_water",
       "frequency": 0.1,
       "movement": "TRAILING_HEAD"
-    }
-  },
-  "burning_m_bison": {
-    "name": "burning_m_bison",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
     }
   },
   "chalk_stick": {
@@ -3671,23 +2318,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "dejiko": {
-    "name": "dejiko",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "fez": {
     "name": "fez",
     "rarity": "COMMON",
@@ -3707,7 +2337,7 @@
   },
   "fishing_hat": {
     "name": "fishing_hat",
-    "rarity": "EPIC",
+    "rarity": "",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -3756,40 +2386,6 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "milady_doll": {
-    "name": "milady_doll",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "nyan_doll": {
-    "name": "nyan_doll",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:entity_effect",
-      "frequency": 0.2,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "orange_hat": {
     "name": "orange_hat",
     "rarity": "UNCOMMON",
@@ -3799,23 +2395,6 @@
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "peppino": {
-    "name": "peppino",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16777215
     },
     "Particle Settings": {
       "enabled": false,
@@ -3841,94 +2420,9 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "puchiko": {
-    "name": "puchiko",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "rabi_en_rose": {
-    "name": "rabi_en_rose",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 1,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "raincloud": {
     "name": "raincloud",
     "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "scouter": {
-    "name": "scouter",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 12763584
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "sleepeyemask": {
-    "name": "sleepeyemask",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:heart",
-      "frequency": 0.01,
-      "movement": "TRAILING_HEAD"
-    }
-  },
-  "sport_sunglasses": {
-    "name": "sport_sunglasses",
-    "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -3962,10 +2456,10 @@
   },
   "teddy_bear": {
     "name": "teddy_bear",
-    "rarity": "EPIC",
+    "rarity": "",
     "weight": 5,
     "variants": 6,
-    "season": "NONE",
+    "season": "",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -3977,74 +2471,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "the_noise": {
-    "name": "the_noise",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "toy_story_alien": {
-    "name": "toy_story_alien",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "twilight_doll": {
-    "name": "twilight_doll",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:enchant",
-      "frequency": 0.1,
-      "movement": "TRAILING_HEAD"
-    }
-  },
-  "worms_mine": {
-    "name": "worms_mine",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+ 
   "alien_antennae": {
     "name": "alien_antennae",
     "rarity": "COMMON",
@@ -4079,23 +2506,7 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "astronaut": {
-    "name": "astronaut",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+  
   "axolotl_on_head": {
     "name": "axolotl_on_head",
     "rarity": "EPIC",
@@ -4135,7 +2546,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "EASTER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -4156,57 +2567,6 @@
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "binky": {
-    "name": "binky",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 36095
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "cardboard_box": {
-    "name": "cardboard_box",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "cat_hat": {
-    "name": "cat_hat",
-    "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": true,
-      "decimal color": 16752640
     },
     "Particle Settings": {
       "enabled": false,
@@ -4237,7 +2597,7 @@
     "rarity": "RARE",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "EASTER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -4271,7 +2631,7 @@
     "rarity": "EPIC",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "FESTIVE",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -4487,29 +2847,13 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "hat_of_discipline": {
-    "name": "hat_of_discipline",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
+
   "ladybug_on_head": {
     "name": "ladybug_on_head",
     "rarity": "UNCOMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "EASTER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0
@@ -4524,23 +2868,6 @@
   "lil_bows": {
     "name": "lil_bows",
     "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "lil_termagant": {
-    "name": "lil_termagant",
-    "rarity": "EPIC",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -4659,7 +2986,7 @@
   },
   "octodad": {
     "name": "octodad",
-    "rarity": "EPIC",
+    "rarity": "",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -4776,94 +3103,9 @@
       "movement": "TRAILING_HEAD"
     }
   },
-  "stinkycheeseman": {
-    "name": "stinkycheeseman",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:mycelium",
-      "frequency": 0.12,
-      "movement": "TRAILING_HEAD"
-    }
-  },
-  "stuck_lollipop": {
-    "name": "stuck_lollipop",
-    "rarity": "COMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
   "tanuki_leaf": {
     "name": "tanuki_leaf",
     "rarity": "UNCOMMON",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "the_noisier": {
-    "name": "the_noisier",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "thumbnail": {
-    "name": "thumbnail",
-    "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "tick_on_head": {
-    "name": "tick_on_head",
-    "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -4895,60 +3137,9 @@
       "movement": "TRAILING_FULL"
     }
   },
-  "toilet": {
-    "name": "toilet",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": true,
-      "name": "minecraft:splash",
-      "frequency": 0.1,
-      "movement": "TRAILING_HEAD"
-    }
-  },
   "tomato_splats": {
     "name": "tomato_splats",
     "rarity": "EPIC",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "traffic_cone": {
-    "name": "traffic_cone",
-    "rarity": "RARE",
-    "weight": 5,
-    "variants": 0,
-    "season": "NONE",
-    "Dye Settings": {
-      "enabled": false,
-      "decimal color": 0
-    },
-    "Particle Settings": {
-      "enabled": false,
-      "name": "minecraft:heart",
-      "frequency": 0.0,
-      "movement": "TRAILING_FULL"
-    }
-  },
-  "udder_hat": {
-    "name": "udder_hat",
-    "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
     "season": "NONE",
@@ -4968,7 +3159,7 @@
     "rarity": "COMMON",
     "weight": 5,
     "variants": 0,
-    "season": "NONE",
+    "season": "SUMMER",
     "Dye Settings": {
       "enabled": false,
       "decimal color": 0

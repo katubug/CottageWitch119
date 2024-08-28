@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 5.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight":30,
+          "name": "simplehats:hatbag_common"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "simplehats:hatbag_uncommon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "simplehats:hatbag_rare"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "simplehats:hatbag_epic"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}
