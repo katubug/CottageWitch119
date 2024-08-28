@@ -1,3 +1,13 @@
+# **Config & Script Changes**
+
+- unzipped multiple datapacks and asset zips
+- rebalanced the alex's mobs egg drops
+- added smooth font resource pack to kubejs
+- added harvest moon to moon collection
+- added simplehats quests to fishing tab
+- added simplehats collections to collections tab
+- fixed the recipe for Dragon Tooth Knife
+
 # **New Mods**
 ## Cat Jammies
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/cat-jammies)
