@@ -2311,6 +2311,20 @@ event.shaped(
         }
     )
 
+    event.shaped(
+        Item.of('ends_delight:dragon_tooth_knife'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ], {
+           
+            A: 'ends_delight:dragon_tooth',
+            B: 'ends_delight:half_dragon_egg_shell',
+    
+        }
+    )
+
      // Illuminite Block uncrafting
      event.shapeless(
         Item.of('refinedstorage:quartz_enriched_iron', 9),
