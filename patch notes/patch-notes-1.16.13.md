@@ -1,30 +1,5 @@
-# **Config & Script Changes**
-
-- unzipped multiple datapacks and asset zips
-- rebalanced the alex's mobs egg drops
-- added smooth font resource pack to kubejs
-- added harvest moon to moon collection
-- added simplehats quests to fishing tab
-- added simplehats collections to collections tab
-- fixed the recipe for Dragon Tooth Knife
-
-
-
 # **New Mods**
-## Cat Jammies
-[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/cat-jammies)
-
-## Colorful Hearts
-[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/colorful-hearts)
-
-## Copper & Tuff Backport (from 1.21) [Fabric | Forge]
-[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/copper-tuff-backport-fabric)
-
-## Simple Hats
-[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/simplehats)
-
-## Smooth Font - 32x [1.21]
-[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/smooth-font)
+## None
 
 
 _________________
