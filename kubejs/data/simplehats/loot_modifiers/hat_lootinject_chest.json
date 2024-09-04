@@ -10,10 +10,6 @@
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "aquaculture:box/treasure_chest"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/shipwreck_treasure"
         }
       ]
     }

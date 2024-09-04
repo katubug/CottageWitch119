@@ -1537,4 +1537,13 @@ ItemEvents.tooltip(e => {
     e.add('domesticationinnovation:wayward_lantern', 'Use with care! Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.'
     )
 
+// Mob Lassos
+
+ e.add(['moblassos:golden_lasso', 
+    'moblassos:aqua_lasso', 
+    'moblassos:emerald_lasso', 
+    'moblassos:hostile_lasso'],
+    'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
+ )
+
 })

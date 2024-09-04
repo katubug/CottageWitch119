@@ -7,14 +7,6 @@ LootJS.modifiers((event) => {
     .randomChance(0.15)
     .addLoot("simplehats:hatbag_uncommon")
 
-    event.addLootTableModifier("minecraft:gameplay/fishing/treasure")
-    .randomChance(0.10)
-    .addLoot("simplehats:hatbag_rare")
-
-    event.addLootTableModifier("minecraft:gameplay/fishing/treasure")
-    .randomChance(0.02)
-    .addLoot("simplehats:hatbag_epic")
-
     event.addLootTableModifier("aquaculture:gameplay/fishing/junk")
     .randomChance(0.20)
     .addLoot("simplehats:hatbag_common")
@@ -27,7 +19,7 @@ LootJS.modifiers((event) => {
     .randomChance(0.10)
     .addLoot("simplehats:hatbag_rare")
 
-    event.addLootTableModifier("aquaculture:gameplay/fishing/neptunium")
+    event.addLootTableModifier("minecraft:gameplay/fishing/treasure")
     .randomChance(0.10)
     .addLoot("simplehats:hatbag_rare")
 
@@ -36,14 +28,11 @@ LootJS.modifiers((event) => {
     .addLoot("simplehats:hatbag_epic")
 
     event.addLootTableModifier("aquaculture:gameplay/fishing/neptunium")
-    .randomChance(0.02)
-    .addLoot("simplehats:hatbag_epic")
-
-    event.addLootTableModifier("aquaculture:box/neptunes_bounty")
     .randomChance(0.10)
     .addLoot("simplehats:hatbag_rare")
-    event.addLootTableModifier("aquaculture:box/neptunes_bounty")
-    .randomChance(1.0)
+
+    event.addLootTableModifier("aquaculture:gameplay/fishing/neptunium")
+    .randomChance(0.02)
     .addLoot("simplehats:hatbag_epic")
 
 })

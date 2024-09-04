@@ -1887,11 +1887,19 @@
 				"You did it. &oYou won fishing&r."
 			]
 			id: "6CB0EF96E52ECA79"
-			rewards: [{
-				id: "36795135F484070D"
-				item: "simplehats:fishing_hat"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "61485172021B42FC"
+					item: "simplehats:fishing_hat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62250EA246D8BF80"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2016,6 +2024,11 @@
 		}
 		{
 			id: "7028F056F5C91E03"
+			rewards: [{
+				id: "01C071954DD143BE"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2061,8 +2074,8 @@
 		{
 			id: "10B9012A7955C02F"
 			rewards: [{
-				id: "07773E46438C6ED1"
-				item: "simplehats:flowercrown"
+				id: "51739393958D13F6"
+				item: "simplehats:hatbag_epic"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2125,8 +2138,8 @@
 		{
 			id: "714804EF7557BFD8"
 			rewards: [{
-				id: "763835DE16295098"
-				item: "simplehats:octodad"
+				id: "434877B4731E8E75"
+				item: "simplehats:hatbag_epic"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2216,6 +2229,11 @@
 					item: "simplehats:beaniespooky"
 					type: "item"
 				}
+				{
+					id: "07DB50E63569B4E4"
+					item: "simplehats:octodad"
+					type: "item"
+				}
 			]
 			title: "Fall Exclusives!"
 			x: -2.0d
@@ -2224,8 +2242,8 @@
 		{
 			id: "1B702614A924016B"
 			rewards: [{
-				id: "1C22A00CB7FDCE3F"
-				item: "simplehats:teddy_bear"
+				id: "4491B385CDA89ADC"
+				item: "simplehats:hatbag_epic"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2283,11 +2301,6 @@
 				{
 					id: "231EA8B9D3799C02"
 					item: "simplehats:snowmanbaby"
-					type: "item"
-				}
-				{
-					id: "2F294EE6EF98B9A8"
-					item: "simplehats:presentsstack"
 					type: "item"
 				}
 			]

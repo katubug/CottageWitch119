@@ -8,5 +8,5 @@
 	#Range: 0.0 ~ 1.0
 	seasonalBagChance = 1
 	#Allow equipping hat in helmet slot for compatibility with non-player entities/displays.
-	allowHatInHelmetSlot = false
+	allowHatInHelmetSlot = true
 
