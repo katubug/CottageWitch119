@@ -2658,6 +2658,21 @@ event.shapeless(
     
         }
     )
+   // canvas for canvas
+   event.shaped(
+    Item.of('xercapaint:item_canvas'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ], {
+    
+        A: 'minecraft:stick',
+        B: 'farmersdelight:canvas'
+
+    }
+)
+
 
     event.custom({
 
