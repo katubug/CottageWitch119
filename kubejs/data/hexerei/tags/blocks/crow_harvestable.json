@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "hexerei:belladonna_flower",
+    "hexerei:mandrake_flower",
+    "hexerei:yellow_dock_bush",
+    "hexerei:mugwort_bush",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:sweet_berry_bush",
+    "#minecraft:crops",
+    "culturaldelights:cucumber_seeds",
+    "culturaldelights:corn_kernels", 
+    "culturaldelights:eggplant_seeds", 
+    "delightful:salmonberry_pips", 
+    "ars_nouveau:source_berry", 
+    "byg:crimson_berries", 
+    "byg:blueberries", 
+    "sprout:peanut"
+
+
+  ]
+}

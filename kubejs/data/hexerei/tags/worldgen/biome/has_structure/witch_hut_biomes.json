@@ -1,0 +1,11 @@
+
+{
+  "replace": true,
+  "values": [
+    "minecraft:swamp",
+    {
+      "id": "#forge:is_swamp",
+      "required": false
+    }
+  ]
+}

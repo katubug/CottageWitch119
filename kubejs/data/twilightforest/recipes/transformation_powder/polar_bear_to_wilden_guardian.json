@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "minecraft:polar_bear",
+  "reversible": false,
+  "to": "ars_nouveau:wilden_guardian"
+}

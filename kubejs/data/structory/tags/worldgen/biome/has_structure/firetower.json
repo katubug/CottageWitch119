@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "old_growth_birch_forest",
+        "old_growth_spruce_taiga",
+        "old_growth_pine_taiga",
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:yellowstone",
+            "required": false
+        },
+        {
+            "id": "terralith:shield",
+            "required": false
+        },
+        {
+            "id": "terralith:lush_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_taiga",
+            "required": false
+        }
+    ]
+}
+

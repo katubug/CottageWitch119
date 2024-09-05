@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "aquaculture:pacific_halibut"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "aquaculture:fish_fillet_raw",
+        "count": 12
+      }
+    ]
+  }

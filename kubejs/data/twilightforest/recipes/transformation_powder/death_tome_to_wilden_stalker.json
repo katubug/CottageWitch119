@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:death_tome",
+  "reversible": false,
+  "to": "ars_nouveau:wilden_stalker"
+}

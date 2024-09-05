@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:squirrel",
+  "reversible": true,
+  "to": "ars_nouveau:starbuncle"
+}

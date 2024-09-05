@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "alexsmobs:moose",
+  "reversible": true,
+  "to": "ars_nouveau:drygmy"
+}

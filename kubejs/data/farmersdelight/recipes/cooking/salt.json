@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "spelunkery:rock_salt_block"
+      }
+    ],
+    "result": {
+      "item": "spelunkery:salt",
+      "count": 4
+    }
+  }

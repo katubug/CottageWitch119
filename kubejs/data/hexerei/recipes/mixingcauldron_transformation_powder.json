@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "hexerei:moon_dust"
+    },
+    {
+      "item": "hexerei:moon_dust"
+    },
+    {
+      "item": "hexerei:moon_dust"
+    },
+    {
+      "item": "hexerei:moon_dust"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "minecraft:amethyst_cluster"
+    }
+  ],
+  "output": {
+    "item": "twilightforest:transformation_powder",
+    "count": 4
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava"
+  },
+  "fluidLevelsConsumed": 333
+}

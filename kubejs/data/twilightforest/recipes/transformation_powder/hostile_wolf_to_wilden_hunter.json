@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:hostile_wolf",
+  "reversible": false,
+  "to": "ars_nouveau:wilden_hunter"
+}

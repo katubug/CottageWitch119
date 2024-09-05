@@ -1,0 +1,25 @@
+{
+  "structures": [
+    {
+      "structure": "structory:taiga_ruin_surface",
+      "weight": 1
+    },
+    {
+      "structure": "structory:taiga_ruin_underground",
+      "weight": 1
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 42069420,
+    "frequency_reduction_method": "default",
+    "frequency": 0.7,
+    "spread_type": "triangular",
+    "spacing": 24,
+    "separation": 16
+  }
+}

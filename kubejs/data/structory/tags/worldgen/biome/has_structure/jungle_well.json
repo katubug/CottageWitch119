@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:sparse_jungle",
+    "#minecraft:is_jungle",
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
+    }
+  ]
+}

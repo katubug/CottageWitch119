@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "stalactites": [
+    "twilightforest:emerald_ore_stalactite",
+    "twilightforest:diamond_ore_stalactite",
+    "twilightforest:lapis_ore_stalactite",
+    "twilightforest:rock_salt_stalactite"
+  ]
+}

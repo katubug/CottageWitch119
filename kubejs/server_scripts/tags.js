@@ -1,22 +1,18 @@
-ServerEvents.tags('item', event => {
-
+ServerEvents.tags('item', event => {      
     // Dirt for Compost Recipe
-    event.add('forge:dirt',
-     'minecraft:dirt', 
-     'minecraft:coarse_dirt',
-    'minecraft:rooted_dirt',
-    'minecraft:podzol', 
-    'byg:lush_dirt', 
-    'twilightforest:uberous_soil')
+    event.add('forge:dirt', 
+        'minecraft:dirt', 
+        'minecraft:coarse_dirt',
+        'minecraft:rooted_dirt',
+        'minecraft:podzol')
 
-    // Dirt for Compost Recipe
- event.add('forge:compressable_dirt', 
- 'minecraft:dirt', 
- 'minecraft:coarse_dirt',
- 'minecraft:rooted_dirt',
- 'minecraft:podzol', 
- 'byg:lush_dirt', 
- 'twilightforest:uberous_soil')
+    event.add('forge:compressable_dirt', 
+        'minecraft:dirt', 
+        'minecraft:coarse_dirt',
+        'minecraft:rooted_dirt',
+        'minecraft:podzol', 
+        'byg:lush_dirt', 
+        'twilightforest:uberous_soil')
 
     // Organic materials for Compost Recipe
     event.add('forge:compost',
@@ -28,6 +24,7 @@ ServerEvents.tags('item', event => {
     'hexerei:belladonna_berries',
     'hexerei:mandrake_root',
     'hexerei:mandrake_flowers',
+    'hexerei:sage',
     'hexerei:dried_sage',
     'hexerei:dried_belladonna_flowers',
     'hexerei:dried_mandrake_flowers',
@@ -36,7 +33,8 @@ ServerEvents.tags('item', event => {
     'hexerei:dried_yellow_dock_flowers',
     'hexerei:dried_yellow_dock_leaves',
     'farmersdelight:tree_bark',
-    'minecraft:rotten_flesh')
+    'minecraft:rotten_flesh',
+    'minecraft:spider_eye')
 
     // Rope Tags
     event.add('supplementaries:ropes', 'farmersdelight:rope', 'beautify:rope')
@@ -60,7 +58,7 @@ ServerEvents.tags('item', event => {
     'endrem:exotic_eye'
     )
 
-    // Seeds Tags
+   // Seeds Tags
     event.add('forge:seeds',
     'farmersrespite:tea_seeds',
     'culturaldelights:eggplant_seeds',
@@ -96,6 +94,17 @@ ServerEvents.tags('item', event => {
     'ecologics:azalea_planks'
     )
 
+    //Azalea Saplings
+event.add('forge:saplings',
+    'colorfulazaleas:orange_azalea_sapling',
+    'colorfulazaleas:yellow_azalea_sapling',
+    'colorfulazaleas:red_azalea_sapling',
+    'colorfulazaleas:blue_azalea_sapling',
+    'colorfulazaleas:pink_azalea_sapling',
+    'colorfulazaleas:purple_azalea_sapling',
+    'colorfulazaleas:white_azalea_sapling'
+)
+
     // Corn Dough Tags
     event.add('minecraft:dough',
     'culturaldelights:corn_dough'
@@ -103,6 +112,40 @@ ServerEvents.tags('item', event => {
     event.add('forge:dough',
     'culturaldelights:corn_dough'
     )
+
+    // Grape Tagging
+    event.add('forge:grapes',
+    'vinery:red_grape',
+    'vinery:white_grape',
+    'vinery:savanna_grapes_red',
+    'vinery:savanna_grapes_white',
+    'vinery:taiga_grapes_red',
+    'vinery:taiga_grapes_white',
+    'vinery:jungle_grapes_red',
+    'vinery:jungle_grapes_white'
+    )
+    event.add('forge:fruits',
+    'vinery:red_grape',
+    'vinery:white_grape',
+    'vinery:savanna_grapes_red',
+    'vinery:savanna_grapes_white',
+    'vinery:taiga_grapes_red',
+    'vinery:taiga_grapes_white',
+    'vinery:jungle_grapes_red',
+    'vinery:jungle_grapes_white',
+    'bakery:strawberry',
+    'nethervinery:warped_grape',
+    'nethervinery:crimson_grape'
+    )
+    event.add('forge:grape_seeds',
+    'vinery:red_grape_seeds', 
+    'vinery:white_grape_seeds', 
+    'vinery:savanna_grape_seeds_red', 
+    'vinery:savanna_grape_seeds_white', 
+    'vinery:taiga_grape_seeds_red', 
+    'vinery:taiga_grape_seeds_white', 
+    'vinery:jungle_grape_seeds_red', 
+    'vinery:jungle_grape_seeds_white')
 
 
     // Cheese Tags for Crafting
@@ -117,7 +160,6 @@ ServerEvents.tags('item', event => {
     'minecraft:bowl',
     'ecologics:coconut_husk'
     )
-
 
     //Vegetables
     event.add('forge:vegetables',
@@ -172,6 +214,11 @@ ServerEvents.tags('item', event => {
         'nethersdelight:strider_slice'
     )
 
+    //Tomato Sauce
+    event.add('forge:pizza_sauce',
+    'farmersdelight:tomato_sauce'
+    )
+
     // Golden Things for Tarot
     event.add('tarotcards:golden',
     'reaping:gold_reaping_tool',
@@ -188,19 +235,68 @@ ServerEvents.tags('item', event => {
     'quark:blackstone_furnace'
     )
 
+ // Tagging Vinery Cherries
+    let vch = 'vinery:cherry'
+
+    event.add('forge:fruits/berries',
+    vch)
+    event.add('forge:fruits/cherry',
+    vch)
+    event.add('environmental:deer_food',
+    vch)
+    event.add('environmental:deer_tempt_items',
+    vch)
+    event.add('forge:fruits/sweet',
+    vch)
+
+    // Seats
+    event.add('forge:seats',
+    'fantasyfurniture:necrolord/cushion',
+    'fantasyfurniture:royal/cushion',
+    'fantasyfurniture:venthyr/cushion',
+    'fantasyfurniture:dunmer/cushion',
+    'fantasyfurniture:nordic/cushion',
+    'fantasyfurniture:decorations/royal_floor_cushion'
+    )
+
+    // Limes
+    event.add('forge:fruits/lime',
+    'collectorsreap:lime_slice')
+    event.add('forge:fruits/citrus',
+    'collectorsreap:lime_slice')
+
+    // Reinforced Deepslate
+    event.add('forge:relocation_not_supported',
+    'minecraft:reinforced_deepslate'
+    )
 
     //===Banning Uncraftables===
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg', 'aquaculture:nether_star_hook')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes', 'minecraft:nether_star', 'minecraft:dragon_egg')
 
-
-    
     //===Tags for FTB Quests=== TODO : Change all these quests over
 
     // Brooms
     event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom')
 
+    // Ars Storage
+    event.add('forge:filter_scrolls',
+    'ars_nouveau:allow_scroll',
+    'ars_nouveau:deny_scroll',
+    'ars_nouveau:mimic_scroll'
+    )
 
+    // Apple Crates
+    event.add('forge:apple_crates',
+        'applecrates:oak_crate',
+        'applecrates:birch_crate',
+        'applecrates:spruce_crate',
+        'applecrates:acacia_crate',
+        'applecrates:jungle_crate',
+        'applecrates:dark_oak_crate',
+        'applecrates:crimson_crate',
+        'applecrates:warped_crate'
+        )
 
     //Pet Beds
     event.add('forge:petbeds',
@@ -289,17 +385,6 @@ ServerEvents.tags('item', event => {
     'cnb:yellow_minipad_flower_glow'
     )
 
-    // Apple Crates
-    event.add('forge:apple_crates',
-    'applecrates:oak_crate',
-    'applecrates:birch_crate',
-    'applecrates:spruce_crate',
-    'applecrates:acacia_crate',
-    'applecrates:jungle_crate',
-    'applecrates:dark_oak_crate',
-    'applecrates:crimson_crate',
-    'applecrates:warped_crate'
-    )
 
     // Cheese Tags for Quests
     event.add('forge:unripe_cheese_wheels',
@@ -413,6 +498,11 @@ ServerEvents.tags('item', event => {
     'better_fishing_rods:orely_fishing_rod',
     'minecraft:fishing_rod'
     )
+
+    // Reinforced Deepslate
+    event.add('forge:relocation_not_supported',
+        'minecraft:reinforced_deepslate'
+        )
 
     // Sleeping Bags
     event.add('forge:sleeping_bags',
@@ -585,6 +675,31 @@ ServerEvents.tags('item', event => {
     'environmental:cooked_duck'
     )
 
+    //Wind Chimes
+event.add('forge:wind_chimes',
+    'chimes:bamboo_chimes',
+    'chimes:iron_chimes', 
+    'chimes:carved_bamboo_chimes', 
+    'chimes:copper_chimes', 
+    'chimes:amethyst_chimes'
+)
+
+// coal ores 
+event.add('forge:ores/coal',
+    "spelunkery:granite_coal_ore", 
+    "spelunkery:andesite_coal_ore", 
+    "spelunkery:diorite_coal_ore", 
+    "spelunkery:tuff_coal_ore"
+    )
+
+    // Simple Hat Bags
+event.add('forge:hatbags',
+    'simplehats:hatbag_common', 'simplehats:hatbag_uncommon', 'simplehats:hatbag_rare', 'simplehats:hatbag_epic','simplehats:hatbag_easter', 'simplehats:hatbag_summer', 'simplehats:hatbag_halloween', 'simplehats:hatbag_festive'
+)
+event.add('forge:hatscraps',
+    'simplehats:hatscraps_common', 'simplehats:hatscraps_uncommon', 'simplehats:hatscraps_rare','simplehats:hatscraps_easter', 'simplehats:hatscraps_summer', 'simplehats:hatscraps_halloween', 'simplehats:hatscraps_festive'
+ )
+
     event.add('forge:cooked_duck', 'duckling:cooked_duck')
 
     event.add('caupona:meats',
@@ -611,7 +726,8 @@ ServerEvents.tags('item', event => {
     'netherdepthsupgrade:blazefish_slice',
     'netherdepthsupgrade:searing_cod_slice',
     'netherdepthsupgrade:obsidianfish_slice',
-    'netherdepthsupgrade:lava_pufferfish_slice'
+    'netherdepthsupgrade:lava_pufferfish_slice',
+    'aquaculture:fish_fillet_raw'
     )
 
     event.add('minecraft:fishes',
@@ -625,7 +741,8 @@ ServerEvents.tags('item', event => {
     'netherdepthsupgrade:blazefish_slice',
     'netherdepthsupgrade:searing_cod_slice',
     'netherdepthsupgrade:obsidianfish_slice',
-    'netherdepthsupgrade:lava_pufferfish_slice'
+    'netherdepthsupgrade:lava_pufferfish_slice',
+    'aquaculture:fish_fillet_raw'
     )
 
     event.add('caupona:seafood',
@@ -712,11 +829,6 @@ ServerEvents.tags('item', event => {
     'miners_delight:baked_squid'
     )
 
-      // Reinforced Deepslate
-      event.add('forge:relocation_not_supported',
-      'minecraft:reinforced_deepslate'
-      )
-
       //string
 
 event.add('forge:string',
@@ -781,7 +893,7 @@ event.add('forge:maj_cards',
     'aquaculture:gold_hook'
     )
 
-    //Niche 
+    //Niche Hooks
     event.add('forge:niche_hooks',
     'aquaculture:note_hook',
     'aquaculture:redstone_hook',
@@ -842,25 +954,34 @@ event.add('forge:sophb_fluid',
     'sophisticatedbackpacks:xp_pump_upgrade'
 )
 
-//Azalea Saplings
-event.add('forge:saplings',
-    'colorfulazaleas:orange_azalea_sapling',
-    'colorfulazaleas:yellow_azalea_sapling',
-    'colorfulazaleas:red_azalea_sapling',
-    'colorfulazaleas:blue_azalea_sapling',
-    'colorfulazaleas:pink_azalea_sapling',
-    'colorfulazaleas:purple_azalea_sapling',
-    'colorfulazaleas:white_azalea_sapling'
-)
+// Copycat
+    event.add('forge:copycat_blocks',
+    'create:copycat_step',
+    'create:copycat_panel'
+    )
 
-//Wind Chimes
-event.add('forge:wind_chimes',
-    'chimes:bamboo_chimes',
-    'chimes:iron_chimes', 
-    'chimes:carved_bamboo_chimes', 
-    'chimes:copper_chimes', 
-    'chimes:amethyst_chimes'
-)
+    // Create Doors
+    event.add('forge:create_doors',
+    'create:andesite_door',
+    'create:brass_door',
+    'create:copper_door',
+    'create:train_door',
+    'create:framed_glass_door'
+    )
+
+    //Hammers
+    event.add('forge:hammers',
+    'another_furniture:furniture_hammer',
+    'handcrafted:hammer',
+    'hexerei:warhammer',
+    'framedblocks:framed_hammer'
+    )
+
+    //Fish Tags
+    event.add('forge:raw_fishes', 'aquaculture:fish_fillet_raw')
+    event.add('forge:raw_fish', 'aquaculture:fish_fillet_raw')
+    event.add('forge:cooked_fishes', 'aquaculture:fish_fillet_cooked')
+    event.add('forge:cooked_seafood', 'aquaculture:fish_fillet_cooked')
 
 
 // aquaculture fish
@@ -896,9 +1017,6 @@ event.add('forge:aquafish',
         'aquaculture:tuna'
 )
 
-    //raw fish moment
-   // event.add('forge:raw_fishes', 'aquaculture:fish_fillet_raw')
-
 /// Refined Storage Controllers/Lodestones
 
     event.add('forge:creative_controller',
@@ -920,25 +1038,20 @@ event.add('forge:aquafish',
       "refinedstorage:black_creative_controller"
     
     )
-/// coal ores 
-event.add('forge:ores/coal',
-"spelunkery:granite_coal_ore", 
-"spelunkery:andesite_coal_ore", 
-"spelunkery:diorite_coal_ore", 
-"spelunkery:tuff_coal_ore"
-)
 
-/// Simple Hat Bags
-event.add('forge:hatbags',
-    'simplehats:hatbag_common', 'simplehats:hatbag_uncommon', 'simplehats:hatbag_rare', 'simplehats:hatbag_epic','simplehats:hatbag_easter', 'simplehats:hatbag_summer', 'simplehats:hatbag_halloween', 'simplehats:hatbag_festive'
-)
-event.add('forge:hatscraps',
-    'simplehats:hatscraps_common', 'simplehats:hatscraps_uncommon', 'simplehats:hatscraps_rare','simplehats:hatscraps_easter', 'simplehats:hatscraps_summer', 'simplehats:hatscraps_halloween', 'simplehats:hatscraps_festive'
- )
 })
 
 
 ServerEvents.tags('block', event => {
+    const bookshelves = (/.*bookshelf*./)
+    //Bookshelves
+    event.add('minecraft:bookshelf',
+    bookshelves
+    )
+
+    event.add('forge:bookshelves',
+    bookshelves
+    )
 
     //Hot Blocks
     //Farmer's Delight
@@ -946,7 +1059,50 @@ ServerEvents.tags('block', event => {
     'create:blaze_burner',
     'decorative_blocks:brazier',
     'decorative_blocks:soul_brazier',
+    'vinery:stove',
     'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven',
+    'byg:magmatic_stone',
+    'byg:cryptic_magma_block',
+    'byg:boric_campfire',
+    'byg:cryptic_campfire',
+    'caupona:brick_hypocaust_firebox',
+    'caupona:opus_incertum_hypocaust_firebox',
+    'caupona:opus_latericium_hypocaust_firebox',
+    'caupona:stone_brick_hypocaust_firebox',
+    'caupona:mud_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove'
+    )
+
+    //Hexerei
+    event.add('hexerei:heat_sources', 
+    'create:blaze_burner',
+    'decorative_blocks:brazier',
+    'decorative_blocks:soul_brazier',
+    'vinery:stove',
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven',
     'byg:magmatic_stone',
     'byg:cryptic_magma_block',
     'byg:boric_campfire',
@@ -964,52 +1120,26 @@ ServerEvents.tags('block', event => {
 
     //Brewin and Chewin
     event.add('brewinandchewin:hot_blocks', 
-    'create:blaze_burner',
-    'decorative_blocks:brazier',
-    'decorative_blocks:soul_brazier',
-    'farmersdelight:stove',
-    'byg:magmatic_stone',
-    'byg:cryptic_magma_block',
-    'byg:boric_campfire',
-    'byg:cryptic_campfire',
-    'caupona:brick_hypocaust_firebox',
-    'caupona:opus_incertum_hypocaust_firebox',
-    'caupona:opus_latericium_hypocaust_firebox',
-    'caupona:stone_brick_hypocaust_firebox',
-    'caupona:mud_kitchen_stove',
-    'caupona:brick_kitchen_stove',
-    'caupona:opus_incertum_kitchen_stove',
-    'caupona:opus_latericium_kitchen_stove',
-    'caupona:stone_brick_kitchen_stove'
-    )
+        'create:blaze_burner',
+        'decorative_blocks:brazier',
+        'decorative_blocks:soul_brazier',
+        'farmersdelight:stove',
+        'byg:magmatic_stone',
+        'byg:cryptic_magma_block',
+        'byg:boric_campfire',
+        'byg:cryptic_campfire',
+        'caupona:brick_hypocaust_firebox',
+        'caupona:opus_incertum_hypocaust_firebox',
+        'caupona:opus_latericium_hypocaust_firebox',
+        'caupona:stone_brick_hypocaust_firebox',
+        'caupona:mud_kitchen_stove',
+        'caupona:brick_kitchen_stove',
+        'caupona:opus_incertum_kitchen_stove',
+        'caupona:opus_latericium_kitchen_stove',
+        'caupona:stone_brick_kitchen_stove'
+        )
 
-    // Caupona
-    event.add('caupona:stoves',
-    'create:blaze_burner',
-    'decorative_blocks:brazier',
-    'decorative_blocks:soul_brazier',
-    'farmersdelight:stove',
-    'byg:magmatic_stone',
-    'byg:cryptic_magma_block',
-    'byg:boric_campfire',
-    'byg:cryptic_campfire',
-    'caupona:brick_hypocaust_firebox',
-    'caupona:opus_incertum_hypocaust_firebox',
-    'caupona:opus_latericium_hypocaust_firebox',
-    'caupona:stone_brick_hypocaust_firebox',
-    'caupona:mud_kitchen_stove',
-    'caupona:brick_kitchen_stove',
-    'caupona:opus_incertum_kitchen_stove',
-    'caupona:opus_latericium_kitchen_stove',
-    'caupona:stone_brick_kitchen_stove'
-    )
-
-      // Reinforced Deepslate
-      event.add('forge:relocation_not_supported',
-      'minecraft:reinforced_deepslate'
-      )
-
-// Hexerei Crow Harvestables
+        // Hexerei Crow Harvestables
 event.add('hexerei:crow_harvestable',
     'minecraft:cave_vines_plant',
     'minecraft:sweet_berry_bush',
@@ -1023,12 +1153,10 @@ event.add('hexerei:crow_harvestable',
     'minecraft:nether_wart'
     )
 
-    
 })
 
-ServerEvents.tags("entity_type", event => {
-
-    event.add("ars_nouveau:drygmy_blacklist",[
+ServerEvents.tags('entity_type', event => {
+    event.add('ars_nouveau:drygmy_blacklist', 
     "minecraft:villager",
     "minecraft:pillager",
     "#forge:bosses",
@@ -1067,20 +1195,9 @@ ServerEvents.tags("entity_type", event => {
     "twilightforest:carminite_golem",
     "friendsandfoes:tuff_golem",
     "friendsandfoes:copper_golem"
+    )
 
-
-
-        
-
-    ])
-})
-
-
-
-
-ServerEvents.tags("entity_type", event => {
-
-    event.add("ars_nouveau:jar_blacklist",[
+    event.add('ars_nouveau:jar_blacklist',
         "#ars_nouveau:familiar",
         "#forge:bosses",
         "twilightforest:naga",
@@ -1108,7 +1225,5 @@ ServerEvents.tags("entity_type", event => {
         "deeperanddarker:shattered",
         "deeperanddarker:stalker",
         "deeperanddarker:sculk_snapper"
-
-    ])
+    )
 })
-

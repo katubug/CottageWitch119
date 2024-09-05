@@ -1,0 +1,15 @@
+{
+  "name": "integrated_stronghold:portal_room/portal_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_stronghold:portal_room/portal_room_endrem",
+        "processors": "integrated_stronghold:portal_room_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

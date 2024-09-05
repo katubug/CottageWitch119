@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "structory:abandoned_chapel",
+      "weight": 5
+    },
+    {
+      "structure": "structory:graveyard",
+      "weight": 2
+    },
+    {
+      "structure": "structory:abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "structory:outcast_villager_grassy",
+      "weight": 8
+    },
+    {
+      "structure": "structory:ruin_grassy",
+      "weight": 8
+    },
+    {
+      "structure": "structory:firetower",
+      "weight": 4
+    },
+    {
+      "structure": "structory:outcast_villager_desert",
+      "weight": 4
+    },
+    {
+      "structure": "structory:boat",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "salt": 420,
+    "spacing": 26,
+    "separation": 14,
+    "type": "minecraft:random_spread"
+  }
+}

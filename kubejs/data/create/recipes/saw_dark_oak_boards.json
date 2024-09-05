@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "handcrafted:dark_oak_board",
+      "count": 4,
+      "chance": 1
+    }
+  ],
+  "processingTime": 10
+}

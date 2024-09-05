@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "spelunkery:rock_salt_block"
+      }
+    ],
+    "tool": {
+      "tag": "forge:hammers"
+    },
+    "result": [
+      {
+        "item": "spelunkery:rock_salt",
+        "count": 4
+      }
+    ]
+  }

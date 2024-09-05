@@ -1,0 +1,7 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "environmental:deer",
+  "reversible": true,
+  "to": "twilightforest:deer"
+}
+

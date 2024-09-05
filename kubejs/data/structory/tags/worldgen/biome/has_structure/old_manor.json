@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dark_forest",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga",
+        {
+      "id": "terralith:shield",
+      "required": false
+        },
+        {
+      "id": "terralith:forested_highlands",
+      "required": false
+        },
+        {
+      "id": "#forge:is_coniferous",
+      "required": false
+        }
+    ]
+}

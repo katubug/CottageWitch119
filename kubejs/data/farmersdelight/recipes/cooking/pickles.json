@@ -1,0 +1,24 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "meals",
+    "ingredients": [
+    {
+    "item": "culturaldelights:cucumber"
+    },
+    {
+    "item": "culturaldelights:cucumber"
+    },
+      {
+        "item": "meadow:alpine_salt"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:pickle",
+      "count": 2
+    },
+    "experience": 0.35,
+    "cookingtime": 100
+  }
