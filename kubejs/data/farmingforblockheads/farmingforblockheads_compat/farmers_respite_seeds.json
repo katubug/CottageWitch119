@@ -1,0 +1,24 @@
+{
+    "modId": "farmersrespite",
+    "group": {
+      "name": "Farmer's Respite Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {"output": "farmersrespite:coffee_beans",
+    "payment": {
+          "item": "minecraft:blaze_rod",
+          "count": 12
+        }},
+        {"output": "farmersrespite:tea_seeds",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "modId": "minecraft",
+  "silent": true,
+  "group": {
+    "name": "Various",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {"output": "culturaldelights:avocado_sapling"},
+    {"output": "deeperdarker:echo_sapling"},
+    {"output": "ecologics:coconut_seedling"}
+    
+  ]
+}
+

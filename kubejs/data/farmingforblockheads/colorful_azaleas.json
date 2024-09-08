@@ -1,0 +1,35 @@
+{
+    "modId": "colorfulazaleas",
+    "silent": true,
+    "group": {
+      "name": "Colorful Azalea Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "colorfulazaleas:white_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:purple_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:pink_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:blue_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:red_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:yellow_azalea_sapling"
+        },
+        {
+            "output": "colorfulazaleas:orange_azalea_sapling"
+        }
+    ]
+  }

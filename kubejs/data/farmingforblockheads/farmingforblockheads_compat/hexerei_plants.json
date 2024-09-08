@@ -1,0 +1,35 @@
+{
+    "modId": "hexerei",
+    "group": {
+      "name": "Hexerei Seeds and Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {"output": "hexerei:sage_seed"},
+        {"output": "hexerei:mandrake_flower",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:belladonna_flower",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:mugwort_bush",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:yellow_dock_bush",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}
+    ]
+  }
+  
