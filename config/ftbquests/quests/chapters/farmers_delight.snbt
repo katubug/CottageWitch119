@@ -23,8 +23,10 @@
 	quests: [
 		{
 			description: [
-				"You've obtained some &bseeds&r, congratulations! The first step of becoming a successful farmer is to have something to plant."
+				"You've obtained some &bseeds&r, congratulations! The first step of becoming a successful farmer (or Green Witch) is to have something to plant."
+				""
 				"As a reward, try this &bRich Soil&r. It can be crafted from &bOrganic Compost&r, and is great for planting crops on!"
+				""
 				"It will &aperiodically grant a growth boost&r to crops (when it's provided with water) and it &acannot be trampled&r. It &acan also be used to grow &bMushroom Colonies&r in complete darkness."
 			]
 			id: "4930ECD60EA9ED8D"
@@ -91,6 +93,7 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"&bPies&r from this mod can be eaten one of two ways. You can place them down like a &bcake&r and eat them slice-by-slice, or you can place them on a &bCutting Board&r and use that to cut them into &bportable slices&r."
+				""
 				"When eaten, they grant you a short speed boost!"
 			]
 			id: "57B830324890E32C"
@@ -341,7 +344,7 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
+			description: ["&lFarmer's Delight&r adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
 			id: "2CA80140F624D0AE"
 			rewards: [{
 				id: "69ACEF4AC35DF65C"
@@ -418,6 +421,7 @@
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
 				"The &bStraw Hat&r can be bartered from &aFarmer Villagers&r. It will give you a bonus to plant growth and an extra chance at &aOverweight Crops&r!"
+				""
 				"It also gives a chance of breeding twins or triplets! ...of the animals. Not you. Probably."
 			]
 			id: "41ACB7D51D1AC9A9"
@@ -459,6 +463,7 @@
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
 				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
+				""
 				"Peeled &bMelons&r can have their seeds removed with an &bAxe&r, and then juiced by &6right clicking them with a bottle&r."
 			]
 			id: "4B733744EBC620FC"
@@ -534,6 +539,7 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"They say not to waste your diamonds on a hoe. But you've taken this a step further."
+				""
 				"To honor your commitment, please take this reward."
 			]
 			id: "2186A6F69ADBE795"
@@ -643,7 +649,8 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"Have you &6automated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
-				"[Repeatable Quest]"
+				""
+				"&dThis quest is repeatable&r."
 			]
 			id: "6630D27FC9E3F285"
 			rewards: [
@@ -832,8 +839,10 @@
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
+				"There's a way to &agrow crops more quickly&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
+				""
 				"Once tilled, &bRich Soil&r will &agrant extra growth&r ticks to your plants. It also &acannot be trampled&r, and &adoes not require water&r."
+				""
 				"You'll also want it if you're planning on growing any &bMushroom Colonies&r."
 			]
 			id: "02F91E51E86F71F6"
@@ -965,7 +974,7 @@
 				"These &bCarts&r are useful for transporting &aitems and entities&r. &6Press \"r\"&r by default when either mounted or on foot to &ahaul the cart&r. Press R again to set it down."
 				"The &bSupply Cart&r is fairly self-explanatory. &6Shift right click the cart&r to access its inventory, and &aload it up with items&r! You can then transport those items over land. However, &abreaking the cart&r will drop its inventory."
 				"The &bAnimal Cart&r will help you &atransport entities&r! &6Right click the cart item&r onto the creature you want to move. Then, haul as normal. &aBreak the cart&r to free the animal."
-				"{image:cottagewitch:textures/cart.png width:100 height:100 align:1 fit:true}"
+				"{image:cottagewitch:textures/cart.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "04BD2724E24B4125"
 			rewards: [

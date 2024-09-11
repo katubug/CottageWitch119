@@ -24,6 +24,7 @@
 		{
 			description: [
 				"To begin your journey as an Ars Novice, you must first obtain the &bWorn Notebook&r. This can be found in your &bAkashic Tome&r, by right clicking and choosing the right book."
+				""
 				"To return your Akashic Tome to its base state, &ahold it and left click&r while &atargeting the air&r."
 			]
 			id: "18F9D7E52D49C89B"
@@ -44,9 +45,12 @@
 				"To obtain the &bNovice Spell Book&r, you must &6remove the Worn Notebook&r and craft it with &bGold&r in a &bCrafting Table&r."
 				""
 				"To retrieve your &bWorn Notebook&r from your &bAkashic Tome&r, &6select the Worn Notebook in the tome&r, then &6crouch and throw the book&r. This will eject the Worn Notebook so you can craft with it."
+				""
 				"The name will look funny. That's normal, you can craft with it just fine."
+				""
 				"Once you have your &bNovice Spell Book&r, you can &6hold it and press c&r to access the interface."
 				"The top tab is &athe worn notebook, a reference guide for the mod&r. The next tab lets you &abuild and save spells&r. We'll address the rest later."
+				""
 				"Note that &dwhile holding your book, you cannot use the ` key&r."
 			]
 			id: "56A2E0152608BC39"
@@ -70,7 +74,9 @@
 			dependencies: ["56A2E0152608BC39"]
 			description: [
 				"To make a spell, you must choose the &aForm&r (touch, self, or projectile) and the &aEffect&r (harm or break). These are called &bGlyphs&r, and you'll unlock more as you go."
+				""
 				"For example, you could &6choose Projectile and Break&r to have a remote way of breaking blocks. Input the &aspell name&r in the bottom left, and click &dCreate&r in the bottom right. It will save to your &afirst spell slot&r (the 10 tabs on the right are your &aSpell Slots&r."
+				""
 				"&6Cast your spells&r by holding your Spellbook in your main or offhand, and right click. &aSelect your spells with v&r."
 			]
 			id: "129ED1C8BBF786DF"
@@ -126,6 +132,7 @@
 			dependencies: ["129ED1C8BBF786DF"]
 			description: [
 				"Your next step is to obtain &bArchwood&r of some type. These trees are found somewhat rarely in many biomes."
+				""
 				"From the Archwood, you can craft the &bAmethyst Dowsing Rod&r, which will help you find &bAmethyst Geodes&r. This is an important magical material, so collect lots of it!"
 			]
 			id: "2E6190A66BE57ECE"
@@ -169,7 +176,8 @@
 			dependencies: ["6A1AECF9FED954C9"]
 			description: [
 				"Magic such as &aImbuement&r requires &dSource&r, a force which flows through all living things. You may craft a &bSourcelink&r to collect it, and a &bSource Jar&r to contain it,"
-				"But where does Source come from? The natural world. One way you can obtain it is via an &bAgronomic Sourcelink&r. &6Place your Sourcelink and Jar within 6 blocks&r of your livestock or garden, and it will slowly collect. &dBonemeal will not contribute to Source production&r."
+				""
+				"But where does Source come from? The natural world. One way you can obtain it is via an &bAgronomic Sourcelink&r. &6Place your Sourcelink and Jar within 6 blocks&r of your livestock or garden, and it will slowly collect. &dBonemealed crops will not contribute to Source production&r."
 			]
 			id: "66F0429FA3DB8535"
 			rewards: [{
@@ -198,6 +206,7 @@
 			dependencies: ["2E6190A66BE57ECE"]
 			description: [
 				"The &bImbuement Chamber&r is how you can create &bSource Gems&r. Simply &6place an Amethyst or Lapis&r inside the Chamber and wait for it to slowly transform."
+				""
 				"This can be sped up later by &agiving it access to Source&r, such as that contained in a &bSource Jar&r."
 			]
 			id: "6A1AECF9FED954C9"
@@ -229,8 +238,11 @@
 			dependencies: ["6A1AECF9FED954C9"]
 			description: [
 				"Craft a &bScribe's Table&r to take your next steps. The Scribe's Table is where you will do your &amagical crafting&r and acquire new Glyphs!"
+				""
 				"To see the new Glyphs, &6right click on the Table with your Spellbook&r. You can use the tabs on the right to &asort by tier&r. Find the Glyph you'd like to craft and select it."
+				""
 				"Once a Glyph is selected, gather the items and &6throw them onto the table&r. The floating item will disappear when it is accepted by the table."
+				""
 				"You may need &asome unique items called Essences&r. These are crafted on the &bImbuement Chamber&r and will require the use of &bPedestals&r."
 			]
 			id: "52E5A3E81A0CA5AE"
@@ -266,7 +278,9 @@
 			dependencies: ["0C6AA50E808EBB9F"]
 			description: [
 				"&bSpell Parchment&r is a way for you to store a spell on paper. They are &asingle-use&r, and can be printed at the &bScribe's Table&r."
+				""
 				"First, make a &bBlank Parchment&r with Paper and &bMagebloom Fiber&r. Then, combine that with &bSource Gems&r to create the final product."
+				""
 				"Once you have placed your Scroll on the Scribe's Table, &dset your desired spell in your Spellbook&r and then &6shift right click your Spellbook on the Table&r. This will inscribe the spell onto the Parchment for you!"
 			]
 			id: "02ED5F7941A9361D"
@@ -304,8 +318,10 @@
 				"52E5A3E81A0CA5AE"
 			]
 			description: [
-				"Craft an &bArcane Pedestal&r in a Crafting Bench using Arcane Stone."
+				"Craft an &bArcane Pedestal&r in a Crafting Bench using &bSourcestone&r."
+				""
 				"These Pedestals need to be placed surrounding the &bImbuement Chamber&r or &bEnchanting Apparatus&r. You can do either a + pattern or an x pattern. Both are valid."
+				""
 				"&6Use JEI to find the recipe&r for each Glyph. Only the Source Gem is consumed, so don't worry about using expensive reagents."
 			]
 			id: "57059A425BFB5179"
@@ -328,7 +344,7 @@
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
-			description: ["&bSourcetone&r is a material used in magical crafting recipes. It can be created at a basic &bCrafting Table&r, by surrounding a &bSource Gem&r with &bany kind of Stone&r."]
+			description: ["&bSourcestone&r is a material used in magical crafting recipes. It can be created at a basic &bCrafting Table&r, by surrounding a &bSource Gem&r with &bany kind of Stone&r."]
 			id: "5193B0D7E5ACC0A7"
 			rewards: [
 				{
@@ -366,8 +382,11 @@
 			]
 			description: [
 				"For starters, let's make the &bHarvest Glyph&r. As you can see in &lJEI&r, it requires an &bIron Hoe&r and an &bEarth Essence&r."
+				""
 				"To make the Earth Essence, you'll need to have your &aArcane Pedestals set up around your Imbuement Chamber&r. You will need &bDirt, Seeds, and an Iron Ingot&r. &6Right click each reagent on a pedestal&r (the order doesn't matter). Once they're in place, put a &bSource Gem&r into the Imbuement Chamber."
+				""
 				"If you have done everything correctly, it will begin crafting! It may go slowly unless there is a &bfilled Source Jar&r within 6 blocks."
+				""
 				"Once it's done, pull it from the Chamber and &6throw both items&r onto your Scribe's Table. Then, grab your finished &bGlyph&r and &6right click while holding it&r to unlock the knowledge!"
 			]
 			id: "1692491D59BA0527"
@@ -406,6 +425,7 @@
 			dependencies: ["1692491D59BA0527"]
 			description: [
 				"To move forward, you'll want an &bEnchanting Apparatus&r, which requires an &bArcane Core&r beneath it, and &bPedestals&r surrounding it."
+				""
 				"You can either bury the Arcane Core and place everything on floor-level, or you can place the Core on floor level and raise the Pedestals up."
 			]
 			id: "1300FBB6DF2AF01A"
@@ -443,8 +463,11 @@
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
 				"&bMagebloom&r is an intensely magical plant which cannot be found naturally. You must create it using an &bEnchanting Apparatus&r. It requires &bSource Gems&r and &bSeeds&r."
+				""
 				"&6Place the Source Gems&r on 4 of the Pedestals (order doesn't matter), and then &6place the Seeds in the Apparatus&r."
+				""
 				"Magebloom is used in many recipes, but is especially valued for its &bFiber&r, from which &amana-infused clothing, and spell parchments&r can be made."
+				""
 				"&dDon't forget to read your Spellbook's documentation in the top left tab!&r It has more information than these quests do."
 			]
 			id: "0C6AA50E808EBB9F"
@@ -543,7 +566,9 @@
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
 				"The &bPotion Jar&r can hold up to 100 doses of a single potion."
+				""
 				"You can use it to refill your &bPotion Flask&r, which is a container able to hold up to 8 doses of the same potion type."
+				""
 				"There are two variants of the Potion Flask: &aExtend Time&r and &aAmplify&r. I think you can guess what each does."
 			]
 			id: "2035BB54A9444F74"
@@ -580,6 +605,7 @@
 			dependencies: ["2035BB54A9444F74"]
 			description: [
 				"The &bPotion Melder&r allows you to &amix the effects of two or more potions&r. It draws from &bPotion Jars&r which surround it on either side, and when &6provided with Source&r, outputs to a Jar beneath it."
+				""
 				"Only two Potion Jars can be used at a time, however, you can &6fill one Jar with a Melded Potion&r to add even more effects to it."
 			]
 			id: "296E6CCDF530F5D5"
@@ -748,6 +774,7 @@
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
 				"The &bCasting Wand&r is an item which you can assign a single spell to. It will automatically have the form &aProjectile&r and the Glyph of &aAccelerate&r."
+				""
 				"&6Place it on your Scribe's Table&r and then create the desired spell in your Book. You can then &6shift right click&r on the Table with your Spellbook to write the spell to the wand."
 			]
 			id: "7894B8900BF0BF51"
@@ -869,6 +896,7 @@
 			]
 			description: [
 				"The &bFocus of Summoning&r allows your summoned companions to last longer."
+				""
 				"It also &adamages nearby enemies&r which try to attack them, and &acauses the \"self\" form to count them&r as well as the player."
 			]
 			id: "4C28B6865EDE04DD"
@@ -907,7 +935,9 @@
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
 				"These two &bJars&r each have a unique effect."
+				""
 				"The &bJar of Voiding&r will delete specified items upon pickup, in exchange for mana. Helpful to get rid of extra Cobblestone! &6Shift click&r to toggle it on or off. To add an item to the void list, &6hold that item in your offhand and right click&r with the Jar."
+				""
 				"The &bJar of Light&r summons a light source to follow the player, which can be dismissed at any time. &6Right click&r to toggle this summon."
 			]
 			id: "17E37418AF2A9AE8"
@@ -945,6 +975,7 @@
 			dependencies: ["67BD14F42C133046"]
 			description: [
 				"The &eWeald Walkers&r are Archtrees which have been awoken. In order to perform this Ritual, &6place the brazier near an Archwood tree&r and &6right click&r it with the Tablet. &6Right click&r the Brazier to get started."
+				""
 				"Once the &eWeald Walker&r is ambling about, &6right click it&r with the &bDominion Wand&r, and then right click it on the block you want as the Walker's &ahome&r."
 			]
 			id: "72CACA09D66C8B43"
@@ -1022,7 +1053,9 @@
 			dependencies: ["09C9FD92B5C2E636"]
 			description: [
 				"In order to make certain items, you'll need to defeat the boss, &eThe Wilden Chimera&r. This does not spawn naturally, and must be summoned via &aRitual&r."
+				""
 				"It's suggested to be using tier 2 armor and spells before engaging this boss."
+				""
 				"To summon him, you'll need to find a &eWilden Hunter&r, &eWilden Guardian&r, and &eWilden Stalker&r, and obtain their &btrophies&r."
 			]
 			id: "6D58B5D08AAAAB42"
@@ -1053,9 +1086,13 @@
 			dependencies: ["67BD14F42C133046"]
 			description: [
 				"&eFamiliars&r are small creatures who help you with your magical duties. These differ from &eCrows&r in both how you meet them, and what they can do."
+				""
 				"Firstly, you must obtain the &bCharm&r of each Familiar. This is done differently depending on which one you're trying to summon. But you will need to &6activate their Charm&r before beginning the Ritual."
+				""
 				"You must &6place a Ritual Brazier&r nearby the Familiar and &6put the &bTablet of Binding&6 on it&r. Then &6right click&r the Brazier. It will ensnare the &eFamiliar&r and produce a &bBound Script&r, which you can then &6right click&r to learn - from then on, that Familiar may be summoned from the &athird tab in your spellbook&r!"
+				""
 				"Read on for more information about each Familiar, both in Familiar mode and out."
+				""
 				"You can dismiss your summoned Familiar with a &aDispel&r Spell. Break the blocks they came from to &aget back their Charm&r."
 			]
 			id: "518A08681965283A"
@@ -1078,7 +1115,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"&bStarbuncles&r are small, squirrel-like creatures which love &bGold Nuggets&r. Find a wild Starbuncle and toss them one to receive a &bStarbuncle Shard&r in return, which is used to craft its &bCharm.&r You can simply &6right click the charm on the ground&r to summon its tame counterpart."
+				""
 				"When following you, the &eStarbuncle&r will grant you &aSpeed II&r and, when fed Gold Nuggets, it will give you the ability to &asee gold veins through blocks&r."
+				""
 				"The &eStarbuncle&r is capable of &aitem transport&r. Use a &bDominion Wand&r to assign it to certain inventories. It will also &aharvest fully-grown &bSource Berries&r."
 			]
 			id: "772E17A1C8332FCA"
@@ -1107,7 +1146,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"The &eWhirlisprig&r looks like an unripe tomato helicopter. Once you locate a wild one, &6grow a tree near it&r in order to receive its &bShards&r, used to make its &bCharm&r! You can then &6right click the charm&r on any small flower to summon one."
+				""
 				"While in Familiar mode, they &areduce the cost of earth spells&r by half. Food you eat will also grant you more saturation."
+				""
 				"The &eWhirlisprig&r, when bound to its flower, will &aduplicate nearby &borganic items&r - trees, flowers, etc. They need to be provided with a chest and &bSource&r."
 			]
 			id: "1595CFEA592A8F90"
@@ -1128,7 +1169,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"The &eDrygmy&r is a small gnome-like creature with antlers, and can be found in the wild. In exchange for a &bWilden Horn&r dropped at its feet, it will give you a &bDrygmy Shard&r, which can be used to create its &bCharm&r. &6Right click the Charm on &bMossy Cobblestone&r."
+				""
 				"When it is following you, it increases your Earth spell damage, and boosts &aLooting&r."
+				""
 				"Multiple &eDrygmy&r can be assigned to a single &bHenge&r, and these creatures will &aharvest drops and experience gems&r from &eLivestock&r in a 10 block radius, without harming them! After it harvests, it will place items in a nearby inventory, and must recharge its ability &awith Source&r."
 			]
 			id: "393D7EE8162A2FB9"
@@ -1149,8 +1192,10 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"The &eBookwyrm&r is a small flying creature that resembles a wyvern, with book pages for wings. You can summon it using a &bBookwyrm Charm&r (made with &bIron&r and &bSource Gems&r and &ba book&r), which you &6shift right click on a &bLectern&r. After the Lectern finishes drawing magic to itself, the Bookwyrm will appear!"
+				""
 				"When following you, the &eBookwyrm&r &adecreases your spell cost and increases your spell damage&r."
 				"When it is simply bound to a Lectern, it will &acast spells on the surrounding area&r, based on what &bParchment Scrolls&r you give it. It can be &adyed&r for color-coding purposes. To cast spells, there must be a filled &bSource Jar&r nearby."
+				""
 				"This &ditem is under construction&r and so the quest is temporarily a &acheckmark&r."
 			]
 			id: "4006775C2145C6CD"
@@ -1172,7 +1217,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"The &bWixie&r's &bShards&r are obtained by using the &aDispel&r effect on a &aWitch&r when they're under half health. Once you craft the &bCharm&r, you can &6right click it on a &bCauldron&r to summon the &aWixie&r."
+				""
 				"Wixies will &aincrease the duration of consumed potions&r while they are following you. They will also &aapply negative potion effects on enemies&r."
+				""
 				"When a Wixie is bound to a Cauldron, it will &aautomatically craft an item or potion&r it is told to. It will draw from nearby inventories, and can be paused if it receives a redstone signal."
 			]
 			id: "313B15A623A19140"
@@ -1289,7 +1336,9 @@
 			]
 			description: [
 				"The &bAmethyst Golem&r can be summoned by using the &6Ritual of Awakening&r on some &bBudding Amethyst&r."
+				""
 				"&6Right click&r the shard on a block to summon the &eGolem&r, and then &6set its home block&r with your &bDominion Wand&r."
+				""
 				"&eAmethyst Golems&r will convert Amethyst into &bBudding Amethyst&r, speed up &aamethyst growth&r, and will also &aharvest amethyst clusters&r, so long as their home block is an inventory such as a chest or barrel."
 			]
 			id: "01FF4033A5D2BCD3"
@@ -1310,7 +1359,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"&eSirens&r can be found rarely in &aOcean Biomes&r, and you can obtain their &bShards&r by giving them a &bSea Pickle&r, their favorite snack!"
+				""
 				"Use the &bSiren Charm&r on a piece of Prismarine to summon it. &eSirens&r will change color if given &bkelp&r or &bcorals&r."
+				""
 				"The &bSiren Shrine&r will generate &afishing loot&r, as long as it is provided with &bSource&r. The &eSirens&r will produce faster if they have lots of aquatic plants and animals to keep them company!"
 			]
 			id: "5A7582AFC194A690"
@@ -1331,7 +1382,9 @@
 			dependencies: ["518A08681965283A"]
 			description: [
 				"Unlike the other &bCharms&r, the &eFlarecannon&r's does not require &bShards&r, and can be simply crafted."
+				""
 				"The &eFlarecannon&r will &adefend its territory&r much like the &eWeald Walkers&r, by firing homing projectiles at enemies."
+				""
 				"You can give them &bSoul Sand&r or &bMagma Blocks&r to change their appearance."
 			]
 			id: "1E18004CE618CAE6"
@@ -1352,9 +1405,13 @@
 			dependencies: ["2E6190A66BE57ECE"]
 			description: [
 				"Each type of &aArchwood Tree&r bears its own &bfruit&r! You can find it &agrowing from the tree like Cocoa Beans&r."
+				""
 				"The &bBastion Fruit&r comes from the &aVexing Archwood&r Tree. When consumed, it will grant you &aShielding&r, a form of &aResistance&r."
+				""
 				"The &bFrostaya&r comes from the &aCascading Archwood&r Tree. When consumed, it will &abegin to freeze you&r."
+				""
 				"The &bMendosteen&r comes from the &aFlourishing Archwood&r Tree. It grants the &aRecovery&r effect, which increases healing you receive from health items."
+				""
 				"The &bBombegranate&r comes from the &aBlazing Archwood&r Tree. &dIts effects are unknown&r, as the journal from which I got this information ends at this entry."
 			]
 			id: "47B8DC917C985757"
@@ -1418,7 +1475,8 @@
 			dependencies: ["66F0429FA3DB8535"]
 			description: [
 				"The &bMycelial Sourcelink&r generates &aSource&r from &afood items&r. Provide it with delicious delectables and it will provide you with magic!"
-				"It will also &agenerate mushrooms&r in the surrounding area."
+				""
+				"It will also &agenerate mushrooms&r and &bMycelium&r in the surrounding area."
 			]
 			id: "7E3F38817F8844ED"
 			rewards: [
@@ -1445,6 +1503,7 @@
 			dependencies: ["66F0429FA3DB8535"]
 			description: [
 				"The &bVolcanic Sourcelink&r produces Source when provided with &bHeat&r. They will &dmelt blocks around them&r and will also cause &bLava Lilies&r to spawn."
+				""
 				"Change the color of your &bLava Lily&r by placing it over Lava or Magma."
 			]
 			id: "4F22356C80F0C6AA"
@@ -1523,6 +1582,7 @@
 			dependencies: ["772E17A1C8332FCA"]
 			description: [
 				"Although charming, &eStarbuncles&r are not the hardiest creatures, and it can be a pain to reinstruct them should something unpleasant happen to them."
+				""
 				"Thankfully, the &bScroll of Save Starbuncle&r will &apreserve all their settings&r. Just be sure to &6right click the scroll&r on your Starby after you've finished setting them up!"
 			]
 			id: "1C29A869EC894801"
@@ -1559,8 +1619,11 @@
 			dependencies: ["7A5533BEA4D6B751"]
 			description: [
 				"There are so many options for &bmagely gear&r... How can you choose? Well, you may not have to!"
+				""
 				"The &bWizard's Armarium&r is a &aBelt curio&r which can contain up to &athree sets of armor&r and even &ahotbar items&r for you to swap on the fly."
+				""
 				"By default, you'll &6press 0&r to bring up a radial wheel of armor sets. But &dfirst you need to load the Armarium&r with gear."
+				""
 				"To begin, &6equip your robes and set up your hotbar&r. Then, open the radial and &6select the slot&r to save them to. Open your radial again, and &6switch to a different slot&r. Equip your second set of armor and then &6repeat the previous&r steps until all 3 slots are filled. Now, you can &aeasily swap between them&r using the radial."
 			]
 			id: "6166CCA185DDB9F1"
@@ -1630,6 +1693,7 @@
 			dependencies: ["772E17A1C8332FCA"]
 			description: [
 				"The &bStarbin&r will allow your &aStarbuncle&r to &adelete items it picks up&r. Be sure to set a filter first!"
+				""
 				"You can set a filter by &6preparing an Allow/Deny Scroll&r and &6clicking your Starbuncle&r with it."
 			]
 			id: "6870DE7CB25E9C8D"
@@ -1667,6 +1731,7 @@
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
 				"A &bCasting Crystal&r is an item which can have a &aspell bound to it&r, and then you can &6equip it as a Curio&r, and access its spell via a hotkey."
+				""
 				"You can &awear up to three&r of these, and by default they are accessible with &6CTRL+1-3&r."
 			]
 			id: "068E6BE3B5F01460"

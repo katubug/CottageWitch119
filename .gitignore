@@ -10,3 +10,5 @@ config/spawnbalanceutility/StructMobWeight.txt
 config/voicechat/
 config/jei/recipe-category-sort-order.ini
 config/jei/ingredient-list-mod-sort-order.ini
+config/spawnbalanceutility/MassAdditionMobs.txt
+config/jei/ingredient-list-type-sort-order.ini

@@ -5,18 +5,6 @@
 	render_name_color = true
 	#If beams should be colored the same as the Items rarity.
 	render_rarity_color = true
-	#The radius of the Loot Beam.
-	#Range: 0.0 ~ 5.0
-	beam_radius = 1.0
-	#The height of the Loot Beam.
-	#Range: 0.0 ~ 10.0
-	beam_height = 1.0
-	#The Y-offset of the loot beam.
-	#Range: -30.0 ~ 30.0
-	beam_y_offset = 0.0
-	#Transparency of the Loot Beam.
-	#Range: 0.0 ~ 1.0
-	beam_alpha = 0.85
 	#How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
 	#Range: 0.0 ~ 24.0
 	render_distance = 24.0
@@ -67,4 +55,78 @@
 		custom_rarities = []
 		#If rarities should ignore color and render as white (This is really only used for modpacks)
 		white_rarities = false
+		#If vanilla rarities should be rendered.
+		vanilla_rarities = true
+
+	#Beam Configuration
+	["Loot Beams".Beam]
+		#The radius of the Loot Beam.
+		#Range: 0.0 ~ 5.0
+		beam_radius = 0.55
+		#The height of the Loot Beam.
+		#Range: 0.0 ~ 10.0
+		beam_height = 1.5
+		#The Y-offset of the loot beam.
+		#Range: -30.0 ~ 30.0
+		beam_y_offset = 0.5
+		#If the Loot Beam should be shorter for common items.
+		common_shorter_beam = true
+		#Transparency of the Loot Beam.
+		#Range: 0.0 ~ 1.0
+		beam_alpha = 0.75
+		#If the Loot Beam should use a solid texture or the beacon style texture.
+		solid_beam = true
+		#If the Loot Beam should have a white center.
+		white_center = true
+		#If the Loot Beam should be glowing.
+		glowing_beam = true
+		#If the Loot Beam should have a glow effect around the base of the item.
+		glow_effect = true
+		#The radius of the glow effect.
+		#Range: 1.0E-5 ~ 1.0
+		glow_effect_radius = 0.5
+		#If the glow effect should be animated.
+		animate_glow = true
+		#If the item must be on the ground to render a beam.
+		require_on_ground = true
+
+	#Particle Config
+	["Loot Beams".Particles]
+		#If particles should appear around the item.
+		particles = true
+		#The size of the particles.
+		#Range: 1.0E-5 ~ 10.0
+		particle_size = 0.25
+		#The speed of the particles.
+		#Range: 1.0E-5 ~ 10.0
+		particle_speed = 0.1
+		#The radius of the particles.
+		#Range: 1.0E-5 ~ 10.0
+		particle_radius = 0.05
+		#The amount of particles to spawn per second.
+		#Range: 1.0 ~ 20.0
+		particle_count = 19.0
+		#The lifetime of the particles in ticks.
+		#Range: 1 ~ 100
+		particle_lifetime = 20
+		#If particles should only appear on rare items.
+		particle_rare_only = true
+
+	#Sounds
+	["Loot Beams".Sounds]
+		#If sounds should be played when items are dropped up.
+		play_sounds = false
+		#The volume of the sound.
+		#Range: 0.0 ~ 1.0
+		sound_volume = 1.0
+		#If sounds should play on all items. Has priority over sound_only_equipment and sound_only_rare.
+		sound_all_items = false
+		#If sounds should only be played on items with rarity.
+		sound_only_rare = true
+		#If sounds should only be played on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
+		sound_only_equipment = false
+		#Registry names of items that sounds should play on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
+		sound_whitelist = []
+		#Registry names of items that sounds should NOT play on. This has priority over everything. You can also specify modids for a whole mod's items.
+		sound_blacklist = []
 

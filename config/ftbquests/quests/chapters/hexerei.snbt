@@ -29,7 +29,9 @@
 			dependencies: ["082D264993F18EDB"]
 			description: [
 				"One of the most important tools in a witch's bag is their &bBook of Shadows&r, in which they record their knowledge and experience as they follow their path."
+				""
 				"This one is helpfully &apre-filled with lots of information&r about the magic in the world around you, although it's not a complete guide to everything."
+				""
 				"In order to read your &bBook of Shadows&r, you must first place it on an &bAltar&r."
 			]
 			id: "0BD409AFD13534B3"
@@ -82,6 +84,7 @@
 		{
 			description: [
 				"In order to locate much of the content of this mod, one must first locate a &aSwamp&r or &aJungle&r biome. These can be found either with the &bNature's Compass&r, or the &bDowsing Rod&r."
+				""
 				"The &bDowsing rod&r's leaves will &achange colors when it points towards&r one of the aforementioned biomes. If one crafts it into the &bNature's Compass&r, you can &asearch the surrounding area&r for any biome."
 			]
 			id: "082D264993F18EDB"
@@ -197,7 +200,9 @@
 			dependencies: ["327D93798A7BE211"]
 			description: [
 				"The &bDipper&r is used for making candles. It can be placed above a &bMixing Cauldron&b filled with &bTallow&r (rendered Animal Fat) and hung with String in order to &6create Candles&r."
+				""
 				"Unlike basic Candles, these can be placed together with Candles of different colors, and may be lit separately!"
+				""
 				"&bTallow&r is created in the Mixing Cauldron with &bAnimal Fat and Honeycombs&r."
 			]
 			id: "0CE78F66E92FB026"
@@ -230,6 +235,7 @@
 			dependencies: ["0CE78F66E92FB026"]
 			description: [
 				"The &bCandelabra&r is a decorative block which can be placed above or below blocks in order to light the surrounding area."
+				""
 				"It seamlessly connects to hanging &bChains&r."
 			]
 			id: "512C813AEE3A5BCD"
@@ -365,8 +371,11 @@
 			dependencies: ["34670D78DC22EC27"]
 			description: [
 				"Burning Sage is an ancient and well-documented method of purifying an area of negative or wayward energy. In this world, this &aprevents hostile mobs from spawning in a rather large radius around the bundle&r."
+				""
 				"To burn a &bSage Bundle&r, first hang it on a &bDrying Rack&r until the moisture is gone and the leaves are dessicated. Then, place the Bundle on the &bSage Burning Plate&r and light it with a &bFlint and Steel&r."
+				""
 				"The Bundle can be &aextinguished&r (&6 shift right click with empty hand&r) during the daytime and it will &aretain its durability&r in order to be used again the next night."
+				""
 				"A side note: Sage burning is a multicultural practice which is not to be confused with Smudging. Smudging is a closed practice, sacred to First Nations people, and should probably not be attempted in Minecraft."
 			]
 			id: "2AABE6469023F950"
@@ -485,6 +494,7 @@
 			dependencies: ["427FD234857AEBE8"]
 			description: [
 				"The &bWitch's set &agrants bonuses&r depending on how many pieces you're wearing (out of 3)."
+				""
 				"Hold shift on any item from this set to view what the bonuses are."
 			]
 			id: "593B80E42F663D6A"
@@ -512,8 +522,11 @@
 			dependencies: ["327D93798A7BE211"]
 			description: [
 				"The &bHerb Jar&r can be crafted by smelting 8 &bSand&r in your &bMixing Cauldron&r. Each Herb Jar can carry &aonly one type&r of Herb, but can &acontain up to 1024&r of that herb!"
+				""
 				"The Herb Jar label will &areflect what is stored inside of it&r, and can be named using an &bAnvil&r. When broken, the Herb Jar retains its inventory."
+				""
 				"&6Left click an &bHerb Jar to withdraw&r 1 item. &6Crouch and left click&r to remove a stack."
+				""
 				"&eFamiliar Crows&r will &agather and deposit harvested herbs&r if the button inside the jar (&6crouch right click&r to access) is pressed."
 			]
 			id: "05772A2D60C9FF3D"
@@ -542,7 +555,9 @@
 			dependencies: ["2F933DC876021A85"]
 			description: [
 				"Crows love music! If you ever lose track of them, you can instantly summon them using the &bCrow Flute&r. You'll need &bMahogany Wood&r and some &bDye&r in order to craft."
+				""
 				"&6Right click while holding the Flute&r to play a tune to call your &eFamiliars&r."
+				""
 				"If you &6crouch and right click a Crow with the Flute&r, you can Select it with the &aSelect&r button. Then, you can select &aPerch&r, and &6crouch and right click a block/inventory item with the Flute&r in order to tell your Crow to perch there. Crows will bring items back to their perch when told to &aGather&r."
 			]
 			id: "2C760E07C84C91F2"
@@ -591,10 +606,14 @@
 			]
 			description: [
 				"There are three types of &bBrooms&r, &aWillow&r, &aWitch Hazel&r, and &aMahogany&r. The Witch Hazel and Willow brooms are affordable to make, but slower to control and flammable. The Mahogany broom is faster and fire resistant- a worthy upgrade!"
+				""
 				"You can &6crouch and right click&r your &bBroom&r in order to access its customization options, as well as switch it from &aFloat Mode&r to &aRest Mode&r, which determines what the Broom will do when you dismount."
+				""
 				"You will also need a &bBroom Whistle&r."
+				""
 				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
 				"First, you'll need to &6place the &bWhistle&6 and &bBroom&r in a crafting grid&r to bind them. You can &aunbind&r them by &6putting the &bWhistle&r in alone."
+				""
 				"Be aware that this &dworks best when your broom is in sight&r. It will try to fly to you, but it's just a broom so it's &anot very smart&r and often gets stuck on things."
 			]
 			id: "1698226644682207"
@@ -670,8 +689,11 @@
 			dependencies: ["1698226644682207"]
 			description: [
 				"You can attach a &bSatchel&r to your &bBroom&r both as a cute decoration, and as a way to store items on the go!"
+				""
 				"There are three Satchel items: &bSmall Satchel&r, &bMedium&r, and &bLarge&r. Only one can be equipped at any given time."
+				""
 				"The Medium Satchel requires a Small Satchel in order to craft. The Large requires one Small and one Medium, and combines them together on your Broom."
+				""
 				"Crouch and right-click your Broom to access its &aaccessories and inventory&r."
 			]
 			id: "02CA3D4397E8BA25"
@@ -717,10 +739,7 @@
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
-			description: [
-				"&bMandrake Root&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
-				"You can also use it to &abrew Mystical Concoctions&r with the &bCrucible&r! See the &dMystic Alchemy&r section for more info."
-			]
+			description: ["&bMandrake Root&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."]
 			id: "5857E5BBCF888CDE"
 			rewards: [
 				{
@@ -857,6 +876,7 @@
 			dependencies: ["082D264993F18EDB"]
 			description: [
 				"&bBelladonna&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
+				""
 				"Beware, though! The &aBerries are poisonous&r."
 			]
 			id: "41B2EB805FCD2C60"
@@ -883,10 +903,7 @@
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
-			description: [
-				"&bYellow Dock&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
-				"You can also use it to &abrew Mystical Concoctions&r with the &bCrucible&r! See the &dMystic Alchemy&r section for more info."
-			]
+			description: ["&bYellow Dock&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."]
 			id: "10936C04ABFAA5B1"
 			rewards: [
 				{
@@ -911,10 +928,7 @@
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
-			description: [
-				"&bMugwort&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."
-				"You can also use it to &abrew Mystical Concoctions&r with the &bCrucible&r! See the &dMystic Alchemy&r section for more info."
-			]
+			description: ["&bMugwort&r is used to upgrade your &bBroom&r, and can also be used to create &bCompost&r."]
 			id: "04331D16FB50EEE3"
 			rewards: [
 				{
@@ -941,10 +955,12 @@
 			dependencies: ["18FD7541912B5772"]
 			description: [
 				"Once you meet your first &eCrow&r, you're ready to tame. Bring lots of &bSeed Mixture&r because they can be hard to win over!"
+				""
 				"Once you have tamed the Crow Familiar, you can &6crouch and right click it&r to &aaccess its menu&r."
 				"If you &6right click without crouching&r, you will &achange its mode&r to Sit, Follow, and more. You can do that in the menu, as well. By default, it will Follow and sit on your shoulder, unless you crouch."
-				"&aCrows can be equipped with hats and weapons&r via the menu. It can wear most helmets and wield most melee weapons. "
-				"{image:hexerei:textures/book/pictures/crow_gui.png width:100 height:100 align:1}"
+				""
+				"&aCrows can be equipped with hats and weapons&r via the menu. It can wear most helmets and wield most melee weapons. Unfortunately, &dthey cannot wear hats from the &lSimple Hats&r&d mod&r. :("
+				"{image:hexerei:textures/book/pictures/crow_gui.png width:100 height:150 align:1}"
 				"Through the menu, you can instruct your &eFamiliar&r to help you farm your crops, or to follow you in combat, or even to &apickpocket villagers&r."
 			]
 			id: "2F933DC876021A85"

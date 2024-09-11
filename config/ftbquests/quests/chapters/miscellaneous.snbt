@@ -1897,8 +1897,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: -11.0d
-			y: 5.5d
+			x: -9.0d
+			y: 5.0d
 		}
 		{
 			description: [

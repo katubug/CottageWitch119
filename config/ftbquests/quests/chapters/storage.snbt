@@ -74,7 +74,9 @@
 		{
 			description: [
 				"&bStorage Drawers&r are inventory items which can hold massive amounts of a single item in one block."
+				""
 				"You can make multiple variations, holding from 1-4 items, and in many different wood types."
+				""
 				"&bFramed Drawers&r can be made to show any block texture. &6Hold shift&r while hovering over a &bFramed Drawer&r to read instructions."
 			]
 			icon: "functionalstorage:oak_1"
@@ -115,7 +117,9 @@
 			dependencies: ["40EDCF93A4E5B1AA"]
 			description: [
 				"This &bStorage Upgrade&r will &aincrease the amount of items&r your Drawers can hold."
+				""
 				"There are multiple tiers of upgrades, which can be used together or mix-and-matched."
+				""
 				"Each drawer can accept 7 different upgrades."
 			]
 			id: "643038A9E2CA7D59"
@@ -164,8 +168,11 @@
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
 				"The &bCompacting Drawer&r is unique from other drawers because it allows you to access &amultiple compressions of an item&r."
+				""
 				" The usual example would be something like &bIron&r, because it will give you access to &bIron Blocks&r, &bIron Ingots&r, and &bIron Nuggets&r. If you insert 9 Iron Ingots, you can withdraw either 1 Block, 9 Ingots, or 81 Nuggets, without having to craft."
+				""
 				"However, this also works for items such as &bCrops&r, which can be withdrawn as Crates. This works with any item which has a &a3x3 compression recipe&r."
+				""
 				"The &bSimple Compacting Drawer&r does the same thing, except for items which only have 2 variations, such as crops or eggs."
 			]
 			id: "1F6CE1B236003A84"
@@ -206,7 +213,9 @@
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
 				"The &bDrawer Controller&r is very important for hooking your &bDrawers&r up to your &aStorage Network&r."
+				""
 				"You can also use it to &aimport items&r to your drawers via a Hopper or &bPipez&r!"
+				""
 				"You will need to use a &bLinking Tool&r to connect each &bDrawer&r with the &bController&r by &6right clicking&r."
 			]
 			id: "40EDCF93A4E5B1AA"
@@ -234,9 +243,12 @@
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
 				"&aConfiguration Tools&r alter the function of Drawers. &6Right click on a Drawer while holding a Key&r to activate its ability."
+				""
 				"The basic mode, &bLocking&r, locks a Drawer so that it can only accept the item/s currently inside of it."
 				"The &bHide/Show Amounts&r mode toggles whether or not the amount of items contained within the Drawer is visible on its surface."
+				""
 				"The &bHide/Show Item Renders&r mode will completely hide the item image and all other labels from the front of the Drawer."
+				""
 				"The &bHide/Show Upgrades&r will show or hide what upgrades a Drawer currently contains."
 			]
 			id: "0204D145FC5C3008"
@@ -292,8 +304,11 @@
 			description: [
 				"There are a number of &ajar types&r in this modpack. This one holds liquids! Up to three buckets worth."
 				"It can hold everything from &bWater&r to &bSoups&r to even &bExperience&r."
+				""
 				"They can also function as &afish tanks&r or &acookie jars&r."
+				""
 				"Right click the jar with an empty hand to eat or drink its contents. Don't worry, you won't eat the lava."
+				""
 				"You can &aplace the jar by crouching and right clicking&r it. If you &asimply right click&r, you will instead capture small mobs such as &eSmall Slimes&r or &eBees&r."
 			]
 			id: "62D95F91881F228C"
@@ -314,8 +329,10 @@
 		{
 			description: [
 				"The &bBasket&r can be used as a chest, but also as a hopper! It has the &astorage capacity of a chest&r, and when dropped or thrown items land on top of it, they will &aautomatically go into its inventory&r."
+				""
 				"For example, you could &6place one upside-down&r above a &bStove&r in order to collect the finished products! Or put one at the end of a &bConveyer Belt&r."
-				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
+				""
+				"{image:cottagewitch:textures/basket.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "5E3D0655F0A08890"
 			rewards: [
@@ -345,6 +362,7 @@
 		{
 			description: [
 				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
+				""
 				"It's not a bad idea to fill it with emergency items. You can &again more storage space&r by &6filling it with Shulker Boxes&r."
 			]
 			id: "0B1646339D14D055"
@@ -366,6 +384,7 @@
 			dependencies: ["0B1646339D14D055"]
 			description: [
 				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
+				""
 				"It &acannot be worn as a Curio&r but instead must be &6held and right clicked&r in order to be used."
 			]
 			id: "1EEB4AA9131B98DC"
@@ -387,9 +406,12 @@
 		{
 			description: [
 				"The &bItem Pipe&r is a way for you to easily transfer items from one inventory to another."
+				""
 				"It can &aconnect to an individual chest, barrel, or a whole network&r via a &bInventory Connector&r."
 				"You can use a &bWrench&r (either from &lPipez&r or &lCreate&r - the one from &lSupplementaries&r doesn't work) to &achange its mode&r."
+				""
 				"&6Shift right click the wrench&r onto one side of the &bPipe&r to connect/disconnect it, and also to &aset to Extract mode&r."
+				""
 				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
 				"Once in &aExtract Mode&r, you can &6right click on the pipe&r to access its menu."
 			]
@@ -477,6 +499,7 @@
 			dependencies: ["5E0E4D3BFE9A205F"]
 			description: [
 				"The &bUltimate Upgrade&r gives you all the previous benefits, while also transporting &aone stack at a time&r, making it the fastest option."
+				""
 				"It is also significantly more expensive."
 			]
 			id: "2B73F9B609ABE980"
@@ -568,7 +591,9 @@
 		{
 			description: [
 				"There are many ways to carry items with you while you adventure, but not all of them are quite as terrifying as a &bLuggage&r. It has little concern for others, and loves to &agobble up dropped items&r. And yet, it's strangely endearing."
+				""
 				"You can &6access its inventory with right click&r, and &6pick it up with shift right click&r. It &aretains its inventory&r when picked up, and it cannot die."
+				""
 				"The &eLuggage&r can &awear a collar&r, which will grant it the enchanted abilities. However, &dplacing the Luggage in your inventory will delete the collar&r, so be sure to remove it before picking it back up."
 			]
 			id: "0AC47FF8FD45B289"
@@ -597,6 +622,7 @@
 			dependencies: ["0AC47FF8FD45B289"]
 			description: [
 				"The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."
+				""
 				"The easiest way for this to happen is to use a &aRitual of Zapping&r, for which you'll need a &bRitual Tablet&r and a &bBrazier&r. &6Place the tablet and right click&r to begin the ritual. If you want to zap &amultiple creatures&r, you must &aprovide Source&r to the ritual."
 			]
 			id: "27A6A7ADD9B0A8AE"
@@ -618,7 +644,9 @@
 		{
 			description: [
 				"Did you know that you can &aTransmit items wirelessly using &bSculk&r? The communications sent along the &amycelial sculk network&r can carry data so complex that it &amanipulates reality&r. Thus, it can take an item from one place and transfer it to another."
+				""
 				"To begin with, you'll want a &bGuidebook&r, and to &6harvest some &bSculk&r."
+				""
 				"&6Read the chapter \"Gathering Materials\"&r to begin with, to find out what you will need."
 			]
 			id: "4C75E1320C84AD2E"
@@ -666,6 +694,7 @@
 			dependencies: ["4C75E1320C84AD2E"]
 			description: [
 				"The first tools you'll need are an &bEmitter&r - to send out items - and a &bReceiver&r - to, well, receive them."
+				""
 				"The &bEmitter&r must be &6placed on top of the &bSculk Barrel&r in order to function. The &bSculk Receiver&r, however, can input into &amost basic inventory blocks&r such as Chests, Barrels, and Drawers. It &acannot deposit directly&r into a &bDrawer Controller&r, but you can use &bPipez&r or &bPulling Upgrades&r to withdraw the items into your Drawers."
 			]
 			id: "6A2A797F0DACFD76"

@@ -1151,8 +1151,10 @@
 				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
 				"Ya-ha-ha!"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "6D05B3B2A8A464A0"
