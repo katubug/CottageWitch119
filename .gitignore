@@ -1,0 +1,8 @@
+crash-reports/
+config/byg/backups/
+config/oculus.properties
+config/packetfixer.properties
+config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
+config/spawnbalanceutility/AllMobEntities.rpt
+config/spark/tmp/
