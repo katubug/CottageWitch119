@@ -398,7 +398,8 @@ JEIEvents.hideItems(event => {
 'simplehats:udder_hat', 
 'simplehats:traffic_cone', 
 'simplehats:stinkycheeseman', 
-'simplehats:worms_mine'
+'simplehats:worms_mine',
+'farmingforblockheads:feeding_trough'
 
     ];
     

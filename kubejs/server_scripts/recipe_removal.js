@@ -117,6 +117,7 @@ ServerEvents.recipes(event => {
         {output: 'ends_delight:end_stone_knife'},
         {output: 'ends_delight:dragon_egg_shell_knife'},
         {output: 'farmersdelight:golden_knife'},
+        {output: 'farmingforblockheads:feeding_trough'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},

@@ -6,3 +6,15 @@ config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/spawnbalanceutility/AllMobEntities.rpt
 config/spark/tmp/
+config/sound_physics_remastered/allowed_sounds.properties
+config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
+config/spawnbalanceutility/AllMobEntities.rpt
+config/spawnbalanceutility/BiomeMobWeight.txt
+config/spawnbalanceutility/StructMobWeight.txt
+config/byg/backups/last_working_configs_backup.zip
+config/voicechat/username-cache.json
+config/packetfixer.properties
+config/oculus.properties
+config/jei/recipe-category-sort-order.ini
+config/jei/ingredient-list-mod-sort-order.ini
