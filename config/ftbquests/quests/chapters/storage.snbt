@@ -1307,6 +1307,11 @@
 				"&dJust don't lose it somewhere.&r"
 			]
 			id: "3C6CA784B036DD53"
+			rewards: [{
+				id: "37E9E0BCBA06A5D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
 			subtitle: "this backpack is now a canon event"
 			tasks: [{

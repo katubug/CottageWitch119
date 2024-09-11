@@ -1,5 +1,21 @@
+# **Configs and Script Cranges**
+
+- improved drop rate for hatbags from fishing loot
+- removed hatbags from shipwrecks
+- updated hatbag quest to mention neptunian chests instead
+- slightly updated one of the screenshots in the Main Menu slideshow
+- added kakapos to Guiana Shield
+- added Meet The Kakapo quest
+
+
+
+
 # **New Mods**
-## None
+## Framework
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/framework)
+
+## Kakapos
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/kakapos)
 
 
 _________________

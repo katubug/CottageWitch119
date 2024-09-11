@@ -475,6 +475,21 @@
 			x: -5.0d
 			y: -6.0d
 		}
+		{
+			id: "717D0FA0C7836CEE"
+			shape: "heart"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_warped_toad"
+				id: "10AF6A6FFB803DDF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			title: "Meet the Warped Toad"
+			x: -3.5d
+			y: -12.5d
+		}
 	]
 	title: "WIP"
 }
