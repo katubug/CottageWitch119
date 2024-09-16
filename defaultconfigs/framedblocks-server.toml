@@ -8,4 +8,6 @@
 	intangibleMarkerItem = "minecraft:phantom_membrane"
 	#If true, only the player who placed the Framed One-Way Window can modify the window direction
 	oneWayWindowOwnable = true
+	#If true, applying a camo will consume the item and removing the camo will drop it again
+	consumeCamoItem = true
 

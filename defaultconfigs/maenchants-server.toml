@@ -1,0 +1,76 @@
+
+[curse_breaking]
+	enable = true
+
+[curse_butterfingers]
+	enable = false
+
+[curse_aquaphobia]
+	enable = true
+
+[curse_death]
+	enable = true
+
+[reinforced_tip]
+	enable = true
+
+[stone_mending]
+	enable = true
+
+[lumberjack]
+	enable = true
+
+[momentum]
+	enable = true
+
+[butchering]
+	enable = true
+
+[true_shot]
+	enable = true
+
+[quick_draw]
+	enable = true
+
+[floating]
+	enable = true
+
+[paralysis]
+	enable = true
+
+[detonation]
+	enable = true
+
+[combo]
+	enable = true
+
+[faster_attack]
+	enable = false
+
+[lifesteal]
+	enable = true
+
+[ice_aspect]
+	enable = true
+
+[wisdom]
+	enable = true
+
+[blazing_walker]
+	enable = true
+
+[step_assist]
+	enable = true
+
+[night_vision]
+	enable = true
+
+[multi_jump]
+	enable = true
+
+[soft_fall]
+	enable = true
+
+[timeless]
+	enable = true
+

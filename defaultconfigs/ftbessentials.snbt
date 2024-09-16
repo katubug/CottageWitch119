@@ -55,6 +55,12 @@
 			enabled: true
 		}
 		
+		# Allows users to view leaderboard stats about everyone on the server.
+		leaderboard: {
+			# Default: true
+			enabled: true
+		}
+		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
 			# Default: true
@@ -92,6 +98,16 @@
 			# Default: 10
 			# Range: 0 ~ 2147483647
 			max: 10
+			
+			# Should be the /back command only be used for returning to the last death point?
+			# Default: false
+			only_on_death: false
+			
+			# Warm-up time before /back command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.back.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 		
 		# Allows users to set 'homes', which they can then freely teleport to by using /home afterwards
@@ -110,6 +126,12 @@
 			# Default: 1
 			# Range: 0 ~ 2147483647
 			max: 1
+			
+			# Warm-up time before /home command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.home.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 		
 		# Allows players to teleport to a random point in the Wilderness
@@ -121,13 +143,23 @@
 			# Range: 0 ~ 604800
 			cooldown: 600
 			
+			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
+			# Wildcarded dimensions (e.g. 'somemod:*') are supported
+			# Default: ["minecraft:the_end"]
+			dimension_blacklist: [""]
+			
+			# Whitelisted dimension ID's for /rtp (if non-empty, player *must* be in one of these dimensions)
+			# Wildcarded dimensions (e.g. 'somemod:*') are supported
+			# Default: []
+			dimension_whitelist: [ ]
+			
 			# Default: true
 			enabled: true
 			
 			# /rtp max distance from spawn point
 			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 25000
+			max_distance: 10000
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -138,6 +170,12 @@
 			# Default: 500
 			# Range: 0 ~ 30000000
 			min_distance: 500
+			
+			# Warm-up time before /rtp command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.rtp.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 		spawn: {
 			# Cooldown between /spawn commands (in seconds)
@@ -148,6 +186,12 @@
 			
 			# Default: true
 			enabled: true
+			
+			# Warm-up time before /spawn command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 		
 		# Allows players to create requests to teleport to other users on the server,
@@ -161,6 +205,12 @@
 			
 			# Default: true
 			enabled: true
+			
+			# Warm-up time before /tpa command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.tpa.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 		
 		# Allows admins to teleport to the location a user was last seen at
@@ -185,6 +235,12 @@
 			
 			# Default: true
 			enabled: true
+			
+			# Warm-up time before /warp command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.warp.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
 		}
 	}
 }
