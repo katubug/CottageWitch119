@@ -1,7 +1,7 @@
 // This controls the drop chance of mob heads.
 // NOT A PERCENT, this is a multiplier. 
 // This means 1.0 is 100%, and 0.01 is 1%
-let HEAD_DROP_CHANCE = 1.00;
+let HEAD_DROP_CHANCE = 0.01;
 
 // This controls which mobs drop which heads.
 // It is a mapping of entity id onto the corresponding "Setblock" command as shown on minecraft-heads.com
