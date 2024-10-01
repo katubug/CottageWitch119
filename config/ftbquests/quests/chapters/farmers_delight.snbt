@@ -763,13 +763,6 @@
 					item: "culturaldelights:eggplant_crate"
 					type: "item"
 				}
-				{
-					consume_items: true
-					count: 10L
-					id: "02380DC77DCD3549"
-					item: "culturaldelights:white_eggplant_crate"
-					type: "item"
-				}
 			]
 			title: "Ship Your Crops"
 			x: 3.5d

@@ -1546,4 +1546,6 @@ ItemEvents.tooltip(e => {
     'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
  )
 
+ e.add('brewinandchewin:keg','Warning: pickles, jerky, and certain recipes can cause crashes.')
+
 })

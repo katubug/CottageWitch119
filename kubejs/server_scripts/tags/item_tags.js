@@ -201,7 +201,9 @@ ServerEvents.tags('item', event => {
         'plushies:dragon',
         '#forge:eyes',
         'ends_delight:non_hatchable_dragon_egg',
-        'aquaculture:nether_star_hook'
+        'aquaculture:nether_star_hook',
+        'environmental:grass_thatch_vertical_slab',
+        'environmental:grass_thatch_slab'
     )
     event.add('twilightforest:banned_uncrafting_ingredients',
         '#forge:eyes',
@@ -469,9 +471,14 @@ ServerEvents.tags('item', event => {
     )
 
     // Green Apples
-    event.add('forge:fruits/sweet',
-        'byg:green_apple'
+    event.add('forge:fruits/sweet', 
+        'byg:green_apple', 
+        'caupona:fig',
+        'caupona:wolfberries',
+        'twilightforest:torchberries',
+        'ars_nouveau:source_berry'
     )
+      
 
     // Glowstick Ingredients
     event.add('forge:glowstickingredients',
@@ -985,4 +992,8 @@ ServerEvents.tags('item', event => {
         'simplehats:hatscraps_halloween',
         'simplehats:hatscraps_festive'
         )
+
+    event.add('minecraft:small_flowers',
+        'sprout:yellow_lily_of_the_valley'
+    )
 })

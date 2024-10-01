@@ -298,6 +298,8 @@
 				"Looking for a particular item in a nearby inventory?"
 				""
 				"Hover over the item in JEI or your inventory and &6press the keybind&r. This &dneeds to be bound by the user&r, so find a key you like and change it in your &akeybindings menu&r."
+				""
+				"{image:cottagewitch:textures/findme3.png width:100 height:10 align:1 fit:true}"
 				"{image:cottagewitch:textures/findme1.png width:220 height:150 align:1}"
 				""
 				"Then, inventories containing that item will be highlighted with these little particle effects:"
@@ -334,7 +336,7 @@
 				"- Darker Ropes"
 				"- White Icons"
 				""
-				"The order in which you enable the resourcepacks &ashould not matter&a, as they are &dedited to be compatible with one another&r."
+				"The order in which you enable the resourcepacks &ashould not matter&r, as they are &dedited to be compatible with one another&r."
 			]
 			id: "4B09C2508E25AD2B"
 			rewards: [{

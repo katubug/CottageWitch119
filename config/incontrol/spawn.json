@@ -7,24 +7,77 @@
     },
     {
         "mob":"minecraft:squid",
-        "mincount": 5,
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
         "result": "deny",
         "continue": true
     },
     {
         "mob":"mythicmounts:firebird",
-        "maxcount": {
-            "amount": 1,
-            "perplayer": true
-        },
         "structuretags": "ctov:village",
-        "result": "default",
+        "result": "allow",
         "continue": true
     },
     {
         "mob":"mythicmounts:firebird",
         "mincount": {
             "amount": 1,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"kakapos:kakapo",
+        "biome": "byg:guiana_shield",
+        "result": "default",
+        "continue": true
+    },
+    {
+        "mob":"kakapos:kakapo",
+        "mincount": {
+            "amount": 2,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:catfish",
+        "biometags": "swamp",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:catfish",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:flying_fish",
+        "biometags": "ocean",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:flying_fish",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"minecraft:bat",
+        "mincount": {
+            "amount": 5,
             "perplayer": true
         },
         "result": "deny",
@@ -57,8 +110,8 @@
           "minecraft:creeper"
         ],
         "mincount": {
-        "amount": 20,
-        "perplayer": true
+            "amount": 20,
+            "perplayer": true
         }
     }
 ]

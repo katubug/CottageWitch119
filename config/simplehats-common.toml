@@ -6,7 +6,7 @@
 	allowUpdates = true
 	#Chance for a seasonal bag to drop when using a bag during a seasonal event. (0 effectively disables seasons)
 	#Range: 0.0 ~ 1.0
-	seasonalBagChance = 1
+	seasonalBagChance = 0.5
 	#Allow equipping hat in helmet slot for compatibility with non-player entities/displays.
 	allowHatInHelmetSlot = true
 
