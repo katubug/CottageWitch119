@@ -1,3 +1,34 @@
+# **Script and Config Changes**
+- Added Farming for Blockheads stuff in anticipation of adding the mod
+- Disabled Farming for Blockheads Trough
+- Went through and fixed a handful of quest errors and double-spaced many quests (through Ars) to make them easier to read.
+- Made the collection/scav hunt final quests Linear and not visible until completable.
+- Fixed some image aspect ratios
+- Removed references to Mystic Alchemy.
+- Added warning about Crows not wearing Simple Hats
+- Set Areas to not generate random names by default, just in case.
+- Refreshed serverconfig and defaultconfig files.
+- Disabled Faster Attack and Curse of Butterfingers. Existing items will still have these enchants, however.
+- Set Advancements Tracker widget to be hidden by default
+- Moved WIP quests to its own category so it won't show up for people by default
+- The Ship Your Crops quest no longer requires White Eggplants.
+- Deleted a quest about the Mystical Oak, as it has been removed.
+- Fixed some typos and images in Welcome page quests.
+- Buffed spawn rate of Zar P'tak, Squid, and Kakapo.
+- Bats, Flying Fish, Catfish, Skeletons, Zombies, and Creepers now have enforced spawn caps via InControl.
+- ModernFix now has chunk load detection enabled, to help diagnose certain crashes.
+- Quark Feeding Trough has been disabled due to lag.
+- Simple Hats seasonal bags now have a 50% chance of dropping.
+- Added a tooltip to Brewin and Chewin Kegs to warn of potential crashes with certain recipes. We will address the source of these crashes in a later update.
+- Disabled the IDAS Dread Citadel in the datapack because we don't have Ice and Fire.
+- Slightly buffed spawn rate of vanilla Turtles
+- Aquaculture Turtles can now be fished up! Box Turtles in Swamps, Arrau Turtles in Jungles, and Starshell Turtles in the Twilight Forest!
+- Fixed an issue with fishing up hat bags.
+- fixed some formatting in spawnermod.json
+- added "replace: true" to the simple hats loot modifier to hopefully make that datapack work.
+- Rebalanced simple hats fishing rates to be less insane.
+- Simple Hats should hopefully no longer drop from Shipwrecks.
+
 # **New Mods**
 ## CTD Tweaks 2.0
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ctd-tweaks)
