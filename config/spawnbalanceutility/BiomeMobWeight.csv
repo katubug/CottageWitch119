@@ -2121,7 +2121,7 @@
 2140, beach, minecraft:beach, MONSTER, minecraft:skeleton, 30, 4, 4
 2141, beach, minecraft:beach, MONSTER, minecraft:slime, 30, 4, 4
 2142, beach, minecraft:beach, MONSTER, minecraft:spider, 30, 4, 4
-2143, beach, minecraft:beach, CREATURE, minecraft:turtle, 10, 2, 5
+2143, beach, minecraft:beach, CREATURE, minecraft:turtle, 30, 2, 5
 2144, beach, minecraft:beach, MONSTER, minecraft:witch, 5, 1, 1
 2145, beach, minecraft:beach, MONSTER, minecraft:zombie, 30, 4, 4
 2146, beach, minecraft:beach, MONSTER, minecraft:zombie_villager, 10, 1, 1
