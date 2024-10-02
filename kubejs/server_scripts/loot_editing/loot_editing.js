@@ -17,6 +17,13 @@ LootJS.modifiers((event) => {
     .addLoot('2x crittersandcompanions:dragonfly_wing')
     .randomChance(0.3)
 
+    event.addLootTableModifier('minecraft:chests/shipwreck_treasure').removeLoot([
+      'simplehats:hatbag_common', 
+      'simplehats:hatbag_uncommon', 
+      'simplehats:hatbag_rare', 
+      'simplehats:hatbag_epic'
+    ])
+
     event.addLootTypeModifier(LootType.CHEST).logName("junk_removal").removeLoot([
         'create:dough',
         'supplementaries:rope',

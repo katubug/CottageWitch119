@@ -158,7 +158,6 @@ function addStriderHeadDrops(event) {
 }
 
 LootJS.modifiers((event) => {
-    event.enableLogging();
     for (let mobId in HEADS) {
         let headNbt = parseSetBlockCommand(HEADS[mobId]);
         addHeadDrop(event, mobId, headNbt);
