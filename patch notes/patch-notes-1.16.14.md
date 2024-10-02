@@ -29,6 +29,9 @@
 - Rebalanced simple hats fishing rates to be less insane.
 - Simple Hats should hopefully no longer drop from Shipwrecks.
 
+# **Forge Update**
+## Updated Forge to 43.4.4
+
 # **New Mods**
 ## CTD Tweaks 2.0
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ctd-tweaks)
