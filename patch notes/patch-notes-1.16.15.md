@@ -1,4 +1,14 @@
+# **Notes**
+Some files have been refactored - you will need to update to a new profile. For server owners, please completely delete the /kubejs/ folder and replace it with the new contents.
+
 # **Script and Config Changes**
+- Prepped a script which will allow players to go trick-or-treating at the end of October! Not fully implemented yet.
+- Recipes which use vanilla Vines will now use all overworld vines.
+- Warden Armor set is now more in line with Netherite balancing, while still being special enough to reflect the difficulty earning it.
+- Ametrine armor has been buffed to no longer make it a downgrade from Netherite.
+- Neptunium armor is no longer significantly better than diamond.
+- Also rebalanced the Fiery Sword and Teardrop Sword a bit.
+- Refactored recipes.js into multiple files.
 - Added Farming for Blockheads stuff in anticipation of adding the mod
 - Disabled Farming for Blockheads Trough
 - Went through and fixed a handful of quest errors and double-spaced many quests (through Ars) to make them easier to read.
