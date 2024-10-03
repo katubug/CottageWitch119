@@ -9,8 +9,8 @@
   "disable_speed": 0,
   "limited_spawns_amount": 32,
   "limited_spawns_enabled": 0,
-  "monster_egg_drop_chance": 1,
-  "monster_egg_only_drop_when_killed_by_player": 1,
+  "monster_egg_drop_chance": 0,
+  "monster_egg_only_drop_when_killed_by_player": 0,
   "spawner_hardness": 5,
   "disable_specific_egg_drops": {
     "minecraft:allay": 0,

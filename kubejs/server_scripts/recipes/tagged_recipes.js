@@ -44,18 +44,26 @@ ServerEvents.recipes(event => {
 	//Walnut Replacements
 	event.replaceInput({
 			input: 'ecologics:walnut'
-		}, // Arg 1: the filter
-		'ecologics:walnut', // Arg 2: the item to replace
-		'#forge:nuts/walnut' // Arg 3: the item to replace it with
+		},
+		'ecologics:walnut',
+		'#forge:nuts/walnut'
 	)
 
 	//Compressed Dirt
 	event.replaceInput({
 			input: 'minecraft:dirt'
-		}, // Arg 1: the filter
-		'minecraft:dirt', // Arg 2: the item to replace
-		'#forge:compressable_dirt' // Arg 3: the item to replace it with
+		},
+		'minecraft:dirt',
+		'#forge:compressable_dirt'
 	)
+
+	//Compressed Dirt
+	event.replaceInput({
+		input: 'minecraft:vine'
+	},
+	'minecraft:vine', 
+	'#forge:overworld_vines'
+)
 
 	//Backpacked uses any leather
 	event.shaped(

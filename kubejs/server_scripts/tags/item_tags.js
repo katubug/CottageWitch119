@@ -996,4 +996,12 @@ ServerEvents.tags('item', event => {
     event.add('minecraft:small_flowers',
         'sprout:yellow_lily_of_the_valley'
     )
+
+    event.add(
+        'forge:overworld_vines',
+        'minecraft:vine', 
+        'hexerei:willow_vines', 
+        'byg:skyris_vine', 
+        'swampier_swamps:swamp_vine'
+    )
 })
