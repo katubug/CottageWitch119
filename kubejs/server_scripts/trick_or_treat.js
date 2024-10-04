@@ -3,6 +3,39 @@
 //Thanks to Lexxie and Hof for helping with the date portion of things!
 //Date info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
+//Thanks to Rad for helping with the removal of the stages after the dates pass!
+/*
+ItemEvents.rightClicked('minecraft:netherite_hoe', e => {
+	const stage_id = e.player.stages.getAll().find(s => s.startsWith('entity'))
+	e.server.tell(stage_id);
+})
+
+ItemEvents.rightClicked('minecraft:wooden_axe', e => {
+	const stage_id = e.player.stages.getAll().find(s => s.startsWith('entity'))
+	if(stage_id == null) return;
+	e.player.stages.remove(stage_id)
+	e.server.tell(e.player.stages.has(stage_id))
+})*/
+/*
+PlayerEvents.loggedIn(event =>{
+	const player = event
+	let currentTime = new Date()
+	let month = currentTime.getMonth()
+	let date = currentTime.getDate()
+	const stage_id = e.player.stages.getAll().find(s => s.startsWith('entity'))
+	if (stage_id == null) return;
+
+	if (month != 9) {
+		//things
+	}
+	if (month == 9) {
+		if (!day < 29 ){
+		//things
+		}
+	}
+
+})
+*/
 
 ItemEvents.entityInteracted('minecraft:bundle', event => {
 	const {
@@ -14,20 +47,14 @@ ItemEvents.entityInteracted('minecraft:bundle', event => {
 		},
 		target,
 	} = event;
-
-    //testing stage removal in November, can't figure out if i can check with regex.
-    //if (month == 10) {
-		//if (player.stages.has(`/[entity].*/`)){
-            //player.stages.remove()
-            //player.tell("hi")
-        //}
-    //}
+    
 	let currentTime = new Date()
 	let month = currentTime.getMonth()
 	let date = currentTime.getDate()
+
 	//Check whether the date is October 29th to the 31st. January is 0, so October is 9.
 	if (month == 9) {
-		if (date > 29) {
+		if (date >= 29) {
 			//Set a variable for the interacted entity, and check whether the player has a stage with that entity type name
 			let clicked = target.entityType
 			if (player.stages.has(clicked)) {
