@@ -1,0 +1,1422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "for_og"
+	group: ""
+	id: "4B8C4684B8D4A313"
+	images: [
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgcandlelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgbakery.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 25.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E1B07BEB8F423BC"]
+			description: [
+				"You can use the &bBrewing Cauldron&r to create a few &aunique &bPotions&r to help you in combat."
+				""
+				"These are: &bArmor&r, &bDamage&r, and &bFeral&r (which combines the two). They can be brewed in normal and &blarge&r variants."
+			]
+			id: "037DDBA4E75EC862"
+			rewards: [{
+				count: 5
+				id: "32DD001DC3C775C1"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F438B0249797484"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "Brewing Unique Potions"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["Every witch should be familiar with &aBrewing&r! The creation of &bPotions&r is a key aspect in magical livelihood, as it can significantly improve how one interacts with the world around them!"]
+			id: "6E1B07BEB8F423BC"
+			rewards: [{
+				count: 3
+				id: "3855496E7A2AB629"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "bubble bubble"
+			tasks: [{
+				id: "460256459F27E160"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Beginner Brewing"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"It's said that there is a method by which one can condense &bknowledge&r, the very essence of our lives, into a &bliquid&r. It is known that one absorbs the &bexperience&r from &aslain foes&r and even from &aprocessing raw materials&r found in the wild. But what if you could &atransfer and hoard that &bknowledge&r?"
+				""
+				"Preliminary studies indicate that to begin such a process requires &bCognitive Flux&r, which is crafted from ingredients with &ahigh amounts of magical vibration&r."
+			]
+			id: "34EA3E4BDBDF02ED"
+			rewards: [{
+				count: 2
+				id: "5FF20B209C8344D9"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "what an experience"
+			tasks: [{
+				id: "41045BB21DAC71D2"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			title: "The Beginning of Cognition"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34EA3E4BDBDF02ED"]
+			description: ["&bCognitive flux&r, by itself, is a &aloose and crumbly substance&r, and not much use for anything. However, it may be &6fired in a furnace or blast furnace&r to produce &bCognitive Amalgam&r, a much more durable and useful material."]
+			id: "71FB194B1DC7337A"
+			rewards: [
+				{
+					id: "6D61B929EFD28E8D"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "52DC166E62645AA6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "016C3B32CB8F6531"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C6071E204CED0EC"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71FB194B1DC7337A"]
+			description: ["&bCognitive amalgam&r can be &afurther combined&r with &bIron&r to derive a strong and rigid alloy well-suited for &amanufacturing devices&r, or with &bEmerald&r, to produce crystals remarkably suited for &atransmitting and receiving cognitium&r without the need of pipes."]
+			id: "24B32FC417B84D6F"
+			rewards: [
+				{
+					count: 2
+					id: "3DB8DC8C0FCA5589"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D3E7739EAA56686"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4A44436ED5933616"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "3EEBBE371A1F8B2C"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+			]
+			title: "Stronger Cognition"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["24B32FC417B84D6F"]
+			description: [
+				"The &bEnlightened Amulet&r is an item that, when active, &avacuums up all XP orbs in a 6 block radius&r and combines them into single orb at the player's position."
+				""
+				"The amulet will be active &aanywhere in your inventory&r. It can be activated and inactivated by &6shift right clicking&r while holding it."
+			]
+			id: "0A3644146A69AC33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07948779ECE88436"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "352976B249F104A4"
+				item: {
+					Count: 1
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6EF0EA42F5F648A7"]
+			description: ["The &bExperience Fountain&r also provides players with an easy way to obtain &bCognitium Buckets&r or &bBottles o' Enchanting&r. Provided the bound obelisk has enough Cognitium, &6right-click a fountain with an empty bucket or an empty bottle&r."]
+			id: "2483BED806DAE305"
+			rewards: [{
+				id: "7BCF77A69AED64F9"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62CDDD0EA501C55F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bExperience Fountain&r is a device that &adispenses experience orbs&r from its top surface. This device needs to be &6bound to a nearby Obelisk by means of a &bStaff of Attunement&r in order to function. The fountain will deduct experience from the bound obelisk as it does so. The Fountain has four modes of operation:"
+				""
+				"- Slow (4 xp / second)"
+				"- Moderate (40 xp / second)"
+				"- Fast (400 xp / second)"
+				"- Hyperspeed (4000 xp / second)"
+				""
+				"These modes can by cycled by &6right-clicking the fountain&r."
+				""
+				"The Fountain must be &6activated by a neighboring redstone signal&r, or by &6standing on it&r."
+			]
+			id: "6EF0EA42F5F648A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29EEF4D9FF6743B9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05FB31824BCC4A15"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24B32FC417B84D6F"]
+			description: ["The &bAstute Assembly&r is a mystically-charged device which is used to craft items which &arun on liquid Cognitium&r."]
+			id: "3D6CDC6F955DDCA9"
+			rewards: [{
+				id: "2C9D00CD33F1D165"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "10FD00AA015F61E2"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bPrecision Dispeller&r is an incredibly powerful item which allows you to &aremove both Enchantments and &bCurses&r from your items."
+				""
+				"When you &6select an enchantment to remove&r, you'll receive an &bExperience&r refund which is slightly greater than that which a &bGrindstone&r would give."
+				""
+				"To remove a curse, however, you will &6pay experience&r to remove it."
+				""
+				"Should you want to, the &bPrecision Dispeller&r can be &abound to an &bObelisk&a using a &bStaff of Attunement&r. When bound, &aexperience gained will be added to the Obelisk&r internal reservoir instead of being released as XP orbs."
+				""
+				"Likewise, the XP cost from curse removal will first be &adeducted from the Obelisk&r, and only deducted from the player if the amount of XP in the Obelisk is insufficient."
+				""
+				"The XP returns and XP cost are &ashown in points&r, as well as base levels (the number of levels you would have if you started at 0 levels and gained that amount of points). Base levels are absolute and &ddo not scale with however much XP is on your person&r. So if you were to have 50 levels on your person, and remove a curse with a base level cost of 30, you would be left with around 44 levels. &dThis is intentional and not a bug&r."
+			]
+			id: "3F17E265CF40B4F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B7293DF489633F"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "deleting enchantments and curses"
+			tasks: [{
+				id: "37DBCBC82CD4A7B4"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bExperience Obelisk&r is a device that lets you easily &astore and retrieve experience&r. Every point of experience is converted into &b20mB of Cognitium&r, which is then stored in the Obelisk's internal reservoir. This fluid can be transferred to external tanks or elsewhere using fluid pipes. Each Obelisk can store 100,000,000 mB of Cognitium — which translates to &ajust over 1072 XP levels&r."
+				""
+				"The &bObelisk&r stores not only &bCognitium&r, but also &bliquid experience&r from &lSophisticated Storage&r. The difference is that &bCognitium&r is magically charged as opposed to &bExperience&r, and as such, once &bliquid Experience&r is processed via the Obelisk, it never loses its charge, and remains &bCognitium&r forevermore."
+				""
+				"The Obelisk will also passively &avacuum up all experience orbs in a set radius&r, adding them to its internal storage. This can be &aconfigured in the Obelisk's gui&r."
+				""
+				"{@pagebreak}"
+				"{image:enchanted_wilds:textures/questimages/expobelisk1.png width:225 height:200 align:1}"
+				""
+				"Upon right-clicking the block, you are presented with the following 6 options to store or retrieve XP. Since minecraft XP does not work in a linear fashion, with &aeach level being worth more&r the higher they get, all XP values are &dfrom the players' perspective&r. That is to say, if you had 30 levels and chose to store 10 in an empty obelisk, you would be left with 20 levels, but the Obelisk GUI would read 24 levels - since each individual level is worth more the higher you go."
+				""
+				"{@pagebreak}"
+				"{image:enchanted_wilds:textures/questimages/expobelisk2.png width:225 height:200 align:1}"
+				""
+				"In this second image, you can adjust the &arange of the exp vacuum&r, and whether or not it is active based on &aredstone signal&r. If set to \"Ignore,\" it will &abe passively active&r all the time. If \"Enabled,\" it will &aonly activate when receiving redstone signal&r."
+			]
+			id: "443F0752884AEDFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F6A8A82324D10DF"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "420B44603C4A70A3"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Experience Obelisk"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6EF0EA42F5F648A7"
+				"443F0752884AEDFA"
+			]
+			description: [
+				"The &bStaff of Attunement&r is a handheld device used for &abinding Cognitium-consuming blocks&r - such as an &bExperience Fountain&r or &bPrecision Dispelle&rr - to a nearby &bExperience Obelisk&r. "
+				""
+				""
+				"&6Shift right click an Obelisk with a &bStaff of Attunement&r in order to &asave its location&r to the staff. Afterwards, any XP-consuming block that you &6shift right click&r with the staff will be bound to the saved obelisk. Repeat the process on either block to &aundo the binding&r."
+				""
+				"This binding interaction has a &dmaximum range of 32 blocks&r."
+			]
+			id: "461C5AC8C4B8FE12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67D52267371BA063"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44348FA5DCB8E9F1"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: ["Although it doesn't provide &amuch protection&r, this outfit will have you &aslingin' dishes&r and &aslicin' fishes&r like a pro!"]
+			id: "3801F3578406768D"
+			rewards: [
+				{
+					count: 5
+					id: "4657A7C2401AAC7B"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41807D1F177E3A4B"
+					item: "meadow:alpine_salt"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "48107E0E04EF45E3"
+					item: "farm_and_charm:butter"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "739BACBEC59B3B1B"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D1B228F5F683746"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38B77D35D27BE8EC"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "022F4C0EFBD2CE6D"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Looking like a Cook"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: [
+				"How you eat is almost as important as what you eat! For example, food is far more satisfying when eaten off of a &bTable Set&r. Place down these 3 items on a surface, and then &6right click your meal onto the &bplate&r"
+				""
+				"Then you can &6right click to eat&r, and you'll get &agreater saturation&r than if you'd eaten it with your fingers (you mongrel)."
+			]
+			id: "723C5BE92D3B2177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BEDB2215CF38F54"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4078CE01E5FE45F8"
+					item: "candlelight:napkin"
+					type: "item"
+				}
+				{
+					id: "3D70553D07947553"
+					item: "candlelight:glass"
+					type: "item"
+				}
+				{
+					id: "4A8899C4FAFBA63A"
+					item: "candlelight:plate"
+					type: "item"
+				}
+			]
+			title: "Setting the Table"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			description: ["The &bCopper Cooking Pot&r and &bCopper Cooking Pan&r are new tools which will allow you to make &anew and unique dishes&r, such as &bPasta&r and &bPizza&r!"]
+			id: "6164AA637455604E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "155393B7899D37FA"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "065F4B747FEFB70B"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "42E38A6303137616"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cooking with Copper"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: ["&bButter&r half of food's bread and butter! It's excellent on &bToast&r, &bLobster&r, and... really, basically anything."]
+			id: "0FF55F6D562796DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F21D82177D7292E"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "buttuh"
+			tasks: [{
+				id: "5A8D1D23B2445237"
+				item: "farm_and_charm:butter"
+				type: "item"
+			}]
+			title: "Obtain Butter"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: ["&bSpaghetti Bolognese&r is a delicious and hearty treat. To make it, you'll need to gather and prepare the ingredients!"]
+			id: "72214271B351A963"
+			rewards: [{
+				count: 5
+				id: "5A32A4EC62AB10C3"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F5E34E79BC45080"
+					item: "candlelight:mozzarella"
+					type: "item"
+				}
+				{
+					id: "60F692D2B1A192D8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pasta/raw_pasta"
+						}
+					}
+					title: "Any #forge:pasta/raw_pasta"
+					type: "item"
+				}
+				{
+					id: "3239B0B2F5C446B2"
+					item: "candlelight:tomato_soup"
+					type: "item"
+				}
+			]
+			title: "The Path to Bolognese"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72214271B351A963"]
+			description: ["Have you ever had &bBolognese sauce&r? It's delicious even on its own! But don't eat it just yet, we have plans for it..."]
+			id: "737C3BF4A834D0CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF18510604E48CA"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "451343685BB1DFF6"
+				item: "candlelight:bolognese"
+				type: "item"
+			}]
+			title: "Making the Sauce"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["737C3BF4A834D0CE"]
+			description: ["And you've done it! &aEnjoy the fruits&r - or, well, pasta - &aof your labor&r!"]
+			id: "16DE5B688A07CB3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423F7416E83082EC"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "success!"
+			tasks: [{
+				id: "50E838488969247F"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6A66ACC2ABDDB0E6"]
+			id: "033BD29F71F83261"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11050524B4245BFE"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69515968CD5ED942"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "candlelight:main/cook_everything"
+				criterion: ""
+				id: "3C2D7531A049EB3C"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			id: "6A66ACC2ABDDB0E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DC27313DA58BCD2"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66EA45FB2B5458FE"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					advancement: "candlelight:main/cook_everything_pot"
+					criterion: ""
+					id: "7AB40DBA70E14BEE"
+					type: "advancement"
+				}
+				{
+					advancement: "candlelight:main/cook_everything_vegetable"
+					criterion: ""
+					id: "3C3B11ADC9254AC8"
+					type: "advancement"
+				}
+				{
+					advancement: "candlelight:main/cook_everything_pan"
+					criterion: ""
+					id: "2BC234DC58D4D452"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"To begin with the delicious art of &aBakery&r, there are a few tools one will need. The &bCaking Station&r, the &bSmall Cooking Pot&r, and, of course, an &bOven&r."
+				""
+				"Each of these tools will allow you to do unique things."
+				""
+				"The &bSmall Cooking Pot&r allows you to create delectable &bJams&r and &bChocolate Spreads&r and such."
+				""
+				"The &bOven&r allows you to bake &bBreads&r, &bBuns&r, &bTarts&r, and &bmore&r!"
+				""
+				"The &bCaking Station&r is for the creation of &bCakes&r, &bCookies&r, and &bCupcakes&r!"
+			]
+			id: "207C60DC8889AC0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63711A7967D1F8F5"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					id: "18524BD8EB175CC4"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "66430D234BFDE2B5"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+				{
+					id: "48DF3C6839DAEE2A"
+					item: {
+						Count: 1
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CDCF19CD239EB1F"
+					item: "farm_and_charm:stove"
+					type: "item"
+				}
+			]
+			title: "Baking Time"
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			description: [
+				"Hmm, looks like a &bJar of Chocolate Spread&r is exactly what we're going to need for the next recipe."
+				""
+				"Well, don't just stand there looking at me. &6Get cooking&r!"
+			]
+			id: "6E5DCE8167CB2932"
+			rewards: [{
+				count: 3
+				id: "023FEB112CF08CD4"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FB9DA3EF6BFB103"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"52D7D562012B3B7C"
+				"6E5DCE8167CB2932"
+			]
+			description: [
+				"Ah, here we are! Combine the &bChocolate Spread&r and &bCake Dough&r you made in a &bBaking Station&r."
+				""
+				"An indulgent treat, this &bChocolate Cake&r should keep you sated for a while!"
+				""
+				"Or, if you're so inclined, you could &aprogress to the next quest&r and &afind a way to &6display it&r! Actually, here, take these two &bCake Slices&r. That way you can &aeat your cake, and have it, too&r."
+				""
+				"Yes, I know that's now how the phrase goes. But if you think about it, it really makes more sense this way."
+			]
+			id: "5D37E0A2F297C49E"
+			rewards: [{
+				count: 2
+				id: "0270569DCD65A3E0"
+				item: "bakery:chocolate_cake_slice"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "299FAD27ED1A3E6A"
+				item: "bakery:chocolate_cake"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			description: ["Using the tools you just acquired, you can now make &bStrawberry Jam!&r"]
+			id: "124F16ECDD4B26A2"
+			rewards: [{
+				id: "074162C5E0BE02E1"
+				item: "farm_and_charm:strawberry_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4906A64ECC5CE90F"
+				item: "bakery:strawberry_jam"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"740C9D783E4018EC"
+				"124F16ECDD4B26A2"
+			]
+			description: ["A &bStrawberry Cupcake&r is one of many things you can make with &bSweet Dough&r, and also uses the delicious &bStrawberry Jam&r you made in the last quest!"]
+			id: "1BCBFB8A5AAE9E37"
+			rewards: [{
+				id: "171CB1572A0ACDB8"
+				item: "mysticsbiomes:sweet_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AEF518A7E511840"
+				item: "bakery:strawberry_cupcake"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4D65AA1353AA0E1D"]
+			description: ["&bSweet Dough&r is the basis for many delicious pastries. The aspiring Kitchen Witch would do well to familiarize themself with its recipe!"]
+			id: "740C9D783E4018EC"
+			rewards: [{
+				count: 5
+				id: "2E12B72E0A546C81"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "sweet, dough!"
+			tasks: [{
+				id: "4EE7BB72D21FAD02"
+				item: "bakery:sweet_dough"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			description: ["The &bWall Bread Display&r can be used to show off your &bBreads&r from the &lBakery&r mod!"]
+			id: "73DC7CDFA4B7E09A"
+			rewards: [{
+				count: 4
+				id: "7BD4B5D198EC7F19"
+				item: "farm_and_charm:oat_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0940F81383673337"
+				item: "bakery:wall_display"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			description: ["This &bBrick Sink&r is a one-block &ainfinite water source&r! Simply &6right click it&r to turn on the faucet and &afill it with water&r, then &6right click it with a &bBucket&r or &bBottle&r to collect the water!"]
+			id: "4EAB1C3073616E17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136E5BBB53667A17"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "everything AND the kitchen sink"
+			tasks: [{
+				id: "65EE14C0671388C0"
+				item: "bakery:kitchen_sink"
+				type: "item"
+			}]
+			title: "Obtain a Sink"
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			description: ["The &bCrafting Bowl&r is a ubiquitous kitchen tool used to &amix together ingredients&r for things such as &bDough&r."]
+			id: "4D65AA1353AA0E1D"
+			rewards: [{
+				count: 4
+				id: "78608CEE4B07318E"
+				item: "farm_and_charm:flour"
+				type: "item"
+			}]
+			subtitle: "get crafty"
+			tasks: [{
+				id: "68DC207ADBC8566B"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4D65AA1353AA0E1D"]
+			description: ["To make &bCakes&r, you'll first need to &ainvent the universe&r. Wait, no, that's pies. With cakes you just need &bCake Dough&r."]
+			id: "52D7D562012B3B7C"
+			rewards: [{
+				id: "4F446D725938C800"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "211E725A65D0D81D"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5D37E0A2F297C49E"]
+			description: ["You can &adisplay your delicious &bpastries&r using a &bCake Stand&r, &bCupcake Display&r, or &bCake Display&r."]
+			id: "737B48AA3FE651BD"
+			rewards: [{
+				id: "1B03BFA8D7C37647"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6A25CFD0AD2689ED"
+					item: "bakery:cake_stand"
+					type: "item"
+				}
+				{
+					id: "4889A71CD6739882"
+					item: "bakery:cupcake_display"
+					type: "item"
+				}
+				{
+					id: "4A418C6CFA46ED20"
+					item: "bakery:tray"
+					type: "item"
+				}
+				{
+					id: "1ADDD8A49740F7C4"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+			]
+			title: "Displaying Your Pastries"
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			description: ["This &bItem Display&r will allow you to, well, display any &bitems&r, &das long as they don't have a &aBlock form&r. For example, you can display a &bCupcake&r or a &bPickaxe&r, but not a &bCake&r or a &bDiamond Block&r."]
+			id: "60E911F7FF96F190"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75795A258B8B822B"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E63BD408343B9FB"
+				item: "bakery:cake_display"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["4449135F7D10724F"]
+			description: [
+				"The &bCheese Press&r is a rudimentary machine which will help &acondense your Milk into Cheese&r. Although you can also achieve this via a &bMechanical Press&r from Create, it's always good to know the original methods of doing something!"
+				""
+				"Simply place your &bMilk&r and your &bRennet&r into the Press and then &6wait patiently&r (or use Time in a Bottle) for it to work its magic."
+				""
+				"Different &atypes of Milk&r will make unique cheeses... but more on that elsewhere!"
+			]
+			id: "43CC7A6F8C1284B5"
+			rewards: [{
+				id: "52F2E9AB20189810"
+				item: "meadow:wooden_milk_bucket"
+				type: "item"
+			}]
+			subtitle: "press cheese everyday"
+			tasks: [{
+				id: "10F24C6F606E244C"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "Obtain a Cheese Press"
+			x: 0.5d
+			y: 27.75d
+		}
+		{
+			dependencies: ["31CE923007EF1D03"]
+			description: ["It might take a while, but why not &acollect all &bCheese&r types and have yourself a little tasting?"]
+			id: "70B1F4C0D65D12D1"
+			rewards: [
+				{
+					id: "62472CE10CCECE37"
+					item: "plushies:cow_plushie"
+					type: "item"
+				}
+				{
+					id: "112353829A6BCEF1"
+					item: "plushies:sheep_plushie"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "it's not easy being cheesy"
+			tasks: [
+				{
+					id: "3308E70FCCB2CD12"
+					item: "meadow:piece_of_sheep_cheese"
+					type: "item"
+				}
+				{
+					id: "34E34BD224E77BDB"
+					item: "meadow:piece_of_grain_cheese"
+					type: "item"
+				}
+				{
+					id: "730DC6B219ACDF24"
+					item: "meadow:piece_of_amethyst_cheese"
+					type: "item"
+				}
+				{
+					id: "5114754DE3B687EC"
+					item: "meadow:piece_of_buffalo_cheese"
+					type: "item"
+				}
+				{
+					id: "1C0C5475C0A854DB"
+					item: "meadow:piece_of_goat_cheese"
+					type: "item"
+				}
+				{
+					id: "043D65B703B603C7"
+					item: "meadow:piece_of_warped_cheese"
+					type: "item"
+				}
+			]
+			title: "Collect All Cheeses"
+			x: 0.5d
+			y: 26.75d
+		}
+		{
+			dependencies: ["684AF61973DB643F"]
+			description: [
+				"&bRennet&r is a substance rendered from... actually, you know what? Let's not go into the details."
+				""
+				"The important part is that it makes &bCheese&r. Which you can now do! Well, once you &amake a Cheese Press&r. Let's do that now!"
+			]
+			id: "4449135F7D10724F"
+			rewards: [{
+				count: 4
+				id: "543F2E1FFCFC80B3"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "199614A27116767E"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 26.25d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r."
+				""
+				"Place this, alongside some &bRaw Beef&r and a &bGlass Bottle&r, inside a &bCauldron&r to make &bRennet&r, the next step in acquiring the most delicious food group: Cheese."
+			]
+			id: "684AF61973DB643F"
+			rewards: [{
+				count: 5
+				id: "1C58B4117732A2B4"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			subtitle: "getting salty"
+			tasks: [{
+				id: "11B37CCB85F3C0B4"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			title: "Obtain Alpine Salt"
+			x: -1.5d
+			y: 24.25d
+		}
+		{
+			description: [
+				"Witches are no strangers to &bCauldrons&r, and they know very well that you should never brew and cook in the same place! Hence why you should &aget yourself a &bRustic Cauldron&r, to help you in making some brand new recipes."
+				""
+				"This cooking device will help you to &arender &bRennet&r, but it can also &acook simple meats&r and even make some delicious...&abear related foods&r? Hmm."
+				""
+				"Anyway. "
+			]
+			id: "4E4341D997F9AE98"
+			rewards: [{
+				id: "07D53CBD22C282A8"
+				item: "meadow:water_buffalo_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "07A4D60B8F66A320"
+					item: "meadow:cooking_cauldron"
+					type: "item"
+				}
+				{
+					id: "0A960C517FE10BEE"
+					item: "meadow:frame"
+					type: "item"
+				}
+			]
+			title: "Obtain a Rustic Cauldron"
+			x: 0.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["486FE1761F7E41E3"]
+			description: [
+				"To enjoy a lovely &bFondue&r, simply &6place Bread above and Cheese below&r, and enjoy your tasty, molten treat."
+				""
+				"Better blow on it a bit first. That stuff is like lava."
+			]
+			id: "561E0AC36A0C1DB4"
+			rewards: [
+				{
+					id: "7F531AFE46E2E309"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "60FE11617AB55BDC"
+					item: "meadow:piece_of_buffalo_cheese"
+					type: "item"
+				}
+			]
+			subtitle: "well that's a 'fon' how 'due' you do"
+			tasks: [{
+				id: "524AA3711696170D"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["43CC7A6F8C1284B5"]
+			description: [
+				"You did it! You've finally obtained the holy grail of foods: &bcheese&r. There are a number of incredible dishes which can be made with &ole fromage&r (pardon my French), but why not go straight to the source and make some &bFondue&r?"
+				""
+				"To &aobtain &bCheese Pieces&r, &6place down&r your Cheese Wheel and &6right click&r it with an empty hand."
+			]
+			id: "486FE1761F7E41E3"
+			rewards: [
+				{
+					id: "7D76B9B0F996A207"
+					item: {
+						Count: 1
+						id: "vinery:clark_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2BA923B38B1D2EB3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126BFC7E59EA3AA3"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+			]
+			subtitle: "that's the stuff, gromit!"
+			tasks: [{
+				id: "28AC55258205CD5D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(meadow:cheese_blocks))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Cheese Wheel"
+			x: 2.5d
+			y: 26.25d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"There are a bunch of different types of &bMilk&r, which can all be made into &aunique and tasty cheeses&r."
+				""
+				"Although most of them come from &adifferent types of &eAnimals&r, you can also craft &bGrain Milk&r (vegan-friendly!) and &bAmethyst Milk&r. These last two types of milk are crafted using the &bRustic Cauldron&r. Grain milk is made with 2 Grains and one Wooden Water Bucket. Amethyst milk is made with Amethyst and, well, milk..."
+				""
+				"&eWater Buffalo&r can be found in &cRiver&r biomes."
+				""
+				"&eWarped Cows&r can be found in &cWarped Forest&r biomes."
+			]
+			id: "31CE923007EF1D03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D234C88D3E2B5A"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43F87593A57FD77D"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BDBA6DF75D59385"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "598A0D833CA0EBE5"
+					item: "meadow:wooden_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "70B7321FCA03B4F8"
+					item: "meadow:wooden_sheep_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "355D317CD1BF5C32"
+					item: "meadow:wooden_buffalo_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "07914BB6355F731F"
+					item: "meadow:wooden_goat_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "10F0DCAE8F924F07"
+					item: "meadow:wooden_warped_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "22D5D533D052AF44"
+					item: "meadow:wooden_grain_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "032E0831C523F75E"
+					item: "meadow:wooden_amethyst_milk_bucket"
+					type: "item"
+				}
+			]
+			title: "Many Milk Types!"
+			x: 0.5d
+			y: 25.25d
+		}
+		{
+			dependencies: ["0A415DB19D448EE0"]
+			id: "59B1855ECF0E6434"
+			rewards: [
+				{
+					id: "74B36C9F8E7AA753"
+					item: "crabbersdelight:pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6FFDEEE5FB4CC4"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
+			subtitle: "i am perfectly clam"
+			tasks: [
+				{
+					id: "5D8ED422781CE65F"
+					item: "crabbersdelight:clam"
+					type: "item"
+				}
+				{
+					id: "0E7712E349547B8E"
+					item: "crabbersdelight:crab"
+					type: "item"
+				}
+				{
+					id: "373960E76EE8AF35"
+					item: "crabbersdelight:shrimp"
+					type: "item"
+				}
+				{
+					id: "317CC5F4D842ED97"
+					item: "crabbersdelight:clawster"
+					type: "item"
+				}
+			]
+			title: "Obtain Shellfish"
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			description: [
+				"To begin your &acrabby journey&r, you will need a &bCrab Trap&r. Place it in the water and &afill it with bait&r to lure in creatures."
+				""
+				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
+			]
+			id: "0A415DB19D448EE0"
+			rewards: [
+				{
+					count: 5
+					id: "48A2B6549D8A3DFC"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7FD6AB916B17739E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "it's a trap!"
+			tasks: [
+				{
+					id: "468300ABAC2A9262"
+					item: "crabbersdelight:crab_trap"
+					type: "item"
+				}
+				{
+					id: "71A30F003C396099"
+					item: {
+						Count: 1
+						id: "crabbersdelight:bucket_of_crab_chum"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beginner Crabbing"
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A415DB19D448EE0"]
+			id: "4D9D45E60E1A72D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583A99F9C877CD85"
+				table_id: 7737096167250795605L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "57DE78AA06B54A54"
+					item: "crabbersdelight:crab_barrel"
+					type: "item"
+				}
+				{
+					id: "4C01BD9D9A69A2D5"
+					item: "crabbersdelight:clam_barrel"
+					type: "item"
+				}
+				{
+					id: "1BDD207E10E71211"
+					item: "crabbersdelight:clawster_barrel"
+					type: "item"
+				}
+				{
+					id: "61A1E0D616663D22"
+					item: "crabbersdelight:shrimp_barrel"
+					type: "item"
+				}
+				{
+					id: "659B842FFA839AE3"
+					item: "crabbersdelight:salmon_barrel"
+					type: "item"
+				}
+				{
+					id: "45096CB3984C5934"
+					item: "crabbersdelight:pufferfish_barrel"
+					type: "item"
+				}
+				{
+					id: "63CCB7E99906368E"
+					item: "crabbersdelight:tropical_fish_barrel"
+					type: "item"
+				}
+			]
+			title: "Compact Your Marine Life"
+			x: 10.0d
+			y: 11.0d
+		}
+	]
+	title: "for og"
+}
