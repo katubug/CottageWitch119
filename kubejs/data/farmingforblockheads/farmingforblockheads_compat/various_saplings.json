@@ -10,52 +10,10 @@
     "defaultCategory": "farmingforblockheads:saplings"
   },
   "customEntries": [
-    {"output": "meadow:pine_sapling"},
-    {"output": "extradelight:cinnamon_sapling"},
-    {"output": "environmental:blue_wisteria_sapling"},
-    {"output": "environmental:purple_wisteria_sapling"},
-    {"output": "environmental:white_wisteria_sapling"},
-    {"output": "environmental:pink_wisteria_sapling"},
-    {"output": "environmental:moody_cherry_sapling"},
-    {"output": "environmental:cheerful_cherry_sapling"},
-    {"output": "environmental:cherry_sapling"},
-    {"output": "environmental:pine_sapling"},
-    {"output": "environmental:willow_sapling"},
     {"output": "culturaldelights:avocado_sapling"},
-    {"output": "colorfulazaleas:white_azalea_sapling"},
-    {"output": "colorfulazaleas:purple_azalea_sapling"},
-    {"output": "colorfulazaleas:pink_azalea_sapling"},
-    {"output": "colorfulazaleas:blue_azalea_sapling"},
-    {"output": "colorfulazaleas:red_azalea_sapling"},
-    {"output": "colorfulazaleas:yellow_azalea_sapling"},
-    {"output": "colorfulazaleas:orange_azalea_sapling"},
     {"output": "deeperdarker:echo_sapling"},
-    {"output": "caupona:wolfberry_sapling"},
-    {"output": "caupona:fig_sapling"},
-    {"output": "caupona:walnut_sapling"},
-    {"output": "twilightforest:rainbow_oak_sapling",
-    "payment": {
-          "item": "minecraft:emerald",
-          "count": 32
-        }},
-    {"output": "twilightforest:mangrove_sapling"},
-    {"output": "twilightforest:darkwood_sapling"},
-    {"output": "ecologics:coconut_seedling"},
-    {"output": "hexerei:mahogany_sapling",
-    "payment": {
-          "item": "minecraft:emerald",
-          "count": 12
-        }}, 
-    {"output": "hexerei:willow_sapling",
-    "payment": {
-          "item": "minecraft:emerald",
-          "count": 4
-        }}, 
-    {"output": "hexerei:witch_hazel_sapling",
-    "payment": {
-          "item": "minecraft:emerald",
-          "count": 4
-        }}
+    {"output": "ecologics:coconut_seedling"}
+    
   ]
 }
 

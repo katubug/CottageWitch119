@@ -1,31 +1,41 @@
+
 #List of curio slot type settings
 [[curiosSettings]]
-  identifier = "ring"
-  size = 2
-  hasCosmetic = true
+	identifier = "ring"
+	size = 2
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "hands"
-  size = 2
-  hasCosmetic = true
-  override = true
+	identifier = "hands"
+	size = 2
+	hasCosmetic = true
+	override = true
+
 [[curiosSettings]]
-  identifier = "charm"
-  hasCosmetic = true
+	identifier = "charm"
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "necklace"
-  hasCosmetic = true
+	identifier = "necklace"
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "pocket"
-  hasCosmetic = true
+	identifier = "pocket"
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "feet"
-  hasCosmetic = true
+	identifier = "feet"
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "head"
-  hasCosmetic = true
+	identifier = "head"
+	hasCosmetic = true
+
 [[curiosSettings]]
-  identifier = "back"
-  hasCosmetic = true
-  [[curiosSettings]]
-  identifier = "belt"
-  hasCosmetic = true
+	identifier = "back"
+	hasCosmetic = true
+
+[[curiosSettings]]
+	identifier = "belt"
+	hasCosmetic = true
+

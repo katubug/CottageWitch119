@@ -64,6 +64,7 @@
 		{
 			description: [
 				"The mod &lFantasy's Furniture&r adds beautiful and intricate furniture for you to decorate with."
+				""
 				"The crafting system is a little different from usual, however. Each recipe costs only 1 each of &bClay, Cobbled Stone, and Planks&r, and must be created in a &bFurniture Station&b, which can be &acrafted in a Smithing Table&a using a &bCrafting Table&r and &bLeather&r."
 			]
 			id: "7D4BC2C21F70DF65"
@@ -101,6 +102,7 @@
 		{
 			description: [
 				"The &bBuilding Gadget&r is a useful tool for building larger structures quickly. It &aplaces multiple blocks at once&a from your inventory. &6Shift right click a block in world&r to set that as your building block."
+				""
 				"The &bExchanging Gadget&r is a tool which will &areplace blocks in the world with a specific block from your inventory&r. As with the BG, &6shift right click the replacer block&r and then you can &6right click with the gadget&r."
 			]
 			id: "1AFE0FBF887D22FD"
@@ -166,7 +168,9 @@
 			dependencies: ["1AFE0FBF887D22FD"]
 			description: [
 				"The &bCopy Paste Gadget&r is a robust and therefore complicated tool. It allows you to use &aSchematics found online&r to build automatically, and also allows you to - as you could guess - &acopy and paste structures you've built&r."
+				""
 				"In order to use it, you'll need &bPaper&r, and the &bTemplate Manager&r."
+				""
 				"I cannot put all the information in this quest description. &oMore information can be found on YouTube, at 8:12 into the \"Mod Spotlight Building Gadgets v2\" video by Direwolf20&r."
 			]
 			id: "1184EA40A20DEB5D"
@@ -243,7 +247,9 @@
 			dependencies: ["1184EA40A20DEB5D"]
 			description: [
 				"&bConstruction Paste&r allows you to build with blocks you technically don't have."
+				""
 				"When you are pasting in a structure, if you are missing blocks from the build, but have &bPaste&r, it will &atake on the appearance of that block&r. When broken, it will drop &bConstruction Paste&r, however."
+				""
 				"The &bPaste Containers&r allow you to hold significantly more paste than you would be able to, otherwise."
 			]
 			id: "255D49A0CC045204"
@@ -279,6 +285,7 @@
 		{
 			description: [
 				"These &bGlass Item Frames&r display items on a surface just like the normal kind, but they will &abecome invisible&r once they have an item inside them."
+				""
 				"&6Place a Banner inside&r to display its pattern on that block."
 			]
 			id: "72409602FE85C718"
@@ -426,6 +433,7 @@
 		{
 			description: [
 				"The &bHanging Sign&r is a versatile decoration block which can hang beneath or off the side of a block."
+				""
 				"You can add text to it by &aright clicking with an empty hand&r, or you can use it as an item frame by &aright clicking it with an item&r."
 			]
 			id: "7E936E10896FA3D5"
@@ -455,7 +463,9 @@
 		{
 			description: [
 				"Up to two &bSign Posts&r can be placed on any fence block, in order to form directional signs!"
+				""
 				"&6Shift and right click&r the placed Sign in order to reverse the direction."
+				""
 				"If you &6right click them with a compass&r, they will point in the direction the compass points to. Useful for spawn points and Lodestones!"
 			]
 			id: "0E28D4A9544EAF0E"
@@ -485,6 +495,7 @@
 		{
 			description: [
 				"The &bBlackboard&r will allow you to draw a 16x16 black and white image. Perfect for creative signage!"
+				""
 				"It will &aretain it's image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
 			]
 			id: "1E53C205AD76513E"
@@ -590,7 +601,9 @@
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
 				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
+				""
 				"Well, why not &adecorate your house with these attractive trophies&r."
+				""
 				"(only some animals were hurting in the making of this quest)"
 			]
 			id: "30C8AAFCE9EB2BA6"
@@ -627,7 +640,8 @@
 		}
 		{
 			description: [
-				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a &bSawmill&r."
+				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6placing planks in a &bStonecutter&r or &lCreate&r &bSaw&r."
+				""
 				"You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."
 			]
 			id: "7D82FBD000D41F84"
@@ -658,7 +672,9 @@
 			dependencies: ["15781BD4547097E9"]
 			description: [
 				"But beds aren't the only things that can &abenefit from &bSheets&r and &bCushions&r!"
+				""
 				"For example, &6right click a &bSheet&r on a &bTable&r to give it a &atablecloth&r."
+				""
 				"And you can &aapply a &bCushion&r to a &bChair&r as well! Why not see what other items you can customize..."
 			]
 			id: "32DCF4F0C230C940"

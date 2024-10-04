@@ -557,8 +557,10 @@
 				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
 				"The check mark above unlocks &6once all Scavenger Hunt Quests are done&r."
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "5D440F980372BD81"

@@ -674,30 +674,6 @@
 			y: 5.5d
 		}
 		{
-			description: ["In certain forests, it's said that the trees are not only alive, but can speak! Seek one out for yourself."]
-			id: "5D8A16DE54B55BEA"
-			invisible: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CD092D45B46C924"
-				table_id: 6941837675484043489L
-				type: "choice"
-			}]
-			shape: "heart"
-			subtitle: "not always that wise tbh"
-			tasks: [{
-				icon: "mysticaloaktree:wise_oak"
-				id: "2692CA3A9EB604F3"
-				observe_type: 0
-				timer: 0L
-				to_observe: "mysticaloaktree:wise_oak"
-				type: "observation"
-			}]
-			title: "Meet a Wise Oak"
-			x: -8.5d
-			y: -6.5d
-		}
-		{
 			description: [
 				"What an odd statue. Who made these, and for what purpose?"
 				""

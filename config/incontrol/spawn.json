@@ -1,1 +1,117 @@
-[]
+[
+    {
+        "mob":"minecraft:squid",
+        "maxcount": 10,
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"minecraft:squid",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"mythicmounts:firebird",
+        "structuretags": "ctov:village",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"mythicmounts:firebird",
+        "mincount": {
+            "amount": 1,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"kakapos:kakapo",
+        "biome": "byg:guiana_shield",
+        "result": "default",
+        "continue": true
+    },
+    {
+        "mob":"kakapos:kakapo",
+        "mincount": {
+            "amount": 2,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:catfish",
+        "biometags": "swamp",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:catfish",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:flying_fish",
+        "biometags": "ocean",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"alexsmobs:flying_fish",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"minecraft:bat",
+        "mincount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":[
+            "mythicmounts:archelon",
+            "mythicmounts:acencia",
+            "mythicmounts:colelytra",
+            "mythicmounts:courierbird",
+            "mythicmounts:direwolf",
+            "mythicmounts:dragon",
+            "mythicmounts:nudibranch"
+        ],
+        "mincount": {
+            "amount": 15,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "result": "deny",
+        "continue": true,
+        "mob": [
+          "minecraft:skeleton",
+          "minecraft:zombie",
+          "minecraft:enderman",
+          "minecraft:creeper"
+        ],
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+        }
+    }
+]

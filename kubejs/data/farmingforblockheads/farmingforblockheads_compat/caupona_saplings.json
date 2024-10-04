@@ -1,0 +1,23 @@
+{
+    "modId": "caupona",
+    "silent": true,
+    "group": {
+      "name": "Caupona Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "caupona:wolfberry_sapling"
+        },
+        {
+            "output": "caupona:fig_sapling"
+        },
+        {
+            "output": "caupona:walnut_sapling"
+        }
+    ]
+  }

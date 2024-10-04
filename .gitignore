@@ -1,0 +1,14 @@
+crash-reports/
+config/byg/backups/
+config/oculus.properties
+config/packetfixer.properties
+config/spark/tmp/
+config/sound_physics_remastered/
+config/spawnbalanceutility/AllMobEntities.rpt
+config/spawnbalanceutility/BiomeMobWeight.txt
+config/spawnbalanceutility/StructMobWeight.txt
+config/voicechat/
+config/jei/recipe-category-sort-order.ini
+config/jei/ingredient-list-mod-sort-order.ini
+config/spawnbalanceutility/MassAdditionMobs.txt
+config/jei/ingredient-list-type-sort-order.ini

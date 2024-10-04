@@ -124,13 +124,15 @@
 				type: "item"
 			}]
 			title: "Cook some Tropical Stew"
-			x: -9.5d
-			y: -2.5d
+			x: -7.0d
+			y: -5.0d
 		}
 		{
 			description: [
 				"One feature of this modpack is that &aeating a variety of foods grants you extra hearts&r! Make sure to &6maintain a wide diet&r, as these bonus hearts will diminish if you find yourself living off a stack of egg sandwiches or Everlasting Beef."
+				""
 				"You can see which foods you've eaten by checking your &bFood Book&r, which is inside your &bAkashic Tome&r and can be accessed by &6right clicking the Tome and then selecting the Food Book&r."
+				""
 				"You can also find what you've yet to eat by searching \"yet\" in the right side of your inventory screen (&lJEI&r)."
 			]
 			id: "6EFFB8ED37DC8A47"
@@ -162,8 +164,13 @@
 		{
 			dependencies: ["644439D23D454629"]
 			description: [
-				"&bTea&r is a small bush which can be grown on farmland in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
+				"&bTea&r is a small bush which can be grown in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
+				""
 				"You'll need a &bkettle&r to brew it, which is made with some &bleather&r, a &bbucket&r, and &bcopper&r."
+				""
+				"You can find &bWild Tea Bushes&r in &cSwamps&r. To obtain different kinds of tea, &6allow the bush to continue growing&r until it changes color. This will allow you to gather &byellow&r and &bblack&r tea leaves!"
+				""
+				"You cannot grow tea on &bFarmland&r, it must be planted on grass."
 			]
 			id: "1266B799DAB9CCC7"
 			rewards: [
@@ -192,6 +199,7 @@
 			dependencies: ["1266B799DAB9CCC7"]
 			description: [
 				"&bCoffee Beans&r can be acquired from &aBasalt Deltas&r in the Nether."
+				""
 				"What, are you surprised coffee comes from the Nether? Why do you think it's so hellishly good?"
 			]
 			id: "057B67AD7B2265D2"
@@ -248,6 +256,7 @@
 		{
 			description: [
 				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
+				""
 				"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
 			]
 			id: "644439D23D454629"
@@ -273,6 +282,7 @@
 			dependencies: ["1266B799DAB9CCC7"]
 			description: [
 				"Black tea is the leaf with the greatest amount of tannins, making it the most resistant to heat and also the most strongly-flavored."
+				""
 				"Oh, it's also the most &aCaffeinated&r, and will grant you that effect."
 			]
 			id: "016F0B2B8A127F3F"
@@ -594,6 +604,7 @@
 			dependencies: ["76BB908C21246B36"]
 			description: [
 				"&bPropelcane&r is obtained from &bPropelplants&r, but must be &6harvested with a Knife&r. It can be chopped into &bGunpowder&r at a Cutting Board, or used to &acreate special &bPropelplant Torches&r."
+				""
 				"The &bCane&r can also be &aplanted on &bRich Soul Soil&r."
 			]
 			id: "3975B8BC61249AF4"
@@ -615,6 +626,7 @@
 			dependencies: ["236484A484723F55"]
 			description: [
 				"Before you can chow down on your &bStuffed Hoglin&r, you must first &6carve off the finest delicacy&r - the &bears&r. Delicious!"
+				""
 				"Then, you can &aobtain dishes&r from the remainder of the meal by &6clicking on the Hoglin with a bowl&r. Don't waste any!"
 			]
 			id: "4FEE0688A44D8421"
@@ -689,8 +701,11 @@
 		{
 			description: [
 				"The &bCooking Pot&r will allow you to make uniquely filling and delicious dishes! The more different foods you try, the &amore hearts you'll gain&r, making this an important tool for the kitchen witch adventurer."
+				""
 				"Place the &bCooking Pot&r on top of a heat source such as &bfire&r, &bcampfire&r, &bmagma block&r, or &bstove&r, to heat it. Then, &6place your ingredients inside&r."
+				""
 				"You'll also need something to serve your dish in, such as a &bbowl&r, &bbottle&r, or a &bpumpkin&r!"
+				""
 				"When the &bCooking Pot&r is broken, it retains its contents."
 			]
 			id: "2615CD06E32EC741"
@@ -729,6 +744,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			description: [
 				"A &bStove&r is an incredibly useful tool. Thanks to your inherent magic, it is fueled at all times! You can &6place up to 6 food items&r on the grill in order to cook them. They'll pop up into items when they're ready! You can &6place an upside-down &bBasket&r above it to collect them automatically."
+				""
 				"The &bStove&r can also be used as a heat source for the &bCooking Pot&r, but if you do it that way, you cannot place items on the grill."
 			]
 			id: "492DDC880E65C534"
@@ -752,6 +768,7 @@
 			dependencies: ["7557E8749BF869DF"]
 			description: [
 				"&bBark&r is obtained by &6placing a log on a Cutting Board and right clicking with an Axe&r."
+				""
 				"It can be used when making &bCompost&r, &bPaper&r, or even &abrewing Ale&r."
 			]
 			id: "1984CA53390BA48B"
@@ -774,6 +791,7 @@
 			dependencies: ["4F8BE51C9D3C16A2"]
 			description: [
 				"A &bcutting board&r will allow you to prepare advanced ingredients for your meals, such as &bbacon&r or &bfish filets&r. Simply &6place the item on the cutting board&r and &6right click it&r with your knife."
+				""
 				"This isn't the only use for the &bcutting board&r! Try experimenting with items like &bwooden logs&r (using an &baxe&r) or even unwanted &bleather armor&r (with &bshears&r)!"
 			]
 			id: "7557E8749BF869DF"
@@ -864,6 +882,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			description: [
 				"Some meals, like &bGlazed Ham&r or &bShepherd's Pie&r, need to be &6placed in world&r in order to eat them. They also make great decoration for your (visual) feasting pleasure!"
+				""
 				"You'll also need a &bbowl&r in order to eat them, so here, take this one."
 			]
 			id: "5F2C26D1C6302016"
@@ -1064,6 +1083,7 @@
 			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
 				"Step one on your journey to the ultimate burger is this: the humble &bHamburger&r."
+				""
 				"The humbleburger, if you will. Hambumble? I don't know."
 			]
 			id: "717B733896BBB2AA"
@@ -1256,7 +1276,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["717B733896BBB2AA"]
+			dependencies: ["6EFFB8ED37DC8A47"]
 			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
 			id: "181F5C00C8DE417B"
 			rewards: [
@@ -1544,8 +1564,11 @@
 		{
 			description: [
 				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
+				""
 				"Right click the &bCooking Guide&r onto a &bBlaze Burner&r to &6create a Blaze Stove&r."
+				""
 				"Hold \"w\" to &6ponder&r the &bCooking Guide&r for more information."
+				""
 				"Be sure that the &bCooking Guide&r is outside of your &bAkashic Tome&r! &dThe book will be consumed&r by this process. Check the &atutorial quests&r for info on removing a book from the &bAkashic Tome&r."
 			]
 			id: "1C7D5C2C8C201E83"
@@ -1654,7 +1677,9 @@
 			dependencies: ["166F53EED3372358"]
 			description: [
 				"Place &bMagma Blocks&r around your &bKeg&r to raise the temperature and craft new brews! The more blocks you use, the higher the heat."
+				""
 				"With this method, you can even craft &bCheeses&r and &bFudge&r."
+				""
 				"You can also &acool down&r your &bKeg&r by placing &bIce Blocks&r around it instead! This will allow you to make things like &bPickles&r."
 			]
 			id: "6347F33BF36A112E"
@@ -1679,8 +1704,10 @@
 			dependencies: ["6347F33BF36A112E"]
 			description: [
 				"Cheese can be created in the Keg, but must &abe aged before it can be eaten&r. Place the Cheese out to let it ripen."
+				""
 				"Once it's ripe, you can place it on a &bCutting Board&r to obtain &bCheese Wedges&r to cook with."
 				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
+				""
 				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
 			]
 			icon: "brewinandchewin:scarlet_cheese_wheel"
@@ -1830,6 +1857,7 @@
 		{
 			description: [
 				"Once you've obtained a &bDragon Egg&r, you can use them to craft a &bNourishing Dragon Egg&r."
+				""
 				"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
 			]
 			id: "4264920573ADC879"
@@ -1917,8 +1945,8 @@
 				item: "ends_delight:steamed_dragon_egg_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.25d
+			x: 6.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1986,8 +2014,8 @@
 				id: "05A7CA3D3CBCBE10"
 				type: "advancement"
 			}]
-			x: 8.5d
-			y: 14.25d
+			x: 8.0d
+			y: 14.5d
 		}
 		{
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
@@ -2079,6 +2107,7 @@
 			dependencies: ["0AB07DA9AF0FB294"]
 			description: [
 				"You can also &aadd Spices to your food&r! One such spice is &bVinegar&r, which is created by leaving &bSweet Berries&r to &arest in the Dolium&r with a &bFlower Pot&r."
+				""
 				"Adding spices to your food &agives it greater saturation&r."
 			]
 			id: "6FB77462CDE121E0"
@@ -2192,6 +2221,7 @@
 			dependencies: ["1C80130EFE5C2FFC"]
 			description: [
 				"The &bStove&r is a helpful and aesthetically-pleasing &aheat source&r, which can be used to heat &bStew Pots, Stir Fry Pans, and Hypocausts&r."
+				""
 				"Strictly speaking, a &bStove&r is not the only &aheat source usable by the mod&r. However, it's very pretty."
 			]
 			id: "50C95EB7CBDC346C"
@@ -2229,6 +2259,7 @@
 			dependencies: ["50C95EB7CBDC346C"]
 			description: [
 				"To stir-fry things, you'll need two things: a &bpan or stone&r, and a &bGravy Boat&r."
+				""
 				"The Pan must be &6placed atop a heat source&r. The &bGravy Boat&r must be placed &adirectly next to the pan&r. You can place it with &6shift right click&r."
 			]
 			id: "71C8716D1914B882"
@@ -2258,9 +2289,9 @@
 			dependencies: ["71C8716D1914B882"]
 			description: [
 				"A &bGravy Boat&r is crucial to making &aStir Fried dishes&r. It's crafted by &aresting&r, which is a unique mechanic involving &6putting things in a &bDolium&r and then &6leaving it the heck alone&r."
-				""
 				"{image:cottagewitch:textures/gravyboat.png width:100 height:100 align:1 fit:true}"
 				"In this image, you can see there are &aat least 8 &bWalnuts&r, one &bAnvil&r, and one &bGlass Bottle&r (you can also use an empty Gravy Boat) in the &bDolium&r. All of these must be present in order for the &aresting process&r to begin. Be aware that this &dtakes a very long time&r. Most resting takes &dan in-game day&r to complete."
+				""
 				"You can speed it up by using &bTime in a Bottle&r."
 			]
 			id: "2DFE677856208F14"
@@ -2293,6 +2324,7 @@
 			dependencies: ["50C95EB7CBDC346C"]
 			description: [
 				"To begin with, you'll need a &bClay Pot&r, which you'll need to &6fire in a furnace&r. A &bStew Pot&r is used to make &aSoups, Stews, and Aspics&r."
+				""
 				"Once placed, you can &afill the Stew Pot&r by &6right clicking it&r with a &bBucket of Milk or Water&r, or &bBowls&r of whichever ingredient."
 			]
 			id: "3502E25C90113657"
@@ -2322,12 +2354,17 @@
 			description: [
 				"Now that you're ready to cook, let's try making some &bBorscht&r. Just like babshka used to make."
 				""
-				"{image:cottagewitch:textures/borscht.png width:100 height:60 align:1 fit:true}"
+				"{image:cottagewitch:textures/borscht.png width:100 height:55 align:1 fit:true}"
 				"As you can see, it's a &bBeetroot&r-heavy &avegetable soup&r, that doesn't have any &adenial ingredients&r."
+				""
 				"Make sure you place &aat least 3 &bBeetroot&r and &aat least 1 &bother vegetable&r (or another &bBeetroot&r)."
+				""
 				"However, you can &dadd more than that&r! If you make it with &b9 Beetroot&r, it will give you &agreater saturation&r."
+				""
 				"There is a &dbug where the correct Saturation won't appear&r when you hover over the item. However, it will be correct when you eat it."
+				""
 				"Stews can also &abe placed down with &6shift + right click&r!"
+				""
 				"Additionally, you can &aadd &bPotions&a to your food&r by including them in the 9 ingredients."
 			]
 			id: "1A24E1B112A913B5"
@@ -2389,6 +2426,7 @@
 			dependencies: ["2B95A3784844A835"]
 			description: [
 				"In order to &athaw an &bAspic&r, you can either &6place it in a &bStew Pot&r and let it convert, or you can use a &bPortable Brazier&r."
+				""
 				"The &bBrazier&r can be done while traveling, but it will require a &bBowl of Water&r and some &bVivid Charcoal&r in order to work."
 			]
 			id: "17005FF934CF893E"
@@ -2512,28 +2550,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -5.5d
-		}
-		{
-			id: "3B625D38653B4C28"
-			tasks: [{
-				id: "246D392F625EFA8D"
-				item: "aquaculture:algae"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 10.0d
-		}
-		{
-			id: "789B498682DFF7A4"
-			tasks: [{
-				id: "44CA87DFB512B9EE"
-				item: "aquaculture:algae"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 11.0d
 		}
 	]
 	title: "Culinary Arts"

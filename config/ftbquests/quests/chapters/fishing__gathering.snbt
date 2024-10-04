@@ -1131,7 +1131,7 @@
 		}
 		{
 			description: [
-				"Hats! Who doesn't live the simple pleasure of a Nice Hat? &lSimple Hats&r is just that: hats, nothing else. These are exclusively equipped in your Head curio slot, and can &aonly be found through fishing&r (or a lucky shipwreck)."
+				"Hats! Who doesn't live the simple pleasure of a Nice Hat? &lSimple Hats&r is just that: hats, nothing else. These are exclusively equipped in your Head curio slot, and can &aonly be found through fishing&r (or a lucky neptunian chest)."
 				""
 				"Each regular hatbag contains one hat of corresponding rarity: Common, &eUncommon&r, &bRare&r, and &dEpic&r! "
 				""
@@ -1172,10 +1172,10 @@
 				""
 				"&6Place the&r &bhat&r &6and&r &ba pair of shears&r &6into a crafting grid&r. This will give you a &bHat Scrap&r. You can do two things with that hat scrap: "
 				""
-				"&6combine 4 of them&r in a crafting menu to get a &bnew hatbag&r of that type:"
+				"&6Combine 4 of them&r in a crafting menu to get a &bnew hatbag&r of that type:"
 				"{image:cottagewitch:textures/hatscrap_bag.png width:160 height:65 align:1}"
 				""
-				"or &6combine 2 of them&r to get 1 &oupgraded&r &bhat scrap&r."
+				"Or &6combine 2 of them&r to get 1 &oupgraded&r &bhat scrap&r."
 				"{image:cottagewitch:textures/hatscrap_upgrade.png width:160 height:65 align:1}"
 				""
 				"Unfortunately, &dEpic Hats&r are not able to be broken down as they are too epic."

@@ -2720,19 +2720,302 @@
 			y: -2.5d
 		}
 		{
-			id: "717D0FA0C7836CEE"
+			description: [
+				"These loveable fellows may not do much besides grunt and dance and sit pretty, but they happen to be my &dfavourite animal&r, and I require nothing more than their existence."
+				""
+				"&eKākāpō&r, often called owl parrots, are nocturnal flightless parrots endemic to &cNew Zealand&r. These chubsters are some of the longest living birds on the planet- capable of living up to 100 years! Though they were &dnearly wiped out&r by the introduction of mammals to the island, there are many &aconservation efforts&r on nearby islands and they have recently been &asuccessfully reintroduced&r to the &cSanctuary Mountain Maungatautari&r on the mainland. "
+				""
+				"There are currently only &d247 living Kākāpō in existence&r. As such, they have been made &aincredibly scarce&r in the modpack here as well- being found only in the &cGuiana Shield&r biome. To increase your chances of finding this bird, &6try using the&r &bSummoning Ritual&r &6from&r &lArs Nouveau&r in a &cGuiana Shield&r."
+				""
+				"If you are interested in the conservation of these precious creatures, you can learn more here: &9www.doc.govt.nz/kakapo-donate&r"
+			]
+			id: "1BAE94F61437DA22"
+			rewards: [{
+				id: "76C2A1B1628E3879"
+				item: {
+					Count: 1b
+					id: "xercapaint:item_canvas"
+					tag: {
+						author: "Emmulah"
+						generation: 2
+						name: "7e0a1802-2a6a-403d-a487-d3a60cb2d037_1726015973"
+						pixels: [I;
+							-13880291
+							-12760037
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-12760037
+							-12760037
+							-13880291
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-11705320
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-11705320
+							-11705320
+							-12760037
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-11705320
+							-11705320
+							-12760037
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8226261
+							-4211920
+							-4211920
+							-4211920
+							-8226261
+							-8226261
+							-4211920
+							-4211920
+							-4211920
+							-8226261
+							-11705320
+							-11705320
+							-11705320
+							-8337633
+							-8337633
+							-8226261
+							-4211920
+							-2829773
+							-14869215
+							-3099088
+							-3098320
+							-3099600
+							-3099600
+							-14869215
+							-2829773
+							-4211920
+							-8226261
+							-11705320
+							-8337633
+							-8337633
+							-8337633
+							-4211920
+							-4211920
+							-2829773
+							-2829773
+							-3098320
+							-2912722
+							-2912722
+							-3099600
+							-2829773
+							-2829773
+							-4211920
+							-4211920
+							-11705320
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2829773
+							-2829773
+							-2829773
+							-2829773
+							-2912722
+							-2912722
+							-2829773
+							-2829773
+							-2829773
+							-2829773
+							-4211920
+							-11705320
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2897614
+							-2829773
+							-2829773
+							-2829773
+							-4423893
+							-2912722
+							-2829773
+							-2829773
+							-2829773
+							-2897614
+							-4211920
+							-11705320
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2897614
+							-2829773
+							-2829773
+							-2829773
+							-4423893
+							-2829773
+							-2897614
+							-2897614
+							-4211920
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-2897614
+							-2897614
+							-2897614
+							-2829773
+							-2897614
+							-2897614
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-2897614
+							-2897614
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-12760037
+							-12760037
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-13880291
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-12760037
+							-13880291
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-13880291
+							-13880291
+						]
+						title: "kakapo"
+						v: 120
+					}
+				}
+				type: "item"
+			}]
 			shape: "heart"
+			subtitle: "the world's largest flightless parrot"
 			tasks: [{
-				icon: "alexsmobs:spawn_egg_warped_toad"
-				id: "10AF6A6FFB803DDF"
+				icon: "minecraft:carrot"
+				id: "0932C1F8412CA59D"
 				observe_type: 5
 				timer: 0L
-				to_observe: "alexsmobs:warped_toad"
+				to_observe: "kakapos:kakapo"
 				type: "observation"
 			}]
-			title: "Meet the Warped Toad"
-			x: -15.0d
-			y: -6.5d
+			title: "Meet the Kākāpō"
+			x: -9.0d
+			y: -4.5d
 		}
 	]
 	title: "Wildlife"

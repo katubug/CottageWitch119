@@ -1,0 +1,46 @@
+{
+	// When enabled, gives signs without an area name a randomly chosen one from a preset list.
+	"giveUnnamedAreasRandomName": false,
+	// The radius in blocks around the player in which to check for area signs.
+	// min: 0, max: 1000
+	"radiusAroundPlayerToCheckForSigns": 100,
+	// The default radius for areas when it's left empty on the sign. It will be added automatically.
+	// min: 0, max: 1000
+	"defaultAreaRadius": 30,
+	// When enabled, sends the player the area notifications in chat.
+	"sendChatMessages": false,
+	// When enabled, sends the player the area notifications in the HUD on screen.
+	"showHUDMessages": true,
+	// Whether a message should be sent when a player enters an area.
+	"showEnterMessage": true,
+	// The prefix of the message whenever a player enters an area.
+	"enterPrefix": "Entering ",
+	// The suffix of the message whenever a player enters an area.
+	"enterSuffix": ".",
+	// Whether a message should be sent when a player leaves an area.
+	"showLeaveMessage": true,
+	// The prefix of the message whenever a player leaves an area.
+	"leavePrefix": "Leaving ",
+	// The suffix of the message whenever a player leaves an area.
+	"leaveSuffix": ".",
+	// Whether the text shown should be drawn with a shadow.
+	"showHUDTextShadow": true,
+	// The delay in ms after which the HUD message should fade out.
+	// min: 100, max: 360000
+	"HUDMessageFadeDelayMs": 4000,
+	// The vertical offset (y coord) for the HUD message. This determines how far down the message should be on the screen. Can be changed to prevent GUIs from overlapping.
+	// min: 0, max: 3000
+	"HUDMessageHeightOffset": 10,
+	// Increases the font size of the text in the HUD message. If you change this value, make sure to test the different GUI scale settings in-game. 6.0 is considered large.
+	// min: 0.0, max: 10.0
+	"HUD_FontSizeScaleModifier": 1.0,
+	// The red RGB value for the HUD message.
+	// min: 0, max: 255
+	"HUD_RGB_R": 100,
+	// The green RGB value for the HUD message.
+	// min: 0, max: 255
+	"HUD_RGB_G": 200,
+	// The blue RGB value for the HUD message.
+	// min: 0, max: 255
+	"HUD_RGB_B": 50
+}

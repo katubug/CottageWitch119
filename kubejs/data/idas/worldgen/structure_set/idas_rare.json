@@ -11,10 +11,6 @@
     {
       "structure": "idas:ruins_of_the_deep",
       "weight": 1
-    },
-    {
-      "structure": "idas:iceandfire/dread_citadel",
-      "weight": 1
     }
   ],
   "placement": {

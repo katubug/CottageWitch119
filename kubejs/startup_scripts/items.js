@@ -11,6 +11,8 @@ event.create('flower_moon').texture('kubejs:item/flower_moon').displayName("Flow
 event.create('strawberry_moon').texture('kubejs:item/strawberry_moon').displayName("Strawberry Moon")
 event.create('antler_moon').texture('kubejs:item/antler_moon').displayName("Antler Moon")
 event.create('harvest_moon').texture('kubejs:item/harvest_moon').displayName("Harvest Moon")
+event.create('corn_moon').texture('kubejs:item/corn_moon').displayName("Corn Moon")
+event.create('oak_moon').texture('kubejs:item/oak_moon').displayName("Oak Moon")
 
 })
 ItemEvents.modification(event => {
