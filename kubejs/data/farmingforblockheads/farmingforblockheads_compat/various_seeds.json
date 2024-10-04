@@ -1,0 +1,62 @@
+{
+  "modId": "minecraft",
+  "silent": true,
+  "group": {
+    "name": "Various Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {"output": "candlelight:broccoli_seeds"},
+    {"output": "extradelight:sunflower_seeds"},
+    {"output": "culturaldelights:corn_kernels"},
+    {"output": "bakery:oat_seeds"},
+    {"output": "bakery:strawberry_seeds"},
+    {"output": "culturaldelights:eggplant_seeds"},
+    {"output": "culturaldelights:cucumber_seeds"},
+    {"output": "collectorsreap:lime_seeds",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }},
+    {"output": "collectorsreap:pomegranate_seeds",
+    "payment": {
+          "item": "minecraft:blaze_rod",
+          "count": 4
+        }},
+    {"output": "hexerei:sage_seed"},
+    {"output": "farmersrespite:coffee_beans",
+    "payment": {
+          "item": "minecraft:blaze_rod",
+          "count": 12
+        }},
+        {"output": "farmersrespite:tea_seeds",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }},
+    {"output": "hexerei:mandrake_flower",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:belladonna_flower",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:mugwort_bush",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}, 
+    {"output": "hexerei:yellow_dock_bush",
+    "payment": {
+          "item": "minecraft:emerald",
+          "count": 12
+        }}
+  ]
+}
