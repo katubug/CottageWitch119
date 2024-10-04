@@ -1,0 +1,190 @@
+
+[general]
+	#Block range for sound detection system to look for a mob that made a certain sound on the server, so the client may play an animation.
+	#The client is not sent an exact position, so the mob's location must be estimated.
+	#Range: 0.5 ~ 8.0
+	sound_detection_range = 1.5
+	#Mob variants that shouldn't have any model changes applied to them.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_blacklist = []
+
+[models]
+	#This makes the udders on cows wobble around when they walk.
+	#Also makes their udders have nipples.
+	oinky_pig = true
+	#This one makes the knees of zombie-like and piglin-like mobs bend when they walk around.
+	#Looks pretty fluid and nice. You'll like it, trust me.
+	bending_humanoid_knees = true
+	#This one makes chicken beaks open and close when they cluck.
+	#When they strut their heads move back and forth, the red thing under their beak swings around and their wings flap a little. Just like the real deal!
+	bucka_bucka_chicken = true
+	#This one makes llamas open their mouth when spitting. How have they been doing that before?!
+	spitful_llama = true
+	#A truly stunning visual addition. Spiders now finally have the knees they've always dreamed of.
+	spider_knees = true
+	#Gives a jellyfish-like effect to the swimming animation of squids; generally just makes their tentacles flow more while moving.
+	squiggly_squid_tentacles = true
+	#A pleasing visual change; this makes the insides of slimes flow around like liquid.
+	#They splish-splosh about even more when they jump. The eyes, the mouth, and the core itself all move independently.
+	jiggly_liquidy_slime = true
+	#Remember that one very popular "TNT" music video by CaptainSparklez with the really cute wobbly Creeper?
+	#Well, it's in the game now. The full thing, the real deal, exactly like the video.
+	wobbly_creeper = true
+	#This makes the udders on cows wobble around when they walk.
+	#Also makes their udders have nipples.
+	wobbly_cow_udder = true
+	#Changes wolf tails to be fluffier and flowier, wagging realistically while they stand and run.
+	#Also makes tamed wolves lie down instead of sitting. Hold up some meat and they'll roll over, too.
+	playful_doggy = true
+	#This one is pretty kneat. It makes sheep actually bend down to eat grass.
+	#It's no longer just their head lowering, their whole body lowers down to get a sweet sample of that succulent cellulose.
+	#Did you notice their KNEES bend too when they kneel?
+	kneeling_sheep = true
+	#If an enderman is angry it will wave its arms around wildly while chasing its target.
+	#Suits their twisted nature very well.
+	arm_flailing_enderman = true
+	#Takes away the stick tails of the current cats and gives them something nicer instead.
+	#Fully animated flowing tails that move while they stand or run, and even curl around their bodies when they sit.
+	curly_cat_tail = true
+	#This makes a snowman's arm swing when it throws a snowball.
+	animated_snow_man_stick = true
+	#Divides ghast tentacles into parts and makes them wiggle realistically, like those tentacle monsters you always see at the movies.
+	#Makes them a little more scary, but ultimately nicer to look at.
+	wiggly_ghast_tentacles = true
+	#Takes away the stick tails of the current ocelots and gives them something nicer instead.
+	#Fully animated flowing tails that move while they stand or run.
+	flowy_ocelot_tail = true
+	#Adds a custom death animation to magma cubes, which causes their bodies to form into a pile of steamy, delicious hamburger patties when they die.
+	#Unfortunately, you can't eat them because they're way too hot.
+	magma_cube_burger = true
+	#A subtle change; this makes iron golems wiggle their big noses whenever they're hurt.
+	#Exactly the same animation as for villagers, except for iron golems!
+	wiggly_iron_golem_nose = true
+	#A subtle change; this makes villagers wiggle their big noses whenever they make their iconic sound.
+	#It's a small change, but who doesn't get a kick out of it?
+	wiggly_villager_nose = true
+	#Makes horses more lively again, just like they used to be in older versions.
+	#Does this by adding back their mouth and knees while staying true to the vanilla model style.
+	familiar_horse = true
+
+[oinky_pig]
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_sounds = ["minecraft:entity.pig.ambient"]
+	#Fancy ears for pigs, just like piglins have them.
+	floaty_ears = true
+	#Animation swing speed for ear floatiness.
+	#Range: 1 ~ 20
+	ear_animation_speed = 10
+
+[bucka_bucka_chicken]
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_sounds = ["minecraft:entity.chicken.ambient"]
+	#Make bill a lot slimmer so chickens look less like ducks.
+	slim_bill = true
+	#Move head back and forth when chicken is walking.
+	move_head = true
+	#Wiggle chin when chicken is walking.
+	wiggle_wattles = true
+	#Flap wings when chicken is walking.
+	flap_wings = true
+	#Move head back and forth when chicken is walking.
+	#Range: 1 ~ 20
+	head_animation_speed = 4
+	#Animation swing speed for wattles movement.
+	#Range: 1 ~ 20
+	wattles_animation_speed = 5
+	#Animation swing speed of wing flapping.
+	#Range: 1 ~ 20
+	wing_animation_speed = 3
+
+[spitful_llama]
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_sounds = ["minecraft:entity.llama.spit"]
+
+[squiggly_squid_tentacles]
+	#Define length for squid tentacles.
+	#Range: 1 ~ 8
+	tentacles_length = 8
+
+[jiggly_liquidy_slime]
+	#Animation swing speed of inner slime parts.
+	#Range: 1 ~ 20
+	animation_speed = 5
+
+[wobbly_creeper]
+	#Different directional behaviour modes for the walking animation.
+	#Allowed Values: SIDE, FRONT, CIRCLE, RANDOM
+	wobble_direction = "SIDE"
+
+[wobbly_cow_udder]
+	#Animation swing speed of utter when the cow is walking.
+	#Range: 1 ~ 20
+	animation_speed = 5
+	#Render tiny nipples on a cow's utter.
+	show_nipples = true
+	#Should calves show an utter.
+	calf_utter = false
+
+[playful_doggy]
+	#Define tail length.
+	#Range: 1 ~ 7
+	tail_length = 7
+	#Make wolf tail fluffy.
+	fluffy_tail = true
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	animation_speed = 5
+	#Pose and behaviour when sitting.
+	#By default makes wolves lie down instead, and roll over when a nearby player is holding a piece meat.
+	#Allowed Values: DEFAULT, LIE_DOWN, ROLL_OVER, LIE_DOWN_AND_BEG_FOR_MEAT
+	sitting_behaviour = "LIE_DOWN_AND_BEG_FOR_MEAT"
+
+[arm_flailing_enderman]
+	#Animation swing speed for arms.
+	#Range: 1 ~ 20
+	animation_speed = 5
+	#Flail arms while carrying a block.
+	fail_while_carrying = true
+
+[curly_cat_tail]
+	#Define tail length.
+	#Range: 1 ~ 15
+	tail_length = 15
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	animation_speed = 7
+
+[animated_snow_man_stick]
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_sounds = ["minecraft:entity.snow_golem.shoot"]
+
+[wiggly_ghast_tentacles]
+	#Define the max length of tentacles.
+	#Range: 2 ~ 14
+	max_tentacles_length = 14
+	#Animation swing speed of tentacles.
+	#Range: 1 ~ 20
+	animation_speed = 5
+
+[flowy_ocelot_tail]
+	#Define tail length.
+	#Range: 1 ~ 15
+	tail_length = 15
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	animation_speed = 7
+
+[wiggly_villager_nose]
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	mob_sounds = ["minecraft:entity.villager.ambient", "minecraft:entity.villager.trade", "minecraft:entity.wandering_trader.ambient", "minecraft:entity.wandering_trader.trade"]
+
