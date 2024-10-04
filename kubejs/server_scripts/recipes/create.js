@@ -1,5 +1,4 @@
 ServerEvents.recipes(e => {
-    e.recipes.create.sandpaper_polishing('3x waystones:warp_dust', 'waystones:attuned_shard')
 
     e.recipes.create.compacting('brewinandchewin:unripe_flaxen_cheese_wheel', [Fluid.of('minecraft:milk', 1000), 'minecraft:brown_mushroom', 'minecraft:brown_mushroom', 'minecraft:sugar']).heated()
 
