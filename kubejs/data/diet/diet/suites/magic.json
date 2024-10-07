@@ -1,0 +1,90 @@
+{
+    "replace": true,
+    "groups": [
+      "arcane",
+      "eldritch",
+      "glamour",
+      "genesis",
+      "entropy",
+      "primal"
+    ],
+    "effects": [
+      {
+        "attributes": [
+          {
+            "name": "minecraft:generic.max_health",
+            "operation": "add",
+            "amount": 2.0
+          },
+          {
+            "name": "minecraft:generic.attack_damage",
+            "operation": "add",
+            "amount": 2.0
+          },
+          {
+            "name": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "amount": 0.1
+          }
+        ],
+        "conditions": [
+          {
+            "groups": ["arcane", "glamor", "genesis", "primal"],
+            "match": "all",
+            "above": 0.8,
+            "below": 1.0
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "name": "minecraft:generic.max_health",
+            "operation": "add",
+            "amount": 2.0
+          },
+          {
+            "name": "minecraft:generic.knockback_resistance",
+            "operation": "add",
+            "amount": 0.10
+          },
+          {
+            "name": "minecraft:generic.armor_toughness",
+            "operation": "add",
+            "amount": 1.0
+          }
+        ],
+        "conditions": [
+          {
+            "groups": ["arcane", "glamor", "genesis", "primal"],
+            "match": "every",
+            "above": 0.8,
+            "below": 1.0
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "name": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.25
+          }
+        ],
+        "status_effects": [
+          {
+            "name": "minecraft:hunger",
+            "power": 3
+          }
+        ],
+        "conditions": [
+          {
+            "groups": ["eldritch", "entropy"],
+            "match": "all",
+            "above": 0.8,
+            "below": 1.0
+          }
+        ]
+      }
+    ]
+  }
