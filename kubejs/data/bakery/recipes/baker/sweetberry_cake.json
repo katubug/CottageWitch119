@@ -1,0 +1,14 @@
+{
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "item": "bakery:blank_cake"
+    },
+    {
+      "item": "bakery:sweetberry_jam"
+    }
+  ],
+  "result": {
+    "item": "bakery:sweetberry_cake"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "item": "bakery:blank_cake"
+    },
+    {
+      "tag": "bakery:milk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cake"
+  }
+}

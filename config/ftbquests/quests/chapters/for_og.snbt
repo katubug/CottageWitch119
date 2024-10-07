@@ -1,12 +1,19 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "for_og"
-	group: ""
+	group: "6AB3D1AFEF5BB904"
+	hide_quest_until_deps_visible: true
 	id: "4B8C4684B8D4A313"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
 			height: 10.0d
+			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcandlelight.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -14,7 +21,11 @@
 			y: 7.0d
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
 			height: 10.0d
+			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgbakery.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -22,7 +33,11 @@
 			y: 16.0d
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
 			height: 10.0d
+			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -30,7 +45,8 @@
 			y: 25.25d
 		}
 	]
-	order_index: 0
+	order_index: 1
+	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
@@ -183,7 +199,7 @@
 			tasks: [{
 				id: "352976B249F104A4"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "experienceobelisk:enlightened_amulet"
 					tag: { }
 				}
@@ -317,7 +333,7 @@
 			tasks: [{
 				id: "420B44603C4A70A3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "experienceobelisk:experience_obelisk"
 					tag: { }
 				}
@@ -385,7 +401,7 @@
 				{
 					id: "739BACBEC59B3B1B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "candlelight:cooking_hat"
 						tag: {
 							Damage: 0
@@ -396,7 +412,7 @@
 				{
 					id: "5D1B228F5F683746"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "candlelight:chefs_jacket"
 						tag: {
 							Damage: 0
@@ -407,7 +423,7 @@
 				{
 					id: "38B77D35D27BE8EC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "candlelight:chefs_pants"
 						tag: {
 							Damage: 0
@@ -418,7 +434,7 @@
 				{
 					id: "022F4C0EFBD2CE6D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "candlelight:chefs_boots"
 						tag: {
 							Damage: 0
@@ -442,7 +458,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6BEDB2215CF38F54"
-				table_id: 8096229411196850122L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -473,7 +488,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "155393B7899D37FA"
-				table_id: 8096229411196850122L
 				type: "loot"
 			}]
 			shape: "rsquare"
@@ -487,7 +501,7 @@
 				{
 					id: "42E38A6303137616"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "candlelight:cooking_pan"
 						tag: {
 							Damage: 0
@@ -507,7 +521,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F21D82177D7292E"
-				table_id: 8096229411196850122L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -541,7 +554,7 @@
 				{
 					id: "60F692D2B1A192D8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:pasta/raw_pasta"
@@ -567,7 +580,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3BF18510604E48CA"
-				table_id: 8096229411196850122L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -587,7 +599,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "423F7416E83082EC"
-				table_id: 8096229411196850122L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -613,7 +624,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "11050524B4245BFE"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -639,7 +649,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0DC27313DA58BCD2"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -690,7 +699,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "63711A7967D1F8F5"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -710,7 +718,7 @@
 				{
 					id: "48DF3C6839DAEE2A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "bakery:small_cooking_pot"
 						tag: {
 							Damage: 0
@@ -957,7 +965,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "75795A258B8B822B"
-				table_id: 8096229411196850122L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1184,7 +1191,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "126BFC7E59EA3AA3"
-					table_id: 2534339319169675056L
 					type: "choice"
 				}
 			]
@@ -1220,7 +1226,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "38D234C88D3E2B5A"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -1232,7 +1237,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7BDBA6DF75D59385"
-					table_id: 2534339319169675056L
 					type: "choice"
 				}
 			]
@@ -1290,7 +1294,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7D6FFDEEE5FB4CC4"
-					table_id: 7737096167250795605L
 					type: "loot"
 				}
 			]
@@ -1373,7 +1376,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "583A99F9C877CD85"
-				table_id: 7737096167250795605L
 				type: "loot"
 			}]
 			tasks: [

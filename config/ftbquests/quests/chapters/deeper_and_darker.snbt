@@ -52,6 +52,7 @@
 			dependencies: ["4C2DDEC05C13A3FB"]
 			description: [
 				"&bSculk&r is the signature block of the &cDeep Dark&r, a biome in which &cAncient Cities&r rest, occupied only by the Sculk and its associated creatures."
+				""
 				"Where &bSculk&r comes from and what it does is not entirely known... but it is clear that it is &lalive&r."
 			]
 			id: "001E117581BE05D5"
@@ -94,6 +95,7 @@
 			dependencies: ["767A4A04E0D72FBE"]
 			description: [
 				"&bSculk Sensors&r are cute - and mildly terrifying - beings which will &atransmit a redstone signal when alerted&r. They listen for nearby sounds, such as &afootsteps, blocks placing or breaking, or opening inventories&r."
+				""
 				"You can &6block their listening with wool&r, directionally, or &6surround them with wool&r to deactivate them."
 			]
 			id: "22929AEECAF3B467"
@@ -117,6 +119,7 @@
 			dependencies: ["2384853DE131A8A7"]
 			description: [
 				"The &eWarden&r pulls no punches. It is easily capable of killing the unprepared witch in a single hit, and it is &aincredibly sturdy&r. However, with the right preparation one might be able to face it!"
+				""
 				"The &eWarden&r is blind, and will seek out players by &asmell and hearing&r. If it does not detect any players for one minute, it will &aburrow back underground&r."
 			]
 			id: "386BBE6DCF3DAB78"
@@ -266,6 +269,7 @@
 			dependencies: ["77C585EDABB88B3E"]
 			description: [
 				"In order to brave the &cOtherside&r, you will want to be very geared up in general, but the piece of armor you'll need most is the &bWarden Helmet&r."
+				""
 				"Aside from its defense and armor toughness, it grants &bimmunity to Darkness&r, allowing you to see."
 			]
 			id: "6CB7050DA080301E"
@@ -314,6 +318,7 @@
 			dependencies: ["2384853DE131A8A7"]
 			description: [
 				"&bAncient Vases&r are loot containers which can contain &bWarden Carapaces&r in rare instances. This may help you to &acraft the Warden Helmet&r before killing the &eWarden&r."
+				""
 				"However, be wary, as &aeach time a Vase is broken&r, there is a chance to spawn &eThe Stalker&r, which is a relative of the &eWarden&r."
 			]
 			id: "352E14C80B863AF3"
@@ -337,6 +342,7 @@
 			dependencies: ["386BBE6DCF3DAB78"]
 			description: [
 				"In the &cheart of the Ancient City&r there is a &amassive portal&r. In order to use it, you must first &6clear away the &bSculk Veins&r."
+				""
 				"Once it's clear, you can &6right click it&r with the &bHeart of the Deep&r to activate it."
 			]
 			id: "77C585EDABB88B3E"
@@ -379,7 +385,9 @@
 			dependencies: ["766AE03208AE8F4B"]
 			description: [
 				"Defeat the &eSculk Centipedes&r of the &cDeeplands&r to obtain &bSculk Bones&r."
+				""
 				"\"But wait,\" I hear you said. \"Centipedes don't have bones!\""
+				""
 				"To which I reply, \"&aThey do if they've eaten recently&r.\" Obtain these items from their bellies, as they are &aprecious indeed&r."
 			]
 			id: "292410101F374A38"
@@ -400,7 +408,8 @@
 		{
 			dependencies: ["292410101F374A38"]
 			description: [
-				"Obtain &bSoul Dust&d from the &eShattered&r in the &cEchoing Forest&r, a &bSoul Crystal&r from defeating &eStalkers&r, and &bSculk Bones&r from defeated &eSculk Centipedes&r."
+				"Obtain &bSoul Dust&d from the &eLeechers&r and &eSnappers&r, a &bSoul Crystal&r from defeating &eStalkers&r, and &bSculk Bones&r from defeated &eSculk Centipedes&r."
+				""
 				"Once you have these ingredients, you can convert your &bElytra&r to a &bSoul Elytra&r, which grants boosts randomly when you are midair, &anegating the need for many fireworks&r."
 			]
 			id: "5998F88F411634AE"
@@ -428,7 +437,9 @@
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
+				""
 				"This biome often generates in layers consisting of &bSculk, Sculk Stone, and Echo Soil&r. Echo trees populate the biome making The Otherside more vibrant with their purple leaves and &bSculk Gleam&r. The fog color in this biome is purple much like the leaves, and &athe only mobs that spawn here are &eShattered&r, which makes this biome a pleasant change from the many horrors of the Otherside Deeplands."
+				""
 				"However, this area is &anot safe from the &eWarden&r."
 			]
 			id: "3A279B0A5E1E6805"
@@ -459,6 +470,7 @@
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
+				""
 				"The &cOvercast Columns&r are a vast, uninhabited wasteland. They are composed of multiple amber columns, which have a biome-exclusive &bCrystallized Amber&r block in each of them. Overcast Columns also have multiple &bGeysers&r scattered throughout the terrain, which is composed of &bGloomslate&r and &bGloom Sculk&r. Nothing is known to live here due to the &ahostile and barren nature&r of the environment."
 			]
 			id: "3BED9B52B38D87AC"
@@ -495,7 +507,9 @@
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
 				"According to the ancient texts:"
+				""
 				"The first biome is called &cOtherside Deeplands&r. The Deeplands are made up of mostly &bSculk&r and &bSculk Stone&r. Large groups of &ePhantoms&r can be seen flying around the caverns of this biome, along with hordes of &eSculk Snappers&r. &bSculk Jaws&r and &bInfested Sculk&r are very common in the Deeplands, making it more &adifficult to navigate&r. Beware of the &eShriekworms&r which lay beneath the &bInfested Sculk&r, waiting to strike."
+				""
 				"The &eWarden&r can be summoned here, as well."
 			]
 			id: "766AE03208AE8F4B"
@@ -526,6 +540,7 @@
 			dependencies: ["766AE03208AE8F4B"]
 			description: [
 				"Within the &cOtherside Deeplands&r, one can find an &aAncient Temple&r. These structures are filled with the &aspoils of those who came before&r."
+				""
 				"In the &dcenter of the temple&r, there are some blocks which, when broken, allow you to &6descend further into the Temple&r."
 			]
 			id: "010F9401493DDB2B"

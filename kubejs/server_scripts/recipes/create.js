@@ -14,6 +14,10 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.crushing('2x minecraft:prismarine_shard', 'minecraft:prismarine')
 
+    e.recipes.create.crushing('4x minecraft:bone_meal', '#forge:teeth')
+
+    e.recipes.create.crushing('minecraft:gravel', 'minecraft:cobbled_deepslate')
+
     e.recipes.create.crushing(['2x minecraft:coal', Item.of('minecraft:coal').withChance(0.5)], '#forge:ores/coal')
 
     e.recipes.create.crushing(['minecraft:quartz', Item.of('minecraft:quartz').withChance(0.5)], 'byg:raw_quartz_block')

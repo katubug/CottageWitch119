@@ -1512,11 +1512,6 @@
 					type: "item"
 				}
 				{
-					id: "10C4FA09C290F001"
-					item: "simplehats:beaniespooky"
-					type: "item"
-				}
-				{
 					id: "0B1582BD11DFB6D7"
 					item: "simplehats:beetle_on_head"
 					type: "item"
@@ -1529,11 +1524,6 @@
 				{
 					id: "31295E816C3C8265"
 					item: "simplehats:bigcrown"
-					type: "item"
-				}
-				{
-					id: "640F9E4982F5DBC6"
-					item: "simplehats:bigribbon"
 					type: "item"
 				}
 				{
@@ -1617,11 +1607,6 @@
 					type: "item"
 				}
 				{
-					id: "7D67687485641FCA"
-					item: "simplehats:frozenhead"
-					type: "item"
-				}
-				{
 					id: "0F6374C2E2B28556"
 					item: "simplehats:fullironhelm"
 					type: "item"
@@ -1634,11 +1619,6 @@
 				{
 					id: "01D13721DEA20030"
 					item: "simplehats:greaser"
-					type: "item"
-				}
-				{
-					id: "0E98E90DD765FA3C"
-					item: "simplehats:grinchhat"
 					type: "item"
 				}
 				{
@@ -1860,11 +1840,6 @@
 				{
 					id: "0C469D8E40E36957"
 					item: "simplehats:topcathat"
-					type: "item"
-				}
-				{
-					id: "56762F1D9F30E059"
-					item: "simplehats:vikinghatbeard"
 					type: "item"
 				}
 				{

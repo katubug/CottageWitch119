@@ -1,0 +1,14 @@
+{
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "bakery:strawberry_jam"
+    }
+  ],
+  "result": {
+    "item": "bakery:strawberry_glazed_cookie"
+  }
+}
