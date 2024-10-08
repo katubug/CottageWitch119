@@ -69,4 +69,12 @@ StartupEvents.registry('block', event => {
   .defaultCutout()
   .hardness(1.5)
   .displayName('Witch Cat Plushie')  
+
+  event.create('mayor_gaylord', 'cardinal')
+  .model('kubejs:block/gaylord')
+  .soundType('wool')
+  .fullBlock(false)
+  .defaultCutout()
+  .hardness(1.5)
+  .displayName('Mayor Gaylord')  
 })
