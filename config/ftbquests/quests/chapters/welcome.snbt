@@ -19,7 +19,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/modpacklogo.png"
+			image: "cottagewitch:textures/quest_ui/modpacklogo.png"
 			rotation: 0.0d
 			width: 17.066666666666666d
 			x: 0.5d
@@ -31,7 +31,7 @@
 			dev: false
 			height: 2.5d
 			hover: ["support the modpack and play with friends!"]
-			image: "cottagewitch:textures/aklizbanner.png"
+			image: "cottagewitch:textures/quest_ui/aklizbanner.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -43,7 +43,7 @@
 			dev: false
 			height: 7.187759336099585d
 			hover: [ ]
-			image: "cottagewitch:textures/questkey.png"
+			image: "cottagewitch:textures/quest_ui/questkey.png"
 			rotation: 0.0d
 			width: 13.0d
 			x: 0.0d
@@ -55,7 +55,7 @@
 			dev: false
 			height: 11.25d
 			hover: [ ]
-			image: "cottagewitch:textures/welcomebanner.png"
+			image: "cottagewitch:textures/quest_ui/welcomebanner.png"
 			rotation: 0.0d
 			width: 20.0d
 			x: 0.0d
@@ -141,11 +141,11 @@
 				""
 				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 				""
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
 				""
 				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
 				""
-				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				"{image:cottagewitch:textures/quest_images/claimchunks.png width:200 height:120 align:1}"
 				""
 				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
 			]
@@ -174,15 +174,15 @@
 				""
 				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
 				""
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
 				""
-				"{image:cottagewitch:textures/createaparty.png width:100 height:75 align:1 fit:true}"
+				"{image:cottagewitch:textures/quest_images/createaparty.png width:100 height:75 align:1 fit:true}"
 				""
-				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/quest_images/manageallies.png width:200 height:150 align:1}"
 				""
 				"Note that &din order for Deployers and such to work in claimed chunks&r, you have to &6allow Fake Player access&r via FTB Teams. Press E and click on \"My Team\" in the top left. Then click the gear in the top right, and you'll see this menu:"
 				""
-				"{image:cottagewitch:textures/fakeplayers.png width:871 height:342 align:1 fit:true}"
+				"{image:cottagewitch:textures/quest_images/fakeplayers.png width:871 height:342 align:1 fit:true}"
 				""
 				"Set \"Allow All Fake Players\" to true."
 			]
@@ -205,11 +205,11 @@
 			description: [
 				"You might be wondering where all the quests are, when your screen looks like this:"
 				""
-				"{image:cottagewitch:textures/questmenu.png width:300 height:200 align:1}"
+				"{image:cottagewitch:textures/quest_images/questmenu.png width:300 height:200 align:1}"
 				""
 				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
 				""
-				"{image:cottagewitch:textures/questmenu2.png width:300 height:200 align:1}"
+				"{image:cottagewitch:textures/quest_images/questmenu2.png width:300 height:200 align:1}"
 				""
 				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
 			]
@@ -299,12 +299,12 @@
 				""
 				"Hover over the item in JEI or your inventory and &6press the keybind&r. This &dneeds to be bound by the user&r, so find a key you like and change it in your &akeybindings menu&r."
 				""
-				"{image:cottagewitch:textures/findme3.png width:100 height:10 align:1 fit:true}"
-				"{image:cottagewitch:textures/findme1.png width:220 height:150 align:1}"
+				"{image:cottagewitch:textures/quest_images/findme3.png width:100 height:10 align:1 fit:true}"
+				"{image:cottagewitch:textures/quest_images/findme1.png width:220 height:150 align:1}"
 				""
 				"Then, inventories containing that item will be highlighted with these little particle effects:"
 				""
-				"{image:cottagewitch:textures/findme2.png width:100 height:100 align:1 fit:true}"
+				"{image:cottagewitch:textures/quest_images/findme2.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "5763626E3E3E440B"
 			rewards: [{

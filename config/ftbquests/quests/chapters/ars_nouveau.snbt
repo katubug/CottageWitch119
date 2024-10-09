@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "2757402A47D6A081"
@@ -12,7 +12,7 @@
 		dev: false
 		height: 15.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgarsnouveau.png"
+		image: "cottagewitch:textures/quest_ui/bgarsnouveau.png"
 		rotation: 0.0d
 		width: 25.0d
 		x: 0.0d

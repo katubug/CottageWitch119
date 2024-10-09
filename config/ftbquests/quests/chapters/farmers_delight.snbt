@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "farmers_delight"
 	group: "1E0017DE6773EF00"
@@ -12,7 +12,7 @@
 		dev: false
 		height: 10.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgfarming.png"
+		image: "cottagewitch:textures/quest_ui/bgfarming.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d
@@ -383,8 +383,11 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
+				""
 				"Break them with a &bHoe&r to get significantly more regular crops than usual. Break them with an &bAxe&r or your hand to obtain the Crop Block itself. You can then &aCook&r them, &aPeel&r them, or place them on a &bCutting Board&r to gather the crops from them."
+				""
 				"And you even have a chance of Overweight Crops when using &bPlanters&r!"
+				""
 				"&bRich Farmland&r has an increased chance of spawning Overweight Crops."
 			]
 			id: "780D09CCF1A8D814"
@@ -904,12 +907,19 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"The &bReaping Tool&r, known in some circles as a Scythe, allows you to perform a finicky sort of magic known as &aReaping&r."
+				""
 				"One &6right clicks&r with the &bScythe&r to reap an animal. If successful, you will &aobtain its drops without killing it&r, instead stealing its youth and transforming it into a baby. However, if you are unsuccessful, &anature takes its course&r."
+				""
 				"You can ensure &abetter chances of success&r with &bbetter materials&r, with &bNetherite&r giving you a near 100% success rate. &6Hover and hold shift&r over each tool to see the base failure rate."
+				""
 				"This ritual does not work on mobs with no baby stage, such as &eCod&r. It also does not work on &ehostile mobs&r, even if they DO have a baby stage."
+				""
 				"If you &dreap a baby animal, it does die&r, so don't be greedy! Remember, the key to sustainable agriculture is to &aharvest responsibly&r."
+				""
 				"&bReaping Tools&r can be used by &bDispensers&r."
+				""
 				"Placing a &bReaping Tool&r into an &bEnchanting Table&r results in &dUnbreaking only, 99% of the time&r. It's better to enchant it with books."
+				""
 				"&bReaping Tools&r can be enchanted with &aMending, Sharpness, and Unbreaking&r, as you might expect."
 				"However, they can also be enchanted with &aExecutioner&r, which &dcurrently has no effect&r."
 			]
@@ -965,9 +975,12 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"These &bCarts&r are useful for transporting &aitems and entities&r. &6Press \"r\"&r by default when either mounted or on foot to &ahaul the cart&r. Press R again to set it down."
+				""
 				"The &bSupply Cart&r is fairly self-explanatory. &6Shift right click the cart&r to access its inventory, and &aload it up with items&r! You can then transport those items over land. However, &abreaking the cart&r will drop its inventory."
+				""
 				"The &bAnimal Cart&r will help you &atransport entities&r! &6Right click the cart item&r onto the creature you want to move. Then, haul as normal. &aBreak the cart&r to free the animal."
-				"{image:cottagewitch:textures/cart.png width:100 height:80 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/quest_images/cart.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "04BD2724E24B4125"
 			rewards: [

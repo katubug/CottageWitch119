@@ -14,7 +14,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "enchanted_wilds:textures/questui/bgcandlelight.png"
+			image: "cottagewitch:textures/quest_ui/bgcandlelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d
@@ -26,7 +26,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "enchanted_wilds:textures/questui/bgbakery.png"
+			image: "cottagewitch:textures/quest_ui/bgbakery.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d
@@ -38,7 +38,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
+			image: "cottagewitch:textures/quest_ui/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d

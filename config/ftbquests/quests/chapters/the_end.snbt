@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "5FB460EFA0A2567E"
@@ -12,7 +12,7 @@
 		dev: false
 		height: 10.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgtheend.png"
+		image: "cottagewitch:textures/quest_ui/bgtheend.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "storage"
 	group: "1E0017DE6773EF00"
@@ -13,7 +13,7 @@
 			dev: false
 			height: 15.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgstoragenetwork.png"
+			image: "cottagewitch:textures/quest_ui/bgstoragenetwork.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: -0.5d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgitemstransport.png"
+			image: "cottagewitch:textures/quest_ui/bgitemstransport.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -9.0d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgdrawers.png"
+			image: "cottagewitch:textures/quest_ui/bgdrawers.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 9.0d
@@ -49,7 +49,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmiscpurple.png"
+			image: "cottagewitch:textures/quest_ui/bgmiscpurple.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 0.0d
@@ -61,7 +61,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/backpacksbg.png"
+			image: "cottagewitch:textures/quest_ui/backpacksbg.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -0.5d

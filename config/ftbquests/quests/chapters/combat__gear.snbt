@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "combat__gear"
 	group: "346046A71D537172"
@@ -19,7 +19,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcurios.png"
+			image: "cottagewitch:textures/quest_ui/bgcurios.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d
@@ -31,7 +31,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgarmor.png"
+			image: "cottagewitch:textures/quest_ui/bgarmor.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -43,7 +43,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgitemsmisc.png"
+			image: "cottagewitch:textures/quest_ui/bgitemsmisc.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -55,7 +55,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgweaponsitems.png"
+			image: "cottagewitch:textures/quest_ui/bgweaponsitems.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d
@@ -69,6 +69,7 @@
 			dependencies: ["0AF3D2A62E51E5B2"]
 			description: [
 				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
+				""
 				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
 			]
 			id: "33EAE02ACC6CCA8B"
@@ -118,6 +119,7 @@
 			description: [
 				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
 				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
+				""
 				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
 			]
 			id: "5055BAE47F0F00DC"
@@ -171,6 +173,7 @@
 		{
 			description: [
 				"Made from fallen &eCindershells&r, a passive mob in the Nether, this sword has a strong affinity for &bLava&r!"
+				""
 				"&6Right click the blade on Lava&r to recharge it, providing it with a damage boost and the Flame effect!"
 			]
 			id: "492E8ECEC74A1C20"
@@ -221,6 +224,7 @@
 		{
 			description: [
 				"Have you met the &eSporelings&r? Did you know you can befriend them and carry them around on your back?"
+				""
 				"Well, you can!"
 			]
 			id: "21228990B5312533"
@@ -273,7 +277,9 @@
 		{
 			description: [
 				"This &bHealing Tome&r was created by a shaman of the &eCactem&r, a desert-dwelling plantlike species which have a love for &bTotems of Undying&r."
+				""
 				"Trade them Totems for a chance at obtaining this reusable spell book. It's a rare chance, but if you have the Totems to spare..."
+				""
 				"Best of all, if you obtain enough Tomes, you can &6combine them for a more powerful heal&r! The books can go up to level 3."
 			]
 			id: "5C653FEA59887F40"
@@ -303,7 +309,9 @@
 			description: [
 				"At times, &eElder Guardians&r will drop &bPearls&r, which can be used to make rather fetching jewelry."
 				"You can also get them from &6feeding Clams to &eOtters&r."
+				""
 				"Obtain clams by &afishing&r in rivers, and then &6drop them on the ground&r by some &eOtters&r, and they will &acrack them open for you&r."
+				""
 				"These &agrant bonuses&r when held in inventory, but &dcannot be worn as Curios&r."
 			]
 			id: "77E446610B522392"
@@ -387,6 +395,7 @@
 		{
 			description: [
 				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
+				""
 				"By firing the Squok like a bow, the player can &6grapple to high places&r or even &6suspend themselves in midair&r with up to 4 tentacles. &6Pressing shift&r will dismount the player from the Squok, and retract the tentacles."
 			]
 			id: "3446350A572822BD"
@@ -455,6 +464,7 @@
 		{
 			description: [
 				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
+				""
 				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
 			]
 			id: "5D7F2F7250CB2ECB"
@@ -504,6 +514,7 @@
 		{
 			description: [
 				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
+				""
 				"To do so will cost some &bExperience&r. And most &aCurses cannot be removed&r."
 			]
 			id: "195EC2CC57B6A75F"
@@ -525,8 +536,11 @@
 		{
 			description: [
 				"A full set of Netherite Armor takes..."
+				""
 				"*counts on fingers*..."
+				""
 				"..."
+				""
 				"At least four &bNetherite&r. Anyway the important thing isn't the math, just go do it and take the reward."
 			]
 			id: "0AF3D2A62E51E5B2"
@@ -931,6 +945,7 @@
 		{
 			description: [
 				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
+				""
 				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
 			]
 			id: "6A3F5153FB6473E1"
@@ -1650,6 +1665,7 @@
 			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
 				"Hold 2 Tarot Cards in your inventory and turn in this quest to receive a random Tarot card in exchange. You may get lucky!"
+				""
 				"This is for players who have collected many duplicates and want a shot at a different type. &dThis quest is repeatable&r."
 			]
 			id: "20B24E5006BC7D1B"
@@ -2104,12 +2120,19 @@
 		{
 			description: [
 				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
+				""
 				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
+				""
 				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
-				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/quest_images/magicmirror.png width:100 height:100 align:1 fit:true}"
+				""
 				"&6Right click with empty hand&r to switch armor sets. If you accidentally store more than one set of armor, you can &6cycle through these by shift-clicking&r."
+				""
 				"You can also &6right click the mirror&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
+				""
 				"And, if you'd like a more spooky option, &6right click it&r with a &bSkull&r to change the preview to a &eSkeleton!&r."
+				""
 				"All the upgrades &acan be combined&r."
 			]
 			id: "4D9EA3886EB6F73A"
@@ -2140,7 +2163,9 @@
 		{
 			description: [
 				"Are you tired of the basic Luna Moth &bElytra&r and want to add some more &apizazz&r? &6Place it in a crafting grid&r and you'll get two separate wings from it."
+				""
 				"Each &bWing&r can be crafted with &bDye&r or &bBanners&r to take on their appearance."
+				""
 				"Be aware that &dModded banner patterns do not work&r!"
 			]
 			id: "14D43F04E15174D2"

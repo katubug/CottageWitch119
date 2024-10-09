@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "twilight_forest"
 	group: "5FB460EFA0A2567E"
@@ -12,7 +12,7 @@
 		dev: false
 		height: 15.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgtwilightforest.png"
+		image: "cottagewitch:textures/quest_ui/bgtwilightforest.png"
 		rotation: 0.0d
 		width: 27.0d
 		x: 0.0d

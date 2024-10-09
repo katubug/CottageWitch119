@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "globetrotting"
 	group: "5FB460EFA0A2567E"
@@ -13,7 +13,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgexplorating.png"
+			image: "cottagewitch:textures/quest_ui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgdungeons.png"
+			image: "cottagewitch:textures/quest_ui/bgdungeons.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgstructures.png"
+			image: "cottagewitch:textures/quest_ui/bgstructures.png"
 			rotation: 0.0d
 			width: 17.0d
 			x: 0.0d
@@ -49,7 +49,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgwaystones.png"
+			image: "cottagewitch:textures/quest_ui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 9.5d

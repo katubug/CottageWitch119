@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "culinary_arts"
 	group: "1E0017DE6773EF00"
@@ -13,7 +13,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgnetherdelight.png"
+			image: "cottagewitch:textures/quest_ui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 10.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgteaandsundry.png"
+			image: "cottagewitch:textures/quest_ui/bgteaandsundry.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgspiceoflife.png"
+			image: "cottagewitch:textures/quest_ui/bgspiceoflife.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -49,7 +49,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmiscfood.png"
+			image: "cottagewitch:textures/quest_ui/bgmiscfood.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d
@@ -61,7 +61,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcookingpot.png"
+			image: "cottagewitch:textures/quest_ui/bgcookingpot.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -73,7 +73,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgbrewing.png"
+			image: "cottagewitch:textures/quest_ui/bgbrewing.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 10.0d
@@ -85,7 +85,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgenddelight.png"
+			image: "cottagewitch:textures/quest_ui/bgenddelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 5.0d
@@ -97,7 +97,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcaupona.png"
+			image: "cottagewitch:textures/quest_ui/bgcaupona.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -4.5d

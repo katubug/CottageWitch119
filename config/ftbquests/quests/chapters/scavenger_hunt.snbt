@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "scavenger_hunt"
 	group: "7A9435459855DCCD"
@@ -12,7 +12,7 @@
 		dev: false
 		height: 20.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgscavengerhunt.png"
+		image: "cottagewitch:textures/quest_ui/bgscavengerhunt.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

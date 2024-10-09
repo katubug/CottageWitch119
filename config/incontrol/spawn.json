@@ -102,15 +102,29 @@
     },
     {
         "result": "deny",
+        "mob": [
+          "minecraft:skeleton",
+          "minecraft:zombie",
+          "minecraft:enderman",
+          "minecraft:creeper",
+          "minecraft:drowned"
+        ],
+        "mincount": {
+            "amount": 150
+        }
+    },
+    {
+        "result": "deny",
         "continue": true,
         "mob": [
           "minecraft:skeleton",
           "minecraft:zombie",
           "minecraft:enderman",
-          "minecraft:creeper"
+          "minecraft:creeper",
+          "minecraft:drowned"
         ],
         "mincount": {
-            "amount": 20,
+            "amount": 15,
             "perplayer": true
         }
     }
