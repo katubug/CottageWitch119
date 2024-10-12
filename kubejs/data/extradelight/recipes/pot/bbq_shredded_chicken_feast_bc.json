@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "item": "extradelight:bbq_jar_item"
+    }
+  ],
+  "result": {
+    "item": "extradelight:bbq_shredded_chicken_feast"
+  }
+}

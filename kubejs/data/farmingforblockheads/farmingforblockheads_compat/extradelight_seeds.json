@@ -1,0 +1,23 @@
+{
+    "modId": "extradelight",
+    "silent": true,
+    "group": {
+      "name": "Extra Delight Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "extradelight:ginger_cutting"
+      },
+      {
+        "output": "extradelight:corn_seeds"
+      },
+      {
+        "output": "extradelight:mint"
+      }
+    ]
+  }

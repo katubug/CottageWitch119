@@ -110,4 +110,15 @@ ItemEvents.modification(event => {
 	event.modify('aquaculture:neptunium_boots', item => {
         item.armorToughness = 0
 	});
+
+	//Add Durability to Gauntlets
+	event.modify('davespotioneering:rudimentary_gauntlet', item => {
+        item.maxDamage = 300
+	});
+	event.modify('davespotioneering:potioneer_gauntlet', item => {
+        item.maxDamage = 1561
+	});
+	event.modify('davespotioneering:netherite_gauntlet', item => {
+        item.maxDamage = 2031
+	});
 })

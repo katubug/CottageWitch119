@@ -1,0 +1,353 @@
+{
+  "replace":true,
+  "parent": "extradelight:food",
+  "criteria": {
+    "bbq": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:bbq_ribs_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:beef_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chicken_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:chicken_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "curry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:curry_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fish_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:fish_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hotdish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:hotdish_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lamb_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:lamb_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lasagna": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:lasanga_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mac_cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:macaroni_cheese_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mash_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:mashed_potato_gravy_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "meatloaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:meatloaf_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "meatpie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:meat_pie_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pork_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:pork_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pot_roast": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:pot_roast_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pulled_pork": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:pulled_pork_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "quiche": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:quiche"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rabbit_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:rabbit_stew_feast"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rack_lamb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:rack_lamb_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "salad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:salad_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "salisbury_steak": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:salisbury_steak_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stirfry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:stirfry_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wellington": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:beef_wellington_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "extradelight.advancement.feasts.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "extradelight:beef_wellington_block_item"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "extradelight.advancement.feasts.name"
+    }
+  },
+  "requirements": [
+    [
+      "bbq"
+    ],
+    [
+      "beef"
+    ],
+    [
+      "wellington"
+    ],
+    [
+      "chicken_stew"
+    ],
+    [
+      "curry"
+    ],
+    [
+      "fish_stew"
+    ],
+    [
+      "hotdish"
+    ],
+    [
+      "lamb_stew"
+    ],
+    [
+      "lasagna"
+    ],
+    [
+      "mac_cheese"
+    ],
+    [
+      "mash_potato"
+    ],
+    [
+      "meatloaf"
+    ],
+    [
+      "pork_stew"
+    ],
+    [
+      "pot_roast"
+    ],
+    [
+      "pulled_pork"
+    ],
+    [
+      "rabbit_stew"
+    ],
+    [
+      "rack_lamb"
+    ],
+    [
+      "salad"
+    ],
+    [
+      "salisbury_steak"
+    ],
+    [
+      "quiche"
+    ],
+    [
+      "meatpie"
+    ],
+    [
+      "stirfry"
+    ]
+  ]
+}

@@ -401,6 +401,11 @@ JEIEvents.hideItems(event => {
 		'twilightforest:charm_of_keeping_3',
 		'twilightforest:cooked_venison',
 		'twilightforest:raw_venison',
+		'extradelight:fried_brains',
+		'extradelight:liver_onions',
+		'extradelight:sextuple_meat_treat',
+		'extradelight:oxtail_soup',
+		'extradelight:haggis_block_item'
 
 	];
 

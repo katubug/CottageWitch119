@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "delightful:cooked_goat"
+    },
+    {
+      "tag": "forge:offal"
+    },
+    {
+      "tag": "forge:offal"
+    },
+    {
+      "tag": "extradelight:processed/tomato"
+    },
+    {
+      "tag": "extradelight:processed/onion"
+    },
+    {
+      "tag": "forge:cooking_oil"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "extradelight:bhutan"
+  }
+}

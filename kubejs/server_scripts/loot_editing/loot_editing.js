@@ -35,4 +35,8 @@ LootJS.modifiers((event) => {
         'farmersdelight:skillet',
         'minecraft:beetroot_seeds'
       ])
+
+    event.addEntityLootModifier("alexsmobs:mimicube")
+    .removeLoot('alexsmobs:mimicream')
+    .addLoot('nethersdelight:mimicarnation')
 });

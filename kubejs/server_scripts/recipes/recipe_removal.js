@@ -363,7 +363,14 @@ ServerEvents.recipes(event => {
 		{ output: 'twilightforest:charm_of_keeping_2' },
 		{ output: 'twilightforest:charm_of_keeping_3' },
 		{ output: 'twilightforest:cooked_venison' },
-		{ output: 'twilightforest:raw_venison' }
+		{ output: 'twilightforest:raw_venison' },
+		{ output: 'alexsmobs:mimicream' },
+		{ id: 'extradelight:chicken_patty'},
+		{output: 'extradelight:fried_brains'},
+		{output: 'extradelight:liver_onions'},
+		{output: 'extradelight:sextuple_meat_treat'},
+		{output: 'extradelight:oxtail_soup'},
+		{output: 'extradelight:haggis_block_item'},
 
 	];
 

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:chicken/scrap"
+    },
+    {
+      "tag": "forge:sausage/cooked"
+    },
+    {
+      "tag": "extradelight:processed/onion"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "tag": "forge:grain/rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "extradelight:chicken_bog"
+  }
+}

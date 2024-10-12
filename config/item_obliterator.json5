@@ -16,8 +16,10 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item",
-    "!createcasing:.*_shaft"
+    "alexsmobs:mimicream",
+    'twilightforest:charm_of_keeping_1', 
+    'twilightforest:charm_of_keeping_2', 
+    'twilightforest:charm_of_keeping_3'
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

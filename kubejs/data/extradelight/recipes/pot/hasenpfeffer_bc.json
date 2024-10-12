@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:raw_rabbit"
+    },
+    {
+      "tag": "forge:vinegar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "tag": "forge:raw_bacon"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "extradelight:hasenpfeffer"
+  }
+}

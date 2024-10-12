@@ -1,0 +1,17 @@
+{
+    "modId": "extradelight",
+    "silent": true,
+    "group": {
+      "name": "Extra Delight Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "extradelight:cinnamon_sapling"
+      }
+    ]
+  }
