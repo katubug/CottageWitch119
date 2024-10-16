@@ -31,19 +31,19 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier("minecraft:gameplay/fishing")
     .logName("hatbag_uncommon_fishing")
-    .randomChance(0.3)
+    .randomChance(0.03)
     .removeLoot(Ingredient.all)
     .addLoot("simplehats:hatbag_uncommon")
 
     event.addLootTableModifier("minecraft:gameplay/fishing")
     .logName("hatbag_rare_fishing")
-    .randomChance(0.15)
+    .randomChance(0.015)
     .removeLoot(Ingredient.all)
     .addLoot("simplehats:hatbag_rare")
 
     event.addLootTableModifier("minecraft:gameplay/fishing")
     .logName("hatbag_epic_fishing")
-    .randomChance(0.5)
+    .randomChance(0.009)
     .removeLoot(Ingredient.all)
     .addLoot("simplehats:hatbag_epic")
 

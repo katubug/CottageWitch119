@@ -1004,4 +1004,15 @@ ServerEvents.tags('item', event => {
         'byg:skyris_vine', 
         'swampier_swamps:swamp_vine'
     )
+
+    event.add(
+        'forge:moon_certificates',
+        'kubejs:pink_moon',
+        'kubejs:flower_moon',
+        'kubejs:strawberry_moon',
+        'kubejs:antler_moon',
+        'kubejs:harvest_moon',
+        'kubejs:corn_moon',
+        'kubejs:oak_moon'
+    )
 })

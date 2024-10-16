@@ -1,5 +1,10 @@
 [
     {
+        "dimension": "minecraft:mining_dimension",
+        "result": "deny",
+        "continue": true
+    },
+    {
         "mob":"minecraft:squid",
         "maxcount": 10,
         "result": "allow",

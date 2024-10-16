@@ -4,7 +4,7 @@
   "default_packs": [
     "file/\u00A7aChests\u00A78-\u00A7aReimagined\u00A70_\u00A78[v1.5]\u00A70.zip",
     "file/FreshAnimations_v1.9.2 - NoSpiderNoPhantom.zip",
-    "file/FA+All_Extensions-v1.4.zip",
+    "file/FA+All_Extensions-v1.4 - NoSpiderNoPhantoms.zip",
     "file/cuter looking spiders.zip",
     "file/LowOnFire_1.21.zip",
     "file/xksp-naturalize.zip",
@@ -31,7 +31,6 @@
     "file/EnderEyes_1.19_v2.zip",
     "file/FragrantFlowers.zip",
     "file/Henry's+Pots+and+Plants.zip",
-    "file/Kubban's Saplings.zip",
     "file/LootrChestRetexture_v1.1_1.19.zip",
     "file/Pluvia's Doors (1.18.1).zip",
     "file/PolyStashAllFences.zip",
@@ -58,7 +57,8 @@
     "file/mushroom-slimes.zip",
     "file/mushroomwitch-e3600.zip",
     "file/prettier-glowstone-e3640.zip",
-    "file/prettier-glowstone-e3640.zip"
+    "file/Kubban's Saplings.zip",
+    "file/Moxarundum_1.2.zip"
     ],
   "default_overrides": {
     "force_compatible": true

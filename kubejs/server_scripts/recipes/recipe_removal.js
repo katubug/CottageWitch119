@@ -371,6 +371,7 @@ ServerEvents.recipes(event => {
 		{output: 'extradelight:sextuple_meat_treat'},
 		{output: 'extradelight:oxtail_soup'},
 		{output: 'extradelight:haggis_block_item'},
+		{id: 'hexerei:leather_from_drying_rack'},
 
 	];
 

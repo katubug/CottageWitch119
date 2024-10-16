@@ -200,14 +200,9 @@
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each material in a Crafting Grid&r to obtain a Crate or Bag of it!"]
+			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each item in a Crafting Grid&r to obtain a Crate or Bag of it!"]
 			id: "0545DF70043D964A"
 			rewards: [
-				{
-					id: "0A8B138A045BB03E"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "674A15B3EAEEC114"
@@ -344,13 +339,48 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["&lFarmer's Delight&r adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
+			description: [
+				"This pack adds a number of new crop types! Wild versions of these can be found throughout the world while exploring, and then you can plant them in your garden at home."
+				""
+				"From &lFarmer's Delight&r:"
+				"-&bTomatoes&r come from &cHot and Dry biomes&r."
+				"-&bRice&r can be found in &cWet biomes&r, but only above ground."
+				"-&bCabbage&r can be found on &cBeaches&r!"
+				"-&bOnions&r grow &ceverywhere&r except Mushroom Biomes and Lush Caves."
+				""
+				""
+				"&lExtra Delight&r:"
+				"- You can find &bGinger&r in &chot climates&r, look for red flowering leaves!"
+				"- &bCinnamon&r is found commonly in &cJungle Biomes&r."
+				"- And finally, &bMint&r can be found in &cCold biomes&r, and will &aspread to a 5x5 region when planted&r."
+				""
+				"&lCultural Delight&r:"
+				"- &bCucumbers&r come from &cSwamps&r."
+				"- &bEggplant&r and &bAvocado&r can be found in &cJungle&r biomes."
+				"- &bCorn&r grows in &cPlains&r."
+				""
+				"&lMiner's Delight&r:"
+				"- &bCave Carrots&r can be found &cunderground&r, except in Lush Caves."
+				""
+				"&lCollector's Reap&r:"
+				"- &bLimes&r are located solely in &cFlower Forest&r biomes, and require &apollination by &eBees&r to produce fruit."
+				"- &bPomegranates&r can only be found in &cWarped Forest&r biomes, and either need to be &agrown in the &cNether&r, or &arequire &apollination by &eBees&r to produce fruit."
+			]
 			id: "2CA80140F624D0AE"
-			rewards: [{
-				id: "69ACEF4AC35DF65C"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FC6614E0D0F4F0F"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36BE611D33FDB564"
+					table_id: 6941837675484043489L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "More, give me more"
 			tasks: [
@@ -374,8 +404,58 @@
 					item: "farmersdelight:cabbage"
 					type: "item"
 				}
+				{
+					id: "0BDFE733D3DFC057"
+					item: "extradelight:mint"
+					type: "item"
+				}
+				{
+					id: "2626530F343AAE80"
+					item: "extradelight:ginger"
+					type: "item"
+				}
+				{
+					id: "07F5F24674199C7D"
+					item: "extradelight:cinnamon_stick"
+					type: "item"
+				}
+				{
+					id: "1EADF240201D55B9"
+					item: "culturaldelights:avocado"
+					type: "item"
+				}
+				{
+					id: "7C773D402158367D"
+					item: "culturaldelights:cucumber"
+					type: "item"
+				}
+				{
+					id: "18B6AF987DBC6425"
+					item: "culturaldelights:eggplant"
+					type: "item"
+				}
+				{
+					id: "02B127EB3AECCA48"
+					item: "culturaldelights:corn_cob"
+					type: "item"
+				}
+				{
+					id: "64A7803F87FF0A62"
+					item: "miners_delight:cave_carrot"
+					type: "item"
+				}
+				{
+					id: "394F68843C832AD8"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+				{
+					id: "25625DD640B5DC08"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
 			]
-			title: "Obtain the New Crops"
+			title: "Obtain New Crops"
 			x: 3.5d
 			y: 1.0d
 		}
