@@ -7,6 +7,8 @@ let EGG_DROP_CHANCE = 1.00;
 
 // This controls which mobs drop eggs.
 // It is a mapping of mob id to the item id of the spawn egg.
+// Some mobs are omitted from this mapping because they are special cases:
+//      * Sporelings drop different items depending on whether they are the nether variety
 let EGGS = {
     "minecraft:allay": "minecraft:allay_spawn_egg",
     "minecraft:axolotl": "minecraft:axolotl_spawn_egg",
@@ -188,7 +190,7 @@ let EGGS = {
     "cnb:little_grebe": "cnb:little_grebe_spawn_egg",
     "cnb:lizard": "cnb:lizard_spawn_egg",
     "cnb:minipad": "cnb:minipad_spawn_egg",
-    // TODO: sporelings need special handling
+    // sporelings have special implementation, see below
     "cnb:yeti": "cnb:yeti_spawn_egg",
     
     "creeperoverhaul:badlands_creeper": "creeperoverhaul:badlands_creeper_spawn_egg",
@@ -265,7 +267,6 @@ let EGGS = {
     
     "kakapos:kakapo": "kakapos:kakapo_spawn_egg",
     
-    //FIXME: mythic mounts mobs don't work with this for some reason
     "mythicmounts:acencia": "mythicmounts:acencia_spawn_egg",
     "mythicmounts:archelon": "mythicmounts:archelon_spawn_egg",
     "mythicmounts:colelytra": "mythicmounts:colelytra_spawn_egg",
@@ -296,7 +297,6 @@ let EGGS = {
     "byg:man_o_war": "byg:man_o_war_spawn_egg",
     "byg:pumpkin_warden": "byg:pumpkin_warden_spawn_egg",
     
-    //FIXME: quark mobs don't want to work with this either for some reason...
     "quark:crab": "quark:crab_spawn_egg",
     "quark:forgotten": "quark:forgotten_spawn_egg",
     "quark:foxhound": "quark:foxhound_spawn_egg",
@@ -385,11 +385,47 @@ function addEggDrop(event, mobId, eggId) {
         });
 }
 
+function addSporelingEggDrops(event) {
+    let netherEggEntry = LootEntry.of("cnb:sporeling_nether_egg").when((conditions) => {
+        conditions.customCondition(
+            {
+                "condition": "minecraft:alternative",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{SporelingType: \"cnb:red_nether\"}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{SporelingType: \"cnb:brown_nether\"}"
+                        }
+                    }
+                ]
+            }
+        );
+    });
+    let overworldEggEntry = LootEntry.of("cnb:sporeling_overworld_egg");
+    
+
+    event
+        .addEntityLootModifier("cnb:sporeling")
+        .pool((pool) => {
+            applyEggDropLootConditions(pool);
+            pool.addAlternativesLoot(netherEggEntry, overworldEggEntry);
+        });
+}
+
 LootJS.modifiers((event) => {
     event.enableLogging();
     for (let mobId in EGGS) {
         addEggDrop(event, mobId, EGGS[mobId]);
     }
+    addSporelingEggDrops(event);
 });
 
 
