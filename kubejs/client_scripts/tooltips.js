@@ -1546,6 +1546,10 @@ ItemEvents.tooltip(e => {
         'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
     )
 
+    e.addAdvanced("minecraft:diamond", (item, advanced, text) => {
+        console.log(item);
+    });
+
     e.add('brewinandchewin:keg','Warning: pickles, jerky, and certain recipes can cause crashes.')
 
     e.add('#forge:maj_acs', `\u00A7d`+'Do not combine these in your inventory, it can cause crashes!')
@@ -1559,5 +1563,11 @@ ItemEvents.tooltip(e => {
     e.add('kubejs:oak_moon', 'The Oak Moon occurs in December.')
 
     e.add('#forge:moon_certificates', `\u00A7d`+'Art by LoFi Fruit')
+
+// Scythes (egg and head drops)
+    e.add(
+        ["reaping:iron_reaping_tool", "reaping:gold_reaping_tool", "reaping:diamond_reaping_tool", "reaping:netherite_reaping_tool"], 
+        "Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!"
+    );
 
 })
