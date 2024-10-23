@@ -3,7 +3,7 @@
 // This controls the drop chance of mob eggs.
 // NOT A PERCENT, this is a multiplier. 
 // This means 1.0 is 100%, and 0.01 is 1%
-let EGG_DROP_CHANCE = 1.00;
+let EGG_DROP_CHANCE = 0.01;
 
 // This controls which mobs drop eggs.
 // It is a mapping of mob id to the item id of the spawn egg.
@@ -421,7 +421,6 @@ function addSporelingEggDrops(event) {
 }
 
 LootJS.modifiers((event) => {
-    event.enableLogging();
     for (let mobId in EGGS) {
         addEggDrop(event, mobId, EGGS[mobId]);
     }
