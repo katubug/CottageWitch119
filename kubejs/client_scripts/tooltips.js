@@ -1546,10 +1546,6 @@ ItemEvents.tooltip(e => {
         'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
     )
 
-    e.addAdvanced("minecraft:diamond", (item, advanced, text) => {
-        console.log(item);
-    });
-
     e.add('brewinandchewin:keg','Warning: pickles, jerky, and certain recipes can cause crashes.')
 
     e.add('#forge:maj_acs', `\u00A7d`+'Do not combine these in your inventory, it can cause crashes!')
