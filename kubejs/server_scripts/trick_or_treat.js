@@ -24,7 +24,7 @@ let ObjectiveCriteria = Java.loadClass("net.minecraft.world.scores.criteria.Obje
 let SCOREBOARD_OBJECTIVE_NAME = "cottage_witch.trick_or_treat";
 
 function isTrickOrTreatTime(date) {
-    return true;//(date.getMonth() == 9) && (date.getDate() >= 29);
+    return (date.getMonth() == 9) && (date.getDate() >= 29);
 }
 
 function getPlayerTrickOrTreatScoreReference(player) {
