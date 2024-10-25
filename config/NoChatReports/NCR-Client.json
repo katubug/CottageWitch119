@@ -1,6 +1,6 @@
 {
   "demandOnServer": false,
-  "showServerSafety": true,
+  "showServerSafety": false,
   "hideRedChatIndicators": true,
   "hideYellowChatIndicators": true,
   "hideGrayChatIndicators": true,
@@ -10,7 +10,7 @@
   "showReloadButton": true,
   "whitelistAllServers": false,
   "verifiedIconEnabled": true,
-  "showNCRButton": true,
+  "showNCRButton": false,
   "enableMod": true,
   "skipRealmsWarning": false,
   "verifiedIconOffsetX": 0,
