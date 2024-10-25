@@ -1557,6 +1557,7 @@ ItemEvents.tooltip(e => {
     e.add('kubejs:harvest_moon', 'The Harvest Moon occurs in August.')
     e.add('kubejs:corn_moon', 'The Corn Moon occurs in September.')
     e.add('kubejs:oak_moon', 'The Oak Moon occurs in December.')
+    e.add('kubejs:hunter_moon', 'The Hunter Moon occurs in October.')
 
     e.add('#forge:moon_certificates', `\u00A7d`+'Art by LoFi Fruit')
 

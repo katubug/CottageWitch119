@@ -1013,6 +1013,7 @@ ServerEvents.tags('item', event => {
         'kubejs:antler_moon',
         'kubejs:harvest_moon',
         'kubejs:corn_moon',
-        'kubejs:oak_moon'
+        'kubejs:oak_moon',
+        'kubejs:hunter_moon'
     )
 })

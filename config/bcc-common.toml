@@ -1,14 +1,14 @@
- 
- #General settings 
- [general] 
- 	#The CurseForge project ID for the modpack 
- 	#Range: 
- 	modpackProjectID = 689550 
- 	#The name of the modpack 
- 	"modpackName" = "Cottage Witch" 
- 	#The version of the modpack 
- 	"modpackVersion" = "1.16.18" 
- 	#Use the metadata.json to determine the modpack version 
- 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING 
- 	useMetadata = false 
- 
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 689550
+	#The name of the modpack
+	modpackName = "Cottage Witch"
+	#The version of the modpack
+	modpackVersion = "1.16.18"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

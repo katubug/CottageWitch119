@@ -46,6 +46,11 @@ LootJS.modifiers((event) => {
     .randomChance(0.009)
     .removeLoot(Ingredient.all)
     .addLoot("simplehats:hatbag_epic")
+    
+    //Easter - 4/13 to 4/27
+    //Summer - 6/27 to 7/11
+    //Halloween - 10/17 to 10/31
+    //Festive - 12/17 to 12/31
 
     //Katu thinks these other loot tables literally aren't getting used and she thinks it's probably Aquaculture's fault.
     //Follow up: It's not Aquaculture's fault, it might be vanilla. /fish, /junk, and /treasure are all sub loot tables to gameplay:fishing/, and LootJS doesn't log those at all, only Fishing. The /loot command seems to work correctly though, so idk. For now, easier to just put the above loots in plain old fishing.

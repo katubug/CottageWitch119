@@ -126,7 +126,10 @@
           "minecraft:zombie",
           "minecraft:enderman",
           "minecraft:creeper",
-          "minecraft:drowned"
+          "minecraft:drowned",
+          "minecraft:spider",
+          "minecraft:husk",
+          "minecraft:stray"
         ],
         "mincount": {
             "amount": 15,
