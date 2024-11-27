@@ -372,6 +372,7 @@ ServerEvents.recipes(event => {
 		{output: 'extradelight:oxtail_soup'},
 		{output: 'extradelight:haggis_block_item'},
 		{id: 'hexerei:leather_from_drying_rack'},
+		{id: 'create:crafting/tree_fertilizer'}, // this is the buggy recipe with the missing tag / barrier block
 
 	];
 
