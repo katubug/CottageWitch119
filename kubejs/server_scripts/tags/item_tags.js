@@ -203,7 +203,17 @@ ServerEvents.tags('item', event => {
         'ends_delight:non_hatchable_dragon_egg',
         'aquaculture:nether_star_hook',
         'environmental:grass_thatch_vertical_slab',
-        'environmental:grass_thatch_slab'
+        'environmental:grass_thatch_slab',
+        'extradelight:oak_knife_block',
+        'extradelight:dark_oak_knife_block',
+        'extradelight:spruce_knife_block',
+        'extradelight:birch_knife_block',
+        'extradelight:jungle_knife_block',
+        'extradelight:acacia_knife_block',
+        'extradelight:crimson_knife_block',
+        'extradelight:warped_knife_block',
+        'extradelight:mangrove_knife_block',
+        'extradelight:cinnamon_knife_block'
     )
     event.add('twilightforest:banned_uncrafting_ingredients',
         '#forge:eyes',
