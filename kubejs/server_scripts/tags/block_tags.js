@@ -41,10 +41,11 @@ ServerEvents.tags('block', event => {
         //TODO Katu add the Let's Do Mods here when it's time.
 	}
 
-    // Reinforced Deepslate
+    // Prevent moving block
     event.add('forge:relocation_not_supported',
-        'minecraft:reinforced_deepslate'
-    )
+        'minecraft:reinforced_deepslate',
+        'prefab:block_boundary'
+        )
 
     // Hexerei Crow Harvestables
     event.add('hexerei:crow_harvestable',
@@ -62,5 +63,9 @@ ServerEvents.tags('block', event => {
 
     event.add('minecraft:mineable/pickaxe',
         'buildinggadgets:construction_block'
+    )
+
+    event.add('minecraft:planks',
+              'extradelight:cinnamon_planks'
     )
 })

@@ -12,3 +12,11 @@ config/jei/recipe-category-sort-order.ini
 config/jei/ingredient-list-mod-sort-order.ini
 config/spawnbalanceutility/MassAdditionMobs.txt
 config/jei/ingredient-list-type-sort-order.ini
+
+config/bcc-common.toml
+
+config/craftpresence.json
+
+config/xaerominimap_entities.json
+
+config/xaerominimap.txt

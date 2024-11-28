@@ -1,5 +1,45 @@
 ServerEvents.recipes(event => {
 
+
+	//Myalite Crystal to Myalite
+	event.shaped(
+		Item.of('quark:myalite', 8),
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		], {
+			A: 'quark:myalite_crystal',
+			B: 'ars_nouveau:manipulation_essence'
+		}
+	)
+
+	//Myalite to Dusky Myalite
+	event.shaped(
+		Item.of('quark:dusky_myalite', 8),
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],{
+			A:'quark:myalite',
+			B:'ars_nouveau:manipulation_essence'
+		}
+	)
+
+	//Dusky Myalite to Myalite Crystal
+	event.shaped(
+		Item.of('quark:myalite_crystal', 8),
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],{
+			A:'quark:dusky_myalite',
+			B:'ars_nouveau:manipulation_essence'
+		}
+	)
+
 	// Warp Scrolls to Warp Stones
 	event.shaped(
 		Item.of('waystones:warp_stone'),

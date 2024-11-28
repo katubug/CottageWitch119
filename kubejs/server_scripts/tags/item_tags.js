@@ -104,6 +104,15 @@ ServerEvents.tags('item', event => {
         'ecologics:azalea_planks'
     )
 
+    //Cinnamon Wood Stuff
+    event.add('minecraft:planks',
+              'extradelight:cinnamon_planks'
+    )
+
+    event.add('minecraft:logs',
+        'extradelight:cinnamon_log'
+    )
+
     // Corn Dough Tags
     event.add('minecraft:dough',
         'culturaldelights:corn_dough'
