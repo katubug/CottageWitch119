@@ -64,6 +64,17 @@ ServerEvents.recipes(event => {
 	//Burn the hell out of steak
 	event.smelting('supplementaries:ash', 'minecraft:cooked_beef')
 
+	// Cactus Juice unification
+	event.shapeless(
+		Item.of('extradelight:cactus_juice'),
+		[
+			'#forge:cactus_cuts',
+			'#forge:cactus_cuts',
+			'#extradelight:sweetener',
+			'minecraft:glass_bottle'
+		]
+	)
+
 	// Mushroom Stew
 	event.shapeless(
 		Item.of('minecraft:mushroom_stew'),
@@ -108,4 +119,23 @@ ServerEvents.recipes(event => {
 			'farmersdelight:rice_panicle'
 		]
 	)
+
+	//cultural delight corn cutting specifically so it doesnt overlap lol
+	event.custom({
+		type: 'farmersdelight:cutting',
+		ingredients: [{
+			item: 'culturaldelights:corn_cob'
+		}],
+		tool: {
+			tag: 'forge:tools/knives'
+		},
+		result: [{
+			item: 'culturaldelights:corn_kernels',
+			count: 2
+		},
+		{
+			item:'farmersdelight:straw',
+			count: 1
+		}]
+	})
 })

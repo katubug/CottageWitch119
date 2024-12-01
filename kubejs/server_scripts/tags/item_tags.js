@@ -135,6 +135,39 @@ ServerEvents.tags('item', event => {
         'ecologics:coconut_husk'
     )
 
+    //Cookie Jar
+    event.add('supplementaries:cookies',
+              'abnormals_delight:cherry_cookie',
+              'collectorsreap:lime_cookie',
+              'ends_delight:chorus_cookie',
+              'twilightdelight:torchberry_cookie',
+              'extradelight:pumpkin_cookie',
+              'extradelight:sugar_cookie',
+              'extradelight:glow_berry_cookie',
+              'extradelight:apple_cookie',
+              'extradelight:gingerbread_cookie',
+              'extradelight:sugar_cookie_steve',
+              'extradelight:sugar_cookie_alex',
+              'extradelight:sugar_cookie_villager',
+              'extradelight:sugar_cookie_creeper',
+              'extradelight:sugar_cookie_sword',
+              'extradelight:sugar_cookie_pickaxe',
+              'extradelight:sugar_cookie_diamond',
+              'extradelight:sugar_cookie_emerald',
+              'extradelight:gingerbread_steve',
+              'extradelight:gingerbread_alex',
+              'extradelight:gingerbread_villager',
+              'extradelight:gingerbread_creeper',
+              'extradelight:gingerbread_sword',
+              'extradelight:gingerbread_pickaxe',
+              'extradelight:gingerbread_diamond',
+              'extradelight:gingerbread_emerald'
+    )
+
+    //Cactus Pad
+    event.add('forge:cactus_cuts',
+              'delightful:cactus_flesh',
+              'extradelight:cactus')
 
     //Vegetables
     event.add('forge:vegetables',
@@ -452,6 +485,15 @@ ServerEvents.tags('item', event => {
         'better_fishing_rods:orely_fishing_rod',
         'minecraft:fishing_rod'
     )
+
+    // Slice And Dice Allowed Tools Tag
+    event.add('sliceanddice:allowed_tools',
+              'extradelight:grater',
+              '#forge:tools/pickaxes',
+              '#forge:tools/shovels',
+              '#forge:tools/hoes',
+              '#forge:shears',
+              'minecraft:nether_star')
 
     // Sleeping Bags
     event.add('forge:sleeping_bags',
