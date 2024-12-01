@@ -5,13 +5,13 @@
         "continue": true
     },
     {
-        "mob":"minecraft:squid",
+        "mob": "minecraft:squid",
         "maxcount": 10,
         "result": "allow",
         "continue": true
     },
     {
-        "mob":"minecraft:squid",
+        "mob": "minecraft:squid",
         "mincount": {
             "amount": 10,
             "perplayer": true
@@ -20,13 +20,13 @@
         "continue": true
     },
     {
-        "mob":"mythicmounts:firebird",
+        "mob": "mythicmounts:firebird",
         "structuretags": "ctov:village",
         "result": "allow",
         "continue": true
     },
     {
-        "mob":"mythicmounts:firebird",
+        "mob": "mythicmounts:firebird",
         "mincount": {
             "amount": 1,
             "perplayer": true
@@ -35,13 +35,13 @@
         "continue": true
     },
     {
-        "mob":"kakapos:kakapo",
+        "mob": "kakapos:kakapo",
         "biome": "byg:guiana_shield",
         "result": "default",
         "continue": true
     },
     {
-        "mob":"kakapos:kakapo",
+        "mob": "kakapos:kakapo",
         "mincount": {
             "amount": 2,
             "perplayer": true
@@ -50,13 +50,13 @@
         "continue": true
     },
     {
-        "mob":"alexsmobs:catfish",
+        "mob": "alexsmobs:catfish",
         "biometags": "swamp",
         "result": "allow",
         "continue": true
     },
     {
-        "mob":"alexsmobs:catfish",
+        "mob": "alexsmobs:catfish",
         "mincount": {
             "amount": 10,
             "perplayer": true
@@ -65,13 +65,13 @@
         "continue": true
     },
     {
-        "mob":"alexsmobs:flying_fish",
+        "mob": "alexsmobs:flying_fish",
         "biometags": "ocean",
         "result": "allow",
         "continue": true
     },
     {
-        "mob":"alexsmobs:flying_fish",
+        "mob": "alexsmobs:flying_fish",
         "mincount": {
             "amount": 10,
             "perplayer": true
@@ -80,7 +80,22 @@
         "continue": true
     },
     {
-        "mob":"minecraft:bat",
+        "mob": "friendsandfoes:crab",
+        "biometags": "ocean",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob": "friendsandfoes:crab",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob": "minecraft:bat",
         "mincount": {
             "amount": 5,
             "perplayer": true
@@ -89,7 +104,7 @@
         "continue": true
     },
     {
-        "mob":[
+        "mob": [
             "mythicmounts:archelon",
             "mythicmounts:acencia",
             "mythicmounts:colelytra",
@@ -108,11 +123,11 @@
     {
         "result": "deny",
         "mob": [
-          "minecraft:skeleton",
-          "minecraft:zombie",
-          "minecraft:enderman",
-          "minecraft:creeper",
-          "minecraft:drowned"
+            "minecraft:skeleton",
+            "minecraft:zombie",
+            "minecraft:enderman",
+            "minecraft:creeper",
+            "minecraft:drowned"
         ],
         "mincount": {
             "amount": 150
@@ -122,14 +137,14 @@
         "result": "deny",
         "continue": true,
         "mob": [
-          "minecraft:skeleton",
-          "minecraft:zombie",
-          "minecraft:enderman",
-          "minecraft:creeper",
-          "minecraft:drowned",
-          "minecraft:spider",
-          "minecraft:husk",
-          "minecraft:stray"
+            "minecraft:skeleton",
+            "minecraft:zombie",
+            "minecraft:enderman",
+            "minecraft:creeper",
+            "minecraft:drowned",
+            "minecraft:spider",
+            "minecraft:husk",
+            "minecraft:stray"
         ],
         "mincount": {
             "amount": 15,
