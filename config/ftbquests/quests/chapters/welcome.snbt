@@ -75,7 +75,7 @@
 			y: -2.0d
 		}
 		{
-			click: "https://github.com/katubug/CottageWitchRecast/wiki"
+			click: "https://github.com/katubug/CottageWitch119/wiki"
 			corner: false
 			dev: false
 			height: 1.0d
@@ -137,7 +137,7 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r. The mod &lDoesPotatoTick&r &daffects the way these farms work when chunks are unclaimed&r."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r."
 				""
 				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 				""
@@ -163,7 +163,7 @@
 				title: "Claim and Load Chunks"
 				type: "checkmark"
 			}]
-			title: "Chunk Loading"
+			title: "Claiming Your Space \\& Chunk Loading"
 			x: -3.0d
 			y: 0.5d
 		}

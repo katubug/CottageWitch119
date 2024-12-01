@@ -496,7 +496,7 @@
 			description: [
 				"The &bBlackboard&r will allow you to draw a 16x16 black and white image. Perfect for creative signage!"
 				""
-				"It will &aretain it's image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
+				"It will &aretain it's image when broken&r, but can be washed with &lCreate&r mechanisms or &bSoap&r."
 			]
 			id: "1E53C205AD76513E"
 			rewards: [
@@ -604,7 +604,7 @@
 				""
 				"Well, why not &adecorate your house with these attractive trophies&r."
 				""
-				"(only some animals were hurting in the making of this quest)"
+				"(only some animals were hurt in the making of this quest)"
 			]
 			id: "30C8AAFCE9EB2BA6"
 			rewards: [

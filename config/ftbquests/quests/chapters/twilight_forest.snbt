@@ -460,29 +460,6 @@
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"The &bCharm of Keeping&r sacrifices itself to keep your inventory safe!"
-				"The first tier, Bronze, saves your &aheld item&r. Iron saves your &aheld item, and armor&r. Gold preserves &ayour entire inventory&r!"
-				"Helpful if you don't want to try to find your way back to your grave, or if you may die in the void."
-			]
-			id: "7B609119699B446D"
-			rewards: [{
-				id: "0976BDF991E155D6"
-				item: "twilightforest:charm_of_keeping_2"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Keep your charming ways"
-			tasks: [{
-				id: "103B0AD74DB72227"
-				item: "twilightforest:charm_of_keeping_1"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6016A3D8B7FD7A14"]
-			description: [
 				"The &eHydra&r is a fearsome foe that is only weak in one place: within its fire-spewing maw!"
 				"It is best to take on this fight with &a Fire Resistance&r, and make sure you &aim attacks at the Hydra's open mouths&r! You can use a &branged weapon&r, or use a sword to &adeflect their bombs&r back at them."
 				"Once you have defeated the beast, you have completed one task which will let you challenge the Highlands."

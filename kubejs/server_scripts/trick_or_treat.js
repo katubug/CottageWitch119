@@ -53,8 +53,13 @@ PlayerEvents.loggedIn(event =>{
     let currentTime = new Date();
     if (isTrickOrTreatTime(currentTime)) {
         if (player.persistentData.lastTrickOrTreatYear != currentTime.getFullYear()) {
+            player.stages.remove('bundle')
             resetPlayerTrickOrTreat(player);
             player.persistentData.lastTrickOrTreatYear = currentTime.getFullYear();
+        }
+        if (!player.stage.has('bundle')) {
+            player.give(Item.of('minecraft:bundle', "{display:{Lore:['[\"\",{\"text\":\"A cute little Halloween pail for Trick or Treating. However, any Bundle will do in a pinch.\",\"italic\":false,\"color\":\"gold\"}]'],Name:'[\"\",{\"text\":\"Trick or Treat Pail\",\"italic\":false}]'}}"))
+            player.stages.add('bundle')
         }
     }
 });
