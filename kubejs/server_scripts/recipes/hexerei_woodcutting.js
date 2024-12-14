@@ -45,7 +45,8 @@ ServerEvents.recipes(e => {
         let arsmod = false; // for dealing with archwood
         let verticalGen = false; // fixes duplicate recipes from vertical planks (quark and env)
         let logSkip = false; // for mods which need to skip logs (ars, quark, tflostblocks, etc)
-        let redstoneSkip = false; // skips buttons and pressure plates (cinnamon, eco:azalea)
+        let stripSkip = false; // for mods which only need to skip stripped logs (eco:floweringazalea)
+        let redstoneSkip = false; // skips buttons and pressure plates (cinnamon, eco:floweringazalea)
 
         // getting wood type name
         let type = ''
@@ -69,7 +70,7 @@ ServerEvents.recipes(e => {
         } else if (modID == 'minecraft:') {
             skip = true;
         } else if (modID == 'luphieclutteredmod:') {
-            skip = true; // TERRIBLE NAMING CONVENTIONS, MUST MANUAL ALL OF IT
+            skip = true; // TERRIBLE NAMING CONVENTIONS, manually done below everything else
         }
 
         const bonusTowerwood = ['twilightforest:cracked_towerwood', 'twilightforest:mossy_towerwood', 'twilightforest:infested_towerwood', 'twilightforest:encased_towerwood', 'twilightforest:towerwood']
@@ -98,7 +99,7 @@ ServerEvents.recipes(e => {
         // extradelight
         if (modID == 'extradelight:') {
             boatSkip = true;
-            cinnaSkip = true;
+            redstoneSkip = true;
         }
 
         // mushrooms
@@ -196,7 +197,7 @@ ServerEvents.recipes(e => {
             stripped_log = modID + 'stripped_thorn_block'
             logSkip = true
         } else if (planks == 'byg:imparius_planks') {
-            logSkip = true
+            stripSkip = true
         } else if (planks == 'byg:bulbis_planks') {
             wood = 'byg:bulbis_wood'
             stripped_wood = 'byg:stripped_bulbis_wood'
@@ -204,7 +205,8 @@ ServerEvents.recipes(e => {
             log = 'byg:embur_pedu'
             stripped_log = 'byg:stripped_embur_pedu'
         } else if (planks == 'ecologics:flowering_azalea_planks') {
-            logSkip = true
+            stripSkip = true
+            redstoneSkip = true
         } else if (planks == 'extradelight:cinnamon_planks') {
             logSkip = true
             redstoneSkip = true
@@ -247,10 +249,14 @@ ServerEvents.recipes(e => {
             if (logSkip == false) {
                 if (extendedSkip == false) {
                     hexCut(planks, 5, wood, 1)
-                    hexCut(planks, 5, stripped_wood, 1)
+                    if (stripSkip == false) {
+                        hexCut(planks, 5, stripped_wood, 1)
+                    }
                 }
                 hexCut(planks, 5, log, 1)
-                hexCut(planks, 5, stripped_log, 1)
+                if (stripSkip == false) {
+                    hexCut(planks, 5, stripped_log, 1)
+                }
             }
             if (redstoneSkip == false) {
                 hexCut(button, 2, planks, 1)
@@ -281,7 +287,7 @@ ServerEvents.recipes(e => {
                 for (const stripped_archwood_wood of stripped_wood){
                     hexCut(planks, 5, stripped_archwood_wood, 1)
                 }
-            } else if (modID != 'colorfulazaleas:' && redstoneSkip == false) {
+            } else if (modID != 'colorfulazaleas:' && modID != 'extradelight:') {
                 hexCut(sign, 1, planks, 1)
             }
         }
@@ -295,10 +301,56 @@ ServerEvents.recipes(e => {
     // manually doing recipes which get skipped by the above function:
     hexCut('tflostblocks:thorn_planks', 5, 'tflostblocks:stripped_thorn_block', 1)
 
-    hexCut('byg:imparius_planks', 5, 'byg:imparius_hyphae', 1)
-    hexCut('byg:imparius_planks', 5, 'byg:imparius_stem', 1)
-
     hexCut('extradelight:cinnamon_planks', 5, 'extradelight:cinnamon_log', 1)
     hexCut('extradelight:cinnamon_planks', 5, 'extradelight:stripped_cinnamon_log', 1)
+
+    // luphie:
+    const pink = ['luphieclutteredmod:luphie_pink_planks', 'luphieclutteredmod:luphie_pink_stairs', 'luphieclutteredmod:luphie_pink_slab', 'luphieclutteredmod:luphie_pink_log', 'luphieclutteredmod:stripped_luphie_pink_log', 'luphieclutteredmod:luphie_pink_wood', 'luphieclutteredmod:stripped_luphie_pink_wood', 'luphieclutteredmod:luphie_pink_heart_door', 'luphieclutteredmod:luphie_pink_trapdoor', 'luphieclutteredmod:luphie_pink_fence', 'luphieclutteredmod:luphie_pink_fence_gate', 'luphieclutteredmod:luphie_pink_button', 'luphieclutteredmod:luphie_pink_pressure_plate']
+    const floweringPink = ['luphieclutteredmod:luphie_flowering_pink_planks', 'luphieclutteredmod:luphie_flowering_pink_stairs', 'luphieclutteredmod:luphie_flowering_pink_slab', 'luphieclutteredmod:luphie_flowering_pink_log', 'luphieclutteredmod:stripped_luphie_flowering_pinklog', 'luphieclutteredmod:luphie_flowering_pink_wood', 'luphieclutteredmod:stripped_luphie_flowering_pink_wood', 'luphieclutteredmod:luphie_flowering_pink_heart_door', 'luphieclutteredmod:luphie_flowering_pink_trapdoor', 'luphieclutteredmod:luphie_flowering_pink_fence', 'luphieclutteredmod:luphie_flowering_pink_fence_gate', 'luphieclutteredmod:luphie_flowering_pink_button', 'luphieclutteredmod:luphie_flowering_pink_pressure_plate']
+    const yellow = ['luphieclutteredmod:luphie_yellow_planks', 'luphieclutteredmod:luphie_yellow_stair_recipe', 'luphieclutteredmod:luphie_yellow_slab', 'luphieclutteredmod:luphie_yellow_log', 'luphieclutteredmod:stripped_luphie_yellow_log', 'luphieclutteredmod:luphie_yellow_wood', 'luphieclutteredmod:stripped_luphie_yellow_wood', 'luphieclutteredmod:luphie_yellow_door', 'luphieclutteredmod:luphie_yellow_trapdoor', 'luphieclutteredmod:luphie_yellow_fence', 'luphieclutteredmod:luphie_yellow_fence_gate', 'luphieclutteredmod:luphie_yellow_button', 'luphieclutteredmod:luphie_yellow_pressure_plate']
+    const floweringYellow = ['luphieclutteredmod:luphie_flowering_yellow_planks', 'luphieclutteredmod:luphie_flowering_yellow_stairs', 'luphieclutteredmod:luphie_flowering_yellow_slab', 'luphieclutteredmod:luphie_flowering_yellow_log', 'luphieclutteredmod:stripped_luphie_flowering_log', 'luphieclutteredmod:luphie_flowering_yellow_wood', 'luphieclutteredmod:stripped_luphie_flowering_wood', 'luphieclutteredmod:luphie_flowering_yellow_door', 'luphieclutteredmod:luphie_flowering_yellow_trapdoor', 'luphieclutteredmod:luphie_flowering_yellow_fence', 'luphieclutteredmod:luphie_flowering_yellow_fence_gate', 'luphieclutteredmod:luphie_flowering_yellow_button', 'luphieclutteredmod:luphie_flowering_yellow_pressure_plate']
+    const green = ['luphieclutteredmod:luphie_green_planks', 'luphieclutteredmod:luphie_green_stairs', 'luphieclutteredmod:luphie_green_slab', 'luphieclutteredmod:luphie_green_log', 'luphieclutteredmod:stripped_luphie_green_log', 'luphieclutteredmod:luphie_green_wood', 'luphieclutteredmod:stripped_luphie_green_wood', 'luphieclutteredmod:luphie_green_door', 'luphieclutteredmod:luphie_green_trapdoor', 'luphieclutteredmod:luphie_green_fence', 'luphieclutteredmod:luphie_green_fence_gate', 'luphieclutteredmod:luphie_green_button', 'luphieclutteredmod:luphie_green_pressure_plate']
+    const glow = ['luphieclutteredmod:luphie_glow_planks', 'luphieclutteredmod:luphie_glow_wood_set_stairs', 'luphieclutteredmod:luphie_glow_wood_set_slab', 'luphieclutteredmod:luphie_glow_log', 'luphieclutteredmod:stripped_luphie_glow_log', 'luphieclutteredmod:luphie_glow_wood', 'luphieclutteredmod:stripped_luphie_glow_wood', 'luphieclutteredmod:luphie_glow_door', 'luphieclutteredmod:luphie_glow_trapdoor', 'luphieclutteredmod:luphie_glow_wood_set_fence', 'luphieclutteredmod:luphie_glow_wood_set_fence_gate', 'luphieclutteredmod:luphie_glow_wood_set_button', 'luphieclutteredmod:luphie_glow_wood_set_pressure_plate']
+    const purple = ['luphieclutteredmod:luphie_purple_planks', 'luphieclutteredmod:luphie_purple_plank_set_stairs', 'luphieclutteredmod:luphie_purple_plank_set_slab', 'luphieclutteredmod:luphie_purple_log', 'luphieclutteredmod:stripped_luphie_purple_log', 'luphieclutteredmod:luphie_purple_wood', 'luphieclutteredmod:stripped_luphie_purple_wood', 'luphieclutteredmod:luphie_purple_door', 'luphieclutteredmod:luphie_purple_trapdoor', 'luphieclutteredmod:luphie_purple_plank_set_fence', 'luphieclutteredmod:luphie_purple_plank_set_fence_gate', 'luphieclutteredmod:luphie_purple_plank_set_button', 'luphieclutteredmod:luphie_purple_plank_set_pressure_plate']
+    const floweringPurple = ['luphieclutteredmod:luphie_flowering_purple_planks', 'luphieclutteredmod:luphie_flowering_purple_s_tairs', 'luphieclutteredmod:luphie_flowering_purple_slab', 'luphieclutteredmod:luphie_flowering_purple_log', 'luphieclutteredmod:stripped_luphie_flowering_purple_log', 'luphieclutteredmod:luphie_flowering_purple_wood', 'luphieclutteredmod:stripped_luphie_flowering_purple_wood', 'luphieclutteredmod:luphie_flowering_purple_door', 'luphieclutteredmod:luphie_flowering_purple_trapdoor', 'luphieclutteredmod:luphie_flowering_purple_fence', 'luphieclutteredmod:luphie_flowering_purple_fence_gate', 'luphieclutteredmod:luphie_flowering_purple_button', 'luphieclutteredmod:luphie_flowering_purple_pressure_plate']
+    let luphieRecipeBuild = ([planks, stairs, slab, log, stripped_log, wood, stripped_wood, door, trapdoor, fence, fence_gate, button, pressure_plate]) => {
+        hexCut(button, 1, slab, 1)
+        hexCut(door, 1, slab, 4)
+        hexCut(fence, 1, slab, 2)
+        hexCut(fence_gate, 1, slab, 2)
+        hexCut(pressure_plate, 1, slab, 2)
+        hexCut(stairs, 1, slab, 2)
+        hexCut(trapdoor, 1, slab, 4)
+        hexCut(slab, 3, stairs, 2)
+        hexCut('minecraft:barrel', 1, slab, 6)
+        hexCut('minecraft:chest', 1, slab, 12)
+        hexCut('minecraft:crafting_table', 1, slab, 4)
+        hexCut(planks, 5, wood, 1)
+        hexCut(planks, 5, stripped_wood, 1)
+        hexCut(planks, 5, log, 1)
+        hexCut(planks, 5, stripped_log, 1)
+        hexCut(door, 1, planks, 2)
+        hexCut(fence, 1, planks, 1)
+        hexCut(fence_gate, 1, planks, 1)
+        hexCut(planks, 3, stairs, 4)
+        hexCut(planks, 1, slab, 2)
+        hexCut(slab, 2, planks, 1)
+        hexCut(stairs, 1, planks, 1)
+        hexCut(trapdoor, 1, planks, 2)
+        hexCut('minecraft:barrel', 1, planks, 3)
+        hexCut('minecraft:chest', 1, planks, 6)
+        hexCut('minecraft:crafting_table', 1, planks, 2)
+        hexCut(button, 2, planks, 1)
+        hexCut(pressure_plate, 1, planks, 1)
+    }
+    luphieRecipeBuild(pink)
+    luphieRecipeBuild(floweringPink)
+    luphieRecipeBuild(yellow)
+    luphieRecipeBuild(floweringYellow)
+    luphieRecipeBuild(green)
+    luphieRecipeBuild(glow)
+    luphieRecipeBuild(purple)
+    luphieRecipeBuild(floweringPurple)
+
 
 })
