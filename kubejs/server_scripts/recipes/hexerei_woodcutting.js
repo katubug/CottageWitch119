@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
 
     const bigPlankList = Ingredient.of("#minecraft:planks").itemIds
-    // console.log(bigPlankList)
+
 
 
     let getModID = (blockID) => {
@@ -45,6 +45,7 @@ ServerEvents.recipes(e => {
         let arsmod = false; // for dealing with archwood
         let verticalGen = false; // fixes duplicate recipes from vertical planks (quark and env)
         let logSkip = false; // for mods which need to skip logs (ars, quark, tflostblocks, etc)
+        let redstoneSkip = false; // skips buttons and pressure plates (cinnamon, eco:azalea)
 
         // getting wood type name
         let type = ''
@@ -92,6 +93,12 @@ ServerEvents.recipes(e => {
             if (wood == planks) {
                 boatSkip == true
             }
+        }
+
+        // extradelight
+        if (modID == 'extradelight:') {
+            boatSkip = true;
+            cinnaSkip = true;
         }
 
         // mushrooms
@@ -200,17 +207,28 @@ ServerEvents.recipes(e => {
             logSkip = true
         } else if (planks == 'extradelight:cinnamon_planks') {
             logSkip = true
+            redstoneSkip = true
         }
 
 
         if (skip == false) {
-            if (verticalGen == false) {
+            if (verticalGen == false && redstoneSkip == false) {
                 hexCut(button, 1, slab, 1)
                 hexCut(door, 1, slab, 4)
                 hexCut(fence, 1, slab, 2)
                 hexCut(fence_gate, 1, slab, 2)
                 hexCut(pressure_plate, 1, slab, 2)
                 hexCut(sign, 1, slab, 2)
+                hexCut(stairs, 1, slab, 2)
+                hexCut(trapdoor, 1, slab, 4)
+                hexCut(slab, 3, stairs, 2)
+                hexCut('minecraft:barrel', 1, slab, 6)
+                hexCut('minecraft:chest', 1, slab, 12)
+                hexCut('minecraft:crafting_table', 1, slab, 4)
+            } else if (verticalGen == false && redstoneSkip == true) {
+                hexCut(door, 1, slab, 4)
+                hexCut(fence, 1, slab, 2)
+                hexCut(fence_gate, 1, slab, 2)
                 hexCut(stairs, 1, slab, 2)
                 hexCut(trapdoor, 1, slab, 4)
                 hexCut(slab, 3, stairs, 2)
@@ -234,13 +252,15 @@ ServerEvents.recipes(e => {
                 hexCut(planks, 5, log, 1)
                 hexCut(planks, 5, stripped_log, 1)
             }
-            hexCut(button, 2, planks, 1)
+            if (redstoneSkip == false) {
+                hexCut(button, 2, planks, 1)
+                hexCut(pressure_plate, 1, planks, 1)
+            }
             hexCut(door, 1, planks, 2)
             hexCut(fence, 1, planks, 1)
             hexCut(fence_gate, 1, planks, 1)
             hexCut(planks, 3, stairs, 4)
             hexCut(planks, 1, slab, 2)
-            hexCut(pressure_plate, 1, planks, 1)
             hexCut(slab, 2, planks, 1)
             hexCut(stairs, 1, planks, 1)
             hexCut(trapdoor, 1, planks, 2)
@@ -261,7 +281,7 @@ ServerEvents.recipes(e => {
                 for (const stripped_archwood_wood of stripped_wood){
                     hexCut(planks, 5, stripped_archwood_wood, 1)
                 }
-            } else {
+            } else if (modID != 'colorfulazaleas:' && redstoneSkip == false) {
                 hexCut(sign, 1, planks, 1)
             }
         }
@@ -272,7 +292,7 @@ ServerEvents.recipes(e => {
     }
     hexRecipeBuild('quark:vertical_mangrove_planks')
 
-    // manually doing recipes which break from the above function:
+    // manually doing recipes which get skipped by the above function:
     hexCut('tflostblocks:thorn_planks', 5, 'tflostblocks:stripped_thorn_block', 1)
 
     hexCut('byg:imparius_planks', 5, 'byg:imparius_hyphae', 1)
