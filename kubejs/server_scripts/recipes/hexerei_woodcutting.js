@@ -84,8 +84,14 @@ ServerEvents.recipes(e => {
         }
 
         //  boat skips
-        if (modID == 'twilightforest:' || modID == 'colorfulazaleas:') {
+        if (modID == 'twilightforest:' || modID == 'colorfulazaleas:' || modID == 'ars_nouveau:') {
             boatSkip = true;
+        }
+        const bygNoBoat = ['byg:imparius_planks', 'byg:lament_planks', 'byg:ether_planks', 'byg:bulbis_planks', 'byg:nightshade_planks', 'byg:sythian_planks', 'byg:embur_planks']
+        for (const wood of bygNoBoat) {
+            if (wood == planks) {
+                boatSkip == true
+            }
         }
 
         // mushrooms
@@ -235,7 +241,6 @@ ServerEvents.recipes(e => {
             hexCut(planks, 3, stairs, 4)
             hexCut(planks, 1, slab, 2)
             hexCut(pressure_plate, 1, planks, 1)
-            hexCut(sign, 1, planks, 1)
             hexCut(slab, 2, planks, 1)
             hexCut(stairs, 1, planks, 1)
             hexCut(trapdoor, 1, planks, 2)
@@ -256,6 +261,8 @@ ServerEvents.recipes(e => {
                 for (const stripped_archwood_wood of stripped_wood){
                     hexCut(planks, 5, stripped_archwood_wood, 1)
                 }
+            } else {
+                hexCut(sign, 1, planks, 1)
             }
         }
     }
