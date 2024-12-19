@@ -20,3 +20,4 @@ config/craftpresence.json
 config/xaerominimap_entities.json
 
 config/xaerominimap.txt
+.DS_Store

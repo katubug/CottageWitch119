@@ -51,4 +51,9 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('hexerei:infused_fabric_block_dyed_black'), ['#hexerei:infused_fabric_block', 'minecraft:black_dye']
     )
+
+    // ornate blocks
+    event.shapeless(
+        Item.of('hexerei:infused_fabric_block_ornate'), ['#hexerei:infused_fabric_block', 'minecraft:gold_nugget']
+    )
 })
