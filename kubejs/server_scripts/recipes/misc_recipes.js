@@ -491,4 +491,102 @@ ServerEvents.recipes(event => {
 	event.stonecutting('4x handcrafted:spruce_board', 'minecraft:spruce_planks')
 	event.stonecutting('4x handcrafted:crimson_board', 'minecraft:crimson_planks')
 	event.stonecutting('4x handcrafted:warped_board', 'minecraft:warped_planks')
+
+
+	// peat and lush dirt recipes
+	event.shapeless(
+		Item.of('byg:peat'), 
+		['ecologics:surface_moss', 'minecraft:dirt']
+	)
+
+	event.shapeless(
+		Item.of('byg:lush_dirt'), 
+		['minecraft:bone_meal', 'minecraft:dirt']
+	)
+
+	// allowing blooming azalea leaves to do the color thing
+	event.shaped(
+		Item.of('colorfulazaleas:orange_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:orange_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:yellow_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:yellow_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:red_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:red_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:blue_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:blue_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:pink_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:pink_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:purple_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:purple_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
+	event.shaped(
+		Item.of('colorfulazaleas:white_azalea_leaves'), 
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'colorfulazaleas:white_blooming_azalea_leaves',
+			B: 'minecraft:bone_meal'
+		}
+	)
 })
