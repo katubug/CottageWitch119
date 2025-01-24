@@ -61,7 +61,7 @@
 	#when changing this value to avoid inconvenience and backup your saves.
 	mailboxInventoryRows = 1
 	#The maximum amount of mailboxes a player is allowed to register/own.
-	maxMailboxesPerPlayer = 16
+	maxMailboxesPerPlayer = 0
 	#A list of dimensions you are allowed to place mailboxes. An empty list means that
 	#mailboxes can be placed in any dimension.
 	#An example of how the list is defined:

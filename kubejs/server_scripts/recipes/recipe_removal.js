@@ -371,6 +371,7 @@ ServerEvents.recipes(event => {
 		{output: 'extradelight:sextuple_meat_treat'},
 		{output: 'extradelight:oxtail_soup'},
 		{output: 'extradelight:haggis_block_item'},
+		{output: 'extradelight:haggis'},
 		{id: 'hexerei:leather_from_drying_rack'},
 		{id: 'create:crafting/tree_fertilizer'}, // this is the buggy recipe with the missing tag / barrier block
 		{id: 'extradelight:vinegar_pot_potion'},// allows uncrafting into uncraftable potion, not much point anyways when you can just use a water bucket

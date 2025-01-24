@@ -405,7 +405,8 @@ JEIEvents.hideItems(event => {
 		'extradelight:liver_onions',
 		'extradelight:sextuple_meat_treat',
 		'extradelight:oxtail_soup',
-		'extradelight:haggis_block_item'
+		'extradelight:haggis_block_item',
+		'extradelight:haggis'
 
 	];
 
