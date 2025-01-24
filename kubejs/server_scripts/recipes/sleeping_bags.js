@@ -1,22 +1,22 @@
 ServerEvents.recipes(event => {
 
 let bagColors = [
-   "red",
-        "yellow",
-        "black",
-        "white",
-        "orange",
-        "magenta",
-        "light_blue",
-        "lime",
-        "pink",
-        "gray",
-        "light_gray",
-        "cyan",
-        "purple",
-        "blue",
-        "brown",
-        "green"
+    "red",
+    "yellow",
+    "black",
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green"
 ];
 
 for (const color of bagColors) {
