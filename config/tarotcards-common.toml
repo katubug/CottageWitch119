@@ -3,6 +3,10 @@
 	#How many ticks it takes to check if a player has a tarot or not, more = more performace but longer time to activate/deactivate effects
 	#Range: 0 ~ 1200
 	tick_rate = 60
+	#Requires the card to be in your curio slot, or in the tarot deck (also in the curio slot) to function
+	require_card_in_curio = false
+	#If cards in the tarot deck apply their effects to the player holding it
+	tarot_deck_applies_effects = true
 
 	["Tarot Cards".Loot]
 		#Chance a tarot card appears in default loot (0.75 = 75%)(1.0 = there will always be a single tarot card in chests)
