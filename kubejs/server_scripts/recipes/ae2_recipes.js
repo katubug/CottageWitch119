@@ -1,17 +1,4 @@
 ServerEvents.recipes(event => {
-	//Spectral Lens uses Certus
-	event.shaped(
-		Item.of('malum:spectral_lens'),
-		[
-			' A ',
-			'ABA',
-			' A '
-		], {
-			A: 'malum:hex_ash',
-			B: 'ae2:charged_certus_quartz_crystal'
-		}
-	)
-
 	//ME Drive
 	event.shaped(
 		Item.of('ae2:drive'),
@@ -21,7 +8,7 @@ ServerEvents.recipes(event => {
 			'ADA'
 		], {
 			A: 'minecraft:iron_ingot',
-			B: 'malum:spectral_optic',
+			B: 'ars_nouveau:repository',
 			C: 'hexerei:moon_dust',
 			D: 'minecraft:enchanting_table'
 		}
@@ -35,8 +22,8 @@ ServerEvents.recipes(event => {
 			' D '
 		], {
 			A: 'ae2:terminal',
-			B: 'malum:prismatic_focus_lens',
-			C: 'reliquary:nebulous_heart',
+			B: 'ars_nouveau:glyph_ender_inventory',
+			C: 'waystones:warp_dust',
 			D: 'ae2:wireless_receiver'
 		}
 	)
@@ -49,8 +36,8 @@ ServerEvents.recipes(event => {
 			' D '
 		], {
 			A: 'ae2:crafting_terminal',
-			B: 'malum:prismatic_focus_lens',
-			C: 'reliquary:nebulous_heart',
+			B: 'ars_nouveau:glyph_ender_inventory',
+			C: 'waystones:warp_dust',
 			D: 'ae2:wireless_receiver'
 		}
 	)
@@ -137,7 +124,8 @@ ServerEvents.recipes(event => {
 		Item.of('2x ae2:annihilation_core'),
 		[
 			'#forge:gems/quartz', 
-			'reliquary:catalyzing_gland', 
+			'minecraft:gunpowder', 
+			'minecraft:gunpowder', 
 			'ae2:fluix_dust'
 		]
 	)
@@ -158,7 +146,7 @@ ServerEvents.recipes(event => {
 		[
 			'#ae2:illuminated_panel', 
 			'ae2:annihilation_core', 
-			'malum:copper_impetus', 
+			'starbunclemania:star_battery', 
 			'ae2:formation_core'
 		]
 	)
@@ -167,7 +155,7 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('ae2:crafting_terminal'),
 		[
-			'malum:spectral_lens', 
+			'hexerei:crystal_ball', 
 			'minecraft:crafting_table', 
 			'ae2:terminal',
 		]
@@ -177,15 +165,13 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('ae2:item_cell_housing'),
 		[
-			'ABA',
-			'C C',
-			'DED'
+			'CCC',
+			'CAC',
+			'BBB'
 		], {
-			A: 'minecraft:redstone',
-			B: '#forge:terrestrial_crystals',
-			C: 'malum:astral_weave',
-			D: 'forbidden_arcanus:deorum_ingot',
-			E: 'forbidden_arcanus:edelwood_oil'
+			A: '#forge:terrestrial_crystals',
+        	B: 'glassential:glass_redstone',
+        	C: '#forge:stone'
 		}
 	)
 
@@ -193,15 +179,13 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('ae2:fluid_cell_housing'),
 		[
-			'ABA',
-			'C C',
-			'DED'
+			'CCC',
+			'CAC',
+			'BBB'
 		], {
-			A: 'minecraft:redstone',
-			B: '#forge:sea_crystals',
-			C: 'malum:astral_weave',
-			D: 'forbidden_arcanus:deorum_ingot',
-			E: 'forbidden_arcanus:edelwood_oil'
+			A: '#forge:sea_crystals',
+        	B: 'glassential:glass_redstone',
+        	C: '#forge:stone'
 		}
 	)
 
@@ -214,7 +198,7 @@ ServerEvents.recipes(event => {
 			'ABA'
 		], {
 			A: 'ae2:charged_certus_quartz_crystal',
-			B: 'forbidden_arcanus:arcane_crystal_dust',
+			B: 'ars_nouveau:source_gem',
 			C: 'minecraft:redstone'
 		}
 	)
@@ -228,7 +212,7 @@ ServerEvents.recipes(event => {
 			'ABA'
 		], {
 			A: 'ae2:fluix_crystal',
-			B: 'malum:hex_ash',
+			B: 'quark:soul_bead',
 			C: 'minecraft:redstone'
 		}
 	)
@@ -247,7 +231,7 @@ ServerEvents.recipes(event => {
 		Item.of('ae2:energy_card'),
 		[
 			'ae2:advanced_card', 
-			'malum:blazing_diode'
+			'experienceobelisk:cognitive_crystal'
 		]
 	)
 
@@ -256,7 +240,7 @@ ServerEvents.recipes(event => {
 		Item.of('ae2:void_card'),
 		[
 			'ae2:basic_card', 
-			'forbidden_arcanus:obsidian_ingot'
+			'create:powdered_obsidian'
 		]
 	)
 
@@ -265,15 +249,15 @@ ServerEvents.recipes(event => {
 		Item.of('ae2:creative_energy_cell'),
 		[
 			'ABA',
-			'CDC',
-			'EFE'
-		], {
-			A: 'forbidden_arcanus:arcane_crystal',
-			B: 'malum:soul_stained_steel_ingot',
-			C: 'experienceobelisk:cognitive_crystal',
-			D: 'reliquary:alkahestry_altar',
-			E: 'create:polished_rose_quartz',
-			F: 'forbidden_arcanus:smelter_prism'
+			'CEC',
+			'ADA'
+		],
+		{
+			A: 'experienceobelisk:cognitive_crystal',
+			B: 'minecraft:lodestone',
+			C: 'create:polished_rose_quartz',
+			D: 'create:brass_casing',
+			E: 'ars_creo:starbuncle_wheel'
 		}
 	)
 
@@ -290,7 +274,7 @@ ServerEvents.recipes(event => {
 		event.shapeless(
 			Item.of('ae2:portable_item_cell_'+number),
 			[
-				'#tombstone:magic_books', 
+				'#forge:books', 
 				'ae2:cell_component_1k', 
 				'ae2:item_cell_housing',
 				'ae2:chest'
@@ -300,7 +284,7 @@ ServerEvents.recipes(event => {
 		event.shapeless(
 			Item.of('ae2:portable_fluid_cell_'+number),
 			[
-				'#tombstone:magic_books', 
+				'#forge:books', 
 				'ae2:cell_component_'+number, 
 				'ae2:fluid_cell_housing',
 				'ae2:chest'
@@ -315,9 +299,9 @@ ServerEvents.recipes(event => {
 				'DED'
 			], {
 				A: '#forge:sea_crystals',
-				B: 'malum:astral_weave',
-				D: 'forbidden_arcanus:deorum_ingot',
-				E: 'forbidden_arcanus:edelwood_oil',
+				B: 'ars_nouveau:magebloom_fiber',
+				D: 'ars_nouveau:source_gem',
+				E: 'hexerei:blood_bottle',
 				C: 'ae2:cell_component_'+number
 			}
 		)
@@ -330,9 +314,9 @@ ServerEvents.recipes(event => {
 				'DED'
 			], {
 				A: '#forge:terrestrial_crystals',
-				B: 'malum:astral_weave',
-				D: 'forbidden_arcanus:deorum_ingot',
-				E: 'forbidden_arcanus:edelwood_oil',
+				B: 'ars_nouveau:magebloom_fiber',
+				D: 'ars_nouveau:source_gem',
+				E: 'hexerei:blood_bottle',
 				C: 'ae2:cell_component_'+number
 			}
 		)

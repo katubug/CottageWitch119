@@ -64,19 +64,4 @@ ServerEvents.recipes(event => {
 	'minecraft:vine', 
 	'#forge:overworld_vines'
 )
-
-	//Backpacked uses any leather
-	event.shaped(
-		Item.of('backpacked:backpack'),
-		[
-			'AAA',
-			'BCB',
-			'AAA'
-		], {
-			A: '#forge:leather',
-			B: '#forge:string',
-			C: 'minecraft:iron_ingot',
-
-		}
-	)
 })

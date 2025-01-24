@@ -1080,4 +1080,20 @@ ServerEvents.tags('item', event => {
         'kubejs:hunter_moon',
         'kubejs:frost_moon'
     )
+
+    //Sea Crystals
+	event.add('forge:sea_crystals',
+		'mermod:sea_crystal',
+		'mermod:deep_sea_crystal_modifier',
+		'minecraft:prismarine_crystals'
+	)
+
+	//Terrestrial Crystals
+	event.add('forge:terrestrial_crystals',
+		'byg:subzero_crystal_shard', 
+        'byg:therium_crystal_shard', 
+        'deeperdarker:soul_crystal', 
+        'experienceobelisk:cognitive_crystal',
+		'minecraft:amethyst_shard'
+	)
 })
