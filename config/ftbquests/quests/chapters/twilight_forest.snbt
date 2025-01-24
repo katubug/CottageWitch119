@@ -111,8 +111,8 @@
 				type: "observation"
 			}]
 			title: "Find a Forest Raven"
-			x: -5.5d
-			y: 0.0d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3B33F8C27B3361AC"]
@@ -134,8 +134,8 @@
 				item: "twilightforest:magic_map_focus"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
@@ -355,7 +355,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3B33F8C27B3361AC"]
+			dependencies: ["730964D8E1FD059F"]
 			description: [
 				"The first boss you must face is the block-destroying &eNaga&r. It is a long serpent who slowly shrinks in length as you damage him."
 				"If the player flees the courtyard, the Naga will return to the center."
@@ -375,7 +375,7 @@
 				type: "structure"
 			}]
 			title: "Find a Naga Courtyard"
-			x: -3.5d
+			x: -6.5d
 			y: 0.0d
 		}
 		{
@@ -383,6 +383,7 @@
 			dependencies: ["00B1A6C679547AF2"]
 			description: ["Defeat &eNaga&r in the &dTwilight Forest&r to obtain their scales. Then, relinquish those scales in exchange for loot!"]
 			id: "14B45702F0F82689"
+			optional: true
 			rewards: [
 				{
 					id: "58DC59194FD2B38E"
@@ -405,11 +406,11 @@
 				type: "item"
 			}]
 			title: "Purchase Quest: 20 Naga Scales"
-			x: -3.5d
-			y: -1.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["00B1A6C679547AF2"]
+			dependencies: ["3A0205CA0568641F"]
 			description: [
 				"Inside the &dLich Tower&r is the undead noble of the Twilight Forest. His &aCastle&r is fraught with mobs, but also filled with loot."
 				"It is recommended to be well-geared before attempting this structure."
@@ -431,11 +432,11 @@
 				title: "Find a Lich Tower"
 				type: "structure"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1B8E61A0872EEA1C"]
+			dependencies: ["62F755926795DBB6"]
 			description: [
 				"The Labyrinth, found in the depths of &dthe Swamp&r, houses a number of nasty creatures, culminating in the vicious &eMinotaurs&r and &eMinoshroom&r."
 				"The Minoshroom will drop &bMeef Stroganoff&r, which when eaten, will innoculate you against the curse of the &dFire Swamp&r, allowing you to progress."
@@ -455,10 +456,10 @@
 				type: "structure"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6016A3D8B7FD7A14"]
+			dependencies: ["169272849A588544"]
 			description: [
 				"The &eHydra&r is a fearsome foe that is only weak in one place: within its fire-spewing maw!"
 				"It is best to take on this fight with &a Fire Resistance&r, and make sure you &aim attacks at the Hydra's open mouths&r! You can use a &branged weapon&r, or use a sword to &adeflect their bombs&r back at them."
@@ -479,8 +480,8 @@
 				title: "Find a Hydra's Lair"
 				type: "structure"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
@@ -532,13 +533,14 @@
 			}]
 			title: "Obtain the Mazebreaker"
 			x: -1.5d
-			y: 4.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["3657239C35390F17"]
 			description: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for a chance at something valuable!"]
 			id: "23E5790A6CC6524C"
+			optional: true
 			rewards: [
 				{
 					id: "04DA991BC07CEDE9"
@@ -561,11 +563,11 @@
 				type: "item"
 			}]
 			title: "Purchase Quest: 20 Fiery Blood"
-			x: 3.5d
-			y: 4.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6016A3D8B7FD7A14"]
+			dependencies: ["62F755926795DBB6"]
 			description: [
 				"Located in the gloomy depths of the &dDark Forest&r, the Knight Stronghold is infested with &eGoblins&r, and you cannot enter without one of the &bTrophies&r from the previous bosses."
 				"You can use &bMaze Maps&r here, but the structures are so massive that you may need a number of them."
@@ -588,33 +590,11 @@
 				title: "Find the Knight Stronghold"
 				type: "structure"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["10C91592DCBC6FBD"]
-			description: [
-				"The Charm of Life is essentially a Totem of Undying. The unupgraded version gives you 4 hearts and several seconds of Regen."
-				"The upgraded version fully revives you, and grants Regen, Fire Resistance, and Resistance."
-			]
-			id: "495574D50B0E4B4E"
-			rewards: [{
-				id: "5C2E647942ABCBC3"
-				item: "twilightforest:charm_of_life_1"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Even more charming"
-			tasks: [{
-				id: "7DD0FF8C91053DDE"
-				item: "twilightforest:charm_of_life_1"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["10C91592DCBC6FBD"]
+			dependencies: ["470A6825C49EEFAF"]
 			description: [
 				"In the Center of the &dDark Forest&r, the Dark Tower can be found. It is a massive structure, filled with monsters, and ruled over by a deadly &eUr-Ghast&r."
 				"There are four smaller turrets, each containing a &bTower Key&r. These keys are used to unlock the central tower. There are many challenges here to undergo, so be prepared for a long expedition."
@@ -636,11 +616,11 @@
 				title: "Find the Dark Tower"
 				type: "structure"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6016A3D8B7FD7A14"]
+			dependencies: ["62F755926795DBB6"]
 			description: [
 				"The Yeti Cave can be found in the Snowy Forest, and houses both &eYetis&r (which are neutral), and the &eAlpha Yeti&r, who is the boss you must face in this area."
 				"Engaging this foe in melee combat can be dangerous, but even at range one must &abeware of falling icicles&r!"
@@ -660,11 +640,11 @@
 				type: "structure"
 			}]
 			title: "Find the Yeti Cave"
-			x: 1.0d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["41CBB146259DAF34"]
+			dependencies: ["2F267ADA86FA5503"]
 			description: [
 				"The &eSnow Queen&r is found at the top of the &dAurora Palace&r, a treacherous mansion filled with icy monsters and slippery parkour."
 				"The Queen herself has three phases, and cannot be damaged through her &aIce Throne&r, so only her upper body can be targeted."
@@ -699,14 +679,14 @@
 				title: "Find the Aurora Palace"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"3657239C35390F17"
-				"2C905E4DE5051CC5"
-				"5C463B10FDE8CEF2"
+				"27AFCBF70AA24760"
+				"54A57B37E1C04785"
+				"761DD39F82235893"
 			]
 			description: [
 				"You've finally reached the Highlands! This is going to sound suspicious, but hear me out: you need to find some &bMagic Beans&r."
@@ -792,8 +772,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat the Naga"
-			x: -3.5d
-			y: -3.0d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
@@ -817,8 +797,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat a Lich"
-			x: -1.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["10C91592DCBC6FBD"]
@@ -835,8 +815,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat the Knight Phantoms"
-			x: 1.0d
-			y: -3.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5C463B10FDE8CEF2"]
@@ -853,8 +833,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat the Ur-Ghast"
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
@@ -871,8 +851,8 @@
 				type: "advancement"
 			}]
 			title: "Eat Meef Stroganoff"
-			x: -3.5d
-			y: 2.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3657239C35390F17"]
@@ -888,8 +868,9 @@
 				id: "176B52B1E8AD95EA"
 				type: "advancement"
 			}]
-			x: 5.5d
-			y: 2.0d
+			title: "Defeat The Hydra"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["41CBB146259DAF34"]
@@ -905,8 +886,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 4.5d
+			title: "Defeat the Alpha Yeti"
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C905E4DE5051CC5"]
@@ -923,8 +905,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat the Aurora Snow Queen"
-			x: 8.0d
-			y: -4.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
@@ -954,8 +936,8 @@
 				type: "advancement"
 			}]
 			title: "Complete the Quest Ram"
-			x: -6.75d
-			y: 2.25d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -963,6 +945,7 @@
 				"54A57B37E1C04785"
 				"761DD39F82235893"
 				"4EAE4C40B444930A"
+				"27AFCBF70AA24760"
 			]
 			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
 			id: "25CB8D0869249D24"
@@ -1026,6 +1009,7 @@
 		{
 			id: "723D12B934CAB46C"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "599A10FC4B6BB02E"

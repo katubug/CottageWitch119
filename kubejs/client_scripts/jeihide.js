@@ -405,8 +405,18 @@ JEIEvents.hideItems(event => {
 		'extradelight:liver_onions',
 		'extradelight:sextuple_meat_treat',
 		'extradelight:oxtail_soup',
-		'extradelight:haggis_block_item'
-
+		'extradelight:haggis_block_item',
+		'extradelight:haggis',
+		'refurbished_furniture:oak_mail_box',
+		'refurbished_furniture:spruce_mail_box',
+		'refurbished_furniture:birch_mail_box',
+		'refurbished_furniture:jungle_mail_box',
+		'refurbished_furniture:acacia_mail_box',
+		'refurbished_furniture:dark_oak_mail_box',
+		'refurbished_furniture:mangrove_mail_box',
+		'refurbished_furniture:crimson_mail_box',
+		'refurbished_furniture:warped_mail_box',
+		'refurbished_furniture:post_box'
 	];
 
 	for (const hide of toHide) {

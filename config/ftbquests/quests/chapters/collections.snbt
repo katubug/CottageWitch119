@@ -1233,6 +1233,7 @@
 		{
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "45F70564BC668A04"
@@ -1481,6 +1482,16 @@
 					item: "simplehats:sausage"
 					type: "item"
 				}
+				{
+					id: "39D5442863E8C416"
+					item: "simplehats:flowercrown"
+					type: "item"
+				}
+				{
+					id: "7EDB90B43749B1E8"
+					item: "simplehats:octodad"
+					type: "item"
+				}
 			]
 			title: "Common Hats"
 			x: -3.5d
@@ -1579,11 +1590,6 @@
 				{
 					id: "5ADC6C734CC30FB2"
 					item: "simplehats:easterhead"
-					type: "item"
-				}
-				{
-					id: "5E233CBE4EDB45C1"
-					item: "simplehats:eevee_ears"
 					type: "item"
 				}
 				{
@@ -1773,11 +1779,6 @@
 					type: "item"
 				}
 				{
-					id: "6F25EE30377A38A6"
-					item: "simplehats:flowercrown"
-					type: "item"
-				}
-				{
 					id: "1B9897327D685887"
 					item: "simplehats:floweronhead"
 					type: "item"
@@ -1852,6 +1853,11 @@
 					item: "simplehats:zigzagwitchhat"
 					type: "item"
 				}
+				{
+					id: "57C107D686D5D3C8"
+					item: "simplehats:dragonskullender"
+					type: "item"
+				}
 			]
 			title: "Rare Hats"
 			x: -1.5d
@@ -1912,11 +1918,6 @@
 				{
 					id: "17C73D489ED7B43B"
 					item: "simplehats:beehat"
-					type: "item"
-				}
-				{
-					id: "3A6D8A172EA32275"
-					item: "simplehats:dragonskullender"
 					type: "item"
 				}
 				{
@@ -2204,11 +2205,6 @@
 				{
 					id: "15D9E1104E187FDA"
 					item: "simplehats:beaniespooky"
-					type: "item"
-				}
-				{
-					id: "07DB50E63569B4E4"
-					item: "simplehats:octodad"
 					type: "item"
 				}
 			]

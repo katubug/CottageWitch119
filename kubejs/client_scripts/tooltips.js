@@ -1558,6 +1558,7 @@ ItemEvents.tooltip(e => {
     e.add('kubejs:corn_moon', 'The Corn Moon occurs in September.')
     e.add('kubejs:oak_moon', 'The Oak Moon occurs in December.')
     e.add('kubejs:hunter_moon', 'The Hunter Moon occurs in October.')
+    e.add('kubejs:frost_moon', 'The Frost Moon occurs in November.')
 
     e.add('#forge:moon_certificates', `\u00A7d`+'Art by LoFi Fruit')
 
@@ -1567,4 +1568,5 @@ ItemEvents.tooltip(e => {
         "Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!"
     );
 
+    e.add(['contact:wrapping_paper','contact:ender_wrapping_paper'], 'Right Click to open GUI')
 })

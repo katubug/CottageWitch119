@@ -284,6 +284,7 @@
 			disable_toast: true
 			id: "504E46F5A1DCF256"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "3155708C4E3D8956"

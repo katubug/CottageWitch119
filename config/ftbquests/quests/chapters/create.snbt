@@ -354,66 +354,6 @@
 			y: -0.5d
 		}
 		{
-			description: ["Congratulations on your feat of engineering! You had to nerf yourself, that's how good you were. Take this armor set as a reward."]
-			id: "0C8B40405806EEB4"
-			invisible: true
-			rewards: [
-				{
-					id: "40F1E962451E5BB6"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6FB82F90E8017C7C"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "263BDF9767AF721F"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64E3D906B5C602AD"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "create:crafter_lazy_000"
-				criterion: ""
-				id: "64FB6A61F1EE24D3"
-				type: "advancement"
-			}]
-			x: -9.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["21D14DACAA03665A"]
 			description: ["Congratulation on operating your first machine! Hopefully if you were feeling intimidated, you now feel a little more confident."]
 			id: "6B62CA860B15D956"
@@ -456,7 +396,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["720F0BC4F45BA69B"]
+			dependencies: ["335926C3AE4F314C"]
 			description: ["This is just the basics of what you can do with the magic of engineering. Explore on your own and see what kind of &amystical machines&r you can craft."]
 			icon: {
 				Count: 1b
@@ -965,6 +905,7 @@
 		{
 			id: "37CC982A449FB0DE"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "2BF3FD0A18BA72FA"
@@ -1117,19 +1058,20 @@
 				type: "item"
 			}]
 			title: "Baking a Cake"
-			x: 6.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["335926C3AE4F314C"]
 			description: [
-				"Did you know there is an &ainfinite &bBlaze Cake&r? Normally it's only available in Creative, but you can &6earn one by trading in&r 100 regular &bBlaze Cakes&r."
+				"Did you know there is an &ainfinite &bBlaze Cake&r? Normally it's only available in Creative, but you can &6earn one by trading in&r 1000 regular &bBlaze Cakes&r."
 				""
 				"This quest is repeatable."
 			]
 			icon: "create:creative_blaze_cake"
 			id: "720F0BC4F45BA69B"
+			optional: true
 			rewards: [{
 				id: "5E0D5F47F6815CBA"
 				item: "create:creative_blaze_cake"
@@ -1138,14 +1080,14 @@
 			subtitle: "blaze it lol"
 			tasks: [{
 				consume_items: true
-				count: 100L
+				count: 1000L
 				id: "4D08E4AAADFA123B"
 				item: "create:blaze_cake"
 				type: "item"
 			}]
 			title: "A Creative Way To Cook"
-			x: 5.0d
-			y: 4.0d
+			x: 6.5d
+			y: 2.5d
 		}
 	]
 	title: "Create"
