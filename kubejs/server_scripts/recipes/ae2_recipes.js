@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
 			' D '
 		], {
 			A: 'ae2:terminal',
-			B: 'ars_nouveau:glyph_ender_inventory',
+			B: 'ars_nouveau:enchanters_eye',
 			C: 'waystones:warp_dust',
 			D: 'ae2:wireless_receiver'
 		}
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 			' D '
 		], {
 			A: 'ae2:crafting_terminal',
-			B: 'ars_nouveau:glyph_ender_inventory',
+			B: 'ars_nouveau:enchanters_eye',
 			C: 'waystones:warp_dust',
 			D: 'ae2:wireless_receiver'
 		}
