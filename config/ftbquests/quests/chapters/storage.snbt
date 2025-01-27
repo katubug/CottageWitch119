@@ -1391,40 +1391,6 @@
 		}
 		{
 			description: [
-				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
-				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
-				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				"Hover over each option to &asee what challenge unlocks that look&r."
-				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
-				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
-			]
-			id: "7B72E2C06B316F5A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0FB0AAAB64B8D5B7"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					id: "3C305AF895DC9804"
-					item: "backpacked:oak_backpack_shelf"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "just what you've always wanted!"
-			tasks: [{
-				id: "62D500A4711B3B3C"
-				item: "backpacked:backpack"
-				type: "item"
-			}]
-			title: "Oh my GOD a BACKPACK"
-			x: -0.5d
-			y: -7.0d
-		}
-		{
-			description: [
 				"For an elegant and low-impact storage option, you need more than just magic- introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticted Storage&r with &lRefined Storage&r as it &dcan cause lag&r. "
 				""
 				"To begin, familiarise yourself with the basic crafting ingredients of &lRefined Storage&r: &brunic binding&r, &bsmokey quartz&r, and &billuminite&r. You will also be crafting a lot of &bRaw Runic Processors&r- &6heat them in a furnace&r to fuse their Magitech."
@@ -1978,6 +1944,134 @@
 			]
 			x: 1.5d
 			y: -14.0d
+		}
+		{
+			description: [
+				"For an elegant and low-impact storage option, you need more than just magic: introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticated Storage&r with &lApplied Energistics&r as it &dcan cause lag&r. "
+				""
+				"To begin, familiarize yourself with the basic crafting ingredients of &lApplied Energistics&r: namely, &bCertus Quartz&r, and its advanced cousin, &bFluix&r. &bCertus Quartz&r can be found growing in &cGeodes underground&r."
+				""
+				"&bCertus quartz buds&r will sprout from &bbudding certus blocks&r, similar to&bAmethyst&r. There are 4 tiers of budding certus blocks: &aFlawless, Flawed, Chipped, and Damaged&r."
+				""
+				"With the lower 3 tiers, every time a bud grows by another stage, the &abudding block has a chance to &ddegrade by one tier&r, eventually turning into a plain &bCertus Quartz Block&r."
+				""
+				"&bFlawless Budding Certus&r does not degrade, and can only be obtained by making it into a &lCreate&r railcart &bContraption&r. The lower tiers can be obtained by &6mining with &bSilk Touch&r, or by &6throwing the &bCertus Block&r and a &bConsecrated Certus Crystal&r into some &bwater&r and letting them combine."
+				""
+				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom."
+				""
+				"Oh, and take this &bsquirrel&r- &oit's a secret tool that will help us later!&r (It's not that secret, you need it for the next step.)"
+			]
+			id: "50076E9CA12182E6"
+			rewards: [
+				{
+					id: "3DFB3227B24E3322"
+					item: "ars_creo:starbuncle_wheel"
+					type: "item"
+				}
+				{
+					id: "458CCCEA1FF79816"
+					item: "spelunkery:magnetite_chunk"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "the ultimate storage solution"
+			tasks: [{
+				id: "44AF23A28D4EA025"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Applying Crystallian Energistics"
+			x: 9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["50076E9CA12182E6"]
+			description: ["right click regular certus quartz onto a lit candle to consecrate it. works with both vanilla and hexerei candles"]
+			id: "7918FC1D268C6E62"
+			tasks: [{
+				id: "1AEB71C5C3F7E7CF"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7918FC1D268C6E62"]
+			description: ["{image:cottagewitch:textures/quest_images/ae2_get_fluix.png width:100 height:100 align:1}"]
+			id: "2D271ADDC566B408"
+			tasks: [
+				{
+					id: "0777EC2F62223EFB"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "50540F2DFE8A6D0D"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["44542FC524E3E9AF"]
+			id: "36117361546D1D22"
+			tasks: [{
+				id: "24A1D6A4D858718E"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -15.5d
+		}
+		{
+			description: ["allows storage nexus to communicate with other mods like pipez and create."]
+			id: "076207522E95E96B"
+			tasks: [{
+				id: "49E966C7FF2956B5"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50076E9CA12182E6"]
+			description: [
+				"The &bLodestone Core&r is the source from which your entire storage system &awill draw its power&r. &6Craft one&r using the &bStarbuncle Wheel&r you were given. Don't worry - they'll be fine in there! A &bBlock of Gold&r is more than enough to keep them happy!"
+				""
+				"Every other block in your storage system will &6have to be connected to this block&r, or &6connected to another storage block&r that is connected to this block (we'll get into &aremote access&r later!). "
+			]
+			id: "44542FC524E3E9AF"
+			rewards: [{
+				count: 10
+				id: "402222DDC41DB9CE"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "infinite power...itty bitty living space"
+			tasks: [{
+				id: "62C0F002851E9632"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["44542FC524E3E9AF"]
+			id: "4B3896CA30384F99"
+			tasks: [{
+				id: "30E068652B4291F2"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -13.0d
 		}
 	]
 	title: "Storage"

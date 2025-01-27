@@ -1,0 +1,27 @@
+{
+    "feature": "ae2_certus_geode:certus_geode",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 10
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 40
+          },
+          "min_inclusive": {
+            "above_bottom": -40
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ae2wtlib:quantum_bridge_card"
+  }
+}

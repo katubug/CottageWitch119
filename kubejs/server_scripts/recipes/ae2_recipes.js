@@ -42,23 +42,21 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	/*
-	//1k Cell Components
+	
+	//1k Cell Components/Primal Resonant Gems
 	event.shaped(
 		Item.of('ae2:cell_component_1k'),
 		[
+			' A ',
 			'ABA',
-			'CDC',
-			'ACA'
+			' A '
 		], {
 			A: 'minecraft:redstone',
-			B: 'thaumon:mutagen',
-			C: '#ae2:all_certus_quartz',
-			D: 'malum:intricate_assembly'
+			B: 'minecraft:quartz'
 		}
 	)
 
-	//4k Cell Components
+	//4k Cell Components/Arcane Resonant Gems
 	event.shaped(
 		Item.of('ae2:cell_component_4k'),
 		[
@@ -67,13 +65,13 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'waystones:warp_dust',
-			B: 'malum:spectral_lens',
+			B: 'create:precision_mechanism',
 			C: 'ae2:cell_component_1k',
-			D: 'malum:intricate_assembly'
+			D: 'minecraft:emerald'
 		}
 	)
 
-	//16k Cell Components
+	//16k Cell Components/Divine Resonant Gems
 	event.shaped(
 		Item.of('ae2:cell_component_16k'),
 		[
@@ -82,13 +80,13 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'minecraft:glowstone_dust',
-			B: 'forbidden_arcanus:mundabitur_dust',
+			B: 'create:powdered_obsidian',
 			C: 'ae2:cell_component_4k',
-			D: 'malum:intricate_assembly'
+			D: 'minecraft:diamond'
 		}
 	)
 
-	//64k Cell Components
+	//64k Cell Components/Celestial Resonant Gems
 	event.shaped(
 		Item.of('ae2:cell_component_64k'),
 		[
@@ -97,13 +95,13 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mermod:glowing_pearl_modifier',
-			B: 'netherstar_shards:netherstarshard',
+			B: 'gildednetherite:golden_core',
 			C: 'ae2:cell_component_16k',
-			D: 'malum:intricate_assembly'
+			D: 'ars_nouveau:source_gem'
 		}
 	)
 
-	//256k Cell Components
+	//256k Cell Components/Transcendent Resonant Gems
 	event.shaped(
 		Item.of('ae2:cell_component_256k'),
 		[
@@ -112,12 +110,21 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'ae2:sky_dust',
-			B: 'forbidden_arcanus:dark_nether_star',
+			B: 'minecraft:nether_star',
 			C: 'ae2:cell_component_64k',
-			D: 'malum:intricate_assembly'
+			D: 'byg:ametrine_gems'
 		}
 	)
-	*/
+
+	//Covered Cables
+	event.shapeless(
+		Item.of('4x ae2:fluix_covered_cable'),
+		[
+			'pipez:item_pipe',
+			'create:andesite_alloy',
+			'ae2:fluix_dust'
+		]
+	)
 
 	//Annihilation Core
 	event.shapeless(
@@ -256,7 +263,7 @@ ServerEvents.recipes(event => {
 			A: 'experienceobelisk:cognitive_crystal',
 			B: 'minecraft:lodestone',
 			C: 'create:polished_rose_quartz',
-			D: 'create:brass_casing',
+			D: 'minecraft:gold_block',
 			E: 'ars_creo:starbuncle_wheel'
 		}
 	)
