@@ -55,17 +55,17 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "spawnPressesInMeteorites": true,
-    "generateMeteorites": true
+    "spawnPressesInMeteorites": false,
+    "generateMeteorites": false
   },
   "wireless": {
     "wirelessBaseCost": 0.0,
     "wirelessCostMultiplier": 1.0,
-    "wirelessBaseRange": 16.0,
-    "wirelessBoosterRangeMultiplier": 1.0,
-    "wirelessBoosterExp": 1.5,
+    "wirelessBaseRange": 1024.0,
+    "wirelessBoosterRangeMultiplier": 2.0,
+    "wirelessBoosterExp": 0.0,
     "wirelessHighWirelessCount": 64.0,
-    "wirelessTerminalDrainMultiplier": 0.0
+    "wirelessTerminalDrainMultiplier": 1.0
   },
   "PortableCells": {
     "allowDisassembly_comment": "Allow disassembly of portable cells into the recipe ingredients using shift+right-click",

@@ -5,16 +5,16 @@
   "gui.ae2wtlib.emptytrash": "Empty Trash",
   "gui.ae2wtlib.emptytrash.desc": "Delete contents of the Trash slot",
 
-  "item.ae2wtlib.quantum_bridge_card": "Quantum Bridge Card",
-  "item.ae2wtlib.quantum_bridge_card.desc": "Allows wireless terminals to connect to a quantum bridge, allowing for unlimited range",
+  "item.ae2wtlib.quantum_bridge_card": "Planar Bridge Card",
+  "item.ae2wtlib.quantum_bridge_card.desc": "Allows nexus apertures to connect to a planar bridge, allowing for unlimited range",
   "item.ae2wtlib.magnet_card": "Magnet Card",
   "item.ae2wtlib.magnet_card.desc": "Magnet upgrade for the Wireless Crafting Terminal",
 
   "gui.ae2wtlib.magnetcard": "Magnet Card",
   "gui.ae2wtlib.magnetcard.desc.off": "Off",
   "gui.ae2wtlib.magnetcard.desc.inv": "Pickup to Inventory",
-  "gui.ae2wtlib.magnetcard.desc.me": "Pickup to ME",
-  "gui.ae2wtlib.cycle_terminal.desc": "Open next Terminal",
+  "gui.ae2wtlib.magnetcard.desc.me": "Pickup to Nexus",
+  "gui.ae2wtlib.cycle_terminal.desc": "Open next Aperture",
   "gui.ae2wtlib.magnetcard.hotkey": "Magnet Card: ",
   "gui.ae2wtlib.restock": "Restock: ",
   "gui.ae2wtlib.off": "Off",
@@ -33,8 +33,8 @@
 
   "item.ae2wtlib.wireless_pattern_encoding_terminal": "Wireless Pattern Encoding Terminal",
   "item.ae2wtlib.wireless_pattern_access_terminal": "Wireless Pattern Access Terminal",
-  "item.ae2wtlib.wireless_universal_terminal": "Wireless Universal Terminal",
-  "item.ae2wtlib.wireless_universal_terminal.desc": "Installed Terminals:",
+  "item.ae2wtlib.wireless_universal_terminal": "Universal Nexus Aperture",
+  "item.ae2wtlib.wireless_universal_terminal.desc": "Installed Apertures:",
 
   "key.ae2.wireless_pattern_access_terminal": "Open Wireless Pattern Access Terminal",
   "key.ae2.wireless_pattern_encoding_terminal": "Open Wireless Pattern Encoding Terminal",

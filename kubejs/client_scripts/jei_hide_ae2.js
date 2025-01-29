@@ -191,6 +191,25 @@ JEIEvents.hideItems(event => {
         'ae2:white_smart_cable',
         'ae2wtlib:wireless_pattern_encoding_terminal', 
         'ae2wtlib:wireless_pattern_access_terminal',
+        'ae2:meteorite_compass',
+        'ae2:charged_staff',
+        'ae2:color_applicator',
+        'ae2:entropy_manipulator',
+        'ae2:certus_quartz_axe',
+        'ae2:certus_quartz_hoe',
+        'ae2:certus_quartz_shovel',
+        'ae2:nether_quartz_sword',
+        'ae2:nether_quartz_pickaxe',
+        'ae2:nether_quartz_shovel',
+        'ae2:nether_quartz_hoe',
+        'ae2:nether_quartz_axe',
+        'ae2:certus_quartz_sword',
+        'ae2:certus_quartz_pickaxe',
+        'ae2:nether_quartz_cutting_knife',
+        'ae2wtlib:magnet_card',
+        'ae2:controller',
+        'ae2:crank',
+        
     ];
     
     for (const hide of toHide) {

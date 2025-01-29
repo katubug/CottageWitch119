@@ -2036,8 +2036,8 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -10.5d
+			x: 9.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["50076E9CA12182E6"]
@@ -2072,6 +2072,119 @@
 			}]
 			x: 11.5d
 			y: -13.0d
+		}
+		{
+			dependencies: ["3BCEBB5E08B49230"]
+			description: ["explode it to get 2 entangled whoosiwhatsits"]
+			id: "68BCE0298503D8C8"
+			rewards: [{
+				id: "279A298F41D0DE45"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B176C7CFD7C210C"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["68BCE0298503D8C8"]
+			description: [
+				"build a 3x3 structure surrounding the chamber with the tethers"
+				""
+				"connect it to your network"
+				""
+				"stick an entangled whoosiwhatsit in the middle"
+				""
+				"this chunk must be loaded"
+			]
+			id: "2692A1D717795116"
+			tasks: [
+				{
+					count: 8L
+					id: "347F1353D62DDCD8"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "12A6C1D650E610A1"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["68BCE0298503D8C8"]
+			description: [
+				"place in terminal to gain access to storage interdimensionally"
+				""
+				"you can't use the entangler without this"
+			]
+			id: "3BA25DBF8AD8C159"
+			tasks: [{
+				id: "64B4005B77FA2A8B"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "3BCEBB5E08B49230"
+			tasks: [{
+				id: "15B07590ACCF8DCF"
+				item: {
+					Count: 1b
+					id: "ae2wtlib:wireless_universal_terminal"
+					tag: {
+						internalCurrentPower: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4B3896CA30384F99"]
+			id: "1F7DD0EA78B3C25C"
+			tasks: [
+				{
+					id: "38F4928F26855584"
+					item: "ae2:security_station"
+					type: "item"
+				}
+				{
+					id: "661BA143149B834B"
+					item: "ae2:biometric_card"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -13.0d
+		}
+		{
+			id: "4F50B0FDBED86AF2"
+			tasks: [
+				{
+					id: "6282F58FD4FC8E4F"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0B2F10A7C8545CC4"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -11.0d
 		}
 	]
 	title: "Storage"

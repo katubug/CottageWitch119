@@ -242,6 +242,16 @@ ServerEvents.recipes(event => {
 		]
 	)
 
+	//Universal Nexus Aperture/Wireless Universal Terminal
+	//TODO - do I want this recipe? should i do it differently?
+	event.shapeless(
+		Item.of('ae2wtlib:wireless_universal_terminal'),
+		[
+			'ae2:wireless_terminal', 
+			'ae2:wireless_crafting_terminal'
+		]
+	)
+
 	//Void Tablet/Overflow Destruction Card
 	event.shapeless(
 		Item.of('ae2:void_card'),
@@ -267,6 +277,142 @@ ServerEvents.recipes(event => {
 			E: 'ars_creo:starbuncle_wheel'
 		}
 	)
+
+	//Quantum Ring/Planar Relay Tether
+	event.shaped(
+		Item.of('ae2:quantum_ring'),
+		[
+			'ABA',
+			'CDC',
+			'ABA'
+		],
+		{
+			A: 'minecraft:gold_ingot',
+			B: 'ars_nouveau:magebloom_fiber',
+			C: 'minecraft:obsidian',
+			D: 'functionalstorage:ender_drawer'
+		}
+	)
+
+	//IO Port/Vibrant Communicator
+	event.shaped(
+		Item.of('ae2:io_port'),
+		[
+			'AAA',
+			'BCB',
+			'DED'
+		],
+		{
+			A: '#forge:glass',
+			B: 'ae2:drive',
+			C: 'ae2:fluix_covered_cable',
+			D: 'create:andesite_alloy',
+			E: 'create:electron_tube'
+		}
+	)
+
+	//Cell Workbench/Glyphstone Workbench
+	event.shaped(
+		Item.of('ae2:cell_workbench'),
+		[
+			'ABA',
+			'CDC',
+			'CCC'
+		],
+		{
+			A: 'ars_nouveau:source_gem',
+			B: 'spelunkery:flint_hammer_and_chisel',
+			C: 'create:andesite_alloy',
+			D: 'minecraft:crafting_table',
+		}
+	)
+
+	//Vibrant Chest/ME Chest
+	event.shaped(
+		Item.of('ae2:chest'),
+		[
+			'ABA',
+			'C C',
+			'DDD'
+		],
+		{
+			A: '#forge:glass',
+			B: 'ae2:terminal',
+			C: 'ae2:fluix_covered_cable',
+			D: 'create:brass_ingot'
+		}
+	)
+
+	//Ward Bypass/Biometric Card
+	event.shaped(
+		Item.of('ae2:biometric_card'),
+		[
+			'ABC',
+			'DEC'
+		],
+		{
+			A: 'create:electron_tube',
+			B: 'supplementaries:key',
+			C: 'ars_nouveau:source_gem',
+			D: 'minecraft:redstone',
+			E: 'minecraft:paper'
+		}
+	)
+
+	//Network Tool
+	event.shaped(
+		Item.of('ae2:network_tool'),
+		[
+			'AB',
+			'CD'
+		],
+		{
+			A: '#ae2:illuminated_panel',
+			B: 'minecraft:chest',
+			C: '#forge:wrenches',
+			D: 'create:electron_tube'
+		}
+	)
+
+	//Resonance Access Point
+	event.shaped(
+		Item.of('ae2:wireless_access_point'),
+		[
+			'A',
+			'B',
+			'C'
+		],
+		{
+			A: 'ae2:wireless_receiver',
+			B: 'create:polished_rose_quartz',
+			C: 'ae2:fluix_covered_cable'
+		}
+	)
+
+	//Guardian Ward/Security Station
+	event.shaped(
+		Item.of('ae2:security_station'),
+		[
+			'ABA',
+			'CDC',
+			'AEA'
+		],
+		{
+			A: 'create:brass_ingot',
+			B: 'ae2:chest',
+			C: 'ae2:fluix_covered_cable',
+			D: 'ae2:cell_component_16k',
+			E: 'create:electron_tube'
+		}
+	)
+
+	//Replace Cable Recipes
+	event.replaceInput({
+		input: 'ae2:fluix_glass_cable'
+	}, // Arg 1: the filter
+	'ae2:fluix_glass_cable', // Arg 2: the item to replace
+	'ae2:fluix_covered_cable' // Arg 3: the item to replace it with
+)
 
 	//Sized Items
 	let numbers = [
