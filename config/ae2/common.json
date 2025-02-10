@@ -4,7 +4,7 @@
     "matterCannonBlockDamage_comment": "Enables the ability of the Matter Cannon to break blocks.",
     "matterCannonBlockDamage": true,
     "tinyTntBlockDamage_comment": "Enables the ability of Tiny TNT to break blocks.",
-    "tinyTntBlockDamage": true,
+    "tinyTntBlockDamage": false,
     "serverOpsIgnoreSecurity_comment": "Server operators are not restricted by ME security terminal settings.",
     "serverOpsIgnoreSecurity": true,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",

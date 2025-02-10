@@ -2051,14 +2051,30 @@
 		}
 		{
 			dependencies: ["44542FC524E3E9AF"]
+			description: [
+				"Having every block directly connected to another can become a bit bulky. Here are some local options for spreading it out a bit."
+				""
+				"The &bcable&r is extremely simple- use it to &aconnect various &lResonance Network&r &ablocks across a distance&r. We strongly recommend you use &bcables&r with your system instead of &lPipez&r as it is &dmuch more performant&r."
+				""
+				"The &bQuartz Fiber&r works like the &bCable&r, however it only transfers power and doesnt connect things to the network."
+				""
+				"To learn about &awireless options&r, move to the next quests!"
+			]
 			id: "36117361546D1D22"
-			tasks: [{
-				id: "24A1D6A4D858718E"
-				item: "ae2:fluix_covered_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24A1D6A4D858718E"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "165101ED0EEBA87B"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
 			x: 13.5d
-			y: -15.5d
+			y: -15.0d
 		}
 		{
 			description: ["allows storage nexus to communicate with other mods like pipez and create."]
@@ -2253,6 +2269,52 @@
 				}
 			]
 			x: 11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["44542FC524E3E9AF"]
+			id: "3F1F2BDD0C6D0E0F"
+			tasks: [
+				{
+					id: "745A4460DB0B0953"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "24B6D88206073618"
+					item: "ae2:inverted_toggle_bus"
+					type: "item"
+				}
+				{
+					id: "58ACFB0D78B042F8"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+				{
+					id: "37D0B4F69B92F4F6"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "Cable Utilities"
+			x: 13.5d
+			y: -16.0d
+		}
+		{
+			description: [
+				"Nearly every part of your &lRefined Storage &rsystem can be coloured simply by &6attaching it to a colored cable&r! "
+				""
+				"To hide unsightly cables, you can &6craft any block with &b4 Cable Anchors&r to make 4 &bFacades&r. &bFacades&r can be &6applied to any side&r of a &bcable&r, including sides with attachments such as the &bNexus Crafting Aperature&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
+				""
+				"Covers &dcan be recovered&r once they have been placed in a &bcable block&r by shift rightclicking them with a wrench."
+			]
+			id: "28DB3AEB3FDC5BA3"
+			tasks: [{
+				id: "6BF6ABDC10302B9C"
+				title: "Aesthetics"
+				type: "checkmark"
+			}]
+			x: 13.5d
 			y: -11.0d
 		}
 	]

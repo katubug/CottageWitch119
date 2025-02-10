@@ -473,7 +473,37 @@ ServerEvents.recipes(event => {
 				C: 'ae2:cell_component_'+number
 			}
 		)
-		
 	}
+		event.custom({
+			'type': 'extendedmushrooms:fairy_ring_recipe',
+			'ingredients': [{'item': 'minecraft:ender_eye'},
+			{'item': 'ae2:charged_certus_quartz_crystal'},
+			{'item': 'ars_nouveau:ritual_binding'},
+			{'item': 'spelunkery:rough_lazurite'}],
+			'recipeTime': 1200,
+			'result': {'item': 'ae2:singularity'}
+		})
+
+		event.shaped(
+    Item.of('ae2wtlib:quantum_bridge_card'),
+    [
+        ' A ',
+        'BCD',
+        ' E '
+    ], {
+        A: 'twilightforest:maze_map_focus',
+        B: 'deeperdarker:heart_of_the_deep',
+        C: 'ae2:wireless_receiver',
+        D: 'minecraft:dragon_egg',
+        E: 'minecraft:netherite_ingot'
+    }
+)
+		event.shapeless(
+			Item.of('ae2:level_emitter'),
+			[
+				'minecraft:redstone_torch',
+				'create:electron_tube'
+			]
+		)
 
 })
