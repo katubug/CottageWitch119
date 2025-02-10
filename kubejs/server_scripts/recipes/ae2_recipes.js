@@ -168,31 +168,31 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	//Item Housing
+	//Item Housing/Gilded Gem Setting
 	event.shaped(
 		Item.of('ae2:item_cell_housing'),
 		[
-			'CCC',
-			'CAC',
-			'BBB'
+			' A ',
+			'BCB',
+			' B '
 		], {
 			A: '#forge:terrestrial_crystals',
-        	B: 'glassential:glass_redstone',
-        	C: '#forge:stone'
+			B: 'minecraft:gold_ingot',
+			C: 'ars_nouveau:source_gem'
 		}
 	)
 
-	//Fluid Housing
+	//Fluid Housing/Ferrous Gem Setting
 	event.shaped(
 		Item.of('ae2:fluid_cell_housing'),
 		[
-			'CCC',
-			'CAC',
-			'BBB'
+			' A ',
+			'BCB',
+			' B '
 		], {
 			A: '#forge:sea_crystals',
-        	B: 'glassential:glass_redstone',
-        	C: '#forge:stone'
+			B: 'minecraft:iron_ingot',
+			C: 'ars_nouveau:source_gem'
 		}
 	)
 
@@ -270,9 +270,9 @@ ServerEvents.recipes(event => {
 			'ADA'
 		],
 		{
-			A: 'experienceobelisk:cognitive_crystal',
+			A: 'ae2:fluix_crystal',
 			B: 'minecraft:lodestone',
-			C: 'create:polished_rose_quartz',
+			C: 'ae2:charged_certus_quartz_crystal',
 			D: 'minecraft:gold_block',
 			E: 'ars_creo:starbuncle_wheel'
 		}
@@ -424,6 +424,7 @@ ServerEvents.recipes(event => {
 	];
 
 	for (const number of numbers) {
+		/*
 		event.shapeless(
 			Item.of('ae2:portable_item_cell_'+number),
 			[
@@ -443,36 +444,36 @@ ServerEvents.recipes(event => {
 				'ae2:chest'
 			]
 		)
-
+		*/
+		
+		//Fluid Storage Cells/Fluid Glyphstones
 		event.shaped(
 			Item.of('ae2:fluid_storage_cell_'+number),
 			[
 				' A ',
 				'BCB',
-				'DED'
+				' B '
 			], {
 				A: '#forge:sea_crystals',
-				B: 'ars_nouveau:magebloom_fiber',
-				D: 'ars_nouveau:source_gem',
-				E: 'hexerei:blood_bottle',
+				B: 'minecraft:iron_ingot',
 				C: 'ae2:cell_component_'+number
 			}
 		)
 
+		//Item Storage Cells/Item Glyphstones
 		event.shaped(
 			Item.of('ae2:item_storage_cell_'+number),
 			[
 				' A ',
 				'BCB',
-				'DED'
+				' B '
 			], {
 				A: '#forge:terrestrial_crystals',
-				B: 'ars_nouveau:magebloom_fiber',
-				D: 'ars_nouveau:source_gem',
-				E: 'hexerei:blood_bottle',
+				B: 'minecraft:gold_ingot',
 				C: 'ae2:cell_component_'+number
 			}
 		)
+		
 	}
 
 })

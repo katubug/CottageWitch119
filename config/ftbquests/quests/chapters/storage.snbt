@@ -1947,19 +1947,11 @@
 		}
 		{
 			description: [
-				"For an elegant and low-impact storage option, you need more than just magic: introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticated Storage&r with &lApplied Energistics&r as it &dcan cause lag&r. "
+				"For an elegant and low-impact storage option, you need more than just magic: introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticated Storage&r with &lApplied Energistics&r as it &dcan cause phantasmal warping (read: significant lag)&r. "
 				""
-				"To begin, familiarize yourself with the basic crafting ingredients of &lApplied Energistics&r: namely, &bCertus Quartz&r, and its advanced cousin, &bFluix&r. &bCertus Quartz&r can be found growing in &cGeodes underground&r."
+				"The storage granted by this mod utilizes &agem resonance&r, &aplanar relay&r, and &aa Nexus network&r to contain your items in a very compact area. Because of this, it is &aentirely self-contained&r, and does not require &bmundane storage options&r such as &bchests&r, &bbarrels&r, or &bdrawers&r."
 				""
-				"&bCertus quartz buds&r will sprout from &bbudding certus blocks&r, similar to&bAmethyst&r. There are 4 tiers of budding certus blocks: &aFlawless, Flawed, Chipped, and Damaged&r."
-				""
-				"With the lower 3 tiers, every time a bud grows by another stage, the &abudding block has a chance to &ddegrade by one tier&r, eventually turning into a plain &bCertus Quartz Block&r."
-				""
-				"&bFlawless Budding Certus&r does not degrade, and can only be obtained by making it into a &lCreate&r railcart &bContraption&r. The lower tiers can be obtained by &6mining with &bSilk Touch&r, or by &6throwing the &bCertus Block&r and a &bConsecrated Certus Crystal&r into some &bwater&r and letting them combine."
-				""
-				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom."
-				""
-				"Oh, and take this &bsquirrel&r- &oit's a secret tool that will help us later!&r (It's not that secret, you need it for the next step.)"
+				"Oh, and take this &bsquirrel&r - &oit's a secret tool that will help us later!&r (It's not that secret, you need it for a later step.)"
 			]
 			id: "50076E9CA12182E6"
 			rewards: [
@@ -1978,9 +1970,9 @@
 			size: 2.0d
 			subtitle: "the ultimate storage solution"
 			tasks: [{
-				id: "44AF23A28D4EA025"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
+				id: "01F74FC03DF6879D"
+				title: "Ready To Begin"
+				type: "checkmark"
 			}]
 			title: "Applying Crystallian Energistics"
 			x: 9.5d
@@ -1988,20 +1980,60 @@
 		}
 		{
 			dependencies: ["50076E9CA12182E6"]
-			description: ["right click regular certus quartz onto a lit candle to consecrate it. works with both vanilla and hexerei candles"]
+			description: [
+				"To begin, familiarize yourself with the basic crafting ingredients of &lApplied Energistics&r: &bCertus Quartz&r can be found growing in &cGeodes underground&r."
+				""
+				"&bCertus quartz buds&r will sprout from &bbudding certus blocks&r, similar to &bAmethyst&r. There are 4 tiers of budding certus blocks: &aFlawless, Flawed, Chipped, and Damaged&r."
+				""
+				"With the lower 3 tiers, every time a bud grows by another stage, the &abudding block has a chance to &ddegrade by one tier&r, eventually turning into a plain &bCertus Quartz Block&r."
+				""
+				"&bFlawless Budding Certus&r does not degrade, and can only be obtained by making it into a &lCreate&r railcart &bContraption&r. The lower tiers can be obtained by &6mining with &bSilk Touch&r, or by &6throwing the &bCertus Block&r and a &bConsecrated Certus Crystal&r into some &bwater&r and letting them combine."
+				""
+				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom."
+				""
+				"To obtain &bConsecrated Certus Quartz&r, you need only &atake Certus and consecrate it&r! It's that easy!"
+				""
+				"...Oh, you want to know &ohow&r. Fine. To &aConsecrate&r an item, pass it over a candle's flame, and the power of the elements will sanctify it. To put it simply: &6right click the &bQuartz&6 onto a &bCandle&r. You can use both &lvanilla&r Candles, and those from &lHexerei&r."
+				""
+				"Now, hold onto this &bBucket of Tomato Sauce&r, it's important."
+			]
 			id: "7918FC1D268C6E62"
-			tasks: [{
-				id: "1AEB71C5C3F7E7CF"
-				item: "ae2:charged_certus_quartz_crystal"
+			rewards: [{
+				id: "7BCF9FCC5D9BC689"
+				item: "create_central_kitchen:tomato_sauce_bucket"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "1AEB71C5C3F7E7CF"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "1A84E9C9E7F2799E"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -18.0d
 		}
 		{
 			dependencies: ["7918FC1D268C6E62"]
-			description: ["{image:cottagewitch:textures/quest_images/ae2_get_fluix.png width:100 height:100 align:1}"]
+			description: [
+				"To obtain &bFluix Crystals&r, you need to &6submerge a &bConsecrated Certus Quartz&r with &bRedstone Dust&r and mundane &bQuartz&r in a &bliquid&r. Did you keep that &bTomato Sauce&r?"
+				""
+				"...You already drank it? Fine, you can &aalso use &bWater&r, I guess. Since you hate fun."
+				""
+				"{image:cottagewitch:textures/quest_images/fluix_tomato_water.png width:250 height:250 align:1}"
+			]
 			id: "2D271ADDC566B408"
+			rewards: [{
+				count: 5
+				id: "288A21CA6B0C699F"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0777EC2F62223EFB"
@@ -2014,8 +2046,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -18.5d
+			x: 11.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["44542FC524E3E9AF"]
@@ -2040,7 +2072,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["50076E9CA12182E6"]
+			dependencies: ["2D271ADDC566B408"]
 			description: [
 				"The &bLodestone Core&r is the source from which your entire storage system &awill draw its power&r. &6Craft one&r using the &bStarbuncle Wheel&r you were given. Don't worry - they'll be fine in there! A &bBlock of Gold&r is more than enough to keep them happy!"
 				""
@@ -2064,12 +2096,49 @@
 		}
 		{
 			dependencies: ["44542FC524E3E9AF"]
+			description: [
+				"Now that you have the power, you'll need a repository for holding your things! The &bGlyphic Repository&r is a block that allows you to store up to 10 Glyphstones, each capable of holding up to 63 &aunique item types&r, and anywhere between &a1,000 and 256,000 items of those types&r. For more information, check the next page. You can connect multiple Glyphic Repositories to the system, but let's start with the &bPrimal Glyphstone&r."
+				""
+				"To start storing things, you will first need to &6craft&r a &bPrimal Resonant Gem&r and a protective &bGem Setting&r to house it. You can craft these two items together to create a &bGlyphstone&r. Empty &bGlyphstones&r (ones that are &anot currently storing items&r) can be disassembled into their separate parts by &6shift-clicking with it in your hand&r."
+				""
+				"&aClick or scroll to move to the next page&r."
+				"{@pagebreak}"
+				"Regardless of &bGlyphstone&r tier, the number of item types are limited to 63. Unstackable items count as 1 type, so even if you had a &bTranscendent Glyphstone&r, capable of holding over 250k total items, you could still only hold 63 golden chestplates with different enchantments on or damage to them."
+				""
+				"Which brings us nicely to our next order of business:"
+				"{image:cottagewitch:textures/quest_ui/nonbtstorage.png width:200 height:200 align:1}"
+				"It seemed deserving of a graphic. &aNBT data is a form of eldritch curse, stemming from the depths&r."
+				""
+				"It is used to determine things such as how much damage a tool has taken, what kind of animal is caught in the lasso, or what enchantments are placed on your armor. Due to the arcane nature of this data, it causes &dphantasmal warping (read: significant lag)&r when in the network, so it is recommended you &akeep your storage uncursed&r by &6periodically removing all items with NBT from your Resonance network&r. You can easily do this by &6searching \"nbt\"&r in your &bAperture&r, and then &6removing those items&r to store elsewhere (such as &lSophisticated&r containers that are not connected to the &bResonance Network&r)."
+			]
 			id: "4B3896CA30384F99"
-			tasks: [{
-				id: "30E068652B4291F2"
-				item: "ae2:drive"
-				type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03C1DEB78B45AA36"
+				table_id: 8335827452404632652L
+				type: "loot"
 			}]
+			tasks: [
+				{
+					id: "30E068652B4291F2"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "077955D9E892D7E5"
+					item: {
+						Count: 1b
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "242560A9A4406E70"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: -13.0d
 		}
