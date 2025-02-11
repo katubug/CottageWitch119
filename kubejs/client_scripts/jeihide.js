@@ -416,7 +416,8 @@ JEIEvents.hideItems(event => {
 		'refurbished_furniture:mangrove_mail_box',
 		'refurbished_furniture:crimson_mail_box',
 		'refurbished_furniture:warped_mail_box',
-		'refurbished_furniture:post_box'
+		'refurbished_furniture:post_box',
+		'ars_instrumentum:numeric_mana_charm'
 	];
 
 	for (const hide of toHide) {

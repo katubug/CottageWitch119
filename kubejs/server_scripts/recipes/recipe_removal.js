@@ -387,7 +387,8 @@ ServerEvents.recipes(event => {
 		{id: 'refurbished_furniture:constructing/birch_mail_box'},
 		{id: 'refurbished_furniture:constructing/spruce_mail_box'},
 		{id: 'refurbished_furniture:constructing/oak_mail_box'},
-		{id: 'refurbished_furniture:constructing/post_box'}
+		{id: 'refurbished_furniture:constructing/post_box'},
+		{output: 'ars_instrumentum:numeric_mana_charm'}
 
 	];
 
