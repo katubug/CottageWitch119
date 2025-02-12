@@ -11,13 +11,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 15.0d
+			height: 20.0d
 			hover: [ ]
 			image: "cottagewitch:textures/quest_ui/bgstoragenetwork.png"
 			rotation: 0.0d
-			width: 15.0d
+			width: 20.0d
 			x: -0.5d
-			y: -16.0d
+			y: -19.0d
 		}
 		{
 			click: ""
@@ -906,7 +906,7 @@
 			]
 			title: "Upgrading Your Storage"
 			x: -0.5d
-			y: -16.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -938,7 +938,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -973,7 +973,7 @@
 			]
 			title: "More Storage, More Upgrade"
 			x: -3.0d
-			y: -16.5d
+			y: -20.5d
 		}
 		{
 			dependencies: [
@@ -1002,7 +1002,7 @@
 			}]
 			title: "Stack Higher"
 			x: -4.5d
-			y: -16.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1037,7 +1037,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -16.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1064,7 +1064,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1084,7 +1084,7 @@
 			}]
 			title: "Process Your Inventory"
 			x: 1.5d
-			y: -18.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1107,7 +1107,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -19.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1134,7 +1134,7 @@
 			]
 			title: "Crafting Upgrades"
 			x: -2.5d
-			y: -18.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
@@ -1156,7 +1156,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -19.5d
+			y: -23.5d
 		}
 		{
 			description: [
@@ -1446,8 +1446,8 @@
 				}
 			]
 			title: "Magitech Refined Storage"
-			x: -0.5d
-			y: -14.5d
+			x: 17.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["06B08459F024F1CA"]
@@ -1486,8 +1486,8 @@
 				type: "item"
 			}]
 			title: "The Lodestone Core"
-			x: -0.5d
-			y: -13.0d
+			x: 17.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["08DD294D94AB2400"]
@@ -1532,8 +1532,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -12.0d
+			x: 17.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["1173185929969892"]
@@ -1573,8 +1573,8 @@
 				type: "item"
 			}]
 			title: "Runic Console"
-			x: -0.5d
-			y: -11.0d
+			x: 17.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1615,8 +1615,8 @@
 				}
 			]
 			title: "Extending the System"
-			x: -2.5d
-			y: -14.0d
+			x: 15.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1677,8 +1677,8 @@
 				}
 			]
 			title: "A Wireless Connection"
-			x: -4.5d
-			y: -13.5d
+			x: 13.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1718,8 +1718,8 @@
 				}
 			]
 			title: "Storage in Your Pocket"
-			x: -2.5d
-			y: -11.0d
+			x: 15.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["0299C27E048FE548"]
@@ -1753,8 +1753,8 @@
 				type: "item"
 			}]
 			title: "The Cadillac of Upgrades"
-			x: -4.5d
-			y: -11.5d
+			x: 13.0d
+			y: -18.0d
 		}
 		{
 			description: [
@@ -1787,8 +1787,8 @@
 				type: "checkmark"
 			}]
 			title: "Aesthetics"
-			x: 1.5d
-			y: -11.0d
+			x: 19.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1839,8 +1839,8 @@
 				type: "item"
 			}]
 			title: "Connecting Your Storage"
-			x: 3.5d
-			y: -13.5d
+			x: 21.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1900,8 +1900,8 @@
 				}
 			]
 			title: "Moving Stuff Around"
-			x: 3.5d
-			y: -11.5d
+			x: 21.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -1942,8 +1942,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -14.0d
+			x: 19.0d
+			y: -20.5d
 		}
 		{
 			description: [
@@ -1975,8 +1975,8 @@
 				type: "checkmark"
 			}]
 			title: "Applying Crystallian Energistics"
-			x: 9.5d
-			y: -15.5d
+			x: -0.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["50076E9CA12182E6"]
@@ -2015,8 +2015,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -18.0d
+			x: -0.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["7918FC1D268C6E62"]
@@ -2046,11 +2046,11 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -18.0d
+			x: -0.5d
+			y: -16.0d
 		}
 		{
-			dependencies: ["44542FC524E3E9AF"]
+			dependencies: ["4F50B0FDBED86AF2"]
 			description: [
 				"Having every block directly connected to another can become a bit bulky. Here are some local options for spreading it out a bit."
 				""
@@ -2073,8 +2073,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: -15.0d
+			x: -2.0d
+			y: -14.0d
 		}
 		{
 			description: ["allows storage nexus to communicate with other mods like pipez and create."]
@@ -2084,8 +2084,8 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -13.0d
+			x: -4.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["2D271ADDC566B408"]
@@ -2107,8 +2107,8 @@
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -15.5d
+			x: -0.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["44542FC524E3E9AF"]
@@ -2127,6 +2127,7 @@
 				""
 				"It is used to determine things such as how much damage a tool has taken, what kind of animal is caught in the lasso, or what enchantments are placed on your armor. Due to the arcane nature of this data, it causes &dphantasmal warping (read: significant lag)&r when in the network, so it is recommended you &akeep your storage uncursed&r by &6periodically removing all items with NBT from your Resonance network&r. You can easily do this by &6searching \"nbt\"&r in your &bAperture&r, and then &6removing those items&r to store elsewhere (such as &lSophisticated&r containers that are not connected to the &bResonance Network&r)."
 			]
+			icon: "ae2:drive"
 			id: "4B3896CA30384F99"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2155,11 +2156,11 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -13.0d
+			x: -0.5d
+			y: -14.0d
 		}
 		{
-			dependencies: ["3BCEBB5E08B49230"]
+			dependencies: ["2C8735C0B1C9431D"]
 			description: ["explode it to get 2 entangled whoosiwhatsits"]
 			id: "68BCE0298503D8C8"
 			rewards: [{
@@ -2172,8 +2173,8 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -15.5d
+			x: 1.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["68BCE0298503D8C8"]
@@ -2200,11 +2201,14 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -15.5d
+			x: 1.0d
+			y: -16.5d
 		}
 		{
-			dependencies: ["68BCE0298503D8C8"]
+			dependencies: [
+				"2692A1D717795116"
+				"3BCEBB5E08B49230"
+			]
 			description: [
 				"place in terminal to gain access to storage interdimensionally"
 				""
@@ -2216,10 +2220,14 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -17.0d
+			x: 2.5d
+			y: -16.5d
 		}
 		{
+			dependencies: [
+				"1F7DD0EA78B3C25C"
+				"30EA2E54AACE1D40"
+			]
 			description: [""]
 			id: "3BCEBB5E08B49230"
 			tasks: [{
@@ -2233,11 +2241,11 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -15.5d
+			x: 2.5d
+			y: -14.5d
 		}
 		{
-			dependencies: ["4B3896CA30384F99"]
+			dependencies: ["4F50B0FDBED86AF2"]
 			id: "1F7DD0EA78B3C25C"
 			tasks: [
 				{
@@ -2251,10 +2259,18 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 1.0d
 			y: -13.0d
 		}
 		{
+			dependencies: ["4B3896CA30384F99"]
+			description: [
+				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bScrying Nexus&r to be able to add and remove items from your &bRepository&r. Make sure to place it upon a cable connected to the &bRepository&r. Remember- &aeverything must have direct contact&r with a cable or another part of your system."
+				""
+				"If you'd like to be able to craft within your &bScrying Nexus&r, you can &6craft it together&r with a &bCrystal Ball&r and &bCrafting Table&r."
+				""
+				"That's it- that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
+			]
 			id: "4F50B0FDBED86AF2"
 			tasks: [
 				{
@@ -2268,11 +2284,11 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -11.0d
+			x: -0.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["44542FC524E3E9AF"]
+			dependencies: ["36117361546D1D22"]
 			id: "3F1F2BDD0C6D0E0F"
 			tasks: [
 				{
@@ -2297,25 +2313,105 @@
 				}
 			]
 			title: "Cable Utilities"
-			x: 13.5d
-			y: -16.0d
+			x: -2.0d
+			y: -15.5d
 		}
 		{
 			description: [
-				"Nearly every part of your &lRefined Storage &rsystem can be coloured simply by &6attaching it to a colored cable&r! "
+				"Nearly every part of your &lApplied Energistics 2&r system can be coloured simply by &6attaching it to a colored cable&r! "
 				""
 				"To hide unsightly cables, you can &6craft any block with &b4 Cable Anchors&r to make 4 &bFacades&r. &bFacades&r can be &6applied to any side&r of a &bcable&r, including sides with attachments such as the &bNexus Crafting Aperature&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
 				""
-				"Covers &dcan be recovered&r once they have been placed in a &bcable block&r by shift rightclicking them with a wrench."
+				"Covers &dcan be recovered&r once they have been placed in a &bcable block&r by &6shift+right clicking them with a wrench&r."
 			]
 			id: "28DB3AEB3FDC5BA3"
+			rewards: [
+				{
+					id: "731CF84A5CBD7D8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "570203FD7A8B428B"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6BF6ABDC10302B9C"
 				title: "Aesthetics"
 				type: "checkmark"
 			}]
-			x: 13.5d
-			y: -11.0d
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			id: "78551B3677A74B70"
+			tasks: [{
+				id: "62134D4FCAAAF43A"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1F7DD0EA78B3C25C"]
+			id: "30EA2E54AACE1D40"
+			tasks: [{
+				id: "52F8BE308E3B2D96"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["30EA2E54AACE1D40"]
+			id: "109BED3B10E05304"
+			optional: true
+			tasks: [{
+				id: "12F0A5B38C0BB8A2"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"Collecting 8 mushrooms and placing them in a ring underground or upon mycelium will create a fairy ring that you can drop items into to merge them"
+				"{image:cottagewitch:textures/fairycircle.png width:250 height:189 align:1}"
+			]
+			id: "2C8735C0B1C9431D"
+			rewards: [{
+				id: "669FEDA4A9063F59"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "0D7276F7FE72EC3A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:mushrooms"
+						}
+					}
+					title: "8x Mushroom"
+					type: "item"
+				}
+				{
+					id: "795F6E5BE161AEDF"
+					title: "Build the Fairy Circle"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -19.0d
 		}
 	]
 	title: "Storage"
