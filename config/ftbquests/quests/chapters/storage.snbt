@@ -2074,9 +2074,10 @@
 				}
 			]
 			x: -2.0d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
 			description: ["allows storage nexus to communicate with other mods like pipez and create."]
 			id: "076207522E95E96B"
 			tasks: [{
@@ -2084,8 +2085,8 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -16.5d
+			x: -6.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2D271ADDC566B408"]
@@ -2173,8 +2174,8 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -17.5d
+			x: 6.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["68BCE0298503D8C8"]
@@ -2201,8 +2202,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -16.5d
+			x: 4.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -2220,8 +2221,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -16.5d
+			x: 4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -2242,7 +2243,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -14.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["4F50B0FDBED86AF2"]
@@ -2260,7 +2261,7 @@
 				}
 			]
 			x: 1.0d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4B3896CA30384F99"]
@@ -2285,7 +2286,7 @@
 				}
 			]
 			x: -0.5d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -2313,8 +2314,8 @@
 				}
 			]
 			title: "Cable Utilities"
-			x: -2.0d
-			y: -15.5d
+			x: -4.0d
+			y: -13.0d
 		}
 		{
 			description: [
@@ -2344,17 +2345,18 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -12.0d
+			y: -11.0d
 		}
 		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
 			id: "78551B3677A74B70"
 			tasks: [{
 				id: "62134D4FCAAAF43A"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -15.5d
+			x: -5.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
@@ -2365,7 +2367,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["30EA2E54AACE1D40"]
@@ -2377,7 +2379,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			description: [
@@ -2410,8 +2412,202 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: -19.0d
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
+			id: "15D3871CE154F759"
+			tasks: [{
+				id: "049C4FCBC9530168"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			id: "1C49435F96C7CB2C"
+			tasks: [{
+				id: "3429479C837F5D5E"
+				item: "ae2:view_cell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
+			id: "5F9A382EAC8D4D8C"
+			tasks: [
+				{
+					id: "603D368E02A00789"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "5213565F57A7B15E"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "Automation"
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
+			description: ["this is the crafting component needed for basic upgrades"]
+			id: "3F1D38652FC48C86"
+			tasks: [{
+				id: "7D6F70F12CFBD56F"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3F1F2BDD0C6D0E0F"]
+			description: ["this is the crafting component needed for advanced upgrades"]
+			id: "01CC3364F60EC931"
+			tasks: [{
+				id: "12C87A2E882B24FE"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["Allows the item this is placed in to be controlled by redstone"]
+			id: "69EAA78A6DBA5AC0"
+			subtitle: "Chaos Control"
+			tasks: [{
+				id: "47AEA49E9E37872E"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["expands filter amount"]
+			id: "3ECFE3FF21AE3739"
+			subtitle: "we heard u like filters so we added more filter to ur filter"
+			tasks: [{
+				id: "30B1B7491385203E"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["voids overflow when something enters the network"]
+			id: "0D7EBE7CED793C07"
+			tasks: [{
+				id: "37CE219CB5BA98FF"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["when inserted into a filter it allows for specific filtering by damage level and/or ignoring item NBT all together."]
+			id: "60797B6909DC89B5"
+			tasks: [{
+				id: "7235EEC0E0D8D71E"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["makes things move more items per operation"]
+			id: "0110849857095FFB"
+			tasks: [{
+				id: "76E69E721DFC9976"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["changes filters from a whitelist to a blacklist"]
+			id: "3E3FCBE9EF845336"
+			tasks: [{
+				id: "70E7EB084A1EF58F"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["splits storage cells into equally sized sections based on what its been filtered to hold"]
+			id: "663451A83E577E13"
+			tasks: [{
+				id: "5B3CD32D0848B3D4"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["allows for portable terminals to hold more energy"]
+			id: "097F68B45F2B4BE5"
+			tasks: [{
+				id: "4786AA6D65014FF2"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.5d
+		}
+		{
+			description: ["Works like a storage monitor but allows you to remove/add the displayed item to the network"]
+			id: "335C8BDD91554FE9"
+			tasks: [{
+				id: "611A1CD410CBCF8D"
+				item: "ae2:conversion_monitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			description: ["A fancy display for the item count of the rightclicked item. can be locked to prevent it from switching"]
+			id: "496BB66126ACE5FE"
+			tasks: [{
+				id: "32223BFEC722C1E1"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -14.5d
+		}
+		{
+			id: "74BCFBABCBF4448F"
+			tasks: [{
+				id: "31C718D57EA38B86"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
 		}
 	]
 	title: "Storage"
