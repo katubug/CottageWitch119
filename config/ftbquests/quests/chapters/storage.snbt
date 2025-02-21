@@ -2247,6 +2247,20 @@
 		}
 		{
 			dependencies: ["4F50B0FDBED86AF2"]
+			description: [
+				"Although covens are common amongst modern witches, there is something to be said for &aprivacy&r. In order to claim your Nexus - and link your &bResonant Apertures&r - you will need a &bGuardian Ward&r and a &bWard Bypass&r."
+				""
+				"The &eGuardian&r is a spirit which inhabits the mechanical chassis known as the &bWard&r, and they will protect your Nexus so long as they are &aproperly connected&r (it merely has to be touching the other blocks). The &bWard Bypass&r is an item which allows you to claim ownership of a given Nexus."
+				""
+				""
+				"if put in un-claimed bypass, all users get those default permissions"
+				""
+				"in order to claim bypass, hold bypass and shift right click"
+				""
+				"to use bypass, place into guardian ward"
+				""
+				"person who places network cannot exclude themselves, and as such if you have a claimed bypass, you cannot put it into the ward"
+			]
 			id: "1F7DD0EA78B3C25C"
 			tasks: [
 				{
@@ -2318,6 +2332,7 @@
 			y: -13.0d
 		}
 		{
+			dependencies: ["50076E9CA12182E6"]
 			description: [
 				"Nearly every part of your &lApplied Energistics 2&r system can be coloured simply by &6attaching it to a colored cable&r! "
 				""
@@ -2344,8 +2359,8 @@
 				title: "Aesthetics"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -11.0d
+			x: 1.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["3F1F2BDD0C6D0E0F"]
@@ -2427,7 +2442,22 @@
 			y: -11.5d
 		}
 		{
+			description: [
+				"The &bDiscernment Glyphstone&r allows you to filter which items in your Nexus you view from a given &bAperture&r. You can program them by using the &bGlyph Workbench&r."
+				""
+				"Place the &bGlyphstone&r in the &6upper right slot&r to alter its contents. Then, you can insert ghosts of items from &ayour inventory or even JEI&r by clicking and dragging the item into its inventory."
+				""
+				"Once you have finished configuring the glyphstone, you can &6place the &bDiscernment Glyphstone&r into the upper right slots of your Nexus Aperture."
+				""
+				"{image:cottagewitch:textures/quest_images/glyph_workbench.png width:250 height:260 align:1}"
+			]
 			id: "1C49435F96C7CB2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D41D26EA4376177"
+				table_id: 8335827452404632652L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3429479C837F5D5E"
 				item: "ae2:view_cell"
@@ -2600,6 +2630,7 @@
 			y: -14.5d
 		}
 		{
+			description: ["you can use this to partition certain cells/glyphstones to only accept certain items (I think)"]
 			id: "74BCFBABCBF4448F"
 			tasks: [{
 				id: "31C718D57EA38B86"
