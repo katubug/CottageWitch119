@@ -2630,7 +2630,11 @@
 			y: -14.5d
 		}
 		{
-			description: ["you can use this to partition certain cells/glyphstones to only accept certain items (I think)"]
+			description: [
+				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept or reject&r."
+				""
+				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. &d(I think)&r."
+			]
 			id: "74BCFBABCBF4448F"
 			tasks: [{
 				id: "31C718D57EA38B86"
