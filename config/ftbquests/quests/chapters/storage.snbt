@@ -2287,6 +2287,12 @@
 				"That's it- that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
 			]
 			id: "4F50B0FDBED86AF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD160B83B3E32E4"
+				table_id: 8335827452404632652L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "6282F58FD4FC8E4F"
@@ -2304,7 +2310,24 @@
 		}
 		{
 			dependencies: ["36117361546D1D22"]
+			description: [
+				"The &bCable Anchor&r is an item which, when placed on the side of a &bCable&r, will prevent that cable from connecting to another compatible one."
+				""
+				"For example, a colored &bSmart Cable&r has compatibility with other cables of that same color, or &bFluix cables&r, meaning that if they are placed beside each other, &athey will connect&r. If you want to prevent this, placing a &bCable Anchor&r on the side will keep them from connecting. Alternatively, you can always &ause different colored Cables to hook up Nexus points without interfering with other processes."
+				""
+				"The &bToggle Anchor&r functions similarly to the &bCable Anchor&r in terms of placement, however allows the connection to be enabled or disabled by redstone power. The basic &bToggle Anchor&r &arequires a redstone signal in order to allow the connection&r. The &bInverted Toggle Anchor&r is the opposite, &abeing always on unless provided with redstone signal&r."
+				""
+				"The &bLevel Emitter&r will &aprovide a redstone signal based on configurable conditions&r. To access these, you can &6right click on the Emitter&r to access its interface. You can &adefine an item for the &bEmitter&r to monitor, and &achoose what set of rules you would like it to use&r."
+				""
+				"{image:cottagewitch:textures/quest_images/level_emitter_ui.png width:250 height:230 align:1}"
+			]
 			id: "3F1F2BDD0C6D0E0F"
+			rewards: [{
+				count: 10
+				id: "7720CB5ED2CE6FEE"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "745A4460DB0B0953"
@@ -2468,6 +2491,11 @@
 		}
 		{
 			dependencies: ["3F1F2BDD0C6D0E0F"]
+			description: [
+				"Depending on how robust your storage network is, you may find it useful to &aautomagically transfer items&r from - for example - your &lSophisticated Storage&r setup to your &lApplied Energistics&r Nexus."
+				""
+				"To do this, you'll want &bImport and Export Fulcrums&r."
+			]
 			id: "5F9A382EAC8D4D8C"
 			tasks: [
 				{
@@ -2487,8 +2515,17 @@
 		}
 		{
 			dependencies: ["3F1F2BDD0C6D0E0F"]
-			description: ["this is the crafting component needed for basic upgrades"]
+			description: [
+				"Every witch loves to tinker - we just can't leave well enough alone! And to support this habit, there are certain &bUpgrades&r to your &bStorage Nexus&r which can improve your overall experience."
+				""
+				"They are deceptively simple to make, so long as you have some &bConsecrated Quartz&r (and perhaps other gems). Form these into a &bTablet&r, and then &6carve that tablet with certain components&r to create enhancements, which you can learn more about in the following quests!"
+			]
 			id: "3F1D38652FC48C86"
+			rewards: [{
+				id: "005E2BFC56087129"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D6F70F12CFBD56F"
 				item: "ae2:basic_card"
@@ -2501,6 +2538,11 @@
 			dependencies: ["3F1F2BDD0C6D0E0F"]
 			description: ["this is the crafting component needed for advanced upgrades"]
 			id: "01CC3364F60EC931"
+			rewards: [{
+				id: "1A4BA690C81DA7A7"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "12C87A2E882B24FE"
 				item: "ae2:advanced_card"
@@ -2633,9 +2675,15 @@
 			description: [
 				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept or reject&r."
 				""
-				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. &d(I think)&r."
+				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. You can also clear configured items by &aclicking the x icon&r."
 			]
 			id: "74BCFBABCBF4448F"
+			rewards: [{
+				count: 2
+				id: "5E5AE4DA517F8513"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31C718D57EA38B86"
 				item: "ae2:cell_workbench"
