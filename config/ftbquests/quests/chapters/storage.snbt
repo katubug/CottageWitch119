@@ -2250,18 +2250,24 @@
 			description: [
 				"Although covens are common amongst modern witches, there is something to be said for &aprivacy&r. In order to claim your Nexus - and link your &bResonant Apertures&r - you will need a &bGuardian Ward&r and a &bWard Bypass&r."
 				""
-				"The &eGuardian&r is a spirit which inhabits the mechanical chassis known as the &bWard&r, and they will protect your Nexus so long as they are &aproperly connected&r (it merely has to be touching the other blocks). The &bWard Bypass&r is an item which allows you to claim ownership of a given Nexus."
+				"The &eGuardian&r is a spirit which inhabits the mechanical chassis known as the &bWard&r, and they will protect your Nexus so long as they are &aproperly connected&r (it merely has to be touching the other blocks)."
 				""
+				"The &bWard Bypass&r is an item which allows you to claim ownership of a given Nexus, and also to configure the behavior of your Nexus. To alter the &bBypass&r, place it in the &bGuardian Ward&r and &6select the appropriate permissions&r, as in the image below."
 				""
-				"if put in un-claimed bypass, all users get those default permissions"
+				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward.png width:250 height:250 align:1}"
 				""
-				"in order to claim bypass, hold bypass and shift right click"
+				"This &bBypass&r is currently unclaimed, and if placed inside the &bGuardian Ward&r, it will apply the given permissions to anyone accessing the system. However, you can further configure access to your Nexus by having your coven &aclaim a Bypass&r with the permissions you've set on it."
 				""
-				"to use bypass, place into guardian ward"
+				"To claim a &bWard Bypass&r, a player should &6hold it in their hand and shift-click&r. Once the &bBypass&r belongs to that player, you can &6place it inside the &bGuardian Ward&r to give that player the permissions enscrolled in that Bypass."
 				""
-				"person who places network cannot exclude themselves, and as such if you have a claimed bypass, you cannot put it into the ward"
+				"&dA quick note on Nexus owners&r - if you were the person to &aplace down the &bGuardian Ward&r, you cannot deposit a claimed &bBypass&r. This is designed to prevent witches from accidentally banning themselves from their own Nexus."
 			]
 			id: "1F7DD0EA78B3C25C"
+			rewards: [{
+				id: "560235B874ADC5A0"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "38F4928F26855584"
@@ -2531,12 +2537,17 @@
 				item: "ae2:basic_card"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -17.0d
+			title: "Upgrading Your Nexus"
+			x: -3.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3F1F2BDD0C6D0E0F"]
-			description: ["this is the crafting component needed for advanced upgrades"]
+			description: [
+				"In addition to the &bCarved Certus Tablets&r, you can also craft &aadvanced upgrades&r using &bFluix Tablets&r."
+				""
+				"Fluix as a crystal has certain properties - a pseudo-sentience, if you will. In order to perform tasks which require some \"smart\" functions, it's a much better choice than plain &bCertus&r."
+			]
 			id: "01CC3364F60EC931"
 			rewards: [{
 				id: "1A4BA690C81DA7A7"
@@ -2548,106 +2559,147 @@
 				item: "ae2:advanced_card"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -17.0d
+			title: "Even Better Nexus Upgrades"
+			x: -6.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
-			description: ["Allows the item this is placed in to be controlled by redstone"]
+			description: ["When inserted, this upgrade allows you to &acontrol a certain component with &bRedstone&r. This can include &apowering, deactivating, and pulsing&r."]
 			id: "69EAA78A6DBA5AC0"
+			rewards: [{
+				id: "0B9F2F8D93E6149F"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
 			subtitle: "Chaos Control"
 			tasks: [{
 				id: "47AEA49E9E37872E"
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -17.5d
+			x: -4.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
-			description: ["expands filter amount"]
+			description: ["This upgrade &aallows you to add further filter refinement&r (say that five times fast) to certain objects."]
 			id: "3ECFE3FF21AE3739"
+			rewards: [{
+				id: "3F218250BE0CDBAE"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
 			subtitle: "we heard u like filters so we added more filter to ur filter"
 			tasks: [{
 				id: "30B1B7491385203E"
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -18.0d
+			x: -3.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
-			description: ["voids overflow when something enters the network"]
+			description: ["A very important upgrade - this tablet, when configured, will &avoid overflow items&r which would &dotherwise clog your system&r and cause lag."]
 			id: "0D7EBE7CED793C07"
+			rewards: [{
+				id: "2C5C788DFD8DC7C6"
+				item: "ae2:void_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37CE219CB5BA98FF"
 				item: "ae2:void_card"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -17.5d
+			x: -2.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["when inserted into a filter it allows for specific filtering by damage level and/or ignoring item NBT all together."]
+			description: ["This tablet can be inserted into a &bFilter&r to allow you to discern between, or ignore the differences between, similar items with &aNBT data&r such as &adamage levels&r."]
 			id: "60797B6909DC89B5"
+			rewards: [{
+				id: "0538E92CEF3EBE99"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7235EEC0E0D8D71E"
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -16.5d
+			x: -7.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["makes things move more items per operation"]
+			description: ["As you can imagine, the &bAcceleration tablet&r allows you to speed up certain aspects of your Nexus."]
 			id: "0110849857095FFB"
+			rewards: [{
+				id: "6B52F0169A98AFA3"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76E69E721DFC9976"
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -17.5d
+			x: -7.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["changes filters from a whitelist to a blacklist"]
+			description: ["The &bInverter Tablet&r changes Nexus filters from a whitelist to a blacklist."]
 			id: "3E3FCBE9EF845336"
+			rewards: [{
+				id: "37388FE1B8FF7122"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70E7EB084A1EF58F"
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -18.0d
+			x: -6.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["splits storage cells into equally sized sections based on what its been filtered to hold"]
+			description: ["The &bEqual Distribution Tablet&r &asplits Glyphstone's resonations into equally sized sections&r, based on the filter that you set for the &bGlyphstone&r using the &bGlyph Workbench&r."]
 			id: "663451A83E577E13"
+			rewards: [{
+				id: "3A11D5394E0C4B67"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B3CD32D0848B3D4"
 				item: "ae2:equal_distribution_card"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -17.5d
+			x: -5.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["allows for portable terminals to hold more energy"]
+			description: ["Is your &bAperture&r running low on &aresonance&r on a frequent basis? You can expand the capacity by &ainserting this upgrade&r."]
 			id: "097F68B45F2B4BE5"
+			rewards: [{
+				id: "4FADBAE26696E029"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4786AA6D65014FF2"
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -16.5d
+			x: -5.0d
+			y: -16.0d
 		}
 		{
 			description: ["Works like a storage monitor but allows you to remove/add the displayed item to the network"]
