@@ -64,8 +64,8 @@ ServerEvents.recipes(event => {
 			'CDC',
 			'ACA'
 		], {
-			A: 'waystones:warp_dust',
-			B: 'create:precision_mechanism',
+			A: 'minecraft:glowstone_dust',
+			B: 'minecraft:copper_ingot',
 			C: 'ae2:cell_component_1k',
 			D: 'minecraft:emerald'
 		}
@@ -79,8 +79,8 @@ ServerEvents.recipes(event => {
 			'CDC',
 			'ACA'
 		], {
-			A: 'minecraft:glowstone_dust',
-			B: 'create:powdered_obsidian',
+			A: 'waystones:warp_dust',
+			B: 'minecraft:iron_ingot',
 			C: 'ae2:cell_component_4k',
 			D: 'minecraft:diamond'
 		}
@@ -94,8 +94,8 @@ ServerEvents.recipes(event => {
 			'CDC',
 			'ACA'
 		], {
-			A: 'mermod:glowing_pearl_modifier',
-			B: 'gildednetherite:golden_core',
+			A: 'experienceobelisk:cognitive_flux',
+			B: 'minecraft:gold_ingot',
 			C: 'ae2:cell_component_16k',
 			D: 'ars_nouveau:source_gem'
 		}
@@ -504,6 +504,30 @@ ServerEvents.recipes(event => {
 				'minecraft:redstone_torch',
 				'create:electron_tube'
 			]
+		)
+
+		event.shaped(
+			Item.of('8x ae2:sky_stone_block'),
+			[
+				'AAA',
+				'ABA',
+				'AAA'
+			],{
+				A: 'minecraft:stone',
+				B: 'quark:bottled_cloud'
+			}).replaceIngredient('quark:bottled_cloud','minecraft:glass_bottle')
+
+		event.shaped(
+			Item.of('2x ae2:me_p2p_tunnel'),
+			[
+				' A ',
+				'ABA',
+				'CCC'
+			],{
+				A: 'minecraft:iron_ingot',
+				B: 'create:electron_tube',
+				C: 'ae2:fluix_crystal'
+			}
 		)
 
 })
