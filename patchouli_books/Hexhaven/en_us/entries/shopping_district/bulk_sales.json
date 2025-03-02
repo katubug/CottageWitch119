@@ -1,0 +1,16 @@
+{
+    "name": "Bulk Sales",
+    "icon": "supplementaries:sack",
+    "category": "patchouli:shopping_district",
+    "sortnum":7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Bulk $(l)shops$() are not suited for the shopping districts, but bulk $(l)sales$() are totally okay!$(br2)Minimum of 16 stacks (one sack full) of $(o)one item$() is considered a bulk sale."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Bulk sales should be $(l)player to player deals$() conducted via mail or in person, and $(#ff0c0c)$(o)not in an apple crate.$()$(br2)These transactions are not impacted by the shopping district guidelines and pricing can be $(l)$(o)freely decided between players$()."
+        }
+    ]
+}

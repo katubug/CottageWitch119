@@ -1,0 +1,20 @@
+{
+    "name": "The Labyrinth",
+    "icon": "twilightforest:naga_courtyard_miniature_structure",
+    "category": "patchouli:blessbane",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Labyrinth is a giant maze, with twistable walls, hidden pathways, a grove of warping trees, and secrets to find!$(br2)Your goal is to explore and hopefully reach $(l:blessbane/center)the center$() of the maze to rescue the mayor!$(br2)... and maybe some more secrets"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "The Labyrinth",
+            "images": ["hexhaven:textures/faq/blessbane/labyrinth.png"],
+            "text": "$(o)A multitude of secrets await! Be sure to avoid the §4§mMinotaur§r...$()"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Basic Rules",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:server_rules",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)1.Be 18 or older.$()$(br2)This is an adult space. Please show respect towards other players, their builds, and public spaces.$(br2)Being 18+ is not about shielding children from our content, but $(o) shielding players$() from immature behaviour."
+        },
+    
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(l)2. We encourage you to make friends!$()$(br2)This isn't fully a rule, but an important guideline! Our community is welcoming and kind.$(br2)Please feel free to $(o)ask questions$() in chat or $(o)reach out to the mods$() if you need them."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)3.Don't be a Dingus.$()$(br2)Hexhaven is a home to return to. In order to keep our home safe, we ask that you are kind and respectful to others as well as their belongings."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)As a general rule of thumb:$()$(br)$(li)No bigotry$(li)No bad-faith tactics$(li)No griefing$(li)No cheating$(li)No causing lag$(li)Have mindful conversations"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If you have questions regarding the rules, or want to discuss something in private, the Admin team is able to be contacted via $(l:https://discord.com/channels/1076365835284787220/1279073945475088475)tickets$() in discord.$(br2)Inability to follow the rules can result in administrative actions to be taken.$(br2)Administrative Actions are as followed on the next page:"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Administrative Actions",
+            "text": "$(l)Verbal Warning:$() Admin Team will communicate what you did wrong and explain how to resolve the issue. You may be contacted via ticket or in game whisper.$(br2)"
+        },
+        {
+            "type":"patchouli:text",
+            "title": "Administrative Actions",
+            "text": "$(l)Admin Action:$() For more serious issues, or if the issue persists, you will be invited to a ticket to discuss the issue in depth with the mod team. We believe in approaching concerns with an open mind and problem-solving attitude! You will be temporarily removed from the whitelist until the issue is resolved."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Administrative Actions",
+            "text": "$(l)Further Action:$() If we do not see improvement or cooperation on your part, you may be permanently removed from our community.$(br2)$(l:https://discord.com/channels/1076365835284787220/1094346799742988299)Full List of Rules Here$()"
+        }
+    ]
+
+}

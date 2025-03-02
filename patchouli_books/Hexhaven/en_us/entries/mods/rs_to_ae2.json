@@ -1,0 +1,56 @@
+{
+    "name": "Converting to AE2",
+    "icon": "refinedstorage:64k_storage_part",
+    "category": "patchouli:mods_guide",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)DISCLAIMER:$()$(br2)$(item)This information may no longer be reliable$()$(br2)Please use the $(l:https://discord.com/channels/1076365835284787220/1085317087112732682)announcements$() channel in discord to keep up to date.$(br2)There is a public system located at $(c:/spawn)/spawn$()!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "§lGetting Started",
+            "text": "Converting from RS to AE2 is going to be a big task! We've developed a small guide to help you move your items.$(br2)First and foremost, please check the $(l:patchouli:mods/ae2)AE2 chapter$() for setting up your AE2 system. You will need one before you start moving over items."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "RS Materials",
+            "text": "For Refined Storage, you will need an $(thing)External Storage$() at a high priority, a $(thing)Stone Manipulator$(), and a $(thing)Lodestone Core$().$(br2)Add 1 $(item)stack upgrade$() and 3 $(item)speed upgrades$() to your $(thing)Stone Manipulator$()$(br2)This setup $(l)does not$() need to be your RS system."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ae2:network/blocks/interfaces_interface",
+            "title": "AE2 Materials",
+            "text": "For AE2, you will need a $(thing)Vibrant Interface$() connected to your new AE2 system.$(br2)Make sure you have glyphstones in your repository!"
+        },
+        {
+            "type":"patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/rs_to_ae2.png"],
+            "text": "Example connection with External Storage and Vibrant Interface"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "refinedstorage:disk_manipulator",
+            "title": "§lThe Process",
+            "text": "How do you use the system at $(c:/spawn)/spawn$() or the one you've just made? Continue on the next page!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "§lThe Process",
+            "text": "Insert your Refined Storage $(item)Glyphstones$() into the $(thing)Stone Manipulator$().$(br2)The Stone Manipulator can accept 3 glyphstones at a time, but will always transfer items from the top most glyphstone."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "§lThe Process",
+            "text": "Ensure the AE2 $(thing)Glyphic Repository$() has AE2 $(item)glyphstones$() that are $(l)not full$().$(br2)The size of the glyphstone depends on you! You can see our recommendations here: $(l:patchouli:mods/ae2#whichAE2)AE2 Storage$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "§lThe Process",
+            "text": "Once all of your Refined Storage $(item)Glyphstones$() are empty, you can move your AE2 $(item)Glyphstones$() to your main system.$(br2)You can repeat this process for any Refined Storage $(item)Glyphstones$() you have!"
+        }
+    ]
+        
+}

@@ -1,0 +1,20 @@
+{
+    "name": "The Center",
+    "icon": "byg:bulbis_phycelium",
+    "category": "patchouli:blessbane",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Something old, something... §lnew.§r$(br2)A copy of Hexhaven's spawn, shaped and molded by Blessbane in its own image. What was beautiful prose is now twisted, malformed snippets of half-thoughts-- what once was lush greenery is now dull, and petrified.$(br2)The mayor is close. Follow his frog-prints, there might be a clue!"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Center of the Labyrinth",
+            "images": ["hexhaven:textures/faq/blessbane/echohaven.png"],
+            "text": "$(o)This is... wrong. Why is it so similar? Could that be the key...?$()"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

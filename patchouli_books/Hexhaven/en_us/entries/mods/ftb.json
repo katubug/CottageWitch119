@@ -1,0 +1,63 @@
+{
+    "name": "FTB",
+    "icon": "supplementaries:statue",
+    "category": "patchouli:mods_guide",
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text":"We use two FTB mods to assist in player protection.$(br2)This section of the FAQ book will go over how to use FTB Chunks, which allows you to claim chunks, and FTB Teams, which allows you to team up with another player."
+        },
+        {
+            "type": "patchouli:link",
+            "title": "FTB Chunks",
+            "text": "FTB Chunks is the mod that will allow you to claim chunks.$(br2)Claimed chunks are protected against other players.$(br2)All FTB buttons can be found in the top left when opening your inventory.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge",
+            "link_text": "Curseforge Page"
+        },
+        {
+            "type":"patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/ftb/map_icon.png","hexhaven:textures/faq/mods/ftb/chunk_map_icon.png"],
+            "text": "Press the arrow in the bottom right to view the next image"
+        },
+        {
+            "type":"patchouli:text",
+            "text": "To $(l)view$() claims chunks around you, open the FTB map. $(o)(first image)$()$(br2)Claimed chunks will be highlighted in a customizable color. Hovering over a claim will show the $(thing)team name$().$(br2)To $(l)claim chunks$() that exist around you, open the claims manager. $(o)(second image)$()"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Claim Manager Screen",
+            "images": ["hexhaven:textures/faq/mods/ftb/claims_manager_screen_1.png"],
+            "text": "Claimed chunks are yellow, force loaded chunks have lines"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "How to Claim",
+            "text": "In the claim manager screen, $(l)left click$() on a chunk to $(l)claim$() it. To $(l)unclaim$() a chunk, $(l)right click$().$(br2)You may hold and drag to mass claim or unclaim chunks.$(br2)To force-load a claim, hold shift and left click. To unforce-load a chunk, hold shift and right click."
+        },
+        {
+            "type": "patchouli:link",
+            "title": "FTB Teams",
+            "text": "FTB Teams is the mod that allows you to share progress with another player.$(br2)Teammates $(l)share quest progress$() and claims with you.$(br2)Allies can be allowed access to your claimed chunks.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+            "link_text": "Curseforge Page"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/ftb/teams_icon.png"],
+            "text": "Button to get to the Teams Page"
+        },
+        {
+            "type":"patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/ftb/allies_icon.png","hexhaven:textures/faq/mods/ftb/add_team_icon.png"],
+            "text": "Press the arrow in the bottom right to view the next image"
+        },
+        {
+            "type":"patchouli:text",
+            "text": "To add allies to your team, open the manage allies screen. $(o)(first image)$()$(br2)Adding an ally will allow them to interact inside your claims.$(br2)To add teammates and $(l)share quest progress$(), open the invite players screen. $(o)(second image)$()"
+        }
+    ]
+}

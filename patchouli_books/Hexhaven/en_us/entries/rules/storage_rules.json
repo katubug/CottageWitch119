@@ -1,0 +1,40 @@
+{
+    "name": "Storage Rules",
+    "icon": "minecraft:chest",
+    "category": "patchouli:server_rules",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "These rules are put in place to help minimize your storage’s impact on the server as a whole. These rules may change as the modmin team discovers new issues or tips for improving performance.$(br2)We understand that these rules are complex --"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If you've read through the guide in Discord $(l:https://discord.com/channels/1076365835284787220/1094346799742988299/1317246605430095953)here$(/l) and still have questions, we encourage you to ask questions or look for answers in $(l:https://discord.com/channels/1076365835284787220/1317248622525677628)this thread$(/l)$(br2)Otherwise, you can reach out to the modmin team by creating a ticket $(l:https://discord.com/channels/1076365835284787220/1279073945475088475)here$(/l)!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "General Tips",
+            "text": "Items that contain NBT data should be $(n)stored separately from your AE2 system$(). We recommend having Sophisticated Storage barrels or chests for keeping your NBT items. $(br2)Commonly accessed items such as tools or armor can be kept in your backpack or enderchest."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "What is NBT data?",
+            "text": "NBT is the format used by Minecraft to attach extra information to items. To tell if an item has NBT, you can press $(l)F3+H$() to toggle advanced tooltips.$(br2)Common examples of items with NBT include weapons, armor, enchanted books, and other sorts of gear and equipment."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Illegal Connections",
+            "text": "Applied Energistics 2 is a powerful mod for storage, but having many networks in the server causes lag. $(br2)The following should $(l)not$() be used in connection with your AE2 system:"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Illegal Connections",
+            "text": "$(li)Chests$(li)Barrels$(li)Sophisticated storages -- ($(l)especially$() the soph storage controller)$(li)Ars nouveau repositories $(li)Ars storage lecterns$(li)Baskets$(br2)Continued --->"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Illegal Connections",
+            "text": "$(li)Pipez$(li)Item collectors$(li)Hoppers$(li)Create vaults$(br2)Anything other than drawers will defeat any lag-reducing benefits that Applied Energistics 2 offers."
+        }
+    ]
+}

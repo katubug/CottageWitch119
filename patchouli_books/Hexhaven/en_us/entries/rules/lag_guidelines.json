@@ -1,0 +1,15 @@
+{
+    "name": "Lag Guidelines",
+    "icon": "minecraft:comparator",
+    "category": "patchouli:server_rules",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "1. Farms and machines $(o)MUST$() have a killswitch, and must not be left running $(l)when the player is not at their base$()$(br2)2. Limit live entities to 30 or fewer$(li) Live entities are entities with AI. Some examples are bees, tamed pets, villagers, etc."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Limit the number of active Drygmies and Starbuncles to 20 or fewer apiece.$(l)$(o) These do still count towards your 30 live entity limit$()$(br2)3. All automatic storage transport must have a void upgrade or trash can attached to catch overflow"
+        }
+    ]
+}

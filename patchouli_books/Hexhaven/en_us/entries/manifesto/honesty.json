@@ -1,0 +1,13 @@
+{
+    "name": "Honesty",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:manifesto",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Honesty is the best policy, as they say. Honesty will serve you well here. Hexhaven has built a strong base of trust within her community and her admin team, and this is maintained by being genuine with one another."
+        }
+    ]
+
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Pricing Guidelines",
+    "icon": "kubejs:lunarcoin",
+    "category": "patchouli:shopping_district",
+    "sortnum":6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Price your wares based on the $(l)effort of obtaining them$() and the $(l)demand of that product$().$(br2)Remember that players earn $(l)5 Lunar a day$() as Universal Basic Income (UBI)"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Pricing Example",
+            "text":"Let's say you want to sell a Sophisticated Backpack at your shop, but you don't know how much to charge. Ask yourself these questions:$(br)$(li)How $(l)long$() would it take $(thing)$(o)me$() to get a backpack?$(li)How $(l)many$() people would buy a backpack $(o)right now$()?"
+        },
+        {
+            "type": "patchouli:text",
+            "text":"Let's say that in order to find a new end city that you haven't looted with a backpack as loot takes you $(#4d5aff)1-2 days$() of playing.$(br2)That would make backpacks worth $(#4d5aff)5-10 Lunar$() just based on the amount of effort it takes you.$(br2)Adjust your price based on the demand."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shops with Similar Stock",
+            "text":"We rely on $(l)respectful communication$() between shop owners to settle price differences.$(br2)This means being $(l)open to discuss$() your pricing with another shop owner. Explain your pricing and listen to the other person."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shops with Similar Stock",
+            "text": "Similarly, if you find a shop that sells a similar item, you can reach out to them to talk about pricing.$(br2)Remember- our economy is $(l)collective, not competitive$()!$(br2)Priority is given to specialty shops over the flea market, misc, or general shops."
+        }
+    ]
+}

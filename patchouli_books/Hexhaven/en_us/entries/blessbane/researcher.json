@@ -1,0 +1,24 @@
+{
+    "name": "The Researcher",
+    "icon": "create:goggles",
+    "category": "patchouli:blessbane",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Not much is known about this individual, just the 13 recorded journals left behind scattered throughout the §7Blessbane§r area. These books tell his story, the haunting tale of discovering and learning the truth about §7Blessbane§r."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "The Hut",
+            "images": ["hexhaven:textures/faq/blessbane/researcher_hut.png"],
+            "text": "$(o)What life did he live on Hexhaven? Where did he do his research? Who did he leave behind? And most importantly... where did he go?$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "...these questions may be answered in a future chapter of §7Blessbane§r! For now, all we know was §7Blessbane§r affected him so greatly, it created a world so real that he felt like he never left his home of Hexhaven. Could these structures here be from §ohis§r memories...?"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Death of The Heart",
+    "icon": "minecraft:dead_bush",
+    "category": "patchouli:the_economy",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "When the last light fades, The Heart will call out for help in the server chat! Rush to her aid, or it may be too late.$(br2)When The Heart dies, she dies... and with her, the daily login coins cease as well."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Life is full of release and renewal, and The Heart has died before!$(br2)$(l:patchouli:economy/heart_revive)Next Chapter$(/l)."
+        }
+    ]
+}

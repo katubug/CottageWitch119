@@ -1,0 +1,34 @@
+{
+    "name": "Contact",
+    "icon": "contact:white_mailbox",
+    "category": "patchouli:mods_guide",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "text": "Contact is a mailing mod. $(br2)If you do not have a mailbox setup, mail will be sent to the central mailbox.$(br2)Central mailboxes can only be placed by server admins.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/contact",
+            "link_text": "Curseforge Page"
+        },
+        {
+           "type": "patchouli:crafting",
+            "recipe": "contact:white_mailbox",
+            "text": "Mail sent by other users will arrive at this mailbox.$(br2)Contact only allows you to have one mailbox at a time."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "contact:wrapping_paper",
+            "text": "To send mail, you will need to use wrapping paper or ender wrapping paper. You can pack up to 4 items into the wrapping paper. Once packed, it will turn into a parcel!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "contact:ender_wrapping_paper",
+            "text": "Ender parcels will send to a mailbox instantly. The time required to send a normal parcel is based on how far away that mailbox is."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "contact:red_postbox",
+            "text": "To send the parcels, you place them in a postbox and enter the username of the player you wish to send it to!"
+        }
+    ]
+        
+}

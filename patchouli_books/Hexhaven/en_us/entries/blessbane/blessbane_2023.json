@@ -1,0 +1,25 @@
+{
+    "name": "§n§lBlessbane 2023",
+    "icon": "",
+    "category": "patchouli:blessbane",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In the year 2023, Hexhaven experienced a lull in membership. $(l:economy/hexhaven_heart)The Heart of Hexhaven$() died due to this neglect, and she remained dormant for months.$(br2)After the extended period of dormancy, people joining and rejoining the server began to question the purpose of The Heart. Thus, $(l:blessbane/blessbane)Blessbane$() was born-- an in-world representation of the toll that prolonged death had on The Heart and the server as a whole."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This initial season was focused on the revival of the true Heart of Hexhaven, requiring Golden Apples to complete. This marked the first $(l:economy/heart_revive)Revival Event$(), requiring 100,000 Golden Apples to complete and push back the creeping influence of §7Blessbane§r.$(br2)The initial concept of §7Blessbane§r was a parasitic alternate universe that sought to pry its roots into the Hexhaven community and siphon away all magic and life in the world."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Within this season, $(l:blessbane/minigames)Minigames$() were provided for easy and fun prizes of tickets which could then be exchanged into Golden Apples and other prizes.$(br2)In addition to Minigames, other sources of Golden Apples were scattered loot chests, but players soon discovered something else among the apples... a series of journals left by an individual known as $(l:blessbane/researcher)The Researcher$(). This Hexhaven resident dedicated his research and time to discovering the origin of Hexhaven's sickness and initially opened the portal to §7Blessbane§r."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "During the season, The Heart of Hexhaven appeared dead and lifeless, while $(l:blessbane/root)The Root$() §7Blessbane's§r tree, was lush and teeming with life, magical archwood energy coursing through its trunk.$(br2)The finale of the event caused a permenant severence between The Heart and The Root, with §7Blessbane§r no longer having a source of energy from Hexhaven. The husk of The Root remains among the empty streets of §7Blessbane§r."
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

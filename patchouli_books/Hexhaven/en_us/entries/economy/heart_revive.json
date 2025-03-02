@@ -1,0 +1,16 @@
+{
+    "name": "Heart Revival",
+    "icon": "minecraft:golden_apple",
+    "category": "patchouli:the_economy",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "When The Heart dies, our community comes together to bring her back.$(br2)This comes in the form of a Fundraiser Event! You will have 2 weeks to raise the necessary materials (chosen semi-randomly at the time of the event) to revive The Heart. "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We often offer a 'stretch goal' which, if reached, will upgrade The Heart's capabilities in some way- either increasing her output or providing better safeguards against future demise.$(br2)$(l:patchouli:the_economy)Back to The Economy$(/l)$(br2)Shift click the arrow at the bottom to return to the main page!"
+        }
+    ]
+}

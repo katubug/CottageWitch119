@@ -1,0 +1,16 @@
+{
+    "name": "Blooming Weekend",
+    "icon": "cnb:pink_minipad_flower_glow",
+    "category": "patchouli:the_economy",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Every so often, The Heart goes into bloom! During these weekends, the daily login bonus is upped to 1 Solar, and the lights tick down every half hour instead of every hour.$(br2)This means more coins for everyone, but beware! "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It also means the tree's life force drains faster. You don't want to let those lights completely fade...$(br2)$(l:patchouli:economy/heart_death)Next Chapter$(/l)"
+        }
+    ]
+}

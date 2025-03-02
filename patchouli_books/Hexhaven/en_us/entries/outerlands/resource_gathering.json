@@ -1,0 +1,22 @@
+{
+    "name": "Resource Gathering",
+    "icon": "alexsmobs:ghostly_pickaxe",
+    "category": "patchouli:outerlands",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Obviously, we $(l)all$() need resources. When the Outerlands $(o)(the area outside the build border)$() are available, we encourage you to acquire resources in your preferred method there! $(br2)The Outerlands are reset every 3 months."
+        },
+        {
+            "type":"patchouli:text",
+            "title": "Alternative Options",
+            "text": "While they are unavailable, we suggest looking at alternative options such as player built farms on the $(l:patchouli:traveling/nexus#orange_network)Orange Sharestone Network$(/l) found at $(c:/warp nexus)/warp nexus!$(/c)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmingforblockheads:market",
+            "title": "Alternative Options",
+            "text": "Other alternative options can be found using $(l:patchouli:mods/jei)JEI$()! Some blocks can be crafted via create, using ars essences, or obtained in the market block shown above!"
+        }
+    ]
+}

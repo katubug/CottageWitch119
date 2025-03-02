@@ -1,0 +1,144 @@
+{
+    "name": "AE2",
+    "icon": "ae2:creative_energy_cell",
+    "category": "patchouli:mods_guide",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "text": "Applied Energistics 2 is a storage mod.$(br2)In Cottage Witch, we have $(l)heavily$() modified the recipes and gameplay surrounding AE2 to make it more thematic and accessible for all skill levels.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+            "link_text": "Curseforge Page"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Storing Items",
+            "text": "AE2 has a different method of storing items compared to Refined Storage. In RS, you would want to make a Celestial Glyphstone (or 64k drive) to store as many items as possible.$(br2)With AE2, there is a limit to the number of unique items you can put into each glyphstone."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Storing Items",
+            "recipe": "minecraft:kjs_ae2_item_storage_cell_64k",
+            "text": "Take a look at the Celestial Glyphstone in AE2 by hovering over it here. It says there are 0 of $(l)63 types$().$(br2)This means that $(l)63 unique items$() can go into that glyphstone."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "There is another number there - 0 of 65536 Facets. This is the $(l)total number$() of items that can go into this glyphstone.$(br2)This means you can stack a $(l)large amount$() of any of the $(o)63 unique item types$().$(br2)However, as soon as you try to put a 64th item type in, you won't be able to."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Which Glyphstone to Use",
+            "anchor": "whichAE2",
+            "recipe": "minecraft:kjs_ae2_cell_component_4k",
+            "text": "Crafting the Gems (comparable to crafting glyphs in RS) is more complex due to how their storage works."
+        },
+        {
+            "type":"patchouli:text",
+            "text": "We recommend starting with the $(l)Arcane Resonant Glyphstones (4k)$() for storing most your items while getting the most out of your resources.$(br2)If you find you have a large amount of some items, consider storing them in a $(l)functional storage drawer$() or making the larger glyphstones!"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Making an AE2 system",
+            "images": ["hexhaven:textures/faq/mods/simple_ae2.png"],
+            "text": "Picture of a simple AE2 Setup"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We couldn't get a multiblock for this setup in, so please take an image in its stead.$(br2)For a simple setup, you will need a Glyphic Repository, Lodestone Core, and a Nexus Crafting Aperture/Scrying Nexus on a cable!$(br2)The Crafting Aperture allows viewing $(l)and crafting."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "External Storage",
+            "text": "Want to hookup your Functional Storage Drawers?$(br2)You can replace your Refined Storage $(thing)External Storage$() with the $(item)Nexus Storage Anchor$()!$(br2)Remember that the $(item)Storage Anchor$() requires a cable connected to your AE2 system."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ae2:network/parts/storage_bus",
+            "text": "You can connect this to your Functional Storage $(thing)Storage Controller!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Going Wireless",
+            "text": "Your wireless journey will require a handful of items and blocks.$(br2)To start, add these two blocks onto your existing AE2 system: The $(thing)Resonance Access Point$() and the $(thing)Guardian Ward$(). $(br2)Then you will need to connect your $(item)Resonant Aperture$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs_ae2_wireless_access_point",
+            "recipe2": "minecraft:kjs_ae2_security_station"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Getting Access",
+            "recipe": "minecraft:kjs_ae2_wireless_crafting_terminal",
+            "text": "Connect to your network by shift clicking your $(item)Resonant Aperture$() inside your $(thing)Guardian Ward$().$(br2)After removing it you will have short range wireless access!"
+        },
+        {
+            "type":"patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/guardian_ward_screen.png"],
+            "text": "Example of Guardian Ward with linked Resonant Aperture!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Next, let's get the required materials for $(l)cross-dimensional$() access.$(br2)We will need to make a $(thing)Planar Relay$(), which is made using the fairy ring on the right!$(br2)Inside the fairy ring, toss an $(item)Eye of Ender$(), $(item)Rough Lazurite$(), $(item)Tablet of Binding$(), and $(thing)Consecrated Certus Quartz Crystal$()"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Fairy Ring",
+            "text": "The center dirt blocks can be any block",
+            "multiblock": {
+                "mapping": {
+                    "P": "#minecraft:mushroom_grow_block",
+                    "M": "#forge:mushrooms",
+                    "D": "minecraft:dirt"
+                },
+                "pattern": [
+                    [" MM ", "M  M", "M  M", " MM "],
+                    ["0PP ", "PDDP", "PDDP", " PP "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With the $(thing)Planar Relay$(), you will make two $(l)linked$() $(thing)Entangled Planar Relays.$()$(br2)In order to do this, you will need to explode a $(thing)Planar Relay$() and $(thing)Ender Dust$() or an Ender Pearl.$(br2)You can obtain $(thing)Ender Dust$() by crushing an ender pearl using a crushing wheel or a millstone."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ae2:misc/tiny_tnt",
+            "text": "For a small explosion that causes no block damage use $(thing)Tiny TNT$()!$(br2)Drop both items on the ground next to the Tiny TNT and then light it with a flint and steel."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Crossing Dimensions",
+            "text": "A multiblock structure will need to be connected to your AE2 system.$(br2)After connecting the $(item)Planar Relay Link$() with a cable, right click on the center block and insert one $(thing)Entangled Planar Relay$(). "
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Planar Relay Link",
+            "multiblock": {
+                "mapping": {
+                    "R": "ae2:quantum_ring",
+                    "C": "ae2:quantum_link"
+                },
+                "pattern": [
+                    [" ", "R", "R", "R", " "],
+                    [" ", "R", "C", "R", " "],
+                    ["0", "R", "R", "R", " "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs_ae2wtlib_quantum_bridge_card",
+            "text": "Finally, we will need a $(thing)Planar Bridge Card$() and the second $(thing)Entangled Planar Relay$().$(br2)Open your $(thing)Resonant Aperture$() and find the sidebar to the right"
+        },
+        {
+            "type":"patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/mods/wireless_ae2.png"],
+            "text": "$(l)Manually$() insert both items into the sidebar."
+        }
+    ]
+        
+}

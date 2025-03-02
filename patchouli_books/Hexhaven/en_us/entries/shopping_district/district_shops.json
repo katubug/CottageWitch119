@@ -1,0 +1,45 @@
+{
+    "name": "District Shops",
+    "icon": "prefab:item_upgrade",
+    "category": "patchouli:shopping_district",
+    "sortnum":3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Our official Shopping Districts are the place to buy and sell goods! Now with a light roleplay twist- the Districts are home to the the 6 Courts of Commerce, a pantheon of trade and economy that guides the entrepreneurs and crafters who offer their goods and services. "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Players may own a total of three (3) shops, each of which may qualify to join separate Courts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "§n§lWhat Are They?",
+            "text": "District Shops should focus on a $(l)clear, specific theme$(). Theme defines the atmosphere of your shop as well as the types of items sold.$(br2)An example of a shop that is $(o)narrow in theme$() is $(l)Fate and Flame$(). This shop focuses on selling candles and heads to rest your candles on."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "District Shops should be $(l)narrow in scope$().$(br2)The range of items should remain $(l)limited$() to what fits within the scope of your shop idea, ensuring a $(l)unique$() shop experience and leaving $(l)space for other shops$() with similar themes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "An example of a shop that is $(o)narrow in scope$() is $(l)The Beastro$().$(br2)This shop is one of many that follow the theme of a restaurant, or selling food. However, the shop focuses on selling meals made from only terrestrial beasts."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "§n§lEarning Lunar",
+            "entries": [
+                "patchouli:economy/earning_lunar"
+            ],
+            "text": "$(br)Remember that lunar is $(l)not locked$() to the shopping district. We encourage players to charge for mini-games or events they've made, add gift shops to their builds, or sell other commemorative items!"
+        },
+        {
+            "type": "patchouli:relations",
+            "title":"§n§lOutside the District",
+            "entries": [
+                "patchouli:shopping_district/pricing_guidelines"
+            ],
+            "text": "$(br)If you sell something a district shop sells, $(l)you must sell it for more$().$(br2)The mod team recommendation is to add 5 Lunar (1 days worth of $(t:Universal Basic Income)UBI$()) to the price you would sell your item for"
+        }
+    ]
+}

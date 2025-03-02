@@ -1,0 +1,15 @@
+{
+    "name": "The Train Network",
+    "icon": "create:track_station",
+    "category": "patchouli:traveling",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This Chapter is a Work in Progress.$(br2)Hexhaven has a player-built and player-maintained train line! To begin your journey on the train line, head to the train station at $(c:/spawn)spawn$(/c)!$(br2)The train line has plans to run across the entire build border!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "For more information about the train line, check out this $(l:https://discord.com/channels/1076365835284787220/1222978303401529404)Discord Thread$(/l) dedicated to it!$(br2)The thread can also be found in the $(l)#hexhaven-chat$() channel, called $(l)Train Thread!"
+        }
+    ]
+}

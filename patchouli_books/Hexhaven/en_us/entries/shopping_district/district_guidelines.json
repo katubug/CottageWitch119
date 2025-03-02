@@ -1,0 +1,16 @@
+{
+    "name": "§n§lGuidelines",
+    "icon": "",
+    "category": "patchouli:shopping_district",
+    "sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)The Shopping Districts are currently closed to new shop applications.$()$(br2)For updates, please check the $(l:https://discord.com/channels/1076365835284787220/1085317087112732682)hexhaven announcements$() channel."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The following chapters detail the guidelines for shopping and building within the shopping districts."
+        }
+    ]
+}
