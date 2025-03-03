@@ -205,6 +205,7 @@ JEIEvents.hideItems(event => {
         'ae2wtlib:magnet_card',
         'ae2:controller',
         'ae2:crank',
+        'ae2:wireless_terminal'
         
     ];
     

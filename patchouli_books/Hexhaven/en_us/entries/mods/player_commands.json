@@ -34,7 +34,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(c:/streaming)/streaming$(/c) - Informs other you are streaming.$(br2)Please use this even if you are just showing someone else the server - players deserve to know if they are being watched or recorded! $(br2)Use this command a second time to remove streaming status."
+            "text": "$(c:/streaming)/streaming$(/c) - Informs other you are streaming.$(br2)Please use this even if you are $(l)just showing someone else the server$() - players deserve to know if they are being watched or recorded! $(br2)Use this command a second time to remove streaming status."
         },
         {
             "type": "patchouli:text",

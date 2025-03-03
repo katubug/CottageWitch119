@@ -34,6 +34,7 @@
         {
             "type": "patchouli:text",
             "title": "How to Claim",
+            "anchor": "claiming",
             "text": "In the claim manager screen, $(l)left click$() on a chunk to $(l)claim$() it. To $(l)unclaim$() a chunk, $(l)right click$().$(br2)You may hold and drag to mass claim or unclaim chunks.$(br2)To force-load a claim, hold shift and left click. To unforce-load a chunk, hold shift and right click."
         },
         {
