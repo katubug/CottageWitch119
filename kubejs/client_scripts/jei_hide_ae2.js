@@ -54,8 +54,6 @@ JEIEvents.hideItems(event => {
         'ae2:energy_level_emitter',
         'ae2:cable_energy_acceptor',
         'ae2:fe_p2p_tunnel',
-        'ae2:annihilation_plane',
-        'ae2:formation_plane',
         'ae2:pattern_access_terminal',
         'ae2:not_so_mysterious_cube',
         'ae2:condenser',

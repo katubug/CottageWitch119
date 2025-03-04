@@ -71,8 +71,6 @@ ServerEvents.recipes(event => {
         {output: 'ae2:energy_level_emitter'},
         {output: 'ae2:cable_energy_acceptor'},
         {output: 'ae2:fe_p2p_tunnel'},
-        {output: 'ae2:annihilation_plane'},
-        {output: 'ae2:formation_plane'},
         {output: 'ae2:pattern_access_terminal'},
         {output: 'ae2:not_so_mysterious_cube'},
         {output: 'ae2:condenser'},

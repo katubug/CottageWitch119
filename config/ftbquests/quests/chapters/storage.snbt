@@ -2237,6 +2237,11 @@
 				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
 			]
 			id: "2692A1D717795116"
+			rewards: [{
+				id: "5C5686CF375C7E43"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -2287,6 +2292,13 @@
 				"if you would like to extend the range beyond that of your access points, you must create a planar bridge card and a linked planar relay to upgrade it with (see quest)."
 			]
 			id: "3BCEBB5E08B49230"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D991D06C016B961"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
+			subtitle: "akin to a bag of holding"
 			tasks: [{
 				id: "45EF8283B4A96E89"
 				item: "ae2:wireless_crafting_terminal"
@@ -2318,6 +2330,7 @@
 				item: "ae2:biometric_card"
 				type: "item"
 			}]
+			subtitle: "magical security"
 			tasks: [
 				{
 					id: "38F4928F26855584"
@@ -2520,6 +2533,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "a bit of help from the fae"
 			tasks: [
 				{
 					count: 8L
@@ -2565,6 +2579,7 @@
 				table_id: 8335827452404632652L
 				type: "random"
 			}]
+			subtitle: "viewer discretion is advised"
 			tasks: [{
 				id: "3429479C837F5D5E"
 				item: "ae2:view_cell"
@@ -2810,6 +2825,7 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
+			subtitle: "a glimpse into the gems"
 			tasks: [{
 				id: "31C718D57EA38B86"
 				item: "ae2:cell_workbench"
