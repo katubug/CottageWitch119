@@ -17,7 +17,7 @@
 			rotation: 0.0d
 			width: 20.0d
 			x: -0.5d
-			y: -19.0d
+			y: -18.5d
 		}
 		{
 			click: ""
@@ -1787,8 +1787,8 @@
 				type: "checkmark"
 			}]
 			title: "Aesthetics"
-			x: 19.0d
-			y: -17.5d
+			x: 19.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["26C7C5E4D45A47F3"]
@@ -2019,7 +2019,7 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["7918FC1D268C6E62"]
+			dependencies: ["6BC872292BF0914C"]
 			description: [
 				"To obtain &bFluix Crystals&r, you need to &6submerge a &bConsecrated Certus Quartz&r with &bRedstone Dust&r and mundane &bQuartz&r in a &bliquid&r. Did you keep that &bTomato Sauce&r?"
 				""
@@ -2054,7 +2054,7 @@
 			description: [
 				"Having every block directly connected to another can become a bit bulky. Here are some local options for spreading it out a bit."
 				""
-				"The &bcable&r is extremely simple- use it to &aconnect various &lResonance Network&r &ablocks across a distance&r. We strongly recommend you use &bcables&r with your system instead of &lPipez&r as it is &dmuch more performant&r."
+				"The &bcable&r is extremely simple- use it to &aconnect various &lNexus&r &ablocks across a distance&r. We strongly recommend you use &bcables&r with your system instead of &lPipez&r as it is &dmuch more performant&r."
 				""
 				"The &bQuartz Fiber&r works like the &bCable&r, however it only transfers power and doesnt connect things to the network."
 				""
@@ -2077,7 +2077,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			description: ["allows storage nexus to communicate with other mods like pipez and create."]
 			id: "076207522E95E96B"
 			tasks: [{
@@ -2126,7 +2126,7 @@
 				"{image:cottagewitch:textures/quest_ui/nonbtstorage.png width:200 height:200 align:1}"
 				"It seemed deserving of a graphic. &aNBT data is a form of eldritch curse, stemming from the depths&r."
 				""
-				"It is used to determine things such as how much damage a tool has taken, what kind of animal is caught in the lasso, or what enchantments are placed on your armor. Due to the arcane nature of this data, it causes &dphantasmal warping (read: significant lag)&r when in the network, so it is recommended you &akeep your storage uncursed&r by &6periodically removing all items with NBT from your Resonance network&r. You can easily do this by &6searching \"nbt\"&r in your &bAperture&r, and then &6removing those items&r to store elsewhere (such as &lSophisticated&r containers that are not connected to the &bResonance Network&r)."
+				"It is used to determine things such as how much damage a tool has taken, what kind of animal is caught in the lasso, or what enchantments are placed on your armor. Due to the arcane nature of this data, it causes &dphantasmal warping (read: significant lag)&r when in the network, so it is recommended you &akeep your storage uncursed&r by &6periodically removing all items with NBT from your Resonance network&r. You can easily do this by &6searching \"nbt\"&r in your &bAperture&r &4(toggle on advanced tooltips with F3+H first)&r, and then &6removing those items&r to store elsewhere (such as &lSophisticated&r containers that are not connected to the &bResonance Network&r)."
 			]
 			icon: "ae2:drive"
 			id: "4B3896CA30384F99"
@@ -2174,13 +2174,22 @@
 				type: "item"
 			}]
 			subtitle: "it's a quantum leap"
-			tasks: [{
-				id: "4B176C7CFD7C210C"
-				item: "ae2:singularity"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -14.0d
+			tasks: [
+				{
+					id: "4B176C7CFD7C210C"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "525B5B5B2C6C62E9"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: 5.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["68BCE0298503D8C8"]
@@ -2208,7 +2217,7 @@
 				}
 			]
 			x: 4.5d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -2226,8 +2235,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -13.0d
+			x: 3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -2318,7 +2327,7 @@
 			description: [
 				"The &bCable Anchor&r is an item which, when placed on the side of a &bCable&r, will prevent that cable from connecting to another compatible one."
 				""
-				"For example, a colored &bSmart Cable&r has compatibility with other cables of that same color, or &bFluix cables&r, meaning that if they are placed beside each other, &athey will connect&r. If you want to prevent this, placing a &bCable Anchor&r on the side will keep them from connecting. Alternatively, you can always &ause different colored Cables to hook up Nexus points without interfering with other processes."
+				"For example, a &bcolored cable&r has compatibility with other cables of that same color, or &bFluix cables&r, meaning that if they are placed beside each other, &athey will connect&r. If you want to prevent this, placing a &bCable Anchor&r on the side will keep them from connecting. Alternatively, you can always &ause different colored Cables to hook up Nexus points without interfering with other processes."
 				""
 				"The &bToggle Anchor&r functions similarly to the &bCable Anchor&r in terms of placement, however allows the connection to be enabled or disabled by redstone power. The basic &bToggle Anchor&r &arequires a redstone signal in order to allow the connection&r. The &bInverted Toggle Anchor&r is the opposite, &abeing always on unless provided with redstone signal&r."
 				""
@@ -2356,17 +2365,17 @@
 				}
 			]
 			title: "Cable Utilities"
-			x: -4.0d
-			y: -13.0d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["50076E9CA12182E6"]
 			description: [
 				"Nearly every part of your &lApplied Energistics 2&r system can be coloured simply by &6attaching it to a colored cable&r! "
 				""
-				"To hide unsightly cables, you can &6craft any block with &b4 Cable Anchors&r to make 4 &bFacades&r. &bFacades&r can be &6applied to any side&r of a &bcable&r, including sides with attachments such as the &bNexus Crafting Aperature&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
+				"To hide unsightly cables, you can &6craft any block with &b4 Cable Anchors&r to make 4 &bFacades&r. &bFacades&r can be &6applied to any side&r of a &bcable&r, including sides with attachments such as the &bNexus Crafting Aperture&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
 				""
-				"Covers &dcan be recovered&r once they have been placed in a &bcable block&r by &6shift+right clicking them with a wrench&r."
+				"Facades &dcan be removed&r once they have been placed on a &bcable block&r by &6shift+right clicking them with a wrench&r."
 			]
 			id: "28DB3AEB3FDC5BA3"
 			rewards: [
@@ -2391,7 +2400,7 @@
 			y: -18.5d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			id: "78551B3677A74B70"
 			tasks: [{
 				id: "62134D4FCAAAF43A"
@@ -2423,7 +2432,7 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -12.0d
 		}
 		{
@@ -2457,11 +2466,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 7.0d
-			y: -14.0d
+			x: 6.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			id: "15D3871CE154F759"
 			tasks: [{
 				id: "049C4FCBC9530168"
@@ -2493,11 +2502,11 @@
 				item: "ae2:view_cell"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -15.0d
+			x: -0.5d
+			y: -11.0d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			description: [
 				"Depending on how robust your storage network is, you may find it useful to &aautomagically transfer items&r from - for example - your &lSophisticated Storage&r setup to your &lApplied Energistics&r Nexus."
 				""
@@ -2521,7 +2530,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			description: [
 				"Every witch loves to tinker - we just can't leave well enough alone! And to support this habit, there are certain &bUpgrades&r to your &bStorage Nexus&r which can improve your overall experience."
 				""
@@ -2543,7 +2552,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["3F1F2BDD0C6D0E0F"]
+			dependencies: ["36117361546D1D22"]
 			description: [
 				"In addition to the &bCarved Certus Tablets&r, you can also craft &aadvanced upgrades&r using &bFluix Tablets&r."
 				""
@@ -2687,7 +2696,7 @@
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["Is your &bAperture&r running low on &aresonance&r on a frequent basis? You can expand the capacity by &ainserting this upgrade&r."]
+			description: ["Is your &bportable aperture&r running low on &aresonance&r on a frequent basis? You can expand the capacity by &ainserting this upgrade&r."]
 			id: "097F68B45F2B4BE5"
 			rewards: [{
 				id: "4FADBAE26696E029"
@@ -2720,7 +2729,32 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7918FC1D268C6E62"]
+			description: ["should maybe put consecration in separate quest so that the first one is less of a wall of text?"]
+			id: "6BC872292BF0914C"
+			tasks: [{
+				id: "6819D932BC39AAFE"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: ["should maybe explain crystal accelerator here instead of breif mention in certus quartz quest"]
+			id: "46107FFCDC947BB1"
+			optional: true
+			tasks: [{
+				id: "74FB8A999AB8F1DB"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			x: -1.5d
 			y: -14.0d
 		}
 	]
