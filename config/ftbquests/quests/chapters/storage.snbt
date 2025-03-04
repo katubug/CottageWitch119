@@ -2078,15 +2078,23 @@
 		}
 		{
 			dependencies: ["36117361546D1D22"]
-			description: ["allows storage nexus to communicate with other mods like pipez and create."]
+			description: [
+				"allows storage nexus to communicate with other mods like pipez and create."
+				""
+				"Acts like a mini inventory you can connect to the nexus. Any item that gets piped into it will be forcibly stored inside the nexus storage."
+				""
+				"In the gui you can select items or fluids in the top part, and then they will get pulled out of the nexus storage and stored in the bottom part of the gui. They can then be piped out of the interface using other mods."
+				""
+				"The interface that is a cable attachment does the same thing as the interface that is a full block, it is just a matter of convienience/aesthetics which one you should pick."
+			]
 			id: "076207522E95E96B"
 			tasks: [{
 				id: "49E966C7FF2956B5"
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.0d
+			x: -4.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2D271ADDC566B408"]
@@ -2146,14 +2154,38 @@
 					id: "077955D9E892D7E5"
 					item: {
 						Count: 1b
-						id: "ae2:item_storage_cell_1k"
-						tag: { }
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_1k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_4k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_16k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_64k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
+								}
+							]
+						}
 					}
-					type: "item"
-				}
-				{
-					id: "242560A9A4406E70"
-					item: "ae2:item_cell_housing"
+					title: "Any Glyphstone"
 					type: "item"
 				}
 			]
@@ -2166,6 +2198,8 @@
 				"The &bPlanar Relay&r is made using the fairy ring. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about one minute&r and the items will combined into your &bPlanar Relay&r!"
 				""
 				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try using the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain interdimensional storage access."
+				""
+				"The two entagled planar relays you create represent two halves of a shared connection, you will need both of them so don't lose them! If you want more than one portable aperture for your nexus you will need to create a separate pair and a separate planar relay for linking them."
 			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
@@ -2243,7 +2277,15 @@
 				"1F7DD0EA78B3C25C"
 				"30EA2E54AACE1D40"
 			]
-			description: ["Allows wireless access to your storage"]
+			description: [
+				"Allows wireless access to your storage"
+				""
+				"when you craft it it starts unattuned. To attune it to your nexus you must insert it into a guardian ward."
+				""
+				"after you do this you must be within range of a resonance access point for it to work."
+				""
+				"if you would like to extend the range beyond that of your access points, you must create a planar bridge card and a linked planar relay to upgrade it with (see quest)."
+			]
 			id: "3BCEBB5E08B49230"
 			tasks: [{
 				id: "45EF8283B4A96E89"
@@ -2365,7 +2407,7 @@
 				}
 			]
 			title: "Cable Utilities"
-			x: -3.0d
+			x: -2.5d
 			y: -11.5d
 		}
 		{
@@ -2401,18 +2443,50 @@
 		}
 		{
 			dependencies: ["36117361546D1D22"]
+			description: [
+				"&l&4TODO: rewrite the to be ae2 instead of rs&r"
+				""
+				"You can easily connect external storage to your system using... the &bExternal Storage&r! "
+				""
+				"{image:cottagewitch:textures/externalstorage.png width:130 height:70 align:1}"
+				""
+				"Simply &6shift and place the&r &bExternal Storage&r against a storage block to connect it. Then &6connect up the the&r &bExternal Storage&r &6block with a&r &bcable&r, &6an&r &bAetheric Receptor&r, &6or&r &bany other &lRefined Storage&r block&r connected to your &bLodestone Core&r setup."
+				""
+				"You can &6right click on this block&r to access its GUI, where you can choose to &alimit how items flow into and out of your external storage&r via the &aBlacklist&r, &aWhitelist&r and &aAccess Type&r functions on the lefthand side."
+				""
+				""
+				"Note: once you start connecting multiple storages, you will want to start Prioritising them. &aSetting the Priority&r of your storage blocks tells your &bConsole&r &awhere to store items&r that you add into the system, as well as &awhere to extract them first&r when removing something from the system. &6Click to the next page&r to learn about &aPriority&r."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Priority can be adjusted for each &bGlyph Repository&r and &bExternal Storage&r. You'll find Priority especially helpful for &akeeping your storage tidy.&r"
+				""
+				"{image:cottagewitch:textures/priority.png width:200 height:100 align:1}"
+				""
+				""
+				"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority to the &bExternal Storage&r block connected to these drawers, any time you &aadd or remove gold from your console&r, the system will &acheck the priority list&r and choose this location first. "
+				""
+				"You can use the &awhitelist/blacklist functions&r to tell your Priority system to skip over a high priority storage for specific items. You can also &aset a negative priority&r to any storages that you want to be the last option."
+			]
 			id: "78551B3677A74B70"
 			tasks: [{
 				id: "62134D4FCAAAF43A"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -12.0d
+			x: -3.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
-			description: ["Required for wireless access"]
+			description: [
+				"Required for wireless access"
+				""
+				"it only works in a certain radius. You can upgrade the range by inserting boosters into the block's gui."
+				""
+				"you can also craft more than one of them and put them in different physical points on your nexus, each one has a separate radius that will all allow access to the same nexus."
+			]
 			id: "30EA2E54AACE1D40"
 			tasks: [{
 				id: "52F8BE308E3B2D96"
@@ -2470,17 +2544,10 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["36117361546D1D22"]
-			id: "15D3871CE154F759"
-			tasks: [{
-				id: "049C4FCBC9530168"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -11.5d
-		}
-		{
+			dependencies: [
+				"74BCFBABCBF4448F"
+				"4F50B0FDBED86AF2"
+			]
 			description: [
 				"The &bDiscernment Glyphstone&r allows you to filter which items in your Nexus you view from a given &bAperture&r. You can program them by using the &bGlyph Workbench&r."
 				""
@@ -2491,6 +2558,7 @@
 				"{image:cottagewitch:textures/quest_images/glyph_workbench.png width:250 height:260 align:1}"
 			]
 			id: "1C49435F96C7CB2C"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4D41D26EA4376177"
@@ -2502,8 +2570,8 @@
 				item: "ae2:view_cell"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -11.0d
+			x: 1.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -2511,6 +2579,22 @@
 				"Depending on how robust your storage network is, you may find it useful to &aautomagically transfer items&r from - for example - your &lSophisticated Storage&r setup to your &lApplied Energistics&r Nexus."
 				""
 				"To do this, you'll want &bImport and Export Fulcrums&r."
+				""
+				"&l&cTODO: fix this stuff&r"
+				""
+				"The &bImporter&r and &bExporter&r are a must for a busy witch. Consider them to be &aupgradeable, filterable hoppers&r that can feed &adirectly into and out of your system&r. This is particularly helpful for unloading or loading &bShulkers&r and &bBackpacks&r."
+				""
+				"The &bStone Manipulator&r is similar, but instead of interacting with external storage, it allows you to &atransfer items into and out of&r &bGlyphstones&r. &6Switch the IO to&r &aExtracting&r &6or&r &aInserting&r and &6place your&r &bGlyphstone&r&6 in the \"In\" slot&r. When the transfer is complete your &bGlyphstone&r will be automatically &amoved to the \"Out\" slot&r. "
+				""
+				"{image:cottagewitch:textures/stonemanipulator.png width:195 height:115 align:1}"
+				""
+				"Turn to the next page to learn about &aupgrading your experience&r."
+				""
+				"{@pagebreak}"
+				""
+				"Consider &aadding uprades&r for a smoother experience- the &bSpeed Upgrade&r will &aincrease the overall speed&r, while the &bStack Upgrade&r will cause the system to pull &aentire stacks at a time&r instead of individual items. "
+				""
+				"Unique to the &bExporter&r, a &bRegulator Upgrade&r will let you &aselect specific items to keep stocked&r in the &bconnected inventory&r. The &bRegulator&r will attempt to &apull from your storage to feed that inventory&r with those specified items."
 			]
 			id: "5F9A382EAC8D4D8C"
 			tasks: [
@@ -2526,8 +2610,8 @@
 				}
 			]
 			title: "Automation"
-			x: -5.5d
-			y: -14.0d
+			x: -4.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -2570,8 +2654,8 @@
 				type: "item"
 			}]
 			title: "Even Better Nexus Upgrades"
-			x: -6.0d
-			y: -16.5d
+			x: -5.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
@@ -2641,7 +2725,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -16.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2657,8 +2741,8 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -17.0d
+			x: -6.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2675,7 +2759,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -17.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2692,7 +2776,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2708,16 +2792,18 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -16.0d
+			x: -4.5d
+			y: -16.5d
 		}
 		{
+			dependencies: ["4B3896CA30384F99"]
 			description: [
 				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept or reject&r."
 				""
 				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. You can also clear configured items by &aclicking the x icon&r."
 			]
 			id: "74BCFBABCBF4448F"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "5E5AE4DA517F8513"
@@ -2729,8 +2815,8 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -11.0d
+			x: 1.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["7918FC1D268C6E62"]
