@@ -2162,13 +2162,18 @@
 		}
 		{
 			dependencies: ["2C8735C0B1C9431D"]
-			description: ["explode it to get 2 entangled whoosiwhatsits"]
+			description: [
+				"The &bPlanar Relay&r is made using the fairy ring. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about one minute&r and the items will combined into your &bPlanar Relay&r!"
+				""
+				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try using the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain interdimensional storage access."
+			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
 				id: "279A298F41D0DE45"
 				item: "ae2:tiny_tnt"
 				type: "item"
 			}]
+			subtitle: "it's a quantum leap"
 			tasks: [{
 				id: "4B176C7CFD7C210C"
 				item: "ae2:singularity"
@@ -2180,13 +2185,13 @@
 		{
 			dependencies: ["68BCE0298503D8C8"]
 			description: [
-				"build a 3x3 structure surrounding the chamber with the tethers"
+				"&aConnecting across the dimensions&r requires a bigger antenna than just one &bresonance access point&r. To accomplish this you'll need to build... a square! &6Build this 3x3 structure&r consisting of 8 &bPlanar Relay Tethers&r surrounding 1 &bPlanar Relay Link Chamber&r and &6connect it to your nexus network using a cable&r. "
 				""
-				"connect it to your network"
+				"&6You'll need to insert 1 of the&r &bEntangled Planar Relays&r &6you made in to the&r &bPlanar Relay Link Chamber&r. &aDon't lose the other one - you'll need it in just a minute.&r"
 				""
-				"stick an entangled whoosiwhatsit in the middle"
+				"&dMake sure to chunk load this location so you can access your system while you're away.&r"
 				""
-				"this chunk must be loaded"
+				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
 			]
 			id: "2692A1D717795116"
 			tasks: [
@@ -2229,17 +2234,11 @@
 				"1F7DD0EA78B3C25C"
 				"30EA2E54AACE1D40"
 			]
-			description: [""]
+			description: ["Allows wireless access to your storage"]
 			id: "3BCEBB5E08B49230"
 			tasks: [{
-				id: "15B07590ACCF8DCF"
-				item: {
-					Count: 1b
-					id: "ae2wtlib:wireless_universal_terminal"
-					tag: {
-						internalCurrentPower: 0.0d
-					}
-				}
+				id: "45EF8283B4A96E89"
+				item: "ae2:wireless_crafting_terminal"
 				type: "item"
 			}]
 			x: 2.5d
@@ -2404,6 +2403,7 @@
 		}
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
+			description: ["Required for wireless access"]
 			id: "30EA2E54AACE1D40"
 			tasks: [{
 				id: "52F8BE308E3B2D96"
@@ -2415,6 +2415,7 @@
 		}
 		{
 			dependencies: ["30EA2E54AACE1D40"]
+			description: ["Boosts wireless access range. Not needed if you use the Planar Relay Link Ring"]
 			id: "109BED3B10E05304"
 			optional: true
 			tasks: [{
@@ -2427,7 +2428,7 @@
 		}
 		{
 			description: [
-				"Collecting 8 mushrooms and placing them in a ring underground or upon mycelium will create a fairy ring that you can drop items into to merge them"
+				"Collecting 8 mushrooms and &aplacing them in a ring&r will create a fairy ring. Make sure to place them on &ablocks that can grow mushrooms&r, such as &bmycelium&r. You can then &6drop items into the fairy ring&r to &acreate new items&r!"
 				"{image:cottagewitch:textures/fairycircle.png width:250 height:189 align:1}"
 			]
 			id: "2C8735C0B1C9431D"
@@ -2700,28 +2701,6 @@
 			}]
 			x: -5.0d
 			y: -16.0d
-		}
-		{
-			description: ["Works like a storage monitor but allows you to remove/add the displayed item to the network"]
-			id: "335C8BDD91554FE9"
-			tasks: [{
-				id: "611A1CD410CBCF8D"
-				item: "ae2:conversion_monitor"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -14.5d
-		}
-		{
-			description: ["A fancy display for the item count of the rightclicked item. can be locked to prevent it from switching"]
-			id: "496BB66126ACE5FE"
-			tasks: [{
-				id: "32223BFEC722C1E1"
-				item: "ae2:storage_monitor"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -14.5d
 		}
 		{
 			description: [
