@@ -14,20 +14,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//ME Wireless Terminal
-	event.shaped(
-		Item.of('ae2:wireless_terminal'),
-		[
-			'ABC',
-			' D '
-		], {
-			A: 'ae2:terminal',
-			B: 'ars_nouveau:enchanters_eye',
-			C: 'waystones:warp_dust',
-			D: 'ae2:wireless_receiver'
-		}
-	)
-
 	//ME Wireless Crafting Terminal
 	event.shaped(
 		Item.of('ae2:wireless_crafting_terminal'),
@@ -243,14 +229,14 @@ ServerEvents.recipes(event => {
 	)
 
 	//Universal Nexus Aperture/Wireless Universal Terminal
-	//TODO - do I want this recipe? should i do it differently?
-	event.shapeless(
-		Item.of('ae2wtlib:wireless_universal_terminal'),
-		[
-			'ae2:wireless_terminal', 
-			'ae2:wireless_crafting_terminal'
-		]
-	)
+	//Commented this one out so we can use it in the future if we add the autocrafting
+	///event.shapeless(
+	///	Item.of('ae2wtlib:wireless_universal_terminal'),
+	///	[
+	//		'ae2:wireless_terminal',
+	//		'ae2:wireless_crafting_terminal'
+	//	]
+	//)
 
 	//Void Tablet/Overflow Destruction Card
 	event.shapeless(

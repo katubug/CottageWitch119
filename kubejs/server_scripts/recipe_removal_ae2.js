@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
         {output: 'ae2:network_tool'},
         {id: 'ae2wtlib:quantum_bridge_card'},
         {id: 'ae2:network/parts/level_emitter'},
-        {id: 'ae2:network/parts/tunnels_me'}
+        {id: 'ae2:network/parts/tunnels_me'},
         
     ];
     
