@@ -8,7 +8,9 @@
     "betterend:eternal_pedestal"
   ],
   "entityWhitelist": [
-    "botania:mana_burst"
+    "botania:mana_burst",
+    "quark:soul_bead",
+    "create:carriage_contraption"
   ],
   "tracingDistance": 128,
   "debugMode": false,
