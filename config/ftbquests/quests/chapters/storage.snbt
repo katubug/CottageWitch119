@@ -2061,6 +2061,7 @@
 				"To learn about &awireless options&r, move to the next quests!"
 			]
 			id: "36117361546D1D22"
+			subtitle: "wire you doing this to me?"
 			tasks: [
 				{
 					id: "24A1D6A4D858718E"
@@ -2199,7 +2200,7 @@
 				""
 				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try using the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain interdimensional storage access."
 				""
-				"The two entagled planar relays you create represent two halves of a shared connection, you will need both of them so don't lose them! If you want more than one portable aperture for your nexus you will need to create a separate pair and a separate planar relay for linking them."
+				"The two &bEntangled Planar Relays&r you create represent two halves of a shared connection, &ayou will need both of them so don't lose them&r! If you want more than one cross dimensional &bResonant Aperture&r for your nexus you will need to &acreate a separate pair&r and a separate &bPlanar Relay&r for linking them."
 			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
@@ -2232,7 +2233,7 @@
 				""
 				"&6You'll need to insert 1 of the&r &bEntangled Planar Relays&r &6you made in to the&r &bPlanar Relay Link Chamber&r. &aDon't lose the other one - you'll need it in just a minute.&r"
 				""
-				"&dMake sure to chunk load this location so you can access your system while you're away.&r"
+				"{\"text\":\"Make sure to chunk load this location so you can access your system while you're away. Hover over this text for a reminder of how to chunkload within FTB Chunks\", \"hoverEvent\":{\"action\":\"show_text\", \"contents\":{\"text\":\"To load the chunk when you're not in it, shift and left click the claimed chunk in the chunk map\"}}, \"color\":\"light_purple\"}"
 				""
 				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
 			]
@@ -2264,9 +2265,10 @@
 				"3BCEBB5E08B49230"
 			]
 			description: [
-				"place in terminal to gain access to storage interdimensionally"
+				"The last step for your &ainterdimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Planar Relay&r into your &bResonant Aperture&r."
 				""
-				"you can't use the entangler without this"
+				"&dMake sure to be in range of your wireless access in order to open your &bResonant Aperture&r! See the image below for where to place these items inside that GUI."
+				"{image:cottagewitch:textures/quest_images/ae2_aperture.png width:250 height:350 align:1}"
 			]
 			id: "3BA25DBF8AD8C159"
 			tasks: [{
@@ -2283,13 +2285,13 @@
 				"30EA2E54AACE1D40"
 			]
 			description: [
-				"Allows wireless access to your storage"
+				"So your storage is &awireless&r, but how do you &aaccess the contents when you're away&r? You'll need to &6craft&r a &bResonant Aperture&r, of course."
 				""
-				"when you craft it it starts unattuned. To attune it to your nexus you must insert it into a guardian ward."
+				"When you craft the &bResonant Aperture&r, it will start &aunattuned&r. &aTo attune it to your nexus&r you must &6insert it into a&r &bGuardian Ward&r."
+				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward_wireless.png width:250 height:250 align:1}"
+				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bResonance Access Point&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
 				""
-				"after you do this you must be within range of a resonance access point for it to work."
-				""
-				"if you would like to extend the range beyond that of your access points, you must create a planar bridge card and a linked planar relay to upgrade it with (see quest)."
+				"If you would like to &aextend the range&r beyond that of your access points, you can add on &bResonance Boosters&r to get a &dmax range of 528 blocks&r. You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade it with (see the next quest)."
 			]
 			id: "3BCEBB5E08B49230"
 			rewards: [{
@@ -2397,6 +2399,7 @@
 				item: "ae2:cable_anchor"
 				type: "item"
 			}]
+			subtitle: "don't get tangled"
 			tasks: [
 				{
 					id: "745A4460DB0B0953"
@@ -2457,32 +2460,31 @@
 		{
 			dependencies: ["36117361546D1D22"]
 			description: [
-				"&l&4TODO: rewrite the to be ae2 instead of rs&r"
+				"You can easily connect external storage to your system using... the &bNexus Storage Anchor&r! "
 				""
-				"You can easily connect external storage to your system using... the &bExternal Storage&r! "
+				"{image:cottagewitch:textures/quest_images/ae2_storage_anchor.png width:130 height:70 align:1}"
 				""
-				"{image:cottagewitch:textures/externalstorage.png width:130 height:70 align:1}"
+				"Simply &6place a &bCable&r &6and &bStorage Anchor &6against a storage block to connect it&r. This can then be linked back to the rest of the &aNexus&r."
 				""
-				"Simply &6shift and place the&r &bExternal Storage&r against a storage block to connect it. Then &6connect up the the&r &bExternal Storage&r &6block with a&r &bcable&r, &6an&r &bAetheric Receptor&r, &6or&r &bany other &lRefined Storage&r block&r connected to your &bLodestone Core&r setup."
-				""
-				"You can &6right click on this block&r to access its GUI, where you can choose to &alimit how items flow into and out of your external storage&r via the &aBlacklist&r, &aWhitelist&r and &aAccess Type&r functions on the lefthand side."
+				"You can &6right click on this block&r to access its GUI, where you can choose to &alimit how items flow into and out of your external storage&r via the functions on the lefthand side. Each one of the options has a helpful hover tooltip to better explain what it does."
 				""
 				""
-				"Note: once you start connecting multiple storages, you will want to start Prioritising them. &aSetting the Priority&r of your storage blocks tells your &bConsole&r &awhere to store items&r that you add into the system, as well as &awhere to extract them first&r when removing something from the system. &6Click to the next page&r to learn about &aPriority&r."
+				"Note: once you start connecting multiple storages, you will want to start Prioritising them. &aSetting the Priority&r of your storage blocks tells your &aNexus&r &awhere to store items&r that you add into the system, as well as &awhere to extract them from first&r when removing something from the system. &6Click to the next page&r to learn about &aPriority&r."
 				""
 				""
 				"{@pagebreak}"
 				""
-				"Priority can be adjusted for each &bGlyph Repository&r and &bExternal Storage&r. You'll find Priority especially helpful for &akeeping your storage tidy.&r"
+				"&aPriority&r can be adjusted for each &bGlyph Repository&r, &bStorage Anchor&r, and &bVibrant Interface&r. You'll find &aPriority&r especially helpful for &akeeping your storage tidy.&r"
 				""
-				"{image:cottagewitch:textures/priority.png width:200 height:100 align:1}"
+				"{image:cottagewitch:textures/quest_images/ae2_priority.png width:200 height:125 align:1}"
 				""
 				""
-				"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority to the &bExternal Storage&r block connected to these drawers, any time you &aadd or remove gold from your console&r, the system will &acheck the priority list&r and choose this location first. "
+				"The number here can be &6adjusted using the buttons&r, or by &6typing a value&r into the box. &aPriority&r can be a positive or negative number."
 				""
-				"You can use the &awhitelist/blacklist functions&r to tell your Priority system to skip over a high priority storage for specific items. You can also &aset a negative priority&r to any storages that you want to be the last option."
+				"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority to the &bStorage Anchor&r connected to these drawers, any time you &aadd or remove gold from your console&r, the system will &acheck the priority list&r and choose this location first."
 			]
 			id: "78551B3677A74B70"
+			subtitle: "bigger is better"
 			tasks: [{
 				id: "62134D4FCAAAF43A"
 				item: "ae2:storage_bus"
@@ -2494,6 +2496,8 @@
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
 			description: [
+				"In the same way an incence has"
+				""
 				"Required for wireless access"
 				""
 				"it only works in a certain radius. You can upgrade the range by inserting boosters into the block's gui."
@@ -2511,9 +2515,19 @@
 		}
 		{
 			dependencies: ["30EA2E54AACE1D40"]
-			description: ["Boosts wireless access range. Not needed if you use the Planar Relay Link Ring"]
+			description: [
+				"Each &bResonance Booster&r increases the range of your wireless access. To add a &bResonance Booster&r, &6right click&r your &bResonance Access Point&r and add anywhere from 1 to 64 &bResonance Boosters&r. The number of blocks your wireless access will reach increases with each upgrade to a max of 528 blocks."
+				""
+				"This upgrade is not needed if you use the &bPlanar Relay Link Ring&r for &across dimensional wireless access&r."
+			]
 			id: "109BED3B10E05304"
 			optional: true
+			rewards: [{
+				id: "75A50216ED16FA3B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "that resonates with me"
 			tasks: [{
 				id: "12F0A5B38C0BB8A2"
 				item: "ae2:wireless_booster"
@@ -2595,23 +2609,19 @@
 				""
 				"To do this, you'll want &bImport and Export Fulcrums&r."
 				""
-				"&l&cTODO: fix this stuff&r"
+				"The &bImport Fulcrum&r and &bExport Fulcrum&r are a must for a busy witch. Consider them to be &aupgradeable, filterable hoppers&r that can feed &adirectly into and out of your system&r. This is particularly helpful for unloading or loading &bShulkers&r and &bBackpacks&r."
 				""
-				"The &bImporter&r and &bExporter&r are a must for a busy witch. Consider them to be &aupgradeable, filterable hoppers&r that can feed &adirectly into and out of your system&r. This is particularly helpful for unloading or loading &bShulkers&r and &bBackpacks&r."
+				"The &bVibrant Communicator&r is similar, but instead of interacting with external storage, it allows you to &atransfer items into and out of&r &bGlyphstones&r. &6Switch the Transfer Direction to &aNetwork &6or &aStorage Glyph&r and &6place your &bGlyphstone&r&6 in the left slot&r. When the transfer is complete your &bGlyphstone&r will be automatically &amoved to the right slot&r. "
 				""
-				"The &bStone Manipulator&r is similar, but instead of interacting with external storage, it allows you to &atransfer items into and out of&r &bGlyphstones&r. &6Switch the IO to&r &aExtracting&r &6or&r &aInserting&r and &6place your&r &bGlyphstone&r&6 in the \"In\" slot&r. When the transfer is complete your &bGlyphstone&r will be automatically &amoved to the \"Out\" slot&r. "
-				""
-				"{image:cottagewitch:textures/stonemanipulator.png width:195 height:115 align:1}"
-				""
-				"Turn to the next page to learn about &aupgrading your experience&r."
-				""
-				"{@pagebreak}"
-				""
-				"Consider &aadding uprades&r for a smoother experience- the &bSpeed Upgrade&r will &aincrease the overall speed&r, while the &bStack Upgrade&r will cause the system to pull &aentire stacks at a time&r instead of individual items. "
-				""
-				"Unique to the &bExporter&r, a &bRegulator Upgrade&r will let you &aselect specific items to keep stocked&r in the &bconnected inventory&r. The &bRegulator&r will attempt to &apull from your storage to feed that inventory&r with those specified items."
+				"{image:cottagewitch:textures/quest_images/ae2_vibrant_communicator_1.png width:532 height:193 align:1 fit:true}"
 			]
 			id: "5F9A382EAC8D4D8C"
+			rewards: [{
+				count: 16
+				id: "78625A55432A730D"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "603D368E02A00789"
@@ -2621,6 +2631,11 @@
 				{
 					id: "5213565F57A7B15E"
 					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "174180D9D5AE469A"
+					item: "ae2:io_port"
 					type: "item"
 				}
 			]
