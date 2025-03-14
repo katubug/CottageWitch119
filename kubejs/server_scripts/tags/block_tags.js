@@ -68,4 +68,11 @@ ServerEvents.tags('block', event => {
     event.add('minecraft:planks',
               'extradelight:cinnamon_planks'
     )
+
+    event.add('ae2:growth_acceleratable',
+              'hexerei:budding_selenite',
+              'byg:budding_ametrine_ore',
+              'byg:budding_subzero_crystal',
+              'byg:budding_therium_crystal'
+    )
 })

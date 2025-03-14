@@ -1991,10 +1991,6 @@
 				""
 				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom."
 				""
-				"To obtain &bConsecrated Certus Quartz&r, you need only &atake Certus and consecrate it&r! It's that easy!"
-				""
-				"...Oh, you want to know &ohow&r. Fine. To &aConsecrate&r an item, pass it over a candle's flame, and the power of the elements will sanctify it. To put it simply: &6right click the &bQuartz&6 onto a &bCandle&r. You can use both &lvanilla&r Candles, and those from &lHexerei&r."
-				""
 				"Now, hold onto this &bBucket of Tomato Sauce&r, it's important."
 			]
 			id: "7918FC1D268C6E62"
@@ -2003,18 +1999,11 @@
 				item: "create_central_kitchen:tomato_sauce_bucket"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1AEB71C5C3F7E7CF"
-					item: "ae2:charged_certus_quartz_crystal"
-					type: "item"
-				}
-				{
-					id: "1A84E9C9E7F2799E"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1A84E9C9E7F2799E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -17.0d
 		}
@@ -2047,7 +2036,7 @@
 				}
 			]
 			x: -0.5d
-			y: -16.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["4F50B0FDBED86AF2"]
@@ -2061,6 +2050,12 @@
 				"To learn about &awireless options&r, move to the next quests!"
 			]
 			id: "36117361546D1D22"
+			rewards: [{
+				count: 8
+				id: "2587173022790E85"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
 			subtitle: "wire you doing this to me?"
 			tasks: [
 				{
@@ -2080,20 +2075,41 @@
 		{
 			dependencies: ["36117361546D1D22"]
 			description: [
-				"allows storage nexus to communicate with other mods like pipez and create."
+				"The &bVibrant Interface&r allows your &aNexus&r to &acommunicate with other mods&r like &lPipez&r and &lCreate&r. It acts like a &amini inventory&r that you can connect your &aNexus&r to. Any item that gets piped into a &bVibrant Interface&r will be &adirectly stored&r inside your &aNexus&r storage &dif your &bGlyphstones&r &dhave space&r."
 				""
-				"Acts like a mini inventory you can connect to the nexus. Any item that gets piped into it will be forcibly stored inside the nexus storage."
+				"&6Right clicking&r on the &bVibrant Interface&r or the &bNexus Interface&r will allow you to &6select&r &aitems or fluids&r to &akeep stocked&r in your &bInterface&r inventory. The top part of the &bInterface&r inventory &aselects which item or fluid&r to pull out of the &aNexus&r storage and &akeep stocked&r in the bottom part. Items in the bottom part can then be &apiped out&r of the &bInterface&r using other mods."
 				""
-				"In the gui you can select items or fluids in the top part, and then they will get pulled out of the nexus storage and stored in the bottom part of the gui. They can then be piped out of the interface using other mods."
 				""
-				"The interface that is a cable attachment does the same thing as the interface that is a full block, it is just a matter of convienience/aesthetics which one you should pick."
+				"{image:cottagewitch:textures/quest_images/ae2_interface.png width:250 height:250 align:1}"
 			]
 			id: "076207522E95E96B"
-			tasks: [{
-				id: "49E966C7FF2956B5"
-				item: "ae2:interface"
+			rewards: [{
+				count: 8
+				id: "425E7503CB386E3B"
+				item: "pipez:item_pipe"
 				type: "item"
 			}]
+			tasks: [{
+				id: "2FBB6DEBD887E291"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:interface"
+							}
+							{
+								Count: 1b
+								id: "ae2:cable_interface"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Vibrant Interface"
 			x: -4.5d
 			y: -12.0d
 		}
@@ -2118,7 +2134,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["44542FC524E3E9AF"]
@@ -2191,7 +2207,7 @@
 				}
 			]
 			x: -0.5d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2C8735C0B1C9431D"]
@@ -2200,12 +2216,13 @@
 				""
 				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try using the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain interdimensional storage access."
 				""
-				"The two &bEntangled Planar Relays&r you create represent two halves of a shared connection, &ayou will need both of them so don't lose them&r! If you want more than one cross dimensional &bResonant Aperture&r for your nexus you will need to &acreate a separate pair&r and a separate &bPlanar Relay&r for linking them."
+				"The two &bEntangled Planar Relays&r you create represent &atwo halves of a shared connection&r, &dyou will need both, so don't lose them&r! If you want more than one cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &aentangle a new&r &bPlanar Relay&r to link them."
 			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
-				id: "279A298F41D0DE45"
-				item: "ae2:tiny_tnt"
+				count: 4
+				id: "5E574FB88A20C33B"
+				item: "ae2:quartz_glass"
 				type: "item"
 			}]
 			subtitle: "it's a quantum leap"
@@ -2229,11 +2246,13 @@
 		{
 			dependencies: ["68BCE0298503D8C8"]
 			description: [
-				"&aConnecting across the dimensions&r requires a bigger antenna than just one &bresonance access point&r. To accomplish this you'll need to build... a square! &6Build this 3x3 structure&r consisting of 8 &bPlanar Relay Tethers&r surrounding 1 &bPlanar Relay Link Chamber&r and &6connect it to your nexus network using a cable&r. "
+				"&aConnecting across the dimensions&r requires a bigger antenna than just one &bResonance Access Point&r. To accomplish this you'll need to build... a square! &6Build this 3x3 structure&r consisting of 8 &bPlanar Relay Tethers&r surrounding 1 &bPlanar Relay Link Chamber&r and &6connect it to your nexus network using a cable&r. "
 				""
 				"&6You'll need to insert 1 of the&r &bEntangled Planar Relays&r &6you made in to the&r &bPlanar Relay Link Chamber&r. &aDon't lose the other one - you'll need it in just a minute.&r"
 				""
-				"{\"text\":\"Make sure to chunk load this location so you can access your system while you're away. Hover over this text for a reminder of how to chunkload within FTB Chunks\", \"hoverEvent\":{\"action\":\"show_text\", \"contents\":{\"text\":\"To load the chunk when you're not in it, shift and left click the claimed chunk in the chunk map\"}}, \"color\":\"light_purple\"}"
+				"If you want to connect a second &bResonant Aperture&r, you will need to &6make a second Planar Relay Link 3x3 structure&r. You can &arepeat this process for as many&r &bResonant Apertures&r as you want &ainterdimensionally connected&r to your &aNexus&r."
+				""
+				"&dMake sure to chunk load this location so you can access your system while you're away. &r"
 				""
 				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
 			]
@@ -2267,10 +2286,15 @@
 			description: [
 				"The last step for your &ainterdimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Planar Relay&r into your &bResonant Aperture&r."
 				""
-				"&dMake sure to be in range of your wireless access in order to open your &bResonant Aperture&r! See the image below for where to place these items inside that GUI."
+				"&dMake sure to be in range of your &bResonance Access Point&r &din order to open your&r &bResonant Aperture&r! See the image below for where to place these items inside your &bResonant Aperture&r."
 				"{image:cottagewitch:textures/quest_images/ae2_aperture.png width:250 height:350 align:1}"
 			]
 			id: "3BA25DBF8AD8C159"
+			rewards: [{
+				id: "20577649627497F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "64B4005B77FA2A8B"
 				item: "ae2wtlib:quantum_bridge_card"
@@ -2291,7 +2315,7 @@
 				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward_wireless.png width:250 height:250 align:1}"
 				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bResonance Access Point&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
 				""
-				"If you would like to &aextend the range&r beyond that of your access points, you can add on &bResonance Boosters&r to get a &dmax range of 528 blocks&r. You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade it with (see the next quest)."
+				"If you would like to &aextend the range&r beyond that of your access points, you can add on &bResonance Boosters&r to get a &amax range of 528 blocks&r. You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade your &bResonant Aperture&r with (see the next quest)."
 			]
 			id: "3BCEBB5E08B49230"
 			rewards: [{
@@ -2484,6 +2508,24 @@
 				"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority to the &bStorage Anchor&r connected to these drawers, any time you &aadd or remove gold from your console&r, the system will &acheck the priority list&r and choose this location first."
 			]
 			id: "78551B3677A74B70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "111A8A307A0F8E77"
+					table_id: 8035711958862449784L
+					type: "loot"
+				}
+				{
+					id: "4DAC39F19701EAED"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "6F59FCDF168024E5"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
 			subtitle: "bigger is better"
 			tasks: [{
 				id: "62134D4FCAAAF43A"
@@ -2496,15 +2538,17 @@
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
 			description: [
-				"In the same way an incence has"
+				"The &bResonance Access Point&r is the core of &awireless access&r. However, the magic of &awireless connectivity&r can only reach so far. By default the range is &a16 blocks&r. You can &aincrease this range&r by &6inserting&r &bResonance Boosters&r &6into the&r &bResonance Access Point&r!"
 				""
-				"Required for wireless access"
-				""
-				"it only works in a certain radius. You can upgrade the range by inserting boosters into the block's gui."
-				""
-				"you can also craft more than one of them and put them in different physical points on your nexus, each one has a separate radius that will all allow access to the same nexus."
+				"Additional &bResonance Access Points&r can be &aadded to different physical sections&r of your &aNexus&r to enable another &a16 block radius&r of &awireless access&r around that &bResonance Access Point&r."
 			]
 			id: "30EA2E54AACE1D40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6C78631DF06453"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "52F8BE308E3B2D96"
 				item: "ae2:wireless_access_point"
@@ -2516,7 +2560,7 @@
 		{
 			dependencies: ["30EA2E54AACE1D40"]
 			description: [
-				"Each &bResonance Booster&r increases the range of your wireless access. To add a &bResonance Booster&r, &6right click&r your &bResonance Access Point&r and add anywhere from 1 to 64 &bResonance Boosters&r. The number of blocks your wireless access will reach increases with each upgrade to a max of 528 blocks."
+				"Each &bResonance Booster&r increases the &arange of your wireless access&r. To add a &bResonance Booster&r, &6right click&r your &bResonance Access Point&r and add anywhere from 1 to 64 &bResonance Boosters&r. The range of your &awireless access&r increases with each upgrade to a &amax of 528 blocks&r."
 				""
 				"This upgrade is not needed if you use the &bPlanar Relay Link Ring&r for &across dimensional wireless access&r."
 			]
@@ -2599,8 +2643,8 @@
 				item: "ae2:view_cell"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -13.5d
+			x: 2.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -2846,26 +2890,46 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -14.5d
+			x: 0.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7918FC1D268C6E62"]
-			description: ["should maybe put consecration in separate quest so that the first one is less of a wall of text?"]
+			description: [
+				"To obtain &bConsecrated Certus Quartz&r, you need only &atake Certus and consecrate it&r! It's that easy!"
+				""
+				"...Oh, you want to know &ohow&r. Fine. To &aConsecrate&r an item, pass it over a candle's flame, and the power of the elements will sanctify it. To put it simply: &6right click the &bQuartz&6 onto a &bCandle&r. You can use both &lvanilla&r Candles, and those from &lHexerei&r."
+			]
 			id: "6BC872292BF0914C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C1DF6A1755483B"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6819D932BC39AAFE"
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -16.5d
+			x: -0.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
-			description: ["should maybe explain crystal accelerator here instead of breif mention in certus quartz quest"]
+			description: [
+				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom. You can tell when a &ablock is powered&r by &6observing the tooltip&r provided by &lJade&r that states &adevice online&r. "
+				""
+				"This includes &aother budding crystals&r such as &bBudding Amethyst&r, &bBudding Ametrine Ore&r, &bBudding Therium Crystal&r, and &bBudding Subzero Crystal&r!"
+			]
 			id: "46107FFCDC947BB1"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "47BF48D518B60E64"
+				item: "ae2:damaged_budding_quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74FB8A999AB8F1DB"
 				item: "ae2:quartz_growth_accelerator"
