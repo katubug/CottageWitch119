@@ -2872,9 +2872,11 @@
 		{
 			dependencies: ["4B3896CA30384F99"]
 			description: [
-				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept or reject&r."
+				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept&r."
 				""
 				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. You can also clear configured items by &aclicking the x icon&r."
+				""
+				"You can insert an &bInverter Tablet&r to make the Glyphstone &areject the configured items&r instead."
 			]
 			id: "74BCFBABCBF4448F"
 			optional: true
