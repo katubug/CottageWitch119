@@ -1,0 +1,27 @@
+{
+    "name": "JEI",
+    "icon": "supplementaries:wrench",
+    "category": "patchouli:mods_guide",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "text": "When you open your inventory, you will see a grid of blocks and items on the right side of your screen. This is JEI.$(br2)JEI allows you to search for specific items/blocks by name, mod, and description.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+            "link_text": "Curseforge Page"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Quick Tips",
+            "text": "$(li)$(l)Show Recipes$(): Click Item $(o)in JEI$() or hover over item and press $(l)$(k:jei.showRecipe)$()$(li)$(l)Show Uses$(): Right-click Item $(o)in JEI$() or hover over item and press $(l)$(k:jei.showUses)$()$(li)$(l)Search:$() @<modname> limits results to that mod."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Left clicking$() any item in JEI will show you how to obtain that item.$(br2)$(l)Right clicking$() an item in JEI will show you what recipes that item is used in."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Further Explanation",
+            "text": "Along the top are tabs of different recipes.$(br2)The first tab will always be the crafting recipe, if it is an item that can be crafted.$(br2)Other tabs can include smelting, stone cutting, create fan recipes, uncrafting, and more!"
+        }
+    ]
+}

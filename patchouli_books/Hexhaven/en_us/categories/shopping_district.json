@@ -1,0 +1,6 @@
+{
+    "name": "Shopping Districts",
+    "description": "Hexhaven has two official shopping districts filled with player run shops! $(br2)Use $(c:/warp shops1)/warp shops1$(/c) to go to District 1.$(br2)Use $(c:/warp shops2)/warp shops2$(/c) to go to District 2",
+    "icon": "applecrates:oak_crate",
+    "sortnum": 5
+}

@@ -1,0 +1,25 @@
+{
+    "name": "The Mining Dimension",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:outerlands",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Mining Dimension mimics the Overworld, but has some key differences.$(br2)$(l)No mobs spawn$() in the Mining Dimension unless they are $(o)linked to a structure$() such as a village or beehive."
+        },
+        {
+            "type":"patchouli:crafting",
+            "recipe": "ars_nouveau:ritual_animal_summon",
+            "text": "To make up for the lack of spawns, you can use the $(thing)Summon Animals Tablet$() to find some creatures that would naturally spawn in that biome."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Hostile Mobs$() do not spawn here $(o)even from spawners$().$(br2)This may make some dungeons and structures easier than they would be in the Overworld."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Sleeping$() does not pass the night in the Mining Dimension. $(br2)Unlike other dimensions, your bed will not explode.$(br2)$(l)Due to the Fresh Generation$(), Nature's and Explorer's Compasses work accurately in this dimension!"
+        }
+    ]
+}

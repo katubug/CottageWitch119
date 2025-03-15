@@ -1,0 +1,48 @@
+{
+    "name": "Player Commands",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:mods_guide",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Check your keybinds!$()$(br2)The modpack has many useful default keybinds! $(br2)$(thing)Some examples are the $(k:ftbquests.quests) key for the questbook, the $(t:Keybind: Open World Map)m$(/t) key for the map, the $(k:ftbultimine) key for ultimining$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "However, there may be some overlaps and checking your keybinds is a quick way to learn what you can do!$(br2)You can click the button next to $(t:Found in Options > Controls)Key Binds$(/t) to see a visual layout of a keyboard and what keys are bound!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Helpful Commands",
+            "text": "$(c:/spawn)/spawn$(/c) - Teleports you to the Town Hall at spawn.$(br2)$(c:/sethome)/sethome$(/c) - Allows you to set a location as your home.$(br2)$(c:/home)/home$(/c) - Allows you to teleport back to the home you set.$(br)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/back)/back$(/c) - Takes you back to the last place you teleported from. This command can remember up to 10 previous locations.$(l)$(br2)This does not include locations you left via waystone or sharestone.$()$(br2)This does include deaths!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/tpa <playername>)/tpa playername$(/c) - Sends a request to teleport to another player. They must open chat and click 'Accept'$(br2)$(c:/tpahere <playername>)/tpahere playername$(/c) - Sends a request to teleport another player $(l)TO YOU$(). They must open chat and click 'Accept'"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/msg <playername>)/msg$(/c) or $(c:/tell <playername>)/tell$(/c) or $(c:/w <playername>)/w playername$(/c) - Whisper to another player. Only the two of you can see this text.$(br2)$(c:/warp nexus)/warp nexus$(/c) - Teleports you to the $(l:patchouli:travelling/nexus)Nexus$(/l), where you can access all sharestone networks."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/warp blessbane)/warp blessbane$(/c) - Teleports you to the blessbane event location entrance$(br2)$(c:/nickname <name>)/nickname yournicknamehere$(/c) - Allows you to change your name as it appears in chat. Can be used to add pronouns and such.$(br2)$(c:/nickname)/nickname$(/c) - Removes your nickname"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/streaming)/streaming$(/c) - Informs other you are streaming.$(br2)Please use this even if you are $(l)just showing someone else the server$() - players deserve to know if they are being watched or recorded! $(br2)Use this command a second time to remove streaming status."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/paintexport <name>)/paintexport name$(/c) - Saves a held signed painting made with the Joy of Painting mod to your computer with the name entered.$(br2)$(c:/paintimport <name>)/paintimport name$(/c) - Paintings can be imported to the server. Make sure you have placed the file in your Cottage Witch/paintings folder.$(br2)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/trigger hexhaven_toggle_progress)/trigger hexhaven_toggle_progress$(/c) - When we run server events, this command will allow you to view/hide the progress bar for the event.$(br2)$(c:/trigger hexhaven_toggle_scoreboard)/trigger hexhaven_toggle_scoreboard$(/c) - When we run server events, this command will allow you to view/hide the scoreboard for the event."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Snailmail",
+    "icon": "snailmail:snail_box",
+    "category": "patchouli:mods_guide",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "text": "Snailmail is a mailing mod. $(br2)Snailmail allows you to have multiple mailboxes, or snailbox.$(br2)Each snailbox can be named and shared with other players.",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snail-mail",
+            "link_text": "Curseforge Page"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "snailmail:snail_box",
+            "text": "Mail is sent to a snailbox. Right click to open the inventory where your mail is stored. $(br2)Mail is also sent $(o)from$() a snailbox"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "snailmail:envelope_open",
+            "text": "To send mail, you will need an envelope and a stamp! Put the open envelope into the snailbox and press $(l)open envelope$(). Now insert any items you wish to send"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "snailmail:stamp",
+            "text": "Add the username that you wish to send mail to in the $(l)to$() field. Make sure to add a stamp and sign the $(l)from$() field! $(br)Then press send and select the snailbox"
+        }
+    ]
+        
+}

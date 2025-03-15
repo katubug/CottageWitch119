@@ -1,0 +1,16 @@
+{
+    "name": "Heart of Hexhaven",
+    "icon": "twilightforest:rainbow_oak_sapling",
+    "category": "patchouli:the_economy",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is the central force of our economy, a large rainbow tree standing right at spawn.$(br2)Thanks to the blessings of this tree, each player receives 5 Lunar per daily login!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This is your Universal Basic Income, and your primary method of earning coins besides player transactions. Though there is one other way...$(br2)$(l:patchouli:economy/lights)Next Chapter$(/l)"
+        }
+    ]
+}

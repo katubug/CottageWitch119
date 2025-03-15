@@ -1,0 +1,15 @@
+{
+    "name": "Related Pages",
+    "icon": "minecraft:chain",
+    "category": "patchouli:shopping_district",
+    "sortnum": 99,
+    "pages": [
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:economy/coins",
+                "patchouli:economy/earning_lunar"
+            ]
+        }
+    ]
+}

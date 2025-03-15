@@ -1,0 +1,17 @@
+{
+    "name": "Coins",
+    "icon": "kubejs:lunarcoin",
+    "category": "patchouli:the_economy",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Lunar, Solar, and Arcane coins are the server's official currency. One Arcane is 9 Solar, one Solar is 9 Lunar, and they can be combined up or down in a crafting menu to get change.$(br2)$(l:patchouli:economy/hexhaven_heart)Next Chapter$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs_solarcoin",
+            "recipe2": "minecraft:kjs_arcanecoin"
+        }
+    ]
+}

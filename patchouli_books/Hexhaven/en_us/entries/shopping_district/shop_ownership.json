@@ -1,0 +1,37 @@
+{
+    "name": "Shop Ownership",
+    "icon": "minecraft:paper",
+    "category": "patchouli:shopping_district",
+    "sortnum":4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Want to open a shop? Gather your ideas for the shop! Think about where it may go, what it might look like, and what it may sell.$(br2)Then, $(thing)once applications reopen$(), do the following:$(br)$(li)Ensure your shop build follows the build guidelines!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Opening a Shop",
+            "text": "$(li)Mark out the location you'd like to build $(l)in blocks$() for others to see, including a sign with your $(l)name and the date$()$(br)$(li)Submit an application $(l)via discord$() to get approval for your shop idea and be matched with a mentor (if needed)"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shop Removal",
+            "text": "If the location you have reserved has not been built in within $(o)3 weeks$(), the spot will be made available.$(br2)Inactive shops will have their build removed via a World Edit Schematic."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shop Removal",
+            "text": "Shops are never $(l)truly removed$(). They are saved as a $(l)World Edit schematic$() before the physical build is removed from Hexhaven.$(br2)You may contact the mod team at any time via a $(l:https://discord.com/channels/1076365835284787220/1279073945475088475)ticket$() to reclaim the build."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shop Inactivity",
+            "text": "It can be hard to determine when a shop is 'inactive'.$(br2)We ask that shop owners $(l)update the signs$() outside their shop to say when they $(l)last updated/stocked the shop$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Shop Inactivity",
+            "text": "If the sign is not available or inaccurate, we also check when the owner was last online the server.$(br2)After $(l)$(o)1 month of inactivity$(), shops are removed from the district and saved in the form of a $(l)World Edit schematic$()."
+        }
+    ]
+}

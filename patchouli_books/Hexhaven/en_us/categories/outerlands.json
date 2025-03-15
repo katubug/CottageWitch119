@@ -1,0 +1,6 @@
+{
+    "name": "The Outerlands",
+    "description": "Hexhaven is large, and not all parts of the world can be permanently saved in order to manage our backup times.$(br2)The Outerlands are sections of the world that are not saved. They are reset $(l)every 3 months.$()",
+    "icon": "supplementaries:globe",
+    "sortnum": 7
+}

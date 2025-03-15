@@ -1,0 +1,49 @@
+{
+    "name": "Claims",
+    "icon": "minecraft:map",
+    "category": "patchouli:server_rules",
+    "sortnum": 99,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "On Hexhaven you are given 500 chunk claims to work with, $(o)but very few people ever need that much$().$(br2)Use chunk claiming to protect your base (and a reasonable space around it if you dont want neighbours)."
+        },
+        {
+            "type": "patchouli:text",
+            "text":"If you have builds far from your base location for lag reasons, make sure to claim these too!$(br2)Claiming means other server members cannot break or interact with anything in that chunk.$(br2)To grant someone access, you either need to add them to your Party or Ally your party with theirs."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Claiming Guide",
+            "entries": [
+                "patchouli:mods/ftb"
+            ],
+            "text": "$(br)This guide on the FTB mods will explain creating a team, adding members to your party, adding allies, and how to claim land."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Claiming Rules",
+            "text": "Please $(l)do not$() claim chunks in any public space, or in any dimension besides the Overworld or Nether within the Build Border.$(br2)Claiming builds with valuable lootrs inside them is considering griefing.$(br2)See the following page for a list."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Valuable Builds",
+            "text": "This includes... $(br)$(li)Strongholds $(li)Serpent's Labyrinths $(li)Ancient Mines $(li)Tinker's Workshops $(li)Citadels$(br2)Unsure if the build you're eyeing counts? Reach out via $(l:https://discord.com/channels/1076365835284787220/1279073945475088475)tickets$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Force Loaded Claims",
+            "text": "Force-loading keeps a chunk loaded, as long as you are online, even if you are not in that chunk.$(br2)You have been given a max of 4 chunks for force-loading, but are not expected to need them all."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Force Loaded Claims",
+            "text": "Force-loading is used to allow for cross-dimensional access to your AE2 storage system.$(br2)$(l)Please do not force-load farms or block producing machines.$()"
+        },
+        {
+            "type":"patchouli:text",
+            "title": "How to Force-Load",
+            "text": "To force-load a chunk that is already claimed, shift+left click the chunk."
+        }
+    ]
+}

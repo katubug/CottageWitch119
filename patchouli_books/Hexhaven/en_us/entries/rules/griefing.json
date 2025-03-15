@@ -1,0 +1,21 @@
+{
+    "name": "Griefing",
+    "icon": "minecraft:creeper_head",
+    "category": "patchouli:server_rules",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)No Griefing$()$(br2)Griefing includes looting any sort of player-made structure, either claimed or unclaimed. If there are $(l)non-Lootr$() chests in what appears to be a base, $(n)do not touch them$(). If you are unsure, you can ask."
+        },
+        {
+            "type": "patchouli:text",
+            "text":"Griefing includes purposely destroying the world within the build border.$(br2)We want to keep Hexhaven looking nice!$(br2)Learn more about the build border on the next page$()"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:outerlands/build_border"
+            ]
+        }
+    ]
+}

@@ -1543,10 +1543,10 @@ ItemEvents.tooltip(e => {
         'moblassos:aqua_lasso', 
         'moblassos:emerald_lasso', 
         'moblassos:hostile_lasso'],
-        'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
+        `\u00A7d`+'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
     )
 
-    e.add('brewinandchewin:keg','Warning: pickles, jerky, and certain recipes can cause crashes.')
+    e.add('brewinandchewin:keg',`\u00A7d`+'Warning: pickles, jerky, and certain recipes can cause crashes.')
 
     e.add('#forge:maj_acs', `\u00A7d`+'Do not combine these in your inventory, it can cause crashes!')
 

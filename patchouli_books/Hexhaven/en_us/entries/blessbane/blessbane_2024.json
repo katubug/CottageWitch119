@@ -1,0 +1,20 @@
+{
+    "name": "§n§lBlessbane 2024",
+    "icon": "",
+    "category": "patchouli:blessbane",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Our beloved Mayor §cG§6a§ey§2l§9o§5r§dd§r, has gone missing! You must head into §7Blessbane§r and seek out $(l:blessbane/labyrinth)The Labyrinth$() where the mayor must be. Reports of distant croaking and faint ribbits were heard from $(l:blessbane/center)the center of the labyrinth$(), one of the most dangerous places in §7Blessbane§r."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Season 2024",
+            "images": ["hexhaven:textures/faq/blessbane/2024.png"],
+            "text": "$(o)Oh no! The mayor is missing! Are you able to find him?$()"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

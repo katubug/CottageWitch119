@@ -1,0 +1,24 @@
+{
+    "name": "Shop Auctions",
+    "icon": "another_furniture:furniture_hammer",
+    "category": "patchouli:shopping_district",
+    "sortnum":5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Shops will never be auctioned without the owner's consent.$()$(br2)The shop auctions will exist to help facilitate two situations:"
+        },
+        {
+            "type": "patchouli:text",
+            "text":"1.) A shop owner no longer wants their shop but doesn't want to tear it down, so they'd like to find someone else to take over.$(br2)They may choose whether to auction just the stock, the stock and the build, or the stock, shop build, and shop name."
+        },
+        {
+            "type": "patchouli:text",
+            "text":"2.) A section of a reviewed shop is being removed, but the stock is sizeable/could theoretically be its own shop.$(br2)This will be auctioned as the stock only, for anyone who wants to make a shop with it."
+        },
+        {
+            "type": "patchouli:text",
+            "text":"Shop owners will always be encouraged to come up with their own starting bids. They should be cautioned not to expect to make the full value of all their stock.$(br2)$(l)Who can Bid?$()$(br)Players who do not have a shop on the server, or players with fewer than 3 shops may bid."
+        }
+    ]
+}

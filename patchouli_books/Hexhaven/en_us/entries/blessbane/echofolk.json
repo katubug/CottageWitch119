@@ -1,0 +1,21 @@
+{
+    "name": "The Echofolk",
+    "icon": "quark:soul_bead",
+    "category": "patchouli:blessbane",
+    "sortnum": 13,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Some memories are lost, allowed to freely roam the center of the Labyrinth. Each has a story to tell, from the fragments of data it came from.$(br2)Some travelled the Outerlands too fast, some sought to stay past the reset time, some loaded chunks while there were too many people online. All the lost information trickles down here, as Echofolk."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "§7§kEchofolk§r",
+            "entity": "quark:wraith",
+            "offset": 0.15,
+            "text": "$(o)Maybe using a book on these Echofolk might imprint their story...$()"
+            
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

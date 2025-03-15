@@ -108,13 +108,14 @@
 				xp: 100
 			}]
 			shape: "gear"
+			size: 2.0d
 			subtitle: "Take a little look-see"
 			tasks: [{
 				id: "094E438FC988764A"
 				title: "Get to know the mods"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -226,7 +227,7 @@
 				title: "Pin the Quest Categories"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -251,7 +252,7 @@
 				type: "checkmark"
 			}]
 			title: "Pinning Other Things"
-			x: 1.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -277,7 +278,7 @@
 				type: "checkmark"
 			}]
 			title: "Akashic Controls"
-			x: 5.0d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -320,7 +321,7 @@
 				type: "checkmark"
 			}]
 			title: "Finding Items In Containers"
-			x: 3.0d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -374,7 +375,7 @@
 				title: "Screwy Textures?"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.5d
 		}
 	]

@@ -1,0 +1,21 @@
+{
+    "name": "Build Border",
+    "icon": "ftbquests:barrier",
+    "category": "patchouli:outerlands",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In Hexhaven, only the area within the Build Border is saved.$(br2)In the Overworld, the build border extends from -10,240 to 10,240 on the X or Z coordinate.$(br2)In the Nether, the build border extends from -1,536 to 1,536 on the X or Z coordinate."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We ask that you do not cause any mass destruction within the build border.$(br2)This includes, $(o)but is not limited to$(), Ars spells, mining large sections of surface blocks, or purposely destroying builds.$(br2)Accidents happen, and that's okay. $(l)$(l:https://discord.com/channels/1076365835284787220/1279073945475088475)Contact$()$(l) the mod team$() when they do!"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:outerlands/resource_gathering"
+            ]
+        }
+    ]
+}

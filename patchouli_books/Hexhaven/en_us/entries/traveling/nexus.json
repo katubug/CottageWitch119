@@ -1,0 +1,145 @@
+{
+    "name": "The Nexus & You",
+    "icon": "waystones:sharestone",
+    "category": "patchouli:traveling",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Warp Nexus is a central location for all players! Inside the nexus are portals to the End, the Nether, the Twilight Forest, and the Deeper Dark dimension!$(br2)To quickly get to the nexus, use $(c:/warp nexus)/warp nexus$(/c)"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sharestone Network",
+            "text": "At the nexus is one of each sharestone to be used to travel from!$(br2)All networks are $(l)player created and player maintained$().$(br2)If you find or create an area that you'd like to share, put it on the corresponding sharestone network!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:sharestone",
+            "title": "Colorless Network",
+            "text": "The Colorless Sharestone Network is for $(l)Player Bases!$()$(br2)This is the only sharestone you should ever place at your personal base."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:white_sharestone",
+            "title": "White Network",
+            "text": "The White Sharestone Network is for $(l)Roleplay Locations!$()$(br2)We do not currently have any Roleplay initiatives on the server, so this Network is not in use."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:orange_sharestone",
+            "anchor": "orange_network",
+            "title": "Orange Network",
+            "text": "The Orange Sharestone Network is for $(l)Farms & Machines!$()$(br2)These are player builds. If you've created a farm you'd like to share, place one of these Sharestones!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:magenta_sharestone",
+            "title": "Magenta Network",
+            "text": "The Magenta Sharestone Network is for $(l)University of Hexhaven!$()$(br2)This is an upcoming player-run project to teach the community how to use various mods."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:light_blue_sharestone",
+            "title": "Light Blue Network",
+            "text": "The Light Blue Sharestone Network is for $(l)Events!$()$(br2)Events may be official or player-created. Add your events or minigames to this network!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:yellow_sharestone",
+            "title": "Yellow Network",
+            "text": "The Yellow Sharestone Network is for $(l)Overworld loot!$()$(br2)You are encouraged to add yellow sharestones to any juicy loot locations you find in the Overworld."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:lime_sharestone",
+            "title": "Lime Network",
+            "text": "This Network is for $(l)Public Villages!$()$(br2)You are encouraged to add lime sharestones to villages that are scenic or have helpful villagers. Do not abduct any villagers!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:pink_sharestone",
+            "title": "Pink Network",
+            "text": "This Network is for $(l)dangerous loot!$()$(br2)These locations may contain traps, lava, or dangerous mobs. When placing, take care to put the Sharestone itself out of harm's way."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:gray_sharestone",
+            "title": "Gray Network",
+            "text": "This Network is for $(l)Fishing Spots or Biomes!$()$(br2)Aquaculture's fish are found in different biomes, and sometimes, you just want a safe spot to sit and cast!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:light_gray_sharestone",
+            "title": "Light Gray Network",
+            "text": "The Light Gray Sharestone Network is not used yet!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:cyan_sharestone",
+            "title": "Cyan Network",
+            "text": "This Network is for $(l)the Twilight Forest!$()$(br2)This network is reset every 3 months when the dimension is reset. New sharestone locations are always encouraged!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:purple_sharestone",
+            "title": "Purple Network",
+            "text": "This Network is for $(l)the End!$()$(br2)This network is reset every 3 months when the dimension is reset. New sharestone locations are always encouraged!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:blue_sharestone",
+            "title": "Blue Network",
+            "text": "The Blue Sharestone Network is for $(l)Monuments!$()$(br2)Monuments are just large structures built for aesthetics."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Blue Network",
+            "text": " Some may have lore, and others may be just for looks! If you are building a Monument, be considerate of your proximity to player bases."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:brown_sharestone",
+            "title": "Brown Network",
+            "text": "The Brown Sharestone Network is for $(l)Biomes in the Overworld!$()$(br2)The biomes on this network are protected national parks."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Brown Network",
+            "text": "You may come to collect and replant trees, find mobs, or locate a general climate to base near. Please do not destroy or claim land within 6 chunks of the sharestone. You are welcome to add new biomes- they must be in good condition and not lived in already!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:green_sharestone",
+            "title": "Green Network",
+            "text": "The Green Sharestone Network is for $(l)shops!$()$(br2)These locations are immersive builds, cute one-off shop ideas, or otherwise 'unofficial' shops. "
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Green Network",
+            "anchor": "green_network",
+            "text": "For shops that reside within the official districts, check out the shopping nexus!$(br2)You can learn more about the difference here: $(l:patchouli:shopping_district)Shopping District"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:red_sharestone",
+            "title": "Red Network",
+            "text": "The Red Sharestone Network is for $(l)the Nether!$()$(br2)This Network is unique! Some locations may be permanently within the build border of 1,536 blocks."
+        },
+        {
+            "type": "patchouli:text",
+            "title":"Red Network",
+            "text": "Others will be in what we refer it as the Outerlands.$(br2)Locations outside of the build border are reset every 3 months."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:black_sharestone",
+            "title": "Black Network",
+            "text": "This Network is for $(l)Outerland locations!$()$(br2)This network is reset every 3 months when the dimension is reset. New sharestone locations are always encouraged!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Black Network",
+            "text": "Read more about the Outerlands here: $(l:patchouli:outerlands/the_outerlands)Click$()"
+        }
+    ]
+}

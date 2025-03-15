@@ -1,0 +1,16 @@
+{
+    "name": "Letter from the Mods",
+    "icon": "luphieclutteredmod:luphie_open_book",
+    "category": "patchouli:welcome",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Welcome to Hexhaven! We're excited to have you. This book has all the information you'll need to know about the server, so please take a moment to read it. $(br2)The mod team is made up of regular folks who love playing on Hexhaven, same as you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Feel free to ask us any questions you may have, big or small. If you need to reach us privately, please make a $(l:https://discord.com/channels/1076365835284787220/1279073945475088475)ticket$(). Happy witching! $(br2)- The Mod Team"
+        }
+    ]
+}

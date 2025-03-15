@@ -1,0 +1,16 @@
+{
+    "name": "The Lights",
+    "icon": "minecraft:redstone_lamp",
+    "category": "patchouli:the_economy",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While we rely on The Heart, The Heart also relies on us!$(br2)There are 9 lights below the roots of the tree showing her life force. Every hour, if at least one player is logged in, a light ticks off."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Feeding a single golden apple onto the target block will completely revive The Heart, causing her to gift you coins proportional to the number of lights restored.$(br2)$(l:patchouli:economy/blooming_weekend)Next Chapter$(/l)"
+        }
+    ]
+}

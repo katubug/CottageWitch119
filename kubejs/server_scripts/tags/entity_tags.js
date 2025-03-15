@@ -70,4 +70,18 @@ ServerEvents.tags("entity_type", event => {
         "deeperanddarker:sculk_snapper"
 
     ])
+    event.add("twilightforest:sortable_entities",[
+        "alexsmobs:elephant",
+        "mythicmounts:acencia",
+        "mythicmounts:archelon",
+        "mythicmounts:colelytra",
+        "mythicmounts:courierbird",
+        "mythicmounts:direwolf",
+        "mythicmounts:dragon",
+        "mythicmounts:firebird",
+        "mythicmounts:geckotoalizard",
+        "mythicmounts:griffon",
+        "mythicmounts:moth",
+        "environmental:slabfish"
+    ])
 })
