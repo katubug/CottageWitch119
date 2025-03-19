@@ -8,7 +8,7 @@
 		{ item: "minecraft:dragon_egg" }
 		{ item: "minecraft:netherite_block" }
 		{ count: 4, item: "ends_delight:dragon_tooth" }
-		{ item: "refinedstorage:64k_storage_part" }
+		{ item: "ae2:cell_component_256k" }
 	]
 	title: "T3 Choice"
 }

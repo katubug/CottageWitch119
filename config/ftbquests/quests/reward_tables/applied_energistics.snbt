@@ -1,7 +1,7 @@
 {
 	id: "73AECEE721870C4C"
 	loot_size: 3
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{ count: 6, item: "ae2:certus_quartz_crystal", weight: 10.0f }
 		{ count: 3, item: "ae2:charged_certus_quartz_crystal", weight: 7.0f }
