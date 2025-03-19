@@ -1,3 +1,33 @@
+# **Config and Script Changes**
+This update begins the process of replacing Refined Storage with Applied Energistics 2. This was a decision made in light of some bizarre performance issues, and was highly requested. We have made similar thematic changes to AE2 as was made to RS, and we have also balanced it to be appropriate to a non-techy-grindy pack. In the 1.18 update of Cottage Witch, Refined Storage will be removed. The update notes will warn you to backup your worlds and ensure that no data loss occurs, but if you like to prepare early - this is your long-term advance warning.
+
+
+- Set FOV effects to 100% to prevent players feeling like the sprint button was broken.
+- Turned on view bobbing.
+- Began process of phasing out Refined Storage.
+- Unbound the shift+b hotkey for the Backpacked backpacks.
+- Removed the "Chests Reimagined" resource pack, as it was causing issues with horses and ender chests.
+- Saved all keybinds and settings to DefaultSettings - hopefully it works!
+- Changed JEI quest in the welcome page to be larger and more centered for ease of access.
+- Updated item tooltips to be warning colored.
+- Added arzadu's Hexerei woodcutting recipes. Thanks, arz!
+- Updated Earl's Extra Delights Create integration to patch an extra bowl out of crafting.
+- Tagged gate pearls and hemolymph blasters so they can no longer be uncrafted.
+- Removed Refurbished mail items from jei and recipes, as they're not needed.
+- Removed Haggis!!!
+- The welcome quest now gives a backpack instead of a sack.
+- Fixed an issue where dead coral could be magically resurrected through smelting.
+- Removed numerical mana charm, as that setting is on by default.
+- Added a script to blacklist cages from being used inappropriately.
+- Due to lag issues, Pathfinder Maps are now disabled.
+- Entity Culling can now work on Soul Beads and Create's Trains.
+- Inventory-capable mounts can now be sorted with Sortingwood!
+- Fixed an issue where FTB Maps accidentally re-enabled themselves. Thanks, Turtles!
+- Added a few missing Stonecutter recipes for Smooth Sourcestone. Thanks, arz!
+- Peat and Lush Dirt are now craftable. Thanks, arz!
+- A WHOLE LOT of Hexerei woodcutting recipes have been added. Thanks, arz!
+
+
 # **New Mods**
 ## Applied Energistics 2 Wireless Terminals
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals)
