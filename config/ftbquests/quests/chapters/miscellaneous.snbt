@@ -1132,8 +1132,10 @@
 			y: -2.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "2BE44A5A7C52C52D"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "5BC4EB2CD0D6F4B3"
@@ -1993,7 +1995,7 @@
 			y: 6.5d
 		}
 		{
-			description: [" &bWind Chimes&r are not only a delightful visual and audible decoration, they are also useful! They have a &ePhantom&r &arepelling effect&r for up to 25 blocks!"]
+			description: [" &bWind Chimes&r are not only a delightful visual and audible decoration, they are also useful! They have a &ePhantom&r &arepelling effect&r for up to 25 blocks vertically and 10 blocks horizontally!"]
 			id: "4DA91132F5C788A3"
 			rewards: [
 				{

@@ -1,0 +1,20 @@
+{
+    "name": "Blessbane",
+    "icon": "byg:withering_oak_sapling",
+    "category": "patchouli:blessbane",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While the name §7Blessbane§r encompasses the entire space through the portal, §7Blessbane§r really is the initial village area, from the $(l:blessbane/blessbane_2023)first ever Blessbane event$(). This space was created by the §7§kServer§r after $(l:blessbane/researcher)The Researcher$() broke in, in an attempt to find the truth behind the death of The Heart of Hexhaven."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "The Village",
+            "images": ["hexhaven:textures/faq/blessbane/village.png"],
+            "text": "$(o)A sickly feeling washes over you... what even is this place?$()"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

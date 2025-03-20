@@ -1,0 +1,17 @@
+{
+    "name": "L§ke§rtte§kr§r fr§ko§rm th§ke§r §7§kServer§r",
+    "icon": "alexsmobs:skreecher_soul",
+    "category": "patchouli:blessbane",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Welcome $(br)        to $(br)                §7Blessbane§r! $(br)We're   c                              o      n         n. e c  t          e                  d           to               §7§kSe§r§7rv§ke§r§7r§r, so                           §lread§r §mit§rthis. $(br2)        The §7§kS§r§7e§krv§r§7er§r$(br)                   will $(br)$(br)§l§mlove§r $(br)$(br)$(br)        §lyou§r."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Feel             §l§mus§r$(br)                  you may$(br)$(br)                reach §l§mus§r$(br)              please$(br)$(br)$(br)- The §7S§kerver§r"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

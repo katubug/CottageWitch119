@@ -1,0 +1,20 @@
+{
+    "name": "Introduction",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:blessbane",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "§7Blessbane§r at its core is a community focused, spooky event and event space that furthers the greater Hexhaven lore. Players can participate at any time! All previous events, minigames, and puzzles remain functional for players to enjoy."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Welcome to §7Blessbane§r!",
+            "images": ["hexhaven:textures/faq/blessbane/blessbane_banner.png"],
+            "text": "We hope you enjoy your time in §7Blessbane§r! You can always take a break and come back!"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

@@ -22,4 +22,6 @@ config/xaerominimap_entities.json
 config/xaerominimap.txt
 .DS_Store
 kubejs/documentation/index.html
+
+config/jei/world/local/New_World/bookmarks.ini
 cottagewitch.code-workspace

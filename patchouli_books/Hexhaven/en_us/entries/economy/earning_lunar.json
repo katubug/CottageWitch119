@@ -1,0 +1,20 @@
+{
+    "name": "Earning Lunar",
+    "icon": "kubejs:solarcoin",
+    "category": "patchouli:the_economy",
+    "sortnum": 99,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Money exists on Hexhaven for a simple reason: $(l)to have fun$().$(br2)Outside of shop ownership and your $(t:Universal Basic Income)$(#0000EE)UBI$()$(/t), there are many ways to earn and spend coins!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Here's just a few ways:$(br)$(li)Feed The Heart a golden apple when her lights have gone down$(br)$(li)Facilitate one-on-one trades with other players$(br)$(li)Exchange coins for services like fetch quests and manual labour"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Open a minigame and charge a small fee to play$(br)$(li)Lean into the roleplay aspect and open a donation charity or subscription service$(br)$(li)Start a cult and require a tithe"
+        }
+    ]
+}

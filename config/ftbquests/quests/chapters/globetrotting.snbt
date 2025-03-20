@@ -959,6 +959,7 @@
 		{
 			id: "4E9CAB55113B5280"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
 				id: "737F9B7089035317"

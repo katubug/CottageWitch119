@@ -1,0 +1,17 @@
+{
+    "name": "Communication",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:manifesto",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tied in with consent, communication is vital.$(br2)Our community has a wide diversity of countries, ages, and neurodiversities.$(br2)Many of us have different perspectives and experiences, and misunderstandings do happen! "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We encourage players to communicate directly with one another, to ask for accommodations or clarifications when needed, and to try to assume positive intent from others.$(br2)Just as you hope that others will not misinterpret you- try to reflect that in your own responses."
+        }
+    ]
+
+}

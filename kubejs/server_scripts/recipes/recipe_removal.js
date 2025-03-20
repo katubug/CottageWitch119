@@ -371,12 +371,24 @@ ServerEvents.recipes(event => {
 		{output: 'extradelight:sextuple_meat_treat'},
 		{output: 'extradelight:oxtail_soup'},
 		{output: 'extradelight:haggis_block_item'},
+		{output: 'extradelight:haggis'},
 		{id: 'hexerei:leather_from_drying_rack'},
 		{id: 'create:crafting/tree_fertilizer'}, // this is the buggy recipe with the missing tag / barrier block
 		{id: 'extradelight:vinegar_pot_potion'},// allows uncrafting into uncraftable potion, not much point anyways when you can just use a water bucket
 		{id: 'extradelight:cactus_juice'},
 		{id: 'culturaldelights:cutting/corn_kernels'},
-		{id: 'culturaldelights:cutting/corn_kernels_using_deployer'}
+		{id: 'culturaldelights:cutting/corn_kernels_using_deployer'},
+		{id: 'refurbished_furniture:constructing/crimson_mail_box'},
+		{id: 'refurbished_furniture:constructing/warped_mail_box'},
+		{id: 'refurbished_furniture:constructing/mangrove_mail_box'},
+		{id: 'refurbished_furniture:constructing/dark_oak_mail_box'},
+		{id: 'refurbished_furniture:constructing/acacia_mail_box'},
+		{id: 'refurbished_furniture:constructing/jungle_mail_box'},
+		{id: 'refurbished_furniture:constructing/birch_mail_box'},
+		{id: 'refurbished_furniture:constructing/spruce_mail_box'},
+		{id: 'refurbished_furniture:constructing/oak_mail_box'},
+		{id: 'refurbished_furniture:constructing/post_box'},
+		{output: 'ars_instrumentum:numeric_mana_charm'}
 
 	];
 

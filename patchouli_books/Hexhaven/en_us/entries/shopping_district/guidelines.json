@@ -1,0 +1,16 @@
+{
+    "name": "Shopping Guidelines",
+    "icon": "create:clipboard",
+    "category": "patchouli:shopping_district",
+    "sortnum":1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "1.) No Theft! Do not break blocks or take displays.$(br2)2.) Our central currency is lunar, solar, and arcane - but shops can choose to trade for anything."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "3.) Be good neighbours. We expect $(l)all shop keepers$() to maintain $(o)friendly and open dialogue$() with one another - about fair pricing, shop proximity, and out of stock crates."
+        }
+    ]
+}

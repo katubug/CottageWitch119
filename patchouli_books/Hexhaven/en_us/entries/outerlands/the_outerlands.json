@@ -1,0 +1,31 @@
+{
+    "name": "The Outerlands",
+    "icon": "byg:travertine",
+    "category": "patchouli:outerlands",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Outerlands is the area of the world outside of the build border. This area is reset every 3 months.$(br2)We do not suggest building within the Outerlands, as these builds $(l)will not$() be saved."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Dimensions",
+            "text": "$(l)The Overworld:$() The outerlands is no longer present in the overworld.$(br2)Instead, our new, permanent Outerlands is what is known as $(l:patchouli:outerlands/mining_dimension)the mining dimension$() and mimics overworld generation.$(br2)The mining dimension will be reset every 3 months."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Dimensions",
+            "text": "$(l)The Nether:$() In the nether, the Outerlands encompasses the area beyond the -1,536 to 1,536 build border.$(br2)The Outerlands end at the world border located at 15,000.$(br2)The Outerlands area of the nether is reset every 3 months."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Dimensions",
+            "text": "$(l)The End:$() Only the main End Island is saved between resets to ensure the dragon can still be spawned in and fought!$(br2)The rest of the end is considered the Outerlands.$(br2)The Outerlands area of the end is reset every 3 months."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Dimensions",
+            "text": "$(l)Other Dimensions:$() All other dimensions, such as the Twilight Forest and $(t:Deeper and Darker Dimension)The Otherside$() are a part of The Outerlands.$(br2)The entire dimension is completely reset every 3 months."
+        }
+    ]
+}

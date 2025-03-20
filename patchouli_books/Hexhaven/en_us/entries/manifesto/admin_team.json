@@ -1,0 +1,21 @@
+{
+    "name": "Admin Team",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:manifesto",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Your admin team believes that safe spaces should be managed with kindness, patience, and transparency.$(br2)We do not adhere to 'punishment' tactics such as mutes, temporary bans, or public shaming."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We prefer to resolve issues through communication first and foremost.$(br2)However, this does not mean that we allow ourselves to be walked over! Members who break the Dingus rule, or require repeated warnings for similar actions, will find themselves removed from our space. "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We care about protecting and maintaining the trust within our community."
+        }
+    ]
+
+}

@@ -1,0 +1,25 @@
+{
+    "name": "First Chapters!",
+    "icon": "minecraft:red_bed",
+    "category": "patchouli:welcome",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This book has many chapters and it can be overwhelming knowing where to begin.$(br2)The mod team has curated a list of chapters to start with. These chapters should help to cover some questions you may have at the start."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Where to Start",
+            "text": "",
+            "entries": [
+                "patchouli:mods/player_commands",
+                "patchouli:traveling/nexus",
+                "patchouli:outerlands/build_border",
+                "patchouli:economy/hexhaven_heart",
+                "patchouli:rules/claims",
+                "patchouli:welcome/grotto"
+            ]
+        }
+    ]
+}

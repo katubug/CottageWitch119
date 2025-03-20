@@ -1,0 +1,27 @@
+{
+    "name": "Flea Market",
+    "icon": "applecrates:jungle_crate",
+    "category": "patchouli:shopping_district",
+    "sortnum":99,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Looking to sell some excess elytras? Maybe a fun gag gift that doesn't fit within your shop? Want to buy some blocks you don't want to spend time collecting?$(br2)The Flea Market is the place to put it! "
+        },
+        {
+            "type": "patchouli:text",
+            "title": "What is it?",
+            "text": "The Flea Market is a collection of tables within the first shopping district. You may sell or request items or blocks that you might not be able to find in the existing shops"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "How to Use It?",
+            "text": "Place an apple crate (or a sign with your request and exact IGN). Crates must have a sign posted in front stating:$(li)The Item$(li)Your Name$(li)The Date"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "My Crate is Gone?!",
+            "text": "Crates are removed because... $(li)it was out of stock or otherwise broken$(li)it was competing with a shop in one of the districts$(li)it was 2 weeks or older$(br2)All contents are mailed to the owner via Contact and can be retrieved at the global mailbox."
+        }
+    ]
+}

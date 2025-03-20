@@ -1,0 +1,6 @@
+{
+    "name": "Server Rules",
+    "description": "It's the law.$(br2)All of this information is available in the discord under the #$(l)server-rules$() channel.$(br2)$(l:https://discord.com/channels/1076365835284787220/1094346799742988299)Full Rules Here$()",
+    "icon": "minecraft:writable_book",
+    "sortnum": 3
+}

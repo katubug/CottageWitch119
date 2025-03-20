@@ -1,3 +1,4 @@
+
 ServerEvents.recipes(event => {
 
     // Array of frosting colors, ordered to match the colors used in Extra Delight :P
@@ -24,8 +25,7 @@ ServerEvents.recipes(event => {
     for (const color of COLORS) {
         event.recipes.create.mixing(
             [
-                `4x extradelight:frosting_${color}`,
-                "minecraft:bowl"
+                `4x extradelight:frosting_${color}`
             ],
             [   
                 "#forge:whipped_cream",
@@ -50,8 +50,7 @@ ServerEvents.recipes(event => {
     // Butter mixing recipe
     event.recipes.create.mixing(
         [
-            "#forge:butter",
-            "minecraft:bowl"
+            "#forge:butter"
         ],
         "#forge:whipped_cream"
     )

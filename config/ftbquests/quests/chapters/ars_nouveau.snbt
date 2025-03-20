@@ -1,24 +1,13 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: "2757402A47D6A081"
+	group: "6AB3D1AFEF5BB904"
 	icon: "ars_nouveau:archmage_spell_book"
-	id: "28160AC3E2F512C6"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 15.0d
-		hover: [ ]
-		image: "cottagewitch:textures/quest_ui/bgarsnouveau.png"
-		rotation: 0.0d
-		width: 25.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	order_index: 1
+	id: "433EDD81813AF8AA"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,17 +16,17 @@
 				""
 				"To return your Akashic Tome to its base state, &ahold it and left click&r while &atargeting the air&r."
 			]
-			id: "18F9D7E52D49C89B"
+			id: "728E11AC17D1CEEB"
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Can you be ars'd?"
 			tasks: [{
-				id: "7B79454738304B83"
+				id: "3005611228069FF2"
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["18F9D7E52D49C89B"]
@@ -53,21 +42,21 @@
 				""
 				"Note that &dwhile holding your book, you cannot use the ` key&r."
 			]
-			id: "56A2E0152608BC39"
+			id: "0BF520F4BAD5AEFC"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2674EEDE4E9CFE68"
+				id: "343BD3D1D6E7E2B7"
 				table_id: 2716320750821748806L
 				type: "random"
 			}]
 			subtitle: "Good beginner's luck!"
 			tasks: [{
-				id: "4E727483CD63FF20"
+				id: "5AC9DDCFDAB9D2CB"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
 			title: "Obtain a Novice Spell Book"
-			x: -7.0d
+			x: -12.0d
 			y: -1.0d
 		}
 		{
@@ -79,54 +68,54 @@
 				""
 				"&6Cast your spells&r by holding your Spellbook in your main or offhand, and right click. &aSelect your spells with v&r."
 			]
-			id: "129ED1C8BBF786DF"
+			id: "1B703B1AE9B59CF4"
 			rewards: [{
-				id: "2DB7A5529C4B37A5"
+				id: "7105E16ADB4EDF84"
 				item: "ars_nouveau:earth_essence"
 				type: "item"
 			}]
 			subtitle: "Tick the box when you're ready"
 			tasks: [{
-				id: "5A5F4B057B05E61C"
+				id: "131FD0734F61E3E6"
 				title: "Create Your First Spell"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["56A2E0152608BC39"]
 			description: ["You can &aupgrade your spell book&r in order to &alearn higher tiers of glyphs&r."]
-			id: "276A3F8EA6F66922"
+			id: "033788606DA47EE2"
 			rewards: [{
-				id: "1F44266C647EDED8"
+				id: "04F63A36CA4F2D82"
 				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "6A4CC90F2D67A854"
+				id: "79129F069CDC2374"
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["276A3F8EA6F66922"]
 			description: ["The ultimate spell book! Become an &aArchmage&r and learn Tier 3 Glyphs!"]
-			id: "5632F590E56DD76C"
+			id: "10F31E84EC3BDBE0"
 			rewards: [{
-				id: "77641820DE7D7A26"
+				id: "3B839DF31BC3B5E3"
 				table_id: 5161092699925703455L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "6F9E20247238FDC7"
+				id: "69098478AD4350BC"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.5d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["129ED1C8BBF786DF"]
@@ -135,17 +124,17 @@
 				""
 				"From the Archwood, you can craft the &bAmethyst Dowsing Rod&r, which will help you find &bAmethyst Geodes&r. This is an important magical material, so collect lots of it!"
 			]
-			id: "2E6190A66BE57ECE"
+			id: "7C3B5BF6B2F9713B"
 			rewards: [{
 				count: 5
-				id: "5F138985C5BA933D"
+				id: "3A963B969C16EF77"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
 			subtitle: "A rare tree and a rare gem"
 			tasks: [
 				{
-					id: "6AD3FC7A0F485B2F"
+					id: "0D73B62C09270EB7"
 					item: {
 						Count: 1b
 						id: "itemfilters:tag"
@@ -157,7 +146,7 @@
 					type: "item"
 				}
 				{
-					id: "288CFE208F26546D"
+					id: "14899E0C29E5806B"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:dowsing_rod"
@@ -169,8 +158,8 @@
 				}
 			]
 			title: "Obtain Archwood and Make an Amethyst Dowsing Rod"
-			x: -5.5d
-			y: -2.5d
+			x: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
@@ -179,28 +168,28 @@
 				""
 				"But where does Source come from? The natural world. One way you can obtain it is via an &bAgronomic Sourcelink&r. &6Place your Sourcelink and Jar within 6 blocks&r of your livestock or garden, and it will slowly collect. &dBonemealed crops will not contribute to Source production&r."
 			]
-			id: "66F0429FA3DB8535"
+			id: "3C83F8955AC817B8"
 			rewards: [{
-				id: "1E698459A52E0127"
+				id: "7BECBCB0ED30B423"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
 			subtitle: "A place to keep the universe's energy"
 			tasks: [
 				{
-					id: "2E06BD5E7EE5A1AC"
+					id: "37DFA2CEE6D6EC0F"
 					item: "ars_nouveau:source_jar"
 					type: "item"
 				}
 				{
-					id: "61E4B0BE62DA89BE"
+					id: "0994D47FB0121798"
 					item: "ars_nouveau:agronomic_sourcelink"
 					type: "item"
 				}
 			]
 			title: "Obtaining Source"
-			x: 1.5d
-			y: -2.5d
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E6190A66BE57ECE"]
@@ -209,30 +198,30 @@
 				""
 				"This can be sped up later by &agiving it access to Source&r, such as that contained in a &bSource Jar&r."
 			]
-			id: "6A1AECF9FED954C9"
+			id: "183400160B700C07"
 			rewards: [
 				{
 					count: 5
-					id: "450D8DD61117B392"
+					id: "4D0FE3D22EA858A0"
 					item: "minecraft:amethyst_shard"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "73A28BAAAFED7577"
+					id: "51A9C35BDAA78061"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
 			]
 			subtitle: "Enmagicking stones"
 			tasks: [{
-				id: "4E238F3FCC34177D"
+				id: "6DB2F7893C15B041"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
 			title: "Make an Imbuement Chamber"
-			x: -3.5d
-			y: -2.5d
+			x: -9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
@@ -245,34 +234,34 @@
 				""
 				"You may need &asome unique items called Essences&r. These are crafted on the &bImbuement Chamber&r and will require the use of &bPedestals&r."
 			]
-			id: "52E5A3E81A0CA5AE"
+			id: "7B5BD802F1E136C6"
 			rewards: [
 				{
-					id: "13C4EEFEFDE43F28"
+					id: "511C311B3ED7AEB1"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
-					id: "1A5AB563E25E465F"
+					id: "24EDD4424833E197"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "02C70289B501E467"
+					id: "1474DD26FF3F65C1"
 					table_id: 2716320750821748806L
 					type: "choice"
 				}
 			]
 			subtitle: "I would explain it to you but that would de-scribe it"
 			tasks: [{
-				id: "34EDCABBD2881C42"
+				id: "1775EE0A7EB58ACD"
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
 			title: "Obtain a Scribe's Table"
-			x: -3.5d
-			y: -1.0d
+			x: -9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0C6AA50E808EBB9F"]
@@ -283,10 +272,10 @@
 				""
 				"Once you have placed your Scroll on the Scribe's Table, &dset your desired spell in your Spellbook&r and then &6shift right click your Spellbook on the Table&r. This will inscribe the spell onto the Parchment for you!"
 			]
-			id: "02ED5F7941A9361D"
+			id: "68C910B3799BE815"
 			rewards: [{
 				count: 3
-				id: "022D1597D25FF222"
+				id: "059B72A31DA3BEE7"
 				item: "ars_nouveau:blank_parchment"
 				type: "item"
 			}]
@@ -294,7 +283,7 @@
 			subtitle: "Spells to go"
 			tasks: [
 				{
-					id: "5F79B7738D84E5F3"
+					id: "1C1CDDED5704DD36"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:spell_parchment"
@@ -303,14 +292,14 @@
 					type: "item"
 				}
 				{
-					id: "2430E8A18128EF12"
+					id: "4965F46B5CAB3B52"
 					item: "ars_nouveau:blank_parchment"
 					type: "item"
 				}
 			]
 			title: "Make a Spell Parchment"
-			x: -5.5d
-			y: 0.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -324,56 +313,56 @@
 				""
 				"&6Use JEI to find the recipe&r for each Glyph. Only the Source Gem is consumed, so don't worry about using expensive reagents."
 			]
-			id: "57059A425BFB5179"
+			id: "7823892AFAA51919"
 			rewards: [{
 				count: 2
-				id: "4722AB062689511B"
+				id: "5DBC6BC0D25892AA"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
 			subtitle: "I love a good pedal-stool"
 			tasks: [{
 				count: 4L
-				id: "48D1E7E6C3872637"
+				id: "634FF26823483DC2"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
 			title: "Make some Arcane Pedestals"
-			x: -1.5d
-			y: -1.0d
+			x: -10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
 			description: ["&bSourcestone&r is a material used in magical crafting recipes. It can be created at a basic &bCrafting Table&r, by surrounding a &bSource Gem&r with &bany kind of Stone&r."]
-			id: "5193B0D7E5ACC0A7"
+			id: "179D64EEE30CC067"
 			rewards: [
 				{
-					id: "4E91AA9DE20131AE"
+					id: "4B27BC2D9F115536"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4C1C4896D656BA3F"
+					id: "61CCE45DF88EC8F1"
 					table_id: 2716320750821748806L
 					type: "choice"
 				}
 				{
 					count: 8
-					id: "3567FD57ED91BA31"
+					id: "006170F62BE466DA"
 					item: "ars_nouveau:sourcestone"
 					type: "item"
 				}
 			]
 			subtitle: "It's also a lovely decorative block"
 			tasks: [{
-				id: "7A0041D0CC377293"
+				id: "6665408F42ECB211"
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
 			title: "Obtain Some Sourcestone"
-			x: -1.5d
-			y: -2.5d
+			x: -10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -389,17 +378,17 @@
 				""
 				"Once it's done, pull it from the Chamber and &6throw both items&r onto your Scribe's Table. Then, grab your finished &bGlyph&r and &6right click while holding it&r to unlock the knowledge!"
 			]
-			id: "1692491D59BA0527"
+			id: "25F4E11491D8F546"
 			rewards: [
 				{
 					count: 5
-					id: "43171351D93E8403"
+					id: "3D7CF0C5F98449C1"
 					item: "minecraft:paper"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2A07BFFF222A3DFB"
+					id: "441C3EB493D921B6"
 					table_id: 2716320750821748806L
 					type: "choice"
 				}
@@ -407,19 +396,19 @@
 			subtitle: "Building blocks of spells"
 			tasks: [
 				{
-					id: "7B69C6C7C98F7F5C"
+					id: "27408785C7109AD5"
 					item: "ars_nouveau:glyph_harvest"
 					type: "item"
 				}
 				{
-					id: "7205C1FFCD90F823"
+					id: "786979A63C80161C"
 					item: "ars_nouveau:earth_essence"
 					type: "item"
 				}
 			]
 			title: "Making a Glyph"
-			x: -3.5d
-			y: 0.5d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1692491D59BA0527"]
@@ -428,17 +417,17 @@
 				""
 				"You can either bury the Arcane Core and place everything on floor-level, or you can place the Core on floor level and raise the Pedestals up."
 			]
-			id: "1300FBB6DF2AF01A"
+			id: "2ED5AFC585CC9370"
 			rewards: [
 				{
 					count: 4
-					id: "219D9532C3F87BCD"
+					id: "31BF67E5A8996ED5"
 					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "796F95EEAEF4199B"
+					id: "21F1DD7F4075C05A"
 					item: "ars_nouveau:arcane_pedestal"
 					type: "item"
 				}
@@ -446,18 +435,18 @@
 			subtitle: "A more mystical method of crafting"
 			tasks: [
 				{
-					id: "08141C5AC9559E4D"
+					id: "23DDE43DE821C012"
 					item: "ars_nouveau:enchanting_apparatus"
 					type: "item"
 				}
 				{
-					id: "5C7F7AAE1C0B6185"
+					id: "5638B9A85EC9F071"
 					item: "ars_nouveau:arcane_core"
 					type: "item"
 				}
 			]
 			x: -7.0d
-			y: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
@@ -470,43 +459,43 @@
 				""
 				"&dDon't forget to read your Spellbook's documentation in the top left tab!&r It has more information than these quests do."
 			]
-			id: "0C6AA50E808EBB9F"
+			id: "4B5BA16B8F839ACE"
 			rewards: [{
-				id: "34C0DB789FCE8C12"
+				id: "75D3A4BBC9A27E45"
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
 			subtitle: "A source of magical fiber"
 			tasks: [
 				{
-					id: "32E6D536A9C830B2"
+					id: "41676A8EF13C5851"
 					item: "ars_nouveau:magebloom_crop"
 					type: "item"
 				}
 				{
-					id: "38684C8948AE5808"
+					id: "72F6438734F5AA60"
 					item: "ars_nouveau:magebloom_fiber"
 					type: "item"
 				}
 			]
 			title: "Craft a Magebloom Seed to get Fiber"
-			x: -5.5d
-			y: 2.0d
+			x: -12.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0C6AA50E808EBB9F"]
 			description: ["Use your newly-acquired &bMagebloom Fiber&r to craft yourself a set of &bNovice Robes&r, which will &aincrease the amount of mana&r you have access to."]
-			id: "7A5533BEA4D6B751"
+			id: "6F229953B0CB16CC"
 			optional: true
 			rewards: [
 				{
-					id: "13CEE90EBA30708F"
+					id: "68681FC88FCD6B26"
 					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "76A1540A5F416978"
+					id: "00C9ACD385BE77D3"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
@@ -514,7 +503,7 @@
 			subtitle: "Unlike Witches, Mages do wear pants."
 			tasks: [
 				{
-					id: "5C9DEF3347566FEE"
+					id: "666AF1A97F0C1C49"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:novice_hood"
@@ -525,7 +514,7 @@
 					type: "item"
 				}
 				{
-					id: "165964466375F9DE"
+					id: "3CB98B0E363F9831"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:novice_robes"
@@ -536,7 +525,7 @@
 					type: "item"
 				}
 				{
-					id: "4F0084521AF1B534"
+					id: "4ADE9152F4CDA0E6"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:novice_leggings"
@@ -547,7 +536,7 @@
 					type: "item"
 				}
 				{
-					id: "2AD9C972F122A9AD"
+					id: "649F400BD08CBC5D"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:novice_boots"
@@ -559,8 +548,8 @@
 				}
 			]
 			title: "Obtain Novice Robes"
-			x: -3.5d
-			y: 2.0d
+			x: -12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
@@ -571,22 +560,22 @@
 				""
 				"There are two variants of the Potion Flask: &aExtend Time&r and &aAmplify&r. I think you can guess what each does."
 			]
-			id: "2035BB54A9444F74"
+			id: "000A02D063697C3D"
 			rewards: [{
 				count: 2
-				id: "49186D79215B0987"
+				id: "1D5FC0D61F8E84B3"
 				item: "ars_nouveau:abjuration_essence"
 				type: "item"
 			}]
 			subtitle: "The Potion Jar, Melder, and Flasks"
 			tasks: [
 				{
-					id: "7DEF33D6263F0654"
+					id: "5DEC8D29611F7272"
 					item: "ars_nouveau:potion_jar"
 					type: "item"
 				}
 				{
-					id: "2A259CCAE83B6E06"
+					id: "1328DC2C19F80C3F"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:potion_flask"
@@ -598,8 +587,8 @@
 				}
 			]
 			title: "New Potion Options"
-			x: -5.5d
-			y: 3.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2035BB54A9444F74"]
@@ -608,53 +597,53 @@
 				""
 				"Only two Potion Jars can be used at a time, however, you can &6fill one Jar with a Melded Potion&r to add even more effects to it."
 			]
-			id: "296E6CCDF530F5D5"
+			id: "30EE7DBF556BF9CB"
 			rewards: [
 				{
 					count: 5
-					id: "41CBD75EEB9C3ECF"
+					id: "2974B96E2F7C5EDE"
 					item: "minecraft:glass_bottle"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1AE41ED4B755044D"
+					id: "09514D00E8A9C26B"
 					table_id: 2716320750821748806L
 					type: "choice"
 				}
 			]
 			subtitle: "Combine multiple effects into a single bottle!"
 			tasks: [{
-				id: "3E2D57F700494C1E"
+				id: "2D5A6F705D86CC63"
 				item: "ars_nouveau:potion_melder"
 				type: "item"
 			}]
 			title: "Potion Melding"
-			x: -5.5d
-			y: 5.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A5533BEA4D6B751"]
 			description: ["This armor grants additional &aMana&r over the basic set."]
-			id: "43BD92DEB06541F2"
+			id: "21E1E5837647AF37"
 			optional: true
 			rewards: [
 				{
 					count: 3
-					id: "0F227A53AE001B07"
+					id: "7278FAF04299C1A8"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "63FC3D7E2D8181DC"
+					id: "5DE6585D405E035F"
 					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "1D6B35A928BF1398"
+					id: "0BE9427A5F548867"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:apprentice_hood"
@@ -665,7 +654,7 @@
 					type: "item"
 				}
 				{
-					id: "120A8FE120F9157F"
+					id: "017195611D74EC90"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:apprentice_robes"
@@ -676,7 +665,7 @@
 					type: "item"
 				}
 				{
-					id: "440DDF2B8D6E889B"
+					id: "231137E5CAB2E234"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:apprentice_leggings"
@@ -687,7 +676,7 @@
 					type: "item"
 				}
 				{
-					id: "19EB178AEF1C11C8"
+					id: "54BE54BC46557CE4"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:apprentice_boots"
@@ -699,30 +688,30 @@
 				}
 			]
 			title: "Obtain Mage Armor"
-			x: -3.5d
-			y: 3.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43BD92DEB06541F2"]
 			description: ["The highest tier armor, this &bArchmage set&r is almost as good as &bNetherite&r, with hefty bonuses to &amana&r."]
-			id: "1D9FDA3FA050DBEA"
+			id: "6A314D8D8FF1C896"
 			rewards: [
 				{
 					count: 5
-					id: "5621985A0C7A1629"
+					id: "1297401F8B5D1FAB"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "568A841597A77A0D"
+					id: "16C8C3623B38231B"
 					item: "ars_nouveau:manipulation_essence"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "28D9AF30FF0E9FF0"
+					id: "1FD46455F312792D"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:archmage_hood"
@@ -733,7 +722,7 @@
 					type: "item"
 				}
 				{
-					id: "3CB59F1D9FC5F29A"
+					id: "414B2C7386F21A17"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:archmage_robes"
@@ -744,7 +733,7 @@
 					type: "item"
 				}
 				{
-					id: "4F0F351549896DAD"
+					id: "50CACCB5CEE18638"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:archmage_leggings"
@@ -755,7 +744,7 @@
 					type: "item"
 				}
 				{
-					id: "2511F6D618D1EFCB"
+					id: "2E30D8BE9C4ED8A9"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:archmage_boots"
@@ -767,8 +756,8 @@
 				}
 			]
 			title: "Obtain Archmage Armor"
-			x: -3.5d
-			y: 5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
@@ -777,23 +766,23 @@
 				""
 				"&6Place it on your Scribe's Table&r and then create the desired spell in your Book. You can then &6shift right click&r on the Table with your Spellbook to write the spell to the wand."
 			]
-			id: "7894B8900BF0BF51"
+			id: "4EC269FB25DA34DA"
 			rewards: [
 				{
-					id: "3AF0E3FDE07DB7ED"
+					id: "284D6A8AFF469773"
 					table_id: 8808494820591225409L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "026C0C70D0E783F4"
+					id: "20338FC2916112FF"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "694C92576A83087E"
+				id: "69535EE864AC2117"
 				item: {
 					Count: 1b
 					id: "ars_nouveau:wand"
@@ -801,23 +790,23 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: ["In order to make magical accessories, you must make their mundane counterparts!"]
-			id: "74996388CF70DE6A"
+			id: "67937FA0510675CB"
 			rewards: [
 				{
 					count: 3
-					id: "643EFE2EA3C419C2"
+					id: "6C8B667D1CC891D0"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "51395AAB9E5F059E"
+					id: "15F133A783DFCE5E"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
@@ -826,68 +815,68 @@
 			subtitle: "Are you a little bit curio-us?"
 			tasks: [
 				{
-					id: "63D4B786A87258DE"
+					id: "4443CC71EF2511F0"
 					item: "ars_nouveau:mundane_belt"
 					type: "item"
 				}
 				{
-					id: "534324659F15BBFF"
+					id: "6250705238B20D0D"
 					item: "ars_nouveau:ring_of_potential"
 					type: "item"
 				}
 				{
-					id: "3E0FAB2C02ED3C79"
+					id: "20F1151C8E6DE12F"
 					item: "ars_nouveau:dull_trinket"
 					type: "item"
 				}
 			]
 			title: "Time to Accessorize"
-			x: -1.5d
-			y: 3.5d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["74996388CF70DE6A"]
 			description: ["Despite the worrisome name, this Curio is all positive! The &bBelt of Unstable Gifts&r will &agrant you random positive potion effects&r periodically."]
-			id: "3BF734AA814F7378"
+			id: "70611CBC848F32EB"
 			rewards: [
 				{
-					id: "6772293F419B0859"
+					id: "6A2E9E31C63619BC"
 					table_id: 8808494820591225409L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "326BE4600F8E2BBC"
+					id: "632C826CCE335510"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "44EC94BF290E290E"
+				id: "073CBC97C6138D54"
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74996388CF70DE6A"]
 			description: ["Unfortunately, this won't get you better deals with villagers. The &bRings of Discount&r (lesser and greater) make your spells cost less mana!"]
-			id: "59BE43B1B391CC33"
+			id: "600F6D991E7E1393"
 			rewards: [{
-				id: "468FD88152188727"
+				id: "11321F34016CFFBF"
 				table_id: 8808494820591225409L
 				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "424A8AB48A36DE34"
+				id: "0517D7989540E0A0"
 				item: "ars_nouveau:ring_of_lesser_discount"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -899,37 +888,37 @@
 				""
 				"It also &adamages nearby enemies&r which try to attack them, and &acauses the \"self\" form to count them&r as well as the player."
 			]
-			id: "4C28B6865EDE04DD"
+			id: "29AC010557E594B0"
 			rewards: [{
-				id: "7530723A06CC7054"
+				id: "371014BEBD3E6CAD"
 				table_id: 5161092699925703455L
 				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "1B36F01F091A267E"
+				id: "4D5FC3DDC6B8BA61"
 				item: "ars_nouveau:summon_focus"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: ["To move on, you'll need a &bRitual Brazier&r, which accepts various &bRitual Tablets&r in order to work."]
-			id: "67BD14F42C133046"
+			id: "02BABB72CDACD282"
 			rewards: [{
-				id: "429C0C98C93CDADA"
+				id: "570DA88BA20B49AE"
 				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "55F2645FC8082E28"
+				id: "4011B7B47C6A338D"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
@@ -940,16 +929,16 @@
 				""
 				"The &bJar of Light&r summons a light source to follow the player, which can be dismissed at any time. &6Right click&r to toggle this summon."
 			]
-			id: "17E37418AF2A9AE8"
+			id: "7D72EBED7410A239"
 			rewards: [
 				{
-					id: "4402A633B28A1328"
+					id: "033CE40323AD531C"
 					table_id: 8808494820591225409L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "633B56363585C3CE"
+					id: "51A0974B44F02BD8"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
@@ -957,18 +946,18 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "79E4A9342F71F1F1"
+					id: "2D325BB22573BD63"
 					item: "ars_nouveau:void_jar"
 					type: "item"
 				}
 				{
-					id: "2268034543CEB836"
+					id: "71137B4B8D93EBA5"
 					item: "ars_nouveau:jar_of_light"
 					type: "item"
 				}
 			]
 			title: "Special Jars"
-			x: -9.0d
+			x: 9.5d
 			y: 2.0d
 		}
 		{
@@ -978,25 +967,25 @@
 				""
 				"Once the &eWeald Walker&r is ambling about, &6right click it&r with the &bDominion Wand&r, and then right click it on the block you want as the Walker's &ahome&r."
 			]
-			id: "72CACA09D66C8B43"
+			id: "58FAAA029EE137B4"
 			rewards: [
 				{
-					id: "07569ED8907C3380"
+					id: "242159115DE5907B"
 					item: "ars_nouveau:blue_archwood_sapling"
 					type: "item"
 				}
 				{
-					id: "0AAA1680EFCF2625"
+					id: "6AC3163A1445CD46"
 					item: "ars_nouveau:purple_archwood_sapling"
 					type: "item"
 				}
 				{
-					id: "179589EE2534C0AF"
+					id: "013BD602424C3B66"
 					item: "ars_nouveau:green_archwood_sapling"
 					type: "item"
 				}
 				{
-					id: "40B59137603C8851"
+					id: "1F2CDA7F0EFA9096"
 					item: "ars_nouveau:red_archwood_sapling"
 					type: "item"
 				}
@@ -1005,12 +994,12 @@
 			subtitle: "An ent is never hasty"
 			tasks: [
 				{
-					id: "34DCC0F881806011"
+					id: "5DCEF20407D50D55"
 					item: "ars_nouveau:ritual_awakening"
 					type: "item"
 				}
 				{
-					id: "5902E913F6C93906"
+					id: "436A2B2250CC631B"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:dominion_wand"
@@ -1020,21 +1009,21 @@
 				}
 			]
 			title: "Ritual of Awakening"
-			x: 6.0d
-			y: -2.5d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["67BD14F42C133046"]
 			description: ["In order to perform a &aRitual&r, you'll need a &bTablet&r for the Ritual you want to perform. You can check your &aspell book documentation&r to find out what each ritual does."]
-			id: "09C9FD92B5C2E636"
+			id: "164952556B56E042"
 			rewards: [{
-				id: "7842DC72D8D24AB6"
+				id: "4267981F24918ED1"
 				table_id: 5036677739913042344L
 				type: "choice"
 			}]
 			subtitle: "You know I wanna get ritual, ritual"
 			tasks: [{
-				id: "1BD9267C815BB9A3"
+				id: "4B85886060D1523F"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -1046,8 +1035,8 @@
 				type: "item"
 			}]
 			title: "Craft a Ritual Tablet"
-			x: 4.0d
-			y: -0.5d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["09C9FD92B5C2E636"]
@@ -1058,9 +1047,9 @@
 				""
 				"To summon him, you'll need to find a &eWilden Hunter&r, &eWilden Guardian&r, and &eWilden Stalker&r, and obtain their &btrophies&r."
 			]
-			id: "6D58B5D08AAAAB42"
+			id: "14ADB3A30ECEA282"
 			rewards: [{
-				id: "11A7BFB8C841248B"
+				id: "2A5E4416A43A9E99"
 				table_id: 5036677739913042344L
 				type: "choice"
 			}]
@@ -1068,19 +1057,19 @@
 			subtitle: "To become an Archmage, you must fight"
 			tasks: [
 				{
-					id: "1286D5DD728E6821"
+					id: "4C9DBEC9AC82F532"
 					item: "ars_nouveau:ritual_wilden_summon"
 					type: "item"
 				}
 				{
-					id: "6667BA27083D56D6"
+					id: "4E85AD8327EBC100"
 					item: "ars_nouveau:wilden_tribute"
 					type: "item"
 				}
 			]
 			title: "Summon the Wilden Chimera"
-			x: 3.0d
-			y: 1.5d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["67BD14F42C133046"]
@@ -1095,21 +1084,21 @@
 				""
 				"You can dismiss your summoned Familiar with a &aDispel&r Spell. Break the blocks they came from to &aget back their Charm&r."
 			]
-			id: "518A08681965283A"
+			id: "526FAB74423BE5FF"
 			rewards: [{
-				id: "0CEFA15A98D5A67D"
+				id: "5C0747CB7811DC37"
 				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			subtitle: "Natural automation and friendly companions"
 			tasks: [{
-				id: "3D251D863C56661A"
+				id: "1E233165B3F7E942"
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
 			title: "Obtaining New Familiars"
-			x: 8.0d
-			y: 1.5d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1120,9 +1109,9 @@
 				""
 				"The &eStarbuncle&r is capable of &aitem transport&r. Use a &bDominion Wand&r to assign it to certain inventories. It will also &aharvest fully-grown &bSource Berries&r."
 			]
-			id: "772E17A1C8332FCA"
+			id: "4AAF2ECADE8A185E"
 			rewards: [{
-				id: "0D96EF31F2E4633C"
+				id: "544FB8E5D477A0E0"
 				item: {
 					Count: 1b
 					id: "ars_nouveau:starbuncle_charm"
@@ -1131,7 +1120,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2325E9FFE8914B96"
+				id: "58C879B437D447DA"
 				item: {
 					Count: 1b
 					id: "ars_nouveau:starbuncle_charm"
@@ -1139,8 +1128,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 14.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1151,19 +1140,19 @@
 				""
 				"The &eWhirlisprig&r, when bound to its flower, will &aduplicate nearby &borganic items&r - trees, flowers, etc. They need to be provided with a chest and &bSource&r."
 			]
-			id: "1595CFEA592A8F90"
+			id: "354A4EC7210D6D4E"
 			rewards: [{
-				id: "0499E41A74D8A58A"
+				id: "16F4677EE45BE1F5"
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
 			tasks: [{
-				id: "76AEA9F984246409"
+				id: "0868D53C500C9B7D"
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 16.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1174,19 +1163,19 @@
 				""
 				"Multiple &eDrygmy&r can be assigned to a single &bHenge&r, and these creatures will &aharvest drops and experience gems&r from &eLivestock&r in a 10 block radius, without harming them! After it harvests, it will place items in a nearby inventory, and must recharge its ability &awith Source&r."
 			]
-			id: "393D7EE8162A2FB9"
+			id: "6B92EBB95F0CDA95"
 			rewards: [{
-				id: "5B59DBDAC268B490"
+				id: "14B12C96EB2B1005"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
 			tasks: [{
-				id: "661F9F3056F11656"
+				id: "497237AF80848352"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 13.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1198,20 +1187,20 @@
 				""
 				"This &ditem is under construction&r and so the quest is temporarily a &acheckmark&r."
 			]
-			id: "4006775C2145C6CD"
+			id: "03BA4C2A0AD25ECA"
 			rewards: [{
-				id: "1C33D861AAC45456"
+				id: "44813579453C6B8D"
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
 			subtitle: "Take a look, it's in a book"
 			tasks: [{
-				id: "01072264E0E01AF4"
+				id: "0A5CF74E1DA6CFB9"
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 14.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1222,33 +1211,33 @@
 				""
 				"When a Wixie is bound to a Cauldron, it will &aautomatically craft an item or potion&r it is told to. It will draw from nearby inventories, and can be paused if it receives a redstone signal."
 			]
-			id: "313B15A623A19140"
+			id: "4E45507D84FEC859"
 			rewards: [{
-				id: "53394A1D2067B640"
+				id: "470EA0FEC85EBD6D"
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
 			subtitle: "The world's cutest crafting table"
 			tasks: [{
-				id: "158DE1FC7F3EECFD"
+				id: "66D976F91B35E9D4"
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: 13.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
 			description: ["&bSpell Turrets&r can cast &aTouch&r and &aProjectile&r spells when provided with &bParchment Scrolls&r, &bSource&r, and a redstone signal."]
-			id: "106CFEEF7A039929"
+			id: "02EE463FE9CD1A13"
 			rewards: [
 				{
-					id: "2EE093DECBE95646"
+					id: "76773645E576A769"
 					item: "ars_nouveau:abjuration_essence"
 					type: "item"
 				}
 				{
-					id: "11268BA9798C68F1"
+					id: "684AF62BB73F3535"
 					item: "ars_nouveau:conjuration_essence"
 					type: "item"
 				}
@@ -1256,25 +1245,25 @@
 			shape: "hexagon"
 			subtitle: "Tower defense game time!"
 			tasks: [{
-				id: "6DBE085A6CAA8888"
+				id: "18A4A5DDA8B29E1D"
 				item: "ars_nouveau:basic_spell_turret"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D58B5D08AAAAB42"]
 			description: ["There is much more that this mod has to offer! &bRunes&r, &bEnchanter's Weapons&r, &bSource Relays&r and more! Check out the documentation in your &bSpell Book&r to help you learn even more!"]
-			id: "08DA497A806C3600"
+			id: "521E3EEBE82C8771"
 			rewards: [
 				{
-					id: "1E521BF90E8FF373"
+					id: "653AFA21F2D2EE96"
 					table_id: 8808494820591225409L
 					type: "choice"
 				}
 				{
-					id: "1B3E54EF1012AD2D"
+					id: "06EF89DE29660DCF"
 					item: {
 						Count: 1b
 						id: "mcsa:olivia_helmet"
@@ -1285,7 +1274,7 @@
 					type: "item"
 				}
 				{
-					id: "41FD118EE6B69978"
+					id: "11FF021573110C5B"
 					item: {
 						Count: 1b
 						id: "mcsa:olivia_chestplate"
@@ -1296,7 +1285,7 @@
 					type: "item"
 				}
 				{
-					id: "68D19DF0229F54EE"
+					id: "199150E42D63FB50"
 					item: {
 						Count: 1b
 						id: "mcsa:olivia_leggings"
@@ -1307,7 +1296,7 @@
 					type: "item"
 				}
 				{
-					id: "17C1E754B6A4BCFF"
+					id: "7CA79CFA9A28D1FA"
 					item: {
 						Count: 1b
 						id: "mcsa:olivia_boots"
@@ -1322,12 +1311,12 @@
 			size: 1.5d
 			subtitle: "I~ can do anything!"
 			tasks: [{
-				id: "0195AE282D27384D"
+				id: "263AB7F748CD9233"
 				title: "Now Go Explore!"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 0.0d
+			y: -8.25d
 		}
 		{
 			dependencies: [
@@ -1341,19 +1330,19 @@
 				""
 				"&eAmethyst Golems&r will convert Amethyst into &bBudding Amethyst&r, speed up &aamethyst growth&r, and will also &aharvest amethyst clusters&r, so long as their home block is an inventory such as a chest or barrel."
 			]
-			id: "01FF4033A5D2BCD3"
+			id: "768A8DE92A874C06"
 			rewards: [{
-				id: "0C29B53660B685C1"
+				id: "1F6FB5AD1C25A809"
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
 			tasks: [{
-				id: "54AC3AEE86B82852"
+				id: "1F0BCEE552B4E00C"
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 16.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1364,19 +1353,19 @@
 				""
 				"The &bSiren Shrine&r will generate &afishing loot&r, as long as it is provided with &bSource&r. The &eSirens&r will produce faster if they have lots of aquatic plants and animals to keep them company!"
 			]
-			id: "5A7582AFC194A690"
+			id: "3568EEB3E5883A3B"
 			rewards: [{
-				id: "41D9C996B06EE23D"
+				id: "5644ED9CBBF642A9"
 				item: "ars_elemental:siren_charm"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0BA130098BD1B514"
+				id: "2989B16515B6C373"
 				item: "ars_elemental:siren_charm"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.5d
+			x: 15.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["518A08681965283A"]
@@ -1387,19 +1376,19 @@
 				""
 				"You can give them &bSoul Sand&r or &bMagma Blocks&r to change their appearance."
 			]
-			id: "1E18004CE618CAE6"
+			id: "4C22163F8CF84BBC"
 			rewards: [{
-				id: "6D25A514C023E850"
+				id: "54F87CD2A6A259DD"
 				item: "ars_elemental:firenando_charm"
 				type: "item"
 			}]
 			tasks: [{
-				id: "66A4C54FBEE935C1"
+				id: "23F2E62E9450ECA0"
 				item: "ars_elemental:firenando_charm"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 15.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2E6190A66BE57ECE"]
@@ -1414,62 +1403,62 @@
 				""
 				"The &bBombegranate&r comes from the &aBlazing Archwood&r Tree. &dIts effects are unknown&r, as the journal from which I got this information ends at this entry."
 			]
-			id: "47B8DC917C985757"
+			id: "047AC8E05B80D13A"
 			rewards: [
 				{
-					id: "2C5FD4DEC05BC927"
+					id: "066C64CE1166C8DC"
 					item: "farmersdelight:fruit_salad"
 					type: "item"
 				}
 				{
-					id: "7DD121E3B5B44FAF"
+					id: "330357D71E518F76"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
 			tasks: [
 				{
-					id: "556F6DD690406A99"
+					id: "74CA7C989206926C"
 					item: "ars_nouveau:bombegranate_pod"
 					type: "item"
 				}
 				{
-					id: "7008D3E393DC1940"
+					id: "26E2DF59985A2ECE"
 					item: "ars_nouveau:mendosteen_pod"
 					type: "item"
 				}
 				{
-					id: "71B130EE30662AFC"
+					id: "26B6265F9A545F15"
 					item: "ars_nouveau:bastion_pod"
 					type: "item"
 				}
 				{
-					id: "0B064F39159CC792"
+					id: "1F310C686AA1BAE1"
 					item: "ars_nouveau:frostaya_pod"
 					type: "item"
 				}
 			]
 			title: "Fruitful Labors"
-			x: -5.5d
-			y: -4.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
 			description: ["The &bVitalic Sourcelink&r generates source when it is around &eAnimals&r. When animals &abreed, grow up, or die&r, it will generate source."]
-			id: "52BA326D307DE192"
+			id: "4ABC16E15D6D3CBF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2F6A813E98A1C353"
+				id: "7FCB5AAB9F57AB4F"
 				table_id: 2716320750821748806L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0E302B0E45889C5F"
+				id: "550341F30F30D51D"
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 14.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
@@ -1478,26 +1467,26 @@
 				""
 				"It will also &agenerate mushrooms&r and &bMycelium&r in the surrounding area."
 			]
-			id: "7E3F38817F8844ED"
+			id: "5076AA74184DD4C3"
 			rewards: [
 				{
-					id: "0CDA2AAB3DCACC51"
+					id: "48B79C3BDCB04E5C"
 					item: "duckling:holiday_fruit_cake"
 					type: "item"
 				}
 				{
-					id: "163131943C2956D5"
+					id: "3B27815C07B203C2"
 					item: "minecraft:mycelium"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "31243875C9646F44"
+				id: "69B4FDD826B9EB8A"
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 15.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
@@ -1506,35 +1495,35 @@
 				""
 				"Change the color of your &bLava Lily&r by placing it over Lava or Magma."
 			]
-			id: "4F22356C80F0C6AA"
+			id: "4888B94C3B59C956"
 			rewards: [
 				{
-					id: "660EB3FA52112EB5"
+					id: "3C4F23DBCDA0E266"
 					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
 					count: 3
-					id: "4B7C7675B20BC9F9"
+					id: "2D221B3B95B1C18A"
 					item: "ars_nouveau:lava_lily"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "371ABA829CC8A1E8"
+				id: "68B769D022EA3FAF"
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
 			description: ["The &bAlchemical Sourcelink&r generates source when provided with &bPotions&r. The more complex the potion, the more Source is produced."]
-			id: "205A56EE169E1DC0"
+			id: "7B32841FB1D7374C"
 			rewards: [
 				{
-					id: "06308C0693617776"
+					id: "1C27EABFABA0D257"
 					item: {
 						Count: 1b
 						id: "minecraft:potion"
@@ -1546,24 +1535,24 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7E12B494D02CE82D"
+					id: "6985B3E30EFADB31"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "3FDCBD44372C5A2E"
+				id: "69F65EEA38412D1A"
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 14.5d
+			y: 4.5d
 		}
 		{
 			description: ["Gift a &eWild Starbuncle&r a &bGold Nugget&r and see what happens!"]
-			id: "1AEACEEBD42A4E1B"
+			id: "2A9FB9C74E05C3A7"
 			rewards: [{
-				id: "59E05CDC96C5EAE7"
+				id: "1BAA6D863E9415EE"
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
@@ -1572,11 +1561,11 @@
 				advancement: "ars_nouveau:poof_mob"
 				criterion: ""
 				icon: "minecraft:gold_nugget"
-				id: "5CE951FAED55C40B"
+				id: "2E71158054F81773"
 				type: "advancement"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
@@ -1585,16 +1574,16 @@
 				""
 				"Thankfully, the &bScroll of Save Starbuncle&r will &apreserve all their settings&r. Just be sure to &6right click the scroll&r on your Starby after you've finished setting them up!"
 			]
-			id: "1C29A869EC894801"
+			id: "72C2AAB486D8C903"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "787058777C0C6747"
+					id: "4BF85DA4606D2E7F"
 					table_id: 2716320750821748806L
 					type: "random"
 				}
 				{
-					id: "5BCCDEFA1F3D8323"
+					id: "7F647A2C3B93671C"
 					item: {
 						Count: 1b
 						id: "ars_nouveau:starby_gift"
@@ -1604,7 +1593,7 @@
 				}
 			]
 			tasks: [{
-				id: "78A4B1CE7764E797"
+				id: "0E25E63DE99F945D"
 				item: {
 					Count: 1b
 					id: "ars_instrumentum:scroll_of_save_starbuncle"
@@ -1612,8 +1601,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 20.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7A5533BEA4D6B751"]
@@ -1626,15 +1615,15 @@
 				""
 				"To begin, &6equip your robes and set up your hotbar&r. Then, open the radial and &6select the slot&r to save them to. Open your radial again, and &6switch to a different slot&r. Equip your second set of armor and then &6repeat the previous&r steps until all 3 slots are filled. Now, you can &aeasily swap between them&r using the radial."
 			]
-			id: "6166CCA185DDB9F1"
+			id: "7B2CCA50AC3A7C34"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "65F63438E276DB0C"
+				id: "5A52297BC595C469"
 				table_id: 5036677739913042344L
 				type: "choice"
 			}]
 			tasks: [{
-				id: "39E77CA4B1740E5B"
+				id: "776E85B05DF9B2E4"
 				item: {
 					Count: 1b
 					id: "ars_instrumentum:wizards_armarium"
@@ -1643,51 +1632,51 @@
 				type: "item"
 			}]
 			title: "Multiple Sets At Once"
-			x: -5.5d
-			y: -1.0d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
 			description: ["Equip your &eStarbuncles&r with a &bStarbucket&r to allow them to &atransport fluid back and forth&r. You may wish to store the fluid in a &bFluid Containment Jar&r."]
-			id: "0070E0B930AC3ABD"
+			id: "60D38D9768128D69"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7F3E3D325648191C"
+				id: "4787F549050C16EA"
 				table_id: 2716320750821748806L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "75FA73AF9DB31F22"
+					id: "456F854628DB61B3"
 					item: "starbunclemania:star_bucket"
 					type: "item"
 				}
 				{
-					id: "2782F548F3700245"
+					id: "2C3E806BF3378CA8"
 					item: "starbunclemania:fluid_jar"
 					type: "item"
 				}
 			]
 			title: "Starbuncles Carry Liquid!"
-			x: 6.5d
-			y: 3.5d
+			x: 19.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
 			description: ["The &eStarbuncles&r are capable of taking lessons from &eBookwyrms&r using the &bWyrm Degree&r. Now that they're much smarter, they can &aoperate on only certain sides of their blocks&r."]
-			id: "72E1E1A6B5BBAB5D"
+			id: "7F46BC95BF2888D6"
 			rewards: [{
-				id: "62545F71F4A34D52"
+				id: "7265DC2E1FAB110C"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "067E757B16C76CA7"
+				id: "2ED86E996161EF52"
 				item: "starbunclemania:wyrm_degree"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 20.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
@@ -1696,36 +1685,36 @@
 				""
 				"You can set a filter by &6preparing an Allow/Deny Scroll&r and &6clicking your Starbuncle&r with it."
 			]
-			id: "6870DE7CB25E9C8D"
+			id: "79DA250D0AB70A18"
 			rewards: [{
-				id: "77E2B17C4EF8C6D2"
+				id: "742E0CFDB22943FE"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "05746F8F8087B4BD"
+				id: "4D3F1D5D8E030151"
 				item: "starbunclemania:star_bin"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 19.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
 			description: ["Although it lacks polish, the &bStarddle&r allows you to do what the best of us have only dreamed of: &ariding a giant Starbuncle&r."]
-			id: "68F7C83A4EB11B54"
+			id: "3CBED7F5074AAC60"
 			rewards: [{
-				id: "0903B8304EA2E6A6"
+				id: "399CE1B3744AB0D7"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "71D8A4761735A429"
+				id: "7CF8D1F092A20C04"
 				item: "starbunclemania:star_saddle"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: 20.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
@@ -1734,9 +1723,9 @@
 				""
 				"You can &awear up to three&r of these, and by default they are accessible with &6CTRL+1-3&r."
 			]
-			id: "068E6BE3B5F01460"
+			id: "3B3E4971BB7791B2"
 			rewards: [{
-				id: "3CEFCECBECFC5E0D"
+				id: "686504A4CA3E98EF"
 				item: {
 					Count: 1b
 					id: "casting_crystals:casting_crystal"
@@ -1746,7 +1735,7 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2F1284F4302FDD13"
+				id: "7B19340BF5819A5E"
 				item: {
 					Count: 1b
 					id: "casting_crystals:casting_crystal"
@@ -1754,15 +1743,16 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
-			id: "5DF07C53B8BA59F4"
+			id: "411067369F9F791A"
 			invisible: true
+			optional: true
 			secret: true
 			tasks: [{
-				id: "61F16DD0CDACA661"
+				id: "34F4F5DB4C687FDF"
 				item: "ftbquests:barrier"
 				type: "item"
 			}]
@@ -1771,17 +1761,17 @@
 		}
 		{
 			description: ["Did you know that &eUndead&r are susceptible to &aSpores&r and &aGrow&r spells? You should test it out sometime."]
-			id: "1614EF9C7E462CD9"
+			id: "0ADEC837463EDF79"
 			rewards: [
 				{
 					count: 3
-					id: "253E68C8CB0F45F7"
+					id: "7EF2429F341FFF8A"
 					item: "minecraft:spore_blossom"
 					type: "item"
 				}
 				{
 					count: 3
-					id: "185E7572249B298E"
+					id: "0C6447F5A864C373"
 					item: "ars_elemental:spore_blossom_up"
 					type: "item"
 				}
@@ -1790,30 +1780,30 @@
 			tasks: [{
 				advancement: "ars_elemental:spore_blossom"
 				criterion: ""
-				id: "1483BD6D4B597C26"
+				id: "4616623FB312CCC9"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			description: ["&bSkyweave&r is an item which &amimics the look of the sky&r, so you can see sunlight even when underground!"]
-			id: "3C9D1C2652667535"
+			id: "04BD1B013A5EE5C6"
 			rewards: [{
 				count: 5
-				id: "2CE973A6BEC0A601"
+				id: "240DE0FCA1B2B5D2"
 				item: "ars_nouveau:sky_block"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "1B0DC09EB80A513D"
+				id: "151F5930042B2FF8"
 				item: "ars_nouveau:sky_block"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 4.0d
+			y: -8.5d
 		}
 	]
-	title: "Ars Nouveau"
+	title: "Wired's Ars Redux"
 }

@@ -1,0 +1,31 @@
+{
+    "name": "Minigames",
+    "icon": "create:linked_controller",
+    "category": "patchouli:blessbane",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The main village area of §7Blessbane§r contains multiple Minigames which reward tickets in exchange for doing well in the games! These tickets can be exchanged for multiple random rewards. These can be Golden Apples, Golden Apple Crates, Witch Cat Plushies, and a selection of custom hats (by Astrofush)!$(br2)See the following pages for the list of minigames!"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Hall of Horror",
+            "images": ["hexhaven:textures/faq/blessbane/minigames/hall_of_horror.png"],
+            "text": "The Feral Beasts seek to end your life... how long can you last? Dodge blades, the beasts, and scoop up tickets along the way! My record is a stack :)"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "Chicken Knockout",
+            "images": ["hexhaven:textures/faq/blessbane/minigames/chicken_knockout.png"],
+            "text": "Lift your crossbow and blast them from the sky! Chicken Knockout tests your skill with multishot to get as many tickets as you can with limited arrows!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "...and more to come!"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

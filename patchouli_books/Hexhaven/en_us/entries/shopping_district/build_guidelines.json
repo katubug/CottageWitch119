@@ -1,0 +1,24 @@
+{
+    "name": "Building Guidelines",
+    "icon": "prefab:item_town_hall",
+    "category": "patchouli:shopping_district",
+    "sortnum":2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Shops must be $(l)approved$() to build within the shopping districts.$(br2)All shops must follow the following rules:$(br)$(li)Shops must have a visible sign with your name and the last date you checked your shop"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Shops must have a clear, specific theme. Theme defines the atmosphere of your shop as well as the types of items sold.$(br2)$(o)This idea is to avoid having 'Some Mod: The Shop' and leave space for others to make shops$()!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)No continuous machines (must have on/off)$(br)$(li)Minimal particle effects$(br)$(li)Use apple crates or have signage dictating prices$(br)$(li)No megabuilds"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Do not claim any chunks$()$(br)$(li)You may have one (1) live entity in your build - $(l)NO Villagers$()$(br)$(li)Fairy lights entities are allowed, but please use them sparingly"
+        }
+    ]
+}

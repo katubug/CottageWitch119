@@ -1,0 +1,21 @@
+{
+    "name": "Mail Center",
+    "icon": "contact:red_postbox",
+    "category": "patchouli:welcome",
+    "sortnum":4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The mail center is located inside the Heart of Hexhaven.$(br2)Mail related items are sold here by the mod team! $(br2)Additionally, the contact central mailbox is located here, as well as a post box to send your mail."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Mail Mods",
+            "text": "We use two mail mods in Hexhaven: Contact and Snailmail.$(br2)Contact allows players with no mailboxes to still receive mail.$(br2)Snailmail allows use of shared mailboxes and multiple mailboxes.",
+            "entries": [
+                "patchouli:mods/contact",
+                "patchouli:mods/snailmail"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "§n§lRelated",
+    "icon": "",
+    "category": "patchouli:shopping_district",
+    "sortnum":8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Everything else you need to know about the shopping districts can be found in the following chapters!"
+        }
+    ]
+}

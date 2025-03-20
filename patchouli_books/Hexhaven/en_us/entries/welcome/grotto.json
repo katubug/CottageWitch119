@@ -1,0 +1,58 @@
+{
+    "name": "The Initiate's Grotto",
+    "icon": "twilightforest:twilight_portal_miniature_structure",
+    "category": "patchouli:welcome",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You will find an entrance to the Grotto immediately ahead of you when you join the world (or when you use the command $(c:/spawn)/spawn$()!).$(br2)This is a player-made structure designed to help you through your first few weeks of server life."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Initiate's Grotto",
+            "text": "Follow the $(l)Tip Stumps$() through the fallen log!$(br2)Here you will find portals to simple, early game farms and machines to help you acquire the materials you need to get on your feet, and some portals to helpful locations around Hexhaven!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Initiate's Grotto",
+            "text": "This location currently only covers the very basics. As you grow in our community, you may find the farms here too slow for your needs.$(br2)When you're ready to take the leap, check out the $(c:/warp nexus)/warp nexus$() to gain access to our $(l:patchouli:traveling/nexus)entire network system$()!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Lore",
+            "text": "The Initiates' Grotto is built on the bones of older structures.$(br2)Once known as the $(l)Hall of Many Ways$(), this site of ancient arcane learning was centered around the great Tree of Doors."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Lore",
+            "text": "Half natural, half $(br)man-made, this tree was augmented by ancient builders using stone and magic to sustain hundreds of portals.$(br2)The tree’s mysterious fall led to the loss of numerous passages, leaving the hall a shadow of its former grandeur."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Lore",
+            "text": "The Heart of Hexhaven intervened in an effort to preserve what remained; mingling her roots with those of the $(l)Brilliant Briar$(), which now safeguards the surviving doorways."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Lore",
+            "text": "A single suspended seed of the Tree of Doors floats above the grotto; surrounded by the remaining ruins of the Hall of Many Ways.$(br2)The true origins of the hall and the cause of the tree’s demise $(l)remain mysteries$(). "
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Lore",
+            "text": "The site, however, continues to serve as a place of learning for new witches to this day!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "All Thanks To",
+            "text": "Thanks to the team that put together the grotto!$(li)CurlieCue22$(li)DuathNin$(li)Turtles_Mew$(li)Salixa$(li)Emmulah$(li)earl624$(li)Darklordacidburn$(li)And of course, $(l)you$(), $(#0099ff)$(playername)!$()$(br)Thanks for being a part of Hexhaven."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": ["hexhaven:textures/faq/welcome/grotto_entry.png"],
+            "text": ""
+        }
+    ]
+}

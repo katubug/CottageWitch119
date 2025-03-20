@@ -255,7 +255,9 @@ ServerEvents.tags('item', event => {
         'extradelight:crimson_knife_block',
         'extradelight:warped_knife_block',
         'extradelight:mangrove_knife_block',
-        'extradelight:cinnamon_knife_block'
+        'extradelight:cinnamon_knife_block',
+        'gateways:gate_pearl',
+        'alexsmobs:hemolymph_blaster'
     )
     event.add('twilightforest:banned_uncrafting_ingredients',
         '#forge:eyes',
@@ -1075,6 +1077,24 @@ ServerEvents.tags('item', event => {
         'kubejs:harvest_moon',
         'kubejs:corn_moon',
         'kubejs:oak_moon',
-        'kubejs:hunter_moon'
+        'kubejs:hunter_moon',
+        'kubejs:wolf_moon',
+        'kubejs:frost_moon'
     )
+
+    //Sea Crystals
+	event.add('forge:sea_crystals',
+		'mermod:sea_crystal',
+		'mermod:deep_sea_crystal_modifier',
+		'minecraft:prismarine_crystals'
+	)
+
+	//Terrestrial Crystals
+	event.add('forge:terrestrial_crystals',
+		'byg:subzero_crystal_shard', 
+        'byg:therium_crystal_shard', 
+        'deeperdarker:soul_crystal', 
+        'experienceobelisk:cognitive_crystal',
+		'minecraft:amethyst_shard'
+	)
 })

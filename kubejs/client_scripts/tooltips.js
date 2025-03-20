@@ -1543,10 +1543,10 @@ ItemEvents.tooltip(e => {
         'moblassos:aqua_lasso', 
         'moblassos:emerald_lasso', 
         'moblassos:hostile_lasso'],
-        'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
+        `\u00A7d`+'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
     )
 
-    e.add('brewinandchewin:keg','Warning: pickles, jerky, and certain recipes can cause crashes.')
+    e.add('brewinandchewin:keg',`\u00A7d`+'Warning: pickles, jerky, and certain recipes can cause crashes.')
 
     e.add('#forge:maj_acs', `\u00A7d`+'Do not combine these in your inventory, it can cause crashes!')
 
@@ -1558,6 +1558,8 @@ ItemEvents.tooltip(e => {
     e.add('kubejs:corn_moon', 'The Corn Moon occurs in September.')
     e.add('kubejs:oak_moon', 'The Oak Moon occurs in December.')
     e.add('kubejs:hunter_moon', 'The Hunter Moon occurs in October.')
+    e.add('kubejs:frost_moon', 'The Frost Moon occurs in November.')
+    e.add('kubejs:wolf_moon', 'The Wolf Moon occurs in January.')
 
     e.add('#forge:moon_certificates', `\u00A7d`+'Art by LoFi Fruit')
 
@@ -1567,6 +1569,7 @@ ItemEvents.tooltip(e => {
         "Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!"
     );
 
+    e.add(['contact:wrapping_paper','contact:ender_wrapping_paper'], 'Right Click to open GUI')
     // spawn eggs:
    const canDrop = ['minecraft:ocelot_spawn_egg', 'minecraft:panda_spawn_egg', 'minecraft:parrot_spawn_egg', 'minecraft:phantom_spawn_egg', 'minecraft:pig_spawn_egg', 'minecraft:piglin_brute_spawn_egg', 'minecraft:piglin_spawn_egg', 'minecraft:llama_spawn_egg', 'minecraft:magma_cube_spawn_egg', 'minecraft:allay_spawn_egg', 'minecraft:axolotl_spawn_egg', 'minecraft:bat_spawn_egg', 'minecraft:bee_spawn_egg', 'minecraft:blaze_spawn_egg', 'minecraft:cat_spawn_egg', 'minecraft:cave_spider_spawn_egg', 'minecraft:chicken_spawn_egg', 'minecraft:cod_spawn_egg', 'minecraft:cow_spawn_egg', 'minecraft:creeper_spawn_egg', 'minecraft:dolphin_spawn_egg', 'minecraft:donkey_spawn_egg', 'minecraft:drowned_spawn_egg', 'minecraft:enderman_spawn_egg', 'minecraft:endermite_spawn_egg', 'minecraft:fox_spawn_egg', 'minecraft:frog_spawn_egg', 'minecraft:mooshroom_spawn_egg', 'minecraft:mule_spawn_egg', 'minecraft:ghast_spawn_egg', 'minecraft:glow_squid_spawn_egg', 'minecraft:goat_spawn_egg', 'minecraft:guardian_spawn_egg', 'minecraft:hoglin_spawn_egg', 'minecraft:horse_spawn_egg', 'minecraft:husk_spawn_egg', 
         'minecraft:zombified_piglin_spawn_egg', 'alexsmobs:spawn_egg_alligator_snapping_turtle', 'alexsmobs:spawn_egg_anaconda', 'alexsmobs:spawn_egg_anteater', 'alexsmobs:spawn_egg_bald_eagle', 'alexsmobs:spawn_egg_banana_slug', 'alexsmobs:spawn_egg_bison', 'alexsmobs:spawn_egg_blobfish', 'alexsmobs:spawn_egg_blue_jay', 'minecraft:pillager_spawn_egg', 'minecraft:polar_bear_spawn_egg', 'minecraft:pufferfish_spawn_egg', 'minecraft:rabbit_spawn_egg', 'minecraft:ravager_spawn_egg', 'minecraft:salmon_spawn_egg', 'minecraft:sheep_spawn_egg', 'minecraft:shulker_spawn_egg', 'minecraft:silverfish_spawn_egg', 'minecraft:skeleton_horse_spawn_egg', 'minecraft:skeleton_spawn_egg', 'minecraft:slime_spawn_egg', 'minecraft:spider_spawn_egg', 'minecraft:squid_spawn_egg', 'minecraft:stray_spawn_egg', 'minecraft:strider_spawn_egg', 'minecraft:tadpole_spawn_egg', 'minecraft:trader_llama_spawn_egg', 'minecraft:tropical_fish_spawn_egg', 'minecraft:turtle_spawn_egg', 'minecraft:vex_spawn_egg', 'minecraft:vindicator_spawn_egg', 'minecraft:witch_spawn_egg', 'minecraft:wither_skeleton_spawn_egg', 'minecraft:wolf_spawn_egg', 'minecraft:zoglin_spawn_egg', 'minecraft:zombie_spawn_egg', 

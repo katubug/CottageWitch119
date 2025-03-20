@@ -1,0 +1,17 @@
+{
+    "name": "Consent",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:manifesto",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Consent is not just sexy- it's cool!$(br2)We do not have explicit rules against jokes, pranks, teasing, or mock rivalries... but these are all things that require consent from both parties in order to be considered Fun and not Dingus Behaviour."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The same is true for topics brought up in the global chats.$(br2)It's best to not assume something is okay with everyone, and just ask instead!"
+        }
+    ]
+
+}

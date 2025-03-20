@@ -1,0 +1,20 @@
+{
+    "name": "The Root",
+    "icon": "byg:weeping_roots",
+    "category": "patchouli:blessbane",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This tall tree in the center of §7Blessbane§r may remind you slightly of the tree that inhabits Hexhaven. Despite its dendritic form, this is actually a taproot, §7Blessbane’s§r original and primary connection to Hexhaven. The Root has since been severed, leaving its decaying corpse standing here, but §7Blessbane§r has found new and inventive ways to sneak back into Hexhaven."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "The Root",
+            "images": ["hexhaven:textures/faq/blessbane/root.png"],
+            "text": "$(o)Seems to be a space to submit my tickets from $(l:blessbane/minigames)games...$(/l)$()"
+        }
+    ],
+    "advancement": "minecraft:end/root"
+}

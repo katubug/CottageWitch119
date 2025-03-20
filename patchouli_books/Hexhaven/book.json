@@ -1,0 +1,10 @@
+{
+    "name": "Hexhaven FAQ",
+    "landing_text": "Welcome to Hexhaven!$(br2)$(br)This book is a WIP and we would like to get your feedback in this $(l:https://discord.com/channels/1076365835284787220/1345146940459057152)thread$(/l)$(br2)Resummon this book with $(c:/faq)/faq$()",
+    "version": 1,
+    "creative_tab": "minecraft:misc",
+    "use_resource_pack": true,
+    "show_progress": false,
+    "use_blocky_font": true,
+    "text_overflow_mode": "resize"
+}
