@@ -59,7 +59,7 @@
     "generateMeteorites": false
   },
   "wireless": {
-    "wirelessBaseCost": 0.0,
+    "wirelessBaseCost": 8.0,
     "wirelessCostMultiplier": 1.0,
     "wirelessBaseRange": 16.0,
     "wirelessBoosterRangeMultiplier": 1.0,

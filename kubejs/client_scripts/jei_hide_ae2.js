@@ -204,11 +204,11 @@ JEIEvents.hideItems(event => {
         'ae2:controller',
         'ae2:crank',
         'ae2:wireless_terminal',
-        'arseng:portable_source_cell_1k',
-        'arseng:portable_source_cell_4k',
-        'arseng:portable_source_cell_16k',
-         'arseng:portable_source_cell_64k', 
-        'arseng:portable_source_cell_256k'
+        //'arseng:portable_source_cell_1k',
+        //'arseng:portable_source_cell_4k',
+        //'arseng:portable_source_cell_16k',
+        //'arseng:portable_source_cell_64k', 
+        //'arseng:portable_source_cell_256k'
         
     ];
     
