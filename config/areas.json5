@@ -30,7 +30,7 @@
 	"HUDMessageFadeDelayMs": 4000,
 	// The vertical offset (y coord) for the HUD message. This determines how far down the message should be on the screen. Can be changed to prevent GUIs from overlapping.
 	// min: 0, max: 3000
-	"HUDMessageHeightOffset": 10,
+	"HUDMessageHeightOffset":20,
 	// Increases the font size of the text in the HUD message. If you change this value, make sure to test the different GUI scale settings in-game. 6.0 is considered large.
 	// min: 0.0, max: 10.0
 	"HUD_FontSizeScaleModifier": 1.0,

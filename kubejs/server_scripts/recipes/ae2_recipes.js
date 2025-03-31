@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 			'C C',
 			'ADA'
 		], {
-			A: 'minecraft:iron_ingot',
+			A: 'minecraft:gold_ingot',
 			B: 'ars_nouveau:repository',
 			C: 'hexerei:moon_dust',
 			D: 'minecraft:enchanting_table'
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 
 	//ME Wireless Crafting Terminal
 	event.shaped(
-		Item.of('ae2:wireless_crafting_terminal'),
+		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),
 		[
 			'ABC',
 			' D '

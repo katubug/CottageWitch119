@@ -150,22 +150,23 @@
 					type: "item"
 				}
 				{
-					id: "47F944D5E9072B4B"
-					item: {
+					command: "/give @p sophisticatedbackpacks:backpack"
+					icon: {
 						Count: 1b
 						id: "sophisticatedbackpacks:backpack"
 						tag: {
 							contentsUuid: [I;
-								1903432190
-								-985186150
-								-1671956176
-								-1243369805
+								-1626142155
+								-568440430
+								-1447921535
+								-642466256
 							]
 							inventorySlots: 27
 							upgradeSlots: 1
 						}
 					}
-					type: "item"
+					id: "1A31D0B7078F067D"
+					type: "command"
 				}
 			]
 			shape: "rsquare"

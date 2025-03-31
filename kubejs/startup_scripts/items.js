@@ -45,6 +45,10 @@ ItemEvents.modification(event => {
       item.maxStackSize = 64
     })
 
+    event.modify('ae2:singularity', item => {
+        item.fireResistant = true
+      })
+
 })
 
 

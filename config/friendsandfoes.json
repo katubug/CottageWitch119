@@ -1,5 +1,4 @@
 {
-  "checkForNewUpdates": true,
   "enableCopperGolem": true,
   "generateCopperGolemAreaStructure": true,
   "copperGolemAreaStructureWeight": 1,

@@ -1760,6 +1760,8 @@
 				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bResonance Access Point&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
 				""
 				"If you would like to &aextend the range&r beyond that of your access points, you can add on &bResonance Boosters&r to get a &amax range of 528 blocks&r. You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade your &bResonant Aperture&r with (see the next quest)."
+				""
+				"Over time and with use, the &bResonant Aperture&r may &alose resonance&r, and if this occurs, you can &6place it in a &bCharging Gadget&r to fill it back up with resonance."
 			]
 			id: "3BCEBB5E08B49230"
 			rewards: [{
@@ -1772,6 +1774,7 @@
 			tasks: [{
 				id: "45EF8283B4A96E89"
 				item: "ae2:wireless_crafting_terminal"
+				match_nbt: false
 				type: "item"
 			}]
 			x: 2.5d
