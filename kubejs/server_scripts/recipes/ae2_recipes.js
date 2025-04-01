@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:gold_ingot',
 			B: 'ars_nouveau:repository',
-			C: 'hexerei:moon_dust',
+			C: 'ars_instrumentum:runic_storage_stone',
 			D: 'minecraft:enchanting_table'
 		}
 	)
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 			'CDC',
 			'ACA'
 		], {
-			A: 'experienceobelisk:cognitive_flux',
+			A: 'hexerei:moon_dust',
 			B: 'minecraft:gold_ingot',
 			C: 'ae2:cell_component_16k',
 			D: 'ars_nouveau:source_gem'
