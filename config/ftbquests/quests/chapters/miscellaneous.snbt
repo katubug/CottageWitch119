@@ -584,9 +584,9 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				advancement: "morevillagers:first_trade"
+				advancement: "minecraft:adventure/trade"
 				criterion: ""
-				id: "1AE5841864AEE2A1"
+				id: "1575D86D05706256"
 				type: "advancement"
 			}]
 			title: "Trade with a Villager"

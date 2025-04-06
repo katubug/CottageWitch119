@@ -271,8 +271,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Quacklings"
-			x: 10.0d
-			y: -4.5d
+			x: 11.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -680,8 +680,8 @@
 				to_observe: "alexsmobs:spectre"
 				type: "observation"
 			}]
-			x: 8.5d
-			y: -5.5d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -735,8 +735,8 @@
 				id: "15E17BA6B7FB4D8F"
 				type: "advancement"
 			}]
-			x: 8.5d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -836,8 +836,8 @@
 				type: "observation"
 			}]
 			title: "Meet a Cachalot Whale"
-			x: 7.0d
-			y: -2.5d
+			x: 8.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -1239,6 +1239,7 @@
 		{
 			description: [
 				"The &bRascal&r is a lonely creature who dwells in &cMineshafts below y 0&r! What it spends its days doing is a mystery, but one thing is clear: it wants to play!"
+				""
 				"If you can &6find the same &eRascal&6 3 times within 15 minutes&r, it will give you a small reward as thanks."
 			]
 			id: "0C7029D3D91202D8"
@@ -1259,21 +1260,14 @@
 			]
 			shape: "octagon"
 			tasks: [{
-				advancement: "whatareyouvotingfor:adventure/win_hide_and_seek"
+				advancement: "friendsandfoes:adventure/complete_hide_and_seek_game"
 				criterion: ""
-				icon: {
-					Count: 1b
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3AC7E8D48402FA59"
+				id: "7137ED4324FF041E"
 				type: "advancement"
 			}]
 			title: "Win a Game of Hide and Seek"
-			x: 11.5d
-			y: -4.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			id: "61F03A15727266F2"
@@ -2144,7 +2138,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Goat"
-			x: 7.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{

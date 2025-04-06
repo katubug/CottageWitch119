@@ -7,16 +7,16 @@ ServerEvents.recipes(event => {
 			'C C',
 			'ADA'
 		], {
-			A: 'minecraft:iron_ingot',
+			A: 'minecraft:gold_ingot',
 			B: 'ars_nouveau:repository',
-			C: 'hexerei:moon_dust',
+			C: 'ars_instrumentum:runic_storage_stone',
 			D: 'minecraft:enchanting_table'
 		}
 	)
 
 	//ME Wireless Crafting Terminal
 	event.shaped(
-		Item.of('ae2:wireless_crafting_terminal'),
+		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),
 		[
 			'ABC',
 			' D '
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 			'CDC',
 			'ACA'
 		], {
-			A: 'experienceobelisk:cognitive_flux',
+			A: 'hexerei:moon_dust',
 			B: 'minecraft:gold_ingot',
 			C: 'ae2:cell_component_16k',
 			D: 'ars_nouveau:source_gem'

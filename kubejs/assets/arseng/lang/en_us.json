@@ -1,0 +1,22 @@
+{
+  "arseng.page.source_acceptor": "The Nexus Source Converter converts source into AE energy. Attach to an Nexus network and feed it source with a relay.",
+  "arseng.page.source_acceptor_description": "The Source Converter comes in both block and cable part form.",
+  "arseng.page.source_cell_housing": "Nexus Source Cells can be crafted with an Nexus Source Cell Housing. They will store many jars' worth of source.",
+  "block.arseng.source_acceptor": "ME Source Converter",
+  "item.arseng.cable_source_acceptor": "Nexus Source Acceptor",
+  "item.arseng.creative_source_cell": "Creative Nexus Source Cell",
+  "item.arseng.portable_source_cell_16k": "16k Portable Source Cell",
+  "item.arseng.portable_source_cell_1k": "1k Portable Source Cell",
+  "item.arseng.portable_source_cell_256k": "256k Portable Source Cell",
+  "item.arseng.portable_source_cell_4k": "4k Portable Source Cell",
+  "item.arseng.portable_source_cell_64k": "64k Portable Source Cell",
+  "item.arseng.source_cell_housing": "Nexus Source Cell Housing",
+  "item.arseng.source_p2p_tunnel": "Nexus Source Transference Focus",
+  "item.arseng.source_storage_cell_16k": "16k Nexus Source Glyphstone",
+  "item.arseng.source_storage_cell_1k": "1k Nexus Source Glyphstone",
+  "item.arseng.source_storage_cell_256k": "256k Nexus Source Glyphstone",
+  "item.arseng.source_storage_cell_4k": "4k Nexus Source Glyphstone",
+  "item.arseng.source_storage_cell_64k": "64k Nexus Source Glyphstone",
+  "item.arseng.spell_p2p_tunnel": "Nexus Spell Transference Focus",
+  "itemGroup.arseng": "Ars Énergistique"
+}

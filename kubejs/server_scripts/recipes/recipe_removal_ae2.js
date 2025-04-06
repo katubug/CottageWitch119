@@ -242,6 +242,11 @@ ServerEvents.recipes(event => {
         {id: 'ae2wtlib:quantum_bridge_card'},
         {id: 'ae2:network/parts/level_emitter'},
         {id: 'ae2:network/parts/tunnels_me'},
+        //{output: 'arseng:portable_source_cell_1k'},
+        //{output: 'arseng:portable_source_cell_4k'},
+        //{output: 'arseng:portable_source_cell_16k'},
+        //{output:  'arseng:portable_source_cell_64k'}, 
+        //{output: 'arseng:portable_source_cell_256k'}
         
     ];
     

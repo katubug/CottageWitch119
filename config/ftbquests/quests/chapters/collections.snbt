@@ -86,11 +86,6 @@
 					type: "item"
 				}
 				{
-					id: "279FCB8C97BBF8F6"
-					item: "byg:rose"
-					type: "item"
-				}
-				{
 					id: "51E056401A66A88D"
 					item: "byg:kovan_flower"
 					type: "item"
@@ -841,6 +836,11 @@
 					id: "35E657F9581317FF"
 					table_id: 5036677739913042344L
 					type: "choice"
+				}
+				{
+					id: "5570C2E17885BB4E"
+					item: "plushies:mooshroom"
+					type: "item"
 				}
 			]
 			shape: "hexagon"

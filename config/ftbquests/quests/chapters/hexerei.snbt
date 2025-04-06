@@ -1165,6 +1165,37 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: [
+				"Similar to moon water in real life, you can obtain &bMoon Dust&r by combining &bRedstone&r and &bGlowstone&r &6during a Full Moon&r."
+				""
+				"It's used for some important recipes, such high level &bStorage Glyphs&r, so it's a good idea to have some on hand! You can use a &bMoon Dial&r to tell what moon phase is currently active. You can &6hold it and right click&r to see how many days remain until the full moon."
+			]
+			id: "766F6DE3017EB431"
+			rewards: [{
+				id: "3278A9E63C2F3475"
+				item: "twilightforest:moon_dial"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "136C49680CFFA705"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "66A3E8EAD7198CE6"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			title: "Moon Dust"
+			x: 0.5d
+			y: 4.5d
+		}
 	]
 	title: "Hexerei"
 }

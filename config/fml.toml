@@ -1,4 +1,4 @@
-versionCheck = true
+versionCheck = false
 splashscreen = true
 defaultConfigPath = "defaultconfigs"
 disableOptimizedDFU = true

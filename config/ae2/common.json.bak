@@ -4,7 +4,7 @@
     "matterCannonBlockDamage_comment": "Enables the ability of the Matter Cannon to break blocks.",
     "matterCannonBlockDamage": true,
     "tinyTntBlockDamage_comment": "Enables the ability of Tiny TNT to break blocks.",
-    "tinyTntBlockDamage": true,
+    "tinyTntBlockDamage": false,
     "serverOpsIgnoreSecurity_comment": "Server operators are not restricted by ME security terminal settings.",
     "serverOpsIgnoreSecurity": true,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",
@@ -61,9 +61,9 @@
   "wireless": {
     "wirelessBaseCost": 0.0,
     "wirelessCostMultiplier": 1.0,
-    "wirelessBaseRange": 1024.0,
-    "wirelessBoosterRangeMultiplier": 2.0,
-    "wirelessBoosterExp": 0.0,
+    "wirelessBaseRange": 16.0,
+    "wirelessBoosterRangeMultiplier": 1.0,
+    "wirelessBoosterExp": 1.5,
     "wirelessHighWirelessCount": 64.0,
     "wirelessTerminalDrainMultiplier": 1.0
   },
