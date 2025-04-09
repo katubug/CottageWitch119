@@ -417,7 +417,15 @@ JEIEvents.hideItems(event => {
 		'refurbished_furniture:crimson_mail_box',
 		'refurbished_furniture:warped_mail_box',
 		'refurbished_furniture:post_box',
-		'ars_instrumentum:numeric_mana_charm'
+		'ars_instrumentum:numeric_mana_charm',
+		'spelunkery:raw_lead_nugget',
+		'spelunkery:raw_silver_nugget',
+		'spelunkery:copper_nugget', 
+		'spelunkery:rough_jade_shard',
+		'spelunkery:jade_shard',
+		'delightful:steel_knife',
+		'delightful:silver_knife',
+		'delightful:bronze_knife'
 	];
 
 	for (const hide of toHide) {
