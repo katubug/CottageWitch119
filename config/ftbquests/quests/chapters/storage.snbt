@@ -1656,11 +1656,13 @@
 		{
 			dependencies: ["2C8735C0B1C9431D"]
 			description: [
-				"The &bPlanar Relay&r is made using the fairy ring. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about one minute&r and the items will combined into your &bPlanar Relay&r!"
+				"The &bPlanar Relay&r is made using the &afairy ring&r. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about one minute&r and the items will combined into your &bPlanar Relay&r!"
 				""
-				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try using the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain interdimensional storage access."
+				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try dropping these two items next to a &bTiny TNT&r &6and igniting the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain cross dimensional storage access."
 				""
-				"The two &bEntangled Planar Relays&r you create represent &atwo halves of a shared connection&r, &dyou will need both, so don't lose them&r! If you want more than one cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &aentangle a new&r &bPlanar Relay&r to link them."
+				"The two &bEntangled Planar Relays&r you create represent &atwo halves of a shared connection&r, &dyou will need both, so don't lose them&r! "
+				""
+				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
 			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
@@ -1684,8 +1686,8 @@
 					weak_nbt_match: true
 				}
 			]
-			x: 5.5d
-			y: -13.0d
+			x: 4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["68BCE0298503D8C8"]
@@ -1694,9 +1696,9 @@
 				""
 				"&6You'll need to insert 1 of the&r &bEntangled Planar Relays&r &6you made in to the&r &bPlanar Relay Link Chamber&r. &aDon't lose the other one - you'll need it in just a minute.&r"
 				""
-				"If you want to connect a second &bResonant Aperture&r, you will need to &6make a second Planar Relay Link 3x3 structure&r. You can &arepeat this process for as many&r &bResonant Apertures&r as you want &ainterdimensionally connected&r to your &aNexus&r."
-				""
 				"&dMake sure to chunk load this location so you can access your system while you're away. &r"
+				""
+				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
 				""
 				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
 			]
@@ -1719,8 +1721,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -13.0d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -1728,10 +1730,12 @@
 				"3BCEBB5E08B49230"
 			]
 			description: [
-				"The last step for your &ainterdimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Planar Relay&r into your &bResonant Aperture&r."
+				"The last step for your &across dimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Planar Relay&r into your &bResonant Aperture&r."
 				""
 				"&dMake sure to be in range of your &bResonance Access Point&r &din order to open your&r &bResonant Aperture&r! See the image below for where to place these items inside your &bResonant Aperture&r."
 				"{image:cottagewitch:textures/quest_images/ae2_aperture.png width:250 height:350 align:1}"
+				""
+				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
 			]
 			id: "3BA25DBF8AD8C159"
 			rewards: [{
@@ -1744,8 +1748,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -14.0d
+			x: 5.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1759,7 +1763,7 @@
 				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward_wireless.png width:250 height:250 align:1}"
 				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bResonance Access Point&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
 				""
-				"If you would like to &aextend the range&r beyond that of your access points, you can add on &bResonance Boosters&r to get a &amax range of 528 blocks&r. You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade your &bResonant Aperture&r with (see the next quest)."
+				"You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade your &bResonant Aperture&r with &a(see the next quests)&r."
 				""
 				"Over time and with use, the &bResonant Aperture&r may &alose resonance&r, and if this occurs, you can &6place it in a &bCharging Gadget&r to fill it back up with resonance."
 			]
@@ -1777,52 +1781,36 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 2.5d
-			y: -13.0d
+			x: 5.0d
+			y: -14.5d
 		}
 		{
-			dependencies: ["4F50B0FDBED86AF2"]
+			dependencies: ["2C2EAED7CEA36A33"]
 			description: [
-				"Although covens are common amongst modern witches, there is something to be said for &aprivacy&r. In order to claim your Nexus - and link your &bResonant Apertures&r - you will need a &bGuardian Ward&r and a &bWard Bypass&r."
+				"Although covens are common amongst modern witches, there is something to be said for &aprivacy&r. In order to claim your Nexus - and link your &bResonant Apertures&r - you will need a &bGuardian Ward&r."
 				""
 				"The &eGuardian&r is a spirit which inhabits the mechanical chassis known as the &bWard&r, and they will protect your Nexus so long as they are &aproperly connected&r (it merely has to be touching the other blocks)."
-				""
-				"The &bWard Bypass&r is an item which allows you to claim ownership of a given Nexus, and also to configure the behavior of your Nexus. To alter the &bBypass&r, place it in the &bGuardian Ward&r and &6select the appropriate permissions&r, as in the image below."
-				""
-				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward.png width:250 height:250 align:1}"
-				""
-				"This &bBypass&r is currently unclaimed, and if placed inside the &bGuardian Ward&r, it will apply the given permissions to anyone accessing the system. However, you can further configure access to your Nexus by having your coven &aclaim a Bypass&r with the permissions you've set on it."
-				""
-				"To claim a &bWard Bypass&r, a player should &6hold it in their hand and shift-click&r. Once the &bBypass&r belongs to that player, you can &6place it inside the &bGuardian Ward&r to give that player the permissions enscrolled in that Bypass."
-				""
-				"&dA quick note on Nexus owners&r - if you were the person to &aplace down the &bGuardian Ward&r, you cannot deposit a claimed &bBypass&r. This is designed to prevent witches from accidentally banning themselves from their own Nexus."
 			]
 			id: "1F7DD0EA78B3C25C"
 			rewards: [{
-				id: "560235B874ADC5A0"
-				item: "ae2:biometric_card"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "65D9220A33129B8D"
+				table_id: 8335827452404632652L
+				type: "random"
 			}]
 			subtitle: "magical security"
-			tasks: [
-				{
-					id: "38F4928F26855584"
-					item: "ae2:security_station"
-					type: "item"
-				}
-				{
-					id: "661BA143149B834B"
-					item: "ae2:biometric_card"
-					type: "item"
-				}
-			]
-			x: 1.0d
+			tasks: [{
+				id: "38F4928F26855584"
+				item: "ae2:security_station"
+				type: "item"
+			}]
+			x: 5.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["4B3896CA30384F99"]
 			description: [
-				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bScrying Nexus&r to be able to add and remove items from your &bRepository&r. Make sure to place it upon a cable connected to the &bRepository&r. Remember- &aeverything must have direct contact&r with a cable or another part of your system."
+				"Now you've got your power, and your storage. Now you just need a way to access it! Build yourself a &bScrying Nexus&r to be able to add and remove items from your &bRepository&r. &6Make sure to place it upon a cable connected to the&r &bRepository&r. Remember- &aeverything must have direct contact&r with a cable or another part of your system."
 				""
 				"If you'd like to be able to craft within your &bScrying Nexus&r, you can &6craft it together&r with a &bCrystal Ball&r and &bCrafting Table&r."
 				""
@@ -1844,6 +1832,11 @@
 				{
 					id: "0B2F10A7C8545CC4"
 					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "49F68F8B49861A23"
+					item: "ae2:fluix_covered_cable"
 					type: "item"
 				}
 			]
@@ -1988,6 +1981,10 @@
 				"The &bResonance Access Point&r is the core of &awireless access&r. However, the magic of &awireless connectivity&r can only reach so far. By default the range is &a16 blocks&r. You can &aincrease this range&r by &6inserting&r &bResonance Boosters&r &6into the&r &bResonance Access Point&r!"
 				""
 				"Additional &bResonance Access Points&r can be &aadded to different physical sections&r of your &aNexus&r to enable another &a16 block radius&r of &awireless access&r around that &bResonance Access Point&r."
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_access_point_range.png width:300 height:250 align:1}"
+				""
+				"The image above shows the radius of two &bResonance Access Points&r that have no &bResonance Boosters&r. The &bResonance Access Point&r on the left has a &aradius shown in blue concrete&r, while the &bResonance Access Point&r on the right has a &aradius shown in green concrete&r. &6While standing any where in the concrete areas&r, you would have &aaccess to your Nexus&r via an attuned &bResonant Aperture&r &a(Explained in the following Quest)&r."
 			]
 			id: "30EA2E54AACE1D40"
 			rewards: [{
@@ -2001,8 +1998,8 @@
 				item: "ae2:wireless_access_point"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -12.0d
+			x: 5.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["30EA2E54AACE1D40"]
@@ -2024,10 +2021,11 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -12.0d
+			x: 6.5d
+			y: -13.0d
 		}
 		{
+			dependencies: ["2C2EAED7CEA36A33"]
 			description: [
 				"Collecting 8 mushrooms and &aplacing them in a ring&r will create a fairy ring. Make sure to place them on &ablocks that can grow mushrooms&r, such as &bmycelium&r. You can then &6drop items into the fairy ring&r to &acreate new items&r!"
 				"{image:cottagewitch:textures/fairycircle.png width:250 height:189 align:1}"
@@ -2059,7 +2057,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.5d
+			x: 4.0d
 			y: -13.0d
 		}
 		{
@@ -2090,8 +2088,8 @@
 				item: "ae2:view_cell"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -14.0d
+			x: 2.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -2339,8 +2337,8 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -13.5d
+			x: 1.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7918FC1D268C6E62"]
@@ -2388,6 +2386,47 @@
 			}]
 			x: -1.5d
 			y: -14.0d
+		}
+		{
+			dependencies: ["1F7DD0EA78B3C25C"]
+			description: [
+				"The &bWard Bypass&r is an item which allows you configure the behavior of your &aNexus&r. To alter the &bBypass&r, place it in the &bGuardian Ward&r and &6select the appropriate permissions&r, as in the image below."
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward.png width:250 height:250 align:1}"
+				""
+				"This &bBypass&r is currently unclaimed, and if placed inside the &bGuardian Ward&r, it will apply the given permissions to anyone accessing the system. However, you can further configure access to your Nexus by having your coven &aclaim a Bypass&r with the permissions you've set on it."
+				""
+				"To claim a &bWard Bypass&r, a player should &6hold it in their hand and shift-click&r. Once the &bBypass&r belongs to that player, you can &6place it inside the &bGuardian Ward&r Bypass Editor to give that player the permissions enscrolled in that Bypass."
+				""
+				"&dA quick note on Nexus owners&r - if you were the person to &aplace down the &bGuardian Ward&r, you cannot deposit a claimed &bBypass&r. This is designed to prevent witches from accidentally banning themselves from their own Nexus."
+			]
+			id: "78F442722E128EF6"
+			optional: true
+			rewards: [{
+				id: "49B9E5809FAECC68"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C953C7F4C421393"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4F50B0FDBED86AF2"]
+			description: ["These next quests will explain how to set up wireless access for your Nexus."]
+			id: "2C2EAED7CEA36A33"
+			tasks: [{
+				id: "155676C26EA5807E"
+				title: "Wireless"
+				type: "checkmark"
+			}]
+			title: "Going Wireless"
+			x: 2.5d
+			y: -12.0d
 		}
 	]
 	title: "Storage"
