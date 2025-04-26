@@ -64,4 +64,18 @@ ServerEvents.recipes(e => {
             ['extradelight:stripped_cinnamon_log',Item.of('extradelight:cinnamon_bark',2),Item.of('extradelight:cinnamon_bark',2).withChance(.25)], 'extradelight:cinnamon_log'
         )
 
+
+
+    // more woods to fix: echo edition
+    e.shaped(
+        Item.of('deeperdarker:echo_wood'),
+        [
+            'AA',
+            'AA'
+        ],
+        {
+            A: 'deeperdarker:echo_log'
+        }
+    )
+
 })
