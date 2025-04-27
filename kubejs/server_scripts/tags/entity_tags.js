@@ -59,6 +59,7 @@ ServerEvents.tags("entity_type", event => {
         "minecraft:ender_dragon",
         "enigmaticgraves:grave",
         "friendsandfoes:copper_golem",
+        "friendsandfoes:tuff_golem",
         "minecraft:elder_guardian",
         "friendsandfoes:wildfire",
         "luggage:luggage",
