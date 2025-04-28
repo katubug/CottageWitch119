@@ -52,18 +52,35 @@ ServerEvents.recipes(event => {
         }
     )
 
-        // Tusklin Shoes
-        event.shaped(
-            Item.of('alexsmobs:pigshoes'),
-            [
-                'A A',
-                'B B',
-                'ACA'
-            ],
-            {
-                A: 'minecraft:iron_nugget',
-                B: 'minecraft:iron_ingot',
-                C: 'twilightforest:ironwood_ingot'
-            }
-        )
+    // Tusklin Shoes
+    event.shaped(
+        Item.of('alexsmobs:pigshoes'),
+        [
+            'A A',
+            'B B',
+            'ACA'
+        ],
+        {
+            A: 'minecraft:iron_nugget',
+            B: 'minecraft:iron_ingot',
+            C: 'twilightforest:ironwood_ingot'
+        }
+    )
+
+    // Hemolymph Blaster
+    event.shaped(
+        Item.of('alexsmobs:hemolymph_blaster'),
+        [
+            'AAA',
+            'BCD',
+            'E  '
+        ],
+        {
+            A: 'alexsmobs:hemolymph_sac',
+            B: 'nethersdelight:mimicarnation',
+            C: 'alexsmobs:blood_sprayer',
+            D: 'alexsmobs:mosquito_proboscis',
+            E: 'alexsmobs:warped_muscle'
+        }
+    )
 })

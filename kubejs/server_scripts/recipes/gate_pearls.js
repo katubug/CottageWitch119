@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:dragon_breath',
 			B: 'ars_nouveau:mimic_scroll',
-			C: 'alexsmobs:mimicream',
+			C: 'nethersdelight:mimicarnation',
 			D: 'minecraft:ender_eye',
 			E: 'minecraft:slime_block'
 		}

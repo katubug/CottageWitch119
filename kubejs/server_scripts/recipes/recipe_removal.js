@@ -404,8 +404,9 @@ ServerEvents.recipes(event => {
 		{id: 'create:milling/compat/botania/purple_petal'},
 		{id: 'create:milling/compat/botania/red_petal'},
 		{id: 'create:milling/compat/botania/white_petal'},
-		{id: 'create:milling/compat/botania/yellow_petal'}
-
+		{id: 'create:milling/compat/botania/yellow_petal'},
+		{id: 'create:crushing/compat/byg/lignite_ore'}, //Removal of lignite compat with missing tag / barrier block
+		{id: 'alexsmobs:hemolymph_blaster'}
 	];
 
 	for (const remove of toRemove) {
