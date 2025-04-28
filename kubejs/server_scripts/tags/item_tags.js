@@ -1097,4 +1097,28 @@ ServerEvents.tags('item', event => {
         'experienceobelisk:cognitive_crystal',
 		'minecraft:amethyst_shard'
 	)
+
+
+    // colorful azalea item tag fixes. These seem to automatically add mising block tags.
+    const woods = ['tecal_azalea', 'fiss_azalea', 'roze_azalea', 'azule_azalea', 'bright_azalea', 'walnut_azalea', 'titanium_azalea']
+    const namespace = 'colorfulazaleas:'
+    const tagsNeeded = ['byg:all/logs', 'minecraft:logs_that_burn', 'minecraft:logs', 'byg:all/logs_that_burn', 'caupona:fuel/woods', 'minecraft:completes_find_tree_tutorial']
+    
+    let addToTag = (tagList, item) => {
+        for (const tag of tagList) {
+            event.add(tag, item)
+        }
+    }
+
+    for (const woodtype of woods) {
+        let log = namespace + woodtype + '_log'
+        let wood = namespace + woodtype + '_wood'
+        let strippedLog = namespace + 'stripped_' + woodtype + '_log'
+        let strippedWood = namespace + 'stripped_' + woodtype + '_wood'
+        
+        addToTag(tagsNeeded, log)
+        addToTag(tagsNeeded, wood)
+        addToTag(tagsNeeded, strippedLog)
+        addToTag(tagsNeeded, strippedWood)
+    }
 })
