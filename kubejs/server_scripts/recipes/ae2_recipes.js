@@ -476,60 +476,101 @@ ServerEvents.recipes(event => {
 			]
 		)
 	}
-		event.custom({
-			'type': 'extendedmushrooms:fairy_ring_recipe',
-			'ingredients': [{'item': 'minecraft:ender_eye'},
-			{'item': 'ae2:charged_certus_quartz_crystal'},
-			{'item': 'ars_nouveau:ritual_binding'},
-			{'item': 'spelunkery:rough_lazurite'}],
-			'recipeTime': 1200,
-			'result': {'item': 'ae2:singularity'}
-		})
 
-		event.shaped(
-    Item.of('ae2wtlib:quantum_bridge_card'),
-    [
-        ' A ',
-        'BCD',
-        ' E '
-    ], {
-        A: 'twilightforest:maze_map_focus',
-        B: 'deeperdarker:heart_of_the_deep',
-        C: 'ae2:wireless_receiver',
-        D: 'minecraft:dragon_egg',
-        E: 'minecraft:netherite_ingot'
-    }
-)
-		event.shapeless(
-			Item.of('ae2:level_emitter'),
-			[
-				'minecraft:redstone_torch',
-				'create:electron_tube'
-			]
-		)
+	//Planar Relay
+	event.custom({
+		'type': 'extendedmushrooms:fairy_ring_recipe',
+		'ingredients': [{'item': 'minecraft:ender_eye'},
+		{'item': 'ae2:charged_certus_quartz_crystal'},
+		{'item': 'ars_nouveau:ritual_binding'},
+		{'item': 'spelunkery:rough_lazurite'}],
+		'recipeTime': 300,
+		'result': {'item': 'ae2:singularity'}
+	}).id('kjs_planar_relay')
 
-		event.shaped(
-			Item.of('8x ae2:sky_stone_block'),
-			[
-				'AAA',
-				'ABA',
-				'AAA'
-			],{
-				A: 'minecraft:stone',
-				B: 'quark:bottled_cloud'
-			}).replaceIngredient('quark:bottled_cloud','minecraft:glass_bottle')
+	//Planar Bridge Card
+	event.shaped(
+		Item.of('ae2wtlib:quantum_bridge_card'),
+		[
+			' A ',
+			'BCD',
+			' E '
+		], {
+			A: 'twilightforest:maze_map_focus',
+			B: 'deeperdarker:heart_of_the_deep',
+			C: 'ae2:wireless_receiver',
+			D: 'minecraft:dragon_egg',
+			E: 'minecraft:netherite_ingot'
+		}
+	)
 
-		event.shaped(
-			Item.of('2x ae2:me_p2p_tunnel'),
-			[
-				' A ',
-				'ABA',
-				'CCC'
-			],{
-				A: 'minecraft:iron_ingot',
-				B: 'create:electron_tube',
-				C: 'ae2:fluix_crystal'
-			}
-		)
+	//Nexus Level Emitter
+	event.shapeless(
+		Item.of('ae2:level_emitter'),
+		[
+			'minecraft:redstone_torch',
+			'create:electron_tube'
+		]
+	)
 
+	//Sky Stone
+	event.shaped(
+		Item.of('8x ae2:sky_stone_block'),
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],{
+			A: 'minecraft:stone',
+			B: 'quark:bottled_cloud'
+		}).replaceIngredient('quark:bottled_cloud','minecraft:glass_bottle')
+
+	//Nexus Transference Focus
+	event.shaped(
+		Item.of('2x ae2:me_p2p_tunnel'),
+		[
+			' A ',
+			'ABA',
+			'CCC'
+		],{
+			A: 'minecraft:iron_ingot',
+			B: 'create:electron_tube',
+			C: 'ae2:fluix_crystal'
+		}
+	)
+
+	//Fluix Axe
+	event.smithing(
+		'ae2:fluix_axe',
+		'minecraft:iron_axe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Hoe
+	event.smithing(
+		'ae2:fluix_hoe',
+		'minecraft:iron_hoe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Shovel
+	event.smithing(
+		'ae2:fluix_shovel',
+		'minecraft:iron_shovel',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Pickaxe
+	event.smithing(
+		'ae2:fluix_pickaxe',
+		'minecraft:iron_pickaxe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Sword
+	event.smithing(
+		'ae2:fluix_sword',
+		'minecraft:iron_sword',
+		'ae2:fluix_block'
+	)
 })

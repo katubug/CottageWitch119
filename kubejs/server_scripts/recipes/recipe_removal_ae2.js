@@ -242,6 +242,11 @@ ServerEvents.recipes(event => {
         {id: 'ae2wtlib:quantum_bridge_card'},
         {id: 'ae2:network/parts/level_emitter'},
         {id: 'ae2:network/parts/tunnels_me'},
+        {id: 'ae2:tools/fluix_axe'},
+        {id: 'ae2:tools/fluix_hoe'},
+        {id: 'ae2:tools/fluix_shovel'},
+        {id: 'ae2:tools/fluix_pickaxe'},
+        {id: 'ae2:tools/fluix_sword'}
         //{output: 'arseng:portable_source_cell_1k'},
         //{output: 'arseng:portable_source_cell_4k'},
         //{output: 'arseng:portable_source_cell_16k'},
