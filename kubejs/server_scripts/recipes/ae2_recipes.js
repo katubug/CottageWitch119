@@ -446,6 +446,14 @@ ServerEvents.recipes(event => {
 			}
 		)
 
+		event.shapeless(
+			Item.of('ae2:fluid_storage_cell_'+number),
+			[
+				'ae2:fluid_cell_housing',
+				'ae2:cell_component_'+number
+			]
+		)
+
 		//Item Storage Cells/Item Glyphstones
 		event.shaped(
 			Item.of('ae2:item_storage_cell_'+number),
@@ -458,6 +466,14 @@ ServerEvents.recipes(event => {
 				B: 'minecraft:gold_ingot',
 				C: 'ae2:cell_component_'+number
 			}
+		)
+
+		event.shapeless(
+			Item.of('ae2:item_storage_cell_'+number),
+			[
+				'ae2:item_cell_housing',
+				'ae2:cell_component_'+number
+			]
 		)
 	}
 		event.custom({
