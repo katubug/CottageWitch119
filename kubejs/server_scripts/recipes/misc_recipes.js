@@ -622,4 +622,9 @@ ServerEvents.recipes(event => {
 		['2x spelunkery:sporophyte']
 	)
 
+	event.shapeless(
+		Item.of('sprout:tall_dead_bush'),
+		['2x minecraft:dead_bush']
+	)
+
 })
