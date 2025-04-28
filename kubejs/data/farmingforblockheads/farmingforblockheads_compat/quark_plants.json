@@ -1,0 +1,20 @@
+{
+    "modId": "quark",
+    "silent": true,
+    "group": {
+      "name": "Quark Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+      {
+        "output": "quark:chorus_weeds"
+      },
+      {
+        "output": "quark:chorus_twist"
+      }
+    ]
+  }

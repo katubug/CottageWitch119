@@ -1,0 +1,17 @@
+{
+    "modId": "sprout",
+    "silent": true,
+    "group": {
+      "name": "Sprout Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+      {
+        "output": "sprout:tall_dead_bush"
+      }
+    ]
+  }

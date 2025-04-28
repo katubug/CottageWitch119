@@ -596,4 +596,30 @@ ServerEvents.recipes(event => {
 	event.stonecutting('block_variants:cracked_stone_brick_stairs', 'minecraft:cracked_stone_bricks')
 	event.stonecutting('block_variants:cracked_stone_brick_wall', 'minecraft:cracked_stone_bricks')
 
+	// Tall Plants Recipes
+	event.shapeless(
+		Item.of('minecraft:tall_grass'),
+		['2x minecraft:grass']
+	)
+
+	event.shapeless(
+		Item.of('environmental:giant_tall_grass'),
+		['3x minecraft:grass']
+	)
+
+	event.shapeless(
+		Item.of('byg:tall_prairie_grass'),
+		['2x byg:prairie_grass']
+	)
+
+	event.shapeless(
+		Item.of('byg:tall_ether_grass'),
+		['2x byg:ether_grass']
+	)
+
+	event.shapeless(
+		Item.of('spelunkery:tall_sporophyte'),
+		['2x spelunkery:sporophyte']
+	)
+
 })
