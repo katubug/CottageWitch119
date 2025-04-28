@@ -388,7 +388,23 @@ ServerEvents.recipes(event => {
 		{id: 'refurbished_furniture:constructing/spruce_mail_box'},
 		{id: 'refurbished_furniture:constructing/oak_mail_box'},
 		{id: 'refurbished_furniture:constructing/post_box'},
-		{output: 'ars_instrumentum:numeric_mana_charm'}
+		{output: 'ars_instrumentum:numeric_mana_charm'},
+		{id: 'create:milling/compat/botania/black_petal'}, // Removal of Botania compat causing removed tags to appear in JEI
+		{id: 'create:milling/compat/botania/blue_petal'},
+		{id: 'create:milling/compat/botania/brown_petal'},
+		{id: 'create:milling/compat/botania/cyan_petal'},
+		{id: 'create:milling/compat/botania/gray_petal'},
+		{id: 'create:milling/compat/botania/green_petal'},
+		{id: 'create:milling/compat/botania/light_blue_petal'},
+		{id: 'create:milling/compat/botania/light_gray_petal'},
+		{id: 'create:milling/compat/botania/lime_petal'},
+		{id: 'create:milling/compat/botania/magenta_petal'},
+		{id: 'create:milling/compat/botania/orange_petal'},
+		{id: 'create:milling/compat/botania/pink_petal'},
+		{id: 'create:milling/compat/botania/purple_petal'},
+		{id: 'create:milling/compat/botania/red_petal'},
+		{id: 'create:milling/compat/botania/white_petal'},
+		{id: 'create:milling/compat/botania/yellow_petal'}
 
 	];
 
