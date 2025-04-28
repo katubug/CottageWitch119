@@ -1,0 +1,17 @@
+{
+
+    "replace":true,
+  
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "nethersdelight:mimicarnation"
+          }
+        ]
+      }
+    ]
+  }
