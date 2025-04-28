@@ -10,6 +10,9 @@
     "applecrates:jungle_crate",
     "applecrates:dark_oak_crate",
     "applecrates:crimson_crate",
-    "applecrates:warped_crate"
+    "applecrates:warped_crate",
+    "functionalstorage:ender_drawer",
+    "itemcollectors:basic_collector",
+    "itemcollectors:advanced_collector"
   ]
 }
