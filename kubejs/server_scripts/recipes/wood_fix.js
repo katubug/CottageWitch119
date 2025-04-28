@@ -68,7 +68,7 @@ ServerEvents.recipes(e => {
 
     // more woods to fix: echo edition
     e.shaped(
-        Item.of('deeperdarker:echo_wood'),
+        Item.of('deeperdarker:echo_wood', 3),
         [
             'AA',
             'AA'
