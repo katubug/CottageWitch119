@@ -16,6 +16,9 @@ event.create('hunter_moon').texture('kubejs:item/hunter_moon').displayName("Hunt
 event.create('frost_moon').texture('kubejs:item/frost_moon').displayName("Frost Moon")
 event.create('oak_moon').texture('kubejs:item/oak_moon').displayName("Oak Moon")
 event.create('wolf_moon').texture('kubejs:item/wolf_moon').displayName("Wolf Moon")
+event.create('snow_moon').texture('kubejs:item/snow_moon').displayName("Snow Moon")
+event.create('worm_moon').texture('kubejs:item/worm_moon').displayName("Worm Moon")
+event.create('black_moon').texture('kubejs:item/black_moon').displayName("Black Moon")
 
 
 })
