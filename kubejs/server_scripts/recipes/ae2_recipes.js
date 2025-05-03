@@ -264,7 +264,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Quantum Ring/Planar Relay Tether
+	//Quantum Ring/Aetheric Ring
 	event.shaped(
 		Item.of('ae2:quantum_ring'),
 		[
@@ -360,7 +360,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Resonance Access Point
+	//Aetheric Beacon
 	event.shaped(
 		Item.of('ae2:wireless_access_point'),
 		[
@@ -410,12 +410,11 @@ ServerEvents.recipes(event => {
 	];
 
 	for (const number of numbers) {
-		/*
 		event.shapeless(
 			Item.of('ae2:portable_item_cell_'+number),
 			[
 				'#forge:books', 
-				'ae2:cell_component_1k', 
+				'ae2:cell_component_'+number, 
 				'ae2:item_cell_housing',
 				'ae2:chest'
 			]
@@ -430,7 +429,6 @@ ServerEvents.recipes(event => {
 				'ae2:chest'
 			]
 		)
-		*/
 		
 		//Fluid Storage Cells/Fluid Glyphstones
 		event.shaped(
@@ -477,7 +475,7 @@ ServerEvents.recipes(event => {
 		)
 	}
 
-	//Planar Relay
+	//Aetheric Core
 	event.custom({
 		'type': 'extendedmushrooms:fairy_ring_recipe',
 		'ingredients': [{'item': 'minecraft:ender_eye'},

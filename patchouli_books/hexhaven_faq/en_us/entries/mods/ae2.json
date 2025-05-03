@@ -71,7 +71,7 @@
         {
             "type": "patchouli:text",
             "title": "Going Wireless",
-            "text": "Your wireless journey will require a handful of items and blocks.$(br2)To start, add these two blocks onto your existing AE2 system: The $(thing)Resonance Access Point$() and the $(thing)Guardian Ward$(). $(br2)Then you will need to connect your $(item)Resonant Aperture$()."
+            "text": "Your wireless journey will require a handful of items and blocks.$(br2)To start, add these two blocks onto your existing AE2 system: The $(thing)Aetheric Beacon$() and the $(thing)Guardian Ward$(). $(br2)Then you will need to connect your $(item)Resonant Aperture$()."
         },
         {
             "type": "patchouli:crafting",
@@ -92,7 +92,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Next, let's get the required materials for $(l)cross-dimensional$() access.$(br2)We will need to make a $(thing)Planar Relay$(), which is made using the fairy ring on the right!$(br2)Inside the fairy ring, toss an $(item)Eye of Ender$(), $(item)Rough Lazurite$(), $(item)Tablet of Binding$(), and $(thing)Consecrated Certus Quartz Crystal$()"
+            "text": "Next, let's get the required materials for $(l)cross-dimensional$() access.$(br2)We will need to make a $(thing)Aetheric Core$(), which is made using the fairy ring on the right!$(br2)Inside the fairy ring, toss an $(item)Eye of Ender$(), $(item)Rough Lazurite$(), $(item)Tablet of Binding$(), and $(thing)Consecrated Certus Quartz Crystal$()"
         },
         {
             "type": "patchouli:multiblock",
@@ -112,7 +112,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "With the $(thing)Planar Relay$(), you will make two $(l)linked$() $(thing)Entangled Planar Relays.$()$(br2)In order to do this, you will need to explode a $(thing)Planar Relay$() and $(thing)Ender Dust$() or an Ender Pearl.$(br2)You can obtain $(thing)Ender Dust$() by crushing an ender pearl using a crushing wheel or a millstone."
+            "text": "With the $(thing)Aetheric Core$(), you will make two $(l)linked$() $(thing)Entangled Aetheric Fragments.$()$(br2)In order to do this, you will need to explode a $(thing)Aetheric Core$() and $(thing)Ender Dust$() or an Ender Pearl.$(br2)You can obtain $(thing)Ender Dust$() by crushing an ender pearl using a crushing wheel or a millstone."
         },
         {
             "type": "patchouli:crafting",
@@ -122,12 +122,12 @@
         {
             "type": "patchouli:text",
             "title": "Crossing Dimensions",
-            "text": "A multiblock structure will need to be connected to your AE2 system.$(br2)After connecting the $(item)Planar Relay Link$() with a cable, right click on the center block and insert one $(thing)Entangled Planar Relay$().$(br2)You'll need the second $(thing)Entangled Planar Relay$() in the next step."
+            "text": "A multiblock structure will need to be connected to your AE2 system.$(br2)After connecting the $(item)Aetheric Bridge$() with a cable, right click on the center block and insert one $(thing)Entangled Aetheric Fragment$().$(br2)You'll need the second $(thing)Entangled Aetheric Fragment$() in the next step."
         },
         {
             "type": "patchouli:multiblock",
-            "name": "Planar Relay Link",
-            "text": "Requires 8x $(thing)Planar Relay Tether$() and 1x $(thing)Planar Relay Link Chamber$()",
+            "name": "Aetheric Bridge",
+            "text": "Requires 8x $(thing)Aetheric Ring$() and 1x $(thing)Aetheric Chamber$()",
             "multiblock": {
                 "mapping": {
                     "R": "ae2:quantum_ring",
@@ -143,7 +143,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "minecraft:kjs_ae2wtlib_quantum_bridge_card",
-            "text": "Finally, we will need a $(thing)Planar Bridge Card$() and the second $(thing)Entangled Planar Relay$().$(br2)Open your $(thing)Resonant Aperture$() and find the sidebar to the right"
+            "text": "Finally, we will need a $(thing)Planar Bridge Card$() and the second $(thing)Entangled Aetheric Fragment$().$(br2)Open your $(thing)Resonant Aperture$() and find the sidebar to the right"
         },
         {
             "type":"patchouli:image",
