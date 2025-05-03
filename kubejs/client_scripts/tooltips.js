@@ -1560,6 +1560,8 @@ ItemEvents.tooltip(e => {
     e.add('kubejs:hunter_moon', 'The Hunter Moon occurs in October.')
     e.add('kubejs:frost_moon', 'The Frost Moon occurs in November.')
     e.add('kubejs:wolf_moon', 'The Wolf Moon occurs in January.')
+    e.add('kubejs:worm_moon', 'The Worm Moon occurs in March.')
+    e.add('kubejs:snow_moon', 'The Snow Moon occurs in February.')
 
     e.add('#forge:moon_certificates', `\u00A7d`+'Art by LoFi Fruit')
 

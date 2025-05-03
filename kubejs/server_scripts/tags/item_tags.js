@@ -1079,7 +1079,10 @@ ServerEvents.tags('item', event => {
         'kubejs:oak_moon',
         'kubejs:hunter_moon',
         'kubejs:wolf_moon',
-        'kubejs:frost_moon'
+        'kubejs:frost_moon',
+        'kubejs:snow_moon',
+        'kubejs:worm_moon',
+        'kubejs:black_moon'
     )
 
     //Sea Crystals
