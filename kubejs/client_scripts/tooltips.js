@@ -1583,4 +1583,6 @@ ItemEvents.tooltip(e => {
         'twilightforest:winter_wolf_spawn_egg', 'twilightforest:wraith_spawn_egg', 'twilightforest:yeti_spawn_egg', 'twilightforest:hedge_spider_spawn_egg', 'twilightforest:helmet_crab_spawn_egg', 'twilightforest:hostile_wolf_spawn_egg', 'twilightforest:ice_crystal_spawn_egg', 'twilightforest:king_spider_spawn_egg', 'twilightforest:kobold_spawn_egg', 'twilightforest:lower_goblin_knight_spawn_egg', 'twilightforest:maze_slime_spawn_egg', 'twilightforest:minotaur_spawn_egg', 'twilightforest:mist_wolf_spawn_egg', 'twilightforest:mosquito_swarm_spawn_egg', 'twilightforest:penguin_spawn_egg', 'twilightforest:pinch_beetle_spawn_egg', 'twilightforest:raven_spawn_egg', 'twilightforest:redcap_sapper_spawn_egg', 'twilightforest:redcap_spawn_egg', 'twilightforest:skeleton_druid_spawn_egg', 'twilightforest:slime_beetle_spawn_egg', 'twilightforest:snow_guardian_spawn_egg', 'twilightforest:squirrel_spawn_egg', 'twilightforest:stable_ice_core_spawn_egg', 'twilightforest:swarm_spider_spawn_egg', 'twilightforest:tiny_bird_spawn_egg', 'twilightforest:towerwood_borer_spawn_egg', 'twilightforest:troll_spawn_egg', 'twilightforest:unstable_ice_core_spawn_egg'
     ]
    e.add(canDrop, 'This egg can drop when using a Reaping tool.')
+
+   e.add('@refinedstorage', `\u00A7d`+'Warning: this mod is set to be removed the 1.18.0 update.')
 })
