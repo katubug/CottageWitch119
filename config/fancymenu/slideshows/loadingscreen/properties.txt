@@ -1,7 +1,7 @@
 type = slideshow
 
 slideshow-meta {
-   name = mainmenu_slideshow
+   name = loadingscreen_slideshow
    width = 1920
    height = 1080
    x = 0
