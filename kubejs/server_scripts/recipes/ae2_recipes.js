@@ -14,6 +14,20 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
 	//ME Wireless Crafting Terminal
 	event.shaped(
 		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),
