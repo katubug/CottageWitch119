@@ -585,4 +585,27 @@ ServerEvents.recipes(event => {
 		'minecraft:iron_sword',
 		'ae2:fluix_block'
 	)
+
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
+	//Cable Anchor
+	event.shapeless(
+		Item.of('4x ae2:cable_anchor'),
+		[
+			'#ae2:metal_ingots',
+			'#forge:tools/knives'
+		]
+	)
 })
