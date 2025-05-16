@@ -1006,10 +1006,7 @@
 			y: -7.5d
 		}
 		{
-			description: [
-				"The &eMimicube&r is a defender of End Cities, and is capable of mimicking its attacker by developing armor, shields, and even weapons to match those of the player. When defeated, they drop &bMimicream&r, which can be used in crafting, or to &aduplicate almost any item, including enchantments&r!"
-				"Simply &6surround the desired item&r with 8 Mimicream, and ta-da! The result will have no durability, but it's a powerful tool nevertheless."
-			]
+			description: ["The &eMimicube&r is a defender of End Cities, and is capable of mimicking its attacker by developing armor, shields, and even weapons to match those of the player."]
 			id: "7D1423F1D27CCF45"
 			rewards: [
 				{
