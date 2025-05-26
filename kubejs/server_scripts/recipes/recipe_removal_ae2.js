@@ -238,7 +238,9 @@ ServerEvents.recipes(event => {
         {id: 'ae2:tools/fluix_hoe'},
         {id: 'ae2:tools/fluix_shovel'},
         {id: 'ae2:tools/fluix_pickaxe'},
-        {id: 'ae2:tools/fluix_sword'}
+        {id: 'ae2:tools/fluix_sword'},
+        {id: 'create:milling/compat/ae2/certus_quartz'},
+        {id: 'create:milling/compat/ae2/fluix_crystal'}
         //{output: 'arseng:portable_source_cell_1k'},
         //{output: 'arseng:portable_source_cell_4k'},
         //{output: 'arseng:portable_source_cell_16k'},
