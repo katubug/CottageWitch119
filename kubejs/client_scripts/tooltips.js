@@ -1537,6 +1537,8 @@ ItemEvents.tooltip(e => {
     e.add('domesticationinnovation:wayward_lantern', 'Use with care! Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.'
     )
 
+    e.add('hexerei:willow_woodcutter', "This woodcutter can sometimes cause crashes. Please use mahogany or witch hazel instead!")
+
 // Mob Lassos
 
     e.add(['moblassos:golden_lasso', 

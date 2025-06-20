@@ -96,4 +96,12 @@ ServerEvents.tags('block', event => {
         'twilightforest:player_skull_candle'
     )
 
+    // fixing crystals
+    let crystals = ['byg:small_subzero_crystal_bud', 'byg:medium_subzero_crystal_bud', 'byg:large_subzero_crystal_bud', 'byg:small_therium_crystal_bud', 'byg:medium_therium_crystal_bud', 'byg:large_therium_crystal_bud', 'byg:therium_crystal_cluster', 'byg:budding_therium_crystal']
+    for (const crystal of crystals) {
+        event.add('minecraft:mineable/pickaxe', crystal)
+        event.add('artifacts:mineable/digging_claws', crystal)
+    }
+
+
 })
