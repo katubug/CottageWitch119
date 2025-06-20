@@ -1548,7 +1548,7 @@ ItemEvents.tooltip(e => {
         `\u00A7d`+'Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape.'
     )
 
-    e.add('brewinandchewin:keg',`\u00A7d`+'Warning: pickles, jerky, and certain recipes can cause crashes.')
+    e.add('brewinandchewin:keg',`\u00A7d`+'Warning: Certain recipes that can cause crashes are now made in a cooking pot.')
 
     e.add('#forge:maj_acs', `\u00A7d`+'Do not combine these in your inventory, it can cause crashes!')
 
