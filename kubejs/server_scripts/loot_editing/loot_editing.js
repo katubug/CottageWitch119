@@ -51,4 +51,8 @@ LootJS.modifiers((event) => {
         c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
       )
     )
+
+    event.addBlockLootModifier('tflostblocks:chiseled_trollsteinn').addLoot(
+      LootEntry.of('tflostblocks:chiseled_trollsteinn')
+    )
 });
