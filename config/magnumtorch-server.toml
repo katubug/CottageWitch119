@@ -101,7 +101,7 @@
 	mob_whitelist = []
 	#Mobs that should not be allowed to spawn despite being absent from "mob_category".
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. Path may use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*shulker_box" to match all shulker boxes no matter of color.
-	mob_blacklist = []
+	mob_blacklist = ["mythicmounts:*", "quark:*"]
 	#Type of shape used for calculating area in which spawns are prevented.
 	#This basically let's you choose between taxi cab or euclidean metrics.
 	#Allowed Values: ELLIPSOID, CYLINDER, CUBOID

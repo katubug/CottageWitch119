@@ -14,6 +14,20 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
 	//ME Wireless Crafting Terminal
 	event.shaped(
 		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),
@@ -264,7 +278,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Quantum Ring/Planar Relay Tether
+	//Quantum Ring/Aetheric Ring
 	event.shaped(
 		Item.of('ae2:quantum_ring'),
 		[
@@ -360,7 +374,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Resonance Access Point
+	//Aetheric Beacon
 	event.shaped(
 		Item.of('ae2:wireless_access_point'),
 		[
@@ -410,12 +424,11 @@ ServerEvents.recipes(event => {
 	];
 
 	for (const number of numbers) {
-		/*
 		event.shapeless(
 			Item.of('ae2:portable_item_cell_'+number),
 			[
 				'#forge:books', 
-				'ae2:cell_component_1k', 
+				'ae2:cell_component_'+number, 
 				'ae2:item_cell_housing',
 				'ae2:chest'
 			]
@@ -430,7 +443,6 @@ ServerEvents.recipes(event => {
 				'ae2:chest'
 			]
 		)
-		*/
 		
 		//Fluid Storage Cells/Fluid Glyphstones
 		event.shaped(
@@ -477,7 +489,7 @@ ServerEvents.recipes(event => {
 		)
 	}
 
-	//Planar Relay
+	//Aetheric Core
 	event.custom({
 		'type': 'extendedmushrooms:fairy_ring_recipe',
 		'ingredients': [{'item': 'minecraft:ender_eye'},
@@ -486,7 +498,7 @@ ServerEvents.recipes(event => {
 		{'item': 'spelunkery:rough_lazurite'}],
 		'recipeTime': 300,
 		'result': {'item': 'ae2:singularity'}
-	}).id('kjs_planar_relay')
+	}).id('kjs_aetheric_core')
 
 	//Planar Bridge Card
 	event.shaped(
@@ -573,4 +585,47 @@ ServerEvents.recipes(event => {
 		'minecraft:iron_sword',
 		'ae2:fluix_block'
 	)
+
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
+	//Cable Anchor
+	event.shapeless(
+		Item.of('4x ae2:cable_anchor'),
+		[
+			'#ae2:metal_ingots',
+			'#forge:tools/knives'
+		]
+	)
+
+	// Certus Quartz Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Certus Quartz Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Fluix Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
+
+	// Fluix Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
 })

@@ -425,7 +425,20 @@ JEIEvents.hideItems(event => {
 		'spelunkery:jade_shard',
 		'delightful:steel_knife',
 		'delightful:silver_knife',
-		'delightful:bronze_knife'
+		'delightful:bronze_knife',
+		'kubejs:pink_moon',
+        'kubejs:flower_moon',
+        'kubejs:strawberry_moon',
+        'kubejs:antler_moon',
+        'kubejs:harvest_moon',
+        'kubejs:corn_moon',
+        'kubejs:oak_moon',
+        'kubejs:hunter_moon',
+        'kubejs:wolf_moon',
+        'kubejs:frost_moon',
+        'kubejs:snow_moon',
+        'kubejs:worm_moon',
+        'kubejs:black_moon'
 	];
 
 	for (const hide of toHide) {

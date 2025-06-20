@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
 		{ output: 'artifacts:snorkel' },
 		{ output: 'artifacts:umbrella' },
 		{ output: 'backpacked:backpack' },
-		{ output: 'brewinandchewin:jerky' },
 		{ output: 'buildinggadgets:gadget_building' },
 		{ output: 'buildinggadgets:gadget_copy_paste' },
 		{ output: 'buildinggadgets:gadget_destruction' },

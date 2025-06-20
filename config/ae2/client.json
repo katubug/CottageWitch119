@@ -2,9 +2,9 @@
   "client": {
     "disableColoredCableRecipesInJEI": true,
     "enableFacadesInJEI_comment": "Show facades in JEI ingredient list",
-    "enableFacadesInJEI": true,
+    "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
-    "enableFacadeRecipesInJEI": true,
+    "enableFacadeRecipesInJEI": false,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,

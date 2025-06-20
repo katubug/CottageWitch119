@@ -67,6 +67,18 @@
 			x: -0.5d
 			y: -5.0d
 		}
+		{
+			click: "https://docs.google.com/spreadsheets/d/19Y4Njg2MBKYcq7xsaS4VLc79Lw6JUeCSLle57f421RI/edit?gid=1940790781#gid=1940790781"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Click here to go to the AE2 spreadsheet!"]
+			image: "ae2:item/cell_component_256k"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -15.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -1393,7 +1405,7 @@
 			description: [
 				"For an elegant and low-impact storage option, you need more than just magic: introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticated Storage&r with &lApplied Energistics&r as it &dcan cause phantasmal warping (read: significant lag)&r. "
 				""
-				"The storage granted by this mod utilizes &agem resonance&r, &aplanar relay&r, and &aa Nexus network&r to contain your items in a very compact area. Because of this, it is &aentirely self-contained&r, and does not require &bmundane storage options&r such as &bchests&r, &bbarrels&r, or &bdrawers&r."
+				"The storage granted by this mod utilizes &agem resonance&r, &aAetheric Core&r, and &aa Nexus network&r to contain your items in a very compact area. Because of this, it is &aentirely self-contained&r, and does not require &bmundane storage options&r such as &bchests&r, &bbarrels&r, or &bdrawers&r."
 				""
 				"Oh, and take this &bsquirrel&r - &oit's a secret tool that will help us later!&r (It's not that secret, you need it for a later step.)"
 			]
@@ -1431,7 +1443,7 @@
 				""
 				"With the lower 3 tiers, every time a bud grows by another stage, the &abudding block has a chance to &ddegrade by one tier&r, eventually turning into a plain &bCertus Quartz Block&r."
 				""
-				"&bFlawless Budding Certus&r does not degrade, and can only be obtained by making it into a &lCreate&r railcart &bContraption&r. The lower tiers can be obtained by &6mining with &bSilk Touch&r, or by &6throwing the &bCertus Block&r and a &bConsecrated Certus Crystal&r into some &bwater&r and letting them combine."
+				"&bFlawless Budding Certus&r does not degrade, and can be obtained by making it into a &lCreate&r railcart &bContraption&r or with the use of the &lArs&r &bGravity Spell&r. The lower tiers can be obtained by &6mining with &bSilk Touch&r, or by &6throwing the &bCertus Block&r and a &bConsecrated Certus Crystal&r into some &bwater&r and letting them combine."
 				""
 				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom."
 				""
@@ -1490,8 +1502,6 @@
 				"The &bcable&r is extremely simple- use it to &aconnect various &lNexus&r &ablocks across a distance&r. We strongly recommend you use &bcables&r with your system instead of &lPipez&r as it is &dmuch more performant&r."
 				""
 				"The &bQuartz Fiber&r works like the &bCable&r, however it only transfers power and doesnt connect things to the network."
-				""
-				"To learn about &awireless options&r, move to the next quests!"
 			]
 			id: "36117361546D1D22"
 			rewards: [{
@@ -1513,8 +1523,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -13.0d
+			x: -4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["36117361546D1D22"]
@@ -1554,8 +1564,8 @@
 				type: "item"
 			}]
 			title: "Vibrant Interface"
-			x: -4.5d
-			y: -12.0d
+			x: -6.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2D271ADDC566B408"]
@@ -1654,15 +1664,16 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["2C8735C0B1C9431D"]
+			dependencies: [
+				"2C8735C0B1C9431D"
+				"56B6A3CCC4C04A7D"
+			]
 			description: [
-				"The &bPlanar Relay&r is made using the &afairy ring&r. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about one minute&r and the items will combined into your &bPlanar Relay&r!"
+				"The &bAetheric Core&r is made using the &afairy ring&r. Inside your fairy ring, toss an &bEye of Ender&r, &bRough Lazurite&r, &bTablet of Binding&r, and &bConsecrated Certus Quartz Crystal&r. You will need to &await about 15 seconds&r and the items will combined into your &bAetheric Core&r!"
 				""
-				"&6Exploding&r a &bPlanar Relay&r and an &bEnder Dust&r will &airreversibly entangle two smaller Planar Relays together&r, but also put a hole in your base. &6Try dropping these two items next to a &bTiny TNT&r &6and igniting the &bTiny TNT&r &6instead&r! These &bEntangled Planar Relays&r will help you gain cross dimensional storage access."
+				"&6Exploding&r an &bAetheric Core&r and an &bEnder Dust&r will &airreversibly entangle two &bAetheric Fragments&r &atogether&r, but also put a hole in your base. &6Try dropping these two items next to a &bTiny TNT&r &6and igniting the &bTiny TNT&r &6with a &bFlint and Steel&r &6instead&r! These &bEntangled Aetheric Fragments&r will help you gain cross dimensional storage access."
 				""
-				"The two &bEntangled Planar Relays&r you create represent &atwo halves of a shared connection&r, &dyou will need both, so don't lose them&r! "
-				""
-				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
+				"The two &bEntangled Aetheric Fragments&r you create represent &atwo halves of a shared connection&r, &dyou will need both, so don't lose them&r! "
 			]
 			id: "68BCE0298503D8C8"
 			rewards: [{
@@ -1686,21 +1697,22 @@
 					weak_nbt_match: true
 				}
 			]
+			title: "Aetheric Core"
 			x: 4.0d
-			y: -14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["68BCE0298503D8C8"]
 			description: [
-				"&aConnecting across the dimensions&r requires a bigger antenna than just one &bResonance Access Point&r. To accomplish this you'll need to build... a square! &6Build this 3x3 structure&r consisting of 8 &bPlanar Relay Tethers&r surrounding 1 &bPlanar Relay Link Chamber&r and &6connect it to your nexus network using a cable&r. "
+				"&aConnecting across the dimensions&r requires a bigger antenna than just one &bAetheric Beacon&r. To accomplish this you'll need to build... a square! &6Build this 3x3 structure&r, called an &bAetheric Bridge&r, consisting of 8 &bAetheric Rings&r surrounding 1 &bAetheric Chamber&r and &6connect it to your &bNexus&r &6using a cable&r. It can be &astanding upright&r, like in the image below, or &aflat on the ground&r!"
 				""
-				"&6You'll need to insert 1 of the&r &bEntangled Planar Relays&r &6you made in to the&r &bPlanar Relay Link Chamber&r. &aDon't lose the other one - you'll need it in just a minute.&r"
+				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
+				""
+				"&6You'll need to insert 1 of the&r &bEntangled Aetheric Fragments&r &6you made in to the&r &bAetheric Chamber&r. &aDon't lose the other one - you'll need to place it in your &bResonant Aperture&r &ain just a minute.&r"
 				""
 				"&dMake sure to chunk load this location so you can access your system while you're away. &r"
 				""
-				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
-				""
-				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
+				"Alternatively, to &aconnect two systems together at a large distance&r, &6build two&r &bAetheric Bridges&r, one at each system. Then place linked &bEntangled Aetheric Fragments&r into both &bAetheric Bridges&r."
 			]
 			id: "2692A1D717795116"
 			rewards: [{
@@ -1721,21 +1733,19 @@
 					type: "item"
 				}
 			]
+			title: "Aetheric Bridges"
 			x: 4.0d
-			y: -15.0d
+			y: -17.0d
 		}
 		{
-			dependencies: [
-				"2692A1D717795116"
-				"3BCEBB5E08B49230"
-			]
+			dependencies: ["2692A1D717795116"]
 			description: [
-				"The last step for your &across dimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Planar Relay&r into your &bResonant Aperture&r."
+				"The last step for your &across dimensional access&r is inputting the &bPlanar Bridge Card&r and the Linked &bEntangled Aetheric Fragment&r into your &bResonant Aperture&r."
 				""
-				"&dMake sure to be in range of your &bResonance Access Point&r &din order to open your&r &bResonant Aperture&r! See the image below for where to place these items inside your &bResonant Aperture&r."
+				"As an added bonus, the &bPlanar Bridge Card&r will provide your &bResonant Aperture&r with &ainfinite resonance&r so you &anever have to worry about charging it back up&r!"
+				""
+				"&dMake sure to be in range of your &bAetheric Beacon&r &din order to open your&r &bResonant Aperture&r! See the image below for where to place these items inside your &bResonant Aperture&r."
 				"{image:cottagewitch:textures/quest_images/ae2_aperture.png width:250 height:350 align:1}"
-				""
-				"If you want &omore than one&r cross dimensional &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in this quest&r for each &bResonant Aperture&r you connect."
 			]
 			id: "3BA25DBF8AD8C159"
 			rewards: [{
@@ -1748,8 +1758,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -16.0d
+			x: 4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -1761,11 +1771,11 @@
 				""
 				"When you craft the &bResonant Aperture&r, it will start &aunattuned&r. &aTo attune it to your nexus&r you must &6insert it into a&r &bGuardian Ward&r."
 				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward_wireless.png width:250 height:250 align:1}"
-				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bResonance Access Point&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
+				"After you've &aattuned&r your &bResonant Aperture&r, you must be within range of a &bAetheric Beacon&r for it to work. With no upgrades, this is &dlimited to 16 blocks&r."
 				""
-				"You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Planar Relay&r to upgrade your &bResonant Aperture&r with &a(see the next quests)&r."
+				"You can gain &ainfinite, cross dimensional access&r by creating a &bPlanar Bridge Card&r and a &bLinked Entangled Aetheric Fragment&r to upgrade your &bResonant Aperture&r with &a(see the next quests)&r."
 				""
-				"Over time and with use, the &bResonant Aperture&r may &alose resonance&r, and if this occurs, you can &6place it in a &bCharging Gadget&r to fill it back up with resonance."
+				"Over time and with use, the &bResonant Aperture&r may &alose resonance&r, and if this occurs, you can &6place it in a &bCharging Gadget&r to fill it back up with &aresonance&r."
 			]
 			id: "3BCEBB5E08B49230"
 			rewards: [{
@@ -1781,8 +1791,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 5.0d
-			y: -14.5d
+			x: 4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2C2EAED7CEA36A33"]
@@ -1804,7 +1814,7 @@
 				item: "ae2:security_station"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -12.0d
 		}
 		{
@@ -1846,13 +1856,15 @@
 		{
 			dependencies: ["36117361546D1D22"]
 			description: [
-				"The &bCable Anchor&r is an item which, when placed on the side of a &bCable&r, will prevent that cable from connecting to another compatible one."
+				"The &bCable Anchor&r, &bInverted Toggle Anchor&r, &bToggle Anchor&r, and &bLevel Emitter&r are all &6placed onto a cable&r and exist in the &asame block space&r. (Meaning in the same 1 block area). &bColored cables&r only connect to &acables of the same color&r, or &bFluix cables&r. "
 				""
-				"For example, a &bcolored cable&r has compatibility with other cables of that same color, or &bFluix cables&r, meaning that if they are placed beside each other, &athey will connect&r. If you want to prevent this, placing a &bCable Anchor&r on the side will keep them from connecting. Alternatively, you can always &ause different colored Cables to hook up Nexus points without interfering with other processes."
+				"{image:cottagewitch:textures/quest_images/ae2_cable.png width:250 height:230 align:1}"
 				""
-				"The &bToggle Anchor&r functions similarly to the &bCable Anchor&r in terms of placement, however allows the connection to be enabled or disabled by redstone power. The basic &bToggle Anchor&r &arequires a redstone signal in order to allow the connection&r. The &bInverted Toggle Anchor&r is the opposite, &abeing always on unless provided with redstone signal&r."
+				"Using a &bCable Anchor&r on a cable will &aprevent any other cables from connecting&r on that side."
 				""
-				"The &bLevel Emitter&r will &aprovide a redstone signal based on configurable conditions&r. To access these, you can &6right click on the Emitter&r to access its interface. You can &adefine an item for the &bEmitter&r to monitor, and &achoose what set of rules you would like it to use&r."
+				"The &bToggle Anchor&r is similar to the &bCable Anchor&r, but &6powering it with redstone&r will &aallow another cable to connect&r. The &bInverted Toggle Anchor&r is the opposite, &aallowing an adjacent cable to connect by default&r &ounless&r &6powered by redstone&r."
+				""
+				"The &bLevel Emitter&r will &aprovide a redstone signal based on configurable conditions&r. To access these, you can &6right click on the &bEmitter&r to access its interface. You can &adefine an item for the &bEmitter&r to monitor (such as a diamond), and &achoose what set of rules you would like it to use&r."
 				""
 				"{image:cottagewitch:textures/quest_images/level_emitter_ui.png width:250 height:230 align:1}"
 			]
@@ -1887,8 +1899,8 @@
 				}
 			]
 			title: "Cable Utilities"
-			x: -2.5d
-			y: -11.5d
+			x: -6.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["50076E9CA12182E6"]
@@ -1972,19 +1984,19 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -11.5d
+			x: -6.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1F7DD0EA78B3C25C"]
 			description: [
-				"The &bResonance Access Point&r is the core of &awireless access&r. However, the magic of &awireless connectivity&r can only reach so far. By default the range is &a16 blocks&r. You can &aincrease this range&r by &6inserting&r &bResonance Boosters&r &6into the&r &bResonance Access Point&r!"
+				"The &bAetheric Beacon&r is the core of &awireless access&r. However, the magic of &awireless connectivity&r can only reach so far. By default the range is &a16 blocks&r. You can &aincrease this range&r by &6inserting&r &bResonance Boosters&r &6into the&r &bAetheric Beacon&r!"
 				""
-				"Additional &bResonance Access Points&r can be &aadded to different physical sections&r of your &aNexus&r to enable another &a16 block radius&r of &awireless access&r around that &bResonance Access Point&r."
+				"Additional &bAetheric Beacons&r can be &aadded to different physical sections&r of your &aNexus&r to enable another &a16 block radius&r of &awireless access&r around that &bAetheric Beacon&r."
 				""
 				"{image:cottagewitch:textures/quest_images/ae2_access_point_range.png width:300 height:250 align:1}"
 				""
-				"The image above shows the radius of two &bResonance Access Points&r that have no &bResonance Boosters&r. The &bResonance Access Point&r on the left has a &aradius shown in blue concrete&r, while the &bResonance Access Point&r on the right has a &aradius shown in green concrete&r. &6While standing any where in the concrete areas&r, you would have &aaccess to your Nexus&r via an attuned &bResonant Aperture&r &a(Explained in the following Quest)&r."
+				"The image above shows the radius of two &bAetheric Beacons&r that have no &bResonance Boosters&r. The &bAetheric Beacon&r on the left has a &aradius shown in blue concrete&r, while the &bAetheric Beacon&r on the right has a &aradius shown in green concrete&r. &6While standing any where in the concrete areas&r, you would have &aaccess to your Nexus&r via an attuned &bResonant Aperture&r &a(Explained in the following Quest)&r."
 			]
 			id: "30EA2E54AACE1D40"
 			rewards: [{
@@ -1998,15 +2010,15 @@
 				item: "ae2:wireless_access_point"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["30EA2E54AACE1D40"]
 			description: [
-				"Each &bResonance Booster&r increases the &arange of your wireless access&r. To add a &bResonance Booster&r, &6right click&r your &bResonance Access Point&r and add anywhere from 1 to 64 &bResonance Boosters&r. The range of your &awireless access&r increases with each upgrade to a &amax of 528 blocks&r."
+				"Each &bResonance Booster&r increases the &arange of your wireless access&r. To add a &bResonance Booster&r, &6right click&r your &bAetheric Beacon&r and add anywhere from 1 to 64 &bResonance Boosters&r. The range of your &awireless access&r increases with each upgrade to a &amax of 528 blocks&r."
 				""
-				"This upgrade is not needed if you use the &bPlanar Relay Link Ring&r for &across dimensional wireless access&r."
+				"This upgrade is not needed if you use the &bAetheric Core Link Ring&r for &across dimensional wireless access&r."
 			]
 			id: "109BED3B10E05304"
 			optional: true
@@ -2021,7 +2033,7 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -13.0d
 		}
 		{
@@ -2030,6 +2042,7 @@
 				"Collecting 8 mushrooms and &aplacing them in a ring&r will create a fairy ring. Make sure to place them on &ablocks that can grow mushrooms&r, such as &bmycelium&r. You can then &6drop items into the fairy ring&r to &acreate new items&r!"
 				"{image:cottagewitch:textures/fairycircle.png width:250 height:189 align:1}"
 			]
+			hide_dependency_lines: true
 			id: "2C8735C0B1C9431D"
 			rewards: [{
 				id: "669FEDA4A9063F59"
@@ -2057,8 +2070,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.0d
-			y: -13.0d
+			title: "Making a Fairy Ring"
+			x: 5.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -2066,11 +2080,11 @@
 				"4F50B0FDBED86AF2"
 			]
 			description: [
-				"The &bDiscernment Glyphstone&r allows you to filter which items in your Nexus you view from a given &bAperture&r. You can program them by using the &bGlyph Workbench&r."
+				"The &bDiscernment Glyphstone&r allows you to filter which items in your &aNexus&r you view from a given &bAperture&r. You can program them by using the &bGlyph Workbench&r."
 				""
-				"Place the &bGlyphstone&r in the &6upper right slot&r to alter its contents. Then, you can insert ghosts of items from &ayour inventory or even JEI&r by clicking and dragging the item into its inventory."
+				"Place the &bGlyphstone&r in the &6upper right slot&r to alter its contents. Then, you can insert ghosts of items from &ayour inventory or even &lJEI&r&r by clicking and dragging the item into its inventory."
 				""
-				"Once you have finished configuring the glyphstone, you can &6place the &bDiscernment Glyphstone&r into the upper right slots of your Nexus Aperture."
+				"Once you have finished configuring the glyphstone, you can &6place the &bDiscernment Glyphstone&r into the upper right slots of your &aNexus Aperture&r."
 				""
 				"{image:cottagewitch:textures/quest_images/glyph_workbench.png width:250 height:260 align:1}"
 			]
@@ -2129,11 +2143,11 @@
 				}
 			]
 			title: "Automation"
-			x: -4.5d
-			y: -13.0d
+			x: -6.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["36117361546D1D22"]
+			dependencies: ["3E04FD992301892D"]
 			description: [
 				"Every witch loves to tinker - we just can't leave well enough alone! And to support this habit, there are certain &bUpgrades&r to your &bStorage Nexus&r which can improve your overall experience."
 				""
@@ -2152,10 +2166,10 @@
 			}]
 			title: "Upgrading Your Nexus"
 			x: -3.0d
-			y: -15.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["36117361546D1D22"]
+			dependencies: ["3E04FD992301892D"]
 			description: [
 				"In addition to the &bCarved Certus Tablets&r, you can also craft &aadvanced upgrades&r using &bFluix Tablets&r."
 				""
@@ -2173,12 +2187,12 @@
 				type: "item"
 			}]
 			title: "Even Better Nexus Upgrades"
-			x: -5.5d
-			y: -15.0d
+			x: -4.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
-			description: ["When inserted, this upgrade allows you to &acontrol a certain component with &bRedstone&r. This can include &apowering, deactivating, and pulsing&r."]
+			description: ["When inserted, this upgrade allows you to &acontrol the upgraded block with &bRedstone&r. This can include &apowering, deactivating, and pulsing&r."]
 			id: "69EAA78A6DBA5AC0"
 			rewards: [{
 				id: "0B9F2F8D93E6149F"
@@ -2191,8 +2205,8 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -15.5d
+			x: -2.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["3F1D38652FC48C86"]
@@ -2209,7 +2223,7 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -16.0d
 		}
 		{
@@ -2227,11 +2241,19 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -15.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["This tablet can be inserted into a &bFilter&r to allow you to discern between, or ignore the differences between, similar items with &aNBT data&r such as &adamage levels&r."]
+			description: [
+				"When adding an &aNBT item to a filter&r, by default, the filter will attempt to &amatch its NBT&r. The &bFuzzy Tablet&r allows you to filter items as if they did not have NBT. "
+				""
+				"For example, when &aadding a potion to an &bImport Fulcrum&r's filter&r, only the &aspecific type of potion will be imported&r. By adding a &bFuzzy Tablet&r on the \"Match Any\" mode to the &bImport Fulcrum&r, &aany potion type will be imported&r."
+				""
+				"The &bFuzzy Tablet&r allows for additional filtering by &adamage levels&r. This can be used for &afiltering out damaged tools or armor&r with finer detail."
+				""
+				"&dNote: storing NBT items within your Nexus can cause lag&r"
+			]
 			id: "60797B6909DC89B5"
 			rewards: [{
 				id: "0538E92CEF3EBE99"
@@ -2243,8 +2265,8 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -15.0d
+			x: -2.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2260,8 +2282,8 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -16.0d
+			x: -3.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
@@ -2277,12 +2299,12 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -17.0d
+			x: -4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["The &bEqual Distribution Tablet&r &asplits Glyphstone's resonations into equally sized sections&r, based on the filter that you set for the &bGlyphstone&r using the &bGlyph Workbench&r."]
+			description: ["The &bEqual Distribution Tablet&r &asplits a Glyphstone into equally sized sections&r, based on the filter that you set for the &bGlyphstone&r using the &bGlyph Workbench&r. This prevents one item type from completely filling the Glyphstone."]
 			id: "663451A83E577E13"
 			rewards: [{
 				id: "3A11D5394E0C4B67"
@@ -2295,11 +2317,11 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -17.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["01CC3364F60EC931"]
-			description: ["Is your &bportable aperture&r running low on &aresonance&r on a frequent basis? You can expand the capacity by &ainserting this upgrade&r."]
+			description: ["Is your &bResonant Aperture&r running low on &aresonance&r on a frequent basis? You can expand the capacity by &ainserting this upgrade&r."]
 			id: "097F68B45F2B4BE5"
 			rewards: [{
 				id: "4FADBAE26696E029"
@@ -2311,15 +2333,15 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -16.5d
+			x: -6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["4B3896CA30384F99"]
 			description: [
 				"The &bGlyph Workbench&r is used to &aalter the behavior of &bGlyphstones&r. When accessing its interface, you can place the &bGlyph&r you wish to edit into the upper right slot, and then use the center inventory to &adefine what items this Glyph will accept&r."
 				""
-				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from JEI. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. You can also clear configured items by &aclicking the x icon&r."
+				"You can define items by &6clicking and dragging them into the Workbench&r, either from your own inventory, or from &lJEI&r. Additionally, if you already have the desired items stored on the Glyphstone, you can &6choose the wrench icon in the upper left&r. You can also clear configured items by &aclicking the x icon&r."
 				""
 				"You can insert an &bInverter Tablet&r to make the Glyphstone &areject the configured items&r instead."
 			]
@@ -2367,7 +2389,7 @@
 		{
 			dependencies: ["36117361546D1D22"]
 			description: [
-				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be powered from the top or bottom. You can tell when a &ablock is powered&r by &6observing the tooltip&r provided by &lJade&r that states &adevice online&r. "
+				"You can grow buds faster by &6placing the budding blocks adjacent to a &bCrystal Growth Accelerator&r, which needs to be &apowered from the top or bottom&r. You can tell when a &ablock is powered&r by &6observing the tooltip&r provided by &lJade&r that states &adevice online&r. "
 				""
 				"This includes &aother budding crystals&r such as &bBudding Amethyst&r, &bBudding Ametrine Ore&r, &bBudding Therium Crystal&r, and &bBudding Subzero Crystal&r!"
 			]
@@ -2384,7 +2406,7 @@
 				item: "ae2:quartz_growth_accelerator"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -14.0d
 		}
 		{
@@ -2412,7 +2434,7 @@
 				item: "ae2:biometric_card"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -12.0d
 		}
 		{
@@ -2427,6 +2449,41 @@
 			title: "Going Wireless"
 			x: 2.5d
 			y: -12.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"Some blocks can be &aupgraded&r to have &aadditional features&r! To find out what blocks can be used for each upgrade, &6simply hover over the tablet&r to see the &alist of accepted blocks&r. The number in parentheses is the &amaximum amount of that upgrade the block can accept&r. "
+				""
+				""
+				"&dNote: some blocks are disabled, but still listed on the tablet&r. These blocks will say (Disabled). For a full list of blocks/items from &lAE2&r, their &aname changes,&r and &awhether or not they are disabled&r, please &6click the Transcendent Gem next to this quest&r to visit the spreadsheet with these details."
+			]
+			id: "3E04FD992301892D"
+			tasks: [{
+				id: "0C34052EDBBB181F"
+				type: "checkmark"
+			}]
+			title: "Nexus Upgrades"
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3BCEBB5E08B49230"]
+			description: ["If you want to &agive another player&r a &bResonant Aperture&r connected to your &aNexus&r, you will need to &drepeat the steps in the following quests&r for &oeach&r &bResonant Aperture&r you connect."]
+			id: "56B6A3CCC4C04A7D"
+			rewards: [{
+				id: "0C279DD4F6B32818"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DFD448B34A8BF76"
+				title: "Linking Resonant Apertures"
+				type: "checkmark"
+			}]
+			title: "Multiple Resonant Apertures"
+			x: 4.0d
+			y: -15.0d
 		}
 	]
 	title: "Storage"
