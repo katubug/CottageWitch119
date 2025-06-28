@@ -2,6 +2,8 @@
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
 
+Platform.mods.kubejs.name = 'Cottage Witch'
+
 StartupEvents.registry('item', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
