@@ -14,6 +14,20 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
 	//ME Wireless Crafting Terminal
 	event.shaped(
 		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),
@@ -264,7 +278,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Quantum Ring/Planar Relay Tether
+	//Quantum Ring/Aetheric Ring
 	event.shaped(
 		Item.of('ae2:quantum_ring'),
 		[
@@ -360,7 +374,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Resonance Access Point
+	//Aetheric Beacon
 	event.shaped(
 		Item.of('ae2:wireless_access_point'),
 		[
@@ -410,12 +424,11 @@ ServerEvents.recipes(event => {
 	];
 
 	for (const number of numbers) {
-		/*
 		event.shapeless(
 			Item.of('ae2:portable_item_cell_'+number),
 			[
 				'#forge:books', 
-				'ae2:cell_component_1k', 
+				'ae2:cell_component_'+number, 
 				'ae2:item_cell_housing',
 				'ae2:chest'
 			]
@@ -430,7 +443,6 @@ ServerEvents.recipes(event => {
 				'ae2:chest'
 			]
 		)
-		*/
 		
 		//Fluid Storage Cells/Fluid Glyphstones
 		event.shaped(
@@ -446,6 +458,14 @@ ServerEvents.recipes(event => {
 			}
 		)
 
+		event.shapeless(
+			Item.of('ae2:fluid_storage_cell_'+number),
+			[
+				'ae2:fluid_cell_housing',
+				'ae2:cell_component_'+number
+			]
+		)
+
 		//Item Storage Cells/Item Glyphstones
 		event.shaped(
 			Item.of('ae2:item_storage_cell_'+number),
@@ -459,61 +479,153 @@ ServerEvents.recipes(event => {
 				C: 'ae2:cell_component_'+number
 			}
 		)
-	}
-		event.custom({
-			'type': 'extendedmushrooms:fairy_ring_recipe',
-			'ingredients': [{'item': 'minecraft:ender_eye'},
-			{'item': 'ae2:charged_certus_quartz_crystal'},
-			{'item': 'ars_nouveau:ritual_binding'},
-			{'item': 'spelunkery:rough_lazurite'}],
-			'recipeTime': 1200,
-			'result': {'item': 'ae2:singularity'}
-		})
 
-		event.shaped(
-    Item.of('ae2wtlib:quantum_bridge_card'),
-    [
-        ' A ',
-        'BCD',
-        ' E '
-    ], {
-        A: 'twilightforest:maze_map_focus',
-        B: 'deeperdarker:heart_of_the_deep',
-        C: 'ae2:wireless_receiver',
-        D: 'minecraft:dragon_egg',
-        E: 'minecraft:netherite_ingot'
-    }
-)
 		event.shapeless(
-			Item.of('ae2:level_emitter'),
+			Item.of('ae2:item_storage_cell_'+number),
 			[
-				'minecraft:redstone_torch',
-				'create:electron_tube'
+				'ae2:item_cell_housing',
+				'ae2:cell_component_'+number
 			]
 		)
+	}
 
-		event.shaped(
-			Item.of('8x ae2:sky_stone_block'),
-			[
-				'AAA',
-				'ABA',
-				'AAA'
-			],{
-				A: 'minecraft:stone',
-				B: 'quark:bottled_cloud'
-			}).replaceIngredient('quark:bottled_cloud','minecraft:glass_bottle')
+	//Aetheric Core
+	event.custom({
+		'type': 'extendedmushrooms:fairy_ring_recipe',
+		'ingredients': [{'item': 'minecraft:ender_eye'},
+		{'item': 'ae2:charged_certus_quartz_crystal'},
+		{'item': 'ars_nouveau:ritual_binding'},
+		{'item': 'spelunkery:rough_lazurite'}],
+		'recipeTime': 300,
+		'result': {'item': 'ae2:singularity'}
+	}).id('kjs_aetheric_core')
 
-		event.shaped(
-			Item.of('2x ae2:me_p2p_tunnel'),
-			[
-				' A ',
-				'ABA',
-				'CCC'
-			],{
-				A: 'minecraft:iron_ingot',
-				B: 'create:electron_tube',
-				C: 'ae2:fluix_crystal'
-			}
-		)
+	//Planar Bridge Card
+	event.shaped(
+		Item.of('ae2wtlib:quantum_bridge_card'),
+		[
+			' A ',
+			'BCD',
+			' E '
+		], {
+			A: 'twilightforest:maze_map_focus',
+			B: 'deeperdarker:heart_of_the_deep',
+			C: 'ae2:wireless_receiver',
+			D: 'minecraft:dragon_egg',
+			E: 'minecraft:netherite_ingot'
+		}
+	)
 
+	//Nexus Level Emitter
+	event.shapeless(
+		Item.of('ae2:level_emitter'),
+		[
+			'minecraft:redstone_torch',
+			'create:electron_tube'
+		]
+	)
+
+	//Sky Stone
+	event.shaped(
+		Item.of('8x ae2:sky_stone_block'),
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],{
+			A: 'minecraft:stone',
+			B: 'quark:bottled_cloud'
+		}).replaceIngredient('quark:bottled_cloud','minecraft:glass_bottle')
+
+	//Nexus Transference Focus
+	event.shaped(
+		Item.of('2x ae2:me_p2p_tunnel'),
+		[
+			' A ',
+			'ABA',
+			'CCC'
+		],{
+			A: 'minecraft:iron_ingot',
+			B: 'create:electron_tube',
+			C: 'ae2:fluix_crystal'
+		}
+	)
+
+	//Fluix Axe
+	event.smithing(
+		'ae2:fluix_axe',
+		'minecraft:iron_axe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Hoe
+	event.smithing(
+		'ae2:fluix_hoe',
+		'minecraft:iron_hoe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Shovel
+	event.smithing(
+		'ae2:fluix_shovel',
+		'minecraft:iron_shovel',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Pickaxe
+	event.smithing(
+		'ae2:fluix_pickaxe',
+		'minecraft:iron_pickaxe',
+		'ae2:fluix_block'
+	)
+
+	//Fluix Sword
+	event.smithing(
+		'ae2:fluix_sword',
+		'minecraft:iron_sword',
+		'ae2:fluix_block'
+	)
+
+	//Memory Card
+	event.shaped(
+		Item.of('ae2:memory_card'),
+		[
+			'ABA',
+			'ACA'
+		], {
+			
+			A: 'minecraft:copper_ingot',
+			B: 'create:polished_rose_quartz',
+			C: 'minecraft:redstone'
+		}
+	)
+
+	//Cable Anchor
+	event.shapeless(
+		Item.of('4x ae2:cable_anchor'),
+		[
+			'#ae2:metal_ingots',
+			'#forge:tools/knives'
+		]
+	)
+
+	// Certus Quartz Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Certus Quartz Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Fluix Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
+
+	// Fluix Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
 })

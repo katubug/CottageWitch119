@@ -75,4 +75,33 @@ ServerEvents.tags('block', event => {
               'byg:budding_subzero_crystal',
               'byg:budding_therium_crystal'
     )
+
+    event.add('beautify:candleabras',
+        'beautify:lamp_candleabra', 'beautify:lamp_candleabra_light_blue', 'beautify:lamp_candleabra_light_gray', 'beautify:lamp_candleabra_black', 'beautify:lamp_candleabra_blue', 'beautify:lamp_candleabra_brown', 'beautify:lamp_candleabra_cyan', 'beautify:lamp_candleabra_gray', 'beautify:lamp_candleabra_green', 'beautify:lamp_candleabra_lime', 'beautify:lamp_candleabra_magenta', 'beautify:lamp_candleabra_orange', 'beautify:lamp_candleabra_pink', 'beautify:lamp_candleabra_purple', 'beautify:lamp_candleabra_red', 'beautify:lamp_candleabra_white', 'beautify:lamp_candleabra_yellow'
+    )
+
+    // candles for consecration:
+    event.add('minecraft:candles',
+        '#hexerei:candles',
+        '#supplementaries:skull_candles',
+        '#supplementaries:candle_holders',
+        '#beautify:candleabras',
+        'fantasyfurniture:decorations/venthyr_candles',
+        'fantasyfurniture:decorations/bone_candles',
+        'hexerei:candelabra',
+        'twilightforest:zombie_skull_candle',
+        'twilightforest:skeleton_skull_candle',
+        'twilightforest:wither_skeleton_skull_candle',
+        'twilightforest:creeper_skull_candle',
+        'twilightforest:player_skull_candle'
+    )
+
+    // fixing crystals
+    let crystals = ['byg:small_subzero_crystal_bud', 'byg:medium_subzero_crystal_bud', 'byg:large_subzero_crystal_bud', 'byg:small_therium_crystal_bud', 'byg:medium_therium_crystal_bud', 'byg:large_therium_crystal_bud', 'byg:therium_crystal_cluster', 'byg:budding_therium_crystal']
+    for (const crystal of crystals) {
+        event.add('minecraft:mineable/pickaxe', crystal)
+        event.add('artifacts:mineable/digging_claws', crystal)
+    }
+
+
 })

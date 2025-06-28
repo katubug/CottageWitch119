@@ -10,6 +10,13 @@
     "applecrates:jungle_crate",
     "applecrates:dark_oak_crate",
     "applecrates:crimson_crate",
-    "applecrates:warped_crate"
+    "applecrates:warped_crate",
+    "functionalstorage:ender_drawer",
+    "itemcollectors:basic_collector",
+    "itemcollectors:advanced_collector",
+    "trashcans:item_trash_can",
+    "trashcans:liquid_trash_can",
+    "trashcans:energy_trash_can",
+    "trashcans:ultimate_trash_can"
   ]
 }

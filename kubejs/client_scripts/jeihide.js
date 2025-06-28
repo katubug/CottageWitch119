@@ -417,7 +417,29 @@ JEIEvents.hideItems(event => {
 		'refurbished_furniture:crimson_mail_box',
 		'refurbished_furniture:warped_mail_box',
 		'refurbished_furniture:post_box',
-		'ars_instrumentum:numeric_mana_charm'
+		'ars_instrumentum:numeric_mana_charm',
+		'spelunkery:raw_lead_nugget',
+		'spelunkery:raw_silver_nugget',
+		'spelunkery:copper_nugget', 
+		'spelunkery:rough_jade_shard',
+		'spelunkery:jade_shard',
+		'delightful:steel_knife',
+		'delightful:silver_knife',
+		'delightful:bronze_knife',
+		'kubejs:pink_moon',
+        'kubejs:flower_moon',
+        'kubejs:strawberry_moon',
+        'kubejs:antler_moon',
+        'kubejs:harvest_moon',
+        'kubejs:corn_moon',
+        'kubejs:oak_moon',
+        'kubejs:hunter_moon',
+        'kubejs:wolf_moon',
+        'kubejs:frost_moon',
+        'kubejs:snow_moon',
+        'kubejs:worm_moon',
+        'kubejs:black_moon',
+		'hexerei:willow_woodcutter'
 	];
 
 	for (const hide of toHide) {
