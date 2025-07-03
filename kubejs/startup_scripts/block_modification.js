@@ -9,9 +9,8 @@ BlockEvents.modification((event) => {
 //MARK: Destroy Speed
 BlockEvents.modification((e) => {
 	e.modify(/.*deepslate.*/, (block) => {
-		block.setDestroySpeed(1);
-	});
-	e.modify("minecraft:reinforced_deepslate", (block) => {
-		block.setDestroySpeed(-1);
+		if (block.name != "reinforced_deepslate") {
+			block.setDestroySpeed(1);
+		}
 	});
 });
