@@ -27,11 +27,3 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 	});
 });
 
-
-ServerEvents.tags("item", (event) => {
-	event.add(
-		"forge:overgrowth_banned",
-		"hexerei:yellow_dock_bush",
-		"hexerei:mugwort_bush"
-	);
-});
