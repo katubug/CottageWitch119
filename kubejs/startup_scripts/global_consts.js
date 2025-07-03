@@ -1,3 +1,4 @@
+//MARK: Spawn Eggs
 global.allowed_eggs = {
 	"minecraft:allay": "minecraft:allay_spawn_egg",
 	"minecraft:axolotl": "minecraft:axolotl_spawn_egg",
@@ -384,6 +385,7 @@ global.allowed_eggs = {
 	"twilightforest:yeti": "twilightforest:yeti_spawn_egg",
 };
 
+//MARK: Text Formatting
 global.formatcodes = {
 	black: `\u00A70`, // #000000
 	dark_blue: `\u00A71`, // #0000AA
@@ -409,7 +411,8 @@ global.formatcodes = {
 	reset: `\u00A7r`,
 };
 
-global.dye_colours = [
+//MARK: Dye Colors
+global.dye_colors = [
 	"white",
 	"orange",
 	"magenta",
