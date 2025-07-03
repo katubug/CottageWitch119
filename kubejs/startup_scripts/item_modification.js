@@ -1,4 +1,3 @@
-//MARK: Stack Size
 ItemEvents.modification((event) => {
 	//MARK: Stack Size
 	const setStackSizeTo64 = [
