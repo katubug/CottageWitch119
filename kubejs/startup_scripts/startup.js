@@ -15,7 +15,7 @@ Platform.mods.kubejs.name = "Cottage Witch";
 
 StartupEvents.registry("item", (event) => {
 	/**
-	 * registers a basic item. texture path optional
+	 * Registers a basic item. Texture path is optional
 	 * @param {string} id item ID
 	 * @param {string} name Display Name
 	 * @param {int} stackSize Max Stack Size
@@ -37,7 +37,7 @@ StartupEvents.registry("item", (event) => {
 	 * MARK: Register Coins
 	 */
 
-	const coins = ["Lunar", "Solar", "Arcane"];
+	const coins = global.hex_coins;
 
 	coins.forEach((Coin) => {
 		const coin = Coin.toLowerCase();
@@ -56,21 +56,7 @@ StartupEvents.registry("item", (event) => {
 	 * MARK: Register Moons
 	 */
 
-	const moons = [
-		"Pink",
-		"Flower",
-		"Strawberry",
-		"Antler",
-		"Harvest",
-		"Corn",
-		"Hunter",
-		"Frost",
-		"Oak",
-		"Wolf",
-		"Snow",
-		"Worm",
-		"Black",
-	];
+	const moons = Object.keys(global.hex_moons);
 
 	moons.forEach((Moon) => {
 		const moon = Moon.toLowerCase();

@@ -1,8 +1,14 @@
 //MARK: Unbreakable
 BlockEvents.modification((event) => {
-	event.modify(/trashcans:.*/, (block) => {
-		block.setExplosionResistance(2048);
-		block.setDestroySpeed(-1);
+	const unbreakableBlocks = [
+		/trashcans:.*/,
+		/itemcollectors:.*/,
+		/applecrates:.*/,
+	];
+
+	event.modify(unbreakableBlocks, (block) => {
+		block.setExplosionResistance(2048); //can't be blown up
+		block.setDestroySpeed(-1); // can't be broken by any other means
 	});
 });
 

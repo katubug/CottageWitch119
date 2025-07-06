@@ -1,26 +1,27 @@
 BlockEvents.rightClicked("block.right_click", (event) => {
 	//main hand only
-	const { block, hand, item, world, player } = event;
+	const { block, item, player } = event;
 
 	//check for banned plants being placed
 	if (!item.hasTag("forge:overgrowth_banned")) return;
 	console.log("Hexerei plant placed.");
 
 	//create area (5 block distance)
-	const area = AABB.ofBlock(block).inflate(5);
+	const area = AABB.ofBlock(block.up).inflate(5);
 
 	//check area for braziers
-	const blocks = player.level.getBlockStates(area);
-	const iterator = 0;
+	const blocksInArea = player.level.getBlockStates(area);
+	let iterator = 0;
 	//iterate through blockstates
-	blocks.forEach((e) => {
+	blocksInArea.forEach((b) => {
 		iterator++;
-		if (e.block.id != "ars_nouveau:ritual_brazier") return;
+		if (b.block.id != "ars_nouveau:ritual_brazier") return;
 		console.log(`Brazier found after ${iterator} blocks! Preventing placement`);
+		console.log(`Braizer NBT: ${b.block.blockBuilder}`);
 		//let player know
-		WarnPlayer(
+		_WarnPlayer(
 			event,
-			"Hexerei plants can crash when near an overgrowth ritual."
+			`Hexerei plants can cause crashes when placed near an overgrowth ritual.`
 		);
 		//cancel placing
 		event.cancel();

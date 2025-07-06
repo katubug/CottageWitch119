@@ -430,3 +430,23 @@ global.dye_colors = [
 	"red",
 	"black",
 ];
+
+//MARK: Moons
+global.hex_moons = {
+	Pink: "April",
+	Flower: "May",
+	Strawberry: "June",
+	Antler: "July",
+	Harvest: "August",
+	Corn: "September",
+	Hunter: "December",
+	Frost: "October",
+	Oak: "November",
+	Wolf: "January",
+	Snow: "March",
+	Worm: "February",
+	Black: global.formatcodes.dark_gray + global.formatcodes.glitch + "NEVER",
+};
+
+//MARK: Coins
+global.hex_coins = ["Lunar", "Solar", "Arcane"];

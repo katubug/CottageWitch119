@@ -1,5 +1,5 @@
 ItemEvents.tooltip((e) => {
-	const text = global.colorcodes;
+	const color = global.formatcodes;
 
 	//Drink Tooltips
 	e.add(
@@ -1530,20 +1530,6 @@ ItemEvents.tooltip((e) => {
 	e.add("reaping:netherite_reaping_tool", "Base Chance of Failure: 9%");
 
 	e.add(
-		"hexerei:moon_dust_brush",
-		"Swift flight can be problematic for server performance. Please fly considerately."
-	);
-
-	e.add(
-		"alexsmobs:shattered_dimensional_carver",
-		text.red + text.bold + text.underline + "Do not use!",
-		text.reset +
-			text.italic +
-			text.gold +
-			"This item is bugged.Please check the quests for more info."
-	);
-
-	e.add(
 		"alexsmobs:warped_muscle",
 		"Obtain this item from the Nether Dimension Gate."
 	);
@@ -1558,53 +1544,102 @@ ItemEvents.tooltip((e) => {
 		"These are not craftable in this modpack. Find them in End City loot!"
 	);
 
-	e.add(
-		"domesticationinnovation:wayward_lantern",
-		"Use with care! Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location."
-	);
+	/**
+	 * Adds a warning message tooltip to the item that requires shift to be held.
+	 * @param {Special.Item} itemName The item id.
+	 * @param {[string]} message The warning message.
+	 *
+	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
+	 */
+	function addWarning(itemName, message) {
+		e.addAdvanced(itemName, (item, advanced, text) => {
+			if (!e.shift) {
+				text.add(1, [color.red + "Warning: ", "Hold [Shift]"]);
+			} else {
+				text.add(1, [color.red + "Warning:"]);
+				let lineNo = 2;
+				message.forEach((line) => {
+					text.add(lineNo, [color.gold + line]);
+					lineNo++;
+				});
+			}
+		});
+	}
 
-	e.add(
-		"hexerei:willow_woodcutter",
-		"This woodcutter can sometimes cause crashes. Please use mahogany or witch hazel instead!"
-	);
+	addWarning("hexerei:moon_dust_brush", [
+		"Swift flight can be problematic for server performance.",
+		"Please fly considerately.",
+	]);
+
+	addWarning("alexsmobs:shattered_dimensional_carver", [
+		color.bold + "Do not use!",
+		"This item is bugged.",
+		"Please check the quests for more info.",
+	]);
+
+	addWarning("domesticationinnovation:wayward_lantern", [
+		"Use with care!",
+		"Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.",
+	]);
+
+	addWarning("hexerei:willow_woodcutter", [
+		"This woodcutter can sometimes cause crashes.",
+		"Please use mahogany or witch hazel instead!",
+	]);
 
 	// Mob Lassos
 
-	e.add(
+	addWarning(
 		[
 			"moblassos:golden_lasso",
 			"moblassos:aqua_lasso",
 			"moblassos:emerald_lasso",
 			"moblassos:hostile_lasso",
 		],
-		`\u00A7d` +
-			"Placing timed lassos into an inventory can cause heavy lag, as those entities will repeatedly attempt to escape."
+		[
+			"Don't place timed lassos into an inventory!",
+			"It will cause heavy lag, as those entities will repeatedly attempt to escape.",
+		]
 	);
 
-	e.add(
-		"brewinandchewin:keg",
-		`\u00A7d` + "Warning: Certain keg recipes are now made in a cooking pot."
-	);
+	addWarning("brewinandchewin:keg", [
+		"Kegs are crashy.",
+		"Certain keg recipes are now made in a cooking pot.",
+	]);
 
-	e.add(
-		"#forge:maj_acs",
-		`\u00A7d` + "Do not combine these in your inventory, it can cause crashes!"
-	);
+	addWarning(/majrusz.*/, [
+		"Do not combine these in your inventory, it can cause crashes!",
+	]);
 
-	e.add("kubejs:pink_moon", "The Pink Moon occurs in April.");
-	e.add("kubejs:flower_moon", "The Flower Moon occurs in May.");
-	e.add("kubejs:strawberry_moon", "The Strawberry Moon occurs in June.");
-	e.add("kubejs:antler_moon", "The Antler Moon occurs in July.");
-	e.add("kubejs:harvest_moon", "The Harvest Moon occurs in August.");
-	e.add("kubejs:corn_moon", "The Corn Moon occurs in September.");
-	e.add("kubejs:oak_moon", "The Oak Moon occurs in December.");
-	e.add("kubejs:hunter_moon", "The Hunter Moon occurs in October.");
-	e.add("kubejs:frost_moon", "The Frost Moon occurs in November.");
-	e.add("kubejs:wolf_moon", "The Wolf Moon occurs in January.");
-	e.add("kubejs:worm_moon", "The Worm Moon occurs in March.");
-	e.add("kubejs:snow_moon", "The Snow Moon occurs in February.");
+	const moons = global.hex_moons;
 
-	e.add("#forge:moon_certificates", `\u00A7d` + "Art by LoFi Fruit");
+	for (let moonName in moons) {
+		// get moon item
+		let moonID = `kubejs:${moonName.toLowerCase()}_moon`;
+		// get month of moon
+		let month = moons[moonName];
+		// combine together
+		let moonTooltip = `The ${moonName} Moon occurs in ${month}.`;
+		// add a tooltip
+		e.addAdvanced(moonID, (item, advanced, text) => {
+			text.add(1, moonTooltip);
+		});
+	}
+	//text.add(2, color.light_purple + "Art by LoFi Fruit");
+	// e.add("kubejs:pink_moon", "The Pink Moon occurs in 				April		.");
+	// e.add("kubejs:flower_moon", "The Flower Moon occurs in 			May			.");
+	// e.add("kubejs:strawberry_moon", "The Strawberry Moon occurs in 	June			.");
+	// e.add("kubejs:antler_moon", "The Antler Moon occurs in 			July			.");
+	// e.add("kubejs:harvest_moon", "The Harvest Moon occurs in 		August			.");
+	// e.add("kubejs:corn_moon", "The Corn Moon occurs in 				September			.");
+	// e.add("kubejs:oak_moon", "The Oak Moon occurs in 				December			.");
+	// e.add("kubejs:hunter_moon", "The Hunter Moon occurs in 			October			.");
+	// e.add("kubejs:frost_moon", "The Frost Moon occurs in 			November			.");
+	// e.add("kubejs:wolf_moon", "The Wolf Moon occurs in 				January			.");
+	// e.add("kubejs:worm_moon", "The Worm Moon occurs in 				March			.");
+	// e.add("kubejs:snow_moon", "The Snow Moon occurs in 				February			.");
+
+	// e.add(/kubejs:.*_moon/, color.light_purple + "Art by LoFi Fruit");
 
 	// Scythes (egg and head drops)
 	e.add(
@@ -1628,8 +1663,14 @@ ItemEvents.tooltip((e) => {
 		"This egg can drop when using a Reaping tool."
 	);
 
-	e.add(
-		"@refinedstorage",
-		text.red + text.italic + "Warning: this mod is set to be removed the 1.18.0 update."
-	);
+	addWarning("@refinedstorage", [
+		"This mod is set to be removed the 1.18.0 update.",
+	]);
+
+	e.addAdvanced("minecraft:player_head", (item, advanced, text) => {
+		let playerName = item.nbt?.SkullOwner?.Name;
+		if (playerName) {
+			text.add(1, color.red + `===|The head of ${playerName}|===`);
+		}
+	});
 });

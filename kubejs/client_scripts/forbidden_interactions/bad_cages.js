@@ -5,6 +5,9 @@ ItemEvents.entityInteracted("supplementaries:cage", (event) => {
 		)
 	)
 		return;
-	WarnPlayer(event, "This entity cannot be contained.");
+	_WarnPlayer(
+		event,
+		`${event.target.displayName.getString()} cannot be contained.`
+	);
 	event.cancel();
 });

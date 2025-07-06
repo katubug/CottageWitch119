@@ -43,7 +43,9 @@ ServerEvents.tags("block", (event) => {
 		"forge:relocation_not_supported",
 		"minecraft:reinforced_deepslate",
 		"prefab:block_boundary",
-		"@trashcans"
+		"@trashcans",
+		"@itemcollectors",
+		"@applecrates"
 	);
 
 	// Hexerei Crow Harvestables

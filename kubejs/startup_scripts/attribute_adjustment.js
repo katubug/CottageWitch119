@@ -1,5 +1,31 @@
 ItemEvents.modification((event) => {
 	//MARK:Weapon Balance
+
+	function balanceWeapon(itemName, attributeToChange, modifier) {
+		event.modify(itemName, (item) => {
+			let boost = modifier;
+			let attribute = item.getAttributes(attributeToChange).get(0);
+			item.removeAttribute(attributeToChange, attribute.id);
+			item.addAttribute(
+				attributeToChange,
+				attribute.id,
+				attribute.name,
+				attribute.amount + boost,
+				attribute.operation
+			);
+		});
+	}
+
+	const attackDamage = "generic.attack_damage";
+
+	balanceWeapon("experienceobelisk:cognitive_axe", attackDamage, -1);
+	balanceWeapon("twilightdelight:teardrop_sword", attackDamage, -1.5);
+	balanceWeapon("twilightforest:fiery_sword", attackDamage, -1);
+	balanceWeapon("byg:pendorite_sword", attackDamage, 0.5);
+	balanceWeapon("deeperdarker:warden_sword", attackDamage, -0.5);
+	balanceWeapon("deeperdarker:warden_axe", attackDamage, -0.5);
+
+	/*
 	event.modify("experienceobelisk:cognitive_axe", (item) => {
 		let boost = -1;
 		let attribute = item.getAttributes("generic.attack_damage").get(0);
@@ -77,7 +103,7 @@ ItemEvents.modification((event) => {
 			attribute.operation
 		);
 	});
-
+*/
 	//MARK: Armor Balance
 	// Warden Armor
 	event.modify("deeperdarker:warden_helmet", (item) => {

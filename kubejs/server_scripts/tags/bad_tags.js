@@ -1,7 +1,8 @@
+//MARK: Bad shulkies
 ServerEvents.tags("item", (event) => {
 	event.add(
 		"forge:shulker_upgrade_banned",
-		// bad shulkies
+		//
 		"sophisticatedstorage:basic_tier_upgrade",
 		"sophisticatedstorage:basic_to_copper_tier_upgrade",
 		"sophisticatedstorage:basic_to_iron_tier_upgrade",
@@ -11,19 +12,21 @@ ServerEvents.tags("item", (event) => {
 	);
 });
 
+//MARK: Bad overgrowth
 ServerEvents.tags("item", (event) => {
 	event.add(
 		"forge:overgrowth_banned",
-		// bad overgrowth
+		//
 		"hexerei:yellow_dock_bush",
 		"hexerei:mugwort_bush"
 	);
 });
 
+//MARK: Bad lassos
 ServerEvents.tags("entity_type", (event) => {
 	event.add(
 		"forge:lasso_banned",
-		// bad lassos
+		//
 		"alexsmobs:void_worm",
 		"minecraft:ender_dragon",
 		"minecraft:wither",
@@ -43,7 +46,25 @@ ServerEvents.tags("entity_type", (event) => {
 	);
 });
 
+//MARK: Bad trashies
 ServerEvents.tags("block", (event) => {
-	event.add("forge:trash_can_ban", "@trashcans");
-	event.add("create:wrench_pickup", "@trashcans");
+	const invBreakCrashers = ["@trashcans", "@itemcollectors", "@applecrates"];
+
+	event.add("forge:mining_banned", invBreakCrashers);
+});
+
+//MARK: Bad cages
+ServerEvents.tags("entity_type", (event) => {
+	event.add(
+		"forge:cage_banned",
+		//
+		"enigmaticgraves:grave",
+		"lootr:lootr_minecart",
+		"minecraft:item_frame",
+		"minecraft:glow_item_frame",
+		"quark:glass_item_frame",
+		"quark:dyed_item_frame",
+		"xercapaint:canvas",
+		"artifacts:mimic"
+	);
 });
