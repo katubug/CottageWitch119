@@ -450,3 +450,29 @@ global.hex_moons = {
 
 //MARK: Coins
 global.hex_coins = ["Lunar", "Solar", "Arcane"];
+
+//MARK: Global functions
+
+//MARK: Reaper
+/**
+ * Function for 'meat the reaper' repair
+ * @param {Internal.AnvilUpdateEvent} event
+ */
+global.reaperMeatRepair = (event) => {
+	const { left, right } = event;
+
+	if (!right.item.edible) return;
+	if (left.hasTag("forge:scythe") && right.item.foodProperties.meat) {
+		let output = left.copy();
+		let currentDamage = output.getDamageValue();
+		let maxDamage = output.getMaxDamage();
+		let repairAmount = Math.floor(maxDamage * (1 / 32));
+		let repairMult = Math.ceil(right.item.foodProperties.nutrition / 2);
+		let newDamage = Math.max(
+			currentDamage - repairAmount * repairMult * right.count,
+			0
+		);
+		output.setDamageValue(newDamage);
+		event.setOutput(output);
+	}
+};

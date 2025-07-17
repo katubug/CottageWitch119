@@ -19,11 +19,34 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 		console.log(`Brazier found after ${iterator} blocks! Preventing placement`);
 		console.log(`Braizer NBT: ${b.block.blockStates}`);
 		//let player know
-		WarnPlayer(
+		_WarnPlayer(
 			event,
-			`Hexerei plants can cause crashes when placed near an overgrowth ritual.`
+			"Hexerei plants can cause crashes when placed near an overgrowth ritual."
 		);
 		//cancel placing
 		event.cancel();
 	});
+});
+
+BlockEvents.rightClicked("block.right_click", (event) => {
+	const { block, item, player } = event;
+
+	if (!item.hasTag("forge:overgrowth_banned")) return;
+	if (
+		!(
+			IsAdjacentClicked(
+				event,
+				event.item,
+				"farmersdelight:rich_soil_farmland",
+				"down"
+			) ||
+			IsAdjacentClicked(event, event.item, "farmersdelight:rich_soil", "down")
+		)
+	)
+		return;
+	_WarnPlayer(
+		event,
+		"Hexerei plants can cause crashes when placed on rich soil."
+	);
+	event.cancel();
 });
