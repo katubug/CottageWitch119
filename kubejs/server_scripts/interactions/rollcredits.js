@@ -1,5 +1,5 @@
 ServerEvents.commandRegistry((event) => {
-	const { commands: Commands, arguments: Arguments } = event;
+	const { commands: Commands } = event;
 
 	event.register(
 		Commands.literal("run_intro_requence") // The name of the command
@@ -15,9 +15,7 @@ ServerEvents.commandRegistry((event) => {
  */
 function RunTitleSequence(event, starterText) {
 	// start with title and begin music
-	event.server.runCommandSilent(
-		`/title ${event.player.username} times 10 60 10`
-	);
+	event.server.runCommandSilent(`/title ${event.player.username} times 10 60 10`);
 	event.server.runCommandSilent(
 		`/title ${event.player.username} subtitle {"text":"${starterText}", "italic":true, "color":"#ce9b2e"}`
 	);
@@ -45,15 +43,11 @@ function RunTitleSequence(event, starterText) {
 				`/title ${event.player.username} title {"text":"Created with love", "italic":true, "color":"#ffffff"}`
 			);
 			event.server.scheduleInTicks(240, (_) => {
-				event.server.runCommandSilent(
-					`/title ${event.player.username} times 10 180 120`
-				);
+				event.server.runCommandSilent(`/title ${event.player.username} times 10 120 100`);
 				event.server.runCommandSilent(
 					`/title ${event.player.username} subtitle {"text":"Welcome home.", "italic":true, "color":"#88a079"}`
 				);
-				event.server.runCommandSilent(
-					`/title ${event.player.username} title ""}`
-				);
+				event.server.runCommandSilent(`/title ${event.player.username} title ""}`);
 			});
 		});
 	});
