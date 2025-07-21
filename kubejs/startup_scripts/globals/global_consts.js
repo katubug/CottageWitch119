@@ -423,8 +423,8 @@ global.hex_moons = {
 };
 
 //MARK: Coins
-global.hex_coins = [
-	"Lunar", //
-	"Solar",
-	"Arcane",
-];
+global.hex_coins = {
+	Lunar: "UNCOMMON", // rarities
+	Solar: "RARE",
+	Arcane: "EPIC",
+};

@@ -21,15 +21,16 @@ StartupEvents.registry("item", (event) => {
 	 * @param {int} stackSize Max Stack Size
 	 * @param {string} texture Path to Texture
 	 */
-	function createBasicItem(id, name, stackSize, texture) {
+	function createBasicItem(id, name, stackSize, rarity, texture) {
 		if (texture) {
 			event
 				.create(id)
 				.displayName(name)
 				.maxStackSize(stackSize)
-				.texture(texture);
+				.texture(texture)
+				.rarity(rarity);
 		} else {
-			event.create(id).displayName(name).maxStackSize(stackSize);
+			event.create(id).displayName(name).maxStackSize(stackSize).rarity(rarity);
 		}
 	}
 
@@ -39,18 +40,19 @@ StartupEvents.registry("item", (event) => {
 
 	const coins = global.hex_coins;
 
-	coins.forEach((Coin) => {
-		const coin = Coin.toLowerCase();
+	for (let Coin in coins) {
+		let coin = Coin.toLowerCase();
 		//New coins
 		createBasicItem(
 			`${coin}coin`,
 			`${Coin} Coin`,
 			64,
+			coins[Coin],
 			`kubejs:item/${coin}_coin`
 		);
 		//Old coins
-		createBasicItem(`${coin}_coin`, `${Coin} Coin`, 64);
-	});
+		createBasicItem(`${coin}_coin`, `${Coin} Coin`, 64, "COMMON");
+	}
 
 	/**
 	 * MARK: Register Moons
@@ -64,6 +66,7 @@ StartupEvents.registry("item", (event) => {
 			`${moon}_moon`,
 			`${Moon} Moon`,
 			16,
+			"EPIC",
 			`kubejs:item/${moon}_moon`
 		);
 	});
@@ -72,7 +75,7 @@ StartupEvents.registry("item", (event) => {
 	 * MARK: Other Items
 	 */
 
-	createBasicItem("ticket", "Ticket", 64);
+	createBasicItem("ticket", "Ticket", 64, "UNCOMMON");
 });
 
 /**
