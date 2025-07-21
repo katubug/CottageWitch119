@@ -7,9 +7,7 @@ ItemEvents.entityInteracted((event) => {
 		)
 	)
 		return;
-	_WarnPlayer(
-		event,
-		`${event.target.displayName.getString()} cannot be contained.`
-	);
+	_WarnPlayer(event, `${event.target.displayName.getString()} cannot be contained.`);
+	spawnRunes(event, event.target.blockPosition());
 	event.cancel();
 });

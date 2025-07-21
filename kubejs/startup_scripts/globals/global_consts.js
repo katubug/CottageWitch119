@@ -72,8 +72,7 @@ global.allowed_eggs = {
 	//"minecraft:zombie_villager": "minecraft:zombie_villager_spawn_egg", // Disabled: infinite trader
 	"minecraft:zombified_piglin": "minecraft:zombified_piglin_spawn_egg",
 
-	"alexsmobs:alligator_snapping_turtle":
-		"alexsmobs:spawn_egg_alligator_snapping_turtle",
+	"alexsmobs:alligator_snapping_turtle": "alexsmobs:spawn_egg_alligator_snapping_turtle",
 	"alexsmobs:anaconda": "alexsmobs:spawn_egg_anaconda",
 	"alexsmobs:anteater": "alexsmobs:spawn_egg_anteater",
 	"alexsmobs:bald_eagle": "alexsmobs:spawn_egg_bald_eagle",
@@ -184,44 +183,33 @@ global.allowed_eggs = {
 	// sporelings have special implementation, see below
 	"cnb:yeti": "cnb:yeti_spawn_egg",
 
-	"creeperoverhaul:badlands_creeper":
-		"creeperoverhaul:badlands_creeper_spawn_egg",
+	"creeperoverhaul:badlands_creeper": "creeperoverhaul:badlands_creeper_spawn_egg",
 	"creeperoverhaul:bamboo_creeper": "creeperoverhaul:bamboo_creeper_spawn_egg",
 	"creeperoverhaul:beach_creeper": "creeperoverhaul:beach_creeper_spawn_egg",
 	"creeperoverhaul:cave_creeper": "creeperoverhaul:cave_creeper_spawn_egg",
-	"creeperoverhaul:dark_oak_creeper":
-		"creeperoverhaul:dark_oak_creeper_spawn_egg",
+	"creeperoverhaul:dark_oak_creeper": "creeperoverhaul:dark_oak_creeper_spawn_egg",
 	"creeperoverhaul:desert_creeper": "creeperoverhaul:desert_creeper_spawn_egg",
-	"creeperoverhaul:dripstone_creeper":
-		"creeperoverhaul:dripstone_creeper_spawn_egg",
+	"creeperoverhaul:dripstone_creeper": "creeperoverhaul:dripstone_creeper_spawn_egg",
 	"creeperoverhaul:hills_creeper": "creeperoverhaul:hills_creeper_spawn_egg",
 	"creeperoverhaul:jungle_creeper": "creeperoverhaul:jungle_creeper_spawn_egg",
-	"creeperoverhaul:mushroom_creeper":
-		"creeperoverhaul:mushroom_creeper_spawn_egg",
+	"creeperoverhaul:mushroom_creeper": "creeperoverhaul:mushroom_creeper_spawn_egg",
 	"creeperoverhaul:ocean_creeper": "creeperoverhaul:ocean_creeper_spawn_egg",
-	"creeperoverhaul:savannah_creeper":
-		"creeperoverhaul:savannah_creeper_spawn_egg",
+	"creeperoverhaul:savannah_creeper": "creeperoverhaul:savannah_creeper_spawn_egg",
 	"creeperoverhaul:snowy_creeper": "creeperoverhaul:snowy_creeper_spawn_egg",
 	"creeperoverhaul:spruce_creeper": "creeperoverhaul:spruce_creeper_spawn_egg",
 	"creeperoverhaul:swamp_creeper": "creeperoverhaul:swamp_creeper_spawn_egg",
 
-	"crittersandcompanions:dragonfly":
-		"crittersandcompanions:dragonfly_spawn_egg",
-	"crittersandcompanions:dumbo_octopus":
-		"crittersandcompanions:dumbo_octopus_spawn_egg",
+	"crittersandcompanions:dragonfly": "crittersandcompanions:dragonfly_spawn_egg",
+	"crittersandcompanions:dumbo_octopus": "crittersandcompanions:dumbo_octopus_spawn_egg",
 	"crittersandcompanions:ferret": "crittersandcompanions:ferret_spawn_egg",
 	"crittersandcompanions:jumping_spider":
 		"crittersandcompanions:jumping_spider_spawn_egg",
 	"crittersandcompanions:koi_fish": "crittersandcompanions:koi_fish_spawn_egg",
-	"crittersandcompanions:leaf_insect":
-		"crittersandcompanions:leaf_insect_spawn_egg",
+	"crittersandcompanions:leaf_insect": "crittersandcompanions:leaf_insect_spawn_egg",
 	"crittersandcompanions:otter": "crittersandcompanions:otter_spawn_egg",
-	"crittersandcompanions:red_panda":
-		"crittersandcompanions:red_panda_spawn_egg",
-	"crittersandcompanions:sea_bunny":
-		"crittersandcompanions:sea_bunny_spawn_egg",
-	"crittersandcompanions:shima_enaga":
-		"crittersandcompanions:shima_enaga_spawn_egg",
+	"crittersandcompanions:red_panda": "crittersandcompanions:red_panda_spawn_egg",
+	"crittersandcompanions:sea_bunny": "crittersandcompanions:sea_bunny_spawn_egg",
+	"crittersandcompanions:shima_enaga": "crittersandcompanions:shima_enaga_spawn_egg",
 
 	"deeperdarker:sculk_centipede": "deeperdarker:sculk_centipede_spawn_egg",
 	"deeperdarker:sculk_leech": "deeperdarker:sculk_leech_spawn_egg",
@@ -249,8 +237,7 @@ global.allowed_eggs = {
 	"environmental:yak": "environmental:yak_spawn_egg",
 	"environmental:zebra": "environmental:zebra_spawn_egg",
 
-	"extendedmushrooms:mushroom_sheep":
-		"extendedmushrooms:mushroom_sheep_spawn_egg",
+	"extendedmushrooms:mushroom_sheep": "extendedmushrooms:mushroom_sheep_spawn_egg",
 
 	//"friendsandfoes:copper_golem": "friendsandfoes:copper_golem_spawn_egg", // Disable: op copper farm
 	"friendsandfoes:crab": "friendsandfoes:crab_spawn_egg",
@@ -288,22 +275,15 @@ global.allowed_eggs = {
 
 	"netherdepthsupgrade:blazefish": "netherdepthsupgrade:blazefish_spawn_egg",
 	"netherdepthsupgrade:bonefish": "netherdepthsupgrade:bonefish_spawn_egg",
-	"netherdepthsupgrade:eyeball_fish":
-		"netherdepthsupgrade:eyeball_fish_spawn_egg",
-	"netherdepthsupgrade:fortressgrouper":
-		"netherdepthsupgrade:fortress_grouper_spawn_egg",
+	"netherdepthsupgrade:eyeball_fish": "netherdepthsupgrade:eyeball_fish_spawn_egg",
+	"netherdepthsupgrade:fortressgrouper": "netherdepthsupgrade:fortress_grouper_spawn_egg",
 	"netherdepthsupgrade:glowdine": "netherdepthsupgrade:glowdine_spawn_egg",
-	"netherdepthsupgrade:lava_pufferfish":
-		"netherdepthsupgrade:lava_pufferfish_spawn_egg",
-	"netherdepthsupgrade:magmacubefish":
-		"netherdepthsupgrade:magmacubefish_spawn_egg",
-	"netherdepthsupgrade:obsidianfish":
-		"netherdepthsupgrade:obsidianfish_spawn_egg",
-	"netherdepthsupgrade:searing_cod":
-		"netherdepthsupgrade:searing_cod_spawn_egg",
+	"netherdepthsupgrade:lava_pufferfish": "netherdepthsupgrade:lava_pufferfish_spawn_egg",
+	"netherdepthsupgrade:magmacubefish": "netherdepthsupgrade:magmacubefish_spawn_egg",
+	"netherdepthsupgrade:obsidianfish": "netherdepthsupgrade:obsidianfish_spawn_egg",
+	"netherdepthsupgrade:searing_cod": "netherdepthsupgrade:searing_cod_spawn_egg",
 	"netherdepthsupgrade:soulsucker": "netherdepthsupgrade:soulsucker_spawn_egg",
-	"netherdepthsupgrade:wither_bonefish":
-		"netherdepthsupgrade:wither_bonefish_spawn_egg",
+	"netherdepthsupgrade:wither_bonefish": "netherdepthsupgrade:wither_bonefish_spawn_egg",
 
 	"byg:man_o_war": "byg:man_o_war_spawn_egg",
 	"byg:pumpkin_warden": "byg:pumpkin_warden_spawn_egg",
@@ -327,15 +307,11 @@ global.allowed_eggs = {
 	//"twilightforest:alpha_yeti": "twilightforest:alpha_yeti_spawn_egg", // Disabled: progression skip for tf
 	//"twilightforest:armored_giant": "twilightforest:armored_giant_spawn_egg", // Disabled: progression skip for tf
 	"twilightforest:bighorn_sheep": "twilightforest:bighorn_sheep_spawn_egg",
-	"twilightforest:blockchain_goblin":
-		"twilightforest:blockchain_goblin_spawn_egg",
+	"twilightforest:blockchain_goblin": "twilightforest:blockchain_goblin_spawn_egg",
 	"twilightforest:boar": "twilightforest:boar_spawn_egg",
-	"twilightforest:carminite_broodling":
-		"twilightforest:carminite_broodling_spawn_egg",
-	"twilightforest:carminite_ghastguard":
-		"twilightforest:carminite_ghastguard_spawn_egg",
-	"twilightforest:carminite_ghastling":
-		"twilightforest:carminite_ghastling_spawn_egg",
+	"twilightforest:carminite_broodling": "twilightforest:carminite_broodling_spawn_egg",
+	"twilightforest:carminite_ghastguard": "twilightforest:carminite_ghastguard_spawn_egg",
+	"twilightforest:carminite_ghastling": "twilightforest:carminite_ghastling_spawn_egg",
 	//"twilightforest:carminite_golem": "twilightforest:carminite_golem_spawn_egg", // Disabled: op iron farm
 	"twilightforest:death_tome": "twilightforest:death_tome_spawn_egg",
 	"twilightforest:deer": "twilightforest:deer_spawn_egg",
@@ -352,8 +328,7 @@ global.allowed_eggs = {
 	//"twilightforest:knight_phantom": "twilightforest:knight_phantom_spawn_egg", // Disabled: boss mob
 	"twilightforest:kobold": "twilightforest:kobold_spawn_egg",
 	//"twilightforest:lich": "twilightforest:lich_spawn_egg", // Disabled: boss mob
-	"twilightforest:lower_goblin_knight":
-		"twilightforest:lower_goblin_knight_spawn_egg",
+	"twilightforest:lower_goblin_knight": "twilightforest:lower_goblin_knight_spawn_egg",
 	"twilightforest:maze_slime": "twilightforest:maze_slime_spawn_egg",
 	//"twilightforest:minoshroom": "twilightforest:minoshroom_spawn_egg", // Disabled: boss mob
 	"twilightforest:minotaur": "twilightforest:minotaur_spawn_egg",
@@ -377,8 +352,7 @@ global.allowed_eggs = {
 	"twilightforest:tiny_bird": "twilightforest:tiny_bird_spawn_egg",
 	"twilightforest:towerwood_borer": "twilightforest:towerwood_borer_spawn_egg",
 	"twilightforest:troll": "twilightforest:troll_spawn_egg",
-	"twilightforest:unstable_ice_core":
-		"twilightforest:unstable_ice_core_spawn_egg",
+	"twilightforest:unstable_ice_core": "twilightforest:unstable_ice_core_spawn_egg",
 	//"twilightforest:ur_ghast": "twilightforest:ur_ghast_spawn_egg", // Disabled: boss mob
 	"twilightforest:winter_wolf": "twilightforest:winter_wolf_spawn_egg",
 	"twilightforest:wraith": "twilightforest:wraith_spawn_egg",
@@ -449,30 +423,8 @@ global.hex_moons = {
 };
 
 //MARK: Coins
-global.hex_coins = ["Lunar", "Solar", "Arcane"];
-
-//MARK: Global functions
-
-//MARK: Reaper
-/**
- * Function for 'meat the reaper' repair
- * @param {Internal.AnvilUpdateEvent} event
- */
-global.reaperMeatRepair = (event) => {
-	const { left, right } = event;
-
-	if (!right.item.edible) return;
-	if (left.hasTag("forge:scythe") && right.item.foodProperties.meat) {
-		let output = left.copy();
-		let currentDamage = output.getDamageValue();
-		let maxDamage = output.getMaxDamage();
-		let repairAmount = Math.floor(maxDamage * (1 / 32));
-		let repairMult = Math.ceil(right.item.foodProperties.nutrition / 2);
-		let newDamage = Math.max(
-			currentDamage - repairAmount * repairMult * right.count,
-			0
-		);
-		output.setDamageValue(newDamage);
-		event.setOutput(output);
-	}
-};
+global.hex_coins = [
+	"Lunar", //
+	"Solar",
+	"Arcane",
+];
