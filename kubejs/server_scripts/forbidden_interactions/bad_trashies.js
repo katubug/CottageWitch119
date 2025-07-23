@@ -1,6 +1,6 @@
 BlockEvents.leftClicked((e) => {
 	// check tag
-	if (!e.block.hasTag("forge:mining_banned")) return;
+	if (!e.block.hasTag("cw:special_break")) return;
 	// if has tag get players within 5 blocks
 	let canAABB = AABB.ofBlock(e.block).inflate(5);
 	e.level.getEntitiesWithin(canAABB).forEach((entity) => {

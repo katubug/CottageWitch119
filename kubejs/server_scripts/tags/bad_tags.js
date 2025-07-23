@@ -1,7 +1,7 @@
 //MARK: Bad shulkies
 ServerEvents.tags("item", (event) => {
 	event.add(
-		"forge:shulker_upgrade_banned",
+		"cw:shulker_upgrade_banned",
 		//
 		"sophisticatedstorage:basic_tier_upgrade",
 		"sophisticatedstorage:basic_to_copper_tier_upgrade",
@@ -15,7 +15,7 @@ ServerEvents.tags("item", (event) => {
 //MARK: Bad overgrowth
 ServerEvents.tags("item", (event) => {
 	event.add(
-		"forge:overgrowth_banned",
+		"cw:growth_banned",
 		//
 		"hexerei:yellow_dock_bush",
 		"hexerei:mugwort_bush"
@@ -25,7 +25,7 @@ ServerEvents.tags("item", (event) => {
 //MARK: Bad lassos
 ServerEvents.tags("entity_type", (event) => {
 	event.add(
-		"forge:lasso_banned",
+		"cw:lasso_banned",
 		//
 		"alexsmobs:void_worm",
 		"minecraft:ender_dragon",
@@ -50,13 +50,13 @@ ServerEvents.tags("entity_type", (event) => {
 ServerEvents.tags("block", (event) => {
 	const invBreakCrashers = ["@trashcans", "@itemcollectors", "@applecrates"];
 
-	event.add("forge:mining_banned", invBreakCrashers);
+	event.add("cw:special_break", invBreakCrashers);
 });
 
 //MARK: Bad cages
 ServerEvents.tags("entity_type", (event) => {
 	event.add(
-		"forge:cage_banned",
+		"cw:cage_banned",
 		//
 		"enigmaticgraves:grave",
 		"lootr:lootr_minecart",
@@ -66,5 +66,17 @@ ServerEvents.tags("entity_type", (event) => {
 		"quark:dyed_item_frame",
 		"xercapaint:canvas",
 		"artifacts:mimic"
+	);
+});
+
+//MARK: Bad sinkies
+ServerEvents.tags("block", (event) => {
+	event.add(
+		"cw:refurb_water_storage",
+		//
+		/refurb.*_kitchen_sink/,
+		/refurb.*_basin/,
+		/refurb.*_bath/,
+		/refurb.*_toilet/
 	);
 });

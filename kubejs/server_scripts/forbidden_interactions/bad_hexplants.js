@@ -9,7 +9,7 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 	} = event;
 
 	//check for banned plants being placed
-	if (!item.hasTag("forge:overgrowth_banned")) return;
+	if (!item.hasTag("cw:growth_banned")) return;
 
 	//create area (5 block distance)
 	const area = AABB.ofBlock(block.up).inflate(5);
@@ -44,7 +44,7 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 		player,
 	} = event;
 
-	if (!item.hasTag("forge:overgrowth_banned")) return;
+	if (!item.hasTag("cw:growth_banned")) return;
 	if (
 		!(
 			IsAdjacentClicked(event, item, "farmersdelight:rich_soil_farmland", "down") ||
@@ -76,7 +76,7 @@ BlockEvents.placed((event) => {
 	} = event;
 
 	//check for banned plants being placed
-	if (!block.item.hasTag("forge:overgrowth_banned")) return;
+	if (!block.item.hasTag("cw:growth_banned")) return;
 
 	//create area (5 block distance)
 	const area = AABB.ofBlock(block).inflate(5);
@@ -110,7 +110,7 @@ BlockEvents.placed((event) => {
 		player,
 	} = event;
 
-	if (!block.hasTag("forge:overgrowth_banned")) return;
+	if (!block.hasTag("cw:growth_banned")) return;
 	if (
 		!(
 			IsAdjacentPlaced(event, block, "farmersdelight:rich_soil_farmland", "down") ||
