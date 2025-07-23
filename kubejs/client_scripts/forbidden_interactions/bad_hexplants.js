@@ -9,7 +9,7 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 	} = event;
 
 	//check for banned plants being placed
-	if (!item.hasTag("forge:overgrowth_banned")) return;
+	if (!item.hasTag("cw:growth_banned")) return;
 
 	//create area (5 block distance)
 	const area = AABB.ofBlock(block.up).inflate(5);
@@ -43,9 +43,7 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 		item,
 		player,
 	} = event;
-	console.log("ping1");
-	if (!item.hasTag("forge:overgrowth_banned")) return console.log("ping1s");
-	console.log("ping2");
+	if (!item.hasTag("cw:growth_banned")) return;
 	if (
 		!(
 			IsAdjacentClicked(event, event.item, "farmersdelight:rich_soil_farmland", "down") ||
@@ -53,7 +51,7 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 			IsAdjacentClicked(event, event.item, "nethersdelight:rich_soul_soil", "down")
 		)
 	)
-		return console.log("ping2s");
+		return;
 	console.log(
 		`Hexerei plant placed by ${player.username} on ${
 			block[event.facing].down.id
@@ -77,7 +75,7 @@ BlockEvents.placed((event) => {
 	} = event;
 
 	//check for banned plants being placed
-	if (!block.item.hasTag("forge:overgrowth_banned")) return;
+	if (!block.item.hasTag("cw:growth_banned")) return;
 
 	//create area (5 block distance)
 	const area = AABB.ofBlock(block).inflate(5);
@@ -111,7 +109,7 @@ BlockEvents.placed((event) => {
 		player,
 	} = event;
 
-	if (!block.hasTag("forge:overgrowth_banned")) return;
+	if (!block.hasTag("cw:growth_banned")) return;
 	if (
 		!(
 			IsAdjacentPlaced(event, block, "farmersdelight:rich_soil_farmland", "down") ||
