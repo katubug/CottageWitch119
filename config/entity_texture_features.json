@@ -28,7 +28,9 @@
   "entityEmissiveOverrides": {},
   "propertiesDisabled": [],
   "propertyInvertUpdatingOverrides": [],
-  "entityRandomOverrides": {},
+  "entityRandomOverrides": {
+    "entity.mythicmounts.firebird": false
+  },
   "entityEmissiveBrightOverrides": {},
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}
