@@ -46,7 +46,7 @@ global.particleBurst = (event, pos, height, width, particleId, count, speed) => 
  * Is repaired more by higher nutrition foods.
  * @param {Internal.AnvilUpdateEvent} event
  */
-global.fe.reaperMeatRepair = (event) => {
+global.FE_reaperMeatRepair = (event) => {
 	const { left, right } = event;
 
 	if (!right.item.edible) return;
@@ -68,7 +68,7 @@ global.fe.reaperMeatRepair = (event) => {
  * Creates particle effects and sound upon entity teleport
  * @param {Internal.EntityTeleportEvent} event
  */
-global.fe.teleportFX = (event) => {
+global.FE_teleportFX = (event) => {
 	const { entity, prev, target } = event;
 	const height = entity.bbHeight;
 	const width = entity.bbWidth;
