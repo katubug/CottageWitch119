@@ -1,3 +1,6 @@
+/**
+ * Some mobs just shouldn't be lasso-able. Bosses mainly
+ */
 ItemEvents.entityInteracted((event) => {
 	// check lasso used and entity tag
 	if (!event.item.hasTag("moblassos:lassos")) return;

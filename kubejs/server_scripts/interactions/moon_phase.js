@@ -1,12 +1,11 @@
+/**
+ * Right clicking with the moon dial tells you when the next full moon is
+ */
 ItemEvents.rightClicked("twilightforest:moon_dial", (event) => {
 	let moonPhase = event.level.moonPhase;
 	if (moonPhase == 0) {
 		let moonString = "Full";
-		AnnounceToPlayer(
-			event,
-			`The moon phase is currently ${moonString}.`,
-			"gold"
-		);
+		AnnounceToPlayer(event, `The moon phase is currently ${moonString}.`, "gold");
 	} else if (moonPhase == 1) {
 		let moonString = "Waning Gibbous";
 		AnnounceToPlayer(

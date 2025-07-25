@@ -1,9 +1,8 @@
 //MARK: Unbreakable
 BlockEvents.modification((event) => {
 	const unbreakableBlocks = [
-		/trashcans:.*/,
+		/trashcans:.*/, //
 		/itemcollectors:.*/,
-		/applecrates:.*/,
 	];
 
 	event.modify(unbreakableBlocks, (block) => {

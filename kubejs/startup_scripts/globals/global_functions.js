@@ -1,9 +1,52 @@
-//MARK: Reaper Repair
 /**
- * Function for 'meat the reaper' repair
+ * MARK: -Global functions
+ * ----------------------------------------------------------------------------
+ * Useful functions that can be used in  any script
+ */
+
+/**
+ * MARK: Particle burst FX
+ *
+ * Spawns particles at position inside a defined box
+ * @param {Internal.EntityEvent} event
+ * @param {Vec3} pos pos at bottom of particle box
+ * @param {number} height height of the box to spawn particles in
+ * @param {number} width width of the box to spawn particles in
+ * @param {Special.ParticleType} particleId the particles to spawn
+ * @param {number} count number of particles
+ * @param {number} speed speed of particles
+ */
+global.particleBurst = (event, pos, height, width, particleId, count, speed) => {
+	event.entity.level.spawnParticles(
+		particleId,
+		true,
+		pos.x(),
+		pos.y() + height / 2,
+		pos.z(),
+		width / 3,
+		height / 3,
+		width / 3,
+		count,
+		speed
+	);
+};
+
+/**
+ * MARK: -ForgeEvent functions
+ * ----------------------------------------------------------------------------
+ * putting these in global allows you to reload without
+ * restarting your game, as forge events need to be in
+ * startup scripts
+ */
+
+/**
+ * MARK: Reaper Repair
+ *
+ * Allows reapers to be repaired with 'meat' foods.
+ * Is repaired more by higher nutrition foods.
  * @param {Internal.AnvilUpdateEvent} event
  */
-global.reaperMeatRepair = (event) => {
+global.fe.reaperMeatRepair = (event) => {
 	const { left, right } = event;
 
 	if (!right.item.edible) return;
@@ -19,17 +62,38 @@ global.reaperMeatRepair = (event) => {
 	}
 };
 
-//MARK: Teleport FX
 /**
+ * MARK: Teleport FX
  *
+ * Creates particle effects and sound upon entity teleport
  * @param {Internal.EntityTeleportEvent} event
  */
-global.teleportFX = (event) => {
+global.fe.teleportFX = (event) => {
 	const { entity, prev, target } = event;
 	const height = entity.bbHeight;
 	const width = entity.bbWidth;
-	if (entity.type == "minecraft:enderman") return;
-	if (entity.living) {
+	if (entity.type == "minecraft:enderman") {
+		global.particleBurst(
+			event,
+			prev,
+			height,
+			width,
+			"minecraft:falling_obsidian_tear",
+			50 * Math.max(height, width),
+			0
+		);
+		global.particleBurst(
+			event,
+			prev,
+			height,
+			width * 2,
+			"twilightforest:leaf_rune",
+			5 * Math.max(height, width),
+			0
+		);
+		return;
+	}
+	if (entity.peacefulCreature) {
 		// rune cascade at origin
 		global.particleBurst(
 			event,
@@ -59,30 +123,30 @@ global.teleportFX = (event) => {
 		event.entity.server.runCommandSilent(
 			`playsound artifacts:generic.pop ambient @a ${prev.x()} ${prev.y()} ${prev.z()}`
 		);
+	} else {
+		global.particleBurst(
+			event,
+			prev,
+			height,
+			width,
+			"falling_dust",
+			50 * Math.max(height, width),
+			0
+		);
+		global.particleBurst(
+			event,
+			target,
+			height,
+			width,
+			"campfire_cosy_smoke",
+			20 * Math.max(height, width),
+			0.01
+		);
+		event.entity.server.runCommandSilent(
+			`playsound create:fwoomp ambient @a ${target.x()} ${target.y()} ${target.z()}`
+		);
+		event.entity.server.runCommandSilent(
+			`playsound create:fwoomp ambient @a ${prev.x()} ${prev.y()} ${prev.z()}`
+		);
 	}
-};
-
-/**
- * Spawns particles at pos
- * @param {Internal.EntityEvent} event
- * @param {Vec3} pos
- * @param {number} height
- * @param {number} width
- * @param {Special.ParticleType} particleId
- * @param {number} count
- * @param {number} speed
- */
-global.particleBurst = (event, pos, height, width, particleId, count, speed) => {
-	event.entity.level.spawnParticles(
-		particleId,
-		true,
-		pos.x(),
-		pos.y() + height / 2,
-		pos.z(),
-		width / 3,
-		height / 3,
-		width / 3,
-		count,
-		speed
-	);
 };

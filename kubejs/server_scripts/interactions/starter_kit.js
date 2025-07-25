@@ -1,4 +1,7 @@
-// Listen to player login event
+/**
+ * Gives player a starter kit upon first joining.
+ * Also gives them the intro sequence
+ */
 PlayerEvents.loggedIn((event) => {
 	// Check if player doesn't have "starting_items" stage yet
 	if (!event.player.stages.has("starting_items")) {

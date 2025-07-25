@@ -1,3 +1,8 @@
+/**
+ * Hexerei two-tall plants can cause crashes when being bone mealed by automated
+ * things such as rich soil/overgrowth rituals. This prevents them being placed
+ * where they can be affected by it
+ */
 //MARK: RightClicked
 BlockEvents.rightClicked("block.right_click", (event) => {
 	//main hand only

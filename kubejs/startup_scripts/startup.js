@@ -5,11 +5,12 @@ console.info(
 	"Hello, World! (You will only see this line once in console, during startup)"
 );
 
+// Renamed kjs to Cottage Witch
 Platform.mods.kubejs.name = "Cottage Witch";
 
 /**
  *
- * MARK: ITEMS
+ * MARK: -ITEMS
  *
  */
 
@@ -80,7 +81,7 @@ StartupEvents.registry("item", (event) => {
 
 /**
  *
- * MARK: BLOCKS
+ * MARK: -BLOCKS
  *
  */
 

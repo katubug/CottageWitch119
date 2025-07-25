@@ -1,3 +1,8 @@
+/**
+ * Trash cans can crash when broken while accessing its inventory.
+ * Changed to unbreakable and breaks when punched but only after
+ * closing surrounding player's inventories
+ */
 BlockEvents.leftClicked((e) => {
 	// check tag
 	if (!e.block.hasTag("cw:special_break")) return;

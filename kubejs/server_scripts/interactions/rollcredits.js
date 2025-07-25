@@ -1,19 +1,31 @@
+/**
+ * Adds a command to manually run the title sequence. Can be used in a quest later
+ */
 ServerEvents.commandRegistry((event) => {
 	const { commands: Commands } = event;
 
 	event.register(
 		Commands.literal("run_intro_requence") // The name of the command
 			.requires((s) => s.hasPermission(2)) // Check if the player has operator privileges
-			.executes((c) => RunTitleSequence(c.source, "Your story continues..."))
+			.executes((c) => {
+				AnnounceToPlayer(c.source, "Now playing: Title Sequence", "white");
+				c.source.server.scheduleInTicks(60, (_) => {
+					RunTitleSequence(c.source, "Your story continues...");
+				});
+				return 1;
+			})
 	);
 });
 
 /**
  * Plays the cottage witch opening sequence
- * @param {Internal.commands} event The event
+ * @param {Internal.EntityEventJS} event The event
  * @param {string} starterText The text to display at the start of the sequence
  */
 function RunTitleSequence(event, starterText) {
+	event.server.runCommandSilent(
+		`/execute at ${event.player.username} run stopsound ${event.player.username}`
+	);
 	// start with title and begin music
 	event.server.runCommandSilent(`/title ${event.player.username} times 10 60 10`);
 	event.server.runCommandSilent(

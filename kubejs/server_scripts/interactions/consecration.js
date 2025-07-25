@@ -1,3 +1,8 @@
+/**
+ * Right clicking on a lit candle with certus quartz will convert
+ * all held in your inventory to consecrated quartz.
+ * Shift rclick will convert a stack at a time
+ */
 BlockEvents.rightClicked((event) => {
 	const { block, item, hand, player, server } = event;
 	// check for main hand

@@ -1,12 +1,13 @@
+/**
+ * Falling into the void teleports you to max y
+ * and prevents the fall damage when you land
+ */
 EntityEvents.hurt((event) => {
 	const { entity, source, level } = event;
 	if (!entity.isPlayer()) return;
 	let player = entity;
 
-	if (
-		player.persistentData.voidForgiven == true &&
-		source == "DamageSource (fall)"
-	) {
+	if (player.persistentData.voidForgiven == true && source == "DamageSource (fall)") {
 		player.persistentData.voidForgiven = false;
 
 		if (player.health > 8) {

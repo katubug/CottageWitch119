@@ -1,3 +1,7 @@
+/**
+ * Global constants for use in other scripts
+ */
+
 //MARK: Spawn Eggs
 global.allowed_eggs = {
 	"minecraft:allay": "minecraft:allay_spawn_egg",

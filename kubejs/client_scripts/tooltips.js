@@ -1,7 +1,7 @@
 ItemEvents.tooltip((e) => {
 	const color = global.formatcodes;
 
-	//Drink Tooltips
+	//MARK: Drink Tooltips
 	e.add(
 		[
 			"farmersrespite:dandelion_tea",
@@ -62,12 +62,7 @@ ItemEvents.tooltip((e) => {
 		"Drinks!"
 	);
 
-	e.add(
-		"minecraft:carved_pumpkin",
-		"Placing this down will result in a carved pumpkin."
-	);
-
-	// Raw Foods
+	//MARK: Raw Foods
 	e.add(
 		[
 			"minecraft:beef",
@@ -305,7 +300,7 @@ ItemEvents.tooltip((e) => {
 		"Raw Food/Ingredients"
 	);
 
-	// Cooked Foods
+	//MARK: Cooked Foods
 	e.add(
 		[
 			"minecraft:cooked_salmon",
@@ -780,7 +775,7 @@ ItemEvents.tooltip((e) => {
 		"Cooked Food/Meals"
 	);
 
-	// Light Sources
+	//MARK: Light Sources
 	e.add(
 		[
 			"minecraft:end_rod",
@@ -1071,7 +1066,7 @@ ItemEvents.tooltip((e) => {
 		"Lamp/Lantern/Light/Glows"
 	);
 
-	// Flowers
+	//MARK: Flowers
 	e.add(
 		[
 			"overweight_farming:allium_bush",
@@ -1319,7 +1314,7 @@ ItemEvents.tooltip((e) => {
 		"Flowers!"
 	);
 
-	// Plants
+	//MARK: Plants
 	e.add(
 		[
 			"minecraft:warped_roots",
@@ -1387,13 +1382,13 @@ ItemEvents.tooltip((e) => {
 		"Plants!"
 	);
 
-	// Mushrooms
+	//MARK: Mushrooms
 	e.add(
 		["twilightforest:mushgloom", "collectorsreap:portobello"],
 		"Mushrooms!"
 	);
 
-	// Lily pads
+	//MARK: Lily pads
 	e.add(
 		[
 			"twilightforest:huge_lily_pad",
@@ -1405,7 +1400,7 @@ ItemEvents.tooltip((e) => {
 		"Lily pads!"
 	);
 
-	// Hanging Plants
+	//MARK: Hanging Plants
 	e.add(
 		[
 			"colorfulazaleas:purple_drooping_azalea_leaves",
@@ -1427,7 +1422,7 @@ ItemEvents.tooltip((e) => {
 		"Hanging Plants!"
 	);
 
-	// Plant Carpets
+	//MARK: Plant Carpets
 	e.add(
 		[
 			"twilightforest:fallen_leaves",
@@ -1459,7 +1454,7 @@ ItemEvents.tooltip((e) => {
 		"Plant Carpets!"
 	);
 
-	// Job Blocks
+	//MARK: Job Blocks
 	e.add(
 		[
 			"villagersplus:oceanographer_table",
@@ -1521,6 +1516,7 @@ ItemEvents.tooltip((e) => {
 		"Job Blocks!"
 	);
 
+	//MARK: Reaping tools
 	e.add("reaping:iron_reaping_tool", "Base Chance of Failure: 45%");
 
 	e.add("reaping:gold_reaping_tool", "Base Chance of Failure: 34%");
@@ -1529,6 +1525,7 @@ ItemEvents.tooltip((e) => {
 
 	e.add("reaping:netherite_reaping_tool", "Base Chance of Failure: 9%");
 
+	//MARK: Obtaining info
 	e.add(
 		"alexsmobs:warped_muscle",
 		"Obtain this item from the Nether Dimension Gate."
@@ -1544,73 +1541,12 @@ ItemEvents.tooltip((e) => {
 		"These are not craftable in this modpack. Find them in End City loot!"
 	);
 
-	/**
-	 * Adds a warning message tooltip to the item that requires shift to be held.
-	 * @param {Special.Item} itemName The item id.
-	 * @param {[string]} message The warning message.
-	 *
-	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
-	 */
-	function addWarning(itemName, message) {
-		e.addAdvanced(itemName, (item, advanced, text) => {
-			if (!e.shift) {
-				text.add(1, [color.red + "Warning: ", "Hold [Shift]"]);
-			} else {
-				text.add(1, [color.red + "Warning:"]);
-				let lineNo = 2;
-				message.forEach((line) => {
-					text.add(lineNo, [color.gold + line]);
-					lineNo++;
-				});
-			}
-		});
-	}
-
-	addWarning("hexerei:moon_dust_brush", [
-		"Swift flight can be problematic for server performance.",
-		"Please fly considerately.",
-	]);
-
-	addWarning("alexsmobs:shattered_dimensional_carver", [
-		color.bold + "Do not use!",
-		"This item is bugged.",
-		"Please check the quests for more info.",
-	]);
-
-	addWarning("domesticationinnovation:wayward_lantern", [
-		"Use with care!",
-		"Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.",
-	]);
-
-	addWarning("hexerei:willow_woodcutter", [
-		"This woodcutter can sometimes cause crashes.",
-		"Please use mahogany or witch hazel instead!",
-	]);
-
-	// Mob Lassos
-
-	addWarning(
-		[
-			"moblassos:golden_lasso",
-			"moblassos:aqua_lasso",
-			"moblassos:emerald_lasso",
-			"moblassos:hostile_lasso",
-		],
-		[
-			"Don't place timed lassos into an inventory!",
-			"It will cause heavy lag, as those entities will repeatedly attempt to escape.",
-		]
+	e.add(
+		Object.values(global.allowed_eggs),
+		"This egg can drop when using a Reaping tool."
 	);
 
-	addWarning("brewinandchewin:keg", [
-		"Kegs are crashy.",
-		"Certain keg recipes are now made in a cooking pot.",
-	]);
-
-	addWarning(/majrusz.*/, [
-		"Do not combine these in your inventory, it can cause crashes!",
-	]);
-
+	//MARK: Moons
 	const moons = global.hex_moons;
 
 	for (let moonName in moons) {
@@ -1656,16 +1592,6 @@ ItemEvents.tooltip((e) => {
 		["contact:wrapping_paper", "contact:ender_wrapping_paper"],
 		"Right Click to open GUI"
 	);
-	// spawn eggs:
-
-	e.add(
-		Object.values(global.allowed_eggs),
-		"This egg can drop when using a Reaping tool."
-	);
-
-	addWarning("@refinedstorage", [
-		"This mod is set to be removed the 1.18.0 update.",
-	]);
 
 	e.addAdvanced("minecraft:player_head", (item, advanced, text) => {
 		let playerName = item.nbt?.SkullOwner?.Name;
@@ -1673,4 +1599,80 @@ ItemEvents.tooltip((e) => {
 			text.add(1, color.red + `===|The head of ${playerName}|===`);
 		}
 	});
+
+	//MARK: Warnings
+
+	/**
+	 * Adds a warning message tooltip to the item that requires shift to be held.
+	 * @param {Special.Item} itemName The item id.
+	 * @param {[string]} message The warning message.
+	 *
+	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
+	 */
+	function addWarning(itemName, message) {
+		e.addAdvanced(itemName, (item, advanced, text) => {
+			if (!e.shift) {
+				text.add(1, [color.red + "Warning: ", "Hold [Shift]"]);
+			} else {
+				text.add(1, [color.red + "Warning:"]);
+				let lineNo = 2;
+				message.forEach((line) => {
+					text.add(lineNo, [color.gold + line]);
+					lineNo++;
+				});
+			}
+		});
+	}
+
+	addWarning("hexerei:moon_dust_brush", [
+		"Swift flight can be problematic for server performance.",
+		"Please fly considerately.",
+	]);
+
+	addWarning("alexsmobs:shattered_dimensional_carver", [
+		color.bold + "Do not use!",
+		"This item is bugged.",
+		"Please check the quests for more info.",
+	]);
+
+	addWarning("domesticationinnovation:wayward_lantern", [
+		"Use with care!",
+		"Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.",
+	]);
+
+	addWarning("hexerei:willow_woodcutter", [
+		"This woodcutter can sometimes cause crashes.",
+		"Please use mahogany or witch hazel instead!",
+	]);
+
+	addWarning(
+		[
+			"moblassos:golden_lasso",
+			"moblassos:aqua_lasso",
+			"moblassos:emerald_lasso",
+			"moblassos:hostile_lasso",
+		],
+		[
+			"Don't place timed lassos into an inventory!",
+			"It will cause heavy lag, as those entities will repeatedly attempt to escape.",
+		]
+	);
+
+	addWarning("brewinandchewin:keg", [
+		"Kegs are crashy.",
+		"Certain keg recipes are now made in a cooking pot.",
+	]);
+
+	addWarning(/majrusz.*/, [
+		"Do not combine these in your inventory, it can cause crashes!",
+	]);
+
+	addWarning("@refinedstorage", [
+		"This mod is set to be removed the 1.18.0 update.",
+	]);
+
+	e.add(
+		"minecraft:carved_pumpkin",
+		"Placing this down will result in a carved pumpkin."
+	);
 });

@@ -1,3 +1,9 @@
+/**
+ * When given a manipulation essence, an armor stand will turn invisible.
+ * If not holding anything while invis, it will start glowing.
+ * When handed something, given armor or a name, it will stop glowing.
+ * Giving a manipulation essence while glowing will make it visible again.
+ */
 PlayerEvents.tick((event) => {
 	if (event.player.age % 60 != 0) return;
 
