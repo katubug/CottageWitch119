@@ -1,31 +1,50 @@
 {
-    "size": "medium",
+    "size": "large",
     "color": "#83DE71",
+	"allow_discarding": true,
     "waves": [{
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:jungle_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:jungle_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:snowy_creeper"
+                    "entity": "creeperoverhaul:dark_oak_creeper"
+                },
+				{
+                    "entity": "creeperoverhaul:dark_oak_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:spruce_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:spruce_creeper"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:creeper",
-                "rolls": 5
+                "rolls": 20
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "creeperoverhaul:badlands_creeper"
+                    "entity": "creeperoverhaul:desert_creeper"
                 },
                 {
                     "entity": "creeperoverhaul:desert_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:beach_creeper"
+                },
+				{
+                    "entity": "creeperoverhaul:beach_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:savannah_creeper"
                 },
                 {
                     "entity": "creeperoverhaul:savannah_creeper"
@@ -60,26 +79,35 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:creeper",
-                "rolls": 10
+                "rolls": 30
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "creeperoverhaul:bamboo_creeper"
+                    "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:jungle_creeper"
+                    "entity": "minecraft:creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:dark_oak_creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
                 },
 				{
                     "entity": "creeperoverhaul:swamp_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:spruce_creeper"
+                    "entity": "creeperoverhaul:snowy_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:snowy_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:hills_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:hills_creeper"
                 }
             ],
             "modifiers": [{
@@ -111,29 +139,41 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:creeper",
-                "rolls": 15
+                "rolls": 40
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
-                },
-                {
                     "entity": "creeperoverhaul:dripstone_creeper"
                 },
                 {
                     "entity": "creeperoverhaul:dripstone_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:cave_creeper"
                 },
 				{
-                    "entity": "creeperoverhaul:hills_creeper"
-                },
-                {
                     "entity": "creeperoverhaul:cave_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:cave_creeper"
+                    "entity": "creeperoverhaul:bamboo_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:bamboo_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:bamboo_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:badlands_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:badlands_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:badlands_creeper"
                 }
             ],
             "modifiers": [{
@@ -165,32 +205,58 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:creeper",
-                "rolls": 20
+                "rolls": 50
             }],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "creeperoverhaul:badlands_creeper"
+                    "entity": "creeperoverhaul:ocean_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:badlands_creeper"
+                    "entity": "creeperoverhaul:ocean_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:badlands_creeper"
+                    "entity": "creeperoverhaul:cave_creeper"
                 },
 				{
-                    "entity": "creeperoverhaul:desert_creeper"
+                    "entity": "creeperoverhaul:cave_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:desert_creeper"
+                    "entity": "creeperoverhaul:cave_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:hills_creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
                 },
                 {
-                    "entity": "creeperoverhaul:hills_creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:badlands_creeper"
+                },
+                {
+                    "entity": "creeperoverhaul:badlands_creeper"
+                },
+                {
+                    "entity": "minecraft:creeper",
+					"nbt": "{\"powered\": true}"
+                },
+                {
+                    "entity": "minecraft:creeper",
+					"nbt": "{\"powered\": true}"
+                },
+                {
+                    "entity": "minecraft:creeper",
+					"nbt": "{\"powered\": true}"
+                },
+                {
+                    "entity": "minecraft:creeper",
+					"nbt": "{\"powered\": true}"
+                },
+                {
+                    "entity": "minecraft:creeper",
+					"nbt": "{\"powered\": true}"
                 }
             ],
             "modifiers": [{
@@ -222,7 +288,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:creeper",
-                "rolls": 25
+                "rolls": 60
             }],
             "max_wave_time": 750,
             "setup_time": 150
@@ -231,8 +297,14 @@
     "rewards": [{
         "type": "entity_loot",
         "entity": "minecraft:creeper",
-        "rolls": 60
-    }],
-    "completion_xp": 500,
-	"spawn_range": 7
+        "rolls": 120
+    },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "minecraft:nether_star"
+		}
+	}],
+    "completion_xp": 1250,
+	"spawn_range": 9
 }
