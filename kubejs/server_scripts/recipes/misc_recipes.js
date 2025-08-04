@@ -544,8 +544,6 @@ ServerEvents.recipes(event => {
 	// misc stonecutting
 	event.stonecutting('ars_scalaes:smooth_sourcestone_wall', 'ars_nouveau:smooth_sourcestone')
 	event.stonecutting('ars_scalaes:smooth_sourcestone_stairs', 'ars_nouveau:smooth_sourcestone')
-	event.stonecutting('block_variants:cracked_stone_brick_stairs', 'minecraft:cracked_stone_bricks')
-	event.stonecutting('block_variants:cracked_stone_brick_wall', 'minecraft:cracked_stone_bricks')
 
 	// Tall Plants Recipes
 	event.shapeless(
