@@ -1,3 +1,8 @@
+/**
+ * Refurbished water containers cause crashes when trying
+ *  to get water using a bowl/bottle. Event cancelled and
+ *  manually change item
+ */
 BlockEvents.rightClicked((event) => {
 	const { block, item, player } = event;
 	if (item.id != "minecraft:bowl") return;

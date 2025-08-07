@@ -5,7 +5,7 @@ ServerEvents.commandRegistry((event) => {
 	const { commands: Commands } = event;
 
 	event.register(
-		Commands.literal("run_intro_requence") // The name of the command
+		Commands.literal("run_intro_sequence") // The name of the command
 			.requires((s) => s.hasPermission(2)) // Check if the player has operator privileges
 			.executes((c) => {
 				AnnounceToPlayer(c.source, "Now playing: Title Sequence", "white");

@@ -50,7 +50,7 @@ ItemEvents.entityInteracted((event) => {
 
 	//small feather poof
 	global.particleBurst(
-		event,
+		event.level,
 		target.pos,
 		target.bbHeight * 0.8,
 		target.bbWidth * 0.8,
@@ -66,7 +66,7 @@ ItemEvents.entityInteracted((event) => {
 
 		// poof feathers
 		global.particleBurst(
-			event,
+			event.level,
 			target.pos,
 			target.bbHeight * 0.8,
 			target.bbWidth * 0.8,

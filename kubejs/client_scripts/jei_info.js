@@ -15,11 +15,11 @@ JEIEvents.information((e) => {
 		text.light_purple + "Find them in End City loot!",
 	]);
 
-	e.add("alexsmobs:warped_muscle", [
+	e.addItem("alexsmobs:warped_muscle", [
 		text.red + "Obtained from the Nether Dimension Gate.",
 	]);
 
-	e.add("alexsmobs:hemolymph_sac", [
+	e.addItem("alexsmobs:hemolymph_sac", [
 		text.red + "Obtained from the Nether Dimension Gate.",
 	]);
 });

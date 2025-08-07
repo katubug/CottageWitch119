@@ -4,7 +4,7 @@
  */
 PlayerEvents.respawned((e) => {
 	global.particleBurst(
-		e,
+		e.level,
 		e.player.pos,
 		e.player.bbHeight,
 		e.player.bbWidth,

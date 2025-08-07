@@ -1383,10 +1383,7 @@ ItemEvents.tooltip((e) => {
 	);
 
 	//MARK: Mushrooms
-	e.add(
-		["twilightforest:mushgloom", "collectorsreap:portobello"],
-		"Mushrooms!"
-	);
+	e.add(["twilightforest:mushgloom", "collectorsreap:portobello"], "Mushrooms!");
 
 	//MARK: Lily pads
 	e.add(
@@ -1516,35 +1513,71 @@ ItemEvents.tooltip((e) => {
 		"Job Blocks!"
 	);
 
+	//MARK: Info
+
+	/**
+	 * Adds an infomation message tooltip to the item that requires shift to be held.
+	 * @param {Special.Item} itemName The item id.
+	 * @param {[string]} message The warning message.
+	 *
+	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
+	 */
+	function addInfo(itemName, message) {
+		e.addAdvanced(itemName, (item, advanced, text) => {
+			if (!e.shift) {
+				text.add(1, [color.gold + "Info: ", "Hold [Shift]"]);
+			} else {
+				text.add(1, [color.gold + "Info:"]);
+				let lineNo = 2;
+				message.forEach((line) => {
+					text.add(lineNo, [line]);
+					lineNo++;
+				});
+			}
+		});
+	}
+
 	//MARK: Reaping tools
-	e.add("reaping:iron_reaping_tool", "Base Chance of Failure: 45%");
 
-	e.add("reaping:gold_reaping_tool", "Base Chance of Failure: 34%");
+	const reapingTools = {
+		"reaping:iron_reaping_tool": 45,
+		"reaping:gold_reaping_tool": 34,
+		"reaping:diamond_reaping_tool": 18,
+		"reaping:netherite_reaping_tool": 9,
+	};
 
-	e.add("reaping:diamond_reaping_tool", "Base Chance of Failure: 18%");
+	for (let tool in reapingTools) {
+		let failureChance = reapingTools[tool];
+		addInfo(tool, [
+			"Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!",
+			" ",
+			`Base chance of failure:${color.aqua} ${failureChance}%`,
+		]);
+	}
+	const EGGS = global.allowed_eggs;
+	for (let mob in EGGS) {
+		let egg = EGGS[mob];
+		let mobName = global.toTitleCase(mob.split(":")[1].replace("_", " "));
 
-	e.add("reaping:netherite_reaping_tool", "Base Chance of Failure: 9%");
+		addInfo(egg, [
+			"This egg can drop when killing with a Reaping tool.",
+			" ",
+			`${color.red}Dropped by ${mobName}`,
+		]);
+	}
 
-	//MARK: Obtaining info
-	e.add(
-		"alexsmobs:warped_muscle",
-		"Obtain this item from the Nether Dimension Gate."
+	//MARK: Nether loot
+
+	addInfo(
+		["alexsmobs:warped_muscle", "alexsmobs:hemolymph_sac"],
+		["Obtain this item from the Nether Dimension Gate."]
 	);
 
-	e.add(
-		"alexsmobs:hemolymph_sac",
-		"Obtain this item from the Nether Dimension Gate."
-	);
-
-	e.add(
-		"sophisticatedbackpacks:backpack",
-		"These are not craftable in this modpack. Find them in End City loot!"
-	);
-
-	e.add(
-		Object.values(global.allowed_eggs),
-		"This egg can drop when using a Reaping tool."
-	);
+	//MARK: Backpacks
+	addInfo("sophisticatedbackpacks:backpack", [
+		"These are not craftable in this modpack.",
+		color.light_purple + "Find them in End City loot!",
+	]);
 
 	//MARK: Moons
 	const moons = global.hex_moons;
@@ -1561,34 +1594,8 @@ ItemEvents.tooltip((e) => {
 			text.add(1, moonTooltip);
 		});
 	}
-	//text.add(2, color.light_purple + "Art by LoFi Fruit");
-	// e.add("kubejs:pink_moon", "The Pink Moon occurs in 				April		.");
-	// e.add("kubejs:flower_moon", "The Flower Moon occurs in 			May			.");
-	// e.add("kubejs:strawberry_moon", "The Strawberry Moon occurs in 	June			.");
-	// e.add("kubejs:antler_moon", "The Antler Moon occurs in 			July			.");
-	// e.add("kubejs:harvest_moon", "The Harvest Moon occurs in 		August			.");
-	// e.add("kubejs:corn_moon", "The Corn Moon occurs in 				September			.");
-	// e.add("kubejs:oak_moon", "The Oak Moon occurs in 				December			.");
-	// e.add("kubejs:hunter_moon", "The Hunter Moon occurs in 			October			.");
-	// e.add("kubejs:frost_moon", "The Frost Moon occurs in 			November			.");
-	// e.add("kubejs:wolf_moon", "The Wolf Moon occurs in 				January			.");
-	// e.add("kubejs:worm_moon", "The Worm Moon occurs in 				March			.");
-	// e.add("kubejs:snow_moon", "The Snow Moon occurs in 				February			.");
 
-	// e.add(/kubejs:.*_moon/, color.light_purple + "Art by LoFi Fruit");
-
-	// Scythes (egg and head drops)
-	e.add(
-		[
-			"reaping:iron_reaping_tool",
-			"reaping:gold_reaping_tool",
-			"reaping:diamond_reaping_tool",
-			"reaping:netherite_reaping_tool",
-		],
-		"Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!"
-	);
-
-	e.add(
+	addInfo(
 		["contact:wrapping_paper", "contact:ender_wrapping_paper"],
 		"Right Click to open GUI"
 	);
@@ -1667,12 +1674,9 @@ ItemEvents.tooltip((e) => {
 		"Do not combine these in your inventory, it can cause crashes!",
 	]);
 
-	addWarning("@refinedstorage", [
-		"This mod is set to be removed the 1.18.0 update.",
-	]);
+	addWarning("@refinedstorage", ["This mod is set to be removed the 1.18.0 update."]);
 
-	e.add(
-		"minecraft:carved_pumpkin",
-		"Placing this down will result in a carved pumpkin."
-	);
+	addWarning("minecraft:carved_pumpkin", [
+		"Placing this down will result in a carved pumpkin.",
+	]);
 });

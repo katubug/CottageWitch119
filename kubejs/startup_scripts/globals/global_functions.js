@@ -8,7 +8,7 @@
  * MARK: Particle burst FX
  *
  * Spawns particles at position inside a defined box
- * @param {Internal.EntityEvent} event
+ * @param {Internal.Level} level
  * @param {Vec3} pos pos at bottom of particle box
  * @param {number} height height of the box to spawn particles in
  * @param {number} width width of the box to spawn particles in
@@ -16,8 +16,8 @@
  * @param {number} count number of particles
  * @param {number} speed speed of particles
  */
-global.particleBurst = (event, pos, height, width, particleId, count, speed) => {
-	event.entity.level.spawnParticles(
+global.particleBurst = (level, pos, height, width, particleId, count, speed) => {
+	level.spawnParticles(
 		particleId,
 		true,
 		pos.x(),
@@ -29,6 +29,19 @@ global.particleBurst = (event, pos, height, width, particleId, count, speed) => 
 		count,
 		speed
 	);
+};
+
+/**
+ * Capitalises the first letter of each word
+ * @param {str} phrase the text to be capitalised
+ * @returns {str}
+ */
+global.toTitleCase = (phrase) => {
+	return phrase
+		.toLowerCase()
+		.split(" ")
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(" ");
 };
 
 /**
@@ -74,16 +87,16 @@ global.FE_teleportFX = (event) => {
 	const width = entity.bbWidth;
 	if (entity.type == "minecraft:enderman") {
 		global.particleBurst(
-			event,
+			event.level,
 			prev,
 			height,
 			width,
 			"minecraft:falling_obsidian_tear",
-			50 * Math.max(height, width),
+			10 * Math.max(height, width),
 			0
 		);
 		global.particleBurst(
-			event,
+			event.level,
 			prev,
 			height,
 			width * 2,
@@ -96,7 +109,7 @@ global.FE_teleportFX = (event) => {
 	if (entity.peacefulCreature) {
 		// rune cascade at origin
 		global.particleBurst(
-			event,
+			event.level,
 			prev,
 			height,
 			width,
@@ -107,7 +120,7 @@ global.FE_teleportFX = (event) => {
 
 		// poof burst at target
 		global.particleBurst(
-			event,
+			event.level,
 			target,
 			height,
 			width / 2,
@@ -125,7 +138,7 @@ global.FE_teleportFX = (event) => {
 		);
 	} else {
 		global.particleBurst(
-			event,
+			event.level,
 			prev,
 			height,
 			width,
@@ -134,7 +147,7 @@ global.FE_teleportFX = (event) => {
 			0
 		);
 		global.particleBurst(
-			event,
+			event.level,
 			target,
 			height,
 			width,

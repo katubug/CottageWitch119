@@ -14,29 +14,34 @@ PlayerEvents.tick((event) => {
 	// Find armor stands in box
 	world.getEntities(player, boundingBox).forEach((entity) => {
 		if (!(entity.type == "minecraft:armor_stand")) return;
+
+		// checks
 		let holding_manipulation_essence =
 			entity.handSlots[0].id == "ars_nouveau:manipulation_essence";
 		let is_invisible = entity.isInvisible();
-
-		console.log();
 
 		// if visible and not holding essence return
 		if (!is_invisible && !holding_manipulation_essence) return;
 
 		if (holding_manipulation_essence) {
+			//tell player
 			AnnounceToPlayer(event, `Armor stand visible: ${is_invisible}`);
+
+			// toggle invisible
 			entity.setInvisible(!is_invisible);
 			entity.setGlowing(!is_invisible);
+
+			//remove essence
 			entity.setItemSlot("mainhand", "minecraft:air");
 		} else if (is_invisible) {
 			let has_inv = false;
+			//check for holding anything
 			entity.allSlots.forEach((item) => {
 				if (item.isEmpty()) return;
 				has_inv = true;
 			});
-			let has_name = entity.customName?.contents;
-			console.log(has_name);
 
+			//if not holding or named, make glow
 			if (entity.customName || has_inv) {
 				if (entity.glowing) entity.setGlowing(false);
 				if (entity.customName && !entity.isCustomNameVisible())

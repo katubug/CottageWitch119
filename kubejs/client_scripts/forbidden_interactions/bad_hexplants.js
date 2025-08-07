@@ -1,3 +1,8 @@
+/**
+ * Hexerei two-tall plants can cause crashes when being bone mealed by automated
+ * things such as rich soil/overgrowth rituals. This prevents them being placed
+ * where they can be affected by it
+ */
 //MARK: RightClicked
 BlockEvents.rightClicked("block.right_click", (event) => {
 	//main hand only
@@ -43,12 +48,13 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 		item,
 		player,
 	} = event;
+
 	if (!item.hasTag("cw:growth_banned")) return;
 	if (
 		!(
-			IsAdjacentClicked(event, event.item, "farmersdelight:rich_soil_farmland", "down") ||
-			IsAdjacentClicked(event, event.item, "farmersdelight:rich_soil", "down") ||
-			IsAdjacentClicked(event, event.item, "nethersdelight:rich_soul_soil", "down")
+			IsAdjacentClicked(event, item, "farmersdelight:rich_soil_farmland", "down") ||
+			IsAdjacentClicked(event, item, "farmersdelight:rich_soil", "down") ||
+			IsAdjacentClicked(event, item, "nethersdelight:rich_soul_soil", "down")
 		)
 	)
 		return;
@@ -134,4 +140,17 @@ BlockEvents.placed((event) => {
  * @param {number} y_offset
  * @param {number} y_stretch
  */
-function spawnPoof(event, pos, y_offset, y_stretch) {}
+function spawnPoof(event, pos, y_offset, y_stretch) {
+	event.level.spawnParticles(
+		"chimes:leaf",
+		true,
+		pos.x + 0.5,
+		pos.y + 0.5 + y_offset,
+		pos.z + 0.5,
+		0.2,
+		y_stretch / 4,
+		0.2,
+		20,
+		0.02
+	);
+}
