@@ -498,7 +498,7 @@ ServerEvents.recipes(event => {
 		{'item': 'spelunkery:rough_lazurite'}],
 		'recipeTime': 300,
 		'result': {'item': 'ae2:singularity'}
-	}).id('kjs_planar_relay')
+	}).id('kjs_aetheric_core')
 
 	//Planar Bridge Card
 	event.shaped(
@@ -608,4 +608,24 @@ ServerEvents.recipes(event => {
 			'#forge:tools/knives'
 		]
 	)
+
+	// Certus Quartz Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Certus Quartz Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:certus_quartz_dust', Item.of('ae2:certus_quartz_dust').withChance(0.10)], '#ae2:all_certus_quartz'
+	).id('kjs_certus_quartz_dust')
+
+	// Fluix Dust (Crushing)
+	event.recipes.create.crushing(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
+
+	// Fluix Dust (Milling)
+	event.recipes.create.milling(
+		['ae2:fluix_dust', Item.of('ae2:fluix_dust').withChance(0.10)], 'ae2:fluix_crystal'
+	).id('kjs_fluix_dust')
 })

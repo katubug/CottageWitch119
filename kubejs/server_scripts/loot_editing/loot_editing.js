@@ -39,4 +39,20 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("alexsmobs:mimicube")
     .removeLoot('alexsmobs:mimicream')
     .addLoot('nethersdelight:mimicarnation')
+
+    event.addBlockLootModifier('byg:budding_subzero_crystal').addLoot(
+      LootEntry.of('byg:budding_subzero_crystal').when((c) => 
+        c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
+      )
+    )
+
+    event.addBlockLootModifier('byg:budding_therium_crystal').addLoot(
+      LootEntry.of('byg:budding_therium_crystal').when((c) => 
+        c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
+      )
+    )
+
+    event.addBlockLootModifier('tflostblocks:chiseled_trollsteinn').addLoot(
+      LootEntry.of('tflostblocks:chiseled_trollsteinn')
+    )
 });

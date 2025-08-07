@@ -438,7 +438,8 @@ JEIEvents.hideItems(event => {
         'kubejs:frost_moon',
         'kubejs:snow_moon',
         'kubejs:worm_moon',
-        'kubejs:black_moon'
+        'kubejs:black_moon',
+		'hexerei:willow_woodcutter'
 	];
 
 	for (const hide of toHide) {

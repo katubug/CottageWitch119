@@ -504,97 +504,46 @@ ServerEvents.recipes(event => {
 		['minecraft:bone_meal', 'minecraft:dirt']
 	)
 
-	// allowing blooming azalea leaves to do the color thing
+	// azalea leaf things
+	const azaleaColors = ['orange', 'yellow', 'red', 'blue', 'pink', 'purple', 'white']
+	for (const color of azaleaColors) {
+		event.shaped(
+			Item.of('8x colorfulazaleas:' + color + '_azalea_leaves'),
+			[
+				'AAA',
+				'ABA',
+				'AAA'
+			],
+			{
+				A: 'colorfulazaleas:' + color + '_blooming_azalea_leaves',
+				B: 'minecraft:bone_meal'
+			}
+		)
+		event.shaped(
+			Item.of('colorfulazaleas:' + color + '_drooping_azalea_leaves'),
+			[
+				'A',
+				'A'
+			],
+			{
+				A: 'colorfulazaleas:' + color + '_azalea_leaves'
+			}
+		) 
+	}
 	event.shaped(
-		Item.of('colorfulazaleas:orange_azalea_leaves'), 
+		Item.of('colorfulazaleas:drooping_azalea_leaves'),
 		[
-			'AAA',
-			'ABA',
-			'AAA'
+			'A',
+			'A'
 		],
 		{
-			A: 'colorfulazaleas:orange_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
+			A: 'minecraft:azalea_leaves'
 		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:yellow_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:yellow_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:red_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:red_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:blue_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:blue_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:pink_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:pink_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:purple_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:purple_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
-	event.shaped(
-		Item.of('colorfulazaleas:white_azalea_leaves'), 
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: 'colorfulazaleas:white_blooming_azalea_leaves',
-			B: 'minecraft:bone_meal'
-		}
-	)
+	) 
 
 	// misc stonecutting
 	event.stonecutting('ars_scalaes:smooth_sourcestone_wall', 'ars_nouveau:smooth_sourcestone')
 	event.stonecutting('ars_scalaes:smooth_sourcestone_stairs', 'ars_nouveau:smooth_sourcestone')
-	event.stonecutting('block_variants:cracked_stone_brick_stairs', 'minecraft:cracked_stone_bricks')
-	event.stonecutting('block_variants:cracked_stone_brick_wall', 'minecraft:cracked_stone_bricks')
 
 	// Tall Plants Recipes
 	event.shapeless(

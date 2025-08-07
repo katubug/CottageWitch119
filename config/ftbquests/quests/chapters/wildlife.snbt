@@ -6005,36 +6005,17 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["79630C442EB1C589"]
-			description: ["&eStraw Golems&r get hungy! If they don't get a delicious apple-y snack every day or so, they slow down to a snail's pace, and eventually &asit and pout until fed&r. They adore bright, shiny, red &bApples&r, and will follow you if you are holding one!"]
-			id: "48BA2D702EE5E79A"
-			rewards: [{
-				id: "7EF6146DFC383A62"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			subtitle: "An apple a day..."
-			tasks: [{
-				id: "2B166DD2285C8B03"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			title: "Get an Apple for your Straw Golem"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
 			description: [
-				"Would you like some help harvesting your crops? Well, you're in luck, as your magic is capable of creating life! Tiny &eStraw Golems&r will help you harvest your crops. "
-				"Despite the name, Straw Golems are made with Hay, not Straw. So obtain a &bBale of Hay&r and a &bCarved Pumpkin&r to create your new friends! &6Place down the Hay, and then the Pumpkin on top&r, and watch it spring to life."
-				"The hat accentuates the cuteness of the golem."
+				"Do you have lots of &bpumpkins and melons&r that need farming? A &eStraw Golem&r may just be the buddy for you! These little guys will &aharvest fresh gourds and melons&r and &adrop them at the nearest carved pumpkin&r. Why do they love pumpkins so much? &oStop asking so many questions.&r"
 				""
-				"Note: &ddue to the difficult in keeping golems alive, we have opted to disable the mechanic that causes them to degrade/need repairing&r. "
+				"While villages of wild Straw Golems may be found in &cAutumnal Valleys&r, you can build your own! Simply &6place a carved pumpkin on top of a bale of hay&r. Careful not to startle them... they spook at the &odrop of a hat!&r"
+				""
+				"&dWhile the Straw Golem mod was found to be too buggy to keep in the pack, we have reskinned Pumpkin Wardens to wear their texture so we can keep our little friends!&r"
 			]
 			id: "79630C442EB1C589"
 			rewards: [{
-				id: "2F1AFA383DDF2D2C"
-				item: "strawgolem:straw_hat"
+				id: "70318A114D8BDC4B"
+				item: "minecraft:pumpkin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -6045,29 +6026,9 @@
 				item: "minecraft:hay_block"
 				type: "item"
 			}]
-			title: "Straw Golems: Rebaled"
-			x: 1.0d
+			title: "Straw Golems: Reborn"
+			x: 2.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["79630C442EB1C589"]
-			description: ["The hat is purely decorative. But boy, is it ever cute."]
-			id: "000D647AEFF79D8D"
-			rewards: [{
-				id: "305D73FEDBF74D2F"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Workin' the fields all day"
-			tasks: [{
-				id: "3B2803CEF4CED0F0"
-				item: "strawgolem:straw_hat"
-				type: "item"
-			}]
-			title: "Get your Straw Golem a Hat"
-			x: 3.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["52BC8196E858B238"]

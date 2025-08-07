@@ -347,7 +347,7 @@
       "gui.ae2.PatternEncoding.secondary_processing_result_tooltip": "Secondary Processing Result",
       "gui.ae2.Patterns": "Patterns",
   "gui.ae2.PortableCell": "Portable Glyph",
-  "gui.ae2.PortableCells": "Portable Glyphs (Disabled)",
+  "gui.ae2.PortableCells": "Portable Glyphs",
   "gui.ae2.PowerInputRate": "Resonance Generation: %s",
   "gui.ae2.PowerUsageRate": "Resonance Usage: %s",
       "gui.ae2.Precise": "Precise",
