@@ -15,3 +15,8 @@
     # Allowed values: true, false - Default: true
     advancedCollectorFilter = true
 
+[Performance]
+    # What should be the maximum number of items an item collector should try to pick up and insert in a tick? Reducing this number may improve performance when there's a lot of items laying around, for example when storage is full. A value of -1 indicates no limit on the number of insertions.
+    # Allowed range: -1 ~ 10000 - Default: 20
+    maxInsertions = 20
+
