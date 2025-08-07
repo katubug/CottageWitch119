@@ -103,5 +103,16 @@ ServerEvents.tags('block', event => {
         event.add('artifacts:mineable/digging_claws', crystal)
     }
 
+    // flowers that have unique bonemeal behavior. used in flower_doubling.js
+    event.add('kubejs:unique_bonemeal',
+        'environmental:red_hibiscus', 
+        'environmental:magenta_hibiscus', 
+        'environmental:orange_hibiscus', 
+        'environmental:yellow_hibiscus', 
+        'environmental:purple_hibiscus', 
+        'environmental:pink_hibiscus', 
+        'ecologics:azalea_flower',
+        'byg:hydrangea_bush'
+    )
 
 })
