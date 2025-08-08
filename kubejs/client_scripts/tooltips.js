@@ -1073,7 +1073,6 @@ ItemEvents.tooltip((e) => {
 			"minecraft:dandelion",
 			"hexerei:mandrake_flower",
 			"minecraft:azure_bluet",
-			"ecologics:azalea_flower",
 			"minecraft:cornflower",
 			"minecraft:white_tulip",
 			"minecraft:lilac",
@@ -1310,9 +1309,22 @@ ItemEvents.tooltip((e) => {
 			"byg:hydrangea_hedge",
 			"byg:clover_patch",
 			"byg:flower_patch",
+			"environmental:tasselflower",
+			"extendedmushrooms:infested_flower",
+			"missingwilds:blue_forget_me_not",
+			"missingwilds:purple_forget_me_not",
+			"missingwilds:pink_forget_me_not",
+			"missingwilds:white_forget_me_not",
+			"nethersdelight:mimicarnation",
+			"friendsandfoes:buttercup",
+			"missingwilds:sweetspire",
+			"byg:blue_rose_bush",
 		],
 		"Flowers!"
 	);
+
+	//MARK: flower and sapling
+	e.add(["ecologics:azalea_flower"], "Flower Sapling!");
 
 	//MARK: Plants
 	e.add(
@@ -1385,6 +1397,27 @@ ItemEvents.tooltip((e) => {
 	//MARK: Mushrooms
 	e.add(["twilightforest:mushgloom", "collectorsreap:portobello"], "Mushrooms!");
 
+	//MARK: Hanging Plants
+	e.add(
+		[
+			"colorfulazaleas:purple_drooping_azalea_leaves",
+			"colorfulazaleas:white_drooping_azalea_leaves",
+			"environmental:pink_hanging_wisteria_leaves",
+			"environmental:blue_hanging_wisteria_leaves",
+			"environmental:purple_hanging_wisteria_leaves",
+			"environmental:white_hanging_wisteria_leaves",
+			"environmental:hanging_willow_leaves",
+			"hexerei:willow_vines",
+			"swampier_swamps:swamp_vine",
+			"colorfulazaleas:pink_drooping_azalea_leaves",
+			"colorfulazaleas:blue_drooping_azalea_leaves",
+			"colorfulazaleas:red_drooping_azalea_leaves",
+			"colorfulazaleas:yellow_drooping_azalea_leaves",
+			"colorfulazaleas:orange_drooping_azalea_leaves",
+			"colorfulazaleas:drooping_azalea_leaves",
+		],
+		"Hanging Plants!"
+	);
 	//MARK: Lily pads
 	e.add(
 		[
@@ -1525,9 +1558,9 @@ ItemEvents.tooltip((e) => {
 	function addInfo(itemName, message) {
 		e.addAdvanced(itemName, (item, advanced, text) => {
 			if (!e.shift) {
-				text.add(1, [color.gold + "Info: ", "Hold [Shift]"]);
+				text.add(1, [color.blue + "Info: ", "Hold [Shift]"]);
 			} else {
-				text.add(1, [color.gold + "Info:"]);
+				text.add(1, [color.blue + "Info: " + color.reset + "ⓘ"]);
 				let lineNo = 2;
 				message.forEach((line) => {
 					text.add(lineNo, [line]);
@@ -1607,21 +1640,32 @@ ItemEvents.tooltip((e) => {
 		}
 	});
 
+	e.addAdvanced("minecraft:carved_pumpkin", (item, advanced, text) => {
+		if (!item.nbt.empty) {
+			if (!e.shift) {
+				text.add(1, [color.blue + "Info: ", "Hold [Shift]"]);
+			} else {
+				text.add(1, [color.blue + "Info: " + color.reset + "ⓘ"]);
+				text.add(1, ["Placing this down will result in a carved pumpkin."]);
+			}
+		}
+	});
+
 	//MARK: Warnings
 
 	/**
-	 * Adds a warning message tooltip to the item that requires shift to be held.
+	 * Adds a caution message tooltip to the item that requires shift to be held.
 	 * @param {Special.Item} itemName The item id.
 	 * @param {[string]} message The warning message.
 	 *
 	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
 	 */
-	function addWarning(itemName, message) {
+	function addCaution(itemName, message) {
 		e.addAdvanced(itemName, (item, advanced, text) => {
 			if (!e.shift) {
-				text.add(1, [color.red + "Warning: ", "Hold [Shift]"]);
+				text.add(1, [color.yellow + "Caution: ", "Hold [Shift]"]);
 			} else {
-				text.add(1, [color.red + "Warning:"]);
+				text.add(1, [color.yellow + "Caution: " + color.reset + "⚠"]);
 				let lineNo = 2;
 				message.forEach((line) => {
 					text.add(lineNo, [color.gold + line]);
@@ -1631,28 +1675,12 @@ ItemEvents.tooltip((e) => {
 		});
 	}
 
-	addWarning("hexerei:moon_dust_brush", [
+	addCaution("hexerei:moon_dust_brush", [
 		"Swift flight can be problematic for server performance.",
 		"Please fly considerately.",
 	]);
 
-	addWarning("alexsmobs:shattered_dimensional_carver", [
-		color.bold + "Do not use!",
-		"This item is bugged.",
-		"Please check the quests for more info.",
-	]);
-
-	addWarning("domesticationinnovation:wayward_lantern", [
-		"Use with care!",
-		"Any player approaching a wayward lantern will find ALL tamed mobs teleported to this location.",
-	]);
-
-	addWarning("hexerei:willow_woodcutter", [
-		"This woodcutter can sometimes cause crashes.",
-		"Please use mahogany or witch hazel instead!",
-	]);
-
-	addWarning(
+	addCaution(
 		[
 			"moblassos:golden_lasso",
 			"moblassos:aqua_lasso",
@@ -1665,18 +1693,55 @@ ItemEvents.tooltip((e) => {
 		]
 	);
 
+	addCaution(/majrusz.*/, [
+		"Do not combine these in your inventory, it can cause crashes!",
+	]);
+
+	addCaution("minecraft:carved_pumpkin", [
+		"Placing this down will result in a carved pumpkin.",
+	]);
+
+	/**
+	 * Adds a warning message tooltip to the item that requires shift to be held.
+	 * @param {Special.Item} itemName The item id.
+	 * @param {[string]} message The warning message.
+	 *
+	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
+	 */
+	function addWarning(itemName, message) {
+		let { red, gold, bold, reset, dark_red } = color;
+		e.addAdvanced(itemName, (item, advanced, text) => {
+			text.add(1, [`${gold}--==<| ${red + bold}WARNING ${reset + gold}|>==--`]);
+			let lineNo = 2;
+			message.forEach((line) => {
+				text.add(lineNo, [dark_red + line]);
+				lineNo++;
+			});
+			text.add(lineNo, [`${gold}--==<|)()(!)()(|>==--`]);
+		});
+	}
+
+	addWarning("alexsmobs:shattered_dimensional_carver", [
+		color.bold + "Do not use!",
+		"This item is bugged.",
+		"Please check the quests for more info.",
+	]);
+
+	addWarning("domesticationinnovation:wayward_lantern", [
+		"Use with care!",
+		"When placed and approached:",
+		`${color.bold + color.gold}ALL${color.dark_red} tamed mobs will teleport to you.`,
+	]);
+
+	addWarning("hexerei:willow_woodcutter", [
+		"This woodcutter can sometimes cause crashes.",
+		"Please use mahogany or witch hazel instead!",
+	]);
+
 	addWarning("brewinandchewin:keg", [
 		"Kegs are crashy.",
 		"Certain keg recipes are now made in a cooking pot.",
 	]);
 
-	addWarning(/majrusz.*/, [
-		"Do not combine these in your inventory, it can cause crashes!",
-	]);
-
 	addWarning("@refinedstorage", ["This mod is set to be removed the 1.18.0 update."]);
-
-	addWarning("minecraft:carved_pumpkin", [
-		"Placing this down will result in a carved pumpkin.",
-	]);
 });

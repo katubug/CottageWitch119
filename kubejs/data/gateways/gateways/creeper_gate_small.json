@@ -19,10 +19,10 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:snowy_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:snowy_creeper"
                 }
             ],
             "modifiers": [{
@@ -61,16 +61,16 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:bamboo_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:bamboo_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:jungle_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:jungle_creeper"
                 }
             ],
             "modifiers": [{
@@ -109,10 +109,10 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:spruce_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:swamp_creeper"
                 },
                 {
                     "entity": "minecraft:creeper"
@@ -157,19 +157,19 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dripstone_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dripstone_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:dripstone_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:desert_creeper"
                 },
                 {
-                    "entity": "minecraft:creeper"
+                    "entity": "creeperoverhaul:desert_creeper"
                 }
             ],
             "modifiers": [{

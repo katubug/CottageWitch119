@@ -28,6 +28,21 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Wireless Booster
+	event.shaped(
+		Item.of('ae2:wireless_booster'),
+		[
+			'BCD',
+			'AAA'
+		], {
+			
+			A: 'create:brass_ingot',
+			B: 'ae2:fluix_dust',
+			C: '#ae2:all_certus_quartz',
+			D: 'create:polished_rose_quartz',
+		}
+	)
+
 	//ME Wireless Crafting Terminal
 	event.shaped(
 		Item.of('ae2:wireless_crafting_terminal', '{internalCurrentPower:1600000.0d}'),

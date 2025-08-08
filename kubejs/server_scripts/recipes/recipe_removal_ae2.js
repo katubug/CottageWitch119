@@ -164,6 +164,7 @@ ServerEvents.recipes(event => {
         {output: 'ae2:orange_smart_cable'},
         {output: 'ae2:white_smart_cable'},
         //Replaced Recipes
+        {output: 'ae2:wireless_booster'},
         {output: 'ae2:memory_card'},
         {output: 'ae:cable_anchor'},
         {id: 'ae2:charger/charged_certus_quartz_crystal'},
