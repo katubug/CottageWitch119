@@ -1,8 +1,11 @@
 ServerEvents.tags("block", (event) => {
-	// Bell Blossom tag
-	event.add("minecraft:small_flowers", "byg:wailing_bell_blossom");
+	//MARK: Bell Blossom tag
+	event.add(
+		"minecraft:small_flowers", //
+		"byg:wailing_bell_blossom"
+	);
 
-	//Hot Blocks
+	//MARK:Hot Blocks
 	let hotBlocks = [
 		"minecraft:campfire",
 		"minecraft:soul_campfire",
@@ -38,7 +41,7 @@ ServerEvents.tags("block", (event) => {
 		//TODO Katu add the Let's Do Mods here when it's time.
 	}
 
-	// Prevent moving block
+	//MARK: Prevent moving block
 	event.add(
 		"forge:relocation_not_supported",
 		"minecraft:reinforced_deepslate",
@@ -48,7 +51,70 @@ ServerEvents.tags("block", (event) => {
 		"@applecrates"
 	);
 
-	// Hexerei Crow Harvestables
+	//MARK: Stripped wood
+	let allStrippedStuff = [
+		/.*stripped_.*_wood$/,
+		/.*stripped_.*_log$/,
+		/.*stripped_.*_hyphae$/,
+		/.*stripped_.*_stem$/,
+		/.*stripped_.*_pedu$/,
+	];
+
+	let nonStrippedStuff = [
+		/.*_wood$/, //
+		/.*_log$/,
+		/.*_hyphae$/,
+		/.*_stem$/,
+		/.*_pedu$/,
+	];
+
+	event.add(
+		"forge:stripped_wood",
+		allStrippedStuff,
+		"luphieclutteredmod:stripped_luphie_flowering_pinklog",
+		"byg:imparius_stem",
+		"byg:imparius_hyphae",
+		"extendedmushrooms:honey_fungus_stem_stripped",
+		"extendedmushrooms:poisonous_mushroom_stem_stripped",
+		"extendedmushrooms:glowshroom_stem_stripped"
+	);
+	event.add(
+		"minecraft:logs",
+		allStrippedStuff,
+		nonStrippedStuff,
+		/luphieclutteredmod:.*_wood$/,
+		"deeperdarker:echo_wood"
+	);
+	event.add(
+		"byg:all/logs",
+		allStrippedStuff,
+		nonStrippedStuff,
+		/luphieclutteredmod:.*_wood$/,
+		"deeperdarker:echo_wood"
+	);
+
+	//MARK: No bark strip
+	event.add(
+		"cw:bark_strip_disabled",
+		"#forge:stripped_wood",
+		"extradelight:cinnamon_log",
+		"#quark:hollow_logs",
+		"byg:imbued_nightshade_log",
+		"#missingwilds:fallen_logs",
+		"byg:soul_shroom_stem",
+		"byg:white_mushroom_stem",
+		"byg:brown_mushroom_stem",
+		"twilightforest:huge_mushgloom_stem",
+		"quark:glow_shroom_stem"
+	);
+
+	//MARK: No bark unstrip
+	event.add(
+		"cw:bark_unstrip_disabled", //
+		"extradelight:stripped_cinnamon_log"
+	);
+
+	//MARK: Hexerei Crow Harvestables
 	event.add(
 		"hexerei:crow_harvestable",
 		"minecraft:cave_vines_plant",
@@ -63,9 +129,15 @@ ServerEvents.tags("block", (event) => {
 		"minecraft:nether_wart"
 	);
 
-	event.add("minecraft:mineable/pickaxe", "buildinggadgets:construction_block");
+	event.add(
+		"minecraft:mineable/pickaxe", //
+		"buildinggadgets:construction_block"
+	);
 
-	event.add("minecraft:planks", "extradelight:cinnamon_planks");
+	event.add(
+		"minecraft:planks", //
+		"extradelight:cinnamon_planks"
+	);
 
 	event.add(
 		"ae2:growth_acceleratable",
@@ -96,7 +168,7 @@ ServerEvents.tags("block", (event) => {
 		"beautify:lamp_candleabra_yellow"
 	);
 
-	// candles for consecration:
+	//MARK: candles for consecration:
 	event.add(
 		"minecraft:candles",
 		"#hexerei:candles",
@@ -113,7 +185,7 @@ ServerEvents.tags("block", (event) => {
 		"twilightforest:player_skull_candle"
 	);
 
-	// fixing crystals
+	//MARK: fixing crystals
 	let crystals = [
 		"byg:small_subzero_crystal_bud",
 		"byg:medium_subzero_crystal_bud",
@@ -128,4 +200,11 @@ ServerEvents.tags("block", (event) => {
 		event.add("minecraft:mineable/pickaxe", crystal);
 		event.add("artifacts:mineable/digging_claws", crystal);
 	}
+
+	Ingredient.all.stacks.forEach((block_) => {
+		if (block_.block) {
+			event.add("cw:all_blocks", block_.id);
+			event.add("mod:" + block_.id.split(":")[0], block_.id);
+		}
+	});
 });
