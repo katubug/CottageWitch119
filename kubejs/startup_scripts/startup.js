@@ -1,50 +1,126 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
+//MARK: Hello!
+console.info(
+	"Hello, World! (You will only see this line once in console, during startup)"
+);
 
-Platform.mods.kubejs.name = 'Cottage Witch'
+// Renamed kjs to Cottage Witch
+Platform.mods.kubejs.name = "Cottage Witch";
 
-StartupEvents.registry('item', event => {
-	// Register new items here
-	// event.create('example_item').displayName('Example Item')
-})
+/**
+ *
+ * MARK: -ITEMS
+ *
+ */
 
-StartupEvents.registry('block', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
-})
+StartupEvents.registry("item", (event) => {
+	/**
+	 * Registers a basic item. Texture path is optional
+	 * @param {string} id item ID
+	 * @param {string} name Display Name
+	 * @param {int} stackSize Max Stack Size
+	 * @param {string} texture Path to Texture
+	 */
+	function createBasicItem(id, name, stackSize, rarity, texture) {
+		if (texture) {
+			event
+				.create(id)
+				.displayName(name)
+				.maxStackSize(stackSize)
+				.texture(texture)
+				.rarity(rarity);
+		} else {
+			event.create(id).displayName(name).maxStackSize(stackSize).rarity(rarity);
+		}
+	}
 
-//Make Deepslate faster to mine
-BlockEvents.modification(e => {
-	e.modify('minecraft:deepslate', block => {
-		block.destroySpeed = 1
-	  })
+	/**
+	 * MARK: Register Coins
+	 */
 
-	e.modify('minecraft:cobbled_deepslate', block => {
-		block.destroySpeed = 1
-	  })
+	const coins = global.hex_coins;
 
-	e.modify('minecraft:polished_deepslate', block => {
-	block.destroySpeed = 1
-	})
+	for (let Coin in coins) {
+		let coin = Coin.toLowerCase();
+		//New coins
+		createBasicItem(
+			`${coin}coin`,
+			`${Coin} Coin`,
+			64,
+			coins[Coin],
+			`kubejs:item/${coin}_coin`
+		);
+		//Old coins
+		createBasicItem(`${coin}_coin`, `${Coin} Coin`, 64, "COMMON");
+	}
 
-	e.modify('#chipped:deepslate', block => {
-	block.destroySpeed = 1
-	})
-  })
+	/**
+	 * MARK: Register Moons
+	 */
 
-  ItemEvents.modification((event) => {
-    const increaseStackSize = [
-		'usefulslime:slippery_slime_block',
-		'byg:ametrine_horse_armor',
-		'byg:pendorite_horse_armor',
-		'minecraft:leather_horse_armor',
-		'minecraft:iron_horse_armor',
-		'minecraft:golden_horse_armor',
-		'minecraft:diamond_horse_armor'
-    ];
+	const moons = Object.keys(global.hex_moons);
 
-    event.modify(increaseStackSize, (item) => {
-        item.maxStackSize = 64;
-    })
-})
+	moons.forEach((Moon) => {
+		const moon = Moon.toLowerCase();
+		createBasicItem(
+			`${moon}_moon`,
+			`${Moon} Moon`,
+			16,
+			"EPIC",
+			`kubejs:item/${moon}_moon`
+		);
+	});
+
+	/**
+	 * MARK: Other Items
+	 */
+
+	createBasicItem("ticket", "Ticket", 64, "UNCOMMON");
+});
+
+/**
+ *
+ * MARK: -BLOCKS
+ *
+ */
+
+StartupEvents.registry("block", (event) => {
+	/**
+	 * MARK: Emmu Blocks
+	 */
+
+	event
+		.create("bat_wallpaper", "cardinal")
+		.model("kubejs:block/bat_wallpaper")
+		.soundType("wood")
+		.hardness(2)
+		.displayName("Bat Wallpaper")
+		.tagBlock("minecraft:mineable/axe");
+
+	event
+		.create("skull_wallpaper", "cardinal")
+		.model("kubejs:block/skull_wallpaper")
+		.soundType("wood")
+		.hardness(2)
+		.displayName("Skull Wallpaper")
+		.tagBlock("minecraft:mineable/axe");
+
+	event
+		.create("witch_cat_plushie", "cardinal")
+		.model("kubejs:block/witch_cat_plushie")
+		.soundType("wool")
+		.fullBlock(false)
+		.defaultCutout()
+		.hardness(1.5)
+		.displayName("Witch Cat Plushie");
+
+	event
+		.create("mayor_gaylord", "cardinal")
+		.model("kubejs:block/gaylord")
+		.soundType("wool")
+		.fullBlock(false)
+		.defaultCutout()
+		.hardness(1.5)
+		.displayName("Mayor Gaylord");
+});
