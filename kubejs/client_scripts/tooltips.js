@@ -1546,7 +1546,7 @@ ItemEvents.tooltip((e) => {
 		"Job Blocks!"
 	);
 
-	//MARK: Info
+	//MARK:- Info
 
 	/**
 	 * Adds an infomation message tooltip to the item that requires shift to be held.
@@ -1557,15 +1557,19 @@ ItemEvents.tooltip((e) => {
 	 */
 	function addInfo(itemName, message) {
 		e.addAdvanced(itemName, (item, advanced, text) => {
+			let { blue, aqua, glitch } = color;
 			if (!e.shift) {
-				text.add(1, [color.blue + "Info: ", "Hold [Shift]"]);
+				text.add(1, [blue + "-= ⓘ ", aqua + "Info: ", "Hold [Shift]", blue + " ⓘ =-"]);
 			} else {
-				text.add(1, [color.blue + "Info: " + color.reset + "ⓘ"]);
-				let lineNo = 2;
+				text.add(1, [blue + "-= ⓘ ", aqua + "Info", blue + " ⓘ =-"]);
+				text.add(2, "");
+				let lineNo = 3;
 				message.forEach((line) => {
 					text.add(lineNo, [line]);
 					lineNo++;
 				});
+				text.add(lineNo, "");
+				text.add(lineNo + 1, [blue + "-= ⓘ ", aqua + glitch + "Info", blue + " ⓘ =-"]);
 			}
 		});
 	}
@@ -1593,26 +1597,21 @@ ItemEvents.tooltip((e) => {
 		let mobName = global.toTitleCase(mob.split(":")[1].replace("_", " "));
 
 		addInfo(egg, [
-			"This egg can drop when killing with a Reaping tool.",
-			" ",
-			`${color.red}Dropped by ${mobName}`,
+			`This egg can drop when killing ${color.gold}${mobName}${color.reset} with a Reaping tool.`,
 		]);
 	}
-
-	//MARK: Nether loot
 
 	addInfo(
 		["alexsmobs:warped_muscle", "alexsmobs:hemolymph_sac"],
 		["Obtain this item from the Nether Dimension Gate."]
 	);
 
-	//MARK: Backpacks
-	addInfo("sophisticatedbackpacks:backpack", [
-		"These are not craftable in this modpack.",
-		color.light_purple + "Find them in End City loot!",
+	addInfo("quark:bottled_cloud", [
+		"Obtain by right clicking a bottle at cloud level.",
+		"This is y-level" + color.gold + " 191 to 195",
 	]);
 
-	//MARK: Moons
+	//MARK: -Moons
 	const moons = global.hex_moons;
 
 	for (let moonName in moons) {
@@ -1641,17 +1640,30 @@ ItemEvents.tooltip((e) => {
 	});
 
 	e.addAdvanced("minecraft:carved_pumpkin", (item, advanced, text) => {
-		if (!item.nbt.empty) {
+		if (item.nbt) {
 			if (!e.shift) {
-				text.add(1, [color.blue + "Info: ", "Hold [Shift]"]);
+				text.add(1, [
+					color.blue + "-= ⓘ ",
+					color.aqua + "Info: ",
+					"Hold [Shift]",
+					color.blue + " ⓘ =-",
+				]);
 			} else {
-				text.add(1, [color.blue + "Info: " + color.reset + "ⓘ"]);
-				text.add(1, ["Placing this down will result in a carved pumpkin."]);
+				text.add(1, [color.blue + "-= ⓘ ", color.aqua + "Info", color.blue + " ⓘ =-"]);
+				text.add(2, "");
+				text.add(3, ["Placing this will result in a"]);
+				text.add(4, [color.bold + "Carved Pumpkin", "."]);
+				text.add(5, "");
+				text.add(6, [
+					color.blue + "-= ⓘ ",
+					color.aqua + color.glitch + "Info",
+					color.blue + " ⓘ =-",
+				]);
 			}
 		}
 	});
 
-	//MARK: Warnings
+	//MARK: -Cautions
 
 	/**
 	 * Adds a caution message tooltip to the item that requires shift to be held.
@@ -1662,21 +1674,34 @@ ItemEvents.tooltip((e) => {
 	 */
 	function addCaution(itemName, message) {
 		e.addAdvanced(itemName, (item, advanced, text) => {
+			let { gold, yellow, red, glitch } = color;
 			if (!e.shift) {
-				text.add(1, [color.yellow + "Caution: ", "Hold [Shift]"]);
+				text.add(1, [
+					gold + "-= ⚠ ",
+					yellow + "Caution: ",
+					red + "Hold [Shift]",
+					gold + " ⚠ =-",
+				]);
 			} else {
-				text.add(1, [color.yellow + "Caution: " + color.reset + "⚠"]);
-				let lineNo = 2;
+				text.add(1, [gold + "-= ⚠ ", yellow + "Caution", gold + " ⚠ =-"]);
+				text.add(2, "");
+				let lineNo = 3;
 				message.forEach((line) => {
-					text.add(lineNo, [color.gold + line]);
+					text.add(lineNo, [red + line]);
 					lineNo++;
 				});
+				text.add(lineNo, "");
+				text.add(lineNo + 1, [
+					gold + "-= ⚠ ",
+					yellow + glitch + "Caution",
+					gold + " ⚠ =-",
+				]);
 			}
 		});
 	}
 
 	addCaution("hexerei:moon_dust_brush", [
-		"Swift flight can be problematic for server performance.",
+		"Swift flight can be bad for server performance.",
 		"Please fly considerately.",
 	]);
 
@@ -1689,17 +1714,22 @@ ItemEvents.tooltip((e) => {
 		],
 		[
 			"Don't place timed lassos into an inventory!",
-			"It will cause heavy lag, as those entities will repeatedly attempt to escape.",
+			"The mob will keep trying to escape,",
+			"causing heavy lag.",
 		]
 	);
 
 	addCaution(/majrusz.*/, [
-		"Do not combine these in your inventory, it can cause crashes!",
+		"Do not combine these in your inventory!",
+		"It can cause crashes!",
 	]);
 
-	addCaution("minecraft:carved_pumpkin", [
-		"Placing this down will result in a carved pumpkin.",
+	addCaution("sophisticatedbackpacks:backpack", [
+		"These are not craftable in this modpack.",
+		color.light_purple + "Find them in End City loot!",
 	]);
+
+	//MARK: -Warnings
 
 	/**
 	 * Adds a warning message tooltip to the item that requires shift to be held.
@@ -1709,22 +1739,26 @@ ItemEvents.tooltip((e) => {
 	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
 	 */
 	function addWarning(itemName, message) {
-		let { red, gold, bold, reset, dark_red } = color;
+		let { red, gold, bold, reset, dark_red, glitch } = color;
 		e.addAdvanced(itemName, (item, advanced, text) => {
-			text.add(1, [`${gold}--==<| ${red + bold}WARNING ${reset + gold}|>==--`]);
-			let lineNo = 2;
+			text.add(1, [`${gold}--==<|)    ${red}WARNING${reset + gold}    (|>==--`]);
+			text.add(2, "");
+			let lineNo = 3;
 			message.forEach((line) => {
 				text.add(lineNo, [dark_red + line]);
 				lineNo++;
 			});
-			text.add(lineNo, [`${gold}--==<|)()(!)()(|>==--`]);
+			text.add(lineNo, "");
+			text.add(lineNo + 1, [
+				`${gold}--==<|)    ${red + glitch}WARNING${reset + gold}    (|>==--`,
+			]);
 		});
 	}
 
 	addWarning("alexsmobs:shattered_dimensional_carver", [
 		color.bold + "Do not use!",
-		"This item is bugged.",
-		"Please check the quests for more info.",
+		color.dark_purple + "This item is bugged.",
+		color.dark_purple + "Please check the quests for more info.",
 	]);
 
 	addWarning("domesticationinnovation:wayward_lantern", [
