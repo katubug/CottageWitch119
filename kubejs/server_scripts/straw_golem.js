@@ -17,7 +17,7 @@ BlockEvents.placed((event) => {
 		return;
 
 	// Break blocks
-	level.destroyBlock(block.up.pos, false);
+	level.destroyBlock(block.down.pos, false);
 	level.destroyBlock(block.pos, false);
 
 	// Create pumpkin warden
