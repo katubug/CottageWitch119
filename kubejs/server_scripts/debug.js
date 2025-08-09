@@ -6,7 +6,7 @@ ServerEvents.commandRegistry((event) => {
 		let zPlace = 0;
 		let yPlace = 64;
 		c.source.player.tell("Resetting");
-		for (let i = 0; i < 1000; i++) {
+		for (let i = 0; i < 10000; i++) {
 			let spot = c.source.player.level.getBlock(xPlace * 2, yPlace, zPlace * 2);
 			if (spot.down.id == "environmental:dirt_tiles") {
 				spot.set("air");

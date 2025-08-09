@@ -87,7 +87,7 @@ global.FE_teleportFX = (event) => {
 	const width = entity.bbWidth;
 	if (entity.type == "minecraft:enderman") {
 		global.particleBurst(
-			event.level,
+			entity.level,
 			prev,
 			height,
 			width,
@@ -96,7 +96,7 @@ global.FE_teleportFX = (event) => {
 			0
 		);
 		global.particleBurst(
-			event.level,
+			entity.level,
 			prev,
 			height,
 			width * 2,
@@ -109,7 +109,7 @@ global.FE_teleportFX = (event) => {
 	if (entity.peacefulCreature) {
 		// rune cascade at origin
 		global.particleBurst(
-			event.level,
+			entity.level,
 			prev,
 			height,
 			width,
@@ -120,7 +120,7 @@ global.FE_teleportFX = (event) => {
 
 		// poof burst at target
 		global.particleBurst(
-			event.level,
+			entity.level,
 			target,
 			height,
 			width / 2,
@@ -130,15 +130,15 @@ global.FE_teleportFX = (event) => {
 		);
 
 		//pop sound at both
-		event.entity.server.runCommandSilent(
+		entity.server.runCommandSilent(
 			`playsound artifacts:generic.pop ambient @a ${target.x()} ${target.y()} ${target.z()}`
 		);
-		event.entity.server.runCommandSilent(
+		entity.server.runCommandSilent(
 			`playsound artifacts:generic.pop ambient @a ${prev.x()} ${prev.y()} ${prev.z()}`
 		);
 	} else {
 		global.particleBurst(
-			event.level,
+			entity.level,
 			prev,
 			height,
 			width,
@@ -147,7 +147,7 @@ global.FE_teleportFX = (event) => {
 			0
 		);
 		global.particleBurst(
-			event.level,
+			entity.level,
 			target,
 			height,
 			width,
@@ -155,10 +155,10 @@ global.FE_teleportFX = (event) => {
 			20 * Math.max(height, width),
 			0.01
 		);
-		event.entity.server.runCommandSilent(
+		entity.server.runCommandSilent(
 			`playsound create:fwoomp ambient @a ${target.x()} ${target.y()} ${target.z()}`
 		);
-		event.entity.server.runCommandSilent(
+		entity.server.runCommandSilent(
 			`playsound create:fwoomp ambient @a ${prev.x()} ${prev.y()} ${prev.z()}`
 		);
 	}

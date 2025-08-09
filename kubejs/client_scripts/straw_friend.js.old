@@ -1,0 +1,13 @@
+/**
+ * summon smol friend pumpkin
+ */
+BlockEvents.rightClicked((event) => {
+	if (event.item != "minecraft:carved_pumpkin") return;
+	if (
+		!IsAdjacentClicked(event, "minecraft:carved_pumpkin", "minecraft:hay_block", "down")
+	)
+		return;
+	event.block.up.set("air");
+	event.block.set("air");
+	event.block.createEntity("byg:pumpkin_warden").spawn();
+});
