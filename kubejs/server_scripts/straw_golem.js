@@ -1,5 +1,6 @@
 /**
- * summon smol friend pumpkin
+ * Summons a pumpkin warden (or in our case, a 'straw golem') when
+ * placing a pumpkin next to a hay block
  */
 BlockEvents.placed((event) => {
 	const {
