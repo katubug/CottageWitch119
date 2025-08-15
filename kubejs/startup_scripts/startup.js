@@ -7,6 +7,8 @@ console.info(
 
 // Renamed kjs to Cottage Witch
 Platform.mods.kubejs.name = "Cottage Witch";
+Platform.mods.ae2.name = "Arcane Enigmatics 2";
+Platform.mods.minecraft.name = "Minceraft";
 
 /**
  *
@@ -21,17 +23,18 @@ StartupEvents.registry("item", (event) => {
 	 * @param {string} name Display Name
 	 * @param {int} stackSize Max Stack Size
 	 * @param {string} texture Path to Texture
+	 * @returns {Internal.BasicItemJS$Builder} Item Builder
 	 */
 	function createBasicItem(id, name, stackSize, rarity, texture) {
 		if (texture) {
-			event
+			return event
 				.create(id)
 				.displayName(name)
 				.maxStackSize(stackSize)
 				.texture(texture)
 				.rarity(rarity);
 		} else {
-			event.create(id).displayName(name).maxStackSize(stackSize).rarity(rarity);
+			return event.create(id).displayName(name).maxStackSize(stackSize).rarity(rarity);
 		}
 	}
 
@@ -77,6 +80,18 @@ StartupEvents.registry("item", (event) => {
 	 */
 
 	createBasicItem("ticket", "Ticket", 64, "UNCOMMON");
+
+	createBasicItem(
+		"kubejs:mimic_dust",
+		"Powdered Mimicarnation",
+		64,
+		"RARE",
+		"kubejs:item/mimic_dust"
+	)
+		.food((f) => {
+			f.alwaysEdible().effect("twilightdelight:aurora_glowing", 80, 0, 1).build();
+		})
+		.glow(true);
 });
 
 /**

@@ -1611,6 +1611,12 @@ ItemEvents.tooltip((e) => {
 		"This is y-level" + color.gold + " 191 to 195",
 	]);
 
+	addInfo("kubejs:mimic_dust", [
+		"Tastes like a rainbow.",
+		"",
+		"Combine with glowstone to make transformation powder",
+	]);
+
 	//MARK: -Moons
 	const moons = global.hex_moons;
 

@@ -623,4 +623,13 @@ ServerEvents.recipes((event) => {
 	event.shapeless(Item.of("sprout:tall_dead_bush"), [
 		"2x minecraft:dead_bush", //
 	]);
+
+	event.shapeless(Item.of("kubejs:mimic_dust"), [
+		"nethersdelight:mimicarnation", //
+	]);
+
+	event.shapeless(Item.of("twilightforest:transformation_powder"), [
+		"kubejs:mimic_dust", //
+		"minecraft:glowstone_dust",
+	]);
 });
