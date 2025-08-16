@@ -6006,16 +6006,18 @@
 		}
 		{
 			description: [
-				"Do you have lots of &bpumpkins and melons&r that need farming? A &eStraw Golem&r may just be the buddy for you! These little guys will &aharvest fresh gourds and melons&r and &adrop them at the nearest carved pumpkin&r. Why do they love pumpkins so much? &oStop asking so many questions.&r"
+				"Do you have lots of &bpumpkins and melons&r that need farming? A &eStraw Golem&r may just be the buddy for you! These little guys will &aharvest fresh gourds and melons&r and &adrop them at the nearest carved pumpkin&r.* Why do they love pumpkins so much? &oDon't ask so many questions.&r"
 				""
 				"While villages of wild Straw Golems may be found in &cAutumnal Valleys&r, you can build your own! Simply &6place a carved pumpkin on top of a bale of hay&r. Careful not to startle them... they spook at the &odrop of a hat!&r"
 				""
-				"&dWhile the Straw Golem mod was found to be too buggy to keep in the pack, we have reskinned Pumpkin Wardens to wear their texture so we can keep our little friends!&r"
+				"*These fellas can be a little imprecise... to make the most of your farm, we suggest using an&b item collector&r to pick up the drops, and &brich soil farmland&r so they dont break your plants!"
+				""
+				"&dWhile the &lStraw Golem mod&r was found to be too buggy to keep in the pack, we have reskinned Pumpkin Wardens to wear their texture so we can keep our little friends!&r"
 			]
 			id: "79630C442EB1C589"
 			rewards: [{
-				id: "70318A114D8BDC4B"
-				item: "minecraft:pumpkin"
+				id: "4ED17153FD2F1B1A"
+				item: "minecraft:carved_pumpkin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -12809,12 +12811,287 @@
 				"Note: dragonflies from this mod do not spawn in the world, due to their laggy AI. However, you can find them- and many other creepy crawlies- in the &bInsectoid Gatepearl&r."
 			]
 			id: "3C1AC5730A574F29"
-			rewards: [{
-				count: 5
-				id: "14733F4457AA3686"
-				item: "crittersandcompanions:dragonfly_wing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "14733F4457AA3686"
+					item: "crittersandcompanions:dragonfly_wing"
+					type: "item"
+				}
+				{
+					id: "40AFDF90F5F710EC"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas"
+						tag: {
+							author: "LaikaLady"
+							generation: 2
+							name: "ef4c3d00-ca3e-4f77-b3f2-bc5d16954cf7_1745333579"
+							pixels: [I;
+								-8679350
+								-9139648
+								-9271235
+								-9139648
+								-8942268
+								-6380199
+								-4474774
+								-5326754
+								-4931992
+								-4931992
+								-4539003
+								-4539003
+								-4539003
+								-4474774
+								-5328014
+								-5328014
+								-9402566
+								-9599946
+								-9665484
+								-393218
+								-9467340
+								-7032511
+								-7030971
+								-5189513
+								-5123977
+								-4536200
+								-5190277
+								-5388169
+								-5526702
+								-393218
+								-5328014
+								-5328014
+								-9534153
+								-9665484
+								-9665484
+								-4012608
+								-8674762
+								-7754694
+								-5256574
+								-425955
+								-12827478
+								-14869215
+								-12827478
+								-425955
+								-5388428
+								-4670795
+								-6708910
+								-5919900
+								-8942268
+								-9665484
+								-9533388
+								-9670546
+								-8807114
+								-5780880
+								-425955
+								-12827478
+								-12930086
+								-14869215
+								-12930086
+								-12827478
+								-425955
+								-8881289
+								-7692730
+								-5919900
+								-8809407
+								-9270216
+								-9533643
+								-9467339
+								-12103854
+								-5780880
+								-425955
+								-12827478
+								-12930086
+								-14869215
+								-12930086
+								-12827478
+								-425955
+								-12103854
+								-7167421
+								-5918385
+								-8283073
+								-8545992
+								-9071819
+								-9533388
+								-8806601
+								-12103854
+								-5583758
+								-3443927
+								-12630142
+								-12679779
+								-12630142
+								-5674702
+								-12103854
+								-7428290
+								-7033785
+								-5982123
+								-7888312
+								-8677063
+								-8609736
+								-8675273
+								-8214724
+								-8083397
+								-3283741
+								-15057857
+								-11973812
+								-3283741
+								-15057857
+								-13354949
+								-8282310
+								-7624386
+								-6835131
+								-6506418
+								-7500472
+								-7566011
+								-8808137
+								-8807625
+								-13354949
+								-13749964
+								-15057857
+								-14869215
+								-11249576
+								-15057857
+								-14869215
+								-13354949
+								-8084676
+								-7032511
+								-6900925
+								-6506418
+								-6918335
+								-6918335
+								-7895229
+								-11249576
+								-8873673
+								-7820219
+								-6447721
+								-8618887
+								-11644591
+								-8618887
+								-6447721
+								-13354949
+								-11973812
+								-11644591
+								-6835131
+								-6506418
+								-6918335
+								-6918335
+								-6918335
+								-9085890
+								-10394783
+								-11973812
+								-13749964
+								-10197918
+								-13749964
+								-10197918
+								-13749964
+								-12303292
+								-11382191
+								-8478920
+								-11249576
+								-6899639
+								-6914719
+								-7310764
+								-6719917
+								-7313348
+								-9021898
+								-9218247
+								-8747444
+								-11973812
+								-9989582
+								-9989582
+								-10517958
+								-10517958
+								-10197918
+								-13749964
+								-10722718
+								-7821996
+								-6784419
+								-6189960
+								-6189960
+								-6586522
+								-7180982
+								-9547467
+								-10204879
+								-9809095
+								-9612488
+								-9600463
+								-9989582
+								-10517958
+								-8618887
+								-13354949
+								-8478147
+								-10722718
+								-8694220
+								-7772601
+								-7113896
+								-7114154
+								-6192020
+								-5665421
+								-7968433
+								-9679052
+								-10072522
+								-10006729
+								-9809095
+								-7826358
+								-8618887
+								-8678600
+								-12828091
+								-10722718
+								-9087946
+								-8825805
+								-8629198
+								-7114155
+								-6323350
+								-5598338
+								-6192797
+								-7575223
+								-8364220
+								-9679052
+								-11058897
+								-9613773
+								-6447721
+								-7562933
+								-12103854
+								-7034816
+								-9284552
+								-9087946
+								-8826574
+								-8694991
+								-7048618
+								-6059405
+								-6323350
+								-6390174
+								-7180982
+								-7378619
+								-7774410
+								-10533585
+								-9481418
+								-8033725
+								-8033725
+								-6445997
+								-9480900
+								-9284552
+								-9088716
+								-8629199
+								-7772858
+								-6587294
+								-5268342
+								-6587294
+								-7311278
+								-7378619
+								-8103373
+								-7774410
+								-6918335
+								-8034750
+								-8034750
+								-7639737
+							]
+							title: "Jumping Spider"
+							v: 437
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "heart"
 			subtitle: "you aren't so scary, are ya?"
 			tasks: [{
