@@ -257,12 +257,14 @@ ServerEvents.tags('item', event => {
         'extradelight:mangrove_knife_block',
         'extradelight:cinnamon_knife_block',
         'gateways:gate_pearl',
-        'alexsmobs:hemolymph_blaster'
+        'alexsmobs:hemolymph_blaster',
+        'ae2:cable_anchor'
     )
     event.add('twilightforest:banned_uncrafting_ingredients',
         '#forge:eyes',
         'minecraft:nether_star',
-        'minecraft:dragon_egg'
+        'minecraft:dragon_egg',
+        '#forge:tools/knives'
     )
 
     // Brooms
