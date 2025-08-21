@@ -622,7 +622,7 @@ ServerEvents.recipes(event => {
 			'#ae2:metal_ingots',
 			'#forge:tools/knives'
 		]
-	)
+	).damageIngredient("#forge:tools/knives")
 
 	// Certus Quartz Dust (Crushing)
 	event.recipes.create.crushing(
