@@ -1594,10 +1594,12 @@ ItemEvents.tooltip((e) => {
 	const EGGS = global.allowed_eggs;
 	for (let mob in EGGS) {
 		let egg = EGGS[mob];
-		let mobName = global.toTitleCase(mob.split(":")[1].replace("_", " "));
+		let name = Text.translate("entity." + mob.replace(":", "."));
 
 		addInfo(egg, [
-			`This egg can drop when killing ${color.gold}${mobName}${color.reset} with a Reaping tool.`,
+			Component.of(`This egg can drop when killing `)
+				.append(name.gold())
+				.append(` with a Reaping tool.`),
 		]);
 	}
 
@@ -1615,6 +1617,11 @@ ItemEvents.tooltip((e) => {
 		"Tastes like a rainbow.",
 		"",
 		"Combine with glowstone to make transformation powder",
+	]);
+
+	addInfo("ae2:charged_certus_quartz_crystal", [
+		"Consecrate a regular Certus Quartz Crystal by right clicking it onto a lit candle.",
+		"Shift click for a single stack at a time.",
 	]);
 
 	//MARK: -Moons
@@ -1666,6 +1673,117 @@ ItemEvents.tooltip((e) => {
 					color.blue + " ⓘ =-",
 				]);
 			}
+		}
+	});
+
+	//MARK: Food info
+	const $FoodList = Java.loadClass("com.tarinoita.solsweetpotato.tracking.FoodList");
+	const $FoodInstance = Java.loadClass(
+		"com.tarinoita.solsweetpotato.tracking.FoodInstance"
+	);
+
+	const FoodList = $FoodList.get(Client.player);
+
+	function foodTipMessage(item) {
+		// Get colors
+		let { green, gray, aqua, gold, yellow, blue } = color;
+		// Get useful stats from food
+		let lastEaten = FoodList.getLastEaten(item.item),
+			div = FoodList.calculateDiversityContribution,
+			complexity = div(new $FoodInstance(item.item), 0).toFixed(1),
+			timePenalty = div(new $FoodInstance(Item.of("dirt").item), lastEaten).toFixed(2),
+			diversity = div(new $FoodInstance(item.item), lastEaten).toFixed(1),
+			simulAdd = FoodList.simulateFoodAdd(item.item).toFixed(1),
+			totalDiversity = FoodList.foodDiversity().toFixed(1);
+
+		// Colour simulated eating
+		if (simulAdd > 0) {
+			simulAdd = `${color.green}${simulAdd}${color.reset}`;
+		} else {
+			simulAdd = `${color.red}${simulAdd}${color.reset}`;
+		}
+		// Get average of current diversity
+		let allDivs = Array(0);
+		FoodList.getEatenFoods().forEach((f) => {
+			allDivs.push(div(f, 0));
+		});
+		if (allDivs.length === 0) {
+			let avgDiv = (allDivs.reduce((a, b) => a + b) / allDivs.length).toFixed(1);
+		} else {
+			let avgDiv = 0;
+		}
+
+		// format last eaten message
+		let hasEatenMessage;
+		let lastEatenMessage;
+		if (FoodList.hasEaten(item.item)) {
+			hasEatenMessage = yellow + "You have eaten this food recently.";
+			lastEatenMessage = `${gray}Last eaten: ${aqua}${lastEaten} meals ago`;
+		} else {
+			hasEatenMessage = green + "You have not eaten this food recently.";
+			lastEatenMessage = `${gray}Last eaten: ${aqua}over 20 meals ago`;
+		}
+		// get message
+		return [
+			hasEatenMessage,
+			`${gray}If eaten: Gives ${simulAdd}${gray} Diversity`,
+			"",
+			lastEatenMessage,
+			`${gray}Base diversity: ${aqua}${complexity}`,
+			`${gray}Time penalty: ${yellow}${timePenalty}x`,
+			`${gray}Result diversity: ${blue}${diversity}`,
+			"",
+			`${gray}Total current diversity: ${gold}${totalDiversity}`,
+			`${gray}Average diversity of current diet: ${aqua}${avgDiv}`,
+			`${gray}Eat foods higher than average to increase your diversity.`,
+		];
+	}
+
+	Ingredient.all.stacks.forEach((item) => {
+		if (item.hasTag("cw:foods")) {
+			e.addAdvanced(item.id, (item, advanced, text) => {
+				// get colors
+				let { dark_green, green, glitch } = color;
+				// get message
+				let message = foodTipMessage(item);
+				if (!e.shift) {
+					text.add(1, "");
+					text.add(2, [
+						dark_green + "-= 🍖 ",
+						green + "Food Info",
+						dark_green + " 🍖 =-",
+					]);
+					text.add(3, message[0]);
+					text.add(4, message[1]);
+					text.add(5, [dark_green + "-= 🍖 ", green + "[Shift]", dark_green + " 🍖 =-"]);
+					text.add(6, "");
+				} else {
+					text.add(1, "");
+					text.add(2, [
+						dark_green + "-= 🍖 ",
+						green + "Food Info",
+						dark_green + " 🍖 =-",
+					]);
+					let lineNo = 3;
+					message.forEach((line) => {
+						text.add(lineNo, [line]);
+						lineNo++;
+					});
+					text.add(lineNo, [
+						dark_green + "-= 🍖 ",
+						green + glitch + "Food Info",
+						dark_green + " 🍖 =-",
+					]);
+					text.add(lineNo + 1, "");
+				}
+			});
+		}
+
+		if (item.hasTag("cw:unobtainable")) {
+			e.addAdvanced(item, (item, advanced, text) => {
+				text[0] = Text.of(text[0]).bold().red();
+				text.add(1, color.dark_red + " ⊘ Unobtainable");
+			});
 		}
 	});
 
