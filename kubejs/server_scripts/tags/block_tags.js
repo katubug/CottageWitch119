@@ -54,6 +54,7 @@ ServerEvents.tags("block", (event) => {
 	//MARK: Stripped wood
 	let allStrippedStuff = [
 		/.*stripped_.*_wood$/,
+		/.*stripped_.*_archwood$/,
 		/.*stripped_.*_log$/,
 		/.*stripped_.*_hyphae$/,
 		/.*stripped_.*_stem$/,
@@ -62,6 +63,7 @@ ServerEvents.tags("block", (event) => {
 
 	let nonStrippedStuff = [
 		/.*_wood$/, //
+		/.*yellow_archwood$/,
 		/.*_log$/,
 		/.*_hyphae$/,
 		/.*_stem$/,
@@ -105,7 +107,16 @@ ServerEvents.tags("block", (event) => {
 		"byg:white_mushroom_stem",
 		"byg:brown_mushroom_stem",
 		"twilightforest:huge_mushgloom_stem",
-		"quark:glow_shroom_stem"
+		"quark:glow_shroom_stem",
+		"caupona:wolfberry_log",
+		"caupona:fig_log",
+		/.*_beam/,
+		/.*attached.*stem/,
+		/.*overweight.*stem/,
+		"twilightdelight:ironwood_log",
+		"twilightforest:cinder_log",
+		"twilightforest:cinder_wood",
+		"twilightforest:giant_log"
 	);
 
 	//MARK: No bark unstrip

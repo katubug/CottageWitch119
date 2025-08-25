@@ -56,40 +56,46 @@ ServerEvents.recipes((event) => {
 	);
 
 	// Waystones to Sharestones
-	event.shapeless(Item.of("waystones:sharestone"), ["#waystones:waystone"]);
+	event.shapeless(
+		Item.of("waystones:sharestone"), //
+		["#waystones:waystone"]
+	);
 	// Waystones from Sharestones
-	event.shapeless(Item.of("waystones:waystone"), ["#waystones:sharestone"]);
+	event.shapeless(
+		Item.of("waystones:waystone"), //
+		["#waystones:sharestone"]
+	);
 
 	// Quark Azalea Wood Conversion Recipes
 
 	// Quark Azalea Log
 	event.shapeless(Item.of("quark:azalea_log"), [
 		"minecraft:moss_block",
-		"#cw:azalea_logs",
+		"#forge:azalea_logs",
 	]);
 
 	// Quark Azalea Wood
 	event.shapeless(Item.of("quark:azalea_wood"), [
 		"minecraft:moss_block",
-		"#cw:azalea_wood",
+		"#forge:azalea_wood",
 	]);
 
 	// Quark Azalea Planks
 	event.shapeless(Item.of("quark:azalea_planks"), [
 		"minecraft:moss_block",
-		"#cw:azalea_planks",
+		"#forge:azalea_planks",
 	]);
 
 	// Quark Azalea Stripped Wood
 	event.shapeless(Item.of("quark:stripped_azalea_wood"), [
 		"minecraft:moss_block",
-		"cw:stripped_azalea_wood",
+		"forge:stripped_azalea_wood",
 	]);
 
 	// Quark Azalea Stripped Log
 	event.shapeless(Item.of("quark:stripped_azalea_log"), [
 		"minecraft:moss_block",
-		"cw:stripped_azalea_log",
+		"forge:stripped_azalea_log",
 	]);
 
 	// unglow a glowing flower crown
@@ -107,7 +113,7 @@ ServerEvents.recipes((event) => {
 	//Venison exchange
 	//Env to TF Raw
 	event.shapeless(Item.of("twilightforest:raw_venison"), [
-		"environmental:venison",
+		"environmental:venison", //
 	]);
 
 	//Env to TF Cooked
@@ -116,13 +122,17 @@ ServerEvents.recipes((event) => {
 	]);
 
 	// squid
-	event.shapeless(Item.of("miners_delight:squid"), ["culturaldelights:squid"]);
-	event.shapeless(Item.of("culturaldelights:squid"), ["miners_delight:squid"]);
+	event.shapeless(Item.of("miners_delight:squid"), [
+		"culturaldelights:squid", //
+	]);
+	event.shapeless(Item.of("culturaldelights:squid"), [
+		"miners_delight:squid", //
+	]);
 	event.shapeless(Item.of("miners_delight:glow_squid"), [
-		"culturaldelights:glow_squid",
+		"culturaldelights:glow_squid", //
 	]);
 	event.shapeless(Item.of("culturaldelights:glow_squid"), [
-		"miners_delight:glow_squid",
+		"miners_delight:glow_squid", //
 	]);
 	event.shapeless(Item.of("miners_delight:baked_squid"), [
 		"culturaldelights:cooked_squid",
@@ -197,24 +207,7 @@ ServerEvents.recipes((event) => {
 	event.shapeless(Item.of("kubejs:lunarcoin", 9), ["kubejs:solarcoin"]);
 
 	// Wool Dye Attempt
-	let woolColors = [
-		"red",
-		"yellow",
-		"black",
-		"white",
-		"orange",
-		"magenta",
-		"light_blue",
-		"lime",
-		"pink",
-		"gray",
-		"light_gray",
-		"cyan",
-		"purple",
-		"blue",
-		"brown",
-		"green",
-	];
+	let woolColors = global.dye_colors;
 
 	for (const dye of woolColors) {
 		event.remove({
@@ -225,7 +218,11 @@ ServerEvents.recipes((event) => {
 	for (const color of woolColors) {
 		event.shaped(
 			Item.of("minecraft:" + color + "_wool", 8),
-			["AAA", "ABA", "AAA"],
+			[
+				"AAA", //
+				"ABA",
+				"AAA",
+			],
 			{
 				A: "#minecraft:wool",
 				B: "minecraft:" + color + "_dye",

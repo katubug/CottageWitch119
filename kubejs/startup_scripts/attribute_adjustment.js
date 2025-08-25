@@ -1,6 +1,12 @@
 ItemEvents.modification((event) => {
 	//MARK:Weapon Balance
 
+	/**
+	 *
+	 * @param {string} itemName
+	 * @param {string} attributeToChange
+	 * @param {number} modifier
+	 */
 	function balanceWeapon(itemName, attributeToChange, modifier) {
 		event.modify(itemName, (item) => {
 			let boost = modifier;

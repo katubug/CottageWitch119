@@ -80,3 +80,34 @@ ServerEvents.tags("block", (event) => {
 		/refurb.*_toilet/
 	);
 });
+
+//MARK:  Banning Uncraftables
+ServerEvents.tags("item", (event) => {
+	event.add(
+		"twilightforest:banned_uncraftables",
+		"plushies:dragon",
+		"#forge:eyes",
+		"ends_delight:non_hatchable_dragon_egg",
+		"aquaculture:nether_star_hook",
+		"environmental:grass_thatch_vertical_slab",
+		"environmental:grass_thatch_slab",
+		"extradelight:oak_knife_block",
+		"extradelight:dark_oak_knife_block",
+		"extradelight:spruce_knife_block",
+		"extradelight:birch_knife_block",
+		"extradelight:jungle_knife_block",
+		"extradelight:acacia_knife_block",
+		"extradelight:crimson_knife_block",
+		"extradelight:warped_knife_block",
+		"extradelight:mangrove_knife_block",
+		"extradelight:cinnamon_knife_block",
+		"gateways:gate_pearl",
+		"alexsmobs:hemolymph_blaster"
+	);
+	event.add(
+		"twilightforest:banned_uncrafting_ingredients",
+		"#forge:eyes",
+		"minecraft:nether_star",
+		"minecraft:dragon_egg"
+	);
+});
