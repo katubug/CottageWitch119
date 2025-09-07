@@ -262,7 +262,6 @@
 262, none, byg:araucaria_savanna, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 263, none, byg:araucaria_savanna, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 264, none, byg:araucaria_savanna, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
-265, none, byg:araucaria_savanna, CREATURE, friendsandfoes:mauler, 30, 1, 1
 266, none, byg:araucaria_savanna, AMBIENT, minecraft:bat, 10, 8, 8
 267, none, byg:araucaria_savanna, CREATURE, minecraft:chicken, 10, 4, 4
 268, none, byg:araucaria_savanna, CREATURE, minecraft:cow, 10, 4, 4
@@ -432,7 +431,6 @@
 432, none, byg:baobab_savanna, CREATURE, ars_nouveau:whirlisprig, 10, 1, 2
 433, none, byg:baobab_savanna, MONSTER, ars_nouveau:wilden_hunter, 10, 1, 1
 434, none, byg:baobab_savanna, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
-435, none, byg:baobab_savanna, CREATURE, friendsandfoes:mauler, 30, 1, 1
 436, none, byg:baobab_savanna, AMBIENT, minecraft:bat, 10, 8, 8
 437, none, byg:baobab_savanna, CREATURE, minecraft:chicken, 10, 4, 4
 438, none, byg:baobab_savanna, CREATURE, minecraft:cow, 10, 4, 4
@@ -1450,7 +1448,6 @@
 1467, badlands, byg:red_rock_valley, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
 1468, badlands, byg:red_rock_valley, MONSTER, creeperoverhaul:badlands_creeper, 30, 2, 2
 1469, badlands, byg:red_rock_valley, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
-1470, badlands, byg:red_rock_valley, CREATURE, friendsandfoes:mauler, 16, 1, 1
 1471, badlands, byg:red_rock_valley, AMBIENT, minecraft:bat, 10, 8, 8
 1472, badlands, byg:red_rock_valley, MONSTER, minecraft:enderman, 5, 1, 4
 1473, badlands, byg:red_rock_valley, MONSTER, minecraft:husk, 30, 4, 4
@@ -1573,7 +1570,6 @@
 1591, badlands, byg:sierra_badlands, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
 1592, badlands, byg:sierra_badlands, MONSTER, creeperoverhaul:badlands_creeper, 30, 2, 2
 1593, badlands, byg:sierra_badlands, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
-1594, badlands, byg:sierra_badlands, CREATURE, friendsandfoes:mauler, 16, 1, 1
 1595, badlands, byg:sierra_badlands, AMBIENT, minecraft:bat, 10, 8, 8
 1596, badlands, byg:sierra_badlands, MONSTER, minecraft:enderman, 5, 1, 4
 1597, badlands, byg:sierra_badlands, MONSTER, minecraft:husk, 30, 4, 4
@@ -2034,7 +2030,6 @@
 2053, badlands, minecraft:badlands, CREATURE, cnb:lizard, 15, 1, 4
 2054, badlands, minecraft:badlands, MONSTER, creeperoverhaul:badlands_creeper, 30, 2, 2
 2055, badlands, minecraft:badlands, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
-2056, badlands, minecraft:badlands, CREATURE, friendsandfoes:mauler, 16, 1, 1
 2057, badlands, minecraft:badlands, AMBIENT, minecraft:bat, 10, 8, 8
 2058, badlands, minecraft:badlands, MONSTER, minecraft:enderman, 5, 1, 4
 2059, badlands, minecraft:badlands, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -2351,7 +2346,6 @@
 2371, desert, minecraft:desert, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
 2372, desert, minecraft:desert, MONSTER, creeperoverhaul:desert_creeper, 30, 2, 2
 2373, desert, minecraft:desert, CREATURE, ecologics:camel, 10, 1, 1
-2374, desert, minecraft:desert, CREATURE, friendsandfoes:mauler, 10, 1, 1
 2375, desert, minecraft:desert, AMBIENT, minecraft:bat, 10, 8, 8
 2376, desert, minecraft:desert, MONSTER, minecraft:enderman, 5, 1, 4
 2377, desert, minecraft:desert, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -2421,7 +2415,6 @@
 2442, badlands, minecraft:eroded_badlands, CREATURE, cnb:lizard, 15, 1, 4
 2443, badlands, minecraft:eroded_badlands, MONSTER, creeperoverhaul:badlands_creeper, 30, 2, 2
 2444, badlands, minecraft:eroded_badlands, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
-2445, badlands, minecraft:eroded_badlands, CREATURE, friendsandfoes:mauler, 16, 1, 1
 2446, badlands, minecraft:eroded_badlands, AMBIENT, minecraft:bat, 10, 8, 8
 2447, badlands, minecraft:eroded_badlands, MONSTER, minecraft:enderman, 5, 1, 4
 2448, badlands, minecraft:eroded_badlands, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -3057,7 +3050,6 @@
 3080, savanna, minecraft:savanna, MONSTER, ars_nouveau:wilden_stalker, 10, 3, 3
 3081, savanna, minecraft:savanna, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
 3082, savanna, minecraft:savanna, MONSTER, creeperoverhaul:savannah_creeper, 30, 2, 2
-3083, savanna, minecraft:savanna, CREATURE, friendsandfoes:mauler, 30, 1, 1
 3084, savanna, minecraft:savanna, AMBIENT, minecraft:bat, 10, 8, 8
 3085, savanna, minecraft:savanna, CREATURE, minecraft:chicken, 10, 4, 4
 3086, savanna, minecraft:savanna, CREATURE, minecraft:cow, 10, 4, 4
@@ -3092,7 +3084,6 @@
 3115, savanna, minecraft:savanna_plateau, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
 3116, savanna, minecraft:savanna_plateau, MONSTER, creeperoverhaul:savannah_creeper, 30, 2, 2
 3117, savanna, minecraft:savanna_plateau, CREATURE, environmental:tapir, 15, 1, 2
-3118, savanna, minecraft:savanna_plateau, CREATURE, friendsandfoes:mauler, 30, 1, 1
 3119, savanna, minecraft:savanna_plateau, AMBIENT, minecraft:bat, 10, 8, 8
 3120, savanna, minecraft:savanna_plateau, CREATURE, minecraft:chicken, 10, 4, 4
 3121, savanna, minecraft:savanna_plateau, CREATURE, minecraft:cow, 10, 4, 4
@@ -3592,7 +3583,6 @@
 3616, savanna, minecraft:windswept_savanna, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
 3617, savanna, minecraft:windswept_savanna, MONSTER, creeperoverhaul:savannah_creeper, 30, 2, 2
 3618, savanna, minecraft:windswept_savanna, CREATURE, environmental:yak, 15, 2, 4
-3619, savanna, minecraft:windswept_savanna, CREATURE, friendsandfoes:mauler, 30, 1, 1
 3620, savanna, minecraft:windswept_savanna, AMBIENT, minecraft:bat, 10, 8, 8
 3621, savanna, minecraft:windswept_savanna, CREATURE, minecraft:chicken, 10, 4, 4
 3622, savanna, minecraft:windswept_savanna, CREATURE, minecraft:cow, 10, 4, 4
@@ -3625,7 +3615,6 @@
 3650, badlands, minecraft:wooded_badlands, CREATURE, cnb:lizard, 15, 1, 4
 3651, badlands, minecraft:wooded_badlands, MONSTER, creeperoverhaul:badlands_creeper, 30, 2, 2
 3652, badlands, minecraft:wooded_badlands, MONSTER, creeperoverhaul:cave_creeper, 30, 2, 2
-3653, badlands, minecraft:wooded_badlands, CREATURE, friendsandfoes:mauler, 16, 1, 1
 3654, badlands, minecraft:wooded_badlands, AMBIENT, minecraft:bat, 10, 8, 8
 3655, badlands, minecraft:wooded_badlands, MONSTER, minecraft:enderman, 5, 1, 4
 3656, badlands, minecraft:wooded_badlands, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -3867,11 +3856,6 @@
 814, none, byg:cypress_swamplands, WATER_AMBIENT, alexsmobs:terrapin, 7, 2, 1
 2017, swamp, hexerei:willow_swamp, WATER_AMBIENT, alexsmobs:terrapin, 7, 2, 1
 2822, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, alexsmobs:terrapin, 7, 2, 1
-3442, swamp, minecraft:swamp, WATER_AMBIENT, alexsmobs:terrapin, 7, 2, 1
-369, forest, byg:autumnal_forest, AMBIENT, byg:pumpkin_warden, 10, 1, 1
-371, taiga, byg:autumnal_taiga, AMBIENT, byg:pumpkin_warden, 10, 1, 1
-408, none, byg:autumnal_valley, AMBIENT,byg:pumpkin_warden,  10, 1, 1
-674, forest, byg:cika_woods,AMBIENT,byg:pumpkin_warden,  10, 1, 1
 1240, ocean, byg:lush_stacks, AMBIENT, byg:man_o_war,  10, 1, 1
 4324, jungle, byg:guiana_shield, CREATURE, kakapos:kakapo, 30, 1, 1
 371, taiga, byg:autumnal_taiga, CREATURE, environmental:reindeer, 15, 1, 2
