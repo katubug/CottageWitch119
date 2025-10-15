@@ -143,30 +143,10 @@ ServerEvents.recipes((event) => {
 
 	// Coin Conversion recipes
 	// Lunar to Solar
-	event.shapeless(Item.of("kubejs:solar_coin"), [
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-		"kubejs:lunar_coin",
-	]);
+	event.shapeless(Item.of("kubejs:solar_coin"), ["9x kubejs:lunar_coin"]);
 
 	// Solar to Arcane
-	event.shapeless(Item.of("kubejs:arcane_coin"), [
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-		"kubejs:solar_coin",
-	]);
+	event.shapeless(Item.of("kubejs:arcane_coin"), ["9x kubejs:solar_coin"]);
 
 	// Arcane to Solar
 	event.shapeless(Item.of("kubejs:solar_coin", 9), ["kubejs:arcane_coin"]);
@@ -175,30 +155,10 @@ ServerEvents.recipes((event) => {
 	event.shapeless(Item.of("kubejs:lunar_coin", 9), ["kubejs:solar_coin"]);
 	/// Hexhaven Specific Coins
 	// Lunar to Solar
-	event.shapeless(Item.of("kubejs:solarcoin"), [
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-		"kubejs:lunarcoin",
-	]);
+	event.shapeless(Item.of("kubejs:solarcoin"), ["9x kubejs:lunarcoin"]);
 
 	// Solar to Arcane
-	event.shapeless(Item.of("kubejs:arcanecoin"), [
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-		"kubejs:solarcoin",
-	]);
+	event.shapeless(Item.of("kubejs:arcanecoin"), ["9x kubejs:solarcoin"]);
 
 	// Arcane to Solar
 	event.shapeless(Item.of("kubejs:solarcoin", 9), ["kubejs:arcanecoin"]);
