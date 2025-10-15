@@ -1,3 +1,7 @@
+//packmode: dev
+
+//WIP - attempting to fix the ladybug dying/colourations
+
 EntityEvents.checkSpawn("mythicmounts:colelytra", (e) => {
 	let rand = Math.ceil(Math.random() * 4);
 	e.target.nbt.Variant = `colelytra_mount${rand}.png`;
