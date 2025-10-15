@@ -1,15 +1,72 @@
 ServerEvents.recipes((event) => {
 	//Akashic Tome
-	event.shapeless(
-		Item.of(
-			"akashictome:tome",
-			'{"akashictome:data":{alexsmobs:{Count:1b,id:"alexsmobs:animal_dictionary"},ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},babyfat:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"babyfat:the_book_of_baby_fat"}},byg:{Count:1b,id:"byg:biomepedia"},caupona:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"caupona:book"}},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},deeperdarker:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"deeperdarker:wanderers_notebook"}},ftbquests:{Count:1b,id:"ftbquests:book"},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},mythicmounts:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"mythicmounts:mythical_mounts"}},sculktransporting:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"sculktransporting:guide"}},solsweetpotato:{Count:1b,id:"solsweetpotato:food_book"}}}'
-		),
-		[
-			"minecraft:book", //
-			"minecraft:stick",
-		]
-	);
+
+	let akashictomedata = {
+		"akashictome:data": {
+			alexsmobs: {
+				Count: 1,
+				id: "alexsmobs:animal_dictionary",
+			},
+			ars_nouveau: {
+				Count: 1,
+				id: "ars_nouveau:worn_notebook",
+			},
+			babyfat: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: { "patchouli:book": "babyfat:the_book_of_baby_fat" },
+			},
+			byg: {
+				Count: 1, //
+				id: "byg:biomepedia",
+			},
+			caupona: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: { "patchouli:book": "caupona:book" },
+			},
+			create_central_kitchen: {
+				Count: 1,
+				ForgeCaps: { Parent: {} },
+				id: "create_central_kitchen:cooking_guide",
+			},
+			deeperdarker: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: {
+					"patchouli:book": "deeperdarker:wanderers_notebook",
+				},
+			},
+			ftbquests: {
+				Count: 1, //
+				id: "ftbquests:book",
+			},
+			lexicon: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: { "patchouli:book": "lexicon:lexicon" },
+			},
+			mythicmounts: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: { "patchouli:book": "mythicmounts:mythical_mounts" },
+			},
+			sculktransporting: {
+				Count: 1,
+				id: "patchouli:guide_book",
+				tag: { "patchouli:book": "sculktransporting:guide" },
+			},
+			solsweetpotato: {
+				Count: 1, //
+				id: "solsweetpotato:food_book",
+			},
+		},
+	};
+
+	event.shapeless(Item.of("akashictome:tome", akashictomedata), [
+		"minecraft:book", //
+		"minecraft:stick",
+	]);
 
 	//Time In A bottle
 	event.shaped(

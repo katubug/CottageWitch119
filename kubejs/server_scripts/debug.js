@@ -1,3 +1,5 @@
+//packmode: dev
+
 ServerEvents.commandRegistry((event) => {
 	let { commands: Commands, arguments: Arguments } = event;
 

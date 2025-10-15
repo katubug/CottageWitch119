@@ -1430,27 +1430,6 @@ ItemEvents.tooltip((e) => {
 		"Lily pads!"
 	);
 
-	//MARK: Hanging Plants
-	e.add(
-		[
-			"colorfulazaleas:purple_drooping_azalea_leaves",
-			"colorfulazaleas:white_drooping_azalea_leaves",
-			"environmental:pink_hanging_wisteria_leaves",
-			"environmental:blue_hanging_wisteria_leaves",
-			"environmental:purple_hanging_wisteria_leaves",
-			"environmental:white_hanging_wisteria_leaves",
-			"environmental:hanging_willow_leaves",
-			"hexerei:willow_vines",
-			"swampier_swamps:swamp_vine",
-			"colorfulazaleas:pink_drooping_azalea_leaves",
-			"colorfulazaleas:blue_drooping_azalea_leaves",
-			"colorfulazaleas:red_drooping_azalea_leaves",
-			"colorfulazaleas:yellow_drooping_azalea_leaves",
-			"colorfulazaleas:orange_drooping_azalea_leaves",
-			"colorfulazaleas:drooping_azalea_leaves",
-		],
-		"Hanging Plants!"
-	);
 
 	//MARK: Plant Carpets
 	e.add(

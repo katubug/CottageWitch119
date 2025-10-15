@@ -1,6 +1,6 @@
-BlockEvents.rightClicked("block.right_click", (event) => {
+BlockEvents.rightClicked((event) => {
 	//main hand only
-	const { block, hand, item, world, player } = event;
+	const { block, hand, item } = event;
 	if (hand != "MAIN_HAND") return;
 	if (
 		item.id == "minecraft:bone_meal" &&

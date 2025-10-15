@@ -3,7 +3,7 @@ ServerEvents.commandRegistry((event) => {
 
 	event.register(
 		Commands.literal("applecrate_search")
-			.requires((s) => s.hasPermission(2))
+			.requires((s) => s.hasPermission(0))
 			.then(
 				Commands.argument("range", Arguments.INTEGER.create(event)).executes((c) => {
 					const range = Arguments.INTEGER.getResult(c, "range");

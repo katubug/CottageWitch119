@@ -1,5 +1,7 @@
 //priority: 100
 
+//TODO: Move server and client into global and add clientside checks
+
 /**
  * Client version of the function, does nothing!
  */
