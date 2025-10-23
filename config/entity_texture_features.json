@@ -29,8 +29,20 @@
   "propertiesDisabled": [],
   "propertyInvertUpdatingOverrides": [],
   "entityRandomOverrides": {
-    "entity.mythicmounts.firebird": false
-  },
+    "entity.mythicmounts.nightmare": false,
+    "entity.mythicmounts.archelon": false,
+    "entity.mythicmounts.direwolf": false,
+    "entity.mythicmounts.nudibranch": false,
+    "entity.mythicmounts.courierbird": false,
+    "entity.mythicmounts.colelytra": true,
+    "entity.mythicmounts.acencia": false,
+    "entity.mythicmounts.griffon": false,
+    "entity.mythicmounts.firebird": false,
+    "entity.mythicmounts.moth": false,
+    "entity.mythicmounts.ridinglizard": false,
+    "entity.mythicmounts.netherbat": false,
+    "entity.mythicmounts.geckotoalizard": false,
+    "entity.mythicmounts.dragon": false  },
   "entityEmissiveBrightOverrides": {},
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}
