@@ -68,3 +68,44 @@ ServerEvents.recipes((event) => {
 		);
 	}
 });
+
+ServerEvents.recipes((event) => {
+	// Whipped Cream mixing recipe
+	event.custom({
+		"type": "create:mixing",
+		"ingredients": [
+			{
+				"amount": 1000,
+				"fluid": "minecraft:milk",
+				"nbt": {}
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"results": [
+			{
+				"item": "4x extradelight:whipped_cream"
+			}
+		]
+	}),
+
+	event.custom({
+		"type": "create:mixing",
+		"ingredients": [
+			{
+				"amount": 250,
+				"fluid": "minecraft:milk",
+				"nbt": {}
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"results": [
+			{
+				"item": "extradelight:whipped_cream"
+			}
+		]
+	})
+});
