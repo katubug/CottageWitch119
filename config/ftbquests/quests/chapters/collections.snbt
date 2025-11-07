@@ -1663,11 +1663,6 @@
 					type: "item"
 				}
 				{
-					id: "352C8EF06D157DAC"
-					item: "simplehats:penguinhat"
-					type: "item"
-				}
-				{
 					id: "13B82B765D5BA80D"
 					item: "simplehats:questbook"
 					type: "item"
