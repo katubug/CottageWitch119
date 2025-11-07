@@ -2136,6 +2136,30 @@
 			x: 1.5d
 			y: 8.0d
 		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"The &bMarket&r block offers most &aseeds, saplings, and flowers for trade!&r"
+				""
+				"Great for getting plants &6&owithout&r &6the need to travel all the way to the biome&r it spawns in."
+			]
+			id: "3AA2F224DDE941A0"
+			rewards: [{
+				count: 4
+				id: "7D4CC636B038949E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "market has wares if you have emerald"
+			tasks: [{
+				id: "220E529045958FEF"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
 	]
 	title: "Miscellaneous"
 }
