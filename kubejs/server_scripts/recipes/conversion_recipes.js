@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
 	// Quark Azalea Log
 	event.shapeless(Item.of("quark:azalea_log"), [
 		"minecraft:moss_block",
-		"#forge:azalea_logs",
+		"#forge:azalea_log",
 	]);
 
 	// Quark Azalea Wood

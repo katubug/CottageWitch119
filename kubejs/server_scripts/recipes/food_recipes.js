@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
 	event.shapeless(Item.of("minecraft:mushroom_stew"), [
 		"#forge:mushrooms",
 		"#forge:mushrooms",
-		"#cw:bowls",
+		"#forge:bowls",
 	]);
 
 	// Nourishing Egg Recipe

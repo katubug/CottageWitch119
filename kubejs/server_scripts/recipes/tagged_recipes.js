@@ -75,11 +75,4 @@ ServerEvents.recipes((event) => {
 		"extradelight:cheese"
 	);
 
-	event.replaceInput(
-		{
-			input: "minecraft:bowl",
-		},
-		"minecraft:bowl",
-		"#cw:bowls"
-	);
 });

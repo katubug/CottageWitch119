@@ -835,6 +835,17 @@ ServerEvents.tags("item", (event) => {
 	//MARK:| String
 	event.add("forge:string", "crittersandcompanions:silk");
 
+	//MARK:| Glowstick Ingredients
+	event.add(
+		"forge:glowstickingredients",
+		"minecraft:glow_berries",
+		"minecraft:glow_ink_sac",
+		"spelunkery:phosphor_fungus",
+		"spelunkery:mushgloom",
+		"extendedmushrooms:glowshroom",
+		"twilightforest:torchberries"
+	)
+
 	// #endregion
 
 	//////////////////////////////////////////////////
