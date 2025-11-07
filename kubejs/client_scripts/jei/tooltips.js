@@ -1832,6 +1832,11 @@ ItemEvents.tooltip((e) => {
 		color.light_purple + "Find them in End City loot!",
 	]);
 
+	addCaution("sophisticatedbackpacks:anvil_upgrade", [
+		"This anvil can show the 'Too Expensive!' message.",
+		"Use a vanilla anvil to upgrade tools that reach this point."
+	]);
+
 	//MARK: -Warnings
 
 	/**
@@ -1880,5 +1885,5 @@ ItemEvents.tooltip((e) => {
 		"Certain keg recipes are now made in a cooking pot.",
 	]);
 
-	addWarning("@refinedstorage", ["This mod is set to be removed the 1.18.0 update."]);
+	addWarning("@refinedstorage", ["This mod is set to be removed in the 1.18.0 update."]);
 });
