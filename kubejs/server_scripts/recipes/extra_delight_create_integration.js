@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
 				"item": "4x extradelight:whipped_cream"
 			}
 		]
-	}),
+	}).id('kjs_bucket_whipped_cream'),
 
 	event.custom({
 		"type": "create:mixing",
@@ -107,5 +107,5 @@ ServerEvents.recipes((event) => {
 				"item": "extradelight:whipped_cream"
 			}
 		]
-	})
+	}).id('kjs_bottle_whipped_cream')
 });
