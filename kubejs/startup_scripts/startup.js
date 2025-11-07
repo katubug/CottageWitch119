@@ -7,8 +7,6 @@ console.info(
 
 // Renamed kjs to Cottage Witch
 Platform.mods.kubejs.name = "Cottage Witch";
-Platform.mods.ae2.name = "Arcane Enigmatics 2";
-Platform.mods.minecraft.name = "Minceraft";
 
 /**
  *
