@@ -576,4 +576,12 @@ ServerEvents.recipes(event => {
 		['2x minecraft:dead_bush']
 	)
 
+
+	// fix luphie and cluttered recipes to accept #forge:chests/wooden
+	const counters = ['handcrafted:acacia_counter', 'handcrafted:birch_counter', 'handcrafted:dark_oak_counter', 'handcrafted:jungle_counter', 'handcrafted:mangrove_counter', 'handcrafted:oak_counter', 'handcrafted:spruce_counter', 'handcrafted:crimson_counter', 'handcrafted:warped_counter', 'luphieclutteredmod:luphie_cat_counter_a', 'luphieclutteredmod:luphie_cat_kitchen_counter_b', 'luphieclutteredmod:luphie_sweetheart_counter_a', 'luphieclutteredmod:luphie_sweetheart_counter_b', 'luphieclutteredmod:luphie_white_counter', 'luphieclutteredmod:luphie_pink_counter', 'luphieclutteredmod:luphie_yellow_counter', 'luphieclutteredmod:luphie_light_green_counter', 'luphieclutteredmod:luphie_black_counter']
+	for (const counter of counters) {
+		event.replaceInput({output: counter}, 'minecraft:chest', '#forge:chests/wooden')
+	}
+
+
 })
