@@ -2136,6 +2136,29 @@
 			x: 1.5d
 			y: 8.0d
 		}
+		{
+			description: [
+				"The &bMarket&r block allows players to &atrade for hard-to-find saplings, seeds, and flowers&r that might be endemic to far away biomes. For just a little bit of currency, you can get &aaccess to just about every plant in the game&r!"
+				""
+				"Just be sure that you don't place it up against a wall. Trust me on this."
+			]
+			id: "3AA2F224DDE941A0"
+			rewards: [{
+				count: 16
+				id: "7D4CC636B038949E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "market has wares if you have emerald"
+			tasks: [{
+				id: "220E529045958FEF"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
 	]
 	title: "Miscellaneous"
 }

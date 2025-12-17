@@ -6079,7 +6079,11 @@
 		}
 		{
 			dependencies: ["52BC8196E858B238"]
-			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
+			description: [
+				"The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."
+				""
+				"You can learn that the &bDeed of Ownership&r is only obtainable by &atrading with an animal tamer villager&r by &6left clicking&r on the &bDeed of Ownership&r in &lJEI&r"
+			]
 			id: "1C37EDEA99A890EF"
 			rewards: [
 				{
