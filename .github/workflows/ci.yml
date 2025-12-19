@@ -19,4 +19,4 @@ jobs:
         uses: creyD/prettier_action@v4.6
         with:
           # This part is also where you can pass other options, for example:
-          prettier_options: --write kubejs/**/*.js --print-width 90 --use-tabs --trailing-comma "es5"
+          prettier_options: --write kubejs/**/*.js --print-width 90 --use-tabs --trailing-comma es5
