@@ -1430,7 +1430,6 @@ ItemEvents.tooltip((e) => {
 		"Lily pads!"
 	);
 
-
 	//MARK: Plant Carpets
 	e.add(
 		[
@@ -1834,7 +1833,7 @@ ItemEvents.tooltip((e) => {
 
 	addCaution("sophisticatedbackpacks:anvil_upgrade", [
 		"This anvil can show the 'Too Expensive!' message.",
-		"Use a vanilla anvil to upgrade tools that reach this point."
+		"Use a vanilla anvil to upgrade tools that reach this point.",
 	]);
 
 	//MARK: -Warnings

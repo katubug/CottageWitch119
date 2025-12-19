@@ -844,7 +844,7 @@ ServerEvents.tags("item", (event) => {
 		"spelunkery:mushgloom",
 		"extendedmushrooms:glowshroom",
 		"twilightforest:torchberries"
-	)
+	);
 
 	// #endregion
 

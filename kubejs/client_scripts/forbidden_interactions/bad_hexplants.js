@@ -43,7 +43,10 @@ BlockEvents.rightClicked((event) => {
 		console.log(
 			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
 		);
-		_WarnPlayer(event, "Hexerei plants can cause crashes when near an overgrowth ritual.");
+		_WarnPlayer(
+			event,
+			"Hexerei plants can cause crashes when near an overgrowth ritual."
+		);
 		spawnPoof(event, pos, 1.5, 2);
 
 		event.cancel();
@@ -117,7 +120,10 @@ BlockEvents.placed((event) => {
 		console.log(
 			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
 		);
-		_WarnPlayer(event, "Hexerei plants can cause crashes when near an overgrowth ritual.");
+		_WarnPlayer(
+			event,
+			"Hexerei plants can cause crashes when near an overgrowth ritual."
+		);
 		spawnPoof(event, pos, 1.5, 2);
 
 		event.cancel();

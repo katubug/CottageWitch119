@@ -74,5 +74,4 @@ ServerEvents.recipes((event) => {
 		"#forge:cheese",
 		"extradelight:cheese"
 	);
-
 });
