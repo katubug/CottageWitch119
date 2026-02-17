@@ -1565,9 +1565,9 @@ ItemEvents.tooltip((e) => {
 	for (let tool in reapingTools) {
 		let failureChance = reapingTools[tool];
 		addInfo(tool, [
-			"Mobs slain with this weapon have a chance to drop a custom player head or spawn egg!",
+			`${color.bold}Right Click${color.reset}: Reaps the mob of their materials, has a ${color.aqua}${failureChance}%${color.reset} chance of killing them`,
 			" ",
-			`Base chance of failure:${color.aqua} ${failureChance}%`,
+			`${color.bold}Left Click${color.reset}: Mobs slain with this weapon have a ${color.aqua}1%${color.reset} chance to drop a custom player head or spawn egg!`,
 		]);
 	}
 	const EGGS = global.allowed_eggs;
