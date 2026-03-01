@@ -942,17 +942,11 @@ ServerEvents.tags("item", (event) => {
 		"aquaculture:heavy_hook",
 		"aquaculture:light_hook"
 	);
-	
-	//MARK:| Cognition Shears
-	event.add(
-		"forge:shears",
-		"experienceobelisk:cognitive_shears"
-	)
 
-	event.add(
-		"byg:shears",
-		"experienceobelisk:cognitive_shears"
-	)
+	//MARK:| Cognition Shears
+	event.add("forge:shears", "experienceobelisk:cognitive_shears");
+
+	event.add("byg:shears", "experienceobelisk:cognitive_shears");
 
 	//MARK:| Slice And Dice Tools
 	event.add(
