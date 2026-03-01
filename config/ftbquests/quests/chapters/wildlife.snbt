@@ -8612,7 +8612,20 @@
 			y: 6.0d
 		}
 		{
-			description: ["This elusive big cat can be found in &cGroves&r and &cSnowy Taigas&r. &6Tame this mount&r with &bmutton&r or &bsalmon&r for a lifelong friend!"]
+			description: [
+				"This elusive big cat can be found in &cGroves&r and &cSnowy Taigas&r. &6Tame this mount&r with &bmutton&r or &bsalmon&r for a lifelong friend!"
+				"{@pagebreak}"
+				"List of All Biomes: "
+				"- &cSnowy Plains&r, "
+				"- &cGrove&r, "
+				"- &cBorealis Grove&r, "
+				"- &cCanadian Shield&r, "
+				"- &cConiferous Forest&r, "
+				"- &cTemperate Grove&r, "
+				"- &cMaple Taiga&r, "
+				"- &cAutumnal Taiga&r, "
+				"- &cFrosted Taiga&r"
+			]
 			id: "30C49F5FE020A827"
 			rewards: [
 				{
@@ -9210,7 +9223,16 @@
 			y: 7.5d
 		}
 		{
-			description: ["Found only in &cmushroom fields&r, they can &6be tamed&r with &bsugar&r, &bmushrooms&r, and all Vanilla &bflowers&r."]
+			description: [
+				"Found only in &cmushroom fields&r, they can &6be tamed&r with &bsugar&r, &bmushrooms&r, and all Vanilla &bflowers&r."
+				"{@pagebreak}"
+				"List of All Biomes: "
+				"- &cFlower Forest&r, "
+				"- &cMushroom Fields&r, "
+				"- &cRose Fields&r, "
+				"- &cBlossom Valleys&r, "
+				"- &cMushroom Forest&r (in Twilight Forest)"
+			]
 			id: "21528845876CE157"
 			rewards: [
 				{
@@ -9509,7 +9531,15 @@
 			y: 7.5d
 		}
 		{
-			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r to win them over."]
+			description: [
+				"This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r to win them over."
+				"{@pagebreak}"
+				"List of All Biomes: "
+				"- &cJungle&r, "
+				"- &cSparse Jungle&r, "
+				"- &cTropical Rainforest&r, "
+				"- &cTemperate Rainforest&r"
+			]
 			icon: "mythicmounts:courierbird_spawn_egg"
 			id: "65AA3625C4BFB209"
 			rewards: [
@@ -9808,7 +9838,19 @@
 			y: 6.5d
 		}
 		{
-			description: ["They aren't man's best friend... yet. &6Try offering one&r a &bbone&r. Find them in any type of &ctaiga biome&r."]
+			description: [
+				"They aren't man's best friend... yet. &6Try offering one&r a &bbone&r. Find them in any type of &ctaiga biome&r."
+				"{@pagebreak}"
+				"List of All Biomes: "
+				"- &cOld Growth Birch Forest&r, "
+				"- &cOld Growth Pine Taiga&r, "
+				"- &cOld Growth Spruce Taiga&r, "
+				"- &cBlack Forest&r, "
+				"- &cCanadian Shield&r, "
+				"- &cMaple Taiga&r, "
+				"- &cFrosted Coniferous Forest&r, "
+				"- &cDark Forest&r (in Twilight Forest)"
+			]
 			id: "768B4047531DA253"
 			rewards: [
 				{
@@ -10107,7 +10149,19 @@
 			y: 7.5d
 		}
 		{
-			description: ["Though rare, these beasts can sometimes be found in &cdeep caves&r. To befriend them, &6offer up your valuables&r... &bgold&r, &bdiamond&r, or &bemerald&r will do. But be careful... they can be quite &ddangerous&r."]
+			description: [
+				"Though rare, these beasts can sometimes be found in &cdeep caves&r. To befriend them, &6offer up your valuables&r... &bgold&r, &bdiamond&r, or &bemerald&r will do. But be careful... they can be quite &ddangerous&r."
+				"{@pagebreak}"
+				"List of All Biomes: "
+				"- &cDripstone Caves&r, "
+				"- &cLush Caves&r, "
+				"- &cGlimmering Weald&r, "
+				"- &cSnowy Pine Barrens&r, "
+				"- &cSnowy Old Growth Pine Barrens&r, "
+				"- &cPine Slopes&r, "
+				"- &cFire Swamp&r (in Twilight Forest), "
+				"- &cUnderground&r (in Twilight Forest) "
+			]
 			id: "14615CB8F1735FA2"
 			rewards: [
 				{
@@ -10425,7 +10479,25 @@
 			y: 2.0d
 		}
 		{
-			description: ["These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."]
+			description: [
+				"These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- &cWindswept Hills&r,"
+				"- &cBadlands&r,"
+				"- &cEroded Badlands&r,"
+				"- &cStony Peaks&r,"
+				"- &cCrag Gardens&r,"
+				"- &cGuiana Shield&r,"
+				"- &cMojave Desert&r,"
+				"- &cRed Rock Valley&r,"
+				"- &cSierra Badlands&r,"
+				"- &cPine Barrens&r,"
+				"- &cSnowy Pine Barrens&r,"
+				"- &cOld Growth Pine Barrens&r,"
+				"- &cOld Growth Snowy Pine Barrens&r,"
+				"- &cPine Slopes&r"
+			]
 			id: "1782885E17C84F8F"
 			rewards: [
 				{
@@ -10723,7 +10795,20 @@
 			y: 5.0d
 		}
 		{
-			description: ["Fragile, beautiful, and capable of carrying a rider in flight. These moths haunt the &cdark forest&r regions. &6Give them&r &bsugar&r or Vanilla &bflowers&r to earn their trust."]
+			description: [
+				"Fragile, beautiful, and capable of carrying a rider in flight. These moths haunt the &cdark forest&r regions. &6Give them&r &bsugar&r or Vanilla &bflowers&r to earn their trust."
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- &cDark Forest&r,"
+				"- &cCrag Gardens&r,"
+				"- &cArchwood Forest&r,"
+				"- &cFlashing Forest&r,"
+				"- &cBlazing Forest&r,"
+				"- &cCascading Forest&r,"
+				"- &cFlourishing Forest&r,"
+				"- &cSpooky Forest&r (in Twilight Forest),"
+				"- &cDark Forest&r (in Twilight Forest)"
+			]
 			id: "493D39C87927E8B8"
 			rewards: [
 				{
@@ -11021,7 +11106,18 @@
 			y: 4.0d
 		}
 		{
-			description: ["These uncommon bird... mammal... things... are sometimes seen flying over &cmountaintops&r, feeding on &brabbit&r and &bmutton&r. They are a loyal partner when &6tamed&r, and will &adefend their owner&r. "]
+			description: [
+				"These uncommon bird... mammal... things... are sometimes seen flying over &cmountaintops&r, feeding on &brabbit&r and &bmutton&r. They are a loyal partner when &6tamed&r, and will &adefend their owner&r. "
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- &cWindswept Hills&r,"
+				"- &cWindswept Forest&r,"
+				"- &cSnowy Slopes&r,"
+				"- &cFrozen Peaks&r,"
+				"- &cJagged Peaks&r,"
+				"- &cCanadian Shield&r,"
+				"- &cHowling Peaks&r"
+			]
 			id: "50AA90B7E60328CC"
 			rewards: [
 				{
@@ -11319,7 +11415,15 @@
 			y: 6.5d
 		}
 		{
-			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, but to tame them you'll need &braw porkchops&r! &amake sure you come bearing treats&r, as they are &dhostile to players&r!"]
+			description: [
+				"Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, but to tame them you'll need &braw porkchops&r! &amake sure you come bearing treats&r, as they are &dhostile to players&r!"
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- (Nether) &cWarped Forest&r,"
+				"- (Nether) &cCrimson Forest&r,"
+				"- (Nether) &cBrimstone Caverns&r,"
+				"- (Nether) &cWailing Garth&r"
+			]
 			id: "04BBB86977655EB7"
 			rewards: [
 				{
@@ -11617,7 +11721,14 @@
 			y: 3.5d
 		}
 		{
-			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. &6Befriend one&r with &bbones&r, &bcoal&r, or &bcharcoal&r."]
+			description: [
+				"For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. &6Befriend one&r with &bbones&r, &bcoal&r, or &bcharcoal&r."
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- (Nether) &cNether Wastes&r,"
+				"- (Nether) &cSoul Sand Valley&r,"
+				"- (Nether) &cBasalt Deltas&r"
+			]
 			id: "19B9CB7C3611E68B"
 			rewards: [
 				{
@@ -12213,7 +12324,20 @@
 			y: 3.0d
 		}
 		{
-			description: ["This reptilian mount hunts &erabbits&r and &echickens&r in their native enviroment of the &cdesert&r and &cbadlands&r. Though &dhostile to players&r, &6offering some of their&r &bfavourite meat&r will make them a loyal friend."]
+			description: [
+				"This reptilian mount hunts &erabbits&r and &echickens&r in their native enviroment of the &cdesert&r and &cbadlands&r. Though &dhostile to players&r, &6offering some of their&r &bfavourite meat&r will make them a loyal friend."
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- &cDesert&r,"
+				"- &cBadlands&r,"
+				"- &cEroded Badlands&r,"
+				"- &cWooded Badlands&r,"
+				"- &cAtacama Desert&r,"
+				"- &cWindswept Desert&r,"
+				"- &cMojave Desert&r,"
+				"- &cRed Rock Valley&r,"
+				"- &cSierra Badlands&r"
+			]
 			id: "4AECEC9D64050806"
 			rewards: [
 				{
@@ -12511,7 +12635,17 @@
 			y: 4.0d
 		}
 		{
-			description: ["An incredibly rare sight, the &eŻar-ptak&r can sometimes be seen flying near &cinhabited villages&r. They are said to have expensive tastes. &6Try offering them&r &bgolden apples&r for friendship."]
+			description: [
+				"An incredibly rare sight, the &eŻar-ptak&r can sometimes be seen flying near &cinhabited villages&r. They are said to have expensive tastes. &6Try offering them&r &bgolden apples&r for friendship."
+				"{@pagebreak}"
+				"List of All Biomes:"
+				"- &cArchwood Forest&r,"
+				"- &cPine Barrens&r,"
+				"- &cSnowy Pine Barrens&r,"
+				"- &cOld Growth Pine Barrens&r,"
+				"- &cOld Growth Snowy Pine Barrens&r,"
+				"- &cPine Slopes&r"
+			]
 			id: "594C827670019E11"
 			rewards: [
 				{

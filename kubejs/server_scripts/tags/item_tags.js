@@ -859,7 +859,8 @@ ServerEvents.tags("item", (event) => {
 		"forge:brooms",
 		"hexerei:mahogany_broom",
 		"hexerei:witch_hazel_broom",
-		"hexerei:willow_broom"
+		"hexerei:willow_broom",
+		"ars_scalaes:archwood_broom"
 	);
 
 	//MARK:| Ancient Tomes
@@ -941,6 +942,17 @@ ServerEvents.tags("item", (event) => {
 		"aquaculture:heavy_hook",
 		"aquaculture:light_hook"
 	);
+	
+	//MARK:| Cognition Shears
+	event.add(
+		"forge:shears",
+		"experienceobelisk:cognitive_shears"
+	)
+
+	event.add(
+		"byg:shears",
+		"experienceobelisk:cognitive_shears"
+	)
 
 	//MARK:| Slice And Dice Tools
 	event.add(

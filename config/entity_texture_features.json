@@ -42,7 +42,8 @@
     "entity.mythicmounts.ridinglizard": false,
     "entity.mythicmounts.netherbat": false,
     "entity.mythicmounts.geckotoalizard": false,
-    "entity.mythicmounts.dragon": false  },
+    "entity.mythicmounts.dragon": false
+  },
   "entityEmissiveBrightOverrides": {},
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}

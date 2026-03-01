@@ -58,10 +58,6 @@
   "enigmaticgraves": {
     "grave": true
   },
-  "strawgolem": {
-    "strawgolem_enabled": true,
-    "strawgolem": true
-  },
   "delightful": {
     "crop_progress": true
   },
@@ -78,6 +74,9 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "functionalstorage": {
+    "armory": true
   },
   "ae2": {
     "part_icon": true,
