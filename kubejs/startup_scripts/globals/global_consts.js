@@ -462,9 +462,6 @@ global.disabled_items = [
 	"ends_delight:dragon_egg_shell_knife",
 	"ends_delight:end_stone_knife",
 	"ends_delight:purpur_knife",
-	"enigmaticgraves:grave_finder",
-	"environmental:cherries",
-	"environmental:cherry_crate",
 	"extradisks:256k_storage_block",
 	"extradisks:1024k_storage_block",
 	"extradisks:4096k_storage_block",
@@ -1082,4 +1079,5 @@ global.hidden_items = [
 	"kubejs:snow_moon",
 	"kubejs:worm_moon",
 	"kubejs:black_moon",
+	"enigmaticgraves:grave_finder",
 ];
