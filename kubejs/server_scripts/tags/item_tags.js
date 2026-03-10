@@ -204,9 +204,14 @@ ServerEvents.tags("item", (event) => {
 		addToTag(tagsNeeded, wood);
 		addToTag(tagsNeeded, strippedLog);
 		addToTag(tagsNeeded, strippedWood);
-	}
-
-	event.add(
+  }
+  const azaleas = ['colorfulazaleas:orange_azalea_sapling', 'colorfulazaleas:yellow_azalea_sapling', 'colorfulazaleas:red_azalea_sapling', 'colorfulazaleas:blue_azalea_sapling', 'colorfulazaleas:pink_azalea_sapling', 'colorfulazaleas:purple_azalea_sapling', 'colorfulazaleas:white_azalea_sapling']
+  const saplingTags = ['quark:seed_pouch_holdable', 'caupona:fuel_woods', 'hexerei:herbs', 'minecraft:saplings', 'another_furniture:planter_box_placeables', 'environmental:muddy_pig_decorations', 'byg:all/saplings', 'alexsmobs:elephant_foodstuffs', 'supplementaries:flower_box_plantable', 'villagersplus:small_plantable_blocks']
+  for (const azalea of azaleas) {
+    addToTag(saplingTags, azalea)
+  }
+	
+  event.add(
 		"minecraft:small_flowers", //
 		"sprout:yellow_lily_of_the_valley"
 	);

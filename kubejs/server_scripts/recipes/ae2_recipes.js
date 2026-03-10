@@ -636,15 +636,13 @@ ServerEvents.recipes((event) => {
 	);
 
 	//Cable Anchor
-	event
-		.shapeless(
-			Item.of("4x ae2:cable_anchor"), //
-			[
-				"#ae2:metal_ingots", //
-				"#forge:tools/knives",
-			]
-		)
-		.keepIngredient("#forge:tools/knives");
+	event.shapeless(
+		Item.of('4x ae2:cable_anchor'),
+		[
+			'#ae2:metal_ingots',
+			'#forge:tools/knives'
+		]
+	).damageIngredient("#forge:tools/knives")
 
 	// Certus Quartz Dust (Crushing)
 	event.recipes.create

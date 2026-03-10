@@ -657,30 +657,38 @@ ServerEvents.recipes((event) => {
 	);
 
 	// Tall Plants Recipes
-	event.shapeless(Item.of("minecraft:tall_grass"), [
-		"2x minecraft:grass", //
-	]);
+	event.shapeless(
+		Item.of('minecraft:tall_grass'),
+		['2x minecraft:grass']
+	)
 
-	event.shapeless(Item.of("environmental:giant_tall_grass"), [
-		"3x minecraft:grass", //
-	]);
+	event.shapeless(
+		Item.of('environmental:giant_tall_grass'),
+		['3x minecraft:grass']
+	)
 
-	event.shapeless(Item.of("byg:tall_prairie_grass"), [
-		"2x byg:prairie_grass", //
-	]);
+	event.shapeless(
+		Item.of('byg:tall_prairie_grass'),
+		['2x byg:prairie_grass']
+	)
 
-	event.shapeless(Item.of("byg:tall_ether_grass"), [
-		"2x byg:ether_grass", //
-	]);
+	event.shapeless(
+		Item.of('byg:tall_ether_grass'),
+		['2x byg:ether_grass']
+	)
 
-	event.shapeless(Item.of("spelunkery:tall_sporophyte"), [
-		"2x spelunkery:sporophyte", //
-	]);
+	event.shapeless(
+		Item.of('spelunkery:tall_sporophyte'),
+		['2x spelunkery:sporophyte']
+	)
 
-	event.shapeless(Item.of("sprout:tall_dead_bush"), [
-		"2x minecraft:dead_bush", //
-	]);
-
+	event.shapeless(
+		Item.of('sprout:tall_dead_bush'),
+		['2x minecraft:dead_bush']
+	)
+  /*
+  // arz note: this was here when I merged, but it appears to be broken anyway. Retaining here in case it's important.
+  	
 	event.shapeless(Item.of("kubejs:mimic_dust"), [
 		"nethersdelight:mimicarnation", //
 	]);
@@ -689,4 +697,13 @@ ServerEvents.recipes((event) => {
 		"kubejs:mimic_dust", //
 		"minecraft:glowstone_dust",
 	]);
-});
+  */
+
+	// fix luphie and cluttered recipes to accept #forge:chests/wooden
+	const counters = ['handcrafted:acacia_counter', 'handcrafted:birch_counter', 'handcrafted:dark_oak_counter', 'handcrafted:jungle_counter', 'handcrafted:mangrove_counter', 'handcrafted:oak_counter', 'handcrafted:spruce_counter', 'handcrafted:crimson_counter', 'handcrafted:warped_counter', 'luphieclutteredmod:luphie_cat_counter_a', 'luphieclutteredmod:luphie_cat_kitchen_counter_b', 'luphieclutteredmod:luphie_sweetheart_counter_a', 'luphieclutteredmod:luphie_sweetheart_counter_b', 'luphieclutteredmod:luphie_white_counter', 'luphieclutteredmod:luphie_pink_counter', 'luphieclutteredmod:luphie_yellow_counter', 'luphieclutteredmod:luphie_light_green_counter', 'luphieclutteredmod:luphie_black_counter']
+	for (const counter of counters) {
+		event.replaceInput({output: counter}, 'minecraft:chest', '#forge:chests/wooden')
+	}
+
+
+})
