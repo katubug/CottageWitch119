@@ -22,19 +22,14 @@ BlockEvents.rightClicked((event) => {
 		testBlock = (b) => {
 			return b.block.id == "ars_nouveau:ritual_brazier";
 		};
-		console.log("ping 1");
-		console.log(testBlock);
 		stop = false;
 	} else if (item.id == "ars_nouveau:ritual_brazier") {
 		/**@param {Internal.BlockState} b */
 		testBlock = (b) => {
 			return Item.of(b.block.id).hasTag("cw:growth_banned");
 		};
-		console.log("ping 2");
-		console.log(testBlock);
 		stop = false;
 	}
-	console.log("ping 3", stop, testBlock);
 	if (stop) return;
 
 	//create area (5 block distance)
