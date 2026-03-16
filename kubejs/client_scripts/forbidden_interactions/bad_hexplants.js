@@ -14,18 +14,19 @@ BlockEvents.rightClicked((event) => {
 	} = event;
 
 	let stop = true;
+	let testBlock;
 
 	//check for banned plants being placed
 	if (item.hasTag("cw:growth_banned")) {
 		/**@param {Internal.BlockState} b */
 		testBlock = (b) => {
-			b.block.id == "ars_nouveau:ritual_brazier";
+			return b.block.id == "ars_nouveau:ritual_brazier";
 		};
 		stop = false;
 	} else if (item.id == "ars_nouveau:ritual_brazier") {
 		/**@param {Internal.BlockState} b */
 		testBlock = (b) => {
-			Item.of(b.block.id).hasTag("cw:growth_banned");
+			return Item.of(b.block.id).hasTag("cw:growth_banned");
 		};
 		stop = false;
 	}
@@ -41,11 +42,11 @@ BlockEvents.rightClicked((event) => {
 
 	if (blocksInArea.anyMatch(testBlock)) {
 		console.log(
-			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
+			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`,
 		);
 		_WarnPlayer(
 			event,
-			"Hexerei plants can cause crashes when near an overgrowth ritual."
+			"Hexerei plants can cause crashes when near an overgrowth ritual.",
 		);
 		spawnPoof(event, pos, 1.5, 2);
 
@@ -73,7 +74,7 @@ BlockEvents.rightClicked((event) => {
 	console.log(
 		`Hexerei plant placed by ${player.username} on ${
 			block[event.facing].down.id
-		}! Preventing placement.`
+		}! Preventing placement.`,
 	);
 	_WarnPlayer(event, "Hexerei plants can cause crashes when placed on rich soil.");
 	spawnPoof(event, pos, 1.5, 2);
@@ -93,17 +94,18 @@ BlockEvents.placed((event) => {
 	} = event;
 
 	let stop = true;
+	let testBlock;
 	//check for banned plants being placed
 	if (block.item.hasTag("cw:growth_banned")) {
 		/**@param {Internal.BlockState} b */
 		testBlock = (b) => {
-			b.block.id == "ars_nouveau:ritual_brazier";
+			return b.block.id == "ars_nouveau:ritual_brazier";
 		};
 		stop = false;
 	} else if (block.item.id == "ars_nouveau:ritual_brazier") {
 		/**@param {Internal.BlockState} b */
 		testBlock = (b) => {
-			Item.of(b.block.id).hasTag("cw:growth_banned");
+			return Item.of(b.block.id).hasTag("cw:growth_banned");
 		};
 		stop = false;
 	}
@@ -118,11 +120,11 @@ BlockEvents.placed((event) => {
 	//iterate through blockstates
 	if (blocksInArea.anyMatch(testBlock)) {
 		console.log(
-			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
+			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`,
 		);
 		_WarnPlayer(
 			event,
-			"Hexerei plants can cause crashes when near an overgrowth ritual."
+			"Hexerei plants can cause crashes when near an overgrowth ritual.",
 		);
 		spawnPoof(event, pos, 1.5, 2);
 
@@ -147,7 +149,7 @@ BlockEvents.placed((event) => {
 	)
 		return;
 	console.log(
-		`Hexerei plant placed by ${player.username} on ${block.down.id}! Preventing placement.`
+		`Hexerei plant placed by ${player.username} on ${block.down.id}! Preventing placement.`,
 	);
 	_WarnPlayer(event, "Hexerei plants can cause crashes when placed on rich soil.");
 	spawnPoof(event, pos, 0.5, 2);
@@ -173,6 +175,6 @@ function spawnPoof(event, pos, y_offset, y_stretch) {
 		y_stretch / 4,
 		0.2,
 		20,
-		0.02
+		0.02,
 	);
 }

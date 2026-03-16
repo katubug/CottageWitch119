@@ -59,7 +59,7 @@ ItemEvents.tooltip((e) => {
 			"twilightdelight:thorn_rose_tea",
 			"twilightdelight:torchberry_juice",
 		],
-		"Drinks!"
+		"Drinks!",
 	);
 
 	//MARK: Raw Foods
@@ -297,7 +297,7 @@ ItemEvents.tooltip((e) => {
 			"spelunkery:crimini",
 			"spelunkery:portabella",
 		],
-		"Raw Food/Ingredients"
+		"Raw Food/Ingredients",
 	);
 
 	//MARK: Cooked Foods
@@ -772,7 +772,7 @@ ItemEvents.tooltip((e) => {
 			"extendedmushrooms:mushroom_bread",
 			"spelunkery:grilled_portabella",
 		],
-		"Cooked Food/Meals"
+		"Cooked Food/Meals",
 	);
 
 	//MARK: Light Sources
@@ -1063,7 +1063,7 @@ ItemEvents.tooltip((e) => {
 			"byg:cryptic_campfire",
 			"byg:cryptic_lantern",
 		],
-		"Lamp/Lantern/Light/Glows"
+		"Lamp/Lantern/Light/Glows",
 	);
 
 	//MARK: Flowers
@@ -1320,7 +1320,7 @@ ItemEvents.tooltip((e) => {
 			"missingwilds:sweetspire",
 			"byg:blue_rose_bush",
 		],
-		"Flowers!"
+		"Flowers!",
 	);
 
 	//MARK: flower and sapling
@@ -1391,7 +1391,7 @@ ItemEvents.tooltip((e) => {
 			"byg:purple_bulbis_oddity",
 			"byg:oddity_bush",
 		],
-		"Plants!"
+		"Plants!",
 	);
 
 	//MARK: Mushrooms
@@ -1416,7 +1416,7 @@ ItemEvents.tooltip((e) => {
 			"colorfulazaleas:orange_drooping_azalea_leaves",
 			"colorfulazaleas:drooping_azalea_leaves",
 		],
-		"Hanging Plants!"
+		"Hanging Plants!",
 	);
 	//MARK: Lily pads
 	e.add(
@@ -1427,7 +1427,7 @@ ItemEvents.tooltip((e) => {
 			"swampier_swamps:small_lily_pad",
 			"environmental:large_lily_pad",
 		],
-		"Lily pads!"
+		"Lily pads!",
 	);
 
 	//MARK: Plant Carpets
@@ -1459,7 +1459,7 @@ ItemEvents.tooltip((e) => {
 			"quark:blue_blossom_leaf_carpet",
 			"quark:pink_blossom_leaf_carpet",
 		],
-		"Plant Carpets!"
+		"Plant Carpets!",
 	);
 
 	//MARK: Job Blocks
@@ -1521,7 +1521,7 @@ ItemEvents.tooltip((e) => {
 			"farmersdelight:skillet",
 			"byg:foragers_table",
 		],
-		"Job Blocks!"
+		"Job Blocks!",
 	);
 
 	//MARK:- Info
@@ -1583,7 +1583,7 @@ ItemEvents.tooltip((e) => {
 
 	addInfo(
 		["alexsmobs:warped_muscle", "alexsmobs:hemolymph_sac"],
-		["Obtain this item from the Nether Dimension Gate."]
+		["Obtain this item from the Nether Dimension Gate."],
 	);
 
 	addInfo("quark:bottled_cloud", [
@@ -1620,7 +1620,7 @@ ItemEvents.tooltip((e) => {
 
 	addInfo(
 		["contact:wrapping_paper", "contact:ender_wrapping_paper"],
-		"Right Click to open GUI"
+		"Right Click to open GUI",
 	);
 
 	e.addAdvanced("minecraft:player_head", (item, advanced, text) => {
@@ -1657,7 +1657,7 @@ ItemEvents.tooltip((e) => {
 	//MARK: Food info
 	const $FoodList = Java.loadClass("com.tarinoita.solsweetpotato.tracking.FoodList");
 	const $FoodInstance = Java.loadClass(
-		"com.tarinoita.solsweetpotato.tracking.FoodInstance"
+		"com.tarinoita.solsweetpotato.tracking.FoodInstance",
 	);
 
 	const FoodList = $FoodList.get(Client.player);
@@ -1685,10 +1685,9 @@ ItemEvents.tooltip((e) => {
 		FoodList.getEatenFoods().forEach((f) => {
 			allDivs.push(div(f, 0));
 		});
-		if (allDivs.length === 0) {
-			let avgDiv = (allDivs.reduce((a, b) => a + b) / allDivs.length).toFixed(1);
-		} else {
-			let avgDiv = 0;
+		let avgDiv = 0;
+		if (allDivs.length > 0) {
+			avgDiv = (allDivs.reduce((a, b) => a + b) / allDivs.length).toFixed(1);
 		}
 
 		// format last eaten message
@@ -1818,7 +1817,7 @@ ItemEvents.tooltip((e) => {
 			"Don't place timed lassos into an inventory!",
 			"The mob will keep trying to escape,",
 			"causing heavy lag.",
-		]
+		],
 	);
 
 	addCaution(/majrusz.*/, [
