@@ -48,7 +48,10 @@ ServerEvents.tags("entity_type", (event) => {
 
 //MARK: Bad trashies
 ServerEvents.tags("block", (event) => {
-	const invBreakCrashers = ["@trashcans", "@itemcollectors"];
+	const invBreakCrashers = [
+		"@trashcans", //
+		"@itemcollectors",
+	];
 
 	event.add("cw:special_break", invBreakCrashers);
 });
