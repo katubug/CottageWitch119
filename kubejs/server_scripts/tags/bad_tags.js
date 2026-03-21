@@ -8,7 +8,7 @@ ServerEvents.tags("item", (event) => {
 		"sophisticatedstorage:basic_to_iron_tier_upgrade",
 		"sophisticatedstorage:basic_to_gold_tier_upgrade",
 		"sophisticatedstorage:basic_to_diamond_tier_upgrade",
-		"sophisticatedstorage:basic_to_netherite_tier_upgrade"
+		"sophisticatedstorage:basic_to_netherite_tier_upgrade",
 	);
 });
 
@@ -18,7 +18,7 @@ ServerEvents.tags("item", (event) => {
 		"cw:growth_banned",
 		//
 		"hexerei:yellow_dock_bush",
-		"hexerei:mugwort_bush"
+		"hexerei:mugwort_bush",
 	);
 });
 
@@ -42,13 +42,16 @@ ServerEvents.tags("entity_type", (event) => {
 		"twilightforest:snow_queen",
 		"twilightforest:plateau_boss",
 		"minecraft:warden",
-		"artifacts:mimic"
+		"artifacts:mimic",
 	);
 });
 
 //MARK: Bad trashies
 ServerEvents.tags("block", (event) => {
-	const invBreakCrashers = ["@trashcans", "@itemcollectors", "@applecrates"];
+	const invBreakCrashers = [
+		"@trashcans", //
+		"@itemcollectors",
+	];
 
 	event.add("cw:special_break", invBreakCrashers);
 });
@@ -65,7 +68,7 @@ ServerEvents.tags("entity_type", (event) => {
 		"quark:glass_item_frame",
 		"quark:dyed_item_frame",
 		"xercapaint:canvas",
-		"artifacts:mimic"
+		"artifacts:mimic",
 	);
 });
 
@@ -77,7 +80,7 @@ ServerEvents.tags("block", (event) => {
 		/refurb.*_kitchen_sink/,
 		/refurb.*_basin/,
 		/refurb.*_bath/,
-		/refurb.*_toilet/
+		/refurb.*_toilet/,
 	);
 });
 
@@ -102,12 +105,12 @@ ServerEvents.tags("item", (event) => {
 		"extradelight:mangrove_knife_block",
 		"extradelight:cinnamon_knife_block",
 		"gateways:gate_pearl",
-		"alexsmobs:hemolymph_blaster"
+		"alexsmobs:hemolymph_blaster",
 	);
 	event.add(
 		"twilightforest:banned_uncrafting_ingredients",
 		"#forge:eyes",
 		"minecraft:nether_star",
-		"minecraft:dragon_egg"
+		"minecraft:dragon_egg",
 	);
 });

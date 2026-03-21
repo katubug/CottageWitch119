@@ -35,8 +35,8 @@ ServerEvents.recipes((event) => {
 
 	//large cogwheel alt
 	let largeAlt = (output, cogInput, plankInput) => {
-		event.shapeless(Item.of(output), [cogInput, plankInput]),
-			event.recipes.create.deploying(output, [cogInput, plankInput]);
+		(event.shapeless(Item.of(output), [cogInput, plankInput]),
+			event.recipes.create.deploying(output, [cogInput, plankInput]));
 	};
 	largeAlt(
 		"createcasing:oak_large_cogwheel",
