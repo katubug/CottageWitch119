@@ -9,11 +9,11 @@ ServerEvents.recipes((event) => {
 		],
 		{
 			A: "minecraft:cracked_stone_bricks",
-		},
+		}
 	);
 	event.stonecutting(
 		"block_variants:cracked_stone_brick_stairs",
-		"minecraft:cracked_stone_bricks",
+		"minecraft:cracked_stone_bricks"
 	);
 
 	// Cracked Stone Brick Slab
@@ -24,11 +24,11 @@ ServerEvents.recipes((event) => {
 		],
 		{
 			A: "minecraft:cracked_stone_bricks",
-		},
+		}
 	);
 	event.stonecutting(
 		"2x block_variants:cracked_stone_brick_slab",
-		"minecraft:cracked_stone_bricks",
+		"minecraft:cracked_stone_bricks"
 	);
 
 	// Cracked Stone Brick Slab
@@ -40,10 +40,10 @@ ServerEvents.recipes((event) => {
 		],
 		{
 			A: "minecraft:cracked_stone_bricks",
-		},
+		}
 	);
 	event.stonecutting(
 		"block_variants:cracked_stone_brick_wall",
-		"minecraft:cracked_stone_bricks",
+		"minecraft:cracked_stone_bricks"
 	);
 });

@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:black_dye",
-		},
+		}
 	);
 
 	// white Sand
@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:white_dye",
-		},
+		}
 	);
 
 	// blue Sand
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:blue_dye",
-		},
+		}
 	);
 
 	// purple Sand
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:purple_dye",
-		},
+		}
 	);
 
 	// pink Sand
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:pink_dye",
-		},
+		}
 	);
 
 	// windswept Sand
@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "spelunkery:rock_salt",
-		},
+		}
 	);
 
 	// end Sand
@@ -103,7 +103,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:ender_pearl",
-		},
+		}
 	);
 
 	// warped_soul Sand
@@ -117,7 +117,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:sand",
 			B: "minecraft:warped_fungus",
-		},
+		}
 	);
 
 	// warped_soul soil
@@ -131,6 +131,6 @@ ServerEvents.recipes((event) => {
 		{
 			A: "#forge:dirt",
 			B: "minecraft:warped_fungus",
-		},
+		}
 	);
 });

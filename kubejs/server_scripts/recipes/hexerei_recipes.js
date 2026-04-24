@@ -19,6 +19,6 @@ ServerEvents.recipes((event) => {
 			A: "hexerei:willow_planks",
 			B: "minecraft:andesite",
 			C: "minecraft:iron_ingot",
-		},
+		}
 	);
 });

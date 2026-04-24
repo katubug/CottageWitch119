@@ -8,31 +8,31 @@
 ServerEvents.tags("item", (event) => {
 	event.removeAllTagsFrom(
 		global.ae2_disabled_items, //
-		global.disabled_items,
+		global.disabled_items
 	);
 	event.add(
 		"cw:unobtainable",
 		global.ae2_disabled_items, //
-		global.disabled_items,
+		global.disabled_items
 	);
 	event.add(
 		"cw:hidden",
-		global.hidden_items, //
+		global.hidden_items //
 	);
 });
 
 ServerEvents.tags("block", (event) => {
 	event.removeAllTagsFrom(
 		global.ae2_disabled_items, //
-		global.disabled_items,
+		global.disabled_items
 	);
 	event.add(
 		"cw:unobtainable",
 		global.ae2_disabled_items, //
-		global.disabled_items,
+		global.disabled_items
 	);
 	event.add(
 		"cw:hidden",
-		global.hidden_items, //
+		global.hidden_items //
 	);
 });

@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
 			{
 				A: "minecraft:leather",
 				B: "minecraft:" + color + "_wool",
-			},
+			}
 		);
 		event.shapeless(Item.of("comforts:sleeping_bag_" + color), [
 			"#comforts:sleeping_bags",

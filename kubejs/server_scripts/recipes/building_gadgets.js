@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
 	event.shaped(
 		Item.of(
 			"buildinggadgets:gadget_building",
-			'{energy:500000.0d,state:{data:{},serializer:"buildinggadgets:dummy_serializer",state:{Name:"minecraft:air"}}}',
+			'{energy:500000.0d,state:{data:{},serializer:"buildinggadgets:dummy_serializer",state:{Name:"minecraft:air"}}}'
 		),
 		[
 			"ABA", //
@@ -17,14 +17,14 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:diamond",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 
 	//Exchanging Gadget
 	event.shaped(
 		Item.of(
 			"buildinggadgets:gadget_exchanging",
-			'{energy:500000.0d,state:{data:{},serializer:"buildinggadgets:dummy_serializer",state:{Name:"minecraft:air"}}}',
+			'{energy:500000.0d,state:{data:{},serializer:"buildinggadgets:dummy_serializer",state:{Name:"minecraft:air"}}}'
 		),
 		[
 			"ABA", //
@@ -36,14 +36,14 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:diamond",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 
 	//Copy Paste Gadget
 	event.shaped(
 		Item.of(
 			"buildinggadgets:gadget_copy_paste",
-			"{energy:500000.0d,mode:0b,template_id:[I;-1758435112,-1217443030,-1679697278,2082124584]}",
+			"{energy:500000.0d,mode:0b,template_id:[I;-1758435112,-1217443030,-1679697278,2082124584]}"
 		),
 		[
 			"ABA", //
@@ -55,14 +55,14 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:emerald",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 
 	//Destruction Gadget
 	event.shaped(
 		Item.of(
 			"buildinggadgets:gadget_destruction",
-			"{energy:1000000.0d,fuzzy:1b,overlay:1b}",
+			"{energy:1000000.0d,fuzzy:1b,overlay:1b}"
 		),
 		[
 			"ABA", //
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:ender_pearl",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 
 	// BG Charging Gadget
@@ -90,7 +90,7 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:coal_block",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 
 	// BG Template Manager
@@ -106,6 +106,6 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:redstone",
 			C: "minecraft:emerald",
 			D: "minecraft:lapis_lazuli",
-		},
+		}
 	);
 });

@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
 			C: "refinedstorage:silicon",
 			D: "refinedstorage:machine_casing",
 			E: "ars_creo:starbuncle_wheel",
-		},
+		}
 	);
 
 	//Cable
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
 			A: "refinedstorage:quartz_enriched_iron",
 			B: "glassential:glass_redstone",
 			C: "minecraft:glowstone_dust",
-		},
+		}
 	);
 
 	// Aetheric Receptor
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
 			D: "refinedstorage:destruction_core",
 			E: "refinedstorage:machine_casing",
 			F: "ars_nouveau:glyph_redstone_signal",
-		},
+		}
 	);
 
 	// Aetheric Messenger
@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
 			D: "refinedstorage:destruction_core",
 			E: "refinedstorage:machine_casing",
 			F: "ars_nouveau:glyph_redstone_signal",
-		},
+		}
 	);
 
 	/// Stone Casing/Storage Housing
@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
 			A: "refinedstorage:quartz_enriched_iron",
 			B: "glassential:glass_redstone",
 			C: "#forge:stone",
-		},
+		}
 	);
 
 	/// Upgrade
@@ -96,7 +96,7 @@ ServerEvents.recipes((event) => {
 			A: "refinedstorage:quartz_enriched_iron",
 			B: "glassential:glass_redstone",
 			C: "refinedstorage:improved_processor",
-		},
+		}
 	);
 
 	/// 1k Storage Glyph / Storage Part
@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "refinedstorage:quartz_enriched_iron",
 			C: "refinedstorage:basic_processor",
-		},
+		}
 	);
 
 	/// 1k Glyphstone / 1k Storage Disk
@@ -126,7 +126,7 @@ ServerEvents.recipes((event) => {
 			B: "glassential:glass_redstone",
 			C: "refinedstorage:1k_storage_part",
 			D: "#forge:stone",
-		},
+		}
 	);
 	/// 4k Glyphstone / 4k Storage Disk
 	event.shaped(
@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
 			B: "glassential:glass_redstone",
 			C: "refinedstorage:4k_storage_part",
 			D: "#forge:stone",
-		},
+		}
 	);
 
 	/// 16k Glyphstone / 16k Storage Disk
@@ -157,7 +157,7 @@ ServerEvents.recipes((event) => {
 			B: "glassential:glass_redstone",
 			C: "refinedstorage:16k_storage_part",
 			D: "#forge:stone",
-		},
+		}
 	);
 
 	/// 64k Glyphstone / 64k Storage Disk
@@ -173,7 +173,7 @@ ServerEvents.recipes((event) => {
 			B: "glassential:glass_redstone",
 			C: "refinedstorage:64k_storage_part",
 			D: "#forge:stone",
-		},
+		}
 	);
 
 	// Aetheric Console / Creative Wireless Grid
@@ -188,7 +188,7 @@ ServerEvents.recipes((event) => {
 			A: "refinedstorage:quartz_enriched_iron",
 			B: "minecraft:ender_pearl",
 			C: "#refinedstorage:grid",
-		},
+		}
 	);
 
 	// Aetheric Crafting Console/Creative Wireless Crafting Grid
@@ -203,7 +203,7 @@ ServerEvents.recipes((event) => {
 			A: "refinedstorage:quartz_enriched_iron",
 			B: "minecraft:ender_pearl",
 			C: "#refinedstorage:crafting_grid",
-		},
+		}
 	);
 
 	// Infinity Range Booster
@@ -217,7 +217,7 @@ ServerEvents.recipes((event) => {
 		{
 			B: "refinedstorage:range_upgrade",
 			C: "minecraft:nether_star",
-		},
+		}
 	);
 
 	// Dimension Card
@@ -234,7 +234,7 @@ ServerEvents.recipes((event) => {
 			C: "rsinfinitybooster:infinity_card",
 			D: "minecraft:dragon_egg",
 			E: "minecraft:netherite_ingot",
-		},
+		}
 	);
 
 	// Illuminite (quartz-enriched iron)
@@ -248,7 +248,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:iron_ingot",
 			B: "minecraft:glowstone_dust",
-		},
+		}
 	);
 
 	// Illuminite Block uncrafting
