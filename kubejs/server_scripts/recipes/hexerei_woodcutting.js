@@ -1,7 +1,6 @@
 ServerEvents.recipes((e) => {
-	
 	// NOTE: this script is no longer just hexerei, it's more wood fixes as well. Some create stripping recipes are still located in wood_fix.js
-	
+
 	const bigPlankList = Ingredient.of("#minecraft:planks").itemIds;
 
 	let getModID = (blockID) => {
@@ -39,39 +38,39 @@ ServerEvents.recipes((e) => {
 	// for door/trapdoor/sign recipes
 	let boardChop = (output, ingredient) => {
 		e.custom({
-			type: 'farmersdelight:cutting',
-			ingredients: [{item: ingredient}],
-			result: [{item: output}],
+			type: "farmersdelight:cutting",
+			ingredients: [{ item: ingredient }],
+			result: [{ item: output }],
 			tool: {
 				type: "farmersdelight:tool_action",
-    			action: "axe_dig"
-			}
+				action: "axe_dig",
+			},
 		}).id(
-			"arzadu:boardchop_" + 
+			"arzadu:boardchop_" +
 				getRecipeBuildID(output) +
 				"_from_" +
 				getRecipeBuildID(ingredient)
 		);
-	}
+	};
 
 	// for stripping recipes
 	let boardStrip = (output, ingredient) => {
 		e.custom({
-			type: 'farmersdelight:cutting',
-			ingredients: [{item: ingredient}],
-			result: [{item: output}, {item: 'farmersdelight:tree_bark'}],
+			type: "farmersdelight:cutting",
+			ingredients: [{ item: ingredient }],
+			result: [{ item: output }, { item: "farmersdelight:tree_bark" }],
 			sound: "minecraft:item.axe.strip",
 			tool: {
-    			type: "farmersdelight:tool_action",
-    			action: "axe_strip"
-			}
+				type: "farmersdelight:tool_action",
+				action: "axe_strip",
+			},
 		}).id(
-			"arzadu:boardstrip_" + 
+			"arzadu:boardstrip_" +
 				getRecipeBuildID(output) +
 				"_from_" +
 				getRecipeBuildID(ingredient)
 		);
-	}
+	};
 
 	const blossom = Ingredient.of(/.*blossom.*/);
 	const ancient = Ingredient.of(/.*ancient.*/);
@@ -182,10 +181,7 @@ ServerEvents.recipes((e) => {
 		}
 
 		// cutting board skips (existing)
-		if (
-			modID == "environmental:" ||
-			modID == "culturaldelights:"
-		) {
+		if (modID == "environmental:" || modID == "culturaldelights:") {
 			boardSkip = true;
 		}
 
@@ -423,12 +419,12 @@ ServerEvents.recipes((e) => {
 				hexCut(pressure_plate, 1, planks, 1);
 			}
 			if (boardSkip == false && verticalGen == false) {
-				boardChop(planks, door)
-				boardChop(planks, sign)
-				boardChop(planks, trapdoor)
+				boardChop(planks, door);
+				boardChop(planks, sign);
+				boardChop(planks, trapdoor);
 				if (logSkip == false && stripSkip == false) {
-					boardStrip(stripped_log, log)
-					boardStrip(stripped_wood, wood)	
+					boardStrip(stripped_log, log);
+					boardStrip(stripped_wood, wood);
 				}
 			}
 			hexCut(door, 1, planks, 2);
@@ -451,12 +447,12 @@ ServerEvents.recipes((e) => {
 			}
 			if (arsmod == true) {
 				for (let i = 0; i < log.length; i++) {
-					boardStrip(stripped_log[i], log[i])
-					boardStrip(stripped_wood[i], wood[i])
-					hexCut(planks, 5, log[i], 1)
-					hexCut(planks, 5, stripped_log[i], 1)
-					hexCut(planks, 5, wood[i], 1)
-					hexCut(planks, 5, stripped_wood[i], 1)
+					boardStrip(stripped_log[i], log[i]);
+					boardStrip(stripped_wood[i], wood[i]);
+					hexCut(planks, 5, log[i], 1);
+					hexCut(planks, 5, stripped_log[i], 1);
+					hexCut(planks, 5, wood[i], 1);
+					hexCut(planks, 5, stripped_wood[i], 1);
 				}
 			}
 		}
@@ -483,16 +479,18 @@ ServerEvents.recipes((e) => {
 	hexCut("extradelight:cinnamon_planks", 5, "extradelight:cinnamon_log", 1);
 	hexCut("extradelight:cinnamon_planks", 5, "extradelight:stripped_cinnamon_log", 1);
 	e.custom({
-			type: 'farmersdelight:cutting',
-			ingredients: [{item: 'extradelight:cinnamon_log'}],
-			result: [{item: 'extradelight:stripped_cinnamon_log'}, {item: 'extradelight:cinnamon_bark'}],
-			sound: "minecraft:item.axe.strip",
-			tool: {
-    			type: "farmersdelight:tool_action",
-    			action: "axe_strip"
-			}
-		}).id("arzadu:boardstrip_cinnamon");
-
+		type: "farmersdelight:cutting",
+		ingredients: [{ item: "extradelight:cinnamon_log" }],
+		result: [
+			{ item: "extradelight:stripped_cinnamon_log" },
+			{ item: "extradelight:cinnamon_bark" },
+		],
+		sound: "minecraft:item.axe.strip",
+		tool: {
+			type: "farmersdelight:tool_action",
+			action: "axe_strip",
+		},
+	}).id("arzadu:boardstrip_cinnamon");
 
 	// embur has sign but no post, archwood has post but no sign, thorn and dark have sign but no post, cinnamon has post but no sign
 	hexCut("byg:embur_sign", 1, "byg:embur_planks", 1);
@@ -700,11 +698,10 @@ ServerEvents.recipes((e) => {
 		hexCut(sign_post, 2, planks, 1);
 		hexCut(sign_post, 1, slab, 1);
 
-		boardChop(planks, door)
-		boardChop(planks, trapdoor)
-		boardStrip(stripped_log, log)
-		boardStrip(stripped_wood, wood)
-
+		boardChop(planks, door);
+		boardChop(planks, trapdoor);
+		boardStrip(stripped_log, log);
+		boardStrip(stripped_wood, wood);
 	};
 	luphieRecipeBuild(pink);
 	luphieRecipeBuild(floweringPink);
