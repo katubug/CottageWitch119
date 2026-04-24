@@ -1910,7 +1910,10 @@
 				"To hide unsightly cables, you can &6craft any block with &b4 Cable Anchors&r to make 4 &bFacades&r. &bFacades&r can be &6applied to any side&r of a &bcable&r, including sides with attachments such as the &bNexus Crafting Aperture&r and will be &ainside the block &owith&r &athe cable&r- not taking up any extra space! "
 				""
 				"Facades &dcan be removed&r once they have been placed on a &bcable block&r by &6shift+right clicking them with a wrench&r."
+				""
+				"{image:cottagewitch:textures/quest_images/facade_recipe.png width:300 height:125 align:1}"
 			]
+			icon: "ae2:fluix_covered_cable"
 			id: "28DB3AEB3FDC5BA3"
 			rewards: [
 				{
@@ -1925,11 +1928,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6BF6ABDC10302B9C"
-				title: "Aesthetics"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6BF6ABDC10302B9C"
+					title: "Aesthetics"
+					type: "checkmark"
+				}
+				{
+					id: "46B537FAC8A27B74"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -18.5d
 		}

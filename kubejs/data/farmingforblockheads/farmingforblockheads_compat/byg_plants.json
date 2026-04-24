@@ -12,6 +12,24 @@
     "customEntries": [
       {
         "output": "byg:oddity_cactus"
+      },
+      {
+        "output": "byg:oddity_bush"
+      },
+      {
+        "output": {
+          "item": "byg:fungal_imparius_filament"
+        }
+      },
+      {
+        "output": {
+          "item": "byg:wailing_vine"
+        }
+      },
+      {
+        "output": {
+          "item": "byg:arisian_bloom_branch"
+        }
       }
     ]
   }

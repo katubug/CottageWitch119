@@ -8,10 +8,11 @@ BlockEvents.placed((event) => {
 		block,
 		server,
 		level,
+		item,
 	} = event;
 
 	// Check for carved pumpy next to haybale
-	if (block != "minecraft:carved_pumpkin") return;
+	if (item != "minecraft:carved_pumpkin") return;
 	if (!IsAdjacentPlaced(event, "minecraft:carved_pumpkin", "minecraft:hay_block", "down"))
 		return;
 
@@ -21,10 +22,12 @@ BlockEvents.placed((event) => {
 
 	// Create pumpkin warden
 	let warden = block.createEntity("byg:pumpkin_warden");
-	warden.setPos(x, y - 1, z);
+	warden.setPos(x, y, z);
 	warden.spawn();
 
 	// Spawn particle and sound
-	level.spawnParticles("heart", true, x, y - 0.5, z, 0.3, 0.6, 0.3, 10, 0);
-	server.runCommandSilent(`playsound artifacts:generic.pop block @a ${x} ${y} ${z} 1`);
+	level.spawnParticles("heart", true, x, y + 0.5, z, 0.3, 0.6, 0.3, 10, 0);
+	server.runCommandSilent(
+		`playsound artifacts:generic.pop block @a ${x} ${y + 1} ${z} 1`
+	);
 });

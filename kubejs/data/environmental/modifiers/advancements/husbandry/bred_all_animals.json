@@ -1,0 +1,118 @@
+{
+  "modifiers": [
+    {
+      "type": "criteria",
+      "config": {
+        "criteria": {
+          "environmental:deer": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:deer"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          },
+          "environmental:duck": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:duck"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          },
+          "environmental:reindeer": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:reindeer"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          },
+          "environmental:slabfish": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:slabfish"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          },
+          "environmental:tapir": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:tapir"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          },
+          "environmental:yak": {
+            "conditions": {
+              "child": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "environmental:yak"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:bred_animals"
+          }
+        },
+        "requirements": [
+          [
+            "environmental:slabfish"
+          ],
+          [
+            "environmental:duck"
+          ],
+          [
+            "environmental:deer"
+          ],
+          [
+            "environmental:reindeer"
+          ],
+          [
+            "environmental:yak"
+          ],
+          [
+            "environmental:tapir"
+          ]
+        ],
+        "should_replace_requirements": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:husbandry/bred_all_animals"
+}
