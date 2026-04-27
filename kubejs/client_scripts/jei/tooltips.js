@@ -1884,4 +1884,6 @@ ItemEvents.tooltip((e) => {
 	]);
 
 	addWarning("@refinedstorage", ["This mod is set to be removed in the 1.18.0 update."]);
+
+	addWarning("tarotcards:tarot_deck", ["Attempting to use the sort keybind within the Tarot Deck will result in item loss"])
 });
