@@ -2,8 +2,10 @@
  * Shulker  boxes can cause inventory loss when upgraded, so the
  * application is prevented and the player warned
  */
-BlockEvents.rightClicked("minecraft:shulker_box", (e) => {
-	if (!e.item.hasTag("cw:shulker_upgrade_banned")) return;
+BlockEvents.rightClicked((event) => {
+	if (event.item.id !="minecraft:shulker_box") return;
+
+	if (!event.item.hasTag("cw:shulker_upgrade_banned")) return;
 	_WarnPlayer(e, "Upgraded shulkers can cause inventory loss.");
 	spawnRunes(e, e.block.pos);
 	e.cancel();

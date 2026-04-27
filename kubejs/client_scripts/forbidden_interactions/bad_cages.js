@@ -1,7 +1,9 @@
 /**
  * Prevents some weird cageable entities like item frames and the like
  */
-ItemEvents.entityInteracted("supplementaries:cage", (event) => {
+ItemEvents.entityInteracted((event) => {
+	if(event.item.id != "supplementaries:cage") return;
+
 	if (!event.target.entityType.tags.anyMatch((tag) => tag.location() == "cw:cage_banned"))
 		return;
 	_WarnPlayer(event, `${event.target.displayName.getString()} cannot be contained.`);
