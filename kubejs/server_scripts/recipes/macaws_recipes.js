@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:aspen_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Baobab Whispering Door
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:baobab_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Blue Enchanted Whispering Door
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:blue_enchanted_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Cherry Whispering Door
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:cherry_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Cika Whispering Door
@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:cika_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Cypress Whispering Door
@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:cypress_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Ebony Whispering Door
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:ebony_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Ether Whispering Door
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:ether_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Fir Whispering Door
@@ -122,7 +122,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:fir_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Green Enchanted Whispering Door
@@ -136,7 +136,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:green_enchanted_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Holly Whispering Door
@@ -150,7 +150,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:holly_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Jacaranda Whispering Door
@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:jacaranda_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Lament Whispering Door
@@ -178,7 +178,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:lament_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Mahogany Whispering Door
@@ -192,7 +192,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:mahogany_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// White Mangrove Whispering Door
@@ -206,7 +206,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:white_mangrove_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Maple Whispering Door
@@ -220,7 +220,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:maple_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Nightshade Whispering Door
@@ -234,7 +234,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:nightshade_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Palm Whispering Door
@@ -248,7 +248,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:palm_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Pine Whispering Door
@@ -262,7 +262,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:pine_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Rainbow Eucalyptus Whispering Door
@@ -276,7 +276,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:rainbow_eucalyptus_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Redwood Whispering Door
@@ -290,7 +290,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:redwood_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Skyris Whispering Door
@@ -304,7 +304,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:skyris_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Willow Whispering Door
@@ -318,7 +318,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:willow_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Witch Hazel Whispering Door
@@ -332,7 +332,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:witch_hazel_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Zelkova Whispering Door
@@ -346,7 +346,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:zelkova_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Bulbis Whispering Door
@@ -360,7 +360,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:bulbis_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Imparius Whispering Door
@@ -374,7 +374,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:imparius_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 
 	// Sythian Whispering Door
@@ -388,6 +388,6 @@ ServerEvents.recipes((event) => {
 		{
 			A: "byg:sythian_planks",
 			B: "mcwdoors:print_whispering",
-		},
+		}
 	);
 });

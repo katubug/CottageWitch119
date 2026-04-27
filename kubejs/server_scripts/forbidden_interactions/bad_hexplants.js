@@ -42,7 +42,7 @@ BlockEvents.rightClicked((event) => {
 
 	if (blocksInArea.anyMatch(testBlock)) {
 		console.log(
-			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`,
+			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
 		);
 		WarnPlayer(event, "Hexerei plants can cause crashes when near an overgrowth ritual.");
 		spawnPoof(event, pos, 1.5, 2);
@@ -71,7 +71,7 @@ BlockEvents.rightClicked((event) => {
 	console.log(
 		`Hexerei plant placed by ${player.username} on ${
 			block[event.facing].down.id
-		}! Preventing placement.`,
+		}! Preventing placement.`
 	);
 	WarnPlayer(event, "Hexerei plants can cause crashes when placed on rich soil.");
 	spawnPoof(event, pos, 1.5, 2);
@@ -117,7 +117,7 @@ BlockEvents.placed((event) => {
 	//iterate through blockstates
 	if (blocksInArea.anyMatch(testBlock)) {
 		console.log(
-			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`,
+			`Hexerei plant/brazier placed nearby by ${player.username}. Preventing placement.`
 		);
 		WarnPlayer(event, "Hexerei plants can cause crashes when near an overgrowth ritual.");
 		spawnPoof(event, pos, 1.5, 2);
@@ -143,7 +143,7 @@ BlockEvents.placed((event) => {
 	)
 		return;
 	console.log(
-		`Hexerei plant placed by ${player.username} on ${block.down.id}! Preventing placement.`,
+		`Hexerei plant placed by ${player.username} on ${block.down.id}! Preventing placement.`
 	);
 	WarnPlayer(event, "Hexerei plants can cause crashes when placed on rich soil.");
 	spawnPoof(event, pos, 0.5, 2);
@@ -169,6 +169,6 @@ function spawnPoof(event, pos, y_offset, y_stretch) {
 		y_stretch / 4,
 		0.2,
 		20,
-		0.02,
+		0.02
 	);
 }

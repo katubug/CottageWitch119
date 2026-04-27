@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
 			B: "quark:paper_lantern_sakura",
 			C: "hexerei:cloth",
 			D: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Mimicube
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
 			C: "nethersdelight:mimicarnation",
 			D: "minecraft:ender_eye",
 			E: "minecraft:slime_block",
-		},
+		}
 	);
 
 	// Sculk
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
 			A: "minecraft:sculk",
 			B: "deeperdarker:reinforced_echo_shard",
 			C: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Nether
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
 			C: "alexsmobs:maggot",
 			D: "minecraft:ender_eye",
 			E: "minecraft:crimson_fungus",
-		},
+		}
 	);
 
 	// Insectoid
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
 			A: "overweight_farming:vegetable_peels",
 			B: "minecraft:honey_bottle",
 			C: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	//Gateway to Eternity Gate Pearl Recipes
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
 			A: "minecraft:crimson_fungus",
 			B: "nethersdelight:hoglin_loin",
 			C: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Hoglin Gate Small
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
 			A: "minecraft:crimson_fungus",
 			B: "minecraft:porkchop",
 			C: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Wraith Gate
@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "quark:soul_bead",
 			B: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Guardian Gate
@@ -137,7 +137,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "minecraft:prismarine_shard",
 			B: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Reptile Gate
@@ -151,7 +151,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "alexsmobs:crocodile_scute",
 			B: "minecraft:ender_eye",
-		},
+		}
 	);
 
 	// Farseer Stuff
@@ -169,6 +169,6 @@ ServerEvents.recipes((event) => {
 			C: "deeperdarker:soul_crystal",
 			D: "alexsmobs:shattered_dimensional_carver",
 			E: "quark:soul_bead",
-		},
+		}
 	);
 });

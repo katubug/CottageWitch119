@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
 		{
 			A: "twilightforest:moonworm",
 			B: "ars_nouveau:void_jar",
-		},
+		}
 	);
 
 	// Mosquito Larva Crafting
@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
 			C: "alexsmobs:farseer_arm",
 			D: "minecraft:dragon_egg",
 			E: "minecraft:obsidian",
-		},
+		}
 	);
 
 	// Tusklin Shoes
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
 			A: "minecraft:iron_nugget",
 			B: "minecraft:iron_ingot",
 			C: "twilightforest:ironwood_ingot",
-		},
+		}
 	);
 
 	// Hemolymph Blaster
@@ -74,6 +74,6 @@ ServerEvents.recipes((event) => {
 			C: "alexsmobs:blood_sprayer",
 			D: "alexsmobs:mosquito_proboscis",
 			E: "alexsmobs:warped_muscle",
-		},
+		}
 	);
 });
