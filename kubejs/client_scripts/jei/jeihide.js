@@ -15,3 +15,9 @@ JEIEvents.addItems((event) => {
 		event.add(item.withNBT({ woodType: "oak" }).strongNBT());
 	});
 });
+
+// Add newly craftable framed blocks
+JEIEvents.addItems((event) => {
+	event.add(Item.of('framedblocks:framed_double_slab'));
+	event.add(Item.of('framedblocks:framed_double_panel'));
+});
