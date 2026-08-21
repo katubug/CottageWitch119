@@ -1820,11 +1820,6 @@ ItemEvents.tooltip((e) => {
 		]
 	);
 
-	addCaution(/majrusz.*/, [
-		"Do not combine these in your inventory!",
-		"It can cause crashes!",
-	]);
-
 	addCaution("sophisticatedbackpacks:backpack", [
 		"These are not craftable in this modpack.",
 		color.light_purple + "Find them in End City loot!",
@@ -1882,8 +1877,6 @@ ItemEvents.tooltip((e) => {
 		"Kegs are crashy.",
 		"Certain keg recipes are now made in a cooking pot.",
 	]);
-
-	addWarning("@refinedstorage", ["This mod is set to be removed in the 1.18.0 update."]);
 
 	addWarning("tarotcards:tarot_deck", ["Attempting to use the sort keybind within the Tarot Deck will result in item loss"])
 });
