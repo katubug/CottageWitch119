@@ -744,27 +744,6 @@ ServerEvents.tags("item", (event) => {
 		"magnumtorch:amethyst_magnum_torch"
 	);
 
-	//MARK:| Refined Controllers
-	event.add(
-		"forge:creative_controller",
-		"refinedstorage:white_creative_controller",
-		"refinedstorage:orange_creative_controller",
-		"refinedstorage:magenta_creative_controller",
-		"refinedstorage:creative_controller",
-		"refinedstorage:yellow_creative_controller",
-		"refinedstorage:lime_creative_controller",
-		"refinedstorage:pink_creative_controller",
-		"refinedstorage:gray_creative_controller",
-		"refinedstorage:light_gray_creative_controller",
-		"refinedstorage:cyan_creative_controller",
-		"refinedstorage:purple_creative_controller",
-		"refinedstorage:blue_creative_controller",
-		"refinedstorage:brown_creative_controller",
-		"refinedstorage:green_creative_controller",
-		"refinedstorage:red_creative_controller",
-		"refinedstorage:black_creative_controller"
-	);
-
 	//MARK:| Wind Chimes
 	event.add(
 		"forge:wind_chimes",
@@ -1166,57 +1145,6 @@ ServerEvents.tags("item", (event) => {
 		"forge:sophb_fluid",
 		"sophisticatedbackpacks:tank_upgrade",
 		"sophisticatedbackpacks:xp_pump_upgrade"
-	);
-
-	// #endregion
-
-	//////////////////////////////////////////////////
-
-	// #region MAJ ACS
-	// Anything majrusz accessories
-
-	//MARK:| Accessories
-	event.add(
-		"forge:maj_acs",
-		"majruszsaccessories:certificate_of_taming",
-		"majruszsaccessories:idol_of_fertility",
-		"majruszsaccessories:lucky_rock",
-		"majruszsaccessories:tamed_potato_beetle",
-		"majruszsaccessories:angler_trophy",
-		"majruszsaccessories:discount_voucher",
-		"majruszsaccessories:dream_catcher",
-		"majruszsaccessories:metal_lure",
-		"majruszsaccessories:miner_guide",
-		"majruszsaccessories:adventurer_kit",
-		"majruszsaccessories:tool_scraps",
-		"majruszsaccessories:unbreakable_fishing_line",
-		"majruszsaccessories:adventurer_rune",
-		"majruszsaccessories:angler_rune",
-		"majruszsaccessories:household_rune",
-		"majruszsaccessories:miner_rune",
-		"majruszsaccessories:nature_rune",
-		"majruszsaccessories:soul_of_minecraft",
-		"majruszsaccessories:secret_ingredient",
-		"majruszsaccessories:swimmer_guide"
-	);
-
-	//MARK:|  Boosters
-	event.add(
-		"forge:maj_boosters",
-		"majruszsaccessories:onyx",
-		"majruszsaccessories:dice",
-		"majruszsaccessories:owl_feather",
-		"majruszsaccessories:golden_dice",
-		"majruszsaccessories:golden_horseshoe",
-		"majruszsaccessories:horseshoe"
-	);
-
-	//MARK:|  Cards
-	event.add(
-		"forge:maj_cards",
-		"majruszsaccessories:gambling_card",
-		"majruszsaccessories:removal_card",
-		"majruszsaccessories:reverse_card"
 	);
 
 	// #endregion
