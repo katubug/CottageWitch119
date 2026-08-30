@@ -59,7 +59,7 @@ ItemEvents.tooltip((e) => {
 			"twilightdelight:thorn_rose_tea",
 			"twilightdelight:torchberry_juice",
 		],
-		"Drinks!"
+		"Drinks!",
 	);
 
 	//MARK: Raw Foods
@@ -297,7 +297,7 @@ ItemEvents.tooltip((e) => {
 			"spelunkery:crimini",
 			"spelunkery:portabella",
 		],
-		"Raw Food/Ingredients"
+		"Raw Food/Ingredients",
 	);
 
 	//MARK: Cooked Foods
@@ -772,7 +772,7 @@ ItemEvents.tooltip((e) => {
 			"extendedmushrooms:mushroom_bread",
 			"spelunkery:grilled_portabella",
 		],
-		"Cooked Food/Meals"
+		"Cooked Food/Meals",
 	);
 
 	//MARK: Light Sources
@@ -1063,7 +1063,7 @@ ItemEvents.tooltip((e) => {
 			"byg:cryptic_campfire",
 			"byg:cryptic_lantern",
 		],
-		"Lamp/Lantern/Light/Glows"
+		"Lamp/Lantern/Light/Glows",
 	);
 
 	//MARK: Flowers
@@ -1320,7 +1320,7 @@ ItemEvents.tooltip((e) => {
 			"missingwilds:sweetspire",
 			"byg:blue_rose_bush",
 		],
-		"Flowers!"
+		"Flowers!",
 	);
 
 	//MARK: flower and sapling
@@ -1391,7 +1391,7 @@ ItemEvents.tooltip((e) => {
 			"byg:purple_bulbis_oddity",
 			"byg:oddity_bush",
 		],
-		"Plants!"
+		"Plants!",
 	);
 
 	//MARK: Mushrooms
@@ -1416,7 +1416,7 @@ ItemEvents.tooltip((e) => {
 			"colorfulazaleas:orange_drooping_azalea_leaves",
 			"colorfulazaleas:drooping_azalea_leaves",
 		],
-		"Hanging Plants!"
+		"Hanging Plants!",
 	);
 	//MARK: Lily pads
 	e.add(
@@ -1427,7 +1427,7 @@ ItemEvents.tooltip((e) => {
 			"swampier_swamps:small_lily_pad",
 			"environmental:large_lily_pad",
 		],
-		"Lily pads!"
+		"Lily pads!",
 	);
 
 	//MARK: Plant Carpets
@@ -1459,7 +1459,7 @@ ItemEvents.tooltip((e) => {
 			"quark:blue_blossom_leaf_carpet",
 			"quark:pink_blossom_leaf_carpet",
 		],
-		"Plant Carpets!"
+		"Plant Carpets!",
 	);
 
 	//MARK: Job Blocks
@@ -1521,7 +1521,7 @@ ItemEvents.tooltip((e) => {
 			"farmersdelight:skillet",
 			"byg:foragers_table",
 		],
-		"Job Blocks!"
+		"Job Blocks!",
 	);
 
 	//MARK:- Info
@@ -1547,7 +1547,7 @@ ItemEvents.tooltip((e) => {
 					lineNo++;
 				});
 				text.add(lineNo, "");
-				text.add(lineNo + 1, [blue + "-= ⓘ ", aqua + glitch + "Info", blue + " ⓘ =-"]);
+				text.add(lineNo + 1, [blue + "-= ⓘ ", aqua + "Info", blue + " ⓘ =-"]);
 			}
 		});
 	}
@@ -1583,7 +1583,7 @@ ItemEvents.tooltip((e) => {
 
 	addInfo(
 		["alexsmobs:warped_muscle", "alexsmobs:hemolymph_sac"],
-		["Obtain this item from the Nether Dimension Gate."]
+		["Obtain this item from the Nether Dimension Gate."],
 	);
 
 	addInfo("quark:bottled_cloud", [
@@ -1620,7 +1620,7 @@ ItemEvents.tooltip((e) => {
 
 	addInfo(
 		["contact:wrapping_paper", "contact:ender_wrapping_paper"],
-		"Right Click to open GUI"
+		["Right Click to open GUI."],
 	);
 
 	e.addAdvanced("minecraft:player_head", (item, advanced, text) => {
@@ -1657,7 +1657,7 @@ ItemEvents.tooltip((e) => {
 	//MARK: Food info
 	const $FoodList = Java.loadClass("com.tarinoita.solsweetpotato.tracking.FoodList");
 	const $FoodInstance = Java.loadClass(
-		"com.tarinoita.solsweetpotato.tracking.FoodInstance"
+		"com.tarinoita.solsweetpotato.tracking.FoodInstance",
 	);
 
 	const FoodList = $FoodList.get(Client.player);
@@ -1775,12 +1775,12 @@ ItemEvents.tooltip((e) => {
 	 */
 	function addCaution(itemName, message) {
 		e.addAdvanced(itemName, (item, advanced, text) => {
-			let { gold, yellow, red, glitch } = color;
+			let { gold, yellow, red, white, glitch } = color;
 			if (!e.shift) {
 				text.add(1, [
 					gold + "-= ⚠ ",
 					yellow + "Caution: ",
-					red + "Hold [Shift]",
+					white + "Hold [Shift]",
 					gold + " ⚠ =-",
 				]);
 			} else {
@@ -1794,7 +1794,7 @@ ItemEvents.tooltip((e) => {
 				text.add(lineNo, "");
 				text.add(lineNo + 1, [
 					gold + "-= ⚠ ",
-					yellow + glitch + "Caution",
+					yellow + "Caution",
 					gold + " ⚠ =-",
 				]);
 			}
@@ -1817,7 +1817,7 @@ ItemEvents.tooltip((e) => {
 			"Don't place timed lassos into an inventory!",
 			"The mob will keep trying to escape,",
 			"causing heavy lag.",
-		]
+		],
 	);
 
 	addCaution(/majrusz.*/, [
@@ -1845,19 +1845,30 @@ ItemEvents.tooltip((e) => {
 	 * Surround message with square brackets where each string is a line `["Don't Do This!", "It's Very Bad"]`
 	 */
 	function addWarning(itemName, message) {
-		let { red, gold, bold, reset, dark_red, glitch } = color;
 		e.addAdvanced(itemName, (item, advanced, text) => {
-			text.add(1, [`${gold}--==<|)    ${red}WARNING${reset + gold}    (|>==--`]);
-			text.add(2, "");
-			let lineNo = 3;
-			message.forEach((line) => {
-				text.add(lineNo, [dark_red + line]);
-				lineNo++;
-			});
-			text.add(lineNo, "");
-			text.add(lineNo + 1, [
-				`${gold}--==<|)    ${red + glitch}WARNING${reset + gold}    (|>==--`,
-			]);
+			let { gold, yellow, red, white, glitch } = color;
+			if (!e.shift) {
+				text.add(1, [
+					gold + "--==<|) ⚠ ",
+					red + "WARNING: ",
+					white + "Hold [Shift]",
+					gold + " ⚠ (|>==--",
+				]);
+			} else {
+				text.add(1, [gold + "--==<|) ⚠ ", red + "WARNING", gold + " ⚠ (|>==--"]);
+				text.add(2, "");
+				let lineNo = 3;
+				message.forEach((line) => {
+					text.add(lineNo, [red + line]);
+					lineNo++;
+				});
+				text.add(lineNo, "");
+				text.add(lineNo + 1, [
+					gold + "--==<|) ⚠ ",
+					red + "WARNING",
+					gold + " ⚠ (|>==--",
+				]);
+			}
 		});
 	}
 
@@ -1884,6 +1895,6 @@ ItemEvents.tooltip((e) => {
 	]);
 
 	addWarning("@refinedstorage", ["This mod is set to be removed in the 1.18.0 update."]);
-
-	addWarning("tarotcards:tarot_deck", ["Attempting to use the sort keybind within the Tarot Deck will result in item loss"])
+	
+	addWarning("tarotcards:tarot_deck", ["Attempting to use the sort keybind within the Tarot Deck will result in item loss."])
 });
